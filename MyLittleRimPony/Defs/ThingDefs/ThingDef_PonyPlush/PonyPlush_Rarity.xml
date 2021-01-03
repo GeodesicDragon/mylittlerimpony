@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_Rarity</defName>
+    <label>Rarity</label>
+    <description>Rarity is well known for her beauty, but she is just as well known for making dresses, as well as having a good business sense. Carrying her makes you feel more confident about yourself, as well as give you an urge to mine precious stones.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+      <soundWorking>Recipe_Tailor</soundWorking>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/PonyPlush/Rarity</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>1</Flammability>
+      <EquipDelay>0.1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PawnBeauty>5</PawnBeauty>
+      <MiningSpeed>0.1</MiningSpeed>
+      <TradePriceImprovement>0.05</TradePriceImprovement>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Pony_Plushies</li>
+    </thingCategories>
+    <costList>
+      <Cloth>300</Cloth>
+    </costList>
+    <apparel>
+  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_PinkiePie</defName>
+    <label>Pinkie Pie</label>
+    <description>Pinkie Pie never fails to liven up somepony's day, and yours will be no exception. Carrying her makes you feel more sociable.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+      <soundWorking>Recipe_Tailor</soundWorking>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/PonyPlush/PinkiePie</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>1</Flammability>
+      <EquipDelay>0.1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.1</SocialImpact>
+      <TradePriceImprovement>0.1</TradePriceImprovement>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Pony_Plushies</li>
+    </thingCategories>
+    <costList>
+      <Cloth>300</Cloth>
+    </costList>
+    <apparel>
+  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+</Defs>
