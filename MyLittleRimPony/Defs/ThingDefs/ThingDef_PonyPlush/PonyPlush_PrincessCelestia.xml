@@ -2,9 +2,9 @@
 <Defs>
   <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_Fluttershy</defName>
-    <label>Fluttershy</label>
-    <description>Fluttershy is the kindest pony around, though she's not used to all the attention. Carrying her makes you feel as though you can understand animals much better.</description>
+    <defName>PonyPlush_PrincessCelestia</defName>
+    <label>Princess Celestia</label>
+    <description>As one of the rulers of Equestria, Celestia has been through a lot; recently, though, she has never been happier. Carrying her makes you feel more in control of your emotions.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -18,7 +18,7 @@
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/PonyPlush/Fluttershy</texPath>
+      <texPath>Things/PonyPlush/PrincessCelestia</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -31,8 +31,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <TameAnimalChance>0.1</TameAnimalChance>
-      <TrainAnimalChance>0.1</TrainAnimalChance>
+      <MentalBreakThreshold>-0.2</MentalBreakThreshold>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

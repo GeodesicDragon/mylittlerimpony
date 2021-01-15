@@ -1,3 +1,10 @@
+Version 1.2.3 (January 6th 2021)
+
+* Added Princess Celestia (-20% mental break threshold).
+* Added Princess Luna (+20% rest rate multiplier).
+* Removed animal gather speed and gather yield from Fluttershy; tame chance and training chance have been increased by a further 5% each.
+* Flipped Haywick's image to be more in line with the others.
+
 Version 1.0.1 (January 3rd 2021)
 
 - Initial Release.
