@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_Applejack</defName>
     <label>Applejack</label>
-    <description>Strong and dependable, Applejack will always be there for her friends, though she's more reluctant to ask for help herself. Carrying her makes you feel at one with the earth, and more in tune with nature.</description>
+    <description>Strong and dependable, Applejack will always be there for her friends, though she's more reluctant to ask for help herself.\n\nCarrying her makes you feel at one with the earth, and more in tune with nature.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -23,7 +23,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>200</MarketValue>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.0</Mass>

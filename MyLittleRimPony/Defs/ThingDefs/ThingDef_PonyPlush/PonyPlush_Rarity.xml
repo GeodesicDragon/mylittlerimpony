@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_Rarity</defName>
     <label>Rarity</label>
-    <description>Rarity is well known for her beauty, but she is just as well known for making dresses, as well as having a good business sense. Carrying her makes you feel more confident about yourself, as well as give you an urge to mine precious stones.</description>
+    <description>Rarity is well known for being glamorous, and you just so happen to agree.\n\nCarrying her makes you feel more confident about yourself, as well as give you an urge to mine for gemstones.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -23,7 +23,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>200</MarketValue>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.0</Mass>
@@ -31,9 +31,8 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <PawnBeauty>5</PawnBeauty>
       <MiningSpeed>0.1</MiningSpeed>
-      <TradePriceImprovement>0.05</TradePriceImprovement>
+      <PawnBeauty>10</PawnBeauty>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

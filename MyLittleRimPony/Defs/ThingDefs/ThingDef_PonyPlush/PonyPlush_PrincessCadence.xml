@@ -2,9 +2,9 @@
 <Defs>
   <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_PrincessLuna</defName>
-    <label>Princess Luna</label>
-    <description>As Princess of the night, Luna is responsible for keeping an eye on the dreams of slumbering ponies.\n\nCarrying her makes you feel as though she is watching over your dreams as well.</description>
+    <defName>PonyPlush_PrincessCadence</defName>
+    <label>Princess Cadence</label>
+    <description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you as though your heart cannot be broken.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -18,7 +18,7 @@
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/PonyPlush/PrincessLuna</texPath>
+      <texPath>Things/PonyPlush/PrincessCadence</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -31,7 +31,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <RestRateMultiplier>0.2</RestRateMultiplier>
+      <PainShockThreshold>0.2</PainShockThreshold>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

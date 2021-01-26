@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_Fluttershy</defName>
     <label>Fluttershy</label>
-    <description>Fluttershy is the kindest pony around, though she's not used to all the attention. Carrying her makes you feel as though you can understand animals much better.</description>
+    <description>Fluttershy is the kindest pony around, though she's not used to all the attention.\n\nCarrying her makes you feel as though you can understand animals much better.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -23,7 +23,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>200</MarketValue>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.0</Mass>

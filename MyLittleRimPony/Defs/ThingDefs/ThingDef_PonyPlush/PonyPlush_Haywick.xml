@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_Haywick</defName>
     <label>Nurse Haywick</label>
-    <description>You don't recall ever seeing this pony in the show, but that doesn't matter. Carrying her makes you feel like a better medic.</description>
+    <description>You don't recall ever seeing this pony in the show, but that doesn't matter.\n\nCarrying her makes you feel like a better medic.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -23,7 +23,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>200</MarketValue>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.0</Mass>

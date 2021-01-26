@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_RainbowDash</defName>
     <label>Rainbow Dash</label>
-    <description>Rainbow Dash is the very ponification of speed. Carrying her makes you feel fast, as well as more confident in your combat abilities.</description>
+    <description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel fast, as well as more confident in your combat abilities.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -23,7 +23,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>200</MarketValue>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.0</Mass>

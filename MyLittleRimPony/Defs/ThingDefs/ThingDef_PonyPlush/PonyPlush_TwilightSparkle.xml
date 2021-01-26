@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_TwilightSparkle</defName>
     <label>Twilight Sparkle</label>
-    <description>Twilight Sparkle has accomplished so much in her lifetime, but she can't escape being called an egghead. Carrying her makes you feel smarter.</description>
+    <description>Twilight Sparkle has accomplished so much in her lifetime, but she can't escape being called an egghead.\n\nCarrying her makes you feel smarter.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -23,7 +23,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>200</MarketValue>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.0</Mass>
