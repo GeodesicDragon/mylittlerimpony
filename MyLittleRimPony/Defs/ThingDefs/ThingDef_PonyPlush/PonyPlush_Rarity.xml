@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_Rarity</defName>
     <label>Rarity</label>
-    <description>Rarity is well known for being glamorous, and you just so happen to agree.\n\nCarrying her makes you feel more confident about yourself, as well as give you an urge to mine for gemstones.</description>
+    <description>As well as her generosity and beauty, Rarity is also known for running a very successful business.\n\nCarrying her makes you feel as though you can get a better deal.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -12,8 +12,7 @@
         <Crafting>5</Crafting>
       </skillRequirements>
       <recipeUsers>
-        <li>HandTailoringBench</li>
-        <li>ElectricTailoringBench</li>
+        <li>PlushieBench</li>
       </recipeUsers>
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
@@ -31,8 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MiningSpeed>0.1</MiningSpeed>
-      <PawnBeauty>10</PawnBeauty>
+      <TradePriceImprovement>0.2</TradePriceImprovement>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>
@@ -41,7 +39,7 @@
       <Cloth>300</Cloth>
     </costList>
     <apparel>
-  <careIfWornByCorpse>false</careIfWornByCorpse>
+  <careIfWornByCorpse>true</careIfWornByCorpse>
       <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
       <layers>
         <li>Belt</li>

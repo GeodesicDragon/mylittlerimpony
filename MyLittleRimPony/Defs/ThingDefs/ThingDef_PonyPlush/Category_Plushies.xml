@@ -5,6 +5,6 @@
 		<label>plushies</label>
 		<parent>Apparel</parent>
 		<resourceReadoutRoot>false</resourceReadoutRoot>
-		<iconPath>Things/PonyPlush/NurseHaywick</iconPath>
+		<iconPath>Things/EquestrianFlag</iconPath>
 	</ThingCategoryDef>
 </Defs>

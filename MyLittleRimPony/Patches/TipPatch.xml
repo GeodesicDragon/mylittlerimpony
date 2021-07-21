@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/TipSetDef[defName="GameplayTips"]/tips</xpath>
+	    <value>
+	        <li>"Just a test? *Just a test!?* Princess Celestia wants to give me some kind of exam, and you're trying to tell me to calm down because *it's just a test?!*" - Twilight Sparkle</li>
+			<li>"It needs to be about 20% cooler." - Rainbow Dash</li>
+			<li>"You're going to LOVE ME!" - Fluttershy</li>
+			<li>"Eternal chaos come with chocolate rain, you guys! CHOCOLATE! RAIN!" - Pinkie Pie</li>
+			<li>"Of all the things that could have happened, this is the WORST. POSSIBLE. THING." - Rarity</li>
+			<li>"How do ya like them apples?" - Applejack</li>
+			<li>"The fun has been doubled!" - Princess Luna</li>
+			<li>"COME ON, SCHOOL OF MAGIC!" - Princess Celestia</li>
+	    </value>
+	</Operation>
+</Patch>

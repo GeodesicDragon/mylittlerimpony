@@ -12,8 +12,7 @@
         <Crafting>5</Crafting>
       </skillRequirements>
       <recipeUsers>
-        <li>HandTailoringBench</li>
-        <li>ElectricTailoringBench</li>
+        <li>PlushieBench</li>
       </recipeUsers>
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
@@ -41,7 +40,7 @@
       <Cloth>300</Cloth>
     </costList>
     <apparel>
-  <careIfWornByCorpse>false</careIfWornByCorpse>
+  <careIfWornByCorpse>true</careIfWornByCorpse>
       <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
       <layers>
         <li>Belt</li>

@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_Haywick</defName>
     <label>Nurse Haywick</label>
-    <description>You don't recall ever seeing this pony in the show, but that doesn't matter.\n\nCarrying her makes you feel like a better medic.</description>
+    <description>You don't recall ever seeing this pony in the show, but it doesn't matter because you like her mane.\n\nCarrying her makes you feel like a better medic.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -12,8 +12,7 @@
         <Crafting>5</Crafting>
       </skillRequirements>
       <recipeUsers>
-        <li>HandTailoringBench</li>
-        <li>ElectricTailoringBench</li>
+        <li>PlushieBench</li>
       </recipeUsers>
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
@@ -40,7 +39,7 @@
       <Cloth>300</Cloth>
     </costList>
     <apparel>
-  <careIfWornByCorpse>false</careIfWornByCorpse>
+  <careIfWornByCorpse>true</careIfWornByCorpse>
       <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
       <layers>
         <li>Belt</li>

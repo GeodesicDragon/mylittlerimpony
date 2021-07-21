@@ -2,9 +2,9 @@
 <Defs>
   <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_PrincessCelestia</defName>
-    <label>Princess Celestia</label>
-    <description>As one of the rulers of Equestria, Celestia has been through a lot; recently, though, she has never been happier.\n\nCarrying her makes you feel more in control of your emotions.</description>
+    <defName>PonyPlush_BigMacintosh</defName>
+    <label>Big Macintosh</label>
+    <description>What he lacks in words, he makes up for in strength.\n\nCarrying him makes you feel stronger.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -17,7 +17,7 @@
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/PonyPlush/PrincessCelestia</texPath>
+      <texPath>Things/PonyPlush/BigMacintosh</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+      <CarryingCapacity>25</CarryingCapacity>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

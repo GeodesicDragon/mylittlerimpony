@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>MLRP_WifeThrower</defName>
+    <label>wife thrower</label>
+    <description>"Anypony who says 'YEET!' will be thrown next." - Shining Armour</description>
+    <graphicData>
+      <texPath>Things/ShiningArmourThrowing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_BeatFire</soundInteract>
+    <costList>
+	  <PonyPlush_PrincessCadence>1</PonyPlush_PrincessCadence>
+      <WoodLog>100</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LovePrincess</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>20</range>
+        <soundCast>Interact_BeatFire</soundCast>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>body</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+         <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>horn</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+         <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>LovePrincess</defName>
+    <label>Cadence</label>
+    <graphicData>
+      <texPath>Things/PonyPlush/PrincessCadence</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>
+      <armorPenetrationBase>0.10</armorPenetrationBase>
+      <speed>26</speed>
+    </projectile>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="OrbitalUtilityBase">
+    <defName>MLRP_OFC_Weapon</defName>
+    <label>Orbital Friendship Cannon</label>
+    <description>"I will defeat you with the power of friendship... and high-explosive ordinance." - Twilight Sparkle</description>
+    <graphicData>
+      <texPath>Things/EquestrianFlag</texPath>
+      <drawSize>(0.5,0.5)</drawSize>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+      </wornGraphicData>
+    </apparel>
+    <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Bombardment</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>5.2</warmupTime>
+        <ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>MLRP_OFC_Aim</soundAiming>
+        <soundCast>MLRP_OFC_Fire</soundCast>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
+</Defs>
