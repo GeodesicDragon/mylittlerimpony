@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="MLRP_PlayerFactionBase">
+	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+	  <li>(255, 192, 203)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef ParentName="MLRP_PlayerFactionBase">
+    <defName>MLRP_BronyFaction</defName>
+	<label>Brony Community</label>
+    <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.\n\nMostly pacifist.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist</basicMemberKind>
+    <pawnSingular>brony</pawnSingular>
+    <pawnsPlural>bronies</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+		  <li>Offworld</li>
+		  <li>Outlander</li>
+          <li>Outsider</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Things/EquestrianFlag</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+  </FactionDef>
+
+</Defs>

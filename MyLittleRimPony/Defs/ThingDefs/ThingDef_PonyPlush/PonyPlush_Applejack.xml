@@ -30,8 +30,8 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <PlantWorkSpeed>0.1</PlantWorkSpeed>
-      <PlantHarvestYield>0.1</PlantHarvestYield>
+      <PlantWorkSpeed>0.15</PlantWorkSpeed>
+      <PlantHarvestYield>0.15</PlantHarvestYield>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>
@@ -41,6 +41,7 @@
     </costList>
     <apparel>
   <careIfWornByCorpse>true</careIfWornByCorpse>
+  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
       <layers>
         <li>Belt</li>

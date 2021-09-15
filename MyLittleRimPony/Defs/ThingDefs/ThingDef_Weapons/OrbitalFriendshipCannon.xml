@@ -20,7 +20,7 @@
       <li>
         <verbClass>Verb_Bombardment</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <warmupTime>5.2</warmupTime>
+        <warmupTime>6.6</warmupTime>
         <ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <range>44.9</range>

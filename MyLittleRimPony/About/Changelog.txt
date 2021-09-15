@@ -1,3 +1,30 @@
+Version 1.12.38 (September 14th 2021)
+
+* Added Discord (+25% global work speed).
+* Added 'Brony' trait.
+	* Incapable of violence.
+	* +6 to Social skill.
+	* Quite a rare trait to find.
+	* Does not suffer a mood penalty from being insulted.
+	* Doesn't think any less of pawns who are disfigured.
+	* Doesn't think any less of pawns who are physically unsightly or physically hideous.
+	* Doesn't think any less of pawns with an annoying voice.
+	* Doesn't think any less of pawns with creepy breathing.	
+	* Doesn't think any less of pawns who insult them.
+	* Can still go on insulting sprees if their mood is low enough.
+* Added 'Brony Community' scenario.
+	* Start with three people, chosen from eight.
+	* All starting pawns have the 'Brony' trait.
+	* Start with Gun Turret research already completed.
+	* Start with 500 silver, 15 components, 3 cloth bedrolls, 60 packaged survival meals, 4 steel mini turrets, 500 steel, 500 wood, 3 plasteel flak helmets and 3 flak vests.
+		* AUTHOR'S NOTE: Since your starting pawns are all pacifists, it only seems fair to give them armour.
+* Plushies no longer count as clothing for nudist pawns.
+* Replaced one of the sounds used by the secret item with something less horrible (though even that depends on your personal tastes).
+* Reduced tend speed granted by Nurse Haywick to 15% (was 20).
+* Nurse Haywick now increases tend quality by 15% on top of the tend speed bonus.
+* Applejack now increases plant work speed and yield by 15% (was 10).
+* Fluttershy now increases animal tame and train chances by 15% (was 10).
+
 Version 1.9.29 (July 11th 2021)
 
 * Mod is now compatible with the RimWorld 1.3 patch.
@@ -62,4 +89,4 @@ Version 1.2.3 (January 6th 2021)
 
 Version 1.0.1 (January 3rd 2021)
 
-- Initial Release.
+* Initial Release.

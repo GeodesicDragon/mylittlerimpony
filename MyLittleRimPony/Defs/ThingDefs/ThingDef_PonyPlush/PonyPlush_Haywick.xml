@@ -30,7 +30,8 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MedicalTendSpeed>0.2</MedicalTendSpeed>
+      <MedicalTendSpeed>0.15</MedicalTendSpeed>
+	  <MedicalTendQualityOffset>0.15</MedicalTendQualityOffset>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>
@@ -40,6 +41,7 @@
     </costList>
     <apparel>
   <careIfWornByCorpse>true</careIfWornByCorpse>
+  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
       <layers>
         <li>Belt</li>

@@ -2,9 +2,9 @@
 <Defs>
   <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_PinkiePie</defName>
-    <label>Pinkie Pie</label>
-    <description>Pinkie Pie never fails to liven up somepony's day, and yours will be no exception.\n\nCarrying her makes you feel more talkative.</description>
+    <defName>PonyPlush_Discord</defName>
+    <label>Discord</label>
+    <description>The Lord of Chaos may be reformed, but that doesn't mean he can't have any fun.\n\nCarrying him makes you feel as though you are being pushed to your absolute limit.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -17,7 +17,7 @@
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/PonyPlush/PinkiePie</texPath>
+      <texPath>Things/PonyPlush/Discord</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -29,9 +29,6 @@
       <Flammability>1</Flammability>
       <EquipDelay>0.1</EquipDelay>
     </statBases>
-    <equippedStatOffsets>
-      <SocialImpact>0.2</SocialImpact>
-    </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>
     </thingCategories>
@@ -50,5 +47,9 @@
       </bodyPartGroups>
     <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+    </equippedStatOffsets>
   </ThingDef>
+  
 </Defs>

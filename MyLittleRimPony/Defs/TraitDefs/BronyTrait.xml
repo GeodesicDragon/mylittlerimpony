@@ -1,0 +1,28 @@
+<Defs>
+	<TraitDef>
+		<defName>MLRP_BronyTrait</defName>
+		<commonality>0.1</commonality>
+		<disabledWorkTags>Violent</disabledWorkTags>
+		<degreeDatas>
+			<li>
+				<label>brony</label>
+				<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, but {PAWN_pronoun} is against the idea of using violence.\n\n{PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.</description>
+				<skillGains>
+					<li>
+						<key>Social</key>
+						<value>6</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Abrasive</li>
+			<li>Bloodlust</li>
+			<li>Brawler</li>
+			<li>Cannibal</li>
+			<li>DislikesMen</li>
+			<li>DislikesWomen</li>
+			<li>Psychopath</li>
+		</conflictingTraits>
+	</TraitDef>
+</Defs>
