@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
   <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_RainbowDash</defName>
-    <label>Rainbow Dash</label>
-    <description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel fast, as well as more confident in your combat abilities.</description>
+    <defName>PonyPlush_IzzyMoonbow</defName>
+    <label>Izzy Moonbow</label>
+    <description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.</description>
     <techLevel>Industrial</techLevel>
-	<soundInteract>BronyScenario_StartSound</soundInteract>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <skillRequirements>
@@ -18,7 +18,7 @@
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/PonyPlush/RainbowDash</texPath>
+      <texPath>Things/PonyPlush/IzzyMoonbow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -30,11 +30,6 @@
       <Flammability>1</Flammability>
       <EquipDelay>0.1</EquipDelay>
     </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>0.5</MoveSpeed>
-      <MeleeHitChance>5</MeleeHitChance>
-      <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
-    </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>
     </thingCategories>
@@ -53,5 +48,42 @@
       </bodyPartGroups>
     <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>MLRP_IzzyPlush</hediff>
+        <part>Waist</part>
+      </li>
+    </comps>
   </ThingDef>
+  
+	<HediffDef>
+		<defName>MLRP_IzzyPlush</defName>
+		<label>Izzy Moonbow plush</label>
+		<description>You feel happier, as well as more appreciate of others.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<opinionOfOthersFactor>0.1</opinionOfOthersFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped" />
+		</comps>
+	<isBad>false</isBad>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>MLRP_IzzyPlush</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MLRP_IzzyPlush</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Izzy Moonbow plush</label>
+        <description>Izzy's smile is infectious.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
 </Defs>

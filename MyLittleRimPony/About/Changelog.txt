@@ -1,3 +1,20 @@
+Version 1.14.46 (October 3rd 2021)
+
+* Added Izzy Moonbow (+10 to mood and opinions of others boosted by 10%).
+* Added a weaponised version of the Elements of Harmony, called the Rainbow Laser, which - as the name implies - fires rainbows at your enemies.
+	* Requires 10 Crafting to make using 1 plush Element, 100 plasteel, 3 advanced components and 50 gold.
+	* Must research 'Rainbow Laser' first, which itself requires precision rifling, a techprint (obtainable from imperial and outlander factions), a hi-tech research bench and a multi-analyser.
+	* Can only be made at the plushie bench.
+	* Please let me know how it handles; I fear I might have made it a bit too overpowered.
+* Rainbow Dash now properly increases melee hit chance by 5% (was 0.5).
+* Rainbow Dash now properly increases shooting accuracy by 5% (was 0.5).
+* Fixed the Elements of Harmony providing incorrect bonuses (such as 10% plant yield instead of the 15% I updated it to on the AJ plush).
+* The secret item - okay, fine, the Orbital Friendship Cannon - can now be rearmed by using 100 gold. You still can't make it yourself, though.
+* Increased the volume of the sound played when aiming the Orbital Friendship Cannon.
+* Decreased the volume of the sound played when firing the Orbital Friendship Cannon.
+* Decreased the volume of the sound played when starting the 'Brony Community' scenario.
+* Added flak jackets and flak pants to the starting items for the 'Brony Community' scenario.
+
 Version 1.12.38 (September 14th 2021)
 
 * Added Discord (+25% global work speed).

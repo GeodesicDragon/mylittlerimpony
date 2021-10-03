@@ -102,6 +102,18 @@
           <thingDef>Apparel_FlakVest</thingDef>
           <count>3</count>
         </li>
+		
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakJacket</thingDef>
+          <count>3</count>
+        </li>
+		
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakPants</thingDef>
+          <count>3</count>
+        </li>
 
         <!-- Game start dialog -->
 		

@@ -4,7 +4,7 @@
 <ThingDef ParentName="OrbitalUtilityBase">
     <defName>MLRP_OFC_Weapon</defName>
     <label>Orbital Friendship Cannon</label>
-    <description>"I will defeat you with the power of friendship... and high-explosive ordinance." - Twilight Sparkle</description>
+    <description>Defeat your enemies with the power of friendship, by which I mean 'high-explosive ordinance.'</description>
     <graphicData>
       <texPath>Things/EquestrianFlag</texPath>
       <drawSize>(0.5,0.5)</drawSize>
@@ -36,9 +36,12 @@
     <comps>
       <li Class="CompProperties_Reloadable">
         <maxCharges>1</maxCharges>
-        <destroyOnEmpty>true</destroyOnEmpty>
+        <ammoDef>Gold</ammoDef>
+        <ammoCountToRefill>100</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
         <hotKey>Misc4</hotKey>
-        <chargeNoun>charge</chargeNoun>
+        <chargeNoun>friendship charge</chargeNoun>
         <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
       </li>
     </comps>

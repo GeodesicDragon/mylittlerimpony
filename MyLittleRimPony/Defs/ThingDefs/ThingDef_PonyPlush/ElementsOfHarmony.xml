@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>MLRP_ElementsOfHarmony</defName>
     <label>Elements of Harmony</label>
-    <description>The Elements of Harmony are exceptionally powerful, though this version doesn't let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
+    <description>It is a well-known fact that the Elements of Harmony are exceptionally powerful; this version, however, is the one that WON'T let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -30,16 +30,16 @@
       <EquipDelay>0.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <PlantWorkSpeed>0.1</PlantWorkSpeed>
-      <PlantHarvestYield>0.1</PlantHarvestYield>
-      <TameAnimalChance>0.1</TameAnimalChance>
-      <TrainAnimalChance>0.1</TrainAnimalChance>
+      <PlantWorkSpeed>0.15</PlantWorkSpeed>
+      <PlantHarvestYield>0.15</PlantHarvestYield>
+      <TameAnimalChance>0.15</TameAnimalChance>
+      <TrainAnimalChance>0.15</TrainAnimalChance>
       <SocialImpact>0.2</SocialImpact>
       <MoveSpeed>0.5</MoveSpeed>
-      <MeleeHitChance>0.5</MeleeHitChance>
-      <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
-      <TradePriceImprovement>0.2</TradePriceImprovement>
-      <ResearchSpeed>0.2</ResearchSpeed>
+      <MeleeHitChance>5</MeleeHitChance>
+      <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+	  <TradePriceImprovement>0.2</TradePriceImprovement>
+	  <ResearchSpeed>0.2</ResearchSpeed>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

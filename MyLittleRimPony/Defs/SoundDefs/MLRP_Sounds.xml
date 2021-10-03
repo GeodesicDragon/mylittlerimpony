@@ -13,8 +13,8 @@
 					</li>
 				</grains>      
 			<volumeRange>
-				<min>100</min>        
-				<max>100</max>
+				<min>25</min>        
+				<max>25</max>
 			</volumeRange>
 		</li>
 	</subSounds>
@@ -33,8 +33,8 @@
 					</li>
 				</grains>      
 			<volumeRange>
-				<min>25</min>        
-				<max>25</max>
+				<min>10</min>        
+				<max>20</max>
 			</volumeRange>
 		</li>
 	</subSounds>
@@ -60,11 +60,39 @@
 				<max>1</max>
 			</pitchRange>
 			<volumeRange>
-				<min>30</min>        
-				<max>30</max>
+				<min>50</min>        
+				<max>50</max>
 			</volumeRange>
 		</li>
 	</subSounds>
-</SoundDef>  
+</SoundDef>
+
+<SoundDef>
+	<!--Sound acquired from https://elements.envato.com/laser-shot-5-29H6P3L-->
+	<defName>MLRP_EOH_Fire</defName>
+	<sustain>false</sustain>
+	<eventNames />
+	<maxSimultaneous>1</maxSimultaneous>
+	<priorityMode>PrioritizeNearest</priorityMode>  
+	<subSounds>
+		<li>
+			<onCamera>False</onCamera>  
+			<tempoAffectedByGameSpeed>false</tempoAffectedByGameSpeed>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>WeaponisedEOH_Fire</clipPath>
+					</li>
+				</grains>      
+			<pitchRange>
+				<min>1</min>        
+				<max>1</max>
+			</pitchRange>
+			<volumeRange>
+				<min>50</min>        
+				<max>75</max>
+			</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
   
 </Defs>
