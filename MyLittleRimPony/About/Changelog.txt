@@ -1,3 +1,16 @@
+Version 1.16.51 (December 11th 2021)
+
+* Added Cheerilee (+50% to global learning factor).
+* Added plushie trader.
+	* Quite rare, but can be requested from the comms console.
+	* Sent by tribal, outlander and imperial factions.
+	* Buys and sells both cloth and plushies, with a small chance to also have a Rainbow Laser available.
+* Fixed 'Could not resolve cross-reference: No Verse.SoundDef named BronyScenario_StartSound found to give to Verse.ThingDef PonyPlush_RainbowDash (using undefined sound instead)' error.
+* Removed techprint requirement for researching the rainbow laser.
+* Reduced research cost of the rainbow laser to 5000 (was 6000).
+* The wife thrower should no longer appear as a potential relic.
+* The rainbow laser should no longer appear as a potential relic.
+
 Version 1.14.46 (October 3rd 2021)
 
 * Added Izzy Moonbow (+10 to mood and opinions of others boosted by 10%).

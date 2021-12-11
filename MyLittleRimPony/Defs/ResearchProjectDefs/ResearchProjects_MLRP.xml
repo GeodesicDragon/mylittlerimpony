@@ -2,19 +2,19 @@
 <Defs>
 
   <ResearchProjectDef Abstract="True" Name="MLRP_WeaponisedEOH">
-    <baseCost>6000</baseCost>
+    <baseCost>5000</baseCost>
     <techLevel>Industrial</techLevel>
 	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 	<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
-    <techprintCount>1</techprintCount>
+    <!--<techprintCount>1</techprintCount>
     <techprintCommonality>0.5</techprintCommonality>
     <techprintMarketValue>3000</techprintMarketValue>
     <heldByFactionCategoryTags>
 		<li>Outlander</li>
 		<li>Empire</li>
-	</heldByFactionCategoryTags>
+	</heldByFactionCategoryTags>-->
   </ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="MLRP_WeaponisedEOH">

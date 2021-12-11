@@ -14,6 +14,7 @@
 	  <PonyPlush_PrincessCadence>1</PonyPlush_PrincessCadence>
       <WoodLog>100</WoodLog>
     </costList>
+	<relicChance>0</relicChance>
     <statBases>
       <WorkToMake>7000</WorkToMake>
       <Mass>1</Mass>

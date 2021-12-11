@@ -66,6 +66,7 @@
     <uiIconScale>1</uiIconScale>
     <soundInteract>Standard_Pickup</soundInteract>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+	<relicChance>0</relicChance>
     <statBases>
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>900</WorkToMake>

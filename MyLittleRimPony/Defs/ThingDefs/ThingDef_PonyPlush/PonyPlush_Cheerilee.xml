@@ -2,9 +2,9 @@
 <Defs>
   <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_RainbowDash</defName>
-    <label>Rainbow Dash</label>
-    <description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel fast, as well as more confident in your combat abilities.</description>
+    <defName>PonyPlush_Cheerilee</defName>
+    <label>Cheerilee</label>
+    <description>Cheerilee loves to teach; rumours that she also loves Big Macintosh have neither been confirmed nor denied.\n\nCarrying her makes you feel as though you can learn faster.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -17,7 +17,7 @@
       <soundWorking>Recipe_Tailor</soundWorking>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/PonyPlush/RainbowDash</texPath>
+      <texPath>Things/PonyPlush/Cheerilee</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -30,9 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0.5</MoveSpeed>
-      <MeleeHitChance>5</MeleeHitChance>
-      <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+      <GlobalLearningFactor>0.50</GlobalLearningFactor>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>
