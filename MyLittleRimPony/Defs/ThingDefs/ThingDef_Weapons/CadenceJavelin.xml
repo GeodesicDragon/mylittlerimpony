@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="BaseWeaponNeolithic">
+<ThingDef ParentName="MLRP_MakeableWeapon"><!--ParentName="BaseWeaponNeolithic">-->
     <defName>MLRP_WifeThrower</defName>
     <label>wife thrower</label>
     <description>"Anypony who says 'YEET!' will be thrown next." - Shining Armour</description>

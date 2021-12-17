@@ -76,7 +76,7 @@
 	<priorityMode>PrioritizeNearest</priorityMode>  
 	<subSounds>
 		<li>
-			<onCamera>False</onCamera>  
+			<onCamera>True</onCamera>  
 			<tempoAffectedByGameSpeed>false</tempoAffectedByGameSpeed>
 				<grains>
 					<li Class="AudioGrain_Clip">

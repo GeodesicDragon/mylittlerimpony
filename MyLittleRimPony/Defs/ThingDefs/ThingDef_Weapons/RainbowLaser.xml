@@ -1,6 +1,6 @@
 <Defs>
 
-<!--BASES-->
+
 
 <ThingDef Name="BaseProjectileHarmony" Abstract="True">
     <category>Projectile</category>
@@ -15,7 +15,7 @@
     </graphicData>
   </ThingDef>
   
-  <ThingDef Name="BaseMLRPMakeableGun" ParentName="BaseGunWithQuality" Abstract="True">
+<!--BASES  <ThingDef Name="BaseMLRPMakeableGun" ParentName="BaseGunWithQuality" Abstract="True">
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -33,7 +33,7 @@
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
-  </ThingDef>
+  </ThingDef>-->
   
 <!--PROJECTILE-->
   
@@ -54,7 +54,7 @@
   
 <!--WEAPON-->
 
-    <ThingDef ParentName="BaseHumanMakeableMLRPGun">
+    <ThingDef ParentName="MLRP_MakeableWeapon">
     <defName>MLRP_ElementsOfHarmonyWeaponised</defName>
     <label>Rainbow Laser</label>
     <description>This version of the Elements of Harmony tends to put more emphasis on the 'harm' part.</description>

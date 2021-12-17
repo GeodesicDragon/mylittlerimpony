@@ -1,3 +1,19 @@
+Version 1.17.57 (December 17th 2021)
+
+* Added the Tennis Ball Launcher.
+	* It's basically a smoke launcher, except it looks like Izzy and the smoke bombs are tennis balls.
+	* Requires 75 steel, 4 components, an Izzy plush and 3 crafting to make at the plushie bench.
+	* Thanks to Chaosi and Swirly Fungus from the UKBP Discord for giving me the idea (possibly by accident).
+* The wife thrower is now made at the plushie bench.
+* Brony Community scenario: You should now start with the same level of technology as a crashlanded playthrough (in other words, you shouldn't need to research how to cut stones or build proper beds).
+* Brony Community scenario: Your starting bronies should now be wearing all cloth apparel.
+* Brony Community scenario: The Empire is no longer permanently hostile.
+* Fixed 'Config error in MLRP_EOH_Fire: Sounds with non-on-camera subsounds should use MapOnly context.' error.
+* Fixed 'Config error in MLRP_BronyFaction: raidLootValueFromPointsCurve must be defined' error.
+
+You can now download an expansion for this mod that adds items related to the Ideology DLC.
+Get it here: https://steamcommunity.com/sharedfiles/filedetails/?id=2684300411
+
 Version 1.16.51 (December 11th 2021)
 
 * Added Cheerilee (+50% to global learning factor).

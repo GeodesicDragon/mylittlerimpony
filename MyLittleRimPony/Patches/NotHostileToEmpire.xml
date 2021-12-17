@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>MLRP_BronyFaction</li>
+		</value>
+	</Operation>
+	
+</Patch>
