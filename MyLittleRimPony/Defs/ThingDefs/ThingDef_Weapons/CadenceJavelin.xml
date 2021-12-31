@@ -6,7 +6,7 @@
     <label>wife thrower</label>
     <description>"Anypony who says 'YEET!' will be thrown next." - Shining Armour</description>
     <graphicData>
-      <texPath>Things/ShiningArmourThrowing</texPath>
+      <texPath>Things/Weapons/ShiningArmourThrowing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_BeatFire</soundInteract>

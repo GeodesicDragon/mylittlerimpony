@@ -1,0 +1,41 @@
+|----------------------------------|
+|      WHAT DOES THIS MOD DO?      |
+|----------------------------------|
+
+1. Adds plush versions of a variety of ponies, each of which can be carried in the utility slot to confer bonuses depending on which pony it is. It also adds my OC, because I *did* make the mod after all. :P
+2. Adds the Elements of Harmony, made by combining one of each Mane Six plush with 100 gold. This item confers the bonuses of all Mane Six plushies at once.
+3. Adds a pila-based weapon which hurls Cadences at your enemy. This 'wife thrower' has the same stats as a pila, though it can be thrown a bit quicker; it requires skill 3 Crafting, a Cadence plush and 100 wood to make.
+4. Adds the Orbital Friendship Cannon (OFC), an item only available through quests or traders. It can be rearmed using 100 gold.
+5. All items added by this mod, with the exception of the OFC, are made at a dedicated plushie bench.
+6. Adds the 'Brony' trait, which renders the pawn incapable of violence, but increases their Social skill by 6 and prevents mood loss from being insulted.
+7. Adds the 'Brony Community' scenario, which starts you with three pawns, each of whom has the Brony trait. You start with four ready to install steel mini-turrets, as well as the necessary research to build more.
+8. Adds the Rainbow Laser, a weaponised version of the Elements of Harmony that fires - you guessed it - rainbows.
+9. Adds the Discord Lamp, which is the same as a normal standing lamp, except it looks like Discord. Requires a Discord plush to build, but - since this IS the Lord of Chaos we're talking about - it does not require you to research Electricity first.
+
+Colonists will equip plushies themselves, though you might need to force them to wear the one that actually suits them better.
+
+|-------------------------|
+|      BONUSES GIVEN      |
+|-------------------------|
+
+Applejack: +15% to plant work speed and harvest yield.
+Big Macintosh: +25kg to maximum carry capacity.
+Cheerilee: +50% to global learning factor.
+Discord: +25% global work speed.
+Fluttershy: +15% each to animal tame chance and training chance.
+Izzy Moonbow: +10 to mood and opinions of others boosted by 10%.
+Pinkie Pie: +20% to social impact.
+Nurse Haywick (my OC): +15% each to medical tend speed and quality.
+Rainbow Dash: +50% to movement and +5% to melee hit chance and shooting accuracy.
+Rarity: +20% to trade price improvement.
+Princess Cadence: +20% to pain shock threshold.
+Princess Celestia: -20% to mental break threshold.
+Princess Luna: +50% to rest multiplier (for faster sleep).
+Starlight Glimmer: -50% to psychic sensitivity.
+Twilight Sparkle: +20% research speed.
+
+|------------------------------------|
+|      CAN YOU ADD <CHARACTER>?      |
+|------------------------------------|
+
+If you have any suggestions about what bonus(es) they could give then sure, I'll consider it. Let me know via my Discord server.
