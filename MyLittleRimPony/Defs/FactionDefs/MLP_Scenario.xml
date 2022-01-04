@@ -114,6 +114,12 @@
           <thingDef>Apparel_FlakPants</thingDef>
           <count>3</count>
         </li>
+		
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MLRP_ScrewballGenerator</thingDef>
+          <count>2</count>
+        </li>
 
         <!-- Game start dialog -->
 		

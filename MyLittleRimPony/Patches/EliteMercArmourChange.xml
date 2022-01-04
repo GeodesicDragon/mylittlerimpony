@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<!--Replace the elite mercenary's marine armour with cataphract armour if Royalty is installed.-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary_Elite"]/apparelRequired</xpath>
+			<value>
+			   <apparelRequired>
+					<li>Apparel_ArmorCataphract</li>
+					<li>Apparel_ArmorHelmetCataphract</li>
+					<li>PonyPlush_RainbowDash</li>
+				</apparelRequired>
+			</value>
+	</Operation>
+</Patch>

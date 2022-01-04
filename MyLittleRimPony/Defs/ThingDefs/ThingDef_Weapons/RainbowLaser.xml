@@ -78,7 +78,7 @@
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>IndustrialGunAdvanced</li>
+      <li>Rainbow_Laser</li>
     </weaponTags>
     <costList>
       <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
@@ -91,9 +91,9 @@
         <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
-	<!--<researchPrerequisites>
+	<researchPrerequisites>
       <li>MLRP_WeaponisedElementsResearch</li>
-    </researchPrerequisites>-->
+    </researchPrerequisites>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

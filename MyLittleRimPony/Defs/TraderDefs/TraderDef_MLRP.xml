@@ -28,6 +28,10 @@
 				<thingDef>MLRP_ElementsOfHarmonyWeaponised</thingDef>
 				<countRange>-3~1</countRange>
 			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Izzy_SmokeLauncher</thingDef>
+				<countRange>0~1</countRange>
+			</li>
 		</stockGenerators>
 	</TraderKindDef>
 </Defs>

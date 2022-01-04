@@ -1,0 +1,58 @@
+<Defs>
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_ScrewballGenerator</defName>
+    <label>Screwball</label>
+    <description>A strange power emanates from this pony; there are some who say she was cursed by the Lord of Chaos - something he vehemently denies - but at least this power can be put to use.</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <graphicData>
+      <texPath>Things/Building/Screwball</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <!--<shadowData>
+        <volume>(1.93,1,1.69)</volume>
+        <offset>(-0.03,0,-0.1)</offset>
+      </shadowData>-->
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>false</blockWind>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-5</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <costList>
+      <Cloth>300</Cloth>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-200</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>  

@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>MLRP_NPC_Faction</defName>
+    <label>brony community</label>
+    <categoryTag>Outlander</categoryTag>
+    <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.\n\nThey started out as pacifist, but constant attacks from pirates and tribals have resulted in them abandoning pacifism and hiring mercenaries to do their fighting for them.</description>
+    <pawnSingular>brony</pawnSingular>
+    <pawnsPlural>bronies</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>mayor</leaderTitle>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <factionIconPath>Things/EquestrianFlag</factionIconPath>
+    <factionNameMaker>MLRP_BronyNames</factionNameMaker>
+    <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>
+    <allowedCultures>
+		<li>Corunan</li>
+		<li>Rustican</li>
+	</allowedCultures>
+    <requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+    </requiredMemes>
+    <disallowedMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+      <li>Slavery_Classic</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Prohibited</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Disapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+      <!--<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Abhorrent</li>-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Disapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Prohibited</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Disapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Prohibited</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Disapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Desired</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Research_None</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Research_VerySlow</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Research_Slow</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Ranching_Central</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleNoSell</li>
+    </disallowedPrecepts>
+    <structureMemeWeights>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+    </structureMemeWeights>
+    <permanentEnemyToEveryoneExcept>
+      <li>OutlanderCivil</li>
+      <li>TribeCivil</li>
+      <li>PlayerTribe</li>
+      <li>PlayerColony</li>
+      <li>Ancients</li>
+      <li>MLRP_BronyFaction</li>
+    </permanentEnemyToEveryoneExcept>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+          <li>Outsider</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <apparelStuffFilter>
+      <stuffCategoriesToAllow>
+        <li>Metallic</li>
+        <li>Fabric</li>
+      </stuffCategoriesToAllow>
+    </apparelStuffFilter>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <settlementTexturePath>Things/EquestrianFlag</settlementTexturePath>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <fixedLeaderKinds>
+      <li>Brony_Leader</li>
+    </fixedLeaderKinds>
+    <baseTraderKinds>
+      <li>MLRP_BronyBaseTrader</li>
+    </baseTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>MLRP_PlushieTrader</li>
+    </caravanTraderKinds>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <raidLootMaker>MLRP_BronyLoot</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(500, 100)</li>
+        <li>(1000, 150)</li>
+        <li>(2000, 250)</li>
+        <li>(2001, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Brony_Trader>1</Brony_Trader>
+        </traders>
+        <carriers>
+          <Horse>2</Horse>
+        </carriers>
+        <guards>
+          <Brony_Villager>2</Brony_Villager>
+          <Brony_Mercenary>4</Brony_Mercenary>
+          <Brony_Mercenary_Melee>2</Brony_Mercenary_Melee>
+          <Brony_Mercenary_Elite>1</Brony_Mercenary_Elite>
+        </guards>
+      </li>
+      <li>
+        
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Brony_Villager>1</Brony_Villager>
+          <Brony_Mercenary>10</Brony_Mercenary>
+          <Brony_Mercenary_Melee>5</Brony_Mercenary_Melee>
+          <Brony_Mercenary_Elite>2.5</Brony_Mercenary_Elite>
+        </options>
+      </li>
+      <li>
+        
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+		  <Brony_Villager>1</Brony_Villager>
+          <Brony_Mercenary>20</Brony_Mercenary>
+          <Brony_Mercenary_Melee>10</Brony_Mercenary_Melee>
+          <Brony_Mercenary_Elite>5</Brony_Mercenary_Elite>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Brony_Villager>8</Brony_Villager>
+          <Brony_Mercenary>15</Brony_Mercenary>
+          <Brony_Mercenary_Melee>7.5</Brony_Mercenary_Melee>
+          <Brony_Mercenary_Elite>5</Brony_Mercenary_Elite>
+		</options>
+      </li>
+    </pawnGroupMakers>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>70</configurationListOrderPriority>
+  </FactionDef>
+
+  <ThingSetMakerDef>
+    <defName>MLRP_BronyLoot</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+			<li>Cloth</li>
+			<li>Steel</li>
+			<li>MedicineIndustrial</li>
+            <li>MealFine_Veg</li>
+            <li>MealLavish_Veg</li>
+            <li>MLRP_OFC_Weapon</li>
+          </thingDefs>
+		  <categories>
+			<li>Pony_Plushies</li>
+		  </categories>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+  
+  <!--Name Rules-->
+
+  <RulePackDef>
+    <defName>MLRP_BronyNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->New Equestria</li>
+        <li>r_name->New Lunar Republic</li>
+        <li>r_name->New Solar Republic</li>
+        <li>r_name->New Crystal Empire</li>
+        <li>r_name->Cult of Harmony</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MLRP_BronySettlementNames</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name->Appleloosa</li>
+		<li>r_name->Applewood</li>
+		<li>r_name->Baltimare</li>
+		<li>r_name->Bitsburgh</li>
+		<li>r_name->Bridleway</li>
+		<li>r_name->Bronclyn</li>
+		<li>r_name->Canterlot</li>
+		<li>r_name->Carneighie Hall</li>
+		<li>r_name->Chicoltgo</li>
+		<li>r_name->Cloudsdale</li>
+		<li>r_name->Coltifornia</li>
+        <li>r_name->Everfree Forest</li>
+		<li>r_name->Fillydelphia</li>
+		<li>r_name->Hoofington</li>
+		<li>r_name->Hooflyn</li>
+		<li>r_name->Horsolulu</li>
+		<li>r_name->Las Pegasus</li>
+		<li>r_name->Madisoat Square Garden</li>
+		<li>r_name->Manehattan</li>
+		<li>r_name->Maretania</li>
+		<li>r_name->Maretropolis</li>
+		<li>r_name->Mustangia</li>
+		<li>r_name->Neigh York</li>
+		<li>r_name->Neigh Mexicolt</li>
+        <li>r_name->Peaks of Peril</li>
+		<li>r_name->Ponyville</li>
+		<li>r_name->Saddle Arabia</li>
+		<li>r_name->San Franciscolt</li>
+		<li>r_name->Seaddle</li>
+		<li>r_name->Trotland</li>
+		<li>r_name->Trottingham</li>
+		<li>r_name->Whinny World</li>
+		<li>r_name->Whinnyapolis</li>
+        <li>r_name->Whitetail Woods</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

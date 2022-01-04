@@ -1,3 +1,57 @@
+Version 1.25.66 (January 4th 2022)
+
+* Added NPC brony faction.
+	* Can be added to the map before starting a new colony.
+	* Employs mercenaries for defense (or attack if you end up as hostile with them).
+		* Villager: They have very poor fighting skill, but are good at other things; they will not resist being arrested and have little resistance and will. They are usually armed with a wife thrower and equipped with a flak vest.
+		* Standard mercenary: Equipped with recon armour and uses assault rifles or advanced industrial level guns.
+		* Melee mercenary: Equipped with plate armour and uses decent/advanced medieval melee weapons, axes or longswords.
+		* Elite mercenary: Equipped with marine armour - though this is patched to cataphract if Royalty is installed - and uses heavy weapons, single use weapons, sniper rifles, spacer level guns or even the Rainbow Laser. Has exceptional fighting skill and a 30% chance to have implants of some kind.
+		* Villagers will have a Big Macintosh plush, while mercenaries will use Rainbow Dash. Mercenaries can also have good medical skills on top of their combat abilities, making them good soldiers to recruit for your own colony.
+	* Hostile to rough outlander, pirate and fierce/savage tribal factions.
+		* Made friendly towards the following modded factions via patches:
+			* Militaires Sans Frontiers (MSF)
+			* Elite Crew
+			* RimCraft factions
+			* These patches are only applied if the appropriate mod exists; let me know if you'd like other modded factions added to the 'friendly' list.
+	* Uses MLP themed names for factions and settlements; feel free to submit more via Discord.
+	* Settlements have a range of stock.
+		* Cloth and gold are abundant.
+		* Random plushies can be found at varying prices.
+		* Does not sell drugs or beer.
+		* Will never buy or sell slaves.
+		* Always has at least 1-3 wife throwers and tennis ball launchers and one Rainbow Laser in stock.
+		* Small chance to stock an Orbital Friendship Cannon.
+		* Also sells Screwballs, with at least 1 available on every restock.
+		* Does not sell meat; only stocks vegetarian meals.
+	* Probably needs to be tweaked to hell and back to balance things out; let me know via Discord.
+	* Thanks to Aelanna, Princess of Evil and UdderlyEvelyn from the official RimWorld Discord server for helping with XML.
+* Added Screwball (generates 200W of power).
+	* Will never break down.
+	* Ideal for powering deep mining drills.
+	* Requires 300 cloth and 2 components to build.
+	* Requires that you research Electricity first.
+* Added Sweetie Bot, a turret that shoots rainbow lasers.
+	* Accurate at medium to long range; fires a burst every three seconds.
+	* Requires that you research the Rainbow Laser first.
+	* 60% chance to not explode when damaged, though the explosion is quite large if she does (6 tiles).
+	* Requires 200W of power, 300 cloth, 2 components, 2 advanced components, 50 plasteel and 15+ Construction skill to build.
+	* Requires steel to refresh after firing.
+	* Sweetie Bot is an OC and has been used in this mod without permission; she can be removed if the genuine owner requests it via my Discord server.
+	* Thanks to Chaosi and Zephyr Moon from the UKBP Discord for giving me the idea to add her.
+* Added Apple Bloom (+25% to immunity gain speed).
+* Added Scootaloo (+25% to injury healing speed).
+* Added the Cutie Mark Crusaders.
+	* Made by combining Apple Bloom, Sweetie Belle and Scootaloo.
+	* Grants the bonuses of all three Crusaders.
+	* Market value of 900 silver.
+* Sweetie Belle no longer causes a mood debuff.
+* Brony Community scenario: You now start with two Screwballs to help power your turrets while you get your colony organised.
+* Brony Community scenario: Now uses the faction and settlement naming rules introduced with the NPC faction.
+* The plushie trader now has a chance of stocking a tennis ball launcher.
+* Weapons added by this mod should no longer be biocodable.
+* Increased market value of the Elements of Harmony to 2000 silver (was 1500).
+
 Version 1.19.60 (December 31st 2021)
 
 * Added Sweetie Belle (+20 to cooking speed, -5% chance of poisoning meals and -3 mood).

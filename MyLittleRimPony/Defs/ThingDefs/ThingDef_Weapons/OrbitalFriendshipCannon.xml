@@ -9,6 +9,7 @@
       <texPath>Things/EquestrianFlag</texPath>
       <drawSize>(0.5,0.5)</drawSize>
     </graphicData>
+	<tradeability>Buyable</tradeability>
     <apparel>
       <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
       <wornGraphicData>

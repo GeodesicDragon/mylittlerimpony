@@ -4,7 +4,8 @@
   <FactionDef Abstract="True" Name="MLRP_PlayerFactionBase">
 	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
-	  <li>(255, 192, 203)</li>
+	  <!--<li>(255, 192, 203)</li>-->
+	  <li>(0.5, 0.5, 0.5)</li>
     </colorSpectrum>
     <raidLootValueFromPointsCurve>
       <points>
@@ -37,8 +38,8 @@
     </backstoryFilters>
     <factionIconPath>Things/EquestrianFlag</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <factionNameMaker>MLRP_BronyNames</factionNameMaker>
+    <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>
     <geneticVariance>1</geneticVariance>
 	<startingResearchTags>
       <li>ClassicStart</li>

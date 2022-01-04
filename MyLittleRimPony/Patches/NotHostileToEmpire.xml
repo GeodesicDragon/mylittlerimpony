@@ -6,6 +6,14 @@
 		<xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
 		<value>
 			<li>MLRP_BronyFaction</li>
+			<li>MLRP_NPC_Faction</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>Empire</li>
 		</value>
 	</Operation>
 	
