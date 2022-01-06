@@ -20,7 +20,7 @@
 	</subSounds>
 </SoundDef>
 
-<SoundDef>
+<!--<SoundDef>
 	<defName>BronyScenario_Start</defName>  
 	<eventNames />  
 	<maxSimultaneous>1</maxSimultaneous>  
@@ -38,7 +38,7 @@
 			</volumeRange>
 		</li>
 	</subSounds>
-</SoundDef>
+</SoundDef>-->
 
 <SoundDef>
 	<defName>MLRP_OFC_Aim</defName>

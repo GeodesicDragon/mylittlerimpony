@@ -18,7 +18,11 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <comps>
-      <li Class="CompProperties_Forbiddable" />
+		<li Class="CompProperties_Forbiddable" />
+		<li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>MLRP_PonyPlushEquipped</hediff>
+        <part>Waist</part>
+      </li>
     </comps>
-  </ThingDef>
+  </ThingDef>  
 </Defs>

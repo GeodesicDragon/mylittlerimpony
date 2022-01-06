@@ -1,28 +1,84 @@
 <Defs>
-	<TraitDef>
-		<defName>MLRP_BronyTrait</defName>
-		<commonality>0.1</commonality>
-		<disabledWorkTags>Violent</disabledWorkTags>
-		<degreeDatas>
-			<li>
-				<label>brony</label>
-				<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, but {PAWN_pronoun} is against the idea of using violence.\n\n{PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.</description>
-				<skillGains>
-					<li>
-						<key>Social</key>
-						<value>6</value>
-					</li>
-				</skillGains>
-			</li>
-		</degreeDatas>
-		<conflictingTraits>
-			<li>Abrasive</li>
-			<li>Bloodlust</li>
-			<li>Brawler</li>
-			<li>Cannibal</li>
-			<li>DislikesMen</li>
-			<li>DislikesWomen</li>
-			<li>Psychopath</li>
-		</conflictingTraits>
-	</TraitDef>
+
+<TraitDef>
+	<defName>MLRP_BronyTrait</defName>
+	<commonality>0.1</commonality>
+	<disabledWorkTags>Violent</disabledWorkTags>
+	<degreeDatas>
+		<li>
+			<label>brony</label>
+			<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, but {PAWN_pronoun} is against the idea of using violence.\n\n{PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies.</description>
+			<skillGains>
+				<li>
+					<key>Social</key>
+					<value>6</value>
+				</li>
+			</skillGains>
+		<disallowedMentalStates>
+			<li>Berserk</li>
+			<li>Binging_DrugExtreme</li>
+			<li>Binging_DrugMajor</li>
+			<li>InsultingSpree</li>
+			<li>MurderousRage</li>
+			<li>SadisticRage</li>
+			<li>Slaughterer</li>
+			<li>TargetedInsultingSpree</li>
+		</disallowedMentalStates>
+		</li>
+	</degreeDatas>
+	<conflictingTraits>
+		<li>Abrasive</li>
+		<li>Bloodlust</li>
+		<li>Brawler</li>
+		<li>Cannibal</li>
+		<li>DislikesMen</li>
+		<li>DislikesWomen</li>
+		<li>Psychopath</li>
+		<li>MLRP_AntiBronyTrait</li>
+	</conflictingTraits>
+</TraitDef>
+	
+<TraitDef>
+	<defName>MLRP_AntiBronyTrait</defName>
+	<commonality>0.2</commonality>
+	<degreeDatas>
+		<li>
+			<label>anti brony</label>
+			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony; as a result, {PAWN_pronoun} tends to dislike anyone who does.\n\n{PAWN_pronoun} also hates the idea of using pony plushies, and will not be happy if forced to use one.</description>
+		</li>
+	</degreeDatas>
+	<conflictingTraits>
+		<li>MLRP_BronyTrait</li>
+	</conflictingTraits>
+</TraitDef>
+  
+  <ThoughtDef>
+    <defName>AntiBronyVsBrony</defName>
+    <thoughtClass>MyLittleRimPony.Thought_AntiBronyVsBrony</thoughtClass>
+    <workerClass>MyLittleRimPony.ThoughtWorker_AntiBronyVsBrony</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>stupid brony</label>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>BronyLikesBrony</defName>
+    <thoughtClass>MyLittleRimPony.Thought_BronyLikesBrony</thoughtClass>
+    <workerClass>MyLittleRimPony.ThoughtWorker_BronyLikesBrony</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>fellow brony</label>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
 </Defs>

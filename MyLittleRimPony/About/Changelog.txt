@@ -1,3 +1,44 @@
+Version 1.28.92 (January 6th 2022)
+
+* Added Anti-brony trait.
+	* -50 opinion of bronies. (Thanks again to Aelanna for both helping with the C# needed to make this work, and for being so damn patient.)
+	* -20 to mood if forced to carry a plushie.
+	* This trait is more common to find than the brony trait.
+* Added: Bronies now have a +25 opinion of other bronies. Let the magic of friendship grow!	
+* Added: Pawns with the brony trait now receive +10 to mood as long as they have a plushie equipped.
+	* Stacks with the bonus granted by the Izzy Moonblow plush for +20 total.
+* Pawns with the brony trait should no longer suffer the following mental breaks:
+	* Berserk
+	* Drug binge (extreme)
+	* Drug binge (major)
+	* Insulting spree
+	* Murderous rage
+	* Sadistic rage
+	* Slaughterer
+	* Targeted insulting spree
+* NPC Faction: Villagers no longer have a chance to spawn with implants or bionics.
+* NPC Faction: Now sends exotic goods trader caravans.
+* NPC Faction: Increased the number of people in trade caravans.
+* NPC Faction: Reduced the number of villagers and increased the number of mercenaries defending settlements.
+* NPC Faction: Mercenaries now have 'brony' in their names, to better distinguish them from any other mercenaries that might exist in your game.
+* NPC Faction: Reduced combat power of elite mercenaries to 200 (was 320).
+* NPC Faction: Villagers now spawn with awful quality gear.
+* NPC Faction: Elite mercenaries now spawn with excellent quality gear.
+* NPC Faction: Elite mercenaries are now armed solely with the rainbow laser. May Randy have mercy on your souls.
+* NPC Faction: Reduced shooting, melee and medicine skills of all mercenary types.
+	* Regular
+		* 6-12 Shooting (was 6-15)
+		* 3-5 Melee (was 6-15)
+		* 4-8 Medicine (was 4-12)
+	* Melee
+		* 7-12 Melee (was 8-15)
+		* 4-8 Medicine (was 4-12)
+	* Elite
+		* 10-15 Shooting (was 13-20)
+		* 10-15 Melee (was 13-20)
+		* 8-12 Medicine (was 8-16)
+* Removed the start up sound for the Brony Community scenario.
+
 Version 1.25.66 (January 4th 2022)
 
 * Added NPC brony faction.

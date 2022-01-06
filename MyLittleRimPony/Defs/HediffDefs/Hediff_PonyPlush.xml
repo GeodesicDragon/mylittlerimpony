@@ -1,0 +1,21 @@
+<Defs>
+
+	<HediffDef>
+		<defName>MLRP_PonyPlushEquipped</defName>
+		<label>pony plushie</label>
+		<description>A pony plushie is equipped.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+		<stages>
+            <li>
+                <minSeverity>1</minSeverity>
+            </li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped" />
+		</comps>
+	<isBad>false</isBad>
+  </HediffDef>
+  
+</Defs>

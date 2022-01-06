@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MLRP_PonyPlushEquipped</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MLRP_PonyPlushEquipped</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Brony has pony plush</label>
+        <description>I'm so happy to have a plushie of my own.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>MLRP_PonyPlushEquippedAntiBrony</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MLRP_PonyPlushEquipped</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Anti-brony has pony plush</label>
+        <description>Why the hell am I carrying this stupid thing around? Do I look like a child?</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+</Defs>

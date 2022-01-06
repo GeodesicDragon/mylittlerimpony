@@ -113,6 +113,7 @@
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>MLRP_PlushieTrader</li>
+      <li>Caravan_Outlander_Exotic</li>
     </caravanTraderKinds>
     <raidCommonalityFromPointsCurve>
       <points>
@@ -136,17 +137,24 @@
           <Brony_Trader>1</Brony_Trader>
         </traders>
         <carriers>
-          <Horse>2</Horse>
+          <Horse>6</Horse>
         </carriers>
         <guards>
-          <Brony_Villager>2</Brony_Villager>
-          <Brony_Mercenary>4</Brony_Mercenary>
-          <Brony_Mercenary_Melee>2</Brony_Mercenary_Melee>
-          <Brony_Mercenary_Elite>1</Brony_Mercenary_Elite>
+          <Brony_Villager>4</Brony_Villager>
+          <Brony_Mercenary>6</Brony_Mercenary>
+          <Brony_Mercenary_Melee>4</Brony_Mercenary_Melee>
+          <Brony_Mercenary_Elite>2</Brony_Mercenary_Elite>
         </guards>
       </li>
       <li>
-        
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Brony_Villager>10</Brony_Villager>
+          <Brony_Mercenary>5</Brony_Mercenary>
+          <Brony_Mercenary_Melee>3</Brony_Mercenary_Melee>
+        </options>
+      </li>
+      <li>        
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
@@ -170,10 +178,10 @@
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <Brony_Villager>8</Brony_Villager>
-          <Brony_Mercenary>15</Brony_Mercenary>
-          <Brony_Mercenary_Melee>7.5</Brony_Mercenary_Melee>
-          <Brony_Mercenary_Elite>5</Brony_Mercenary_Elite>
+          <Brony_Villager>6</Brony_Villager>
+          <Brony_Mercenary>10</Brony_Mercenary>
+          <Brony_Mercenary_Melee>10</Brony_Mercenary_Melee>
+          <Brony_Mercenary_Elite>10</Brony_Mercenary_Elite>
 		</options>
       </li>
     </pawnGroupMakers>

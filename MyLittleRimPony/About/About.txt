@@ -7,10 +7,15 @@
 3. Adds a pila-based weapon which hurls Cadences at your enemy. This 'wife thrower' has the same stats as a pila, though it can be thrown a bit quicker; it requires skill 3 Crafting, a Cadence plush and 100 wood to make.
 4. Adds the Orbital Friendship Cannon (OFC), an item only available through quests or traders. It can be rearmed using 100 gold.
 5. All items added by this mod, with the exception of the OFC, are made at a dedicated plushie bench.
-6. Adds the 'Brony' trait, which renders the pawn incapable of violence, but increases their Social skill by 6 and prevents mood loss from being insulted.
+6. Adds the 'Brony' trait, which renders the pawn incapable of violence, but increases their Social skill by 6 and prevents mood loss from being insulted. Also prevents them from going on violence-related mental breaks, such as sadistic rage. Gets a +25 opinion bonus to other pawns with the same trait.
 7. Adds the 'Brony Community' scenario, which starts you with three pawns, each of whom has the Brony trait. You start with four ready to install steel mini-turrets, as well as the necessary research to build more.
 8. Adds the Rainbow Laser, a weaponised version of the Elements of Harmony that fires - you guessed it - rainbows.
 9. Adds the Discord Lamp, which is the same as a normal standing lamp, except it looks like Discord. Requires a Discord plush to build, but - since this IS the Lord of Chaos we're talking about - it does not require you to research Electricity first.
+10. Adds the Screwball generator, which is basically a pony that generates 200W of power.
+11. Adds an NPC version of the brony faction, which you can help, hinder or annihilate as you see fit.
+12. Sweetie Bot turret. 'nuff said.
+13. Apple Bloom, Scootaloo and Sweetie Belle can be combined into the Cutie Mark Crusaders to gain all three of their bonuses at once.
+14. Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -50 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie.
 
 Colonists will equip plushies themselves, though you might need to force them to wear the one that actually suits them better.
 
@@ -18,6 +23,7 @@ Colonists will equip plushies themselves, though you might need to force them to
 |      BONUSES GIVEN      |
 |-------------------------|
 
+Apple Bloom: +25 to immunity gain rate.
 Applejack: +15% to plant work speed and harvest yield.
 Big Macintosh: +25kg to maximum carry capacity.
 Cheerilee: +50% to global learning factor.
@@ -31,8 +37,12 @@ Rarity: +20% to trade price improvement.
 Princess Cadence: +20% to pain shock threshold.
 Princess Celestia: -20% to mental break threshold.
 Princess Luna: +50% to rest multiplier (for faster sleep).
+Scootaloo: +25% to injury healing speed.
 Starlight Glimmer: -50% to psychic sensitivity.
+Sweetie Belle: +20 to cooking speed and -5% chance of poisoning a meal.
 Twilight Sparkle: +20% research speed.
+Elements of Harmony: Combines the bonuses granted by each Mane Six plush into one item.
+Cutie Mark Crusaders: Combines the bonuses granted by each CMC plush into one item.
 
 |------------------------------------|
 |      CAN YOU ADD <CHARACTER>?      |
