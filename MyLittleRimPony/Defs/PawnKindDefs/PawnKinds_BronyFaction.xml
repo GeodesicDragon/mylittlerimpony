@@ -3,6 +3,7 @@
 
   <PawnKindDef Name="MLRP_BronyKinds" Abstract="True">
     <race>Human</race>
+    <!--<race>HumanBrony</race>-->
     <defaultFactionType>MLRP_NPC_Faction</defaultFactionType>
     <backstoryFilters>
       <li>
@@ -16,8 +17,6 @@
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <invNutrition>2</invNutrition>
     <invFoodDef>MealFine_Veg</invFoodDef>
-	<!--<itemQuality>Good</itemQuality>-->
-	<!--<itemQuality>Normal</itemQuality>-->
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <maxGenerationAge>55</maxGenerationAge>
     <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
@@ -26,16 +25,18 @@
       <max>0</max>
     </combatEnhancingDrugsCount>
 	<disallowedTraits>
-      <li>Brawler</li>
       <li>Wimp</li>
 	  <li>Pyromaniac</li>
+	  <li>DrugDesire</li>
 	  <li>BodyPurist</li>
 	  <li>MLRP_BronyTrait</li>
     </disallowedTraits>
+    <nameMaker>NamerBrony</nameMaker>
+    <nameMakerFemale>NamerBrony</nameMakerFemale>
   </PawnKindDef>
   
   <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_VillagerBase" Abstract="True">
-	<itemQuality>Awful</itemQuality>
+	<itemQuality>Normal</itemQuality>
 	<skills>
       <li>
         <skill>Shooting</skill>
@@ -47,35 +48,35 @@
       </li>
 	  <li>
         <skill>Animals</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>	
 	  <li>
         <skill>Construction</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>	
 	  <li>
         <skill>Cooking</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>	  
 	  <li>
         <skill>Intellectual</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>
 	  <li>
         <skill>Medicine</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>
 	  <li>
         <skill>Mining</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>
 	  <li>
         <skill>Plants</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>
 	  <li>
         <skill>Social</skill>
-        <range>6~15</range>
+        <range>6~12</range>
       </li>	
     </skills>
   </PawnKindDef>
@@ -273,10 +274,7 @@
       <li>IndustrialBasic</li>
     </apparelTags>
 	<apparelRequired>
-		<!--<li>Apparel_FlakJacket</li>
-		<li>Apparel_FlakPants</li>-->
 		<li>Apparel_FlakVest</li>
-		<!--<li>Apparel_AdvancedHelmet</li>-->
 		<li>PonyPlush_BigMacintosh</li>
     </apparelRequired>
 	<weaponTags>
@@ -301,7 +299,7 @@
     <initialResistanceRange>3~5</initialResistanceRange>
     <label>trader</label>
 	<labelPlural>traders</labelPlural>
-    <combatPower>40</combatPower>
+    <combatPower>45</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>
@@ -310,11 +308,9 @@
       <li>IndustrialBasic</li>
     </apparelTags>
 	<apparelRequired>
-		<!--<li>Apparel_FlakJacket</li>
-		<li>Apparel_FlakPants</li>-->
 		<li>Apparel_FlakVest</li>
-		<!--<li>Apparel_AdvancedHelmet</li>-->
 		<li>PonyPlush_BigMacintosh</li>
+		<li>Apparel_BowlerHat</li>
     </apparelRequired>
 	<weaponTags>
 	  <li>WifeThrower</li>
@@ -329,6 +325,7 @@
     </apparelMoney>
 	<acceptArrestChanceFactor>1</acceptArrestChanceFactor>
 	<isFighter>false</isFighter>
+	<trader>true</trader>
 </PawnKindDef>
 
 <PawnKindDef ParentName="MLRP_BronyKinds_MercBase">

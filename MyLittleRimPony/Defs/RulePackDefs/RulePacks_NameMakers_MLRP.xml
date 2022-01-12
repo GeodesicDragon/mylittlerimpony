@@ -1,0 +1,63 @@
+<Defs>
+
+<!--PAWN NAMES-->
+
+    <RulePackDef>
+        <defName>NamerBrony</defName>
+        <rulePack>
+            <rulesStrings><!--r_name(p=12)-->
+                <li>name->[PonyFirstName] [PonyLastName]</li>
+                <li>name->[PonySingleName]</li>
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>PonyFirstName</keyword>
+                    <path>NameBanks/PonyFirstNames</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>PonyLastName</keyword>
+                    <path>NameBanks/PonyLastNames</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>PonySingleName</keyword>
+                    <path>NameBanks/PonySingleNames</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+
+<!--FACTION NAMES-->
+
+  <RulePackDef>
+    <defName>MLRP_BronyNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)->[MLRP_FactionName]</li>
+      </rulesStrings>
+	  <rulesRaw>
+		<li Class="Rule_File">
+			<keyword>MLRP_FactionName</keyword>
+			<path>NameBanks/MLRP_FactionNames</path>
+		</li>
+	  </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+<!--SETTLEMENT NAMES-->
+
+  <RulePackDef>
+    <defName>MLRP_BronySettlementNames</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name(p=2)->[MLRP_SettlementName]</li>
+      </rulesStrings>
+	  <rulesRaw>
+		<li Class="Rule_File">
+			<keyword>MLRP_SettlementName</keyword>
+			<path>NameBanks/MLRP_SettlementNames</path>
+		</li>
+	  </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+</Defs>

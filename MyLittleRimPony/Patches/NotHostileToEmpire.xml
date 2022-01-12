@@ -10,11 +10,11 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+	<!--<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
 		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/permanentEnemyToEveryoneExcept</xpath>
 		<value>
 			<li>Empire</li>
 		</value>
-	</Operation>
+	</Operation>-->
 	
 </Patch>

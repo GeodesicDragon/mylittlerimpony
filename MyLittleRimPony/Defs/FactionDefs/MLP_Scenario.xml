@@ -4,7 +4,7 @@
   <ScenarioDef>
     <defName>MLRP_Scenario</defName>
     <label>Brony Community</label>
-    <description>Your group has been wandering these lands for a long time, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you all love a show about cartoon ponies, and have taken its lessons to heart.\n\nYou'll need to work fast in order to secure your new home, though; since you are all against violence, you are sitting ducks for raiders.</description>
+    <description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you all love a show about cartoon ponies, and have taken its lessons to heart.\n\nYou'll need to work fast in order to secure your new home, though; since you are all against violence, you are tempting targets for raiders.</description>
     <scenario>
       <summary>A group of bronies attempt to carve out a new existence for themselves. Difficult.</summary>
       <playerFaction>
@@ -12,7 +12,6 @@
         <factionDef>MLRP_BronyFaction</factionDef>
       </playerFaction>
       <parts>
-
         <!-- Config pages -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
           <def>ConfigPage_ConfigureStartingPawns</def>
@@ -43,13 +42,13 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Silver</thingDef>
-          <count>500</count>
+          <count>800</count>
         </li>
 		
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Steel</thingDef>
-          <count>500</count>
+          <count>300</count>
         </li>
 		
         <li Class="ScenPart_StartingThing_Defined">
@@ -76,13 +75,26 @@
           <count>15</count>
         </li>
 		
-        <li Class="ScenPart_StartingThing_Defined">
+        <!-- Flak helmets because I couldn't figure out how to get pawns wearing them by default -->
+		
+		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Bedroll</thingDef>
-		  <count>3</count>
-		  <stuff>Cloth</stuff>
+          <thingDef>Apparel_AdvancedHelmet</thingDef>
+          <count>3</count>
+		  <stuff>Plasteel</stuff>
         </li>
-
+		
+        <!-- Starting animals -->
+		
+		<li Class="ScenPart_StartingAnimal">
+			<def>StartingAnimal</def>
+			<animalKind>Horse</animalKind>
+			<count>3</count>
+			<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
+		</li>
+		
+        <!-- Starting buildings -->
+		
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Turret_MiniTurret</thingDef>
@@ -92,40 +104,15 @@
 		
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Apparel_AdvancedHelmet</thingDef>
-          <count>3</count>
-		  <stuff>Plasteel</stuff>
-        </li>
-
-		<li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Apparel_FlakVest</thingDef>
-          <count>3</count>
-        </li>
-		
-		<li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Apparel_FlakJacket</thingDef>
-          <count>3</count>
-        </li>
-		
-		<li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Apparel_FlakPants</thingDef>
-          <count>3</count>
-        </li>
-		
-		<li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
           <thingDef>MLRP_ScrewballGenerator</thingDef>
           <count>2</count>
         </li>
 
-        <!-- Game start dialog -->
+        <!--Game start dialog-->
 		
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
-          <text>You're finally done wandering the planet; it is now time for you to build a new home for yourselves where you can live in peace.
+          <text>You're finally done wandering the planet; it is now time for you to build a new home where you can live in peace.
 
 It's not going to be easy - the fact that you're all pacifists will make you tempting targets for those with the presence of mind to consider you a viable threat - but you have belief in yourselves that you can make this work.</text>
         </li>

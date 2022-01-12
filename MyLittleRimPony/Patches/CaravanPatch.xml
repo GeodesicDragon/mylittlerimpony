@@ -25,13 +25,5 @@
 			<li>MLRP_PlushieTrader</li>
 		</value>
 	</Operation>
-	
-	<!--NPC BRONY FACTION-->
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/caravanTraderKinds</xpath>
-		<value>
-			<li>MLRP_PlushieTrader</li>
-		</value>
-	</Operation>
 
 </Patch>

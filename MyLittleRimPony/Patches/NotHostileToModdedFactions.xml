@@ -2,6 +2,8 @@
 
 <Patch>
 
+<!--Shouldn't be needed any more, but I'll keep the file just in case.
+
 <Operation Class="PatchOperationFindMod">
     <mods>
         <li>[Ry]Rimcraft Factions</li>
@@ -41,6 +43,25 @@
 		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/permanentEnemyToEveryoneExcept</xpath>
 		<value>
 			<li>RH_MSF</li>
+			<li>RH_PlayerColony_MSF</li>
+		</value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>[RH] Faction: Militaires Sans Frontieres</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="RH_MSF"]</xpath>
+		<value>
+			<permanentEnemyToEveryoneExcept>
+				<li>MLRP_NPC_Faction</li>
+				<li>MLRP_BronyFaction</li>
+				<li>RH_PlayerColony_MSF</li>
+				<li>PlayerTribe</li>
+				<li>PlayerColony</li>
+			</permanentEnemyToEveryoneExcept>
 		</value>
     </match>
 </Operation>
@@ -57,39 +78,25 @@
     </match>
 </Operation>
 
-<!--	<Operation Class="PatchOperationAdd" MayRequire="Ryflamer.Rimcraft.Factions">
-		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/permanentEnemyToEveryoneExcept</xpath>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>[RH] Faction: Elite Crew</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="RH_EliteCrew"]</xpath>
 		<value>
-			<li>Alliance</li>
-			<li>Horde</li>
-			<li>Draenei</li>
-			<li>Ironforge</li>
-			<li>BloodElf</li>
-			<li>Forsaken</li>
-			<li>HighElf</li>
-			<li>NightElf</li>
+			<permanentEnemyToEveryoneExcept>
+				<li>MLRP_NPC_Faction</li>
+				<li>MLRP_BronyFaction</li>
+				<li>RH_PlayerColony_MSF</li>
+				<li>PlayerTribe</li>
+				<li>PlayerColony</li>
+				<li>RH_MSF</li>
+			</permanentEnemyToEveryoneExcept>
 		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd" MayRequire="Ryflamer.Rimcraft.AlliedRaces">
-		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/permanentEnemyToEveryoneExcept</xpath>
-		<value>
-			<li>Nightborne</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd" MayRequire="RH.Faction.Militaires.Sans.Frontieres">
-		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/permanentEnemyToEveryoneExcept</xpath>
-		<value>
-			<li>RH_MSF</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd" MayRequire="RH.Faction.Elite.Crew">
-		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/permanentEnemyToEveryoneExcept</xpath>
-		<value>
-			<li>RH_EliteCrew</li>
-		</value>
-	</Operation>-->
+    </match>
+</Operation>
+
+-->
 	
 </Patch>

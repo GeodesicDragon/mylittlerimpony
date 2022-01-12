@@ -6,16 +6,18 @@
     <label>brony community</label>
     <categoryTag>Outlander</categoryTag>
     <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.\n\nThey started out as pacifist, but constant attacks from pirates and tribals have resulted in them abandoning pacifism and hiring mercenaries to do their fighting for them.</description>
+	<naturalEnemy>false</naturalEnemy>
     <pawnSingular>brony</pawnSingular>
     <pawnsPlural>bronies</pawnsPlural>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
-    <canSiege>false</canSiege>
+    <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>mayor</leaderTitle>
     <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
     <factionIconPath>Things/EquestrianFlag</factionIconPath>
+	<playerInitialSettlementNameMaker>MLRP_BronySettlementNames</playerInitialSettlementNameMaker>
     <factionNameMaker>MLRP_BronyNames</factionNameMaker>
     <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>
     <allowedCultures>
@@ -25,7 +27,7 @@
     <requiredMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
     </requiredMemes>
     <disallowedMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
@@ -74,14 +76,14 @@
     <structureMemeWeights>
       <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
     </structureMemeWeights>
-    <permanentEnemyToEveryoneExcept>
+    <!--<permanentEnemyToEveryoneExcept>
       <li>OutlanderCivil</li>
       <li>TribeCivil</li>
       <li>PlayerTribe</li>
       <li>PlayerColony</li>
       <li>Ancients</li>
       <li>MLRP_BronyFaction</li>
-    </permanentEnemyToEveryoneExcept>
+    </permanentEnemyToEveryoneExcept>-->
     <techLevel>Industrial</techLevel>
     <backstoryFilters>
       <li>
@@ -100,7 +102,7 @@
       </stuffCategoriesToAllow>
     </apparelStuffFilter>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
-    <settlementTexturePath>Things/EquestrianFlag</settlementTexturePath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
     </colorSpectrum>
@@ -111,9 +113,9 @@
       <li>MLRP_BronyBaseTrader</li>
     </baseTraderKinds>
     <caravanTraderKinds>
-      <li>Caravan_Outlander_BulkGoods</li>
+      <li>MLRP_NPCFaction_BulkGoods</li>
       <li>MLRP_PlushieTrader</li>
-      <li>Caravan_Outlander_Exotic</li>
+	  <li>MLRP_NPCFaction_CombatSupplier</li>
     </caravanTraderKinds>
     <raidCommonalityFromPointsCurve>
       <points>
@@ -137,7 +139,10 @@
           <Brony_Trader>1</Brony_Trader>
         </traders>
         <carriers>
-          <Horse>6</Horse>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
         </carriers>
         <guards>
           <Brony_Villager>4</Brony_Villager>
@@ -178,10 +183,10 @@
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <Brony_Villager>6</Brony_Villager>
-          <Brony_Mercenary>10</Brony_Mercenary>
-          <Brony_Mercenary_Melee>10</Brony_Mercenary_Melee>
-          <Brony_Mercenary_Elite>10</Brony_Mercenary_Elite>
+          <Brony_Villager>3</Brony_Villager>
+          <Brony_Mercenary>7</Brony_Mercenary>
+          <Brony_Mercenary_Melee>5</Brony_Mercenary_Melee>
+          <Brony_Mercenary_Elite>20</Brony_Mercenary_Elite>
 		</options>
       </li>
     </pawnGroupMakers>
@@ -210,62 +215,4 @@
       </fixedParams>
     </root>
   </ThingSetMakerDef>
-  
-  <!--Name Rules-->
-
-  <RulePackDef>
-    <defName>MLRP_BronyNames</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>r_name->New Equestria</li>
-        <li>r_name->New Lunar Republic</li>
-        <li>r_name->New Solar Republic</li>
-        <li>r_name->New Crystal Empire</li>
-        <li>r_name->Cult of Harmony</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
-
-  <RulePackDef>
-    <defName>MLRP_BronySettlementNames</defName>
-    <rulePack>
-      <rulesStrings>
-		<li>r_name->Appleloosa</li>
-		<li>r_name->Applewood</li>
-		<li>r_name->Baltimare</li>
-		<li>r_name->Bitsburgh</li>
-		<li>r_name->Bridleway</li>
-		<li>r_name->Bronclyn</li>
-		<li>r_name->Canterlot</li>
-		<li>r_name->Carneighie Hall</li>
-		<li>r_name->Chicoltgo</li>
-		<li>r_name->Cloudsdale</li>
-		<li>r_name->Coltifornia</li>
-        <li>r_name->Everfree Forest</li>
-		<li>r_name->Fillydelphia</li>
-		<li>r_name->Hoofington</li>
-		<li>r_name->Hooflyn</li>
-		<li>r_name->Horsolulu</li>
-		<li>r_name->Las Pegasus</li>
-		<li>r_name->Madisoat Square Garden</li>
-		<li>r_name->Manehattan</li>
-		<li>r_name->Maretania</li>
-		<li>r_name->Maretropolis</li>
-		<li>r_name->Mustangia</li>
-		<li>r_name->Neigh York</li>
-		<li>r_name->Neigh Mexicolt</li>
-        <li>r_name->Peaks of Peril</li>
-		<li>r_name->Ponyville</li>
-		<li>r_name->Saddle Arabia</li>
-		<li>r_name->San Franciscolt</li>
-		<li>r_name->Seaddle</li>
-		<li>r_name->Trotland</li>
-		<li>r_name->Trottingham</li>
-		<li>r_name->Whinny World</li>
-		<li>r_name->Whinnyapolis</li>
-        <li>r_name->Whitetail Woods</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
-
 </Defs>

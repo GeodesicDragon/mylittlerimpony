@@ -23,7 +23,7 @@
 	<label>Brony Community</label>
     <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.\n\nMostly pacifist.</description>
     <isPlayer>true</isPlayer>
-    <basicMemberKind>Colonist</basicMemberKind>
+    <basicMemberKind>MLRP_BronyPlayer</basicMemberKind>
     <pawnSingular>brony</pawnSingular>
     <pawnsPlural>bronies</pawnsPlural>
     <techLevel>Industrial</techLevel>
@@ -50,9 +50,8 @@
     </startingTechprintsResearchTags>
     <apparelStuffFilter>
       <thingDefs>
-        <li>Cloth</li>
+        <li>DevilstrandCloth</li>
       </thingDefs>
     </apparelStuffFilter>
   </FactionDef>
-
 </Defs>

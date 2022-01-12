@@ -1,3 +1,38 @@
+Version 1.35.107 (January 12th 2022)
+
+* Added: Starting pawns in the Brony Community scenario now have a chance to have a random plushie (excluding Rainbow Dash) in their inventory.
+* Added: Members of the NPC faction will now use MLP themed names.
+	* The names are chosen in one of two ways:
+		* A random first name followed by a random last name, which can lead to names such as 'Apple Dash' or 'Twilight Belle.'
+		* A random single name, such as 'Celestia' or 'Rarity.'
+	* There are 60 single names and 84 first/last names available for the game to choose from. Feel free to suggest more, but make sure you check the lists first to see what I've already got; you can find them in MyLittleRimPony\Languages\English\Strings\NameBanks.
+* Added: Custom bulk goods trader for the NPC faction.
+	* Stocks a lot of cloth and kibble.
+	* Sells farm animals and pets, and also buys exotic animals.
+	* Does not sell drugs, beer, raw meat or pemmican.
+* Added: Custom combat supplier for the NPC faction.
+	* Sells armour, wife throwers, tennis ball launchers and rainbow lasers.
+	* Has a chance to stock a Orbital Friendship Cannon.
+	* Buys drugs (the only brony trader to do so).
+* Added: The Brony Community scenario now starts with three (unbonded) horses.
+* Added: If you have Irn-Bru And Other Scottish Delights enabled, a patch allows the NPC faction to send Scottish goods traders.
+* Added: If you have Reverse Engineered Mechanoid Shields enabled, a patch allows the NPC faction to send mechanoid shield traders.
+* Fixed: Members of the NPC faction can not having the 'Brawler' trait.
+* Fixed: Scootaloo plush using incorrect texture.
+* Fixed: 'Faction [NAME] of def MLRP_NPC_Faction has no usable PawnGroupMakers for parms... etc' error.
+* Changed: Starting pawn clothing in the Brony Community scenario is now made of devilstrand.
+* Changed: Starting pawns in the Brony Community scenario should now be wearing flak armour by default.
+* Changed: Pawns with the 'anti brony' trait now have a -80 opinion of bronies (was -50).
+* Changed: Removed bedrolls from the Brony Community scenario.
+* Changed: Screwball now generates 250W of power (was 200).
+* Changed: Increased the starting silver for the Brony community scenario to 800 (was 500).
+* Changed: Reduced the starting steel for the Brony community scenario to 300 (was 500).
+* Changed: NPC faction villagers now spawn with normal quality gear.
+* Changed: NPC faction villagers now have 6-12 in non-combat skills (was 6-15).
+* Changed: The NPC faction is now capable of starting sieges.
+* Changed: NPC faction settlements should now be guarded by more elite mercenaries. Plan your attacks accordingly.
+* Removed patches for adding making modded factions friendly to the NPC faction; the latter has been set up so that it is not a natural enemy, so it should now be friendly towards everyone except for rough outlander, rough tribal, pirate and fierce tribal factions.
+
 Version 1.28.92 (January 6th 2022)
 
 * Added Anti-brony trait.
