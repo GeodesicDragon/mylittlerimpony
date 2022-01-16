@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <ResearchSpeed>0.2</ResearchSpeed>
+      <ResearchSpeed>0.25</ResearchSpeed>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

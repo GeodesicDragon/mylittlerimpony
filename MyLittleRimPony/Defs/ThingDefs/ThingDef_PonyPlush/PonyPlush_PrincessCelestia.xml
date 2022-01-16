@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+      <MentalBreakThreshold>-0.25</MentalBreakThreshold>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

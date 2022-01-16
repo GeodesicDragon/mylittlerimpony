@@ -51,7 +51,7 @@
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>MLRP_IzzyPlush</hediff>
-        <part>Waist</part>
+        <part>Head</part>
       </li>
     </comps>
   </ThingDef>
@@ -63,7 +63,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<stages>
 			<li>
-				<opinionOfOthersFactor>0.1</opinionOfOthersFactor>
+				<opinionOfOthersFactor>0.25</opinionOfOthersFactor>
 			</li>
 		</stages>
 		<comps>

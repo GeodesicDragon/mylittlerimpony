@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <PainShockThreshold>0.2</PainShockThreshold>
+      <PainShockThreshold>0.25</PainShockThreshold>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

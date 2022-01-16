@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <InjuryHealingFactor>0.25</InjuryHealingFactor>
+      <InjuryHealingFactor>0.5</InjuryHealingFactor>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

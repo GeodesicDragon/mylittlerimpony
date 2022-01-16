@@ -30,8 +30,8 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <TameAnimalChance>0.15</TameAnimalChance>
-      <TrainAnimalChance>0.15</TrainAnimalChance>
+      <TameAnimalChance>0.25</TameAnimalChance>
+      <TrainAnimalChance>0.25</TrainAnimalChance>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

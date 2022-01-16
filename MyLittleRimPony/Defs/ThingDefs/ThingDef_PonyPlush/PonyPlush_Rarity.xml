@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <TradePriceImprovement>0.2</TradePriceImprovement>
+      <TradePriceImprovement>0.25</TradePriceImprovement>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

@@ -24,6 +24,7 @@
 			<li>Slaughterer</li>
 			<li>TargetedInsultingSpree</li>
 		</disallowedMentalStates>
+		<marketValueFactorOffset>-0.5</marketValueFactorOffset>
 		</li>
 	</degreeDatas>
 	<conflictingTraits>
@@ -44,7 +45,7 @@
 	<degreeDatas>
 		<li>
 			<label>anti brony</label>
-			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony; as a result, {PAWN_pronoun} tends to dislike anyone who does.\n\n{PAWN_pronoun} also hates the idea of using pony plushies, and will not be happy if forced to use one.</description>
+			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does.\n\n{PAWN_pronoun} gets a mood loss from equipping pony plushies.</description>
 		</li>
 	</degreeDatas>
 	<conflictingTraits>
@@ -59,7 +60,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>stupid brony</label>
+        <label>anti-brony dislikes bronies</label>
       </li>
     </stages>
 	<requiredTraits>

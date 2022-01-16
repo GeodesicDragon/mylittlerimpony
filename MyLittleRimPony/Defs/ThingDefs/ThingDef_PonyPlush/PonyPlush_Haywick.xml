@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_Haywick</defName>
     <label>Nurse Haywick</label>
-    <description>You don't recall ever seeing this pony in the show, but it doesn't matter because you like her mane.\n\nCarrying her makes you feel like a better medic.</description>
+    <description>You don't recall ever seeing this pony in the show, but it doesn't matter.\n\nCarrying her makes you feel like a better medic.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -30,8 +30,9 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MedicalTendSpeed>0.15</MedicalTendSpeed>
-	  <MedicalTendQualityOffset>0.15</MedicalTendQualityOffset>
+      <MedicalTendSpeed>0.25</MedicalTendSpeed>
+	  <MedicalTendQualityOffset>0.25</MedicalTendQualityOffset>
+	  <SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

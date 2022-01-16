@@ -4,6 +4,7 @@
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/TipSetDef[defName="GameplayTips"]/tips</xpath>
 	    <value>
+			<li>"I WANT IT NOOOOW! " - Apple Bloom</li>
 			<li>"How do ya like them apples?" - Applejack</li>
 			<li>"Eeyup." - Big Macintosh</li>
 			<li>"Yes I know, but honestly, that's how everypony was wearing their mane back then." - Cheerilee</li>
@@ -17,10 +18,21 @@
 			<li>"The fun has been doubled!" - Princess Luna</li>
 			<li>"It needs to be about 20% cooler." - Rainbow Dash</li>
 			<li>"Of all the things that could have happened, this is the WORST. POSSIBLE. THING." - Rarity</li>
+			<li>"What are you, a dictionary?" - Scootaloo</li>
 			<li>"PHYLLIS, NO!" - Starlight Glimmer</li>
+			<li>"OH, COME ON!" - Sweetie Belle</li>
 	        <li>"From all of us together, together we are friends. With the marks of our destinies made one, there is magic without end!" - Twilight Sparkle</li>
 			<li>The Rainbow Laser and the Elements of Harmony both use the same image, but only the former will have any kind of quality on it.</li>
 			<li>Plushie traders can be requested from tribal, outlander and imperial factions via the comms console.</li>
+			<li>The Orbital Friendship Cannon can be rearmed using 100 gold.</li>
+			<li>Alternate recipes for the Elements of Harmony and Cutie Mark Crusaders can be found at the plushie bench.</li>
+			<li>The wife thrower has the same stats as a pila, but can be thrown a bit quicker.</li>
+			<li>The Celestia plush can be used to counteract the effects of the 'nervous' and 'volatile' traits.</li>
+			<li>The Cadence plush can be used to slightly counteract the effect of the 'wimp' trait.</li>
+			<li>Giving a Luna plush to a pawn with the 'quick sleeper' trait will make them rest twice as fast.</li>
+			<li>Giving a Cheerilee plush to a pawn with the 'fast learner' trait will help them improve their skills faster.</li>
+			<li>Giving a Starlight Glimmer plush to a pawn with the 'psychically hypersensitive' or 'psychically sensitive' traits will reduce the penalty.</li>
+			<li>Giving a Sweetie Belle plush to a pawn with low Cooking skill will reduce the chance of your other pawns suffering food poisoning.</li>
 	    </value>
 	</Operation>
 </Patch>

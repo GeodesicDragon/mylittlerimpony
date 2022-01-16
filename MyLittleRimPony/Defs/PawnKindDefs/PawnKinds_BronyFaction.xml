@@ -32,7 +32,7 @@
 	  <li>MLRP_BronyTrait</li>
     </disallowedTraits>
     <nameMaker>NamerBrony</nameMaker>
-    <nameMakerFemale>NamerBrony</nameMakerFemale>
+    <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
   </PawnKindDef>
   
   <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_VillagerBase" Abstract="True">

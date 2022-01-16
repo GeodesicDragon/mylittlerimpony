@@ -33,7 +33,7 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>300</WorkToBuild>
-      <Flammability>1.0</Flammability>
+      <Flammability>1</Flammability>
     </statBases>
   </ThingDef>
 
@@ -43,7 +43,7 @@
 	  <drawSize>(1,1)</drawSize>
     </graphicData>
     <costList>
-	  <PonyPlush_Discord>1</PonyPlush_Discord>
+	  <Cloth>300</Cloth>
     </costList>
     <statBases>
       <Mass>4</Mass>
@@ -52,7 +52,6 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>30</basePowerConsumption>
       </li>
       <li Class="CompProperties_Styleable" />
     </comps>
@@ -62,10 +61,9 @@
     <defName>MLRP_DiscordLamp</defName>
     <label>Discord lamp</label>
     <description>It's a lamp that looks like Discord, what else is there to say?</description>
-    <designationHotKey>Misc11</designationHotKey>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>12</glowRadius>
+        <glowRadius>8</glowRadius>
         <glowColor>(217,217,208,0)</glowColor>
       </li>
     </comps>

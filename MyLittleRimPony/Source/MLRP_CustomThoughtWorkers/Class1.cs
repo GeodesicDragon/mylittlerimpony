@@ -102,7 +102,7 @@ public class ThoughtWorker_AntiBronyVsBrony : ThoughtWorker
 
             if (otherPawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait))
             {
-                return 25f;
+                return 35f;
             }
             return 0f;
         }

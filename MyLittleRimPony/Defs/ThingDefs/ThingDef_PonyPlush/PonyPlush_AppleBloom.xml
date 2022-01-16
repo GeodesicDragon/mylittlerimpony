@@ -4,7 +4,7 @@
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_AppleBloom</defName>
     <label>Apple Bloom</label>
-    <description>Apple Bloom doesn't like to recall that time she had the Cutie Pox, but you do.\n\nCarrying her makes you feel as though illness and disease have no hold on you.</description>
+    <description>Apple Bloom doesn't like to recall that time she had the Cutie Pox, but that doesn't stop anypony from reminding her every now and again.\n\nCarrying her makes you feel as though illness and disease have no hold on you.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
+      <ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

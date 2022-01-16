@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0.5</MoveSpeed>
+      <MoveSpeed>1</MoveSpeed>
       <MeleeHitChance>5</MeleeHitChance>
       <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
     </equippedStatOffsets>

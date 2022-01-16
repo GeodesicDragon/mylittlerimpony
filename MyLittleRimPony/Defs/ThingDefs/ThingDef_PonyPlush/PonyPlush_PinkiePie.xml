@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.2</SocialImpact>
+      <SocialImpact>0.25</SocialImpact>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>
