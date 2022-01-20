@@ -23,24 +23,24 @@ Colonists will equip plushies themselves, though you might need to force them to
 |      BONUSES GIVEN      |
 |-------------------------|
 
-Apple Bloom: +25 to immunity gain rate.
-Applejack: +15% to plant work speed and harvest yield.
+Apple Bloom: +50% to immunity gain rate.
+Applejack: +25% to plant work speed and harvest yield.
 Big Macintosh: +25kg to maximum carry capacity.
 Cheerilee: +50% to global learning factor.
 Discord: +25% global work speed.
-Fluttershy: +15% each to animal tame chance and training chance.
-Izzy Moonbow: +10 to mood and opinions of others boosted by 10%.
-Pinkie Pie: +20% to social impact.
-Nurse Haywick (my OC): +15% each to medical tend speed and quality.
+Fluttershy: +25% each to animal tame chance and training chance.
+Izzy Moonbow: +10 to mood and opinions of others boosted by 25%.
+Pinkie Pie: +25% to social impact.
+Nurse Haywick (my OC): +25% each to medical tend speed, tend quality and surgery success chance.
 Rainbow Dash: +50% to movement and +5% to melee hit chance and shooting accuracy.
-Rarity: +20% to trade price improvement.
-Princess Cadence: +20% to pain shock threshold.
-Princess Celestia: -20% to mental break threshold.
+Rarity: +25% to trade price improvement.
+Princess Cadence: +25% to pain shock threshold.
+Princess Celestia: -25% to mental break threshold.
 Princess Luna: +50% to rest multiplier (for faster sleep).
-Scootaloo: +25% to injury healing speed.
+Scootaloo: +50% to injury healing speed.
 Starlight Glimmer: -50% to psychic sensitivity.
 Sweetie Belle: +20 to cooking speed and -5% chance of poisoning a meal.
-Twilight Sparkle: +20% research speed.
+Twilight Sparkle: +25% research speed.
 Elements of Harmony: Combines the bonuses granted by each Mane Six plush into one item.
 Cutie Mark Crusaders: Combines the bonuses granted by each CMC plush into one item.
 

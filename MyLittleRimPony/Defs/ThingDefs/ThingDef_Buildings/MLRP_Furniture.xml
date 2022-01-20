@@ -27,9 +27,6 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <comps>
-      <li Class="CompProperties_Flickable"/>
-    </comps>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>300</WorkToBuild>
@@ -49,12 +46,12 @@
       <Mass>4</Mass>
       <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
     </statBases>
-    <comps>
+    <!--<comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
       </li>
       <li Class="CompProperties_Styleable" />
-    </comps>
+    </comps>-->
   </ThingDef>
   
   <ThingDef ParentName="DiscordLampBase" >
@@ -63,8 +60,8 @@
     <description>It's a lamp that looks like Discord, what else is there to say?</description>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>8</glowRadius>
-        <glowColor>(217,217,208,0)</glowColor>
+        <glowRadius>12</glowRadius>
+        <glowColor>(255,255,255,0)</glowColor>
       </li>
     </comps>
   </ThingDef>

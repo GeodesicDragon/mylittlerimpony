@@ -1,3 +1,12 @@
+Version 1.39.133 (January 20th 2022)
+
+* Added: Load order check for the MLRP Combat Extended patch. The load order should be MLRP > Combat Extended > MLRP CE Patch.
+* Fixed: 'Config error in MLRP_BronyPlayer: initial will is undefined for humanlike pawn kind' error.
+* Fixed: 'Config error in MLRP_BronyPlayer: initial resistance range is undefined for humanlike pawn kind' error.
+* Fixed: The Discord lamp no longer needs to be connected to a power grid in order to work, despite not actually using any power.
+* Changed: Work value of making rainbow laser to 18000 (was 900).
+* Changed: The Discord lamp now produces the amount of light it used to; the glow radius has been increased to 12 (was 8).
+
 Version 1.38.128 (January 16th 2022)
 
 * Added: Alternate recipes for making the Elements of Harmony and Cutie Mark Crusaders.
@@ -12,8 +21,8 @@ Version 1.38.128 (January 16th 2022)
 * Changed: Pawns with the 'brony' trait now have a market value offset of -50%, making them either less profitable to sell or less expensive to buy.
 * Changed: Description of 'anti brony' trait.
 * Changed: Description of -80 opinion that anti bronies have of bronies (seen when mousing over a pawns name in the 'Social' tab).
-* Changed: The Applejack plush now gives a +25 bonus to plant work speed and yield (was 15%).
-* Changed: The Fluttershy plush now gives a +25 bonus to animal tame and train chance (was 15%).
+* Changed: The Applejack plush now gives a +25% bonus to plant work speed and yield (was 15%).
+* Changed: The Fluttershy plush now gives a +25% bonus to animal tame and train chance (was 15%).
 * Changed: The Pinkie Pie plush now improves social impact by 25% (was 20%).
 * Changed: The Rainbow Dash plush now increases move speed by 1 (was 0.5).
 * Changed: The Rarity plush now improves trade prices by 25% (was 20%).

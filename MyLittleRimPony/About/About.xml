@@ -10,6 +10,10 @@
 		<li>1.2</li>
 		<li>1.3</li>
 	</supportedVersions>
+	<loadBefore>
+		<li>CETeam.CombatExtended</li>
+		<li>geodesicdragon.rimpony.cepatch</li>
+	</loadBefore>
 	<description><![CDATA[<b>ABOUT</b>
 
 It has been thousands of years since <i>My Little Pony: Friendship is Magic</i> last aired, but the show is once again enjoying a resurgence; how it came to the rim, though, remains a mystery. Regardless of the hows and whys, many colonists have embraced the show, as the colourful characters and messages of peace, hope and friendship help them to escape the struggles of trying to survive daily life in their colonies.
@@ -22,6 +26,13 @@ I've created a new mod that adds items related to the Ideology DLC.
 
 STEAM: https://steamcommunity.com/sharedfiles/filedetails/?id=2684300411
 GITHUB: https://github.com/GeodesicDragon/mlrp-ideology
+
+<b>COMBAT EXTENDED PATCH</b>
+
+Yes, one exists now.
+
+STEAM: https://steamcommunity.com/sharedfiles/filedetails/?id=2726060046
+GITHUB: https://github.com/GeodesicDragon/mlrp-cepatch/releases
 
 <b>I HAVE A QUESTION/COMMENT/BUG/SUGGESTION</b>
 
