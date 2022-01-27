@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Irn Bru And Other Scottish Delights</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader"]/stockGenerators</xpath>
+	    <value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Haggis_Vegetarian</thingDef>
+				<countRange>150~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DeepFriedChocolate</thingDef>
+				<countRange>100~150</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>IrnBru</thingDef>
+				<countRange>150~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>IrnBruMod_KiltApparel</thingDef>
+				<countRange>3</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>IrnBruKeg</thingDef>
+				<countRange>1</countRange>
+			</li>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>

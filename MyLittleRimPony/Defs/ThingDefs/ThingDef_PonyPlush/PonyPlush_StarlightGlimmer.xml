@@ -30,7 +30,7 @@
       <EquipDelay>0.1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <PsychicSensitivity>-0.50</PsychicSensitivity>
+      <PsychicSensitivity>-1</PsychicSensitivity>
     </equippedStatOffsets>
     <thingCategories>
       <li>Pony_Plushies</li>

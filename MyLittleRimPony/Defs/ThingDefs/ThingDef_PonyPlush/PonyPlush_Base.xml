@@ -13,7 +13,7 @@
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
 			<Beauty>1</Beauty>
-			<SellPriceFactor>0.50</SellPriceFactor>
+			<!--<SellPriceFactor>0.50</SellPriceFactor>-->
 		</statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>

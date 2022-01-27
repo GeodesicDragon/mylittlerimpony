@@ -31,8 +31,8 @@
 			<li>The Cadence plush can be used to slightly counteract the effect of the 'wimp' trait.</li>
 			<li>Giving a Luna plush to a pawn with the 'quick sleeper' trait will make them rest twice as fast.</li>
 			<li>Giving a Cheerilee plush to a pawn with the 'fast learner' trait will help them improve their skills faster.</li>
-			<li>Giving a Starlight Glimmer plush to a pawn with the 'psychically hypersensitive' or 'psychically sensitive' traits will reduce the penalty.</li>
-			<li>Giving a Sweetie Belle plush to a pawn with low Cooking skill will reduce the chance of your other pawns suffering food poisoning.</li>
+			<li>Giving a Starlight Glimmer plush to a pawn with the 'psychically hypersensitive' or 'psychically sensitive' traits will eliminate the penalty.</li>
+			<li>Giving a Sweetie Belle plush to a pawn with low Cooking skill should reduce the chance of your other pawns suffering food poisoning.</li>
 	    </value>
 	</Operation>
 </Patch>

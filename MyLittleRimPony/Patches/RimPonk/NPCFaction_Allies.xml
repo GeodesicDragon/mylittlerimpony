@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Humanoid Alien Races</li>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Twilight_Sparkle_UP"]/alienRace/generalSettings</xpath>
+	    <value>
+		<factionRelations>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>100</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		</factionRelations>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Humanoid Alien Races</li>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Rarity_UP"]/alienRace/generalSettings</xpath>
+	    <value>
+		<factionRelations>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>100</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		</factionRelations>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Humanoid Alien Races</li>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raindbow_Dash_UP"]/alienRace/generalSettings</xpath>
+	    <value>
+		<factionRelations>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>100</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		</factionRelations>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Humanoid Alien Races</li>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Pinkie_Pie_UP"]/alienRace/generalSettings</xpath>
+	    <value>
+		<factionRelations>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>100</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		</factionRelations>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Humanoid Alien Races</li>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Fluttershy_UP"]/alienRace/generalSettings</xpath>
+	    <value>
+		<factionRelations>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>100</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		</factionRelations>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Humanoid Alien Races</li>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Apple_Jack_UP"]/alienRace/generalSettings</xpath>
+	    <value>
+		<factionRelations>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>100</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		</factionRelations>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>

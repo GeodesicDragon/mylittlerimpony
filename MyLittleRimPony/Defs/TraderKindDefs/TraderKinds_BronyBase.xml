@@ -12,6 +12,11 @@
         <thingDef>Silver</thingDef>
         <countRange>2500~10000</countRange>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>PlantFoodRaw</categoryDef>
+        <thingDefCountRange>1~10</thingDefCountRange>
+        <totalPriceRange>1500~2500</totalPriceRange>
+      </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
         <countRange>20~70</countRange>
@@ -58,7 +63,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-        <countRange>25~50</countRange>
+        <countRange>50~200</countRange>
       </li>
       <li Class="StockGenerator_ReinforcedBarrels">
         <countRange>1~4</countRange>
@@ -83,19 +88,19 @@
         <thingDefCountRange>2~4</thingDefCountRange>
         <totalPriceRange>400~800</totalPriceRange>
       </li>
+
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
-        <thingDefCountRange>1~2</thingDefCountRange>
+        <thingDefCountRange>1~4</thingDefCountRange>
         <countRange>50~100</countRange>
 		<excludedThingDefs>
 			<li>MealFine_Meat</li>
 			<li>MealLavish_Meat</li>
 		</excludedThingDefs>
       </li>
-      <li Class="StockGenerator_MultiDef">
-        <thingDefs>
-          <li>Kibble</li>
-        </thingDefs>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Kibble</thingDef>
+        <countRange>250~500</countRange>
       </li>
 
       <!-- Techprints -->
@@ -328,7 +333,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-        <countRange>10~20</countRange>
+        <countRange>50</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>

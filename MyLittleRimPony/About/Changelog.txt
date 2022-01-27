@@ -1,6 +1,43 @@
+Version 1.51.145 (January 27th 2022)
+
+* Added patches which are applied if RimPonk is enabled.
+	* Pony pawns can equip plushies.
+	* Pony factions send plushie traders.
+	* Pony pawns can appear as part of the NPC faction.
+	* If you are playing the 'Banished Empress' scenario, the NPC faction will start as hostile.
+	* If you are playing the 'Rogue Changelings' scenario, the NPC faction will start as hostile.
+	* If you start a scenario with any of the Mane Six unique pawns, the NPC faction should start as allied.
+* Added patches which are applied if Irn-Bru And Other Scottish Delights is enabled.
+	* NPC faction settlements stock vegetarian haggis.
+	* NPC faction settlements stock Irn-Bru.
+	* NPC faction settlements stock Irn-Bru kegs.
+	* NPC faction settlements stock deep-fried chocolate.
+	* NPC faction settlements stock kilts.
+* Added a patch which is applied if Bulk Carrier is enabled.
+	* Big Macintosh: Increases carrying capacity by 50 (up from 25).
+* Fixed NPC faction settlements not selling plant-based foods such as rice and corn.
+	* You will need to wait for the settlement to restock before you see any of these items for sale.
+	* Minimum stock is 1500, maximum stock is 2500; perfect for when you're on the brink of starvation.
+* Increased amount of industrial medicine stocked by NPC faction settlements.
+* Increased amount of industrial medicine stocked by NPC faction weapon traders.
+* Increased the number of pawns in NPC faction groups, particularly for combat.
+	* I have the Factional War mod, and too many times I saw the NPC faction getting curbstomped in faction assaults, mostly due to being outnumbered.
+	* This also means more of them will raid you... I think.
+	* There are three kinds of combat group: mostly ranged with melee support, mostly melee with ranged support and entirely elite, for when names need to be taken.
+	* Settlements are now guarded by mostly elite units armed with rainbow lasers. Watch yourselves.
+* Sweetie Bot has received a bunch of software updates.
+	* Medium and long range accuracy have been increased to 80% (was 75%).
+	* Rearming cost is now affected by difficulty.
+	* Burst time reduced to 1.5 seconds (was 2).
+	* Now has a 70% chance of not exploding when damaged (was 60%).
+	* Now fires a burst of 5 shots (was 3).
+	* Now takes 30 ticks between burst shots (was 3).
+	* Maximum combat effectiveness has been increased to 100 (was 80).
+* Starlight Glimmer now reduces psychic sensitivity by 100% (Was 50%).
+	
 Version 1.39.133 (January 20th 2022)
 
-* Added: Load order check for the MLRP Combat Extended patch. The load order should be MLRP > Combat Extended > MLRP CE Patch.
+* Added: Load order check for the MLRP Combat Extended patch. The load order should be MLRP > MLRP Ideology (if enabled) > Combat Extended > MLRP CE Patch.
 * Fixed: 'Config error in MLRP_BronyPlayer: initial will is undefined for humanlike pawn kind' error.
 * Fixed: 'Config error in MLRP_BronyPlayer: initial resistance range is undefined for humanlike pawn kind' error.
 * Fixed: The Discord lamp no longer needs to be connected to a power grid in order to work, despite not actually using any power.
@@ -50,7 +87,7 @@ Version 1.35.107 (January 12th 2022)
 	* Does not sell drugs, beer, raw meat or pemmican.
 * Added: Custom combat supplier for the NPC faction.
 	* Sells armour, wife throwers, tennis ball launchers and rainbow lasers.
-	* Has a chance to stock a Orbital Friendship Cannon.
+	* Has a chance to stock an Orbital Friendship Cannon.
 	* Buys drugs (the only brony trader to do so).
 * Added: The Brony Community scenario now starts with three (unbonded) horses.
 * Added: If you have Irn-Bru And Other Scottish Delights enabled, a patch allows the NPC faction to send Scottish goods traders.

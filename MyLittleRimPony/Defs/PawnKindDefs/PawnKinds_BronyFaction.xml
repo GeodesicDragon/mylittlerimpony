@@ -3,7 +3,6 @@
 
   <PawnKindDef Name="MLRP_BronyKinds" Abstract="True">
     <race>Human</race>
-    <!--<race>HumanBrony</race>-->
     <defaultFactionType>MLRP_NPC_Faction</defaultFactionType>
     <backstoryFilters>
       <li>

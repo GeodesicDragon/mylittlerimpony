@@ -76,14 +76,6 @@
     <structureMemeWeights>
       <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
     </structureMemeWeights>
-    <!--<permanentEnemyToEveryoneExcept>
-      <li>OutlanderCivil</li>
-      <li>TribeCivil</li>
-      <li>PlayerTribe</li>
-      <li>PlayerColony</li>
-      <li>Ancients</li>
-      <li>MLRP_BronyFaction</li>
-    </permanentEnemyToEveryoneExcept>-->
     <techLevel>Industrial</techLevel>
     <backstoryFilters>
       <li>
@@ -132,7 +124,6 @@
       </points>
     </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
-      
       <li>
         <kindDef>Trader</kindDef>
         <traders>
@@ -160,33 +151,37 @@
         </options>
       </li>
       <li>        
-        <kindDef>Combat</kindDef>
+        <kindDef>Combat</kindDef> <!--Mostly ranged units with melee support-->
         <commonality>100</commonality>
         <options>
-          <Brony_Villager>1</Brony_Villager>
-          <Brony_Mercenary>10</Brony_Mercenary>
+          <Brony_Mercenary>20</Brony_Mercenary>
           <Brony_Mercenary_Melee>5</Brony_Mercenary_Melee>
-          <Brony_Mercenary_Elite>2.5</Brony_Mercenary_Elite>
+          <Brony_Mercenary_Elite>10</Brony_Mercenary_Elite>
         </options>
       </li>
       <li>
-        
-        <kindDef>Combat</kindDef>
-        <commonality>10</commonality>
+        <kindDef>Combat</kindDef> <!--Mostly melee units for rushing enemy positions-->
+        <commonality>100</commonality>
         <options>
-		  <Brony_Villager>1</Brony_Villager>
-          <Brony_Mercenary>20</Brony_Mercenary>
-          <Brony_Mercenary_Melee>10</Brony_Mercenary_Melee>
+          <Brony_Mercenary>5</Brony_Mercenary>
+          <Brony_Mercenary_Melee>20</Brony_Mercenary_Melee>
           <Brony_Mercenary_Elite>5</Brony_Mercenary_Elite>
         </options>
       </li>
       <li>
-        <kindDef>Settlement</kindDef>
+        <kindDef>Combat</kindDef> <!--All Elite units for when copious amounts of ass needs to be kicked-->
+        <commonality>100</commonality>
         <options>
-          <Brony_Villager>3</Brony_Villager>
-          <Brony_Mercenary>7</Brony_Mercenary>
+          <Brony_Mercenary_Elite>40</Brony_Mercenary_Elite>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef> <!--Heavily guarded by mostly elite units-->
+        <options>
+          <Brony_Villager>5</Brony_Villager>
+          <Brony_Mercenary>5</Brony_Mercenary>
           <Brony_Mercenary_Melee>5</Brony_Mercenary_Melee>
-          <Brony_Mercenary_Elite>20</Brony_Mercenary_Elite>
+          <Brony_Mercenary_Elite>30</Brony_Mercenary_Elite>
 		</options>
       </li>
     </pawnGroupMakers>
