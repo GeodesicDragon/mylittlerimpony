@@ -10,7 +10,7 @@
 6. Adds the 'Brony' trait, which renders the pawn incapable of violence, but increases their Social skill by 6 and prevents mood loss from being insulted. Also prevents them from going on violence-related mental breaks, such as sadistic rage. Gets a +35 opinion bonus to other pawns with the same trait and a +10 mood bonus as long as a plushie is equipped.
 7. Adds the 'Brony Community' scenario, which starts you with three pawns, each of whom has the Brony trait. You start with four ready to install steel mini-turrets, as well as the necessary research to build more.
 8. Adds the Rainbow Laser, a weaponised version of the Elements of Harmony that fires - you guessed it - rainbows.
-9. Adds the Discord Lamp, which is the same as a normal standing lamp, except it looks like Discord. Requires a Discord plush to build, but - since this IS the Lord of Chaos we're talking about - it does not require you to research Electricity first.
+9. Adds the Discord Lamp, which is the same as a normal standing lamp, except it looks like Discord. Requires 300 cloth to build, but - since this IS the Lord of Chaos we're talking about - it does not electricity in order to light up a room.
 10. Adds the Screwball generator, which is basically a pony that generates 250W of power.
 11. Adds an NPC version of the brony faction, which you can help, hinder or annihilate as you see fit.
 12. Sweetie Bot turret. 'nuff said.
@@ -42,6 +42,7 @@ Princess Cadence: +25% to pain shock threshold.
 Princess Celestia: -25% to mental break threshold.
 Princess Luna: +50% to rest multiplier (for faster sleep).
 Scootaloo: +50% to injury healing speed.
+Shining Armour: +15% to blunt, heat and sharp armour ratings.
 Starlight Glimmer: -100% to psychic sensitivity.
 Sweetie Belle: +20 to cooking speed and -5% chance of poisoning a meal.
 Twilight Sparkle: +25% research speed.
@@ -62,6 +63,7 @@ Bulk Carrier: Big Macintosh increases carrying capacity by 50kg instead of 25.
 Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
 Irn-Bru And Other Scottish Delights: The NPC faction will send Scottish goods traders and stock Scottish goods at their settlements.
 RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction, which starts out hostile if you are playing the 'Banished Empress' or 'Rogue Changelings' scenarios. If you start a scenario with any of the Mane Six pawns, the NPC faction starts as allied.
+Vanilla Achievements Expanded: Adds several achievements to acquire each of the items added by MLRP.
 
 Patches are only applied if the mod is enabled.
 

@@ -1,3 +1,12 @@
+Version 1.82.147 (January 29th 2022)
+
+* Added Shining Armour as a plushie (+15% to blunt, heat and sharp armour ratings).
+* Added patches which are applied if Vanilla Achievements Expanded is enabled.
+	* 28 achievements to aquire each item added by the mod, as well as making a legendary Rainbow Laser.
+	* Adds 2 more achievements to make the Ideology plushies, if that mod is enabled as well.
+* Fixed the alternate recipe for the Elements of Harmony showing the finished result as a separate item.
+* Fixed the alternate recipe for the Cutie Mark Crusaders showing the finished result as a separate item.
+
 Version 1.51.145 (January 27th 2022)
 
 * Added patches which are applied if RimPonk is enabled.

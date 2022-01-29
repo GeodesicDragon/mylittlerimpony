@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Achievements Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+		
+			<!--PLUSHIE BENCH-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_PlushieBench</defName>
+				<label>It All Starts Here</label>
+				<description>Build a plushie bench</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>PlushieBench</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Building/PlushieBench</texPath>
+				<points>25</points>
+			</AchievementsExpanded.AchievementDef>
+		
+			<!--PLUSHIES-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_AppleBloom</defName>
+				<label>Buy Some Apples!</label>
+				<description>Craft an Apple Bloom plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_AppleBloom</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/AppleBloom</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Applejack</defName>
+				<label>How Do Ya Like Them Apples?</label>
+				<description>Craft an Applejack plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Applejack</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/Applejack</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_BigMacintosh</defName>
+				<label>Eeyup</label>
+				<description>Craft a Big Macintosh plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_BigMacintosh</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/BigMacintosh</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Cheerilee</defName>
+				<label>Pay Attention, Students</label>
+				<description>Craft a Cheerilee plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Cheerilee</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/Cheerilee</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_CutieMarkCrusaders</defName>
+				<label>We'll Make Our Mark</label>
+				<description>Craft the Cutie Mark Crusaders</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_CutieMarkCrusaders</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/CutieMarkCrusaders</texPath>
+				<points>30</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Discord</defName>
+				<label>Where's The Chocolate Milk?</label>
+				<description>Craft a Discord plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Discord</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/Discord</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Fluttershy</defName>
+				<label>Yay</label>
+				<description>Craft a Fluttershy plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Fluttershy</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/Fluttershy</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Haywick</defName>
+				<label>Obligatory Self Insert</label>
+				<description>Craft a Nurse Haywick plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Haywick</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/NurseHaywick</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_IzzyMoonbow</defName>
+				<label>Hi, New Friend!</label>
+				<description>Craft an Izzy Moonbow plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_IzzyMoonbow</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/IzzyMoonbow</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_PinkiePie</defName>
+				<label>Party All The Time</label>
+				<description>Craft a Pinkie Pie plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_PinkiePie</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/PinkiePie</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_PrincessCadence</defName>
+				<label>All We Need Is Love</label>
+				<description>Craft a Princess Cadence plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_PrincessCadence</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/PrincessCadence</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_PrincessCelestia</defName>
+				<label>Praise The Sun</label>
+				<description>Craft a Princess Celestia plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_PrincessCelestia</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/PrincessCelestia</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_PrincessLuna</defName>
+				<label>Praise The Moon</label>
+				<description>Craft a Princess Luna plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_PrincessLuna</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/PrincessLuna</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_RainbowDash</defName>
+				<label>Gotta Go Fast</label>
+				<description>Craft a Rainbow Dash plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_RainbowDash</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/RainbowDash</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Rarity</defName>
+				<label>Fabulous, Darling!</label>
+				<description>Craft a Rarity plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Rarity</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/Rarity</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Scootaloo</defName>
+				<label>Insert Chicken Joke Here</label>
+				<description>Craft a Scootaloo plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Scootaloo</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/Scootaloo</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_ShiningArmour</defName>
+				<label>Ooh, Shiny!</label>
+				<description>Craft a Shining Armour plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_ShiningArmour</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/ShiningArmour</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_StarlightGlimmer</defName>
+				<label>Glim Glammed Up</label>
+				<description>Craft a Starlight Glimmer plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_StarlightGlimmer</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/StarlightGlimmer</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_SweetieBelle</defName>
+				<label>Squeaking Not Included</label>
+				<description>Craft a Sweetie Belle plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_SweetieBelle</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/SweetieBelle</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_TwilightSparkle</defName>
+				<label>Book Horse</label>
+				<description>Craft a Twilight Sparkle plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_TwilightSparkle</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/TwilightSparkle</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_ElementsOfHarmony</defName>
+				<label>The Six</label>
+				<description>Craft the Elements of Harmony</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>MLRP_ElementsOfHarmony</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/ElementsOfHarmony</texPath>
+				<points>60</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<!--BUILDINGS-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_DiscordLamp</defName>
+				<label>There, All Better</label>
+				<description>Build a Discord lamp</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_DiscordLamp</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Building/DiscordLamp</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_ScrewballGenerator</defName>
+				<label>Oddly Powerful</label>
+				<description>Build a Screwball generator</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_ScrewballGenerator</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Building/Screwball</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_SweetieBot</defName>
+				<label>All Systems Nominal</label>
+				<description>Build a Sweetie Bot turret</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_Turret_SweetieBot</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Building/SweetieBot</texPath>
+				<points>25</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<!--WEAPONS-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_WifeThrower</defName>
+				<label>(Crystal) Heart-Seeking Missile</label>
+				<description>Craft a wife thrower</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>MLRP_WifeThrower</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Weapons/ShiningArmourThrowing</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_TennisBallLauncher</defName>
+				<label>Having A Ball</label>
+				<description>Craft a tennis ball launcher</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>Izzy_SmokeLauncher</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Weapons/IzzyWithTennisBall</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_RainbowLaser</defName>
+				<label>Pew Pew</label>
+				<description>Craft a rainbow laser</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>MLRP_ElementsOfHarmonyWeaponised</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/ElementsOfHarmony</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_RainbowLaserLegendary</defName>
+				<label>Nothing Stops The Friendship Train</label>
+				<description>Craft a rainbow laser of legendary quality</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>MLRP_ElementsOfHarmonyWeaponised</def>
+					<quality>Legendary</quality>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/ElementsOfHarmony</texPath>
+				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_OrbitalFriendShipCannon</defName>
+				<label>Friendship Is Firepower</label>
+				<description>Obtain an Orbital Friendship Cannon</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemTracker">
+					<def>MLRP_OFC_Weapon</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/EquestrianFlag</texPath>
+				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+	    </value>
+    </match>
+</Operation>
+
+<!--IDEOLOGY EXPANSION-->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Achievements Expanded</li>
+        <li>[MLP] My Little RimPony - Ideology</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+			<!--PLUSHIES-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_KingSombra</defName>
+				<label>Crystalsssss</label>
+				<description>Craft a King Sombra plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_KingSombra</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/KingSombra</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Zecora</defName>
+				<label>Craft Me Today, An Achievement Comes Your Way</label>
+				<description>Craft a Zecora plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Zecora</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/PonyPlush/Zecora</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+		</value>
+	</match>
+</Operation>
+	
+</Patch>

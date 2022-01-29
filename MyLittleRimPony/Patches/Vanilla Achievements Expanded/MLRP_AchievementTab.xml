@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Achievements Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+			<AchievementsExpanded.AchievementTabDef>
+				<defName>MLRP_AchievementTab</defName>
+				<label>My Little RimPony</label>
+			</AchievementsExpanded.AchievementTabDef>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>
