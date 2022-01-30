@@ -85,4 +85,8 @@
     </weaponTags>
   </ThingDef>
   
+	<ThingDef Name="MLRP_EOHWeapon" ParentName="MLRP_BaseMakeableGun" Abstract="True">
+		<researchPrerequisite>Projectile_HarmonyRainbow</researchPrerequisite>
+	</ThingDef>
+  
 </Defs>

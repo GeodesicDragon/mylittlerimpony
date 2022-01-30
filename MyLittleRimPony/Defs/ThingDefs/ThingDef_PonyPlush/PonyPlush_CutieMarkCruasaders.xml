@@ -63,7 +63,7 @@
     <defName>MLRP_MakeCMC_Plushies</defName>
     <label>make Cutie Mark Crusaders</label>
     <description>Create the Cutie Mark Crusaders using one of each CMC plush.</description>
-    <jobString>Making Elements of Harmony.</jobString>
+    <jobString>Making Cutie Mark Crusaders</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Tailor</effectWorking>
@@ -110,7 +110,7 @@
     <defName>MLRP_MakeCMC_Cloth</defName>
     <label>make Cutie Mark Crusaders (alt.)</label>
     <description>Create the Cutie Mark Crusaders using just cloth.</description>
-    <jobString>Making Elements of Harmony.</jobString>
+    <jobString>Making Cutie Mark Crusaders</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Tailor</effectWorking>

@@ -334,7 +334,7 @@
     <initialResistanceRange>5~7</initialResistanceRange>
     <label>brony mercenary</label>
 	<labelPlural>brony mercenaries</labelPlural>
-    <combatPower>160</combatPower>
+    <combatPower>60</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>
@@ -369,7 +369,7 @@
     <initialResistanceRange>7~9</initialResistanceRange>
     <label>melee brony mercenary</label>
 	<labelPlural>melee brony mercenaries</labelPlural>
-    <combatPower>160</combatPower>
+    <combatPower>60</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>
@@ -406,7 +406,7 @@
     <initialResistanceRange>9~12</initialResistanceRange>
     <label>elite brony mercenary</label>
 	<labelPlural>elite brony mercenaries</labelPlural>
-    <combatPower>200</combatPower>
+    <combatPower>75</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>

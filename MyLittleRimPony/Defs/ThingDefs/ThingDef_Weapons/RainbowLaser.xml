@@ -109,10 +109,8 @@
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
-    </recipeMaker>
-	<researchPrerequisites>
-      <li>MLRP_WeaponisedElementsResearch</li>
-    </researchPrerequisites>
+	  <researchPrerequisite>MLRP_WeaponisedElementsResearch</researchPrerequisite>
+    </recipeMaker>	
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

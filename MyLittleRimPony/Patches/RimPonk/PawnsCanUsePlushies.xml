@@ -26,22 +26,10 @@
 				<li>PonyPlush_RainbowDash</li>
 				<li>PonyPlush_Rarity</li>
 				<li>PonyPlush_Scootaloo</li>
+				<li>PonyPlush_ShiningArmour</li>
 				<li>PonyPlush_StarlightGlimmer</li>
+				<li>PonyPlush_SweetieBelle</li>
 				<li>PonyPlush_TwilightSparkle</li>
-			</value>
-    </match>
-</Operation>
-
-<Operation Class="PatchOperationFindMod">
-    <mods>
-        <li>RimPonk</li>
-        <li>[MLP] My Little RimPony - Ideology</li>
-    </mods>
-    <match Class="PatchOperationAdd">
-			<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony"]/alienRace/raceRestriction/whiteApparelList</xpath>
-			<value>
-				<li>PonyPlush_KingSombra</li>
-				<li>PonyPlush_Zecora</li>
 			</value>
     </match>
 </Operation>

@@ -76,7 +76,7 @@
     <defName>MLRP_MakeEOH_Plushies</defName>
     <label>make Elements of Harmony</label>
     <description>Create the Elements of Harmony using one of each Mane Six plush and some gold.</description>
-    <jobString>Making Elements of Harmony.</jobString>
+    <jobString>Making Elements of Harmony</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Tailor</effectWorking>
@@ -155,7 +155,7 @@
     <defName>MLRP_MakeEOH_Cloth</defName>
     <label>make Elements of Harmony (alt.)</label>
     <description>Create the Elements of Harmony using a lot of cloth and some gold.</description>
-    <jobString>Making Elements of Harmony.</jobString>
+    <jobString>Making Elements of Harmony</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Tailor</effectWorking>

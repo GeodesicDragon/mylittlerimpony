@@ -1,3 +1,19 @@
+Version 1.85.157 (January 30th 2022)
+
+* Added three new achievements.
+	* Craft a legendary quality wife thrower.
+	* Craft a legendary quality tennis ball launcher.
+	* Build ten Sweetie Bot turrets.
+* Fixed RimPonk pony pawns being unable to equip the Sweetie Belle plush.
+* Fixed RimPonk pony pawns being unable to equip the Shining Armour plush.
+* Fixed being able to make Rainbow Lasers before the research for it was completed.
+* Fixed job showing as 'Making Elements of Harmony' while a pawn was making the Cutie Mark Crusaders.
+* Fixed '[[MLP] My Little RimPony] Patch operation Verse.PatchOperationFindMod(RimPonk, [MLP] My Little RimPony - Ideology) failed' error.
+* Reduced combat power of brony mercenaries to 60 (was 160).
+* Reduced combat power of melee brony mercenaries to 60 (was 160).
+* Reduced combat power of elite brony mercenaries to 75 (was 200).
+* Made some adjustments to the maxPawnCostPerTotalPointsCurve for the NPC faction, which should increase the number of pawns they can utilise in combat.
+
 Version 1.82.147 (January 29th 2022)
 
 * Added Shining Armour as a plushie (+15% to blunt, heat and sharp armour ratings).

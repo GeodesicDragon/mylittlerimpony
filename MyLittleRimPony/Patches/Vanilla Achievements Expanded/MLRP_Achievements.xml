@@ -391,6 +391,21 @@
 				<points>25</points>
 			</AchievementsExpanded.AchievementDef>
 			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_SweetieBot_TenTurrets</defName>
+				<label>Beep Boop</label>
+				<description>Build ten Sweetie Bot turrets</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_Turret_SweetieBot</def>
+					<count>10</count>
+				</tracker>
+				
+				<texPath>Achievements/TenSweetieBots</texPath>
+				<points>250</points>
+			</AchievementsExpanded.AchievementDef>
+			
 			<!--WEAPONS-->
 			
 			<AchievementsExpanded.AchievementDef>
@@ -401,6 +416,22 @@
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>MLRP_WifeThrower</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Weapons/ShiningArmourThrowing</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_WifeThrowerLegendary</defName>
+				<label>The Power Of Love</label>
+				<description>Craft a wife thrower of legendary quality</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>MLRP_WifeThrower</def>
+					<quality>Legendary</quality>
 					<count>1</count>
 				</tracker>
 				
@@ -421,6 +452,22 @@
 				
 				<texPath>Things/Weapons/IzzyWithTennisBall</texPath>
 				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_TennisBallLauncherLegendary</defName>
+				<label>Sssssssmokin'!</label>
+				<description>Craft a tennis ball launcher of legendary quality</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>MLRP_ElementsOfHarmonyWeaponised</def>
+					<quality>Legendary</quality>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Weapons/IzzyWithTennisBall</texPath>
+				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
 			<AchievementsExpanded.AchievementDef>
@@ -470,51 +517,6 @@
 			</AchievementsExpanded.AchievementDef>
 	    </value>
     </match>
-</Operation>
-
-<!--IDEOLOGY EXPANSION-->
-
-<Operation Class="PatchOperationFindMod">
-    <mods>
-        <li>Vanilla Achievements Expanded</li>
-        <li>[MLP] My Little RimPony - Ideology</li>
-    </mods>
-    <match Class="PatchOperationAdd">
-	    <xpath>Defs</xpath>
-	    <value>
-			<!--PLUSHIES-->
-			
-			<AchievementsExpanded.AchievementDef>
-				<defName>MLRP_Achievement_KingSombra</defName>
-				<label>Crystalsssss</label>
-				<description>Craft a King Sombra plushie</description>
-				<tab>MLRP_AchievementTab</tab>
-				
-				<tracker Class="AchievementsExpanded.ItemCraftTracker">
-					<def>PonyPlush_KingSombra</def>
-					<count>1</count>
-				</tracker>
-				
-				<texPath>Things/PonyPlush/KingSombra</texPath>
-				<points>10</points>
-			</AchievementsExpanded.AchievementDef>
-			
-			<AchievementsExpanded.AchievementDef>
-				<defName>MLRP_Achievement_Zecora</defName>
-				<label>Craft Me Today, An Achievement Comes Your Way</label>
-				<description>Craft a Zecora plushie</description>
-				<tab>MLRP_AchievementTab</tab>
-				
-				<tracker Class="AchievementsExpanded.ItemCraftTracker">
-					<def>PonyPlush_Zecora</def>
-					<count>1</count>
-				</tracker>
-				
-				<texPath>Things/PonyPlush/Zecora</texPath>
-				<points>10</points>
-			</AchievementsExpanded.AchievementDef>
-		</value>
-	</match>
 </Operation>
 	
 </Patch>
