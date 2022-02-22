@@ -16,6 +16,7 @@ namespace MyLittleRimPony
     {
         public static TraitDef MLRP_BronyTrait;
         public static TraitDef MLRP_AntiBronyTrait;
+        public static TraitDef Kind;
 
         static MyDefOf()
         {
@@ -102,7 +103,7 @@ public class ThoughtWorker_AntiBronyVsBrony : ThoughtWorker
 
             if (otherPawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait))
             {
-                return 35f;
+                return 25f;
             }
             return 0f;
         }

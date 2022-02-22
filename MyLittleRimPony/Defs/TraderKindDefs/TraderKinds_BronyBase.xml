@@ -237,7 +237,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>500~1500</countRange>
+        <countRange>2500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -329,16 +329,11 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>500~1500</countRange>
+        <countRange>3000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
         <countRange>50</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Silver</thingDef>
-        <countRange>500~1500</countRange>
-      </li>
 	  
 	  <!--Weapons and Armour-->
       <li Class="StockGenerator_WeaponsRanged">
@@ -371,7 +366,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MLRP_OFC_Weapon</thingDef>
-        <countRange>-5~1</countRange>
+        <countRange>-4~1</countRange>
       </li>
       
       <!-- Buying -->

@@ -1,3 +1,38 @@
+Version 1.88.178 (February 22nd 2022)
+
+* Added an achievement to make ten Pinkie Pie plushies.
+* Tidied up the Patches folder by putting files into their relevant folders.
+* The creator of RimPonk has addressed the issue which made Nightmare Moon and batponies afraid of the dark, so I've removed the fixes for it from this mod.
+* Plushie benches no longer short circuit when exposed to rain.
+* Building a plushie bench no longer requires you to specify any stuff for it be made from.
+* Building a plushie bench no longer requires you to research complex clothing.
+* Plushie traders no longer stock weapons.
+* Plushie traders now stock one of each plush by default.
+* Plushie traders can now appear as orbital traders.
+* Increased silver carried by plushie traders to 2000 (was 1500).
+* Increased silver carried by NPC faction bulk goods traders to 2500 (was 500-1500).
+* Increased silver carried by NPC faction combat suppliers to 3000 (was 500-1500).
+* NPC faction weapon traders now have a slightly improved chance of stocking an Orbital Friendship Cannon.
+* Updated the texture used for the 'Power Of Love' achievement.
+* Updated the texture used for the 'Sssssssmokin'!' achievement.
+* Updated the texture used for the 'Nothing Stops The Friendship Train' achievement.
+* Updated list of random names used by NPC faction settlements.
+* Anti-bronies are back to having a -50 opinion of bronies (was -80).
+* Bronies now have a +25 opinion of other bronies (was +35).
+* Halved the number of RimPonk pony pawns that can appear as part of NPC faction groups.
+* Fixed RimPonk factions being unable to send plushie traders.
+* Tips added by this mod are no longer patched into the core tipset.
+
+How about that, then? Twenty-two changes made on Twosday.
+
+Version 1.87.157 (February 5th 2022)
+
+* Added Nurse Redheart (building).
+	* Requires 350W of power.
+	* Spawns 5 Medicine every 10 days.
+	* Only available as a quest reward.
+* Added achievement to obtain Nurse Redheart.
+
 Version 1.85.157 (January 30th 2022)
 
 * Added three new achievements.

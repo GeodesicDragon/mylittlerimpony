@@ -3,7 +3,7 @@
 |----------------------------------|
 
 1. Adds plush versions of a variety of ponies, each of which can be carried in the utility slot to confer bonuses depending on which pony it is. It also adds my OC, because I *did* make the mod after all. :P
-2. Adds the Elements of Harmony, made by combining one of each Mane Six plush with 100 gold. This item confers the bonuses of all Mane Six plushies at once.
+2. Adds the Elements of Harmony, made by combining one of each Mane Six plush with 100 gold (or by using 1800 cloth with 100 gold). This item combines the bonuses given by all of the Mane Six plushies into one item.
 3. Adds a pila-based weapon which hurls Cadences at your enemy. This 'wife thrower' has the same stats as a pila, though it can be thrown a bit quicker; it requires skill 3 Crafting, a Cadence plush and 100 wood to make.
 4. Adds the Orbital Friendship Cannon (OFC), an item only available through quests or traders. It can be rearmed using 100 gold.
 5. All items added by this mod, with the exception of the OFC, are made at a dedicated plushie bench.
@@ -13,13 +13,15 @@
 9. Adds the Discord Lamp, which is the same as a normal standing lamp, except it looks like Discord. Requires 300 cloth to build, but - since this IS the Lord of Chaos we're talking about - it does not electricity in order to light up a room.
 10. Adds the Screwball generator, which is basically a pony that generates 250W of power.
 11. Adds an NPC version of the brony faction, which you can help, hinder or annihilate as you see fit.
-12. Sweetie Bot turret. 'nuff said.
-13. Apple Bloom, Scootaloo and Sweetie Belle can be combined into the Cutie Mark Crusaders to gain all three of their bonuses at once.
+12. Adds a Sweetie Bot turret. 'nuff said.
+13. Apple Bloom, Scootaloo and Sweetie Belle can be combined into the Cutie Mark Crusaders to gain all three of their bonuses at once (or you could use 900 cloth).
 14. Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -80 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie.
-16. Adds patches that work with Irn-Bru And Other Scottish Delights, if you have it enabled.
-15. Adds patches that work with RimPonk, if you have it enabled.
+16. Adds patches which work with Irn-Bru And Other Scottish Delights, if you have it enabled.
+15. Adds patches which work with RimPonk, if you have it enabled.
 16. Adds a patch that works with Bulk Carrier, if you have it enabled.
 17. Adds a patch that works with Reverse Engineered Mechanoid Shields, if you have it enabled.
+18. Adds patches which work with Vanilla Achievements Expanded, if you have it enabled.
+19. Adds Nurse Redheart, obtainable only via quests, who will provide 5 Medicine every 10 days as long as she has 350W of power.
 
 Colonists will equip plushies themselves, though you might need to force them to wear the one that actually suits them better.
 

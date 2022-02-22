@@ -9,7 +9,7 @@
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/FactionDef[defName="FourTribes"]/caravanTraderKinds</xpath>
 	    <value>
-	        <li>Caravan_Scottish_Goods</li>
+	        <li>MLRP_PlushieTrader</li>
 	    </value>
     </match>
 </Operation>
@@ -21,7 +21,7 @@
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/FactionDef[defName="BatponyTribeCannibal"]/caravanTraderKinds</xpath>
 	    <value>
-	        <li>Caravan_Scottish_Goods</li>
+	        <li>MLRP_PlushieTrader</li>
 	    </value>
     </match>
 </Operation>
@@ -33,7 +33,7 @@
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/FactionDef[defName="Changelings"]/caravanTraderKinds</xpath>
 	    <value>
-	        <li>Caravan_Scottish_Goods</li>
+	        <li>MLRP_PlushieTrader</li>
 	    </value>
     </match>
 </Operation>
@@ -45,7 +45,7 @@
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/FactionDef[defName="RedCommonwealth"]/caravanTraderKinds</xpath>
 	    <value>
-	        <li>Caravan_Scottish_Goods</li>
+	        <li>MLRP_PlushieTrader</li>
 	    </value>
     </match>
 </Operation>
@@ -57,7 +57,7 @@
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/FactionDef[defName="Griffon_Mercs"]/caravanTraderKinds</xpath>
 	    <value>
-	        <li>Caravan_Scottish_Goods</li>
+	        <li>MLRP_PlushieTrader</li>
 	    </value>
     </match>
 </Operation>
@@ -69,7 +69,7 @@
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/FactionDef[defName="Sunblessed"]/caravanTraderKinds</xpath>
 	    <value>
-	        <li>Caravan_Scottish_Goods</li>
+	        <li>MLRP_PlushieTrader</li>
 	    </value>
     </match>
 </Operation>

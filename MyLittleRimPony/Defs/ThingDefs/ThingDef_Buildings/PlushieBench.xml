@@ -20,15 +20,10 @@
     </graphicData>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <costStuffCount>75</costStuffCount>
     <costList>
       <Steel>50</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-    </stuffCategories>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
@@ -55,7 +50,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>true</shortCircuitInRain>
+        <shortCircuitInRain>false</shortCircuitInRain>
         <basePowerConsumption>120</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
@@ -71,7 +66,6 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>ComplexClothing</li>
       <li>Electricity</li>
     </researchPrerequisites>
   </ThingDef>

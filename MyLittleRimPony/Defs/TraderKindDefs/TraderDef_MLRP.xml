@@ -4,33 +4,96 @@
 		<defName>MLRP_PlushieTrader</defName>
 		<label>plushie trader</label>
 		<commonality>0.2</commonality>
-		<orbital>false</orbital>
+		<orbital>true</orbital>
 		<requestable>true</requestable>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
-				<countRange>1500</countRange>
+				<countRange>2000</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Cloth</thingDef>
 				<countRange>150~600</countRange>
 			</li>
-		  <li Class="StockGenerator_Category">
-			<categoryDef>Pony_Plushies</categoryDef>
-			<thingDefCountRange>3~12</thingDefCountRange>
-			<totalPriceRange>200~300</totalPriceRange>
-		  </li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>MLRP_WifeThrower</thingDef>
-				<countRange>0~1</countRange>
+				<thingDef>PonyPlush_AppleBloom</thingDef>
+				<countRange>1</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>MLRP_ElementsOfHarmonyWeaponised</thingDef>
-				<countRange>-3~1</countRange>
+				<thingDef>PonyPlush_Applejack</thingDef>
+				<countRange>1</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>Izzy_SmokeLauncher</thingDef>
-				<countRange>0~1</countRange>
+				<thingDef>PonyPlush_BigMacintosh</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_Cheerilee</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_CutieMarkCrusaders</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_Discord</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_Fluttershy</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_Haywick</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_IzzyMoonbow</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_PinkiePie</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_PrincessCadence</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_PrincessCelestia</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_PrincessLuna</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_RainbowDash</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_Rarity</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_Scootaloo</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_ShiningArmour</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_StarlightGlimmer</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_SweetieBelle</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_TwilightSparkle</thingDef>
+				<countRange>1</countRange>
 			</li>
 		</stockGenerators>
 	</TraderKindDef>

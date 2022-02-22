@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!--TRIBAL FACTIONS-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="TribeBase"]/caravanTraderKinds</xpath>
+		<value>
+			<li>MLRP_PlushieTrader</li>
+		</value>
+	</Operation>
+
+	<!--OUTLANDER FACTIONS-->
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>MLRP_PlushieTrader</li>
+	    </value>
+	</Operation>
+
+</Patch>

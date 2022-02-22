@@ -180,6 +180,21 @@
 			</AchievementsExpanded.AchievementDef>
 			
 			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_PinkiePies</defName>
+				<label>Fun, Fun, Fun, Fun, Fun!</label>
+				<description>Craft ten Pinkie Pie plushies</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_PinkiePie</def>
+					<count>10</count>
+				</tracker>
+				
+				<texPath>Achievements/TenPinkiePies</texPath>
+				<points>100</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_PrincessCadence</defName>
 				<label>All We Need Is Love</label>
 				<description>Craft a Princess Cadence plushie</description>
@@ -425,7 +440,7 @@
 			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_WifeThrowerLegendary</defName>
-				<label>The Power Of Love</label>
+				<label>Power Of Love</label>
 				<description>Craft a wife thrower of legendary quality</description>
 				<tab>MLRP_AchievementTab</tab>
 				
@@ -435,7 +450,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Weapons/ShiningArmourThrowing</texPath>
+				<texPath>Achievements/LegendaryWifeThrower</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -466,7 +481,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Weapons/IzzyWithTennisBall</texPath>
+				<texPath>Achievements/LegendaryTennisBallLauncher</texPath>
 				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -497,7 +512,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/ElementsOfHarmony</texPath>
+				<texPath>Achievements/LegendaryRainbowLaser</texPath>
 				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -514,6 +529,21 @@
 				
 				<texPath>Things/EquestrianFlag</texPath>
 				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_NurseRedheart</defName>
+				<label>Hellooooooo, Nurse!</label>
+				<description>Obtain Nurse Redheart</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemTracker">
+					<def>PonyPlush_ShiningArmour</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Things/Building/NurseRedheart</texPath>
+				<points>30</points>
 			</AchievementsExpanded.AchievementDef>
 	    </value>
     </match>
