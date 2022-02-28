@@ -75,6 +75,7 @@
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
+	<researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>

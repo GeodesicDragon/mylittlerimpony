@@ -1,27 +1,29 @@
-All art was sourced from Derpibooru (https://www.derpibooru.org) and is used with permission - usually obtained from the description on the piece - or under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License where possible; credit is followed by the image ID.
+All art was sourced from Derpibooru (https://www.derpibooru.org), unless otherwise specified, and is used with permission - usually obtained from the description on the piece - or under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License where possible; credit is followed by the image ID.
 
-Apple Bloom: sketchmcreations* (1553341)
+Apple Bloom: sketchmcreations (1553341)
 Applejack: CindyDreamLight (2450572)
-Big Macintosh: dashiesparkle* (1167810)
+Big Macintosh: dashiesparkle (1167810)
 Cheerilee: juniberries (2527617)
-Discord (plush): chrzanek97* (2584926)
+Discord (plush): chrzanek97 (2584926)
 Discord (lamp): cloudyglow (1372861)**
 Fluttershy: RainbowCrab (2508169)
 Nurse Haywick: GraphiteSketch AKA Timsplosion (1852562)
+Nurse Redheart: drfatalchunk* (1464636)
 Izzy Moonbow (plush): inaactive (2561243)
 Izzy Moonbow (smoke launcher): ejlightning007arts (2718787)
 Pinkie Pie: flizzick (2490254)
-Princess Cadence: Unknown Artist (2115510)
-Princess Celestia: killagouge* (2058026)
+Princess Cadence: princesscaramelo (2115510)
+Princess Celestia: killagouge (2058026)
 Princess Luna: chrzanek97 (2124813)
 Rainbow Dash: TheMightyShizam* (2501021)
-Rarity: MoongazePonies (2503325)
+Rarity: MoongazePonies (2734969)
 Screwball: vexorb (32017)
-Scootaloo: sketchmcreations* (1551560)
-Shining Armour: theshadowstone* (936529)
-Starlight Glimmer: zacatron94* (1426211)
+Scootaloo: sketchmcreations (1551560)
+Shining Armour (wife thrower): keanno (148650)
+Shining Armour (plush): 90sigma (626430)
+Starlight Glimmer: zacatron94/BrunoMilan13 (1426211)
 Sweetie Belle: sirwarluscake* (1184509)
-Sweetie Bot: weegeestareatyou* (1180288)
+Sweetie Bot: weegeestareatyou (1180288)
 Twilight Sparkle: andoanimalia (2521465)
 Elements of Harmony: spiritofthwwolf* (sic) (63922)
 Cutie Mark Crusaders: parclytaxel* (1761090)
@@ -35,5 +37,5 @@ OTHER IMAGES
 
 Star image (used in some achievements): http://clipart-library.com/clipart/216.htm
 
-* Permission could not be sought from this person; should they get in touch with a request to remove the image, I will gladly comply.
-** I needed to edit this image before I could use it.
+* Source provided on Derpibooru was either missing or invalid.
+** I had to edit this image before I could use it.

@@ -17,14 +17,13 @@
       <ComponentSpacer>6</ComponentSpacer>
     </costList>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
     </building>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>350</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Spawner">
         <requiresPower>true</requiresPower>
@@ -56,7 +55,7 @@
     <rotatable>false</rotatable>
     <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
-    <tradeability>Sellable</tradeability>
+    <tradeability>None</tradeability>
     <tradeTags>
       <li>ExoticBuilding</li>
     </tradeTags>

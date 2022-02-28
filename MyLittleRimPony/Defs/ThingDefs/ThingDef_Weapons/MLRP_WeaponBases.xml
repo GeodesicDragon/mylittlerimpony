@@ -75,7 +75,6 @@
         <li>PlushieBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 

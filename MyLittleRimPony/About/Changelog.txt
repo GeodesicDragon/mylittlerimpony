@@ -1,3 +1,31 @@
+Version 1.89.196 (February 28th 2022)
+
+* Removed the multiplayer compatibility patch, as it turns out it's not required.
+* NPC faction bulk goods traders should now be stocking plant-based foods such as rice and corn.
+* NPC faction combat suppliers now have a 50% chance of stocking an Orbital Friendship Cannon.
+* Screwball now requires research before she can be built.
+	* Can be done at a simple research bench.
+	* Requires you to have researched Electricity first.
+	* Tech is Industrial level, with a cost of 600.
+* Screwball no longer requires components to build.
+* Building Screwballs now requires a minimum Construction skill of 3 (was 5).
+* Making wife throwers no longer requires you to research Gunsmithing first.
+* Nurse Redheart should no longer break down.
+* Nurse Redheart is no longer tradeable.
+* Changed the sound played when Nurse Redheart is destroyed.
+* Changed the amount of steel needed to build a plushie bench to 75 (was 50).
+* Plushie benches no longer require a minimum Construction skill to build.
+* Tweaked the description for the rainbow laser research.
+
+Version 1.89.183 (February 24th 2022)
+
+* Added compatibility for the multiplayer mod; it has NOT been tested, so please let me know if anything breaks.
+* Fixed 'Mod geodesicdragon.rimpony has multiple Verse.BuildableDefs named PlushieBench. Skipping.' error.
+* Fixed 'Mod geodesicdragon.rimpony has multiple Verse.ThingDefs named PlushieBench. Skipping.' error.
+* Fixed 'Mod geodesicdragon.rimpony has multiple RimWorld.TraderKindDefs named MLRP_PlushieTrader. Skipping.' error.
+* Fixed '...\RimWorld\Mods\MyLittleRimPony\Defs\TraderKindDefs/TraderKinds_BronyBase.xml: unknown parse failure' error.
+* Updated the texture used for the Shining Armour plush.
+
 Version 1.88.178 (February 22nd 2022)
 
 * Added an achievement to make ten Pinkie Pie plushies.

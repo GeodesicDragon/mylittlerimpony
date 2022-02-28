@@ -37,7 +37,6 @@
     </building>
     <costList>
       <Cloth>300</Cloth>
-      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -51,8 +50,8 @@
     <designationCategory>Power</designationCategory>
     <constructEffect>ConstructDirt</constructEffect>
     <researchPrerequisites>
-      <li>Electricity</li>
+      <li>MLRP_ScrewballResearch</li>
     </researchPrerequisites>
-    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
   </ThingDef>
 </Defs>  

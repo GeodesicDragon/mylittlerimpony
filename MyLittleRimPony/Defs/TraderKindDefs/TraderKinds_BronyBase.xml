@@ -276,6 +276,8 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>PlantFoodRaw</categoryDef>
+        <thingDefCountRange>1~10</thingDefCountRange>
+        <totalPriceRange>1500~2500</totalPriceRange>
       </li>
            
       <!-- Apparel -->
@@ -334,7 +336,7 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
         <countRange>50</countRange>
-	  
+	  </li>
 	  <!--Weapons and Armour-->
       <li Class="StockGenerator_WeaponsRanged">
         <countRange>5~5</countRange>
@@ -366,7 +368,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MLRP_OFC_Weapon</thingDef>
-        <countRange>-4~1</countRange>
+        <countRange>0~1</countRange>
       </li>
       
       <!-- Buying -->

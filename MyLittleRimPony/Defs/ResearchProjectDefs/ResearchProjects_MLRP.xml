@@ -1,6 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!--SCREWBALL-->
+
+  <ResearchProjectDef Abstract="True" Name="MLRP_ScrewballBase">
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+	<requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="MLRP_ScrewballBase">
+		<defName>MLRP_ScrewballResearch</defName>
+		<label>Screwball generator</label>
+		<description>Harness the power of a pony supposedly cursed by the Lord of Chaos for your own needs.</description>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--RAINBOW LASER-->
+	
   <ResearchProjectDef Abstract="True" Name="MLRP_WeaponisedEOH">
     <baseCost>5000</baseCost>
     <techLevel>Industrial</techLevel>
@@ -8,24 +30,18 @@
 	<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
-    <!--<techprintCount>1</techprintCount>
-    <techprintCommonality>0.5</techprintCommonality>
-    <techprintMarketValue>3000</techprintMarketValue>
-    <heldByFactionCategoryTags>
-		<li>Outlander</li>
-		<li>Empire</li>
-	</heldByFactionCategoryTags>-->
   </ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="MLRP_WeaponisedEOH">
 		<defName>MLRP_WeaponisedElementsResearch</defName>
 		<label>Rainbow Laser</label>
-		<description>Allows you to turn Elements of Harmony into rainbow laser guns.</description>
+		<description>Turn plain old Elements of Harmony into awesome rainbow laser guns.</description>
 		<prerequisites>
 			<li>PrecisionRifling</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>0</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
+
 </Defs>
