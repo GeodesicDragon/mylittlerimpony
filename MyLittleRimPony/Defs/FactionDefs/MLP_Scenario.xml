@@ -95,14 +95,14 @@
 		
         <!-- Starting buildings -->
 		
-		<li Class="ScenPart_StartingThing_Defined">
+		<li Class="ScenPart_StartingThing_Defined"> <!--li[15]-->
           <def>StartingThing_Defined</def>
           <thingDef>Turret_MiniTurret</thingDef>
           <count>4</count>
 		  <stuff>Steel</stuff>
         </li>
 		
-		<li Class="ScenPart_StartingThing_Defined">
+		<li Class="ScenPart_StartingThing_Defined"> <!--li[16]-->
           <def>StartingThing_Defined</def>
           <thingDef>MLRP_ScrewballGenerator</thingDef>
           <count>2</count>
@@ -110,7 +110,7 @@
 
         <!--Game start dialog-->
 		
-        <li Class="ScenPart_GameStartDialog">
+        <li Class="ScenPart_GameStartDialog"> <!--li[17]-->
           <def>GameStartDialog</def>
           <text>You're finally done wandering the planet; it is now time for you to build a new home where you can live in peace.
 

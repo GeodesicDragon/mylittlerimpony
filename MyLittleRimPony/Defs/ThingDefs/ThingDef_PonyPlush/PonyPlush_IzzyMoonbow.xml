@@ -1,41 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_IzzyMoonbow</defName>
     <label>Izzy Moonbow</label>
     <description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.</description>
     <techLevel>Industrial</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-      <recipeUsers>
-        <li>PlushieBench</li>
-      </recipeUsers>
-      <soundWorking>Recipe_Tailor</soundWorking>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/PonyPlush/IzzyMoonbow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
-    <statBases>
-      <MarketValue>200</MarketValue>
-      <WorkToMake>6000</WorkToMake>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Mass>1.0</Mass>
-      <Flammability>1</Flammability>
-      <EquipDelay>0.1</EquipDelay>
-    </statBases>
-    <thingCategories>
-      <li>Pony_Plushies</li>
-    </thingCategories>
-    <costList>
-      <Cloth>300</Cloth>
-    </costList>
     <apparel>
   <careIfWornByCorpse>true</careIfWornByCorpse>
   <countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -85,5 +60,4 @@
       </li>
     </stages>
   </ThoughtDef>
-  
 </Defs>

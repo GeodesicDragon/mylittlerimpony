@@ -1,3 +1,13 @@
+Version 1.93.198 (March 5th 2022)
+
+* If you have XML Extensions enabled, you can now access customisable settings for this mod by going to Options and clicking 'More Mod Settings.'
+	* Change how much cloth is needed to make plushies.
+	* Change the crafting skill needed to make plushies.
+	* Change the market value of plushies.
+	* Change whether or not bronies can be violent.
+* Fixed an error which allowed you to earn the achievement for obtaining Nurse Redheart after making a Shining Armour plush.
+* Sweetie Belle now reduces food poison chance by 10% (was 5%).
+
 Version 1.89.196 (February 28th 2022)
 
 * Removed the multiplayer compatibility patch, as it turns out it's not required.

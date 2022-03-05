@@ -39,3 +39,7 @@ Star image (used in some achievements): http://clipart-library.com/clipart/216.h
 
 * Source provided on Derpibooru was either missing or invalid.
 ** I had to edit this image before I could use it.
+
+MUSIC
+
+All music is from either the My Little Pony: Friendship is Magic TV series or My Little Pony: The Movie, and is used under Fair Use legislation. All music remains bound by the copyright of the owner; it is included in this mod for entertainment purposes only, and no profit is made from it.

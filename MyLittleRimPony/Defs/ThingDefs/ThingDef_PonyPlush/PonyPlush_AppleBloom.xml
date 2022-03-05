@@ -6,38 +6,14 @@
     <label>Apple Bloom</label>
     <description>Apple Bloom doesn't like to recall that time she had the Cutie Pox, but that doesn't stop anypony from reminding her every now and again.\n\nCarrying her makes you feel as though illness and disease have no hold on you.</description>
     <techLevel>Industrial</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-      <recipeUsers>
-        <li>PlushieBench</li>
-      </recipeUsers>
-      <soundWorking>Recipe_Tailor</soundWorking>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/PonyPlush/AppleBloom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
-    <statBases>
-      <MarketValue>200</MarketValue>
-      <WorkToMake>6000</WorkToMake>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Mass>1.0</Mass>
-      <Flammability>1</Flammability>
-      <EquipDelay>0.1</EquipDelay>
-    </statBases>
     <equippedStatOffsets>
       <ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
     </equippedStatOffsets>
-    <thingCategories>
-      <li>Pony_Plushies</li>
-    </thingCategories>
-    <costList>
-      <Cloth>300</Cloth>
-    </costList>
     <apparel>
   <careIfWornByCorpse>true</careIfWornByCorpse>
   <countsAsClothingForNudity>false</countsAsClothingForNudity>

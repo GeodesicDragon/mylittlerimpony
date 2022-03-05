@@ -1,0 +1,170 @@
+<Patch>
+
+<!--PLUSHIES: CLOTH REQUIRED-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>MLRP_PlushieCloth</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>300</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/costList/Cloth</xpath>
+				<value>
+					<Cloth>{MLRP_PlushieCloth}</Cloth> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--PLUSHIES: CRAFTING SKILL REQUIRED-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>MLRP_PlushieCraftingSkill</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>5</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/recipeMaker/skillRequirements/Crafting</xpath>
+				<value>
+					<Crafting>{MLRP_PlushieCraftingSkill}</Crafting> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--PLUSHIES: MARKET VALUE-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>MLRP_PlushieMarketValue</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>200</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>{MLRP_PlushieMarketValue}</MarketValue> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--BRONY TRAIT VIOLENCE CAPABILITY-->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>XML Extensions</li>
+    </mods>
+	<match Class="XmlExtensions.OptionalPatch">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_BroniesCanBeViolent</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/disabledWorkTags</xpath>
+				<value>
+					<disabledWorkTags></disabledWorkTags>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/degreeDatas/li/description</xpath>
+				<value>
+					<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, and {PAWN_pronoun} will never judge others based on their appearance, voice or breathing. Also, insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.</description>
+				</value>
+			</Operation>
+		</caseTrue>
+		<caseFalse>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/disabledWorkTags</xpath>
+				<value>
+					<disabledWorkTags>Violent</disabledWorkTags>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/degreeDatas/li/description</xpath>
+				<value>
+					<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, but {PAWN_pronoun} is against the idea of using violence.\n\n{PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.</description>
+				</value>
+			</Operation>
+		</caseFalse>
+	</match>
+</Operation>
+
+<!--SETTINGS WINDOW-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.CreateSettings">
+		<modId>geodesicdragon.rimpony</modId> <!--MUST be the same as the one entered earlier-->
+		<label>My Little RimPony</label> <!-- This is what displays as your mod's name-->
+		<settings> <!--This is where you define what settings are in the settings menu-->
+			<li Class="XmlExtensions.Setting.Text">
+				<text>IMPORTANT: You will need to restart RimWorld after changing any of these settings.</text>
+				<font>Medium</font>
+				<anchor>Middle</anchor>
+				<tooltip>null</tooltip>
+			</li>
+	
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<li Class="XmlExtensions.Setting.SplitColumn">
+				<leftCol>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Plushie Settings</text>
+						<font>Medium</font>
+						<anchor>Left</anchor>
+						<tooltip>null</tooltip>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_PlushieCloth</key>
+						<label>Cloth Needed: </label>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_PlushieCraftingSkill</key>
+						<label>Crafting Skill Required: </label>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_PlushieMarketValue</key>
+						<label>Market Value: </label>
+					</li>
+				</leftCol>
+				<rightCol>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Trait Settings</text>
+						<font>Medium</font>
+						<anchor>Left</anchor>
+						<tooltip>null</tooltip>
+					</li>
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<key>MLRP_BroniesCanBeViolent</key>
+						<label>Bronies are capable of violence</label>
+					</li>
+				</rightCol>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<li Class="XmlExtensions.Setting.ResetSettings"/>
+		</settings>
+	</match>
+</Operation>
+
+</Patch>

@@ -538,7 +538,7 @@
 				<tab>MLRP_AchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemTracker">
-					<def>PonyPlush_ShiningArmour</def>
+					<def>MLRP_NurseRedheart</def>
 					<count>1</count>
 				</tracker>
 				

@@ -16,7 +16,6 @@ namespace MyLittleRimPony
     {
         public static TraitDef MLRP_BronyTrait;
         public static TraitDef MLRP_AntiBronyTrait;
-        public static TraitDef Kind;
 
         static MyDefOf()
         {

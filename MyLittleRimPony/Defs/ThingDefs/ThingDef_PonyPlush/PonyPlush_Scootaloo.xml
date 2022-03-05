@@ -6,38 +6,14 @@
     <label>Scootaloo</label>
     <description>Scootaloo has had plenty of experience riding her scooter, but she's also had plenty of accidents.\n\nCarrying her makes you feel as though your injuries are healing faster.</description>
     <techLevel>Industrial</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-      <recipeUsers>
-        <li>PlushieBench</li>
-      </recipeUsers>
-      <soundWorking>Recipe_Tailor</soundWorking>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/PonyPlush/Scootaloo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
-    <statBases>
-      <MarketValue>200</MarketValue>
-      <WorkToMake>6000</WorkToMake>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Mass>1.0</Mass>
-      <Flammability>1</Flammability>
-      <EquipDelay>0.1</EquipDelay>
-    </statBases>
     <equippedStatOffsets>
       <InjuryHealingFactor>0.5</InjuryHealingFactor>
     </equippedStatOffsets>
-    <thingCategories>
-      <li>Pony_Plushies</li>
-    </thingCategories>
-    <costList>
-      <Cloth>300</Cloth>
-    </costList>
     <apparel>
   <careIfWornByCorpse>true</careIfWornByCorpse>
   <countsAsClothingForNudity>false</countsAsClothingForNudity>
