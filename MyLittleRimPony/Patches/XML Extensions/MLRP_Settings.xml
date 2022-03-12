@@ -21,6 +21,62 @@
 	</match>
 </Operation>
 
+<!--ELEMENTS OF HARMONY ALTERNATE RECIPE: CLOTH REQUIRED-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_PlushieCloth</key>
+		<apply>
+			<Operation Class="XmlExtensions.CreateVariable">
+				<value>{MLRP_PlushieCloth}</value>
+				<value2>6</value2>
+				<operation>*</operation>
+				<storeIn>MLRP_EOH_NewClothValue</storeIn>
+				<apply>
+					<Operation Class="PatchOperationReplace">
+						<xpath>Defs/RecipeDef[defName="MLRP_MakeEOH_Cloth"]/ingredients/li[1]/count</xpath>
+						<value>
+							<count>{MLRP_EOH_NewClothValue}</count>
+						</value>
+					</Operation>
+				</apply>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--CUTIE MARK CRUSADERS ALTERNATE RECIPE: CLOTH REQUIRED-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_PlushieCloth</key>
+		<apply>
+			<Operation Class="XmlExtensions.CreateVariable">
+				<value>{MLRP_PlushieCloth}</value>
+				<value2>3</value2>
+				<operation>*</operation>
+				<storeIn>MLRP_CMC_NewClothValue</storeIn>
+				<apply>
+					<Operation Class="PatchOperationReplace">
+						<xpath>Defs/RecipeDef[defName="MLRP_MakeCMC_Cloth"]/ingredients/li/count</xpath>
+						<value>
+							<count>{MLRP_CMC_NewClothValue}</count>
+						</value>
+					</Operation>
+				</apply>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
 <!--PLUSHIES: CRAFTING SKILL REQUIRED-->
 
 <Operation Class="PatchOperationFindMod">
@@ -60,6 +116,63 @@
 				</value>
 			</Operation>
 		</apply>
+	</match>
+</Operation>
+
+<!--PLUSHIES: TAINTED ON DEATH-->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>XML Extensions</li>
+    </mods>
+	<match Class="XmlExtensions.OptionalPatch">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_PlushiesTaintedOnDeath</key>
+		<defaultValue>true</defaultValue>
+		<caseTrue>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/apparel/careIfWornByCorpse</xpath>
+				<value>
+					<careIfWornByCorpse>true</careIfWornByCorpse>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/apparel/careIfWornByCorpse</xpath>
+				<value>
+					<careIfWornByCorpse>true</careIfWornByCorpse>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PonyPlush_CutieMarkCrusaders"]/apparel/careIfWornByCorpse</xpath>
+				<value>
+					<careIfWornByCorpse>true</careIfWornByCorpse>
+				</value>
+			</Operation>
+		</caseTrue>
+		<caseFalse>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/apparel/careIfWornByCorpse</xpath>
+				<value>
+					<careIfWornByCorpse>false</careIfWornByCorpse>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/apparel/careIfWornByCorpse</xpath>
+				<value>
+					<careIfWornByCorpse>false</careIfWornByCorpse>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PonyPlush_CutieMarkCrusaders"]/apparel/careIfWornByCorpse</xpath>
+				<value>
+					<careIfWornByCorpse>false</careIfWornByCorpse>
+				</value>
+			</Operation>
+		</caseFalse>
 	</match>
 </Operation>
 
@@ -106,6 +219,48 @@
 	</match>
 </Operation>
 
+<!--BRONY TRAIT COMMONALITY-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>MLRP_BronyTraitCommonality</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>0.1</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/commonality</xpath>
+				<value>
+					<commonality>{MLRP_BronyTraitCommonality}</commonality> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--ANTI BRONY TRAIT COMMONALITY-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>MLRP_AntiBronyTraitCommonality</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>0.2</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName="MLRP_AntiBronyTrait"]/commonality</xpath>
+				<value>
+					<commonality>{MLRP_AntiBronyTraitCommonality}</commonality> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
 <!--SETTINGS WINDOW-->
 
 <Operation Class="PatchOperationFindMod">
@@ -145,6 +300,10 @@
 						<key>MLRP_PlushieMarketValue</key>
 						<label>Market Value: </label>
 					</li>
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<key>MLRP_PlushiesTaintedOnDeath</key>
+						<label>Plushies become tainted if worn by a corpse</label>
+					</li>
 				</leftCol>
 				<rightCol>
 					<li Class="XmlExtensions.Setting.Text">
@@ -156,6 +315,20 @@
 					<li Class="XmlExtensions.Setting.Checkbox">
 						<key>MLRP_BroniesCanBeViolent</key>
 						<label>Bronies are capable of violence</label>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_BronyTraitCommonality</key>
+						<label>Brony Trait Commonality: </label>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_AntiBronyTraitCommonality</key>
+						<label>Anti Brony Trait Commonality: </label>
+					</li>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>IMPORTANT: Trait commonality must be set at between 0 and 1, in increments of 0.1, otherwise things might break.</text>
+						<font>Small</font>
+						<anchor>Middle</anchor>
+						<tooltip>The higher the number, the more common the trait is; set it to 0 to disable it completely.</tooltip>
 					</li>
 				</rightCol>
 			</li>

@@ -21,3 +21,4 @@ Stinger
 Shutter
 Trailblazer
 Rich
+Cloverleaf

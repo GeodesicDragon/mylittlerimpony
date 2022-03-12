@@ -14,17 +14,5 @@
     <equippedStatOffsets>
       <PsychicSensitivity>-1</PsychicSensitivity>
     </equippedStatOffsets>
-    <apparel>
-  <careIfWornByCorpse>true</careIfWornByCorpse>
-  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-    <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
   </ThingDef>
 </Defs>

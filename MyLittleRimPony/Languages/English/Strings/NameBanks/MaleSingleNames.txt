@@ -18,3 +18,5 @@ Mudbriar
 Kibitz
 Gallus
 Sandbar
+Toots
+Thunder

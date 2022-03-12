@@ -31,3 +31,5 @@ Silverstream
 Ocellus
 Smolder
 Yona
+Haven
+Sweets

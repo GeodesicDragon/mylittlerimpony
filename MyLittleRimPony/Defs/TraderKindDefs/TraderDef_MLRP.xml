@@ -40,6 +40,10 @@
 				<countRange>1</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>MLRP_ElementsOfHarmony</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>PonyPlush_Fluttershy</thingDef>
 				<countRange>1</countRange>
 			</li>

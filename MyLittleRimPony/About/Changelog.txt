@@ -1,3 +1,22 @@
+Version 1.98.207 (March 12th 2022)
+
+* Added load check to ensure that this mod is loaded after XML Extensions (if enabled).
+* Added more patches for the XML Extensions mod.
+	* A setting to configure whether or not plushies become tainted if worn by a corpse.
+	* A setting to configure how common the brony trait is.
+	* A setting to configure how common the anti brony trait is.
+	* Patches for the alternate Elements of Harmony and Cutie Mark Crusaders recipes that will take into account the cloth value you set for individual plushies.
+* Made some changes to the patches for Vanilla Achievements Expanded.
+	* Renamed the achievement for making Apple Bloom to 'Blooming Marvellous.'
+	* Updated textures used for achievements with ones that aren't so blurry.
+* Fixed being able to make the Elements of Harmony with just 300 cloth.
+* Fixed plushie traders not stocking Elements of Harmony.
+* Fixed recipe for making the Elements of Harmony using plushies appearing in the bill list twice.
+* Fixed recipe for making the Cutie Mark Crusaders using plushies appearing in the bill list twice.
+* Fixed an error which caused you to earn the achievement for making a legendary rainbow laser after making a legendary tennis ball launcher.
+* Updated list of male names for NPC faction pawns.
+* Updated list of female names for NPC faction pawns.
+
 Version 1.93.198 (March 5th 2022)
 
 * If you have XML Extensions enabled, you can now access customisable settings for this mod by going to Options and clicking 'More Mod Settings.'
@@ -5,7 +24,7 @@ Version 1.93.198 (March 5th 2022)
 	* Change the crafting skill needed to make plushies.
 	* Change the market value of plushies.
 	* Change whether or not bronies can be violent.
-* Fixed an error which allowed you to earn the achievement for obtaining Nurse Redheart after making a Shining Armour plush.
+* Fixed an error which caused you to earn the achievement for obtaining Nurse Redheart after making a Shining Armour plush.
 * Sweetie Belle now reduces food poison chance by 10% (was 5%).
 
 Version 1.89.196 (February 28th 2022)

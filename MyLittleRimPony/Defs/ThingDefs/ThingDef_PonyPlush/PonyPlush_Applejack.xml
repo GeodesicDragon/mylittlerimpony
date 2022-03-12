@@ -15,17 +15,5 @@
       <PlantWorkSpeed>0.25</PlantWorkSpeed>
       <PlantHarvestYield>0.25</PlantHarvestYield>
     </equippedStatOffsets>
-    <apparel>
-  <careIfWornByCorpse>true</careIfWornByCorpse>
-  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-    <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
   </ThingDef>
 </Defs>

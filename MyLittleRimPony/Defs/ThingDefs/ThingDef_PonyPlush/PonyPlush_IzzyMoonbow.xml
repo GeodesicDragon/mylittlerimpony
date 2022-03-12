@@ -11,18 +11,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
-    <apparel>
-  <careIfWornByCorpse>true</careIfWornByCorpse>
-  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-    <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>MLRP_IzzyPlush</hediff>

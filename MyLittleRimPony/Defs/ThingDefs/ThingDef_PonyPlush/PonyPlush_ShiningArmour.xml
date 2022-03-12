@@ -16,17 +16,5 @@
 	  <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 	  <ArmorRating_Heat>0.15</ArmorRating_Heat>
 	</equippedStatOffsets>
-    <apparel>
-  <careIfWornByCorpse>true</careIfWornByCorpse>
-  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-    <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
   </ThingDef>
 </Defs>

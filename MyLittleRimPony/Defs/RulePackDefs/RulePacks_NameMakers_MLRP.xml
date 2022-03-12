@@ -2,7 +2,6 @@
 
 <!--PAWN NAMES-->
 
-
     <RulePackDef>
 		<!--MLP doesn't have a lot of male names, so we'll have to use random female ones, even for male pawns.-->
         <defName>NamerBrony</defName>
@@ -34,6 +33,7 @@
                 <li>name->Quibble Pants</li>
                 <li>name->Sky Stinger</li>
                 <li>name->Snap Shutter</li>
+                <li>name->Sprout Cloverleaf</li>
 				<!--Use some OC names too; contact me on Discord if you'd like yours added-->
 				<li>name->Doctor Haywick</li>
 				<li>name->Aquilla Hawkmoon</li>

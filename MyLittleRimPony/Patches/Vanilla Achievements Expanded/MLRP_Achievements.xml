@@ -9,7 +9,7 @@
     <match Class="PatchOperationAdd">
 	    <xpath>Defs</xpath>
 	    <value>
-		
+			
 			<!--PLUSHIE BENCH-->
 			
 			<AchievementsExpanded.AchievementDef>
@@ -23,7 +23,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Building/PlushieBench</texPath>
+				<texPath>Achievements/ItAllStartsHere</texPath>
 				<points>25</points>
 			</AchievementsExpanded.AchievementDef>
 		
@@ -31,7 +31,7 @@
 			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_AppleBloom</defName>
-				<label>Buy Some Apples!</label>
+				<label>Blooming Marvellous</label>
 				<description>Craft an Apple Bloom plushie</description>
 				<tab>MLRP_AchievementTab</tab>
 				
@@ -40,7 +40,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/AppleBloom</texPath>
+				<texPath>Achievements/BloomingMarvellous</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -55,7 +55,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/Applejack</texPath>
+				<texPath>Achievements/HowDoYaLikeThemApples</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -70,7 +70,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/BigMacintosh</texPath>
+				<texPath>Achievements/Eeyup</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -85,7 +85,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/Cheerilee</texPath>
+				<texPath>Achievements/PayAttentionStudents</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 
@@ -100,7 +100,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/CutieMarkCrusaders</texPath>
+				<texPath>Achievements/MakeOurMark</texPath>
 				<points>30</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -115,7 +115,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/Discord</texPath>
+				<texPath>Achievements/WheresTheChocolateMilk</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -130,7 +130,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/Fluttershy</texPath>
+				<texPath>Achievements/Yay</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -145,7 +145,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/NurseHaywick</texPath>
+				<texPath>Achievements/ObligatorySelfInsert</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -160,7 +160,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/IzzyMoonbow</texPath>
+				<texPath>Achievements/HiNewFriend</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -175,7 +175,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/PinkiePie</texPath>
+				<texPath>Achievements/PartyAllTheTime</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -205,7 +205,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/PrincessCadence</texPath>
+				<texPath>Achievements/AllWeNeedIsLove</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -220,7 +220,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/PrincessCelestia</texPath>
+				<texPath>Achievements/PraiseTheSun</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 
@@ -235,7 +235,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/PrincessLuna</texPath>
+				<texPath>Achievements/PraiseTheMoon</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 
@@ -250,7 +250,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/RainbowDash</texPath>
+				<texPath>Achievements/GottaGoFast</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -265,7 +265,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/Rarity</texPath>
+				<texPath>Achievements/FabulousDarling</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -280,7 +280,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/Scootaloo</texPath>
+				<texPath>Achievements/InsertChickenJokeHere</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -295,7 +295,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/ShiningArmour</texPath>
+				<texPath>Achievements/OohShiny</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -310,7 +310,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/StarlightGlimmer</texPath>
+				<texPath>Achievements/GlimGlammedUp</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -325,7 +325,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/SweetieBelle</texPath>
+				<texPath>Achievements/SqueakingNotIncluded</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -340,7 +340,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/PonyPlush/TwilightSparkle</texPath>
+				<texPath>Achievements/BookHorse</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -355,7 +355,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/ElementsOfHarmony</texPath>
+				<texPath>Achievements/TheSix</texPath>
 				<points>60</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -372,7 +372,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Building/DiscordLamp</texPath>
+				<texPath>Achievements/ThereAllBetter</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -387,7 +387,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Building/Screwball</texPath>
+				<texPath>Achievements/OddlyPowerful</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -402,7 +402,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Building/SweetieBot</texPath>
+				<texPath>Achievements/AllSystemsNominal</texPath>
 				<points>25</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -434,7 +434,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Weapons/ShiningArmourThrowing</texPath>
+				<texPath>Achievements/CrystalHeartSeekingMissile</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -465,7 +465,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Weapons/IzzyWithTennisBall</texPath>
+				<texPath>Achievements/HavingABall</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -476,7 +476,7 @@
 				<tab>MLRP_AchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
-					<def>MLRP_ElementsOfHarmonyWeaponised</def>
+					<def>Izzy_SmokeLauncher</def>
 					<quality>Legendary</quality>
 					<count>1</count>
 				</tracker>
@@ -496,7 +496,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/ElementsOfHarmony</texPath>
+				<texPath>Achievements/TheSix</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -527,7 +527,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/EquestrianFlag</texPath>
+				<texPath>Achievements/FriendshipIsFirepower</texPath>
 				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -542,7 +542,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Things/Building/NurseRedheart</texPath>
+				<texPath>Achievements/HelloooooooNurse</texPath>
 				<points>30</points>
 			</AchievementsExpanded.AchievementDef>
 	    </value>

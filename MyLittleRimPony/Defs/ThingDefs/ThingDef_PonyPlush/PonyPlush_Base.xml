@@ -18,9 +18,6 @@
     <useHitPoints>True</useHitPoints>
 		<techLevel>Industrial</techLevel>
     <drawGUIOverlay>true</drawGUIOverlay>
-	<skillRequirements>
-		<Crafting>5</Crafting>
-	</skillRequirements>
     <statBases>
 		<MarketValue>200</MarketValue>
 		<WorkToMake>6000</WorkToMake>
@@ -45,5 +42,17 @@
         <part>Waist</part>
       </li>
     </comps>
-  </ThingDef>  
+    <apparel>
+  <careIfWornByCorpse>true</careIfWornByCorpse>
+  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef> 
 </Defs>
