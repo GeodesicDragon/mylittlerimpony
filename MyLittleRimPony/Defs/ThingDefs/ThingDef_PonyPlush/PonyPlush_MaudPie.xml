@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_MaudPie</defName>
+    <label>Maud Pie</label>
+    <description>Maud isn't as talkative as her sister Pinkie, but she knows her stuff when it comes to rocks.\n\nCarrying her makes you feel as though you can exploit mineral deposits much easier.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/MaudPie</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+      <MiningSpeed>0.25</MiningSpeed>
+      <MiningYield>0.25</MiningYield>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

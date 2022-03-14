@@ -8,13 +8,13 @@
 	</mods>
 	<match Class="XmlExtensions.UseSetting">
 		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
-		<key>MLRP_PlushieCloth</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<key>MLRP_PlushiesCloth</key> <!--Key to identify the setting (only used internally, invisible to user)-->
 		<defaultValue>300</defaultValue> <!--What you want the default value of the setting to be-->
 		<apply>
 			<Operation Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/costList/Cloth</xpath>
 				<value>
-					<Cloth>{MLRP_PlushieCloth}</Cloth> <!--Use the setting's value-->
+					<Cloth>{MLRP_PlushiesCloth}</Cloth>
 				</value>
 			</Operation>
 		</apply>
@@ -29,10 +29,10 @@
 	</mods>
 	<match Class="XmlExtensions.UseSetting">
 		<modId>geodesicdragon.rimpony</modId>
-		<key>MLRP_PlushieCloth</key>
+		<key>MLRP_PlushiesCloth</key>
 		<apply>
 			<Operation Class="XmlExtensions.CreateVariable">
-				<value>{MLRP_PlushieCloth}</value>
+				<value>{MLRP_PlushiesCloth}</value>
 				<value2>6</value2>
 				<operation>*</operation>
 				<storeIn>MLRP_EOH_NewClothValue</storeIn>
@@ -57,10 +57,10 @@
 	</mods>
 	<match Class="XmlExtensions.UseSetting">
 		<modId>geodesicdragon.rimpony</modId>
-		<key>MLRP_PlushieCloth</key>
+		<key>MLRP_PlushiesCloth</key>
 		<apply>
 			<Operation Class="XmlExtensions.CreateVariable">
-				<value>{MLRP_PlushieCloth}</value>
+				<value>{MLRP_PlushiesCloth}</value>
 				<value2>3</value2>
 				<operation>*</operation>
 				<storeIn>MLRP_CMC_NewClothValue</storeIn>
@@ -84,14 +84,14 @@
 		<li>XML Extensions</li>
 	</mods>
 	<match Class="XmlExtensions.UseSetting">
-		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
-		<key>MLRP_PlushieCraftingSkill</key> <!--Key to identify the setting (only used internally, invisible to user)-->
-		<defaultValue>5</defaultValue> <!--What you want the default value of the setting to be-->
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_PlushieCraftingSkill</key>
+		<defaultValue>5</defaultValue>
 		<apply>
 			<Operation Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/recipeMaker/skillRequirements/Crafting</xpath>
 				<value>
-					<Crafting>{MLRP_PlushieCraftingSkill}</Crafting> <!--Use the setting's value-->
+					<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
 				</value>
 			</Operation>
 		</apply>
@@ -105,14 +105,14 @@
 		<li>XML Extensions</li>
 	</mods>
 	<match Class="XmlExtensions.UseSetting">
-		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
-		<key>MLRP_PlushieMarketValue</key> <!--Key to identify the setting (only used internally, invisible to user)-->
-		<defaultValue>200</defaultValue> <!--What you want the default value of the setting to be-->
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_PlushieMarketValue</key>
+		<defaultValue>200</defaultValue>
 		<apply>
 			<Operation Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>{MLRP_PlushieMarketValue}</MarketValue> <!--Use the setting's value-->
+					<MarketValue>{MLRP_PlushieMarketValue}</MarketValue>
 				</value>
 			</Operation>
 		</apply>
@@ -226,14 +226,14 @@
 		<li>XML Extensions</li>
 	</mods>
 	<match Class="XmlExtensions.UseSetting">
-		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
-		<key>MLRP_BronyTraitCommonality</key> <!--Key to identify the setting (only used internally, invisible to user)-->
-		<defaultValue>0.1</defaultValue> <!--What you want the default value of the setting to be-->
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_BronyTraitCommonality</key>
+		<defaultValue>0.1</defaultValue>
 		<apply>
 			<Operation Class="PatchOperationReplace">
 				<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/commonality</xpath>
 				<value>
-					<commonality>{MLRP_BronyTraitCommonality}</commonality> <!--Use the setting's value-->
+					<commonality>{MLRP_BronyTraitCommonality}</commonality>
 				</value>
 			</Operation>
 		</apply>
@@ -247,14 +247,241 @@
 		<li>XML Extensions</li>
 	</mods>
 	<match Class="XmlExtensions.UseSetting">
-		<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
-		<key>MLRP_AntiBronyTraitCommonality</key> <!--Key to identify the setting (only used internally, invisible to user)-->
-		<defaultValue>0.2</defaultValue> <!--What you want the default value of the setting to be-->
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_AntiBronyTraitCommonality</key>
+		<defaultValue>0.2</defaultValue>
 		<apply>
 			<Operation Class="PatchOperationReplace">
 				<xpath>Defs/TraitDef[defName="MLRP_AntiBronyTrait"]/commonality</xpath>
 				<value>
-					<commonality>{MLRP_AntiBronyTraitCommonality}</commonality> <!--Use the setting's value-->
+					<commonality>{MLRP_AntiBronyTraitCommonality}</commonality>
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--SWEETIE BOT: TOUCH ACCURACY-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_SweetieBotAccuracyTouch</key>
+		<defaultValue>0.3</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyTouch</xpath>
+				<value>
+					<AccuracyTouch>{MLRP_SweetieBotAccuracyTouch}</AccuracyTouch>
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--SWEETIE BOT: SHORT RANGE ACCURACY-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_SweetieBotAccuracyShort</key>
+		<defaultValue>0.4</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyShort</xpath>
+				<value>
+					<AccuracyShort>{MLRP_SweetieBotAccuracyShort}</AccuracyShort>
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--SWEETIE BOT: MEDIUM RANGE ACCURACY-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_SweetieBotAccuracyMedium</key>
+		<defaultValue>0.8</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyMedium</xpath>
+				<value>
+					<AccuracyMedium>{MLRP_SweetieBotAccuracyMedium}</AccuracyMedium>
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--SWEETIE BOT: LONG RANGE ACCURACY-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_SweetieBotAccuracyLong</key>
+		<defaultValue>0.8</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyLong</xpath>
+				<value>
+					<AccuracyLong>{MLRP_SweetieBotAccuracyLong}</AccuracyLong>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases/ShootingAccuracyTurret</xpath>
+				<value>
+					<ShootingAccuracyTurret>{MLRP_SweetieBotAccuracyLong}</ShootingAccuracyTurret>
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--SWEETIE BOT: REARM COST AFFECTED BY GAME DIFFICULTY-->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>XML Extensions</li>
+    </mods>
+	<match Class="XmlExtensions.OptionalPatch">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_SweetieBotRearmCostAffectedByDifficulty</key>
+		<defaultValue>true</defaultValue>
+		<caseTrue>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/comps/li[@Class="CompProperties_Refuelable"]/factorByDifficulty</xpath>
+				<value>
+					<factorByDifficulty>true</factorByDifficulty>
+				</value>
+			</Operation>
+		</caseTrue>
+		<caseFalse>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/comps/li[@Class="CompProperties_Refuelable"]/factorByDifficulty</xpath>
+				<value>
+					<factorByDifficulty>false</factorByDifficulty>
+				</value>
+			</Operation>
+		</caseFalse>
+	</match>
+</Operation>
+
+<!--NURSE REDHEART: SPAWN GLITTERWORLD MEDICINE INSTEAD OF INDUSTRIAL-->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>XML Extensions</li>
+    </mods>
+	<match Class="XmlExtensions.OptionalPatch">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_NurseRedheartSpawnGlitterworldMedicine</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Spawner"]/thingToSpawn</xpath>
+				<value>
+					<thingToSpawn>MedicineUltratech</thingToSpawn>
+				</value>
+			</Operation>
+		</caseTrue>
+		<caseFalse>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Spawner"]/thingToSpawn</xpath>
+				<value>
+					<thingToSpawn>MedicineIndustrial</thingToSpawn>
+				</value>
+			</Operation>
+		</caseFalse>
+	</match>
+</Operation>
+
+<!--NURSE REDHEART: MEDICINE SPAWN AMOUNT-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_NurseRedheartMedicineSpawnAmount</key>
+		<defaultValue>5</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Spawner"]/spawnCount</xpath>
+				<value>
+					<spawnCount>{MLRP_NurseRedheartMedicineSpawnAmount}</spawnCount>
+				</value>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--NURSE REDHEART: MEDICINE SPAWN TIME-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rimpony</modId>
+		<key>MLRP_NurseRedheartMedicineSpawnTime</key>
+		<defaultValue>10</defaultValue>
+		<apply>
+			<Operation Class="XmlExtensions.CreateVariable">
+				<value>{MLRP_NurseRedheartMedicineSpawnTime}</value>
+				<value2>60000</value2>
+				<operation>*</operation>
+				<storeIn>MLRP_NurseRedheartMedicineSpawnTicks</storeIn>
+				<apply>
+					<Operation Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Spawner"]/spawnIntervalRange</xpath>
+						<value>
+							<spawnIntervalRange><min>{MLRP_NurseRedheartMedicineSpawnTicks}</min><max>{MLRP_NurseRedheartMedicineSpawnTicks}</max></spawnIntervalRange>
+						</value>
+					</Operation>
+				</apply>
+			</Operation>
+		</apply>
+	</match>
+</Operation>
+
+<!--NURSE REDHEART: REPLACE DESCRIPTION-->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>XML Extensions</li>
+	</mods>
+	<match Class="XmlExtensions.UseSettings">
+		<modId>geodesicdragon.rimpony</modId>
+		<keys>
+			<li>MLRP_NurseRedheartMedicineSpawnAmount</li>
+			<li>MLRP_NurseRedheartMedicineSpawnTime</li>
+		</keys>
+		<defaultValues>
+			<li>5</li>
+			<li>10</li>
+		</defaultValues>
+		<brackets>{}</brackets>    
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/description</xpath>
+				<value>
+					<description>As a nurse, Redheart has seen it all; she knows that being prepared for any eventuality is of vital importance.\n\nGenerates {MLRP_NurseRedheartMedicineSpawnAmount} medicine every {MLRP_NurseRedheartMedicineSpawnTime} day(s).</description>
 				</value>
 			</Operation>
 		</apply>
@@ -286,11 +513,11 @@
 						<text>Plushie Settings</text>
 						<font>Medium</font>
 						<anchor>Left</anchor>
-						<tooltip>null</tooltip>
 					</li>
 					<li Class="XmlExtensions.Setting.Textbox">
-						<key>MLRP_PlushieCloth</key>
+						<key>MLRP_PlushiesCloth</key>
 						<label>Cloth Needed: </label>
+						<defaultValue>300</defaultValue>
 					</li>
 					<li Class="XmlExtensions.Setting.Textbox">
 						<key>MLRP_PlushieCraftingSkill</key>
@@ -303,6 +530,56 @@
 					<li Class="XmlExtensions.Setting.Checkbox">
 						<key>MLRP_PlushiesTaintedOnDeath</key>
 						<label>Plushies become tainted if worn by a corpse</label>
+					</li>
+					<li Class="XmlExtensions.Setting.Gap"/>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Sweetie Bot Settings</text>
+						<font>Medium</font>
+						<anchor>Left</anchor>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_SweetieBotAccuracyTouch</key>
+						<label>Touch Accuracy (%): </label>
+						<defaultValue>0.3</defaultValue>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_SweetieBotAccuracyShort</key>
+						<label>Short Range Accuracy (%): </label>
+						<defaultValue>0.4</defaultValue>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_SweetieBotAccuracyMedium</key>
+						<label>Medium Range Accuracy (%): </label>
+						<defaultValue>0.8</defaultValue>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_SweetieBotAccuracyLong</key>
+						<label>Long Range Accuracy (%): </label>
+						<defaultValue>0.8</defaultValue>
+					</li>
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<key>MLRP_SweetieBotRearmCostAffectedByDifficulty</key>
+						<label>Cost of rearming Sweetie Bots affected by game difficulty</label>
+					</li>
+					<li Class="XmlExtensions.Setting.Gap"/>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Nurse Redheart Settings</text>
+						<font>Medium</font>
+						<anchor>Left</anchor>
+					</li>
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<key>MLRP_NurseRedheartSpawnGlitterworldMedicine</key>
+						<label>Spawn glitterworld medicine</label>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_NurseRedheartMedicineSpawnAmount</key>
+						<label>Amount of medicine to spawn: </label>
+						<defaultValue>5</defaultValue>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_NurseRedheartMedicineSpawnTime</key>
+						<label>Medicine Spawn Time (days): </label>
+						<defaultValue>10</defaultValue>
 					</li>
 				</leftCol>
 				<rightCol>
@@ -324,13 +601,15 @@
 						<key>MLRP_AntiBronyTraitCommonality</key>
 						<label>Anti Brony Trait Commonality: </label>
 					</li>
-					<li Class="XmlExtensions.Setting.Text">
-						<text>IMPORTANT: Trait commonality must be set at between 0 and 1, in increments of 0.1, otherwise things might break.</text>
-						<font>Small</font>
-						<anchor>Middle</anchor>
-						<tooltip>The higher the number, the more common the trait is; set it to 0 to disable it completely.</tooltip>
-					</li>
 				</rightCol>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>IMPORTANT: Trait commonality and Sweetie Bot accuracy settings must be between 0 and 1, in increments of 0.1, otherwise things might break. Divide the percentage value you want by 100 to get a decimal value (an example being 40% = 0.4).</text>
+				<font>Medium</font>
+				<anchor>Middle</anchor>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.GapLine"/>

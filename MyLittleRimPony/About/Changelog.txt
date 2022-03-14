@@ -1,3 +1,16 @@
+Version 1.108.209 (March 14th 2022)
+
+* Added Maud Pie (+25% mining speed and yield).
+* Added more patches for the XML Extensions mod.
+	* Settings to determine the accuracy of Sweetie Bot turrets at all ranges (touch, short, medium and long).
+	* A setting to determine whether or not the cost of rearming Sweetie Bot turrets is affected by game difficulty.
+	* A setting to determine whether or not Nurse Redheart spawns glitterworld medicine instead of industrial.
+	* A setting to determine how much medicine Nurse Redheart spawns.
+	* A setting to determine how much often Nurse Redheart spawns medicine.
+* Vanilla Achievements Expanded: Added achievement to obtain Maud Pie.
+* Vanilla Achievements Expanded: Increased the point value of obtaining the 'Power Of Love' achievement to 25 (was 10).
+* XML Extensions Patches: Fixed a problem - the cause of which was my fault - preventing the amount of cloth needed to make plushies from being reset properly.
+
 Version 1.98.207 (March 12th 2022)
 
 * Added load check to ensure that this mod is loaded after XML Extensions (if enabled).
