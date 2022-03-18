@@ -43,5 +43,35 @@
 		<researchViewX>10</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
+	
+<!--NIGHTMARE MOON-->
+
+  <ResearchProjectDef Abstract="True" Name="MLRP_NMMResearch">
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <techprintCount>3</techprintCount>
+    <techprintCommonality>0.1</techprintCommonality>
+    <techprintMarketValue>5000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+		<li>Outlander</li>
+		<li>Empire</li>
+	</heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="MLRP_NMMResearch">
+		<defName>MLRP_NightmareMoonResearch</defName>
+		<label>Statue of Nightmare Moon</label>
+		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate.</description>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>10</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
 
 </Defs>

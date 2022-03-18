@@ -1,0 +1,19 @@
+<Defs>
+
+  <WorkGiverDef>
+    <defName>MLRP_DoStuffWithNightmareMoon</defName>
+    <label>make offering</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>BasicWorker</workType>
+    <priorityInType>300</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MLRP_NightmareMoon</li>
+    </fixedBillGiverDefs>
+    <verb>offer</verb>
+    <gerund>making offering at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+</Defs>

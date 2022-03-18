@@ -1,3 +1,32 @@
+Version 1.112.213 (March 17th 2022)
+
+* Added Daybreaker (building).
+	* She's basically a moisture pump that runs on chemfuel, thus eliminating the need to build power conduits all over the place.
+	* Requires a Celestia plush, 75 chemfuel, 4 components and 30 steel to construct.
+	* Unlocked when you research the standard moisture pump.
+* Added Nightmare Moon (building).
+	* Provides exotic items - persona cores, healer/resurrector mech serums, techprof cores and thrumbo horns - in exchange for chocolate.
+	* Requires 12 Construction skill, 500 stone blocks, a Luna plushie, 10 advanced components, 150 steel and 100 gold to construct.
+	* Can only be built on terrain which supports heavy structures.
+	* Pawns only need to be assigned to Basic work in order to use this building.
+	* The amount of chocolate required is worked out by taking the market value of the item you want, dividing it by the market value of chocolate (three silver), and then multiplying that figure by 1.5; if you then multiply the result by 3, it works out at a 50% increase in the price.
+		* AI Persona Core: ((4000 / 3) * 1.5) = 1999.5 (rounded to 2000, for a total silver cost of 6000)
+		* Healer Mech Serum: ((1300 / 3) * 1.5) = 649.5 (rounded to 650, for a total silver cost of 1950)
+		* Resurrector Mech Serum: ((1700 / 3) * 1.5) = 850.5 (rounded to 850, for a total silver cost of 2550)
+		* Techprof Subpersona Core: ((1000 / 3) * 1.5) = 499.5 (rounded to 500, for a total silver cost of 1500)
+		* Thrumbo Horn: ((800 / 3) * 1.5) = 400 (for a total silver cost of 1200)
+	* You will need to research this building before you can construct it.
+		* Requires a hi-tech research bench.
+		* Requires a multi-analyser.
+		* Requires three (very expensive) techprints.
+		* Requires advanced fabrication to be researched first.
+* Vanilla Achievements Expanded: Added achievement to build Daybreaker.
+* Vanilla Achievements Expanded: Added achievement to build Nightmare moon.
+* Increased number of components stocked by NPC faction settlements to between 30 and 70 (was 20 and 70).
+* Increased number of advanced components stocked by NPC faction settlements to between 6 and 12 (was 1 and 6).
+* Updated list of names for NPC faction pawns.
+* Updated list of names for NPC faction settlements.
+
 Version 1.108.209 (March 14th 2022)
 
 * Added Maud Pie (+25% mining speed and yield).

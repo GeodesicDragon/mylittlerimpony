@@ -89,7 +89,11 @@
         <fuelLabel>Combat effectiveness</fuelLabel>
         <fuelGizmoLabel>Combat effectiveness (%)</fuelGizmoLabel>
         <outOfFuelMessage>ERROR: Repairs needed</outOfFuelMessage>
-        <fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
+        <fuelFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fuelFilter>
         <fuelCapacity>100</fuelCapacity>
         <fuelMultiplier>0.8</fuelMultiplier>
         <initialFuelPercent>1</initialFuelPercent>

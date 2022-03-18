@@ -436,6 +436,36 @@
 				<points>250</points>
 			</AchievementsExpanded.AchievementDef>
 			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Daybreaker</defName>
+				<label>Feelin' Hot, Hot, Hot</label>
+				<description>Build a Daybreaker moisture pump</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_Daybreaker</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/FeelinHotHotHot</texPath>
+				<points>25</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_NightmareMoon</defName>
+				<label>Give Us Something Sweet To Bite</label>
+				<description>Build a statue of Nightmare Moon</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_NightmareMoon</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/_NightmareMoonAchievementImage</texPath>
+				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+			
 			<!--WEAPONS-->
 			
 			<AchievementsExpanded.AchievementDef>
