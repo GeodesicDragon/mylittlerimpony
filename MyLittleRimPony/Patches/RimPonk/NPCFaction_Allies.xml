@@ -4,7 +4,6 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">
@@ -27,7 +26,6 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">
@@ -50,7 +48,6 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">
@@ -73,7 +70,6 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">
@@ -96,7 +92,6 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">
@@ -119,7 +114,6 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">

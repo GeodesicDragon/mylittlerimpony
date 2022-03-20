@@ -356,7 +356,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MLRP_WifeThrower</thingDef>
-        <countRange>3~5</countRange>
+        <countRange>1~2</countRange>
       </li>	
       <li Class="StockGenerator_SingleDef">
         <thingDef>Izzy_SmokeLauncher</thingDef>
@@ -364,7 +364,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MLRP_ElementsOfHarmonyWeaponised</thingDef>
-        <countRange>1</countRange>
+        <countRange>2~3</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MLRP_OFC_Weapon</thingDef>

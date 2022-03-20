@@ -561,26 +561,6 @@
 						<key>MLRP_SweetieBotRearmCostAffectedByDifficulty</key>
 						<label>Cost of rearming Sweetie Bots affected by game difficulty</label>
 					</li>
-					<li Class="XmlExtensions.Setting.Gap"/>
-					<li Class="XmlExtensions.Setting.Text">
-						<text>Nurse Redheart Settings</text>
-						<font>Medium</font>
-						<anchor>Left</anchor>
-					</li>
-					<li Class="XmlExtensions.Setting.Checkbox">
-						<key>MLRP_NurseRedheartSpawnGlitterworldMedicine</key>
-						<label>Spawn glitterworld medicine</label>
-					</li>
-					<li Class="XmlExtensions.Setting.Textbox">
-						<key>MLRP_NurseRedheartMedicineSpawnAmount</key>
-						<label>Amount of medicine to spawn: </label>
-						<defaultValue>5</defaultValue>
-					</li>
-					<li Class="XmlExtensions.Setting.Textbox">
-						<key>MLRP_NurseRedheartMedicineSpawnTime</key>
-						<label>Medicine Spawn Time (days): </label>
-						<defaultValue>10</defaultValue>
-					</li>
 				</leftCol>
 				<rightCol>
 					<li Class="XmlExtensions.Setting.Text">
@@ -600,6 +580,26 @@
 					<li Class="XmlExtensions.Setting.Textbox">
 						<key>MLRP_AntiBronyTraitCommonality</key>
 						<label>Anti Brony Trait Commonality: </label>
+					</li>
+					<li Class="XmlExtensions.Setting.Gap"/>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Nurse Redheart Settings</text>
+						<font>Medium</font>
+						<anchor>Left</anchor>
+					</li>
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<key>MLRP_NurseRedheartSpawnGlitterworldMedicine</key>
+						<label>Spawn glitterworld medicine</label>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_NurseRedheartMedicineSpawnAmount</key>
+						<label>Amount of medicine to spawn: </label>
+						<defaultValue>5</defaultValue>
+					</li>
+					<li Class="XmlExtensions.Setting.Textbox">
+						<key>MLRP_NurseRedheartMedicineSpawnTime</key>
+						<label>Medicine Spawn Time (days): </label>
+						<defaultValue>10</defaultValue>
 					</li>
 				</rightCol>
 			</li>

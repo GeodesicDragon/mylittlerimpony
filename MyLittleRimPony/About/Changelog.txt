@@ -1,3 +1,26 @@
+Version 1.120.223 (March 20th 2022)
+
+* Made some changes to the Nightmare Moon statue.
+	* Added recipes which allow you to return exotic items to the statue, in exchange for 10% of the item's value in chocolate.
+		* AI Persona Core: ((4000/10) / 3 = 133 chocolate)
+		* Healer Mech Serum: ((1300/10) / 3 = 43 chocolate)
+		* Resurrector Mech Serum: ((1700/10) / 3 = 57 chocolate)
+		* Techprof Subpersona Core: ((1000/10) / 3 = 33 chocolate)
+		* Thrumbo Horn: ((800/10) / 3 = 27 chocolate)
+	* Added the ability to build statues using metallic stuff.
+	* The building is now referred to as 'Statue of Nightmare Moon' instead of just 'Nightmare Moon.'
+* NPC faction weapon traders now stock fewer wife throwers, and more rainbow lasers.
+* Daybreaker no longer requires chemfuel to build.
+* Daybreaker now requires 75 steel to build (was 30).
+* Daybreaker will now consume fuel properly.
+* The texture for the plushie bench no longer looks weird.
+* Addictol - Addiction Removal: Added a patch which allows NPC faction settlements and weapon traders to have it in stock.
+* RimPonk: Fixed changeling pawns being unable to use plushies.
+* RimPonk: Fixed gryphon pawns being unable to use plushies.
+* RimPonk: Fixed kirin pawns being unable to use plushies.
+* RimPonk Unique Pawns: Added a patch which will start the NPC faction as allied if you create a new colony with Celestia in it.
+* XML Extensions: Tidied up the settings window.
+
 Version 1.112.213 (March 17th 2022)
 
 * Added Daybreaker (building).
@@ -21,7 +44,7 @@ Version 1.112.213 (March 17th 2022)
 		* Requires three (very expensive) techprints.
 		* Requires advanced fabrication to be researched first.
 * Vanilla Achievements Expanded: Added achievement to build Daybreaker.
-* Vanilla Achievements Expanded: Added achievement to build Nightmare moon.
+* Vanilla Achievements Expanded: Added achievement to build Nightmare Moon.
 * Increased number of components stocked by NPC faction settlements to between 30 and 70 (was 20 and 70).
 * Increased number of advanced components stocked by NPC faction settlements to between 6 and 12 (was 1 and 6).
 * Updated list of names for NPC faction pawns.

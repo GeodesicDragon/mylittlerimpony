@@ -9,7 +9,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>22.0</fuelConsumptionRate>
         <fuelCapacity>75</fuelCapacity>
@@ -19,7 +18,6 @@
           </thingDefs>
         </fuelFilter>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-		<initialFuelPercent>1</initialFuelPercent>
       </li>
       <li Class="CompProperties_TerrainPumpDry">
         <soundWorking>MoisturePump_Ambience</soundWorking>
@@ -27,7 +25,7 @@
         <daysToRadius>60</daysToRadius>
       </li>
     </comps>
-    <tickerType>Rare</tickerType>
+    <tickerType>Normal</tickerType>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -42,9 +40,8 @@
     </building>
     <costList>
       <PonyPlush_PrincessCelestia>1</PonyPlush_PrincessCelestia>
-      <Chemfuel>75</Chemfuel>
 	  <ComponentIndustrial>4</ComponentIndustrial>
-	  <Steel>30</Steel>
+	  <Steel>75</Steel>
     </costList>
     <specialDisplayRadius>6.9</specialDisplayRadius>
     <pathCost>30</pathCost>

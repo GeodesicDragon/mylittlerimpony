@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Things/Building/PlushieBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,1)</drawSize>
+      <drawSize>(3.5,1.5)</drawSize>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <castEdgeShadows>true</castEdgeShadows>

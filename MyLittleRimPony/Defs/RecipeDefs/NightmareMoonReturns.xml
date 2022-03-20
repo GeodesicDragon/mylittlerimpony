@@ -1,12 +1,12 @@
 <Defs>
 
-<!--GET PERSONA CORE-->
+<!--RETURN PERSONA CORE-->
 
 <RecipeDef>
-	<defName>MLRP_NMM_AIPersonaCore</defName>
-	<label>request persona core</label>
-	<description>Offer chocolate in exchange for a persona core.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
+	<defName>MLRP_NMM_AIPersonaCoreForChocolate</defName>
+	<label>return persona core</label>
+	<description>Return a persona core in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
@@ -20,24 +20,24 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>AIPersonaCore</li>
 				</thingDefs>
 			</filter>
-			<count>2000</count>
+			<count>1</count>
 		</li>
 	</ingredients>
 	<products>
-		<AIPersonaCore>1</AIPersonaCore>
+		<Chocolate>133</Chocolate>
 	</products>
 </RecipeDef>
 
-<!--GET HEALER MECH SERUM-->
+<!--RETURN HEALER MECH SERUM-->
 
 <RecipeDef>
-	<defName>MLRP_NMM_MechSerumHealer</defName>
-	<label>request healer mech serum</label>
-	<description>Offer chocolate in exchange for a healer mech serum.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
+	<defName>MLRP_NMM_MechSerumHealerForChocolate</defName>
+	<label>return healer mech serum</label>
+	<description>Return a healer mech serum in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
@@ -51,24 +51,24 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>MechSerumHealer</li>
 				</thingDefs>
 			</filter>
-			<count>650</count>
+			<count>1</count>
 		</li>
 	</ingredients>
 	<products>
-		<MechSerumHealer>1</MechSerumHealer>
+		<Chocolate>43</Chocolate>
 	</products>
 </RecipeDef>
 
-<!--GET RESURRECTOR MECH SERUM-->
+<!--RETURN RESURRECTOR MECH SERUM-->
 
 <RecipeDef>
-	<defName>MLRP_NMM_MechSerumResurrector</defName>
-	<label>request resurrector mech serum</label>
-	<description>Offer chocolate in exchange for a resurrector mech serum.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
+	<defName>MLRP_NMM_MechSerumResurrectorForChocolate</defName>
+	<label>return resurrector mech serum</label>
+	<description>Return a resurrector mech serum in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
@@ -82,24 +82,24 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>MechSerumResurrector</li>
 				</thingDefs>
 			</filter>
-			<count>850</count>
+			<count>1</count>
 		</li>
 	</ingredients>
 	<products>
-		<MechSerumResurrector>1</MechSerumResurrector>
+		<Chocolate>57</Chocolate>
 	</products>
 </RecipeDef>
 
-<!--GET TECHPROF SUBPERSONA CORE-->
+<!--RETURN TECHPROF SUBPERSONA CORE-->
 
 <RecipeDef>
-	<defName>MLRP_NMM_TechprofSubpersonaCore</defName>
-	<label>request techprof subpersona core</label>
-	<description>Offer chocolate in exchange for a techprof subpersona core.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
+	<defName>MLRP_NMM_TechprofSubpersonaCoreForChocolate</defName>
+	<label>return techprof subpersona core</label>
+	<description>Return a techprof subpersona core in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
@@ -113,24 +113,24 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>TechprofSubpersonaCore</li>
 				</thingDefs>
 			</filter>
-			<count>500</count>
+			<count>1</count>
 		</li>
 	</ingredients>
 	<products>
-		<TechprofSubpersonaCore>1</TechprofSubpersonaCore>
+		<Chocolate>33</Chocolate>
 	</products>
 </RecipeDef>
 
-<!--GET THRUMBO HORN-->
+<!--RETURN THRUMBO HORN-->
 
 <RecipeDef>
-	<defName>MLRP_NMM_ThrumboHorn</defName>
-	<label>request thrumbo horn</label>
-	<description>Offer chocolate in exchange for a thrumbo horn.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
+	<defName>MLRP_NMM_ThrumboHornForChocolate</defName>
+	<label>return thrumbo horn</label>
+	<description>Return a thrumbo horn in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
@@ -144,15 +144,15 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>ThrumboHorn</li>
 				</thingDefs>
 			</filter>
-			<count>400</count>
+			<count>1</count>
 		</li>
 	</ingredients>
 	<products>
-		<ThrumboHorn>1</ThrumboHorn>
+		<Chocolate>27</Chocolate>
 	</products>
 </RecipeDef>
-  
+
 </Defs>
