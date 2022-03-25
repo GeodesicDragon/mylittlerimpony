@@ -124,6 +124,37 @@
 	</products>
 </RecipeDef>
 
+<!--GET ELEPHANT TUSK-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ElephantTusk</defName>
+	<label>request elephant tusk</label>
+	<description>Offer chocolate in exchange for an elephant tusk.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>40</count>
+		</li>
+	</ingredients>
+	<products>
+		<ElephantTusk>1</ElephantTusk>
+	</products>
+</RecipeDef>
+
 <!--GET THRUMBO HORN-->
 
 <RecipeDef>

@@ -1,0 +1,19 @@
+<Defs>
+
+  <WorkGiverDef>
+    <defName>MLRP_DoStuffWithDaybreaker</defName>
+    <label>convert materials</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>BasicWorker</workType>
+    <priorityInType>300</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MLRP_Daybreaker</li>
+    </fixedBillGiverDefs>
+    <verb>offer</verb>
+    <gerund>converting materials at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+</Defs>

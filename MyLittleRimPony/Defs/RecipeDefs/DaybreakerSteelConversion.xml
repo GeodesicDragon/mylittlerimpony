@@ -1,0 +1,159 @@
+<Defs>
+
+<!--CONVERT STEEL INTO JADE-->
+
+<RecipeDef>
+	<defName>MLRP_DB_ConvertSteelIntoJade</defName>
+	<label>convert steel to jade</label>
+	<description>Convert 100 steel into the market value equivalent of jade.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>75</count>
+		</li>
+	</ingredients>
+	<products>
+		<Jade>38</Jade>
+	</products>
+</RecipeDef>
+
+<!--CONVERT STEEL INTO PLASTEEL-->
+
+<RecipeDef>
+	<defName>MLRP_DB_ConvertSteelIntoPlasteel</defName>
+	<label>convert steel to plasteel</label>
+	<description>Convert 100 steel into the market value equivalent of plasteel.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>75</count>
+		</li>
+	</ingredients>
+	<products>
+		<Plasteel>21</Plasteel>
+	</products>
+</RecipeDef>
+
+<!--CONVERT STEEL INTO URANIUM-->
+
+<RecipeDef>
+	<defName>MLRP_DB_ConvertSteelIntoUranium</defName>
+	<label>convert steel to uranium</label>
+	<description>Convert 100 steel into the market value equivalent of uranium.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>75</count>
+		</li>
+	</ingredients>
+	<products>
+		<Uranium>32</Uranium>
+	</products>
+</RecipeDef>
+
+<!--CONVERT STEEL INTO URANIUM-->
+
+<RecipeDef>
+	<defName>MLRP_DB_ConvertSteelIntoGold</defName>
+	<label>convert steel to gold</label>
+	<description>Convert 100 steel into the market value equivalent of gold.</description>
+    <jobString>Convering materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>75</count>
+		</li>
+	</ingredients>
+	<products>
+		<Gold>19</Gold>
+	</products>
+</RecipeDef>
+
+</Defs>

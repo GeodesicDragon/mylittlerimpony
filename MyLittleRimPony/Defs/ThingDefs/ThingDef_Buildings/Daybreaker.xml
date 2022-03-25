@@ -2,56 +2,64 @@
 
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_Daybreaker</defName>
-    <label>Daybreaker</label>
-    <description>Celestia's evil alter ego only ever manifested herself as part of Starlight Glimmer's nightmare, but even then her power was something to behold.\n\nThankfully, that power can be put to use for the benefit of your colony, by acting as a moisture pump which runs on sheer fury (as well as a bit of chemfuel).</description>
+    <label>Statue of Daybreaker</label>
+    <description>Celestia's evil alter ego only ever manifested herself as part of Starlight Glimmer's nightmare, but even then her power was something to behold.\n\nAt least all of the heat she is emanating can be put to some use...</description>
+    <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Building/Daybreaker</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
-    <comps>
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>22.0</fuelConsumptionRate>
-        <fuelCapacity>75</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </fuelFilter>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-      </li>
-      <li Class="CompProperties_TerrainPumpDry">
-        <soundWorking>MoisturePump_Ambience</soundWorking>
-        <radius>6.9</radius>
-        <daysToRadius>60</daysToRadius>
-      </li>
-    </comps>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Building</altitudeLayer>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Flammability>1.0</Flammability>
-      <Beauty>-8</Beauty>
-    </statBases>
-    <fillPercent>0.15</fillPercent>
-    <building>
-      <ai_chillDestination>false</ai_chillDestination>
-      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
-    </building>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<costStuffCount>500</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
     <costList>
       <PonyPlush_PrincessCelestia>1</PonyPlush_PrincessCelestia>
-	  <ComponentIndustrial>4</ComponentIndustrial>
-	  <Steel>75</Steel>
+      <ComponentSpacer>10</ComponentSpacer>
+      <Steel>150</Steel>
+      <Gold>100</Gold>
     </costList>
-    <specialDisplayRadius>6.9</specialDisplayRadius>
-    <pathCost>30</pathCost>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>7200</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <designationCategory>Production</designationCategory>
     <passability>PassThroughOnly</passability>
-    <designationCategory>Misc</designationCategory>
-    <rotatable>false</rotatable>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
     <researchPrerequisites>
-      <li>MoisturePump</li>
+      <li>MLRP_NightmareMoonResearch</li>
     </researchPrerequisites>
-    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<comps>
+		<li Class="CompProperties_Glower">
+			<glowRadius>6</glowRadius>
+			<glowColor>(255,241,127,0)</glowColor>
+		</li>
+		<li Class="CompProperties_HeatPusher">
+			<compClass>CompHeatPusherPowered</compClass>
+			<heatPerSecond>6</heatPerSecond>
+		</li>
+	</comps>
   </ThingDef>
   
 </Defs>

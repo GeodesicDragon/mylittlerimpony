@@ -1,3 +1,33 @@
+Version 1.123.232 (March 25th 2022)
+
+* Removed support for version 1.0 of RimWorld.
+	* A version of this mod which is compatible with it can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2783974303
+	* Please note that many things will have been changed or removed in order to make it compatible.
+* Daybreaker wasn't working as a moisture pump, so she has undergone a massive transformation.
+	* She is now a statue, like Nightmare Moon; the building materials are the same, except you use a Celestia plush instead of a Luna plush.
+	* She will allow you to convert 100 of either jade, steel, plasteel, uranium or gold into whatever the equivalent market value is of another.
+		* Example #1: Convert steel into uranium. Steel has a market value of 1.9, and uranium has a market value of 6. 100 steel has a total market value of $190; dividing this by 6 means you will get 32 (rounded up) uranium for your 100 steel.
+		* Example #2: Convert 100 gold into jade. Gold has a market value of 10, and jade has a market value of 5. 100 gold has a total market value of $1000; dividing this by 5 means you will get 200 jade for your 100 gold.
+	* She will now emit the same amount of heat as a wood-fired generator, as well as give off a glow.
+	* Converting materials will also require 75 chemfuel.
+	* Pawns only need to be assigned to Basic work in order to use this building.
+	* The building is now referred to as 'Statue of Daybreaker' instead of just 'Daybreaker.'
+	* The building is a bit bigger now, at 2x2 instead of 1x1; if you had Daybreaker installed in a place where this new size would cause issues, you will find that she has been automatically uninstalled (and damaged) when you load your game.
+	* Please note that you will get red errors when trying to interact with the building after reinstalling it, but I've been told those are only a one-time thing and should go away once you save and reload. However, if they do persist for some reason, you can just destroy the old ones.
+* New recipes added to the Nightmare Moon statue.
+	* Request an elephant tusk for 40 chocolate. ((80 / 3) * 1.5) = 40 (for a total silver cost of 120)
+	* Return an elephant tusk for 3 chocolate. ((80/10) / 3 = 3 chocolate)
+* Made changes to the research for Nightmare Moon.
+	* It is now called 'Evil Sisters' and unlocks the ability to build both statues.
+	* Increased research cost to 7500 (was 5000).
+	* The defName has not been changed; if you already had the old tech researched, the game will ask you to complete the extra 2500 points of research that was added. Any techprints you had applied should still be available.
+* Fixed being unable to uninstall and reinstall statues of Daybreaker.
+* Fixed being unable to uninstall and reinstall statues of Nightmare Moon.
+* Fixed being unable to uninstall and reinstall plushie benches.
+* Vanilla Achievements Expanded: The achievement to build Daybreaker is now worth 50 points (was 25).
+* Vanilla Achievements Expanded: Renamed the achievement to craft a rainbow laser to Emphasis On 'Harm.'
+* RimPonk Unique Pawns: Fixed NPC Faction not starting as allied if you start a new colony with Celestia in it.
+
 Version 1.120.223 (March 20th 2022)
 
 * Made some changes to the Nightmare Moon statue.

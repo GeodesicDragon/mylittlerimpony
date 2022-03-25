@@ -10,10 +10,6 @@
       <texPath>Things/Building/Screwball</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
-      <!--<shadowData>
-        <volume>(1.93,1,1.69)</volume>
-        <offset>(-0.03,0,-0.1)</offset>
-      </shadowData>-->
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>

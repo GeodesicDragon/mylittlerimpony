@@ -1,0 +1,9 @@
+<Defs>
+
+  <ConceptDef>
+    <defName>MLRP_DaybreakerMessage</defName>
+    <label>[MLRP] Daybreaker Update</label>
+    <helpText>Daybreaker has undergone a massive change in this update; as a result, you must destroy any old ones you may still have, as they will generate a lot of red errors if you try to use or deconstruct them.</helpText>
+  </ConceptDef>
+
+</Defs>

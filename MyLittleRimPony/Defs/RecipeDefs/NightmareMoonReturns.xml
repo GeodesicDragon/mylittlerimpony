@@ -124,6 +124,37 @@
 	</products>
 </RecipeDef>
 
+<!--RETURN ELEPHANT TUSK-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ElephantTuskForChocolate</defName>
+	<label>return elephant tusk</label>
+	<description>Return an elephant tusk in exchange for (not much) chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ElephantTusk</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chocolate>3</Chocolate>
+	</products>
+</RecipeDef>
+
 <!--RETURN THRUMBO HORN-->
 
 <RecipeDef>

@@ -439,7 +439,7 @@
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_Daybreaker</defName>
 				<label>Feelin' Hot, Hot, Hot</label>
-				<description>Build a Daybreaker moisture pump</description>
+				<description>Build a statue of Daybreaker</description>
 				<tab>MLRP_AchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -448,7 +448,7 @@
 				</tracker>
 				
 				<texPath>Achievements/FeelinHotHotHot</texPath>
-				<points>25</points>
+				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
 			<AchievementsExpanded.AchievementDef>
@@ -462,7 +462,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Achievements/_NightmareMoonAchievementImage</texPath>
+				<texPath>Achievements/GiveUsSomethingSweetToBite</texPath>
 				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
@@ -532,7 +532,7 @@
 			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_RainbowLaser</defName>
-				<label>Pew Pew</label>
+				<label>Emphasis On 'Harm'</label>
 				<description>Craft a rainbow laser</description>
 				<tab>MLRP_AchievementTab</tab>
 				
@@ -575,6 +575,8 @@
 				<texPath>Achievements/FriendshipIsFirepower</texPath>
 				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
+			
+			<!--SPECIAL ACHIEVEMENTS-->
 			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_NurseRedheart</defName>

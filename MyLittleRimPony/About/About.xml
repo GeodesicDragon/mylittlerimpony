@@ -5,7 +5,6 @@
 	<packageId>geodesicdragon.rimpony</packageId>
 	<url>https://discord.gg/BGKnpza</url>
 	<supportedVersions>
-		<li>1.0</li>
 		<li>1.1</li>
 		<li>1.2</li>
 		<li>1.3</li>
@@ -17,6 +16,9 @@
 	<loadAfter>
 		<li>imranfish.xmlextensions</li>
 	</loadAfter>
+	<incompatibleWith>
+		<li>geodesicdragon.rimpony.vanillarimworld</li>
+	</incompatibleWith>
 	<description><![CDATA[<b>ABOUT</b>
 
 It has been thousands of years since <i>My Little Pony: Friendship is Magic</i> last aired, but the show is once again enjoying a resurgence; how it came to the rim, though, remains a mystery. Regardless of the hows and whys, many colonists have embraced the show, as the colourful characters and messages of peace, hope and friendship help them to escape the struggles of trying to survive daily life in their colonies.

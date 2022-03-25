@@ -44,10 +44,10 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
-<!--NIGHTMARE MOON-->
+<!--NIGHTMARE MOON AND DAYBREAKER-->
 
   <ResearchProjectDef Abstract="True" Name="MLRP_NMMResearch">
-    <baseCost>5000</baseCost>
+    <baseCost>7500</baseCost>
     <techLevel>Industrial</techLevel>
 	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 	<requiredResearchFacilities>
@@ -64,8 +64,8 @@
 
 	<ResearchProjectDef ParentName="MLRP_NMMResearch">
 		<defName>MLRP_NightmareMoonResearch</defName>
-		<label>Statue of Nightmare Moon</label>
-		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate.</description>
+		<label>Statues of the Evil Sisters</label>
+		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate, as well as a statue of Daybreaker, who will convert 100 of one material into its market value equivalent of another.</description>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 		</prerequisites>

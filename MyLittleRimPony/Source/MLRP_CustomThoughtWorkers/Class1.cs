@@ -25,7 +25,7 @@ namespace MyLittleRimPony
 
     // ANTI BRONY STUFF
 
-public class ThoughtWorker_AntiBronyVsBrony : ThoughtWorker
+    public class ThoughtWorker_AntiBronyVsBrony : ThoughtWorker
 {
         protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
         {

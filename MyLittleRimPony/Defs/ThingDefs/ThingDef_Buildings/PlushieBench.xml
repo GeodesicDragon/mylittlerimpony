@@ -11,6 +11,7 @@
       <drawSize>(3.5,1.5)</drawSize>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <costList>

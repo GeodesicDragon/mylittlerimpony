@@ -10,6 +10,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
     </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
 	<costStuffCount>500</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
