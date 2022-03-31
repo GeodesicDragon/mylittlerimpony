@@ -43,7 +43,7 @@
       <li Class="CompProperties_Flickable" />
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
+    <designationCategory>MLRP_Buildings</designationCategory>
     <constructEffect>ConstructDirt</constructEffect>
     <researchPrerequisites>
       <li>MLRP_ScrewballResearch</li>

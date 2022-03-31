@@ -1,0 +1,251 @@
+<Defs>
+
+<!--BIONIC EYE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicEye</defName>
+	<label>request bionic eye</label>
+	<description>Offer chocolate in exchange for a bionic eye.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicEye>1</BionicEye>
+	</products>
+</RecipeDef>
+
+<!--BIONIC ARM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicArm</defName>
+	<label>request bionic arm</label>
+	<description>Offer chocolate in exchange for a bionic arm.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicArm>1</BionicArm>
+	</products>
+</RecipeDef>
+
+<!--BIONIC LEG-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicLeg</defName>
+	<label>request bionic leg</label>
+	<description>Offer chocolate in exchange for a bionic leg.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicLeg>1</BionicLeg>
+	</products>
+</RecipeDef>
+
+<!--BIONIC SPINE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicSpine</defName>
+	<label>request bionic spine</label>
+	<description>Offer chocolate in exchange for a bionic spine.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicSpine>1</BionicSpine>
+	</products>
+</RecipeDef>
+
+<!--BIONIC HEART-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicHeart</defName>
+	<label>request bionic heart</label>
+	<description>Offer chocolate in exchange for a bionic heart.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicHeart>1</BionicHeart>
+	</products>
+</RecipeDef>
+
+<!--BIONIC STOMACH-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicStomach</defName>
+	<label>request bionic stomach</label>
+	<description>Offer chocolate in exchange for a bionic stomach.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>393</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicStomach>1</BionicStomach>
+	</products>
+</RecipeDef>
+
+<!--BIONIC EAR-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicEar</defName>
+	<label>request bionic ear</label>
+	<description>Offer chocolate in exchange for a bionic ear.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>393</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicEar>1</BionicEar>
+	</products>
+</RecipeDef>
+
+<!--BIONIC TONGUE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicTongue</defName>
+	<label>request bionic tongue</label>
+	<description>Offer chocolate in exchange for a bionic tongue.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>283</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicTongue>1</BionicTongue>
+	</products>
+</RecipeDef>
+
+</Defs>

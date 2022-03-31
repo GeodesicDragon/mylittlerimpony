@@ -1,5 +1,15 @@
 <Defs>
 
+	<DesignationCategoryDef>
+		<defName>MLRP_Buildings</defName>
+		<label>RimPony</label>
+		<order>0</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+
   <ThingDef Abstract="True" Name="MLRP_LampBase" ParentName="BuildingBase">
     <thingClass>Building</thingClass>
     <category>Building</category>
@@ -11,7 +21,7 @@
     <pathCost>14</pathCost>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <designationCategory>Furniture</designationCategory>
+    <designationCategory>MLRP_Buildings</designationCategory>
     <rotatable>false</rotatable>
     <uiIconOffset>(0, 0.03)</uiIconOffset>
     <thingCategories>

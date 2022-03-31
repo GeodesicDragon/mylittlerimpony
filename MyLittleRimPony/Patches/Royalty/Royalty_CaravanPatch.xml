@@ -1,10 +1,13 @@
 <Patch>
-
-	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
-		<xpath>/Defs/FactionDef[defName="Empire"]/caravanTraderKinds</xpath>
-		<value>
-			<li>MLRP_PlushieTrader</li>
-		</value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/FactionDef[defName="Empire"]/caravanTraderKinds</xpath>
+			<value>
+				<li>MLRP_PlushieTrader</li>
+			</value>
+		</match>
 	</Operation>
-
 </Patch>

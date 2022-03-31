@@ -1,0 +1,27 @@
+<Patch>
+
+<!--This patch doesn't work because the ability to set faction relations has been removed.-->
+<!--The code will remain on the off-chance that decision is reversed sometime in the future.-->
+<!--<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonkUniquePawns</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Celestia_UP"]/alienRace/generalSettings</xpath>
+	    <value>
+		<factionRelations>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>100</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		</factionRelations>
+	    </value>
+    </match>
+</Operation>-->
+
+</Patch>

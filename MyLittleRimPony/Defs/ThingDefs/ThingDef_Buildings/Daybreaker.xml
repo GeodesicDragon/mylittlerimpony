@@ -18,7 +18,7 @@
     </stuffCategories>
     <costList>
       <PonyPlush_PrincessCelestia>1</PonyPlush_PrincessCelestia>
-      <ComponentSpacer>10</ComponentSpacer>
+      <ComponentSpacer>5</ComponentSpacer>
       <Steel>150</Steel>
       <Gold>100</Gold>
     </costList>
@@ -31,7 +31,7 @@
       <Flammability>0</Flammability>
     </statBases>
     <size>(2,2)</size>
-    <designationCategory>Production</designationCategory>
+    <designationCategory>MLRP_Buildings</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>

@@ -1,3 +1,48 @@
+Version 1.139.250 (March 31st 2022)
+
+* Added a patch which should allow the imperial faction to utilise NPC faction mercenaries for quests.
+	* This patch is only applied if the Royalty DLC is enabled.
+* Other Royalty patches now check to see if the DLC is enabled first.
+* All constructable buildings added by this mod have been put in their own category in the Architect menu to make finding them easier.
+* Added nine new bills to the Nightmare Moon statue.
+	* Bionic Tongue: ((565 / 3) * 1.5) = 282.5 chocolate (rounded to 283; total silver cost is 849)
+	* Bionic Ear: ((785 / 3) * 1.5) = 392.5 chocolate (rounded to 393; total silver cost is 1179)
+	* Bionic Stomach: ((785 / 3) * 1.5) = 392.5 chocolate (rounded to 393; total silver cost is 1179)
+	* Bionic Arm: ((1030 / 3) * 1.5) = 515 chocolate (total silver cost is 1545)
+	* Bionic Eye: ((1030 / 3) * 1.5) = 515 chocolate (total silver cost is 1545)
+	* Bionic Leg: ((1030 / 3) * 1.5) = 515 chocolate (total silver cost is 1545)
+	* Bionic Heart: ((1030 / 3) * 1.5) = 515 chocolate (total silver cost is 1545)
+	* Bionic Spine: ((1030 / 3) * 1.5) = 515 chocolate (total silver cost is 1545)
+	* Bionic Wing: ((1090 / 3) * 1.5) = 545 chocolate (total silver cost is 1635)
+	* You cannot return these items to the statue.
+	* Bionic wing recipe requires the RimPonk mod.
+	* Market values for base items were obtained from the RimWorld wiki.
+* Added five new bills to the Daybreaker statue.
+	* Convert 1000 silver into jade: 1000 silver has a market value of $1000; dividing this by 5 will give you 200 jade.
+	* Convert 1000 silver into steel: 1000 silver has a market value of $1000; dividing this by 1.9 will give you 526 steel.
+	* Convert 1000 silver into plasteel: 1000 silver has a market value of $1000; dividing this by 9 will give you 111 plasteel.
+	* Convert 1000 silver into uranium: 1000 silver has a market value of $1000; dividing this by 6 will give you 167 uranium.
+	* Convert 1000 silver into gold: 1000 silver has a market value of $1000; dividing this by 10 will give you 100 gold.
+	* You cannot convert these materials into silver; these bills are handy if you don't want to wait for mining or caravans.
+* Building a Nightmare Moon statue now requires 5 advanced components (was 10).
+* Building a Daybreaker statue now requires 5 advanced components (was 10).
+* Edited description of Sweetie Bot and moved what was originally there to the loading screen tips section.
+* Increased hitpoints of Sweetie Bot turrets from 250 to 380 in order to bring their durability in line with the autocannon and uranium slug turrets.
+* Increased range of Sweetie Bot turrets from 40 to 45.9 in order to bring them in line with the uranium slug turret.
+* Sweetie Bot turrets in need of rearming will now show the standard barrel image used by other turrets.
+* RimPonk: Commented out the patch which would start the NPC faction as allied if you created a new colony with any of the Mane Six in it.
+* RimPonk Unique Pawns: Commented out the patch which would start the NPC faction as allied if you created a new colony with Celestia in it.
+* Made some more changes to patches for XML Extensions.
+	* Configuring plushie crafting skill is now done with a slider.
+	* Configuring Sweetie Bot touch accuracy is now done with a slider.
+	* Configuring Sweetie Bot short range accuracy is now done with a slider.
+	* Configuring Sweetie Bot medium range accuracy is now done with a slider.
+	* Configuring Sweetie Bot long range accuracy is now done with a slider.
+	* Configuring brony trait commonality is now done with a slider.
+	* Configuring anti brony trait commonality is now done with a slider.
+	* Configuring how much medicine is spawned by Nurse Redheart is now done with a slider (max 300).
+	* Configuring how often medicine is spawned by Nurse Redheart is now done with a slider (max 60 days, equivalent to one in-game year).
+
 Version 1.123.232 (March 25th 2022)
 
 * Removed support for version 1.0 of RimWorld.
