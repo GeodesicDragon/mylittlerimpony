@@ -4,9 +4,8 @@
 <!--SCREWBALL-->
 
   <ResearchProjectDef Abstract="True" Name="MLRP_ScrewballBase">
-    <baseCost>600</baseCost>
+    <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-	<requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="MLRP_ScrewballBase">
@@ -65,12 +64,12 @@
 	<ResearchProjectDef ParentName="MLRP_NMMResearch">
 		<defName>MLRP_NightmareMoonResearch</defName>
 		<label>Statues of the Evil Sisters</label>
-		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate, as well as a statue of Daybreaker, who will convert 100 of one material into its market value equivalent of another.</description>
+		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate, as well as a statue of Daybreaker, who will convert 100 of one material (or 1000 silver) into its market value equivalent of another.</description>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>10</researchViewX>
+		<researchViewX>20</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 

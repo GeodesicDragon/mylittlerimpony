@@ -1,3 +1,9 @@
+Version 1.139.253 (April 5th 2022)
+
+* Moved all Royalty patches to My Little RimPony - Royalty.
+* Updated list of names used for NPC faction settlements.
+* Reduced the cost of the technology required to build Screwballs to 400 (was 600).
+
 Version 1.139.250 (March 31st 2022)
 
 * Added a patch which should allow the imperial faction to utilise NPC faction mercenaries for quests.

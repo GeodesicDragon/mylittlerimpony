@@ -3,6 +3,7 @@ Applewood
 Baltimare
 Bitsburgh
 Bridleway
+Bridlewood
 Bronclyn
 Canterlot
 Carneighie Hall
@@ -23,6 +24,7 @@ Madisoat Square Garden
 Manechester
 Manehattan
 Maretania
+Maretime Bay
 Maretropolis
 Mustangia
 Neigh York
@@ -38,3 +40,4 @@ Trottingham
 Whinny World
 Whinnyapolis
 Whitetail Woods
+Zephyr Heights
