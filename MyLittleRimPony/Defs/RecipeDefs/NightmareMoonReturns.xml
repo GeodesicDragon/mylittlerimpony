@@ -6,6 +6,7 @@
 	<defName>MLRP_NMM_AIPersonaCoreForChocolate</defName>
 	<label>return persona core</label>
 	<description>Return a persona core in exchange for chocolate.</description>
+	<researchPrerequisite>ShipComputerCore</researchPrerequisite>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -37,6 +38,7 @@
 	<defName>MLRP_NMM_MechSerumHealerForChocolate</defName>
 	<label>return healer mech serum</label>
 	<description>Return a healer mech serum in exchange for chocolate.</description>
+	<researchPrerequisite>HospitalBed</researchPrerequisite>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -68,6 +70,7 @@
 	<defName>MLRP_NMM_MechSerumResurrectorForChocolate</defName>
 	<label>return resurrector mech serum</label>
 	<description>Return a resurrector mech serum in exchange for chocolate.</description>
+	<researchPrerequisite>MedicineProduction</researchPrerequisite>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

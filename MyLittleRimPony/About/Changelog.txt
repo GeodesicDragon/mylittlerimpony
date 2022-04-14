@@ -1,3 +1,62 @@
+Version 1.159.268 (April 14th 2022)
+
+* Added Zephyr Breeze (building).
+	* Acts as a decoy, attracting raiders to attack him.
+	* Requires 300 cloth, 100 steel, 50 plasteel and 50 uranium to build.
+	* Available from game start with no research required.
+	* Extremely durable, with 1000 maximum health.
+* Vanilla Achievements Expanded: Added achievement to build Zephyr Breeze.
+	* If the achievement doesn't pop, try uninstalling and reinstalling the building.
+* Added 4 new recipes, seen if you have the Harvest Organs Post Mortem mod enabled, to the Nightmare Moon statue.
+	* Return heart: ((500/10) / 3 = 17 chocolate)
+	* Return lung: ((400/10) / 3 = 13 chocolate)
+	* Return kidney: ((250/10) / 3 = 8 chocolate)
+	* Return liver: ((500/10) / 3 = 17 chocolate)
+	* These recipes will become available once you complete the advanced autopsy research.
+* Added 2 new recipes to the Daybreaker statue which allow you to create 5 regular or advanced components.
+	* Each recipe requires the same items as it normally would, as well as the 75 chemfuel required by other Daybreaker bills. As a bonus, however, the process is significantly faster than using the fabrication bench; this allows you to save a lot of time when creating components.
+	* These recipes will only appear once you have researched the relevant manufacturing technologies.
+* Added a patch, applied if Vanilla Furniture Expanded - Production is enabled, which allows the plushie bench to benefit from being near tailor cabinets.
+* Added a patch, applied if A RimWorld of Magic is enabled, which makes the brony trait conflict with most of the traits added by that mod.
+	* It will not conflict with the 'Unaffected by death' trait.
+	* It will not conflict with the 'Empath' trait.
+	* It will not conflict with the 'Wanderer' trait.
+	* It will not conflict with the 'Priest' trait.
+	* It will not conflict with the 'Entertainer' trait.
+* Added nine additional patches, applied if certain class mods for AROW are enabled, which will make the brony trait conflict with that class.
+	* Alhoon
+	* Dread Necromancer
+	* Elemental Shaman
+	* Magitek Commander
+	* Movanic Deva
+	* Shadow Fiend
+	* Shadow Wight
+	* Way Of The Kensei Blade And Bow
+	* White Walker
+* Added a patch, applied if A RimWorld of Magic is enabled, which adds a unicorn version of Twilight to the game.
+	* Max Energy: +15%
+	* Energy Regen: +15%
+	* Ability Cooldown: -10%
+	* The patch also changes the name of the regular Twilight plush.
+* Some Nightmare Moon recipes now require research before they become available.
+	* Requesting bionic limbs requires bionic replacements research.
+	* Requesting healer mech serum requires hospital bed research (if you have MLRP Royalty, this is changed to healing factors).
+	* Requesting resurrector mech serum requires medicine production research (if you have MLRP Royalty, this is changed to healing factors).
+	* Requesting bionic wings (added by RimPonk) also requires bionic replacements research.
+	* Requesting or returning an AI persona requires machine persuasion research.
+* Researching how to build Daybreaker and Nightmare Moon now requires you to research both cocoa and biofuel refining instead of advanced fabrication.
+* Researching how to build Daybreaker and Nightmare Moon can now be done at a simple research bench.
+	* Techprints are still required.
+	* Research cost remains unchanged.
+* Changed the description of the Twilight Sparkle (alicorn) plush.
+* NPC faction settlements will now buy drugs. (I like to think that they're destroying them.)
+* Fixed plushie traders not stocking Maud Pie plushies.
+* You no longer hear pawns firing their Rainbow Lasers when the camera isn't focused on them.
+* Making Rainbow Lasers no longer requires advanced components.
+* Changed the texture of the Rainbow Laser to that of an actual weapon.
+* Fixed the texture for the plushie bench not rotating properly.
+* NPC faction settlements no longer sell plushies.
+
 Version 1.139.253 (April 5th 2022)
 
 * Moved all Royalty patches to My Little RimPony - Royalty.

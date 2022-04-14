@@ -74,11 +74,6 @@
         <countRange>20~40</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>Pony_Plushies</categoryDef>
-        <thingDefCountRange>3~12</thingDefCountRange>
-        <totalPriceRange>200~400</totalPriceRange>
-      </li>
-      <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
         <thingDefCountRange>1~2</thingDefCountRange>
         <totalPriceRange>400~800</totalPriceRange>
@@ -88,7 +83,6 @@
         <thingDefCountRange>2~4</thingDefCountRange>
         <totalPriceRange>400~800</totalPriceRange>
       </li>
-
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
         <thingDefCountRange>1~4</thingDefCountRange>
@@ -221,8 +215,7 @@
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
     </stockGenerators>
   </TraderKindDef>

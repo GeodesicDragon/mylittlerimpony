@@ -78,7 +78,7 @@
     <label>Rainbow Laser</label>
     <description>This version of the Elements of Harmony tends to put more emphasis on the 'harm' part.</description>
     <graphicData>
-      <texPath>Things/ElementsOfHarmony</texPath>
+      <texPath>Things/Weapons/RainbowLaser</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>(1,1)</drawSize>
     </graphicData>
@@ -102,7 +102,6 @@
     <costList>
       <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
 	  <Plasteel>100</Plasteel>
-	  <ComponentSpacer>3</ComponentSpacer>
 	  <Gold>5</Gold>
     </costList>
     <recipeMaker>

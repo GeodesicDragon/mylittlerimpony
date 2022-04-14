@@ -466,6 +466,21 @@
 				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_ZephyrBreeze</defName>
+				<label>Weaponised Arrogance</label>
+				<description>Build a Zephyr Breeze decoy</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_ZephyrBreeze</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/WeaponisedArrogance</texPath>
+				<points>25</points>
+			</AchievementsExpanded.AchievementDef>
+			
 			<!--WEAPONS-->
 			
 			<AchievementsExpanded.AchievementDef>
@@ -541,7 +556,7 @@
 					<count>1</count>
 				</tracker>
 				
-				<texPath>Achievements/TheSix</texPath>
+				<texPath>Achievements/EmphasisOnHarm</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			

@@ -1,0 +1,110 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_ZephyrBreeze</defName>
+    <label>Zephyr Breeze</label>
+    <description>Although Zephyr Breeze reckons he is Celestia's gift to mares, he is yet to find one who agrees with him. Thankfully, though, his pig-headed arrogance can actually be useful.\n\nFuthermore, his thick skull - which has absorbed countless rejections from Rainbow Dash alone - makes him surprisingly durable.\n\nGood thing, too, because a lot of people seem to want to hit him.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/ZephyrBreeze</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <uiIconPath>Things/Building/ZephyrBreeze</uiIconPath>
+    <uiIconScale>0.90</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <Flammability>1</Flammability>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>6</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.25</fillPercent>
+    <hasTooltip>false</hasTooltip>
+    <costList>
+      <Cloth>300</Cloth>
+      <Steel>100</Steel>
+      <Plasteel>50</Plasteel>
+      <Uranium>50</Uranium>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <building>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>MLRP_Weaponless</turretGunDef>
+      <turretBurstCooldownTime>0</turretBurstCooldownTime>
+    </building>
+    <!--<researchPrerequisites>
+      <li></li>
+    </researchPrerequisites>-->
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MLRP_Weaponless</defName>
+    <label>weaponised arrogance</label>
+    <description>You can't help but want to punch the guy.</description>
+    <graphicData>
+      <texPath>Things/PonyPlush/PlushEquipped</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags Inherit="false">
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MLRP_WeaponisedArrogance</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>10</range>
+        <ticksBetweenBurstShots>250</ticksBetweenBurstShots>
+        <burstShotCount>0</burstShotCount>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>MLRP_WeaponisedArrogance</defName>
+		<label>invisible</label>
+		<graphicData>
+			<texPath>Things/PonyPlush/PlushEquipped</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>MLRP_Harmless</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<speed>250</speed>
+		</projectile>
+	</ThingDef>
+  
+	<DamageDef>
+		<defName>MLRP_Harmless</defName>
+	</DamageDef>
+  
+</Defs>

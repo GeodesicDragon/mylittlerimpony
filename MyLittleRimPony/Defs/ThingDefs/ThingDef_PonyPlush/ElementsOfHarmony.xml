@@ -5,6 +5,9 @@
 
   <ThingDef>
     <thingClass>Apparel</thingClass>
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+	</recipeMaker>
     <defName>MLRP_ElementsOfHarmony</defName>
     <label>Elements of Harmony</label>
     <description>It is a well-known fact that the Elements of Harmony are exceptionally powerful; this version, however, is the one that WON'T let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
@@ -70,6 +73,7 @@
     <defName>MLRP_MakeEOH_Plushies</defName>
     <label>make Elements of Harmony</label>
     <description>Create the Elements of Harmony using one of each Mane Six plush and some gold.</description>
+	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
     <jobString>Making Elements of Harmony</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -149,6 +153,7 @@
     <defName>MLRP_MakeEOH_Cloth</defName>
     <label>make Elements of Harmony (alt.)</label>
     <description>Create the Elements of Harmony using a lot of cloth and some gold.</description>
+	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
     <jobString>Making Elements of Harmony</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

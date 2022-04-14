@@ -1,3 +1,24 @@
+|-----------------------------|
+|      ROYALTY EXPANSION      |
+|-----------------------------|
+
+STEAM: https://steamcommunity.com/sharedfiles/filedetails/?id=2790004688
+GITHUB: https://github.com/GeodesicDragon/mlrp-royalty/releases/latest
+
+|------------------------------|
+|      IDEOLOGY EXPANSION      |
+|------------------------------|
+
+STEAM: https://steamcommunity.com/sharedfiles/filedetails/?id=2684300411
+GITHUB: https://github.com/GeodesicDragon/mlrp-ideology/releases/latest
+
+|---------------------------------|
+|      COMBAT EXTENDED PATCH      |
+|---------------------------------|
+
+STEAM: https://steamcommunity.com/sharedfiles/filedetails/?id=2726060046
+GITHUB: https://github.com/GeodesicDragon/mlrp-cepatch/releases
+
 |----------------------------------|
 |      WHAT DOES THIS MOD DO?      |
 |----------------------------------|
@@ -15,13 +36,20 @@
 11. Adds an NPC version of the brony faction, which you can help, hinder or annihilate as you see fit.
 12. Adds a Sweetie Bot turret. 'nuff said.
 13. Apple Bloom, Scootaloo and Sweetie Belle can be combined into the Cutie Mark Crusaders to gain all three of their bonuses at once (or you could use 900 cloth).
-14. Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -80 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie.
-16. Adds patches which work with Irn-Bru And Other Scottish Delights, if you have it enabled.
-15. Adds patches which work with RimPonk, if you have it enabled.
-16. Adds a patch that works with Bulk Carrier, if you have it enabled.
-17. Adds a patch that works with Reverse Engineered Mechanoid Shields, if you have it enabled.
-18. Adds patches which work with Vanilla Achievements Expanded, if you have it enabled.
-19. Adds Nurse Redheart, obtainable only via quests, who will provide 5 Medicine every 10 days as long as she has 350W of power.
+14. Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -50 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie.
+15. Adds a Statue of Nightmare Moon, which allows you to obtain exotic items using chocolate (though it's a bit more expensive than buying them normally).
+16. Adds a Statue of Daybreaker, which allows you to convert one material into the market value equivalent of another. It also allows you to make batches of 5 regular or advanced components much quicker than a fabrication bench. Just make sure you've got plenty of chemfuel in stock.
+17. Adds patches which work with Irn-Bru And Other Scottish Delights, if you have it enabled.
+18. Adds patches which work with RimPonk, if you have it enabled.
+19. Adds a patch that works with Bulk Carrier, if you have it enabled.
+20. Adds a patch that works with Reverse Engineered Mechanoid Shields, if you have it enabled.
+21. Adds patches which work with Vanilla Achievements Expanded, if you have it enabled.
+22. Adds Nurse Redheart, obtainable only via quests, who will provide 5 Medicine every 10 days as long as she has 350W of power.
+23. Adds patches which work with Addictol - Addiction Removal, if you have it enabled.
+24. Adds patches which work with Harvest Organs Post Mortem, if you have it enabled.
+25. Adds patches which work with Vanilla Furniture Expanded - Production, if you have it enabled.
+26. Adds patches which work with A RimWorld of Magic, if you have it enabled.
+27. Adds patches which allow you to configure aspects of the mod to your own liking, if you have XML Extensions enabled.
 
 Colonists will equip plushies themselves, though you might need to force them to wear the one that actually suits them better.
 
@@ -57,24 +85,32 @@ Cutie Mark Crusaders: Combines the bonuses granted by each CMC plush into one it
 
 Single Use Grenades N'at: Patches the wife thrower to be single use only.
 
-|------------------------------------|
-|      MODS PATCHED BY THIS ONE      |
-|------------------------------------|
+|-------------------------------------------------------|
+|      PATCHES APPLIED IF CERTAIN MODS ARE ENABLED      |
+|-------------------------------------------------------|
 
+A RimWorld of Magic: Adds a new item and makes the brony trait conflict with many of the traits added by this mod.
+Addictol - Addiciton Removal: NPC faction settlements and weapon traders will sell addictol.
 Bulk Carrier: Big Macintosh increases carrying capacity by 50kg instead of 25.
-Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
+Harvest Organs Post Mortem: Adds recipes to the Nightmare Moon statue which allow you to turn extra organs into chocolate.
 Irn-Bru And Other Scottish Delights: The NPC faction will send Scottish goods traders and stock Scottish goods at their settlements.
-RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction, which starts out hostile if you are playing the 'Banished Empress' or 'Rogue Changelings' scenarios. If you start a scenario with any of the Mane Six pawns, the NPC faction starts as allied.
+Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
+RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction, which starts out hostile if you are playing the 'Banished Empress' or 'Rogue Changelings' scenarios.
 Vanilla Achievements Expanded: Adds several achievements to acquire each of the items added by MLRP.
-
-Patches are only applied if the mod is enabled.
-
-|---------------------------------|
-|      COMBAT EXTENDED PATCH      |
-|---------------------------------|
-
-STEAM: https://steamcommunity.com/sharedfiles/filedetails/?id=2726060046
-GITHUB: https://github.com/GeodesicDragon/mlrp-cepatch/releases
+Vanilla Furniture Expanded - Production: Allows the plushie bench to benefit from the work speed bonus granted by the tailoring cabinet.
+XML Extensions: Allows you to configure many aspects of the mod to your own liking.
+	* Cloth needed to make plushies.
+	* Crafting skill needed to make plushies.
+	* Market value of plushies.
+	* Whether or not plushies become tainted upon death.
+	* Whether or not bronies are capable of violence.
+	* How often the brony trait appears on pawns.
+	* How often the anti brony trait appears on pawns.
+	* Accuracy of Sweetie Bot turrets at touch/short/medium/long range.
+	* Whether or not the cost of rearming Sweetie Bot turrets is affected by game difficulty.
+	* The type of medicine spawned by Nurse Redheart (industrial or glitterworld).
+	* How much medicine is spawned by Nurse Redheart.
+	* How often medicine is spawned by Nurse Redheart.
 
 |------------------------------------|
 |      CAN YOU ADD <CHARACTER>?      |

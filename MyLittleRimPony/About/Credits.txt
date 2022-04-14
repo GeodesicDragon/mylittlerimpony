@@ -27,11 +27,14 @@ Shining Armour (plush): 90sigma (626430)
 Starlight Glimmer: zacatron94/BrunoMilan13 (1426211)
 Sweetie Belle: sirwarluscake* (1184509)
 Sweetie Bot: weegeestareatyou (1180288)
-Twilight Sparkle: andoanimalia (2521465)
+Twilight Sparkle (alicorn): andoanimalia (2521465)
+Twilight Sparkle (unicorn): redpandapony (2779548)***
 Elements of Harmony: spiritofthwwolf* (sic) (63922)
 Cutie Mark Crusaders: parclytaxel* (1761090)
 
 Equestrian Flag: grabusz (1589868)
+Rainbow Laser: Vector-Brony (2493108 - attributed to someone else; original link in description)
+Zephyr Breeze: 19crowbar19* (1740159)
 
 PROJECTILES
 
@@ -44,7 +47,8 @@ Star image (used in some achievements): http://clipart-library.com/clipart/216.h
 
 * Source provided on Derpibooru was either missing or invalid.
 ** I had to edit this image before I could use it.
+*** This image is used by an item which is only seen if A RimWorld of Magic is enabled.
 
-MUSIC
+SOUNDS
 
-All music is from either the My Little Pony: Friendship is Magic TV series or My Little Pony: The Movie, and is used under Fair Use legislation. All music remains bound by the copyright of the owner; it is included in this mod for entertainment purposes only, and no profit is made from it.
+All sounds, unless otherwise specified, are taken from the My Little Pony: Friendship is Magic TV series, and are used under Fair Use legislation. All sounds remain bound by the copyright of the owner; they are included in this mod for entertainment purposes only, and no profit is made from them.

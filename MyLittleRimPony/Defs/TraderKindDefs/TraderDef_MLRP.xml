@@ -56,6 +56,10 @@
 				<countRange>1</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_MaudPie</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>PonyPlush_PinkiePie</thingDef>
 				<countRange>1</countRange>
 			</li>

@@ -1,0 +1,107 @@
+<Defs>
+
+<!--INDUSTRIAL COMPONENTS-->
+
+<RecipeDef>
+	<defName>MLRP_DB_CreateComponentIndustrial</defName>
+	<label>create component x 5</label>
+	<description>Create 5 components, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>Fabrication</researchPrerequisite>
+    <jobString>Making 5 components.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>60</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>75</count>
+		</li>
+	</ingredients>
+	<products>
+		<ComponentIndustrial>5</ComponentIndustrial>
+	</products>
+</RecipeDef>
+
+<!--ADVANCED COMPONENTS-->
+
+<RecipeDef>
+	<defName>MLRP_DB_CreateComponentSpacer</defName>
+	<label>create advanced component x 5</label>
+	<description>Create 5 advanced components, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+    <jobString>Making 5 advanced components.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>1.5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>75</count>
+		</li>
+	</ingredients>
+	<products>
+		<ComponentSpacer>5</ComponentSpacer>
+	</products>
+</RecipeDef>
+  
+</Defs>

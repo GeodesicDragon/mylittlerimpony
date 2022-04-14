@@ -48,10 +48,6 @@
   <ResearchProjectDef Abstract="True" Name="MLRP_NMMResearch">
     <baseCost>7500</baseCost>
     <techLevel>Industrial</techLevel>
-	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-	<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-	</requiredResearchFacilities>
     <techprintCount>3</techprintCount>
     <techprintCommonality>0.1</techprintCommonality>
     <techprintMarketValue>5000</techprintMarketValue>
@@ -65,10 +61,11 @@
 		<defName>MLRP_NightmareMoonResearch</defName>
 		<label>Statues of the Evil Sisters</label>
 		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate, as well as a statue of Daybreaker, who will convert 100 of one material (or 1000 silver) into its market value equivalent of another.</description>
-		<prerequisites>
-			<li>AdvancedFabrication</li>
-		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
+		<prerequisites>
+			<li>Cocoa</li>
+			<li>BiofuelRefining</li>
+		</prerequisites>
 		<researchViewX>20</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>

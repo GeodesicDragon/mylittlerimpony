@@ -10,6 +10,7 @@
 					<defName>MLRP_NMM_BionicWing</defName>
 					<label>request bionic wing</label>
 					<description>Offer chocolate in exchange for a bionic wing.</description>
+					<researchPrerequisite>Bionics</researchPrerequisite>
 					<jobString>Making an offering to Nightmare Moon</jobString>
 					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 					<workSkill>Crafting</workSkill>
