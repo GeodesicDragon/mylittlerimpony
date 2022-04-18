@@ -1,0 +1,10 @@
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="PonyPlush_TwilightSparkle"]/equippedStatOffsets</xpath>
+	<value>
+		<HackingSpeed>0.25</HackingSpeed>
+	</value>
+</Operation>
+
+</Patch>

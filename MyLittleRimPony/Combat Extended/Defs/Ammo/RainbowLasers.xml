@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--<ThingDef Class="CombatExtended.AmmoDef" Name="Base_MLRP_HarmonyLaser_CE" ParentName="BaseBullet" Abstract="true">
+	<graphicData>
+		<texPath>Things/Projectiles/RainbowLaser</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		<damageDef>Bullet</damageDef>
+		<speed>30</speed>
+		<dropsCasings>false</dropsCasings>
+	</projectile>
+</ThingDef>-->
+
+	<ThingCategoryDef>
+		<defName>MLRP_Ammo</defName>
+		<label>My Little RimPony</label>
+		<parent>Ammo</parent>
+		<iconPath>UI/Ammo_Equestria</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_HarmonyLasers</defName>
+		<label>Harmony Lasers</label>
+		<ammoTypes>
+			<Ammo_HarmonyLaser>Projectile_HarmonyRainbow</Ammo_HarmonyLaser>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+		<defName>Ammo_HarmonyLaser</defName>
+		<label>Harmony Lasers</label>
+		<description>Ammo for the Rainbow Laser.\n\nVery bright and colourful.</description>
+		<statBases>
+			<Mass>0.025</Mass>
+			<Bulk>0.02</Bulk>
+			<MarketValue>0.3</MarketValue>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<!--<li>CE_AutoEnableCrafting_FabricationBench</li>-->
+		</tradeTags>
+		<thingCategories>
+			<li>MLRP_Ammo</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/AmmoBox/Ammo_HarmonyLaser</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ammoClass>ArmorPiercing</ammoClass>
+	</ThingDef>
+
+	<!-- Projectile is already defined elsewhere -->
+
+	<!-- Recipes -->
+
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+		<defName>MakeAmmo_HarmonyLaser</defName>
+		<label>make Harmony lasers x500</label>
+		<description>Craft 500 shots' worth of Harmony lasers.</description>
+		<jobString>Making harmony lasers.</jobString>
+		<workAmount>3800</workAmount>
+		<recipeUsers>
+			<li>PlushieBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_HarmonyLaser>500</Ammo_HarmonyLaser>
+		</products>
+	</RecipeDef>
+
+</Defs>

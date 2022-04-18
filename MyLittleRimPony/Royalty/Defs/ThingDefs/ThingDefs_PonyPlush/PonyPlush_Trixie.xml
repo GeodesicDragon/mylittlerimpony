@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_Trixie</defName>
+    <label>Trixie</label>
+    <description>Trixie's ego may be big, but her grasp of illusion magic is bigger; it takes a lot of concentration to pull off the kinds of tricks she can perform.\n\nCarrying her makes you feel as though you feel as though she is helping you with your own concentration, particularly when it comes to using psychic abilities.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/Trixie</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+      <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

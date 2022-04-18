@@ -1,0 +1,34 @@
+<Defs>
+
+<!--RETURN PSYLINK NEUROFORMER-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_PsylinkNeuroformerForChocolate</defName>
+	<label>return psylink neuroformer</label>
+	<description>Return a psylink neuroformer in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PsychicAmplifier</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chocolate>87</Chocolate>
+	</products>
+</RecipeDef>
+
+</Defs>

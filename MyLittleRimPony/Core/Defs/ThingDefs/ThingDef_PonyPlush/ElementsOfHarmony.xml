@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--ITEM-->
+
+  <ThingDef>
+    <thingClass>Apparel</thingClass>
+    <defName>MLRP_ElementsOfHarmony</defName>
+    <label>Elements of Harmony</label>
+    <description>It is a well-known fact that the Elements of Harmony are exceptionally powerful; this version, however, is the one that WON'T let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
+    <techLevel>Industrial</techLevel>
+    <useHitPoints>True</useHitPoints>
+    <drawGUIOverlay>true</drawGUIOverlay>
+	<category>Item</category>
+	<selectable>True</selectable>
+    <graphicData>
+      <texPath>Things/ElementsOfHarmony</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>1</Flammability>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <thingCategories>
+      <li>Pony_Plushies</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.25</PlantWorkSpeed>
+      <PlantHarvestYield>0.25</PlantHarvestYield>
+      <TameAnimalChance>0.25</TameAnimalChance>
+      <TrainAnimalChance>0.25</TrainAnimalChance>
+      <SocialImpact>0.25</SocialImpact>
+      <MoveSpeed>1</MoveSpeed>
+      <MeleeHitChance>5</MeleeHitChance>
+      <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+	  <TradePriceImprovement>0.25</TradePriceImprovement>
+	  <ResearchSpeed>0.25</ResearchSpeed>
+    </equippedStatOffsets>
+    <comps>
+		<li Class="CompProperties_Forbiddable" />
+		<li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>MLRP_PonyPlushEquipped</hediff>
+        <part>Waist</part>
+      </li>
+    </comps>
+    <apparel>
+  <careIfWornByCorpse>true</careIfWornByCorpse>
+  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  <!--MAKE USING PLUSHIES-->
+  
+  <RecipeDef>
+    <defName>MLRP_MakeEOH_Plushies</defName>
+    <label>make Elements of Harmony</label>
+    <description>Create the Elements of Harmony using one of each Mane Six plush and some gold.</description>
+	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    <jobString>Making Elements of Harmony</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>9000</workAmount>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_Applejack</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_Fluttershy</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_PinkiePie</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_RainbowDash</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_Rarity</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_TwilightSparkle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
+    </products>
+  </RecipeDef>
+  
+	<!--MAKE USING CLOTH-->
+	
+  <RecipeDef>
+    <defName>MLRP_MakeEOH_Cloth</defName>
+    <label>make Elements of Harmony (alt.)</label>
+    <description>Create the Elements of Harmony using a lot of cloth and some gold.</description>
+	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    <jobString>Making Elements of Harmony</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>9000</workAmount>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>1800</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
+    </products>
+  </RecipeDef>
+  
+</Defs>

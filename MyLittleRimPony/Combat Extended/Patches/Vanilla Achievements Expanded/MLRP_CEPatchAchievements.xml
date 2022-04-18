@@ -1,0 +1,60 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Achievements Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+			<!--AMMO-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_CadenceJavelins</defName>
+				<label>A Whole Lotta Love</label>
+				<description>Craft 1,000 rounds of wife thrower ammo</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>Ammo_CadenceJavelins</def>
+					<count>1000</count>
+				</tracker>
+				
+				<texPath>Things/AmmoBox/Ammo_CadenceJavelins</texPath>
+				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Ammo_TennisBalls</defName>
+				<label>Wimbledon This Ain't</label>
+				<description>Craft 1,000 rounds of tennis ball launcher ammo</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>Ammo_TennisBalls</def>
+					<count>1000</count>
+				</tracker>
+				
+				<texPath>Things/AmmoBox/Ammo_TennisBalls</texPath>
+				<points>75</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_RainbowLasers</defName>
+				<label>Hazardous Harmonious Materials</label>
+				<description>Craft 10,000 rounds of Rainbow Laser ammo</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>Ammo_HarmonyLaser</def>
+					<count>10000</count>
+				</tracker>
+				
+				<texPath>Things/AmmoBox/Ammo_HarmonyLaser</texPath>
+				<points>100</points>
+			</AchievementsExpanded.AchievementDef>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

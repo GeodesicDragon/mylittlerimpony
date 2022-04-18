@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<TipSetDef>
+	<defName>MyLittleRimPony_RoyaltyTips</defName>
+	<tips>
+		<li>Trixie: "Usually, ponies just call me Trixie. But 'Ms. Powerful' has a nice ring."</li>
+		<li>The improve relations ability is best used during times of peace.</li>
+	</tips>
+</TipSetDef>
+
+</Defs>

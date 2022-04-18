@@ -1,0 +1,54 @@
+<Defs>
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_ScrewballGenerator</defName>
+    <label>Screwball</label>
+    <description>A strange power emanates from this pony; some say she was cursed by the Lord of Chaos - which is something he has always vehemently denied - but at least this power can be put to some use.</description>
+    <thingClass>Building</thingClass>
+	<designationHotKey>Misc2</designationHotKey>
+    <drawerType>MapMeshAndRealTime</drawerType>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <graphicData>
+      <texPath>Things/Building/Screwball</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>false</blockWind>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-5</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <costList>
+      <Cloth>300</Cloth>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-250</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <researchPrerequisites>
+      <li>MLRP_ScrewballResearch</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>  

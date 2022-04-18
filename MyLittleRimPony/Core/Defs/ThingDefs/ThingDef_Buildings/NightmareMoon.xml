@@ -1,0 +1,60 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_NightmareMoon</defName>
+    <label>Statue of Nightmare Moon</label>
+    <description>Nightmare Moon was once Equestria's greatest threat, feared by many and respected by few.\n\nOut here on the rimworlds, however, she's perfectly happy to accept offers of chocolate in exchange for powerful items that will benefit your colony.</description>
+    <thingClass>Building_WorkTable</thingClass>
+	<designationHotKey>Misc4</designationHotKey>
+    <graphicData>
+      <texPath>Things/Building/NightmareMoon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+		<li>BuildingsProduction</li>
+    </thingCategories>
+	<costStuffCount>500</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <PonyPlush_PrincessLuna>1</PonyPlush_PrincessLuna>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Steel>150</Steel>
+      <Gold>100</Gold>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>7200</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>50</Mass>
+    </statBases>
+    <size>(2,2)</size>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MLRP_NightmareMoonResearch</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>  

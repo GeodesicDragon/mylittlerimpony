@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+<!--PATCH THE AMMO-->
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[@Name="BaseProjectileCadence"]/thingClass</xpath>
+	<value>
+		<thingClass>CombatExtended.BulletCE</thingClass>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="LovePrincess"]/projectile</xpath>
+	<value>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>25</damageAmountBase>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<armorPenetrationBlunt>30</armorPenetrationBlunt>
+		</projectile>
+	</value>
+</Operation>
+
+<!--PATCH THE TOOLS-->
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="MLRP_WifeThrower"]/tools</xpath>
+	<value>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>body</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>horn</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</value>
+</Operation>
+
+<!--PATCH THE WEAPON ITSELF-->
+
+<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<defName>MLRP_WifeThrower</defName>
+	<statBases>
+		<Mass>2</Mass>
+		<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		<SightsEfficiency>0.2</SightsEfficiency>
+		<ShotSpread>0.5</ShotSpread>
+		<SwayFactor>4</SwayFactor>
+		<Bulk>3</Bulk>
+		<WorkToMake>7000</WorkToMake>
+	</statBases>
+	<costList>
+		<WoodLog>75</WoodLog>
+	</costList>
+	<Properties>
+		<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>LovePrincess</defaultProjectile>
+		<warmupTime>2</warmupTime>
+		<range>20</range>
+		<soundCast>Interact_BeatFire</soundCast>
+	</Properties>
+	<AmmoUser>
+		<magazineSize>1</magazineSize>
+		<reloadTime>0.5</reloadTime>
+		<ammoSet>AmmoSet_CadenceJavelins</ammoSet>
+	</AmmoUser>
+	<FireModes>
+		<aiUseBurstMode>FALSE</aiUseBurstMode>
+	</FireModes>
+	<weaponTags>
+		<li>WifeThrower</li>
+		<li>NeolithicRangedBasic</li>
+	</weaponTags>
+</Operation>
+</Patch>

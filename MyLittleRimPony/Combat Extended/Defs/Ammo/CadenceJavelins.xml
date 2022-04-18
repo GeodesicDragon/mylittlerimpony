@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--<ThingDef Class="CombatExtended.AmmoDef" Name="Base_MLRP_HarmonyLaser_CE" ParentName="BaseBullet" Abstract="true">
+	<graphicData>
+		<texPath>Things/Projectiles/RainbowLaser</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		<damageDef>Bullet</damageDef>
+		<speed>30</speed>
+		<dropsCasings>false</dropsCasings>
+	</projectile>
+</ThingDef>-->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_CadenceJavelins</defName>
+		<label>Cadence javelins</label>
+		<ammoTypes>
+			<Ammo_CadenceJavelins>LovePrincess</Ammo_CadenceJavelins>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+		<defName>Ammo_CadenceJavelins</defName>
+		<label>Cadence Javelins</label>
+		<description>Ammo for the wife thrower.\n\nNo alicorns were harmed in the making of this item.</description>
+		<statBases>
+			<Mass>0.01</Mass>
+			<Bulk>0.015</Bulk>
+			<MarketValue>0.1</MarketValue>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+		</tradeTags>
+		<thingCategories>
+			<li>MLRP_Ammo</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/AmmoBox/Ammo_CadenceJavelins</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!--<ammoClass>Charged</ammoClass>-->
+	</ThingDef>
+
+
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+		<defName>MakeAmmo_CadenceJavelin</defName>
+		<label>make Cadence Javelins x50</label>
+		<description>Craft 50 Cadence Javelins.</description>
+		<jobString>Making Cadence javelins.</jobString>
+		<workAmount>1900</workAmount>
+		<recipeUsers>
+			<li>PlushieBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_CadenceJavelins>50</Ammo_CadenceJavelins>
+		</products>
+	</RecipeDef>
+
+</Defs>

@@ -1,3 +1,39 @@
+Version 2.0.0 (April 18th 2022)
+
+* All of the extensions for this mod have been removed from the Workshop and Github, and implemented within this one. Content will be loaded depending on the game version and expansions you are using; the Combat Extended patch is included in this as well.
+* Added a recipe to the plushie bench which allows you to recycle plushies.
+	* Requires research at a hi-tech research bench.
+	* Grants 60% of the cloth used to make them.
+	* Separate recipes exist for recycling the Elements of Harmony and Cutie Mark Crusaders; the former also returns 10% of the gold used.
+* Added hotkeys to buildings in the RimPony section of the Architect menu.
+* Made some changes to the wife thrower.
+	* Making one no longer requires a Cadence plush.
+	* Reduced the ranged cooldown of to 2 seconds (was 3).
+	* Increased the long range accuracy to 40% (was 32%).
+	* Reduced the amount of wood needed to make one to 75 (was 100).
+* The rainbow laser has also undergone some modifications.
+	* The damage has been increased to 25 (was 22).
+	* The touch accuracy has been increased to 30% (was 20).
+	* The short range accuracy has been increased to 40% (was 35).
+	* The ranged cooldown has been decreased to 2 seconds (was 2.5).
+	* The amount of gold required to make one has been increased to 75 (was 50).
+* Made some changes to patches for XML Extensions.
+	* If bronies are capable of violence, the trait will not conflict with the bloodlust, brawler, careful shooter and trigger-happy traits.
+	* If bronies are capable of violence, the market value reduction caused by the trait will be removed.
+	* Removed 'null' tooltips from the settings screen.
+* Users of this mod who don't have XML Extensions enabled should no longer be spammed with red errors on game startup.
+* Fixed 'Config error in PonyPlush_CutieMarkCrusaders: has a recipeMaker but no costList or costStuffCount' error.
+* Fixed 'Config error in MLRP_ElementsOfHarmony: has a recipeMaker but no costList or costStuffCount' error.
+* Fixed 'Config error in MLRP_Daybreaker: is haulable, but does not have an authored mass value' error.
+* Fixed 'Config error in MLRP_Daybreaker: is minifiable but not in any thing category' error.
+* Brony Community pawns no longer start with a random plushie in their inventory.
+* The brony trait now conflicts with traits related to shooting accuracy.
+* The brony trait now conflicts with traits related to drug desire.
+* Removed techprint requirement from Evil Sisters research.
+* Elite brony mercenaries no longer spawn with tech implants.
+* NPC faction pawns now carry packaged survival meals instead of simple/fine/lavish meals.
+* Pony plushies now reduce pain by 10% for as long as they are equipped.
+
 Version 1.159.268 (April 14th 2022)
 
 * Added Zephyr Breeze (building).

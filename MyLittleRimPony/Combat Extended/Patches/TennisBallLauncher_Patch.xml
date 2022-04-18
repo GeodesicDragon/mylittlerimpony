@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+<!--PATCH THE AMMO-->
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="MLRP_TennisBall"]/thingClass</xpath>
+	<value>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="MLRP_TennisBall"]/projectile</xpath>
+	<value>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>2.4</explosionRadius>
+			<postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<arcHeightFactor>0.2</arcHeightFactor>
+			<shadowSize>0.6</shadowSize>
+		</projectile>
+	</value>
+</Operation>
+
+<!--PATCH THE TOOLS-->
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="Izzy_SmokeLauncher"]/tools</xpath>
+	<value>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>body</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>horn</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</value>
+</Operation>
+
+<!--PATCH THE WEAPON ITSELF-->
+
+<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<defName>Izzy_SmokeLauncher</defName>
+	<statBases>
+		<Mass>3.4</Mass>
+		<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		<SightsEfficiency>0.6</SightsEfficiency>
+		<ShotSpread>0.4</ShotSpread>
+		<SwayFactor>3</SwayFactor>
+		<Bulk>4</Bulk>
+		<WorkToMake>30000</WorkToMake>
+	</statBases>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+		<PonyPlush_IzzyMoonbow>1</PonyPlush_IzzyMoonbow>
+	</costList>
+	<Properties>
+		<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>MLRP_TennisBall</defaultProjectile>
+		<warmupTime>3.5</warmupTime>
+		<range>23.9</range>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>Shot_IncendiaryLauncher</soundCast>
+		<muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+			<canTargetLocations>true</canTargetLocations>
+        </targetParams>
+	</Properties>
+	<AmmoUser>
+		<magazineSize>6</magazineSize>
+		<reloadTime>2.5</reloadTime>
+		<ammoSet>AmmoSet_TennisBalls</ammoSet>
+	</AmmoUser>
+	<FireModes>
+		<aiUseBurstMode>FALSE</aiUseBurstMode>
+	</FireModes>
+	<weaponTags>
+		<li>RangedHeavy</li>
+	</weaponTags>
+</Operation>
+</Patch>

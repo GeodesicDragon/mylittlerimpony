@@ -1,0 +1,103 @@
+<Defs>
+
+<RecipeDef>
+	<defName>MLRP_RecyclePlushies</defName>
+	<label>Recycle plushies</label>
+	<description>Recycle a plushie, reclaiming 60% of the cloth used to make it.</description>
+	<researchPrerequisite>MLRP_PlushieRecycling</researchPrerequisite>
+    <jobString>Recycling plushies</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Pony_Plushies</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Pony_Plushies</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MLRP_ElementsOfHarmony</li>
+        <li>PonyPlush_CutieMarkCrusaders</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+	<products>
+		<Cloth>180</Cloth>
+	</products>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>MLRP_RecycleEOH</defName>
+	<label>Recycle Elements of Harmony</label>
+	<description>Recycle Elements of Harmony, reclaiming 60% of the cloth and 10% of the gold used to make them.</description>
+	<researchPrerequisite>MLRP_PlushieRecycling</researchPrerequisite>
+    <jobString>Recycling Elements of Harmony</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MLRP_ElementsOfHarmony</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Cloth>720</Cloth>
+		<Gold>10</Gold>
+	</products>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>MLRP_RecycleCMC</defName>
+	<label>Recycle Cutie Mark Crusaders</label>
+	<description>Recycle a Cutie Mark Crusaders plushie, reclaiming 60% of the cloth used to make it.</description>
+	<researchPrerequisite>MLRP_PlushieRecycling</researchPrerequisite>
+    <jobString>Recycling Cutie Mark Crusaders</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PonyPlush_CutieMarkCrusaders</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Cloth>540</Cloth>
+	</products>
+</RecipeDef>
+
+</Defs>

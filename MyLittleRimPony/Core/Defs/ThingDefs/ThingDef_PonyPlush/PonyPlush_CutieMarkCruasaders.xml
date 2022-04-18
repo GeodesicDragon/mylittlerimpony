@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--ITEM-->
+
+    <ThingDef>
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_CutieMarkCrusaders</defName>
+    <label>Cutie Mark Crusaders</label>
+    <description>Otherwise known as 'The Three Filly Wrecking Crew Of Ponyville.'\n\nCarrying them makes you feel as though they are supporting and guiding you, even though you can't get a cutie mark of your own.</description>
+    <techLevel>Industrial</techLevel>
+    <useHitPoints>True</useHitPoints>
+    <drawGUIOverlay>true</drawGUIOverlay>
+	<category>Item</category>
+	<selectable>True</selectable>
+    <graphicData>
+      <texPath>Things/PonyPlush/CutieMarkCrusaders</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>750</MarketValue>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>1</Flammability>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <thingCategories>
+      <li>Pony_Plushies</li>
+    </thingCategories>
+    <equippedStatOffsets>
+		<ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
+		<InjuryHealingFactor>0.5</InjuryHealingFactor>
+		<CookSpeed>20</CookSpeed>
+		<FoodPoisonChance>-0.1</FoodPoisonChance>
+    </equippedStatOffsets>
+    <comps>
+		<li Class="CompProperties_Forbiddable" />
+		<li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>MLRP_PonyPlushEquipped</hediff>
+        <part>Waist</part>
+      </li>
+    </comps>
+    <apparel>
+  <careIfWornByCorpse>true</careIfWornByCorpse>
+  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+  <!--MAKE USING PLUSHIES-->
+  
+  <RecipeDef>
+    <defName>MLRP_MakeCMC_Plushies</defName>
+    <label>make Cutie Mark Crusaders</label>
+    <description>Create the Cutie Mark Crusaders using one of each CMC plush.</description>
+	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    <jobString>Making Cutie Mark Crusaders</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>9000</workAmount>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_AppleBloom</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_Scootaloo</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PonyPlush_SweetieBelle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PonyPlush_CutieMarkCrusaders>1</PonyPlush_CutieMarkCrusaders>
+    </products>
+  </RecipeDef>
+  
+	<!--MAKE USING CLOTH-->
+	
+  <RecipeDef>
+    <defName>MLRP_MakeCMC_Cloth</defName>
+    <label>make Cutie Mark Crusaders (alt.)</label>
+    <description>Create the Cutie Mark Crusaders using just cloth.</description>
+	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    <jobString>Making Cutie Mark Crusaders</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>9000</workAmount>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>900</count>
+      </li>
+    </ingredients>
+    <products>
+      <PonyPlush_CutieMarkCrusaders>1</PonyPlush_CutieMarkCrusaders>
+    </products>
+  </RecipeDef>
+
+</Defs>

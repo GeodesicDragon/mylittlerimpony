@@ -1,0 +1,40 @@
+<Defs>
+
+  <PawnKindDef Name="MLRP_BronyKindsPlayer" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>MLRP_NPC_Faction</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+          <li>Outlander</li>
+          <li>Outsider</li>
+          <li>Pirate</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+	<disallowedTraits>
+      <li>Wimp</li>
+	  <li>Pyromaniac</li>
+	  <li>DrugDesire</li>
+    </disallowedTraits>
+  </PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_BronyKindsPlayer">
+    <defName>MLRP_BronyPlayer</defName>
+    <label>brony</label>
+	<baseRecruitDifficulty>1</baseRecruitDifficulty> 		<!--I don't know why I need to define these for player pawns,-->
+    <initialWillRange>90~99</initialWillRange>				<!--but the game throws an error if they're not there. So, I-->
+	<initialResistanceRange>10~17</initialResistanceRange>	<!--guess they're just gonna stay here.-->
+    <labelPlural>bronies</labelPlural>
+	<combatPower>60</combatPower>
+    <apparelRequired>
+      <li>Apparel_FlakJacket</li>
+      <li>Apparel_FlakPants</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_BasicShirt</li>
+    </apparelRequired>
+  </PawnKindDef>
+  
+</Defs>

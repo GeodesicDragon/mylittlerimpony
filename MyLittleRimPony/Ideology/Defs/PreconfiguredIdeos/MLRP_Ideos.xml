@@ -1,0 +1,22 @@
+<Defs>
+
+	<IdeoPresetDef>
+		<defName>Cult_Of_Harmony</defName>
+		<label>Disciples of Harmony</label>
+		<description>Blessed are those who follow the teachings of the Alicorn Goddesses.
+
+Celestia, who told us to let the light of life shine from within us.
+Luna, who told us not to let your mistakes define who you are.
+Cadence, who told us that love conquers all.
+Twilight, who told us that friendship is eternal.
+
+We are their disciples, and we will not falter in our efforts to spread their lessons across the land.</description>
+		<categoryDef>Strong</categoryDef>
+		<memes>
+			<li>AnimalPersonhood</li>
+			<li>Individualist</li>
+			<li>Proselytizer</li>
+		</memes>
+	</IdeoPresetDef>
+  
+</Defs>

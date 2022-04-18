@@ -1,0 +1,9 @@
+<Patch>
+    <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>MLRP_BronyFaction</li>
+			<li>MLRP_NPC_Faction</li>
+		</value>
+	</Operation>
+</Patch>

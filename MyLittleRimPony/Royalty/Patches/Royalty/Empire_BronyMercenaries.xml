@@ -1,0 +1,15 @@
+<Patch>
+    <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+		<value>
+			<li>
+				<factionDef>MLRP_NPC_Faction</factionDef>
+				<pawnKinds>
+					<li>Brony_Mercenary</li>
+					<li>Brony_Mercenary_Melee</li>
+					<li>Brony_Mercenary_Elite</li>
+				</pawnKinds>
+			</li>  
+		</value>
+    </Operation>
+</Patch>

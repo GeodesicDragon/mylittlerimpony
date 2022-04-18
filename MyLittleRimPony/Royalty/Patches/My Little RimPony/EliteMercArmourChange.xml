@@ -1,0 +1,14 @@
+<Patch>
+    <Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary_Elite"]/apparelRequired</xpath>
+		<value>
+			<apparelRequired>
+				<li>Apparel_ArmorCataphract</li>
+				<li>Apparel_ArmorHelmetCataphract</li>
+				<li>PonyPlush_RainbowDash</li>
+				<li>Apparel_BasicShirt</li>
+				<li>Apparel_Pants</li>
+			</apparelRequired>
+		</value>
+	</Operation>
+</Patch>

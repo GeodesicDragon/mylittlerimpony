@@ -1,0 +1,21 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/MemeDef[defName="Individualist"]</xpath>
+					<value>
+						<agreeableTraits>
+							<li>MLRP_BronyTrait</li>
+						</agreeableTraits>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

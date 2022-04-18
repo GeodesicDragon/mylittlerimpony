@@ -1,0 +1,44 @@
+<Defs>
+
+  <AbilityDef ParentName="WordOfBase">
+    <defName>MLRP_GoodwillIncrease</defName>
+    <label>improve relations</label>
+    <description>Speak to the target while using psychic suggestion to improve relations between your factions. This will also cause the target to wander aimlessly for a few moments, but is mostly harmless.</description>
+    <level>4</level>
+    <iconPath>UI/Abilities/ImproveRelations</iconPath>
+    <writeCombatLog>True</writeCombatLog>
+    <hotKey>Misc3</hotKey>
+    <statBases>
+      <Ability_PsyfocusCost>0.75</Ability_PsyfocusCost>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetAnimals>False</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>MLRP_GIPsycastUsed</hediffDef>
+        <psychic>True</psychic>
+        <goodwillImpact>10</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <HediffDef ParentName = "PsycastHediffBase">
+    <defName>MLRP_GIPsycastUsed</defName>
+    <label>dazed and confused</label>
+    <description>A reaction to being psychically compelled into being more friendly.</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disorientation">
+        <wanderMtbHours>0.5</wanderMtbHours>
+        <singleWanderDurationTicks>180</singleWanderDurationTicks>
+        <wanderRadius>3</wanderRadius>
+      </li>
+    </comps>
+  </HediffDef>
+  
+</Defs>

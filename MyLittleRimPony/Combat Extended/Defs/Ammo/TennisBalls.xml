@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--<ThingDef Class="CombatExtended.AmmoDef" Name="Base_MLRP_HarmonyLaser_CE" ParentName="BaseBullet" Abstract="true">
+	<graphicData>
+		<texPath>Things/Projectiles/RainbowLaser</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		<damageDef>Bullet</damageDef>
+		<speed>30</speed>
+		<dropsCasings>false</dropsCasings>
+	</projectile>
+</ThingDef>-->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_TennisBalls</defName>
+		<label>tennis balls</label>
+		<ammoTypes>
+			<Ammo_TennisBalls>MLRP_TennisBall</Ammo_TennisBalls>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+		<defName>Ammo_TennisBalls</defName>
+		<label>Tennis balls</label>
+		<description>Ammo for the tennis ball launcher.\n\nVery creative, apparently.</description>
+		<statBases>
+			<Mass>0.02</Mass>
+			<Bulk>0.025</Bulk>
+			<MarketValue>0.17</MarketValue>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+		</tradeTags>
+		<thingCategories>
+			<li>MLRP_Ammo</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/AmmoBox/Ammo_TennisBalls</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ammoClass>Smoke</ammoClass>
+	</ThingDef>
+
+
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+		<defName>MakeAmmo_TennisBalls</defName>
+		<label>make Tennis balls x50</label>
+		<description>Craft 50 tennis balls.</description>
+		<jobString>Making tennis balls.</jobString>
+		<workAmount>1900</workAmount>
+		<recipeUsers>
+			<li>PlushieBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_TennisBalls>50</Ammo_TennisBalls>
+		</products>
+	</RecipeDef>
+
+</Defs>

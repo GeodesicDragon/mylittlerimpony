@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+<!--PATCH THE AMMO-->
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[@Name="BaseProjectileHarmony"]/thingClass</xpath>
+	<value>
+		<thingClass>CombatExtended.BulletCE</thingClass>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="Projectile_HarmonyRainbow"]/projectile</xpath>
+	<value>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>25</damageAmountBase>
+			<armorPenetrationSharp>8</armorPenetrationSharp>
+			<armorPenetrationBlunt>70</armorPenetrationBlunt>
+		</projectile>
+	</value>
+</Operation>
+
+<!--PATCH THE TOOLS-->
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="MLRP_ElementsOfHarmonyWeaponised"]/tools</xpath>
+	<value>
+		<tools>
+		  <li Class="CombatExtended.ToolCE">
+			<label>elements</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>3</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+	</value>
+</Operation>
+
+<!--PATCH THE WEAPON ITSELF-->
+
+<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<defName>MLRP_ElementsOfHarmonyWeaponised</defName>
+	<statBases>
+		<Mass>2</Mass>
+		<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		<SightsEfficiency>0.8</SightsEfficiency>
+		<ShotSpread>0.15</ShotSpread>
+		<SwayFactor>2</SwayFactor>
+		<Bulk>3</Bulk>
+		<WorkToMake>18000</WorkToMake>
+	</statBases>
+	<costList>
+		<MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
+		<Plasteel>100</Plasteel>
+		<Gold>7.5</Gold>
+	</costList>
+	<Properties>
+		<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>Projectile_HarmonyRainbow</defaultProjectile>
+		<warmupTime>2</warmupTime>
+		<range>30</range>
+		<burstShotCount>3</burstShotCount>
+		<soundCast>MLRP_EOH_Fire</soundCast>
+		<soundCastTail>GunTail_Light</soundCastTail>
+		<muzzleFlashScale>0</muzzleFlashScale>
+	</Properties>
+	<AmmoUser>
+		<magazineSize>30</magazineSize>
+		<reloadTime>2.5</reloadTime>
+		<ammoSet>AmmoSet_HarmonyLasers</ammoSet>
+	</AmmoUser>
+	<FireModes>
+		<aiUseBurstMode>FALSE</aiUseBurstMode>
+	</FireModes>
+	<weaponTags>
+		<li>Rainbow_Laser</li>
+		<li>AdvancedGun</li>
+	</weaponTags>
+	<researchPrerequisite>MLRP_WeaponisedElementsResearch</researchPrerequisite>
+</Operation>
+</Patch>

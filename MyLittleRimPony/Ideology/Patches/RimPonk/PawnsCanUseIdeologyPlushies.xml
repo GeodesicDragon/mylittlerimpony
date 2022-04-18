@@ -1,0 +1,17 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony" or @Name="BaseChan" or @Name="BaseGrif" or @Name="BaseKiri"]/alienRace/raceRestriction/whiteApparelList</xpath>
+			<value>
+				<li>PonyPlush_KingSombra</li>
+				<li>PonyPlush_QueenChrysalis</li>
+				<li>PonyPlush_Zecora</li>
+			</value>
+    </match>
+</Operation>
+
+</Patch>

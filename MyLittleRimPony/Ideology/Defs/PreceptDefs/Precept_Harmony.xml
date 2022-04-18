@@ -1,0 +1,33 @@
+<Defs>
+
+<IssueDef>
+	<defName>MLRP_HarmonyIssue</defName>
+	<label>Harmony</label>
+	<iconPath>UI/Issues/ElementsOfHarmony</iconPath>
+</IssueDef>
+
+<PreceptDef>
+	<defName>MLRP_HarmonyPrecept</defName>
+	<issue>MLRP_HarmonyIssue</issue>
+	<label>revered</label>
+	<description>Twilight Sparkle and her friends had it all figured out; only by following their examples can we achieve greatness.</description>
+	<impact>Medium</impact>
+	<displayOrderInImpact>1000</displayOrderInImpact>
+	<requiredMemes>
+		<li>Individualist</li>
+	</requiredMemes>
+	<statOffsets>
+		<PlantWorkSpeed>0.25</PlantWorkSpeed>
+		<PlantHarvestYield>0.25</PlantHarvestYield>
+		<TameAnimalChance>0.25</TameAnimalChance>
+		<TrainAnimalChance>0.25</TrainAnimalChance>
+		<SocialImpact>0.25</SocialImpact>
+		<MoveSpeed>1</MoveSpeed>
+		<MeleeHitChance>5</MeleeHitChance>
+		<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+		<TradePriceImprovement>0.25</TradePriceImprovement>
+		<ResearchSpeed>0.25</ResearchSpeed>
+	</statOffsets>
+</PreceptDef>
+  
+</Defs>

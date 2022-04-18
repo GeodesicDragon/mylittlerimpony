@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="PonyPlush_Trixie"]/statBases</xpath>
+					<value>
+						<Bulk>1</Bulk>
+						<WornBulk>1</WornBulk>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
