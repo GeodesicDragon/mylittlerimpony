@@ -1,0 +1,13 @@
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader" or defName="MLRP_NPCFaction_CombatSupplier"]/stockGenerators</xpath>
+	<value>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>MLRP_HarmonyChip</thingDef>
+			<countRange>-8~1</countRange>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

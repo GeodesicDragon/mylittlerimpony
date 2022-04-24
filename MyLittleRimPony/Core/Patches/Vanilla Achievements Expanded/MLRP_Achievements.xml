@@ -607,6 +607,21 @@
 				<texPath>Achievements/HelloooooooNurse</texPath>
 				<points>30</points>
 			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_InstallHarmonyChip</defName>
+				<label>This Is Your Brain On Pony</label>
+				<description>Install a Harmony Chip</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.HediffTracker">
+					<def>MLRP_HarmonyChipInstalled</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/ThisIsYourBrainOnPony</texPath>
+				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
 	    </value>
     </match>
 </Operation>

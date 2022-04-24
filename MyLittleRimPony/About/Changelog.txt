@@ -1,3 +1,36 @@
+Version 2.3.8 (April 24th 2022)
+
+* With 26 plushies added by this mod(1), there is a lot of choice involved; do you equip a Rainbow Dash to help with combat, or an Applejack to help with the harvest? Well, as long as you have the Royalty DLC, you no longer need to faff about with such inane decisions, thanks to... the Harmony Chip!
+	* When implanted into the brain, this marvellous piece of tech will grant the bonuses of every plushie at once (except for Starlight, because -100% psychic sensitivity isn't much use to a psycaster).
+	* Costs 350 each of steel, plasteel and uranium, 175 gold and 10 advanced components to make at a plushie bench.
+	* Requires research at a hi-tech research bench with multi-analyser.
+	* Can rarely be obtained from NPC faction settlements and combat suppliers.
+	* Requires 12 skill in Crafting to make.
+	* Requires 12 skill in Medicine to install.
+	* Has a market value of 17500 silver.
+	* Pawns with the brony trait will get +20 to mood if they have a chip installed.
+	* Pawns with the anti brony trait will get -20 to mood if they have a chip installed.
+	* All other pawns will get +10 to mood if they have a chip installed.
+	* Users of XML Extensions should be able to install it in any modded humanlike thanks to a patch.
+	* You can still equip plushies if you have a chip installed.
+	* Starlight isn't included in the bonuses because -100% to psychic sensitivity is of no use to psycasters.
+	* Slave suppression is also included, meaning you can put this in your slaves to improve their work. Ironic, I know.
+* Vanilla Achievements Expanded: Added an achievement to install a harmony chip in a pawn.
+* (Royalty) Added a patch which turns the anima tree into the Tree of Harmony.
+	* It only changes the name, description and texture.
+	* Doesn't change anima grass.
+	* May look a bit weird depending on whether other trees were near it.
+* Updated preview image.
+* Fixed incorrect description (it still had links to the old expansions and the CE patch).
+* Recipes to recycle the Elements of Harmony and Cutie Mark Crusaders no longer assume you want to recycle every one that you get; you can now specify how much durability they need to have before they are recycled. (You may need to check the bills and ensure that the item has a green tick next to it.)
+* Anti-bronies now have a -25 opinion of bronies (was -50).
+* Fixed Zephyr Breeze not increasing home area when constructed.
+* Fixed Zephyr Breeze not having 1000 maximum health as specified in earlier patch notes.
+* Sweetie Bot is reporting a 12.5% decrease in power usage with zero loss in efficiency (175W, down from 200W).
+* Fixed Sweetie Bot turrets exploding even though it says in the description that they don't.
+
+(1) 27 if you include the unicorn Twilight plush, which is added by a patch for A RimWorld of Magic. Also, fun fact, there are 22 plushies in the core mod, plus 1 for Royalty and 3 for Ideology.
+
 Version 2.0.0 (April 18th 2022)
 
 * All of the extensions for this mod have been removed from the Workshop and Github, and implemented within this one. Content will be loaded depending on the game version and expansions you are using; the Combat Extended patch is included in this as well.

@@ -55,15 +55,43 @@
 		<li>PlushieBench</li>
 	</recipeUsers>
 	<ingredients>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>MLRP_ElementsOfHarmony</li>
-				</thingDefs>
-			</filter>
-			<count>1</count>
-		</li>
-	</ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Pony_Plushies</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Pony_Plushies</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>PonyPlush_AppleBloom</li>
+        <li>PonyPlush_Applejack</li>
+        <li>PonyPlush_BigMacintosh</li>
+        <li>PonyPlush_Cheerilee</li>
+        <li>PonyPlush_CutieMarkCrusaders</li>
+        <li>PonyPlush_Discord</li>
+        <li>PonyPlush_Fluttershy</li>
+        <li>PonyPlush_Haywick</li>
+        <li>PonyPlush_IzzyMoonbow</li>
+        <li>PonyPlush_MaudPie</li>
+        <li>PonyPlush_PinkiePie</li>
+        <li>PonyPlush_PrincessCadence</li>
+        <li>PonyPlush_PrincessCelestia</li>
+        <li>PonyPlush_PrincessLuna</li>
+        <li>PonyPlush_RainbowDash</li>
+        <li>PonyPlush_Rarity</li>
+        <li>PonyPlush_Scootaloo</li>
+        <li>PonyPlush_ShiningArmour</li>
+        <li>PonyPlush_StarlightGlimmer</li>
+        <li>PonyPlush_SweetieBelle</li>
+        <li>PonyPlush_TwilightSparkle</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
 	<products>
 		<Cloth>720</Cloth>
 		<Gold>10</Gold>
@@ -86,15 +114,43 @@
 		<li>PlushieBench</li>
 	</recipeUsers>
 	<ingredients>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>PonyPlush_CutieMarkCrusaders</li>
-				</thingDefs>
-			</filter>
-			<count>1</count>
-		</li>
-	</ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Pony_Plushies</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Pony_Plushies</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MLRP_ElementsOfHarmony</li>
+        <li>PonyPlush_AppleBloom</li>
+        <li>PonyPlush_Applejack</li>
+        <li>PonyPlush_BigMacintosh</li>
+        <li>PonyPlush_Cheerilee</li>
+        <li>PonyPlush_Discord</li>
+        <li>PonyPlush_Fluttershy</li>
+        <li>PonyPlush_Haywick</li>
+        <li>PonyPlush_IzzyMoonbow</li>
+        <li>PonyPlush_MaudPie</li>
+        <li>PonyPlush_PinkiePie</li>
+        <li>PonyPlush_PrincessCadence</li>
+        <li>PonyPlush_PrincessCelestia</li>
+        <li>PonyPlush_PrincessLuna</li>
+        <li>PonyPlush_RainbowDash</li>
+        <li>PonyPlush_Rarity</li>
+        <li>PonyPlush_Scootaloo</li>
+        <li>PonyPlush_ShiningArmour</li>
+        <li>PonyPlush_StarlightGlimmer</li>
+        <li>PonyPlush_SweetieBelle</li>
+        <li>PonyPlush_TwilightSparkle</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
 	<products>
 		<Cloth>540</Cloth>
 	</products>

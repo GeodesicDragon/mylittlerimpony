@@ -1,41 +1,6 @@
 <Defs>
 
-  <ThingDef ParentName="BaseWeaponTurret">
-    <defName>MLRP_SweetieBotTurret</defName>
-    <label>Sweetie Bot turret</label>
-    <description>Sweetie Bot *is* the turret.</description>
-    <graphicData>
-      <texPath>Things/PonyPlush/PlushEquipped</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <AccuracyTouch>0.3</AccuracyTouch>
-      <AccuracyShort>0.4</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.8</AccuracyLong>
-      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
-      <DeteriorationRate>0</DeteriorationRate>
-      <Mass>5</Mass>
-      <Flammability>0</Flammability>
-	  <MarketValue>2500</MarketValue>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <defaultProjectile>Projectile_HarmonyRainbow</defaultProjectile>
-        <warmupTime>0</warmupTime>
-        <range>45.9</range>
-        <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
-        <burstShotCount>5</burstShotCount>
-        <soundCast>MLRP_EOH_Fire</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <consumeFuelPerShot>1</consumeFuelPerShot>
-      </li>
-    </verbs>
-  </ThingDef>
-
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SweetieBotBase">
     <defName>MLRP_Turret_SweetieBot</defName>
     <label>Sweetie Bot</label>
     <description>A turret which fires rainbow lasers that are accurate at medium to long range. Will not explode if damaged.</description>
@@ -66,16 +31,10 @@
     </statBases>
     <tickerType>Normal</tickerType>
     <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>300</wickTicks>
-        <explosiveRadius>6</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <chanceNeverExplodeFromDamage>0.7</chanceNeverExplodeFromDamage>
-      </li>
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>200</basePowerConsumption>
+        <basePowerConsumption>175</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--HARMONY CHIP-->
+	
+  <ResearchProjectDef Abstract="True" Name="MLRP_HarmonyChip">
+    <baseCost>7500</baseCost>
+    <techLevel>Industrial</techLevel>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="MLRP_HarmonyChip">
+		<defName>MLRP_HarmonyChipResearch</defName>
+		<label>Harmony chip</label>
+		<description>Create harmony chips, powerful items which grant the bonuses of all plushies when installed in the brain.</description>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>40</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

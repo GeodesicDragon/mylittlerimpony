@@ -22,7 +22,7 @@
       <li>BuildingsSecurity</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
+      <MaxHitPoints>1000</MaxHitPoints>
       <Flammability>1</Flammability>
       <WorkToBuild>750</WorkToBuild>
       <Mass>6</Mass>
@@ -42,14 +42,11 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>MLRP_Buildings</designationCategory>
     <building>
-      <expandHomeArea>false</expandHomeArea>
+      <expandHomeArea>true</expandHomeArea>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>MLRP_Weaponless</turretGunDef>
       <turretBurstCooldownTime>0</turretBurstCooldownTime>
     </building>
-    <!--<researchPrerequisites>
-      <li></li>
-    </researchPrerequisites>-->
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">

@@ -1,0 +1,50 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!--ANIMA TREE-->
+		
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/label</xpath>
+				<value>
+					<label>Tree of Harmony</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/description</xpath>
+				<value>
+					<description>The Tree of Harmony is a magical tree that once held the Elements of Harmony. Nobody knows how it ended up on the rim, but many people suspect that science was involved.\n\nIf a person (psycaster or not) meditates near an anima tree, it will grow anima grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from anima trees while meditating to them.\n\nAnima trees' psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that anima trees are not simply trees, but are rather the physical extremities of a single world spirit.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/TreeOfHarmony</texPath>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData/graphicClass</xpath>
+				<value>
+					<graphicClass>Graphic_Single</graphicClass>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData</xpath>
+				<value>
+					<drawSize>(2,2)</drawSize>
+				</value>
+			</li>
+					
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/comps/li[5]/message</xpath>
+				<value>
+					<message>The Tree of Harmony has died and emitted a disturbing psychic scream.</message>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
