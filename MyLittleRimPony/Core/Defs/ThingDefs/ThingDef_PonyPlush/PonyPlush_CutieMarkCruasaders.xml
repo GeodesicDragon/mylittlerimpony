@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!--ITEM-->
-
-    <ThingDef>
+    <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_CutieMarkCrusaders</defName>
     <label>Cutie Mark Crusaders</label>
@@ -56,86 +54,14 @@
       </bodyPartGroups>
     <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+    <costStuffCount>900</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
   </ThingDef>
-
-  <!--MAKE USING PLUSHIES-->
-  
-  <RecipeDef>
-    <defName>MLRP_MakeCMC_Plushies</defName>
-    <label>make Cutie Mark Crusaders</label>
-    <description>Create the Cutie Mark Crusaders using one of each CMC plush.</description>
-	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-    <jobString>Making Cutie Mark Crusaders</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Tailor</effectWorking>
-    <soundWorking>Recipe_Tailor</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>9000</workAmount>
-	<recipeUsers>
-		<li>PlushieBench</li>
-	</recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_AppleBloom</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_Scootaloo</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_SweetieBelle</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <products>
-      <PonyPlush_CutieMarkCrusaders>1</PonyPlush_CutieMarkCrusaders>
-    </products>
-  </RecipeDef>
-  
-	<!--MAKE USING CLOTH-->
-	
-  <RecipeDef>
-    <defName>MLRP_MakeCMC_Cloth</defName>
-    <label>make Cutie Mark Crusaders (alt.)</label>
-    <description>Create the Cutie Mark Crusaders using just cloth.</description>
-	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-    <jobString>Making Cutie Mark Crusaders</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Tailor</effectWorking>
-    <soundWorking>Recipe_Tailor</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>9000</workAmount>
-	<recipeUsers>
-		<li>PlushieBench</li>
-	</recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Cloth</li>
-          </thingDefs>
-        </filter>
-        <count>900</count>
-      </li>
-    </ingredients>
-    <products>
-      <PonyPlush_CutieMarkCrusaders>1</PonyPlush_CutieMarkCrusaders>
-    </products>
-  </RecipeDef>
 
 </Defs>

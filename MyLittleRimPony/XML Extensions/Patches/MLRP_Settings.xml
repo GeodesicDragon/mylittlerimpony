@@ -2,61 +2,17 @@
 
 <Operation Class="PatchOperationSequence">
 	<operations>
-		<!--PLUSHIES: CLOTH REQUIRED-->
+		<!--PLUSHIES: STUFF REQUIRED-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
 			<key>MLRP_PlushiesCloth</key> <!--Key to identify the setting (only used internally, invisible to user)-->
 			<defaultValue>300</defaultValue> <!--What you want the default value of the setting to be-->
 			<apply>
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/costList/Cloth</xpath>
+					<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/costStuffCount</xpath>
 					<value>
-						<Cloth>{MLRP_PlushiesCloth}</Cloth>
+						<costStuffCount>{MLRP_PlushiesCloth}</costStuffCount>
 					</value>
-				</Operation>
-			</apply>
-		</li>
-		
-		<!--ELEMENTS OF HARMONY ALTERNATE RECIPE: CLOTH REQUIRED-->
-		<li Class="XmlExtensions.UseSetting">
-			<modId>geodesicdragon.rimpony</modId>
-			<key>MLRP_PlushiesCloth</key>
-			<apply>
-				<Operation Class="XmlExtensions.CreateVariable">
-					<value>{MLRP_PlushiesCloth}</value>
-					<value2>6</value2>
-					<operation>*</operation>
-					<storeIn>MLRP_EOH_NewClothValue</storeIn>
-					<apply>
-						<Operation Class="PatchOperationReplace">
-							<xpath>Defs/RecipeDef[defName="MLRP_MakeEOH_Cloth"]/ingredients/li[1]/count</xpath>
-							<value>
-								<count>{MLRP_EOH_NewClothValue}</count>
-							</value>
-						</Operation>
-					</apply>
-				</Operation>
-			</apply>
-		</li>
-
-		<!--CUTIE MARK CRUSADERS ALTERNATE RECIPE: CLOTH REQUIRED-->
-		<li Class="XmlExtensions.UseSetting">
-			<modId>geodesicdragon.rimpony</modId>
-			<key>MLRP_PlushiesCloth</key>
-			<apply>
-				<Operation Class="XmlExtensions.CreateVariable">
-					<value>{MLRP_PlushiesCloth}</value>
-					<value2>3</value2>
-					<operation>*</operation>
-					<storeIn>MLRP_CMC_NewClothValue</storeIn>
-					<apply>
-						<Operation Class="PatchOperationReplace">
-							<xpath>Defs/RecipeDef[defName="MLRP_MakeCMC_Cloth"]/ingredients/li/count</xpath>
-							<value>
-								<count>{MLRP_CMC_NewClothValue}</count>
-							</value>
-						</Operation>
-					</apply>
 				</Operation>
 			</apply>
 		</li>
@@ -256,6 +212,21 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--SWEETIE BOT: RANGE-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_SweetieBotWeaponRange</key>
+			<defaultValue>46</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/verbs/li/range</xpath>
+					<value>
+						<range>{MLRP_SweetieBotWeaponRange}</range>
+					</value>
+				</Operation>
+			</apply>
+		</li>
 
 		<!--SWEETIE BOT: TOUCH ACCURACY-->
 		<li Class="XmlExtensions.UseSetting">
@@ -430,6 +401,36 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--ZEPHYR BREEZE: RANGE-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_ZephyrBreezeAggroRange</key>
+			<defaultValue>10</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/verbs/li/range</xpath>
+					<value>
+						<range>{MLRP_ZephyrBreezeAggroRange}</range>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--ZEPHYR BREEZE: RANGE-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_ZephyrBreezeHealth</key>
+			<defaultValue>1000</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_ZephyrBreeze"]/statBases/MaxHitPoints</xpath>
+					<value>
+						<MaxHitPoints>{MLRP_ZephyrBreezeHealth}</MaxHitPoints>
+					</value>
+				</Operation>
+			</apply>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -450,27 +451,20 @@
 					<anchor>Left</anchor>
 				</li>
 				
-				<li Class="XmlExtensions.Setting.SplitColumn">
-					<split>0.25</split>
-					<leftCol>
-						<li Class="XmlExtensions.Setting.Textbox">
-							<key>MLRP_PlushiesCloth</key>
-							<label>Cloth Needed: </label>
-							<defaultValue>300</defaultValue>
-						</li>
-						
-						<li Class="XmlExtensions.Setting.Gap">
-							<spacing>8</spacing>
-						</li>
-						
-						<li Class="XmlExtensions.Setting.Textbox">
-							<key>MLRP_PlushieMarketValue</key>
-							<label>Market Value: </label>
-							<defaultValue>200</defaultValue>
-						</li>
-					</leftCol>
-					<rightCol>
-					</rightCol>
+				<li Class="XmlExtensions.Setting.Textbox">
+					<key>MLRP_PlushiesCloth</key>
+					<label>Amount Of Stuff Needed: </label>
+					<defaultValue>300</defaultValue>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap">
+					<spacing>8</spacing>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Textbox">
+					<key>MLRP_PlushieMarketValue</key>
+					<label>Market Value: </label>
+					<defaultValue>200</defaultValue>
 				</li>
 		
 				<li Class="XmlExtensions.Setting.Gap"/>
@@ -495,6 +489,15 @@
 					<text>Sweetie Bot Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_SweetieBotWeaponRange</key>
+					<defaultValue>46</defaultValue>
+					<min>10</min>
+					<max>100</max>
+					<label>Attack Range: {MLRP_SweetieBotWeaponRange}</label>
+					<decimals>0</decimals>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Slider">
@@ -597,6 +600,32 @@
 					<min>1</min>
 					<max>100</max>
 					<label>Medicine Spawn Time (days): {MLRP_NurseRedheartMedicineSpawnTime}</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+
+				<li Class="XmlExtensions.Setting.Text">
+					<text>Zephyr Breeze Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_ZephyrBreezeAggroRange</key>
+					<defaultValue>10</defaultValue>
+					<min>10</min>
+					<max>100</max>
+					<label>Aggro Range: {MLRP_ZephyrBreezeAggroRange}</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_ZephyrBreezeHealth</key>
+					<defaultValue>1000</defaultValue>
+					<min>100</min>
+					<max>3000</max>
+					<label>Health: {MLRP_ZephyrBreezeHealth}</label>
 					<decimals>0</decimals>
 				</li>
 										

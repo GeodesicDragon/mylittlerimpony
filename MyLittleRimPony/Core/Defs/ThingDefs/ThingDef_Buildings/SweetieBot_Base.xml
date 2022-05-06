@@ -41,7 +41,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Projectile_HarmonyRainbow</defaultProjectile>
         <warmupTime>0</warmupTime>
-        <range>45.9</range>
+        <range>46</range>
         <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
         <burstShotCount>5</burstShotCount>
         <soundCast>MLRP_EOH_Fire</soundCast>

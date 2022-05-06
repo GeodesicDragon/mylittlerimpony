@@ -37,10 +37,10 @@
     <statBases>
       <WorkToMake>7000</WorkToMake>
       <Mass>1</Mass>
-      <AccuracyTouch>0.50</AccuracyTouch>
-      <AccuracyShort>0.71</AccuracyShort>
-      <AccuracyMedium>0.50</AccuracyMedium>
-      <AccuracyLong>0.40</AccuracyLong>
+      <AccuracyTouch>0.4</AccuracyTouch>
+      <AccuracyShort>0.5</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
@@ -50,6 +50,10 @@
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
+	  <recipeUsers>
+		<li>CraftingSpot</li>
+		<li>PlushieBench</li>
+		</recipeUsers>
     </recipeMaker>
     <verbs>
       <li>

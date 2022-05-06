@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 
 <Operation Class="PatchOperationFindMod">
@@ -621,6 +619,104 @@
 				
 				<texPath>Achievements/ThisIsYourBrainOnPony</texPath>
 				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<!--HUMAN LEATHER MANE SIX PLUSHIES-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_HumanLeatherTwilight</defName>
+				<label>Soylent Sparkle</label>
+				<description>Craft a Twilight Sparkle plushie using human leather</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_TwilightSparkle</def>
+					<madeFrom>Leather_Human</madeFrom>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/SoylentSparkle</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_HumanLeatherRarity</defName>
+				<label>Why, Darling?!</label>
+				<description>Craft a Rarity plushie using human leather</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Rarity</def>
+					<madeFrom>Leather_Human</madeFrom>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/WhyDarling</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_HumanLeatherRainbowDash</defName>
+				<label>20% Grosser</label>
+				<description>Craft a Rainbow Dash plushie using human leather</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_RainbowDash</def>
+					<madeFrom>Leather_Human</madeFrom>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/TwentyPercentGrosser</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_HumanLeatherApplejack</defName>
+				<label>What In Tarnation?</label>
+				<description>Craft an Applejack plushie using human leather</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Applejack</def>
+					<madeFrom>Leather_Human</madeFrom>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/WhatInTarnation</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_HumanLeatherFluttershy</defName>
+				<label>That Wasn't Very Kind Of You</label>
+				<description>Craft a Fluttershy plushie using human leather</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Fluttershy</def>
+					<madeFrom>Leather_Human</madeFrom>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/ThatWasntVeryKindOfYou</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_HumanLeatherPinkiePie</defName>
+				<label>Rimcakes</label>
+				<description>Craft a Pinkie Pie plushie using human leather</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_PinkiePie</def>
+					<madeFrom>Leather_Human</madeFrom>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/Rimcakes</texPath>
+				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 	    </value>
     </match>

@@ -1,3 +1,33 @@
+Version 2.18.16 (May 6th 2022)
+
+* Core: Added poison joke.
+	* When smoked, moving and manipulation are both improved by 25% for a while, but it reduces mood by 10.
+	* Needs to be planted first; it takes a long time to reach maturity, and requires at least 140% soil fertility.
+	* Harvested leaves will spoil in 7 days.
+	* Turned into joints at a drug lab; it takes 10 leaves to make 1 joint.
+* Royalty: Added the spa sisters, Aloe and Lotus (as a single plush)
+	* Increases meditation focus gain by 25%.
+	* Costs 1.5 times as many materials to make as a regular plush.
+* XML Extensions: Added three new settings.
+	* Customise attack range of Sweetie Bot turrets (max 100).
+	* Customise aggro range of Zephyr Breeze turrets (max 100).
+	* Customise health of Zephyr Breeze turrets (max 3000).
+* Added the ability to make make plushies using any kind of textile. Yes, even human leather.
+	* Recycling plushies will still give cloth regardless of what material was used; this will hopefully be changed later.
+* Pony plushies now provide up to 2 degrees of protection against cold weather (depending on material).
+* Vanilla Achievements expanded: Added seven new achievements.
+	* Making each of the Mane Six using human leather.
+	* Making an Aloe and Lotus plushie.
+* Ideology: Fixed the issue which caused your starting pawns and items to vanish when starting a new game via the Brony Community scenario with the ideology system disabled. (Credit for this goes to Krazy4Games, creator of the RimWorld War 2 mod.)
+* Making the Elements of Harmony is now done using just textiles; the recipe which used plushies has been removed.
+* Making the Cutie Mark Crusaders is now done using just textiles; the recipe which used plushies has been removed.
+* Added a patch, applied if the Weeb Faction mod is enabled, that makes the Weeaboo Clan faction non-hostile to both the player-controlled and NPC brony factions.
+* The wife thrower can now be made at a crafting spot.
+* Increased the long range accuracy of the wife thrower to 70% (was 40%).
+* Increased the medium range accuracy of the wife thrower to 60% (was 50%).
+* Decreased the short range accuracy of the wife thrower to 50% (was 71%).
+* Decreased the touch range accuracy of the wife thrower to 40% (was 50%).
+
 Version 2.3.8 (April 24th 2022)
 
 * With 26 plushies added by this mod(1), there is a lot of choice involved; do you equip a Rainbow Dash to help with combat, or an Applejack to help with the harvest? Well, as long as you have the Royalty DLC, you no longer need to faff about with such inane decisions, thanks to... the Harmony Chip!

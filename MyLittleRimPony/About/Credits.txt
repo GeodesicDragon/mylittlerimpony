@@ -1,5 +1,13 @@
 All art was sourced from Derpibooru (https://www.derpibooru.org), unless otherwise specified, and is used under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License; credit is followed by the Derpibooru image ID.
 
+KEY
+
+* Source provided on Derpibooru was either missing or invalid.
+** I had to edit this image before I could use it.
+*** This image is used by an item which is only seen if A RimWorld of Magic is enabled.
+
+CREDITS
+
 Apple Bloom: sketchmcreations (1553341)
 Applejack: CindyDreamLight (2450572)
 Big Macintosh: dashiesparkle (1167810)
@@ -32,6 +40,7 @@ Twilight Sparkle (unicorn): redpandapony (2779548)***
 Elements of Harmony: spiritofthwwolf* (sic) (63922)
 Cutie Mark Crusaders: parclytaxel* (1761090)
 
+Aloe and Lotus: jennieoo (773287)
 Trixie: chrzanek97 (2584896)
 
 King Sombra: frownfactory (1907550)
@@ -42,6 +51,18 @@ Equestrian Flag: grabusz (1589868)
 Rainbow Laser: Vector-Brony (2493108 - attributed to someone else; original link in description)
 Zephyr Breeze: 19crowbar19* (1740159)
 Tree Of Harmony: pridark (2780361)
+Poison Joke: 3luk (1686090)
+
+ACHIEVEMENTS
+
+Since most achievements are for making things, they'll use the same image as they do for the texture; these are the exceptions.
+
+Soylent Sparkle - orschmann (2558210)
+Why, Darling?! - slb94 (1870978)
+20% Grosser - tizerfiction (900692)
+What In Tarnation - tardifice (1662705)
+That Wasn't Very Kind Of You - wissle (2719109)
+Did Somebody Say 'Cupcakes?' - mrkat7214 (1986994)
 
 PROJECTILES
 
@@ -52,10 +73,6 @@ OTHER IMAGES
 
 Star image (used in some achievements): http://clipart-library.com/clipart/216.htm
 Harmony Chip: https://www.kindpng.com/imgv/wbxRhx_clip-art-clip-art-chips-computer-chip-clipart/
-
-* Source provided on Derpibooru was either missing or invalid.
-** I had to edit this image before I could use it.
-*** This image is used by an item which is only seen if A RimWorld of Magic is enabled.
 
 SOUNDS
 

@@ -64,6 +64,7 @@ Twilight Sparkle: +25% research speed.
 |      ROYALTY PLUSHIES      |
 |----------------------------|
 
+Aloe and Lotus: Increases meditation psyfocus gain by 25%.
 Trixie: Increases neural heat recovery by 0.1 per second.
 
 |-----------------------------|
@@ -93,12 +94,14 @@ Single Use Grenades N'at: Patches the wife thrower to be single use only.
 A RimWorld of Magic: Adds a new item and makes the brony trait conflict with many of the traits added by this mod.
 Addictol - Addiciton Removal: NPC faction settlements and weapon traders will sell addictol.
 Bulk Carrier: Big Macintosh increases carrying capacity by 50kg instead of 25.
+Combat Extended: Weapons use ammo and have clip sizes, plushies have some bulk.
 Harvest Organs Post Mortem: Adds recipes to the Nightmare Moon statue which allow you to turn extra organs into chocolate.
 Irn-Bru And Other Scottish Delights: NPC faction will send Scottish goods traders and stock goods at their settlements.
 Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
 RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction.
 Vanilla Achievements Expanded: Adds several achievements to acquire each of the items added by MLRP.
 Vanilla Furniture Expanded - Production: Allows the plushie bench to benefit from the work speed bonus granted by the tailoring cabinet.
+Weeb Faction: The Weeaboo Clan faction is not hostile to player or NPC brony factions.
 XML Extensions: Allows you to configure many aspects of the mod to your own liking.
 	* Cloth needed to make plushies.
 	* Crafting skill needed to make plushies.

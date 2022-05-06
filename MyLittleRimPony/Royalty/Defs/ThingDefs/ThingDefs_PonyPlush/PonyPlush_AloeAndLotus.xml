@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_AloeAndLotus</defName>
+    <label>Aloe and Lotus</label>
+    <description>As the proprietors of the Ponyville Spa, these sisters know a thing or two about relaxation.\n\nCarrying them makes you feel as though meditation is more powerful.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/AloeAndLotus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+      <MeditationFocusGain>0.25</MeditationFocusGain>
+    </equippedStatOffsets>
+	<costStuffCount>450</costStuffCount>
+  </ThingDef>
+</Defs>

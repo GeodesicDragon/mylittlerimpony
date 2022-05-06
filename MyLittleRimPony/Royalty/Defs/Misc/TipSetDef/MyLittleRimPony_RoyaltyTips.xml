@@ -6,7 +6,9 @@
 	<defName>MyLittleRimPony_RoyaltyTips</defName>
 	<tips>
 		<li>Trixie: "Usually, ponies just call me Trixie. But 'Ms. Powerful' has a nice ring."</li>
-		<li>The improve relations ability is best used during times of peace.</li>
+		<li>Aloe: "Did somepony order massages?"</li>
+		<li>Lotus: "You must relax, my dear! We can handle anything! We once did a pony's hair DURING the ceremony!"</li>
+		<li>The improve relations ability increases faction relations by 10, but disorients the target for a while.</li>
 	</tips>
 </TipSetDef>
 

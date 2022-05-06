@@ -40,6 +40,21 @@
 				<texPath>Achievements/GreatAndPowerful</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_AloeAndLotus</defName>
+				<label>Twinning At Life</label>
+				<description>Craft an Aloe and Lotus plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_AloeAndLotus</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/TwinningAtLife</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
 		
 		</value>
 	</match>

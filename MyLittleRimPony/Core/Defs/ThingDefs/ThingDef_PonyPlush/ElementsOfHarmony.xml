@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!--ITEM-->
-
-  <ThingDef>
+  <ThingDef ParentName="PonyPlushBase">
     <thingClass>Apparel</thingClass>
     <defName>MLRP_ElementsOfHarmony</defName>
     <label>Elements of Harmony</label>
@@ -62,126 +60,17 @@
       </bodyPartGroups>
     <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
+    <costStuffCount>1800</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+        <Gold>10</Gold>
+    </costList>
   </ThingDef>
-  
-  <!--MAKE USING PLUSHIES-->
-  
-  <RecipeDef>
-    <defName>MLRP_MakeEOH_Plushies</defName>
-    <label>make Elements of Harmony</label>
-    <description>Create the Elements of Harmony using one of each Mane Six plush and some gold.</description>
-	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-    <jobString>Making Elements of Harmony</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Tailor</effectWorking>
-    <soundWorking>Recipe_Tailor</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>9000</workAmount>
-	<recipeUsers>
-		<li>PlushieBench</li>
-	</recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_Applejack</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_Fluttershy</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_PinkiePie</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_RainbowDash</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_Rarity</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PonyPlush_TwilightSparkle</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Gold</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
-      </li>
-    </ingredients>
-    <products>
-      <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
-    </products>
-  </RecipeDef>
-  
-	<!--MAKE USING CLOTH-->
-	
-  <RecipeDef>
-    <defName>MLRP_MakeEOH_Cloth</defName>
-    <label>make Elements of Harmony (alt.)</label>
-    <description>Create the Elements of Harmony using a lot of cloth and some gold.</description>
-	<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-    <jobString>Making Elements of Harmony</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Tailor</effectWorking>
-    <soundWorking>Recipe_Tailor</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>9000</workAmount>
-	<recipeUsers>
-		<li>PlushieBench</li>
-	</recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Cloth</li>
-          </thingDefs>
-        </filter>
-        <count>1800</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Gold</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
-      </li>
-    </ingredients>
-    <products>
-      <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
-    </products>
-  </RecipeDef>
   
 </Defs>

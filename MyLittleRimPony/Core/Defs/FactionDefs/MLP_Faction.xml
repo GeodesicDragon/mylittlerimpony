@@ -21,7 +21,10 @@
   <FactionDef ParentName="MLRP_PlayerFactionBase">
     <defName>MLRP_BronyFaction</defName>
 	<label>Brony Community</label>
-    <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.\n\nMostly pacifist.</description>
+    <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.</description>
+	<allowedCultures>
+		<li>Astropolitan</li>
+	</allowedCultures>
     <isPlayer>true</isPlayer>
     <basicMemberKind>MLRP_BronyPlayer</basicMemberKind>
     <pawnSingular>brony</pawnSingular>

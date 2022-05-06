@@ -2,6 +2,10 @@
 <Defs>
   <ThingDef Name="PonyPlushBase" Abstract="True">
     <thingClass>Apparel</thingClass>
+	<graphicData>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(255,255,255,255)</color> 
+	</graphicData>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <skillRequirements>
@@ -26,20 +30,26 @@
 		<Flammability>1</Flammability>
 		<EquipDelay>0.1</EquipDelay>
 		<Beauty>1</Beauty>
+		<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <thingCategories>
       <li>Pony_Plushies</li>
     </thingCategories>
-    <costList>
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	<!--<costList>
       <Cloth>300</Cloth>
-    </costList>
+    </costList>-->
     <comps>
 		<li Class="CompProperties_Forbiddable" />
 		<li Class="CompProperties_CauseHediff_Apparel">
 			<hediff>MLRP_PonyPlushEquipped</hediff>
-        <part>Waist</part>
+			<part>Waist</part>
       </li>
     </comps>
     <apparel>

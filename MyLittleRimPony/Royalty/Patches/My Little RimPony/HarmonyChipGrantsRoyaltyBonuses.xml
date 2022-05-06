@@ -4,6 +4,7 @@
 	<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
 	<value>
 		<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+		<MeditationFocusGain>0.25</MeditationFocusGain>
 	</value>
 </Operation>
 
