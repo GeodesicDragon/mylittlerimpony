@@ -1,6 +1,6 @@
 <Patch>
 
-<Operation Class="PatchOperationAdd">
+<!--<Operation Class="PatchOperationAdd">
 	<xpath>/Defs/RecipeDef[defName="MLRP_RecycleEOH"]/fixedIngredientFilter/disallowedThingDefs</xpath>
 	<value>
 		<li>PonyPlush_KingSombra</li>
@@ -16,6 +16,6 @@
 		<li>PonyPlush_QueenChrysalis</li>
 		<li>PonyPlush_Zecora</li>
 	</value>
-</Operation>
+</Operation>-->
 
 </Patch>

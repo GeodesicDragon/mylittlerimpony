@@ -1,0 +1,28 @@
+<Defs>
+
+	<ResearchProjectDef Name="MLRP_QuickResearchBase" Abstract="True">
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef Name="MLRP_EasyResearchBase" Abstract="True">
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef Name="MLRP_MediumResearchBase" Abstract="True">
+		<baseCost>3000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef Name="MLRP_HardResearchBase" Abstract="True">
+		<baseCost>4500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+  
+</Defs>

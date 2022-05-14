@@ -464,6 +464,38 @@
 				<points>50</points>
 			</AchievementsExpanded.AchievementDef>
 			
+			<!--DECOYS-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Mudbriar</defName>
+				<label>Stick It To Me</label>
+				<description>Build a Mudbriar decoy</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_Mudbriar</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/StickItToMe</texPath>
+				<points>25</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_QuibblePants</defName>
+				<label>Quibble Me This</label>
+				<description>Build a Quibble Pants decoy</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.BuildingTracker">
+					<def>MLRP_QuibblePants</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/QuibbleMeThis</texPath>
+				<points>25</points>
+			</AchievementsExpanded.AchievementDef>
+			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_ZephyrBreeze</defName>
 				<label>Weaponised Arrogance</label>

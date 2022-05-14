@@ -17,6 +17,50 @@
 			</apply>
 		</li>
 		
+		<!--ELEMENTS OF HARMONY: STUFF REQUIRED-->
+		<match Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_PlushiesCloth</key>
+			<apply>
+				<Operation Class="XmlExtensions.CreateVariable">
+					<value>{MLRP_PlushiesCloth}</value>
+					<value2>6</value2>
+					<operation>*</operation>
+					<storeIn>MLRP_EOH_NewClothValue</storeIn>
+					<apply>
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/costStuffCount</xpath>
+							<value>
+								<costStuffCount>{MLRP_EOH_NewClothValue}</costStuffCount>
+							</value>
+						</Operation>
+					</apply>
+				</Operation>
+			</apply>
+		</match>
+		
+		<!--CUTIE MARK CRUSADERS: STUFF REQUIRED-->
+		<match Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_PlushiesCloth</key>
+			<apply>
+				<Operation Class="XmlExtensions.CreateVariable">
+					<value>{MLRP_PlushiesCloth}</value>
+					<value2>3</value2>
+					<operation>*</operation>
+					<storeIn>MLRP_CMC_NewClothValue</storeIn>
+					<apply>
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="PonyPlush_CutieMarkCrusaders"]/costStuffCount</xpath>
+							<value>
+								<costStuffCount>{MLRP_CMC_NewClothValue}</costStuffCount>
+							</value>
+						</Operation>
+					</apply>
+				</Operation>
+			</apply>
+		</match>
+		
 		<!--PLUSHIES: CRAFTING SKILL REQUIRED-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
@@ -402,7 +446,7 @@
 			</apply>
 		</li>
 		
-		<!--ZEPHYR BREEZE: RANGE-->
+		<!--AGGRO TURRETS: RANGE-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
 			<key>MLRP_ZephyrBreezeAggroRange</key>
@@ -417,14 +461,14 @@
 			</apply>
 		</li>
 		
-		<!--ZEPHYR BREEZE: RANGE-->
+		<!--AGGRO TURRETS: HEALTH-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
 			<key>MLRP_ZephyrBreezeHealth</key>
 			<defaultValue>1000</defaultValue>
 			<apply>
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_ZephyrBreeze"]/statBases/MaxHitPoints</xpath>
+					<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze"]/statBases/MaxHitPoints</xpath>
 					<value>
 						<MaxHitPoints>{MLRP_ZephyrBreezeHealth}</MaxHitPoints>
 					</value>
@@ -606,7 +650,7 @@
 				<li Class="XmlExtensions.Setting.Gap"/>
 
 				<li Class="XmlExtensions.Setting.Text">
-					<text>Zephyr Breeze Settings</text>
+					<text>Mudbriar/Quibble Pants/Zephyr Breeze Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
 				</li>

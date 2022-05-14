@@ -1,8 +1,9 @@
 <Patch>
 
-<Operation Class="PatchOperationAdd">
+<!--<Operation Class="PatchOperationAdd">
 	<xpath>/Defs/RecipeDef[defName="MLRP_RecycleEOH"]/fixedIngredientFilter/disallowedThingDefs</xpath>
 	<value>
+		<li>PonyPlush_AloeAndLotus</li>
 		<li>PonyPlush_Trixie</li>
 	</value>
 </Operation>
@@ -10,8 +11,9 @@
 <Operation Class="PatchOperationAdd">
 	<xpath>/Defs/RecipeDef[defName="MLRP_RecycleCMC"]/fixedIngredientFilter/disallowedThingDefs</xpath>
 	<value>
+		<li>PonyPlush_AloeAndLotus</li>
 		<li>PonyPlush_Trixie</li>
 	</value>
-</Operation>
+</Operation>-->
 
 </Patch>

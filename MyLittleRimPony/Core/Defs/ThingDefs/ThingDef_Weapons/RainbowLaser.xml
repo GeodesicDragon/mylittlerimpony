@@ -65,9 +65,9 @@
       <li>Rainbow_Laser</li>
     </weaponTags>
     <costList>
-      <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
-	  <Plasteel>100</Plasteel>
-	  <Gold>7.5</Gold>
+      <Plasteel>100</Plasteel>
+	  <Gold>5</Gold>
+	  <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <recipeMaker>
       <skillRequirements>
@@ -90,7 +90,15 @@
     </verbs>
     <tools>
       <li>
-        <label>elements</label>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>butt</label>
         <capacities>
           <li>Blunt</li>
         </capacities>

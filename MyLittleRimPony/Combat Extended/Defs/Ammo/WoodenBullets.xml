@@ -2,17 +2,17 @@
 <Defs>
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_CadenceJavelins</defName>
-		<label>Cadence javelins</label>
+		<defName>AmmoSet_WoodenBullets</defName>
+		<label>Wooden bullets</label>
 		<ammoTypes>
-			<Ammo_CadenceJavelins>LovePrincess</Ammo_CadenceJavelins>
+			<Ammo_WoodenBullets>MLRP_WeaponisedArrogance</Ammo_WoodenBullets>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
-		<defName>Ammo_CadenceJavelins</defName>
-		<label>Cadence Javelins</label>
-		<description>Ammo for the wife thrower.\n\nNo alicorns were harmed in the making of this item.</description>
+		<defName>Ammo_WoodenBullets</defName>
+		<label>Wooden Bullets</label>
+		<description>Ammo for the Mudbriar, Quibble Pants and Zephyr Breeze turrets.\n\nThey do no damage, but most people find that getting hit by one is rather irritating.</description>
 		<statBases>
 			<Mass>0.01</Mass>
 			<Bulk>0.015</Bulk>
@@ -25,7 +25,7 @@
 			<li>MLRP_Ammo</li>
 		</thingCategories>
 		<graphicData>
-			<texPath>Things/AmmoBox/Ammo_CadenceJavelins</texPath>
+			<texPath>Things/AmmoBox/Ammo_WoodenBullets</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!--<ammoClass>Charged</ammoClass>-->
@@ -33,11 +33,11 @@
 
 
 	<RecipeDef ParentName="ChargeAmmoRecipeBase">
-		<defName>MakeAmmo_CadenceJavelin</defName>
-		<label>make Cadence Javelins x50</label>
-		<description>Craft 50 Cadence Javelins.</description>
-		<jobString>Making Cadence javelins.</jobString>
-		<workAmount>1900</workAmount>
+		<defName>MakeAmmo_WoodenBullets</defName>
+		<label>make wooden bullets x5000</label>
+		<description>Craft 5000 wooden bullets.</description>
+		<jobString>Making wooden bullets.</jobString>
+		<workAmount>600</workAmount>
 		<recipeUsers>
 			<li>PlushieBench</li>
 		</recipeUsers>
@@ -48,7 +48,7 @@
 						<li>WoodLog</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>100</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -57,7 +57,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_CadenceJavelins>50</Ammo_CadenceJavelins>
+			<Ammo_WoodenBullets>5000</Ammo_WoodenBullets>
 		</products>
 	</RecipeDef>
 

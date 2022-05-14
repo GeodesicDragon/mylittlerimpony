@@ -1,0 +1,59 @@
+<Defs>
+
+<ThingDef ParentName="BaseWeaponTurret">
+    <defName>MLRP_Weaponless</defName>
+    <label>weaponised annoyance</label>
+    <description>You can't help but want to punch the guy.</description>
+    <graphicData>
+      <texPath>Things/PonyPlush/PlushEquipped</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags Inherit="false">
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MLRP_WeaponisedArrogance</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>10</range>
+        <ticksBetweenBurstShots>250</ticksBetweenBurstShots>
+        <burstShotCount>0</burstShotCount>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>MLRP_WeaponisedArrogance</defName>
+		<label>invisible</label>
+		<graphicData>
+			<texPath>Things/PonyPlush/PlushEquipped</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>MLRP_Harmless</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<speed>250</speed>
+		</projectile>
+	</ThingDef>
+  
+	<DamageDef>
+		<defName>MLRP_Harmless</defName>
+	</DamageDef>
+	
+</Defs>

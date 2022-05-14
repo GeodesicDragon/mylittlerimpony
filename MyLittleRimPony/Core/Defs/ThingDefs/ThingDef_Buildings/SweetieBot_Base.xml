@@ -1,9 +1,5 @@
 <Defs>
 
-<!--<DesignatorDropdownGroupDef>
-	<defName>MLRP_DD_SweetieBotTurrets</defName>
-</DesignatorDropdownGroupDef>-->
-
 <ThingDef Name="SweetieBotBase" Abstract="True">
 	<category>Building</category>
 	<thingClass>Building</thingClass>
@@ -14,7 +10,6 @@
 	<repairEffect>Repair</repairEffect>
 	<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 	<filthLeaving>Filth_RubbleBuilding</filthLeaving>
-	<!--<designatorDropdown>MLRP_DD_SweetieBotTurrets</designatorDropdown>-->
 </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">

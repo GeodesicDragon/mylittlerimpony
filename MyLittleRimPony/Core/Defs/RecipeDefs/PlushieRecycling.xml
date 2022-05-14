@@ -3,7 +3,7 @@
 <RecipeDef>
 	<defName>MLRP_RecyclePlushies</defName>
 	<label>Recycle plushies</label>
-	<description>Recycle a plushie, reclaiming 60% of the cloth used to make it.</description>
+	<description>Recycle a plushie, reclaiming some of the material used to make it.</description>
 	<researchPrerequisite>MLRP_PlushieRecycling</researchPrerequisite>
     <jobString>Recycling plushies</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -29,20 +29,19 @@
       <categories>
         <li>Pony_Plushies</li>
       </categories>
-      <disallowedThingDefs>
-        <li>MLRP_ElementsOfHarmony</li>
-        <li>PonyPlush_CutieMarkCrusaders</li>
-      </disallowedThingDefs>
     </fixedIngredientFilter>
-	<products>
+    <specialProducts>
+		<li>Smelted</li>
+    </specialProducts>
+	<!--<products>
 		<Cloth>180</Cloth>
-	</products>
+	</products>-->
 </RecipeDef>
 
-<RecipeDef>
+<!--<RecipeDef>
 	<defName>MLRP_RecycleEOH</defName>
 	<label>Recycle Elements of Harmony</label>
-	<description>Recycle Elements of Harmony, reclaiming 60% of the cloth and 10% of the gold used to make them.</description>
+	<description>Recycle Elements of Harmony, reclaiming some of the material used to make them.</description>
 	<researchPrerequisite>MLRP_PlushieRecycling</researchPrerequisite>
     <jobString>Recycling Elements of Harmony</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -92,16 +91,19 @@
         <li>PonyPlush_TwilightSparkle</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
-	<products>
+    <specialProducts>
+		<li>Smelted</li>
+    </specialProducts>
+	<!--<products>
 		<Cloth>720</Cloth>
 		<Gold>10</Gold>
 	</products>
-</RecipeDef>
+</RecipeDef>-->
 
-<RecipeDef>
+<!--<RecipeDef>
 	<defName>MLRP_RecycleCMC</defName>
 	<label>Recycle Cutie Mark Crusaders</label>
-	<description>Recycle a Cutie Mark Crusaders plushie, reclaiming 60% of the cloth used to make it.</description>
+	<description>Recycle a Cutie Mark Crusaders plushie, reclaiming some of the material used to make it.</description>
 	<researchPrerequisite>MLRP_PlushieRecycling</researchPrerequisite>
     <jobString>Recycling Cutie Mark Crusaders</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -151,9 +153,12 @@
         <li>PonyPlush_TwilightSparkle</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
-	<products>
+	<specialProducts>
+		<li>Smelted</li>
+    </specialProducts>
+	<!--<products>
 		<Cloth>540</Cloth>
 	</products>
-</RecipeDef>
+</RecipeDef>-->
 
 </Defs>

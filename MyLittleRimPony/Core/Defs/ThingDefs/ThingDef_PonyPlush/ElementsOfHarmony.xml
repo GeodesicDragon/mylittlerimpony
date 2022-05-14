@@ -60,14 +60,14 @@
       </bodyPartGroups>
     <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
-	<recipeUsers>
-		<li>PlushieBench</li>
-	</recipeUsers>
     <costStuffCount>1800</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
+	<recipeUsers>
+		<li>PlushieBench</li>
+	</recipeUsers>
     <costList>
         <Gold>10</Gold>
     </costList>

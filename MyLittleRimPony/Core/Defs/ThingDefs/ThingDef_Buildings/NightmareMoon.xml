@@ -15,16 +15,13 @@
     <thingCategories>
 		<li>BuildingsProduction</li>
     </thingCategories>
-	<costStuffCount>500</costStuffCount>
+	<costStuffCount>750</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
       <li>Stony</li>
     </stuffCategories>
     <costList>
       <PonyPlush_PrincessLuna>1</PonyPlush_PrincessLuna>
-      <ComponentSpacer>5</ComponentSpacer>
-      <Steel>150</Steel>
-      <Gold>100</Gold>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>

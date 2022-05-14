@@ -1,0 +1,82 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Callouts</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_Common"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>callout_pony->peace</li>
+						<li>callout_pony->love</li>
+						<li>callout_pony->friendship</li>
+						<li>callout_pony->magic</li>
+						<li>callout_pony->harmony</li>
+						<li>callout_princess->Cadence</li>
+						<li>callout_princess->Celestia</li>
+						<li>callout_princess->Luna</li>
+						<li>callout_princess->Twilight</li>
+					</value>
+				</li>
+	  
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Attack_Common"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule->Friendship may be magic, but that doesn't mean I won't kick your butt!</li>
+						<li>rule->[callout_pony] be damned, you're getting the business end of my [INITIATOR_WEAPON_label]!</li>
+						<li>rule->Forget Trixie, THIS [PersonJob] is the Great and Powerful one!</li>
+					</value>
+				</li>
+	  
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Melee_Attack"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule->[callout_princess] preserve you, because I sure as hell won't!</li>
+						<li>rule->By Discord's left nut, I will end you!</li>
+					</value>
+				</li>
+	  
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Attack_Landed_Common"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule->Got you! [callout_princess] is on my side today!</li>
+					</value>
+				</li>
+	  
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Attack_Received_Common"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule->[callout_princess] preserve me, getting shot hurts!</li>
+						<li>rule->The friendship lessons never prepared me for this!</li>
+					</value>
+				</li>
+	  
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Melee_Attack_Received"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule->[callout_princess] preserve me, getting cut hurts!</li>
+						<li>rule->The friendship lessons never prepared me for this!</li>
+					</value>
+				</li>
+	  
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Drafted"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule->The next episode is on soon, so let's get this over with!</li>
+						<li>rule->How may I serve Equestria today?</li>
+						<li>rule->Glory to you, Princess [callout_princess]!</li>
+					</value>
+				</li>
+		  
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Lethal_Hediff_Progression"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule->Looks like I'll be joining you soon, [callout_princess].</li>
+						<li>rule->[callout_pony] be with me, it's nearly over...</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

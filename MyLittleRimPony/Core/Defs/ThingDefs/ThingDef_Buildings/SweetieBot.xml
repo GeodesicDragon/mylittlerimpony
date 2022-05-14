@@ -62,8 +62,12 @@
     <pathCost>50</pathCost>
     <fillPercent>0.4</fillPercent>
     <hasTooltip>true</hasTooltip>
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList>
-      <Cloth>300</Cloth>
       <ComponentIndustrial>2</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
       <Plasteel>50</Plasteel>

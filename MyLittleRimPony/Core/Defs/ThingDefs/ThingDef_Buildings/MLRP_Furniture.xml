@@ -49,9 +49,11 @@
       <texPath>Things/Building/DiscordLamp</texPath>
 	  <drawSize>(1,1)</drawSize>
     </graphicData>
-    <costList>
-	  <Cloth>300</Cloth>
-    </costList>
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <statBases>
       <Mass>4</Mass>
       <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>

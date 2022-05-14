@@ -49,13 +49,15 @@ Zecora: uxyd (2560904)
 
 Equestrian Flag: grabusz (1589868)
 Rainbow Laser: Vector-Brony (2493108 - attributed to someone else; original link in description)
+Mudbriar: cheezedoodle96 (1709144)
+Quibble Pants: outlaw4rc (1216860)
 Zephyr Breeze: 19crowbar19* (1740159)
 Tree Of Harmony: pridark (2780361)
 Poison Joke: 3luk (1686090)
 
 ACHIEVEMENTS
 
-Since most achievements are for making things, they'll use the same image as they do for the texture; these are the exceptions.
+Since most achievements are earned by making or building things, they'll use the same image as the texture for that building or item; these are the exceptions, as they are for making something using a specific material.
 
 Soylent Sparkle - orschmann (2558210)
 Why, Darling?! - slb94 (1870978)
@@ -73,6 +75,7 @@ OTHER IMAGES
 
 Star image (used in some achievements): http://clipart-library.com/clipart/216.htm
 Harmony Chip: https://www.kindpng.com/imgv/wbxRhx_clip-art-clip-art-chips-computer-chip-clipart/
+MLP Logo (used in preview image): Artist Unknown (1411173)
 
 SOUNDS
 

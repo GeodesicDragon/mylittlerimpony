@@ -1,18 +1,18 @@
 <Defs>
 
 <ThingDef ParentName="BuildingBase">
-    <defName>MLRP_ZephyrBreeze</defName>
-    <label>Zephyr Breeze</label>
-    <description>Although Zephyr Breeze reckons he is Celestia's gift to mares, he is yet to find one who agrees with him. Thankfully, though, his pig-headed arrogance can actually be useful.\n\nFuthermore, his thick skull - which has absorbed countless rejections from Rainbow Dash alone - makes him surprisingly durable.\n\nGood thing, too, because a lot of people seem to want to hit him.</description>
+    <defName>MLRP_QuibblePants</defName>
+    <label>Quibble Pants</label>
+    <description>Quibble Pants thinks he is the ultimate fan, and will go out of his way to prove he knows more than anypony else. Good thing his constant blabbering can be put to use.</description>
     <thingClass>Building_TurretGun</thingClass>
 	<!--<designationHotKey>Misc1</designationHotKey>-->
     <graphicData>
-      <texPath>Things/Building/ZephyrBreeze</texPath>
+      <texPath>Things/Building/QuibblePants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
     <techLevel>Industrial</techLevel>
-    <uiIconPath>Things/Building/ZephyrBreeze</uiIconPath>
+    <uiIconPath>Things/Building/QuibblePants</uiIconPath>
     <uiIconScale>0.90</uiIconScale>
     <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
