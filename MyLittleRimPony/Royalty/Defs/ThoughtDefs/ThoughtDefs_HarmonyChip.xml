@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--BRONIES-->
+
+  <ThoughtDef>
+    <defName>MLRP_HarmonyChipInstalledBrony</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MLRP_HarmonyChipInstalled</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Brony has harmony chip</label>
+        <description>Finally, I am one with the ponies.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+<!--ANTI BRONIES-->
+  
+  <ThoughtDef>
+    <defName>MLRP_HarmonyChipInstalledAntiBrony</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MLRP_HarmonyChipInstalled</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Anti-brony has harmony chip</label>
+        <description>Get it out, get it out, get it out, get it out, GET IT OUT!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+<!--REGULAR PAWNS-->
+
+  <ThoughtDef>
+    <defName>MLRP_HarmonyChipInstalledRegular</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MLRP_HarmonyChipInstalled</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Harmony chip installed</label>
+        <description>I feel really good, though I do have an urge to break into song for some reason.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+	<nullifyingTraits>
+		<li>MLRP_BronyTrait</li>
+		<li>MLRP_AntiBronyTrait</li>
+		<li>Psychopath</li>
+	</nullifyingTraits>
+  </ThoughtDef>
+
+</Defs>

@@ -1,3 +1,14 @@
+Version 2.32.32 (May 22nd 2022)
+
+* Added Daring Do (+10% dodge chance).
+* Vanilla Achievements Expanded: Added achievement to craft a Daring Do plushie.
+* Added a patch for [K4G] RimWorld War 2 which makes the Allied and Axis factions non-hostile to player and NPC brony factions.
+	* If you're loading an existing save, they may still hate you and/or the NPC faction, but they'll be neutral on a new colony.
+* Updated Callouts patches so that only pawns with the brony trait should be the ones saying any of the things it adds.
+* Royalty: Pawns with the Psychopath trait no longer get a mood bonus from having a harmony chip installed.
+* Fixed spelling mistake in poison joke plant crop.
+* Updated preview image (again again, but probably for the last time).
+
 Version 2.29.28 (May 14th 2022)
 
 * Added Mudbriar and Quibble Pants as alternatives to Zephyr Breeze.
@@ -25,8 +36,8 @@ Version 2.29.28 (May 14th 2022)
 	* The stone brick cost has been increased to 750.
 * Fixed research projects being spaced out so far on the research tab (for those of you not using mods to streamline it).
 * Recycling plushies and Elements of Harmony should no longer provide cloth all the time.
-* Removed recipe to recyle Elements of Harmony.
-* Removed recipe to recyle Cutie Mark Crusaders.
+* Removed recipe to recycle Elements of Harmony.
+* Removed recipe to recycle Cutie Mark Crusaders.
 * I was unable to find a fix for being unable to make Rainbow Lasers despite having all of the necessary materials, so I have changed the recipe a little bit. The Elements of Harmony are no longer used to make the weapon; instead, the recipe now requires 100 plasteel, 50 gold (was 75) and 2 advanced components.
 * Speaking of the Rainbow Laser, I've altered the parts of it that pawns can use in melee. It now has a barrel for poking people with, and a butt for smacking people with.
 * Combat Extended: Increased aiming accuracy of Sweetie Bot turrets to 45% (was 25%).

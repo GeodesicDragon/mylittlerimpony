@@ -1,0 +1,21 @@
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_DaringDo</defName>
+    <label>Daring Do</label>
+    <description>As a brave treasure hunter, Daring Do has had to deal with more than her fair share of traps.\n\nCarrying her makes you feel as though you can dodge danger a bit easier.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/DaringDo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+      <MeleeDodgeChance>10</MeleeDodgeChance>
+      <MeleeDodgeChanceIndoorsDarkOffset>0.1</MeleeDodgeChanceIndoorsDarkOffset>
+      <MeleeDodgeChanceIndoorsLitOffset>0.1</MeleeDodgeChanceIndoorsLitOffset>
+      <MeleeDodgeChanceOutdoorsDarkOffset>0.1</MeleeDodgeChanceOutdoorsDarkOffset>
+      <MeleeDodgeChanceOutdoorsLitOffset>0.1</MeleeDodgeChanceOutdoorsLitOffset>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

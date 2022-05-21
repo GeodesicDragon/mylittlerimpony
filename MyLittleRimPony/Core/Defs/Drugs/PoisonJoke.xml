@@ -5,7 +5,7 @@
 
 <ThingDef ParentName="PlantBase">
 	<defName>MLRP_PoisonJokePlant</defName>
-    <label>poision joke plant</label>
+    <label>poison joke plant</label>
     <description>A genetically engineered plant that can be turned into joints which improve movement and manipulation, but cause a reduction in mood due to hallucinations.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>

@@ -4,7 +4,7 @@ KEY
 
 * Source provided on Derpibooru was either missing or invalid.
 ** I had to edit this image before I could use it.
-*** This image is used by an item which is only seen if A RimWorld of Magic is enabled.
+*** This image is used by an item which is only seen if a particular mod is enabled.
 
 CREDITS
 
@@ -12,6 +12,7 @@ Apple Bloom: sketchmcreations (1553341)
 Applejack: CindyDreamLight (2450572)
 Big Macintosh: dashiesparkle (1167810)
 Cheerilee: juniberries (2527617)
+Daring Do: sketchmcreations (1215272)
 Daybreaker: drakizora (1442272)
 Discord (plush): chrzanek97 (2584926)
 Discord (lamp): cloudyglow (1372861)**
@@ -36,7 +37,7 @@ Starlight Glimmer: zacatron94/BrunoMilan13 (1426211)
 Sweetie Belle: sirwarluscake* (1184509)
 Sweetie Bot: weegeestareatyou (1180288)
 Twilight Sparkle (alicorn): andoanimalia (2521465)
-Twilight Sparkle (unicorn): redpandapony (2779548)***
+Twilight Sparkle (unicorn, requires A RimWorld of Magic): redpandapony (2779548)***
 Elements of Harmony: spiritofthwwolf* (sic) (63922)
 Cutie Mark Crusaders: parclytaxel* (1761090)
 

@@ -372,6 +372,21 @@
 				<points>60</points>
 			</AchievementsExpanded.AchievementDef>
 			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_DaringDo</defName>
+				<label>Daring Done... Again</label>
+				<description>Craft a Daring Do plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_DaringDo</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/DaringDoneAgain</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
 			<!--BUILDINGS-->
 			
 			<AchievementsExpanded.AchievementDef>
@@ -589,7 +604,7 @@
 				<texPath>Achievements/EmphasisOnHarm</texPath>
 				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
-			
+						
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_RainbowLaserLegendary</defName>
 				<label>Nothing Stops The Friendship Train</label>
