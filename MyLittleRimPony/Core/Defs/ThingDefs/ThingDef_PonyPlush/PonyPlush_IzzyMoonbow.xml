@@ -26,7 +26,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<stages>
 			<li>
-				<opinionOfOthersFactor>0.25</opinionOfOthersFactor>
+				<opinionOfOthersFactor>0.5</opinionOfOthersFactor>
 			</li>
 		</stages>
 		<comps>
@@ -47,5 +47,8 @@
         <baseMoodEffect>10</baseMoodEffect>
       </li>
     </stages>
+	<nullifyingTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</nullifyingTraits>
   </ThoughtDef>
 </Defs>

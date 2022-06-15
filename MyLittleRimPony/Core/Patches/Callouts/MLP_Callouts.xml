@@ -28,10 +28,16 @@
 						<li>callout_pony->friendship</li>
 						<li>callout_pony->magic</li>
 						<li>callout_pony->harmony</li>
+						<li>callout_pony->chaos</li>
 						<li>callout_princess->Cadence</li>
 						<li>callout_princess->Celestia</li>
 						<li>callout_princess->Luna</li>
 						<li>callout_princess->Twilight</li>
+						<li>callout_villain->Nightmare Moon</li>
+						<li>callout_villain->Daybreaker</li>
+						<li>callout_villain->Tirek</li>
+						<li>callout_villain->Queen Chrysalis</li>
+						<li>callout_villain->King Sombra</li>
 						<li>callout_celestialbody->sun</li>
 						<li>callout_celestialbody->moon</li>
 					</value>
@@ -43,12 +49,13 @@
 					<value>
 						<li>rule(BRONY==true)->Friendship is magic!</li>
 						<li>rule(BRONY==true)->[callout_pony] be damned, you're getting the business end of my [INITIATOR_WEAPON_label]!</li>
-						<li>rule(BRONY==true)->Forget Trixie, THIS [PersonJob] is the Great and Powerful one!</li>
+						<li>rule(BRONY==true)->Fear the Great and Powerful [INITIATOR_label]!</li>
 						<li>rule(BRONY==true)->With [callout_princess] as my witness, I will defeat you!</li>
 						<li>rule(BRONY==true)->[callout_princess] preserve you, because I sure as hell won't!</li>
 						<li>rule(BRONY==true)->By Discord's left nut, I will end you!</li>
 						<li>rule(BRONY==true)->By Discord's right nut, I will end you!</li>
 						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
+						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
 					</value>
 				</li>
 
@@ -58,12 +65,13 @@
 					<value>
 						<li>rule(BRONY==true)->Friendship is magic!</li>
 						<li>rule(BRONY==true)->[callout_pony] be damned, you're getting the business end of my [INITIATOR_WEAPON_label]!</li>
-						<li>rule(BRONY==true)->Forget Trixie, THIS [PersonJob] is the Great and Powerful one!</li>
+						<li>rule(BRONY==true)->Fear the Great and Powerful [INITIATOR_label]!</li>
 						<li>rule(BRONY==true)->With [callout_princess] as my witness, I will defeat you!</li>
 						<li>rule(BRONY==true)->[callout_princess] preserve you, because I sure as hell won't!</li>
 						<li>rule(BRONY==true)->By Discord's left nut, I will end you!</li>
 						<li>rule(BRONY==true)->By Discord's right nut, I will end you!</li>
 						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
+						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
 					</value>
 				</li>
 	  
@@ -81,6 +89,7 @@
 					<value>
 						<li>rule(BRONY==true)->[callout_princess] preserve me, getting shot hurts!</li>
 						<li>rule(BRONY==true)->The friendship lessons never prepared me for this!</li>
+						<li>rule(BRONY==true)->Leave me alone! [callout_princess], tell them!</li>
 					</value>
 				</li>
 	  
@@ -89,6 +98,14 @@
 					<value>
 						<li>rule(BRONY==true)->[callout_princess] preserve me, getting cut hurts!</li>
 						<li>rule(BRONY==true)->The friendship lessons never prepared me for this!</li>
+						<li>rule(BRONY==true)->Leave me alone! [callout_princess], tell them!</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Wounded"]/rulePack/rulesStrings</xpath>
+					<value>
+						<li>rule(BRONY==true)->[callout_princess] will soon grant me a new [destroyed_part]!</li>
 					</value>
 				</li>
 	  
@@ -99,14 +116,18 @@
 						<li>rule(BRONY==true,p=2)->How may I serve Equestria today?</li>
 						<li>rule(BRONY==true,p=2)->Glory to Princess [callout_princess]!</li>
 						<li>rule(BRONY==true,p=2)->Praise the [callout_celestialbody]!</li>
+						<li>rule(BRONY==true,p=2)->For [callout_princess]' sake, I was about to have [callout_noun_meal]!</li>
+						<li>rule(BRONY==true,p=2)->It's about to get twenty percent cooler!</li>
 					</value>
 				</li>
 		  
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Lethal_Hediff_Progression"]/rulePack/rulesStrings</xpath>
 					<value>
-						<li>rule(BRONY==true)->Looks like I'll be joining you soon, [callout_princess].</li>
+						<li>rule(CULPRITHEDIFF_stage==extreme,BRONY==true)->Looks like I'll be seeing you real soon, [callout_princess].</li>
 						<li>rule(BRONY==true)->[callout_pony] be with me, it's nearly over...</li>
+						<li>rule(BRONY==true)->[callout_princess], let not this affliction claim me!</li>
+						<li>rule(BRONY==true)->Oh, no, I can see [callout_villain]...</li>
 					</value>
 				</li>
 			</operations>

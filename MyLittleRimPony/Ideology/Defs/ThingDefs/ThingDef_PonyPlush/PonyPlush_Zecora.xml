@@ -12,7 +12,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <equippedStatOffsets>
-      <PruningSpeed>0.5</PruningSpeed>
+      <PruningSpeed>1</PruningSpeed>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>

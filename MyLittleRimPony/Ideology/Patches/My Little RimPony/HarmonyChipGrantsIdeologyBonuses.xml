@@ -5,7 +5,7 @@
 	<value>
 		<SuppressionPower>0.25</SuppressionPower>
 		<SlaveSuppressionOffset>0.1</SlaveSuppressionOffset>
-		<PruningSpeed>0.5</PruningSpeed>
+		<PruningSpeed>1</PruningSpeed>
 		<HackingSpeed>0.25</HackingSpeed>
 	</value>
 </Operation>

@@ -1,3 +1,23 @@
+Version 2.33.44 (June 7th 2022)
+
+* RimPonk: Added a recipe to remove magical cake addiction.
+	* Requires 10 industrial medicine.
+	* Requires a Medicine skill level of at least 8.
+	* Does not require research.
+* NPC faction settlements should now buy meat.
+* Vastly reduced the amount of raw food stocked by NPC faction settlements.
+* Increased the variety of raw food stocked by NPC faction settlements.
+* Discord now increases global work speed by 50% (was 25).
+* Izzy Moonbow now increases opinions of others by 50% (was 25).
+* Anti bronies no longer get the mood bonus from having Izzy equipped.
+* Ideology: Zecora now increases pruning speed by 100% (was 50).
+* Fixed NPC faction settlements attempting to stock techprints without the Royalty DLC enabled.
+* NPC faction settlements will now have a maximum of 2 techprints in stock at any one time.
+* Updated list of names for NPC and player factions.
+	* The way they are generated has been changed; this MIGHT cause some issues. Apologies in advance if it does.
+* Updated list of names for NPC and player settlements.
+* Updated Callouts patches with a few new and updated entries.
+
 Version 2.32.32 (May 22nd 2022)
 
 * Added Daring Do (+10% dodge chance).

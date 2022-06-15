@@ -12,7 +12,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <equippedStatOffsets>
-      <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+      <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>

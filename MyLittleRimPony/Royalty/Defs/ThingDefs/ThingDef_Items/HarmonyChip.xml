@@ -49,7 +49,7 @@
 	<spawnThingOnRemoved>MLRP_HarmonyChip</spawnThingOnRemoved>
 	<stages>
 		<li>
-			<opinionOfOthersFactor>0.25</opinionOfOthersFactor>
+			<opinionOfOthersFactor>0.5</opinionOfOthersFactor>
 			<statOffsets>
 				<PlantWorkSpeed>0.25</PlantWorkSpeed>
 				<PlantHarvestYield>0.25</PlantHarvestYield>
@@ -67,7 +67,7 @@
 				<FoodPoisonChance>-0.1</FoodPoisonChance>
 				<CarryingCapacity>25</CarryingCapacity>
 				<GlobalLearningFactor>0.50</GlobalLearningFactor>
-				<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+				<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
 				<MedicalTendSpeed>0.25</MedicalTendSpeed>
 				<MedicalTendQualityOffset>0.25</MedicalTendQualityOffset>
 				<SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>

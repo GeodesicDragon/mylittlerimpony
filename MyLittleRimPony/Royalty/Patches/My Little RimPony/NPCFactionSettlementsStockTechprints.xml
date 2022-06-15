@@ -2,8 +2,14 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader"]/stockGenerators</xpath>
 		<value>
-			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
-			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>2</count>
+						<chance>1</chance>
+					</li>
+				</countChances>
+			</li>
 		</value>
 	</Operation>
 </Patch>

@@ -64,7 +64,6 @@
                     <keyword>MaleSingleName</keyword>
                     <path>NameBanks/MaleSingleNames</path>
                 </li>
-				
             </rulesRaw>
         </rulePack>
     </RulePackDef>
@@ -116,12 +115,23 @@
     <defName>MLRP_BronyNames</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name(p=2)->[MLRP_FactionName]</li>
+		<li>r_name(p=2)->Equestrian Crusaders</li>
+        <li>r_name(p=2)->New [PlaceName]</li>
+		<li>r_name(p=2)->Bastion of [PonyThing]</li>
+		<li>r_name(p=2)->Guardians of [PonyThing]</li>
+		<li>r_name(p=2)->Cult of [PonyThing]</li>
+		<li>r_name(p=2)->Sons of [PonyThing]</li>
+		<li>r_name(p=2)->Daughters of [PonyThing]</li>
+		<li>r_name(p=2)->Children of [PonyThing]</li>
       </rulesStrings>
 	  <rulesRaw>
 		<li Class="Rule_File">
-			<keyword>MLRP_FactionName</keyword>
-			<path>NameBanks/MLRP_FactionNames</path>
+			<keyword>PlaceName</keyword>
+			<path>NameBanks/PlaceNames</path>
+		</li>
+		<li Class="Rule_File">
+			<keyword>PonyThing</keyword>
+			<path>NameBanks/PonyThings</path>
 		</li>
 	  </rulesRaw>
     </rulePack>

@@ -13,9 +13,9 @@
         <countRange>2500~10000</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>PlantFoodRaw</categoryDef>
-        <thingDefCountRange>1~10</thingDefCountRange>
-        <totalPriceRange>1500~2500</totalPriceRange>
+        <categoryDef>FoodRaw</categoryDef>
+        <thingDefCountRange>1~20</thingDefCountRange>
+        <totalPriceRange>150~450</totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -91,20 +91,6 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Kibble</thingDef>
         <countRange>250~500</countRange>
-      </li>
-
-      <!-- Techprints -->
-      <li Class="StockGenerator_Techprints">
-        <countChances>
-          <li>
-            <count>2</count>
-            <chance>0.5</chance>
-          </li>
-          <li>
-            <count>3</count>
-            <chance>0.5</chance>
-          </li>
-        </countChances>
       </li>
 
       <!-- Weapons -->
