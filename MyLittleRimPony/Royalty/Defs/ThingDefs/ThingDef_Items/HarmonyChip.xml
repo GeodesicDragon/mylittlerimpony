@@ -49,6 +49,7 @@
 	<spawnThingOnRemoved>MLRP_HarmonyChip</spawnThingOnRemoved>
 	<stages>
 		<li>
+			<painOffset>-0.1</painOffset>
 			<opinionOfOthersFactor>0.5</opinionOfOthersFactor>
 			<statOffsets>
 				<PlantWorkSpeed>0.25</PlantWorkSpeed>

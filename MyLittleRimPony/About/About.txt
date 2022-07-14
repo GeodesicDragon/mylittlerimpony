@@ -104,10 +104,11 @@ Irn-Bru And Other Scottish Delights: NPC faction will send Scottish goods trader
 Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
 RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction.
 Vanilla Achievements Expanded: Adds several achievements to acquire each of the items added by MLRP.
-Vanilla Furniture Expanded - Production: Allows the plushie bench to benefit from the work speed bonus granted by the tailoring cabinet.
+Vanilla Backgrounds Expanded: Adds new main menu and loading screen backgrounds.
+Vanilla Furniture Expanded - Production: Allows the plushie bench to benefit from the work speed bonus of the tailoring cabinet.
 Weeb Faction: The Weeaboo Clan faction is not hostile to player or NPC brony factions.
 XML Extensions: Allows you to configure many aspects of the mod to your own liking.
-	* Cloth needed to make plushies.
+	* Amount of stuff needed to make plushies.
 	* Crafting skill needed to make plushies.
 	* Market value of plushies.
 	* Whether or not plushies become tainted upon death.

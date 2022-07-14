@@ -1,3 +1,23 @@
+Version 2.41.58 (July 15th 2022)
+
+* Core: Added 8 new backgrounds (requires Vanilla Backgrounds Expanded).
+	* Artists are credited in the Credits.txt file.
+	* No edits have been made to any of the art used.
+	* Anyone wishing for me to remove their work can contact me via Discord.
+* Core: Updated list of names for NPC and player factions (again).
+* Core: Fixed error related to the Brony Community scenario regarding Screwball generators not having a material assigned. 
+* Core: Increased Brony Community scenario starting wood count to 500 (was 300).
+* Core: Reduced Brony Community scenario starting silver to 500 (was 800).
+* Core: The Brony Community scenario now starts with plushies intended to make initial setup quicker.
+* Royalty: Fixed the harmony chip not reducing pain like plushies do.
+* Royalty: Changed the thought bronies get when they have a harmony chip installed.
+* Ideology: Fixed the Harmony precept not increasing the hacking speed of all your pawns.
+* Bulk Carrier: Big Macintosh now increases carrying capacity by 75kg (was 50).
+* Bulk Carrier: Fixed the harmony chip not increasing carrying capacity properly.
+* RimWorld War 2: Updated non-hostile patch to include the new Finnish factions.
+* RimWorld War 2: Fixed Kingdom of Italy and Soviet Russia (1939-1941) remaining hostile to NPC and player factions. Both factions may still be at -100 relations, but you are now able to improve those relations should you so wish.
+* XML Extensions: If you've allowed bronies to be violent, the description for the Brony Community scenario will be different.
+
 Version 2.33.44 (June 7th 2022)
 
 * RimPonk: Added a recipe to remove magical cake addiction.

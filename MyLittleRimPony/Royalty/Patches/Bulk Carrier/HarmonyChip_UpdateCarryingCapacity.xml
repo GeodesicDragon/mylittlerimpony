@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Bulk Carrier</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+	    <xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/CarryingCapacity</xpath>
+	    <value>
+			<CarryingCapacity>75</CarryingCapacity>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>

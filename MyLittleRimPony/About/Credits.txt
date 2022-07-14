@@ -1,5 +1,7 @@
 All art was sourced from Derpibooru (https://www.derpibooru.org), unless otherwise specified, and is used under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License; credit is followed by the Derpibooru image ID.
 
+If you are one of the artists listed below and want me to stop using your work, get in touch with me via my Discord server. Please be aware that I will ask you to prove that you are who you say you are.
+
 KEY
 
 * Source provided on Derpibooru was either missing or invalid.
@@ -20,26 +22,26 @@ Fluttershy: RainbowCrab (2508169)
 Maud Pie: thebosscamacho (2819795)
 Nightmare Moon: Unknown Artist (2773794)*
 Nurse Haywick: GraphiteSketch AKA Timsplosion (1852562)
-Nurse Redheart: drfatalchunk* (1464636)
+Nurse Redheart: drfatalchunk (1464636)*
 Izzy Moonbow (plush): inaactive (2561243)
 Izzy Moonbow (smoke launcher): ejlightning007arts (2718787)
 Pinkie Pie: flizzick (2490254)
 Princess Cadence: princesscaramelo (2115510)
 Princess Celestia: killagouge (2058026)
 Princess Luna: chrzanek97 (2124813)
-Rainbow Dash: TheMightyShizam* (2501021)
+Rainbow Dash: TheMightyShizam (2501021)*
 Rarity: MoongazePonies (2734969)
 Screwball: vexorb (32017)
 Scootaloo: sketchmcreations (1551560)
 Shining Armour (wife thrower): keanno (148650)
 Shining Armour (plush): 90sigma (626430)
 Starlight Glimmer: zacatron94/BrunoMilan13 (1426211)
-Sweetie Belle: sirwarluscake* (1184509)
+Sweetie Belle: sirwarluscake (1184509)*
 Sweetie Bot: weegeestareatyou (1180288)
 Twilight Sparkle (alicorn): andoanimalia (2521465)
-Twilight Sparkle (unicorn, requires A RimWorld of Magic): redpandapony (2779548)***
-Elements of Harmony: spiritofthwwolf* (sic) (63922)
-Cutie Mark Crusaders: parclytaxel* (1761090)
+Twilight Sparkle (unicorn): redpandapony (2779548)***
+Elements of Harmony: spiritofthwwolf (sic) (63922)*
+Cutie Mark Crusaders: parclytaxel (1761090)*
 
 Aloe and Lotus: jennieoo (773287)
 Trixie: chrzanek97 (2584896)
@@ -55,6 +57,17 @@ Quibble Pants: outlaw4rc (1216860)
 Zephyr Breeze: 19crowbar19* (1740159)
 Tree Of Harmony: pridark (2780361)
 Poison Joke: 3luk (1686090)
+
+MAIN MENU BACKGROUNDS (Requires Vanilla Backgrounds Expanded)
+
+Canterlot From Above: plainoasis (1506617)
+Princess Twilight Reading: discordthege (2175730)
+Rarity As Princess Platinum: ifoldbooks (1046)
+Rainbow Dash In Cherry Blossom: discordthege (1663049)
+Applejack On The Farm: huussii (993609)
+Fluttershy And Her Animals: huussii (267391)
+Pinkie Pie At The Mirror Pool: huussii (411047)
+Sunny And Her Friends: silentwulv (2906225)
 
 ACHIEVEMENTS
 

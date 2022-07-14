@@ -42,7 +42,7 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Silver</thingDef>
-				<count>800</count>
+				<count>500</count>
 			</li>
 			
 			<li Class="ScenPart_StartingThing_Defined">
@@ -54,7 +54,7 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>WoodLog</thingDef>
-				<count>300</count>
+				<count>500</count>
 			</li>
 			
 			<li Class="ScenPart_StartingThing_Defined">
@@ -99,20 +99,44 @@
 				<def>StartingThing_Defined</def>
 				<thingDef>Turret_MiniTurret</thingDef>
 				<count>4</count>
-			  <stuff>Steel</stuff>
+				<stuff>Steel</stuff>
 			</li>
 			
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MLRP_ScrewballGenerator</thingDef>
 				<count>2</count>
+				<stuff>Cloth</stuff>
+			</li>
+			
+			<!-- Starting plushies -->
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>PonyPlush_Applejack</thingDef>
+				<count>1</count>
+				<stuff>Cloth</stuff>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>PonyPlush_Fluttershy</thingDef>
+				<count>1</count>
+				<stuff>Cloth</stuff>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>PonyPlush_TwilightSparkle</thingDef>
+				<count>1</count>
+				<stuff>Cloth</stuff>
 			</li>
 
-			<!--Game start dialog-->
+			<!-- Game start dialog -->
 			
 			<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>You're finally done wandering the planet; it is now time for you to build a new home where you can live in peace.\n\nIt's not going to be easy - the fact that you're all pacifists will make you tempting targets for those with the presence of mind to consider you a viable threat - but you have belief in yourselves that you can make this work.</text>
+				<text>You're finally done wandering the planet, and it is time for you to build a new home where you can live in peace.\n\nIt's not going to be easy - the fact that you're all pacifists will make you tempting targets for those with the presence of mind to consider you a viable threat - but you have belief in yourselves that you can make this work.</text>
 			</li>
 		</parts>
 	</scenario>

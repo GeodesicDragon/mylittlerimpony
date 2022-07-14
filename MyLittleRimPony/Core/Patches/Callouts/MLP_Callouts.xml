@@ -38,6 +38,7 @@
 						<li>callout_villain->Tirek</li>
 						<li>callout_villain->Queen Chrysalis</li>
 						<li>callout_villain->King Sombra</li>
+						<li>callout_villain->Grogar</li>
 						<li>callout_celestialbody->sun</li>
 						<li>callout_celestialbody->moon</li>
 					</value>
@@ -45,7 +46,7 @@
 	  
 				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.-->
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Attack_Common"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Attack_Common" or defName="CM_Callouts_RulePack_Melee_Attack"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->Friendship is magic!</li>
 						<li>rule(BRONY==true)->[callout_pony] be damned, you're getting the business end of my [INITIATOR_WEAPON_label]!</li>
@@ -59,9 +60,9 @@
 					</value>
 				</li>
 
-				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.-->
+				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Melee_Attack"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Melee_Attack"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->Friendship is magic!</li>
 						<li>rule(BRONY==true)->[callout_pony] be damned, you're getting the business end of my [INITIATOR_WEAPON_label]!</li>
@@ -73,7 +74,7 @@
 						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
 					</value>
-				</li>
+				</li>-->
 	  
 				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.-->
 				<li Class="PatchOperationAdd">

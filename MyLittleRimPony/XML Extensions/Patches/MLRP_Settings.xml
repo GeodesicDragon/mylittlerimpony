@@ -582,7 +582,7 @@
 				
 				<li Class="XmlExtensions.Setting.Checkbox">
 					<key>MLRP_SweetieBotRearmCostAffectedByDifficulty</key>
-					<label>Cost of rearming Sweetie Bots affected by game difficulty</label>
+					<label>Cost of rearming Sweetie Bots is affected by game difficulty</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap"/>

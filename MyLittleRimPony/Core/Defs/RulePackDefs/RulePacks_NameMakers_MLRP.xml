@@ -37,9 +37,9 @@
 				<!--Use some OC names too; contact me on Discord if you'd like yours added-->
 				<li>name->Doctor Haywick</li>
 				<li>name->Aquilla Hawkmoon</li>
-				<li>name->Echo Beam</li>
+				<!--<li>name->Echo Beam</li>-->
 				<li>name->Swirly Fungus</li>
-				<li>name->Myck</li>
+				<!--<li>name->Myck</li>-->
 				<li>name->SteelRhythm</li>
 				<li>name->ChaosMauser</li>
             </rulesStrings>
@@ -115,14 +115,16 @@
     <defName>MLRP_BronyNames</defName>
     <rulePack>
       <rulesStrings>
-		<li>r_name(p=2)->Equestrian Crusaders</li>
-        <li>r_name(p=2)->New [PlaceName]</li>
-		<li>r_name(p=2)->Bastion of [PonyThing]</li>
-		<li>r_name(p=2)->Guardians of [PonyThing]</li>
-		<li>r_name(p=2)->Cult of [PonyThing]</li>
-		<li>r_name(p=2)->Sons of [PonyThing]</li>
-		<li>r_name(p=2)->Daughters of [PonyThing]</li>
-		<li>r_name(p=2)->Children of [PonyThing]</li>
+		<li>r_name->Equestrian Crusaders</li>
+		<li>r_name->[PonyThing] Crusaders</li>
+        <li>r_name->New [PlaceName]</li>
+		<li>r_name->Bastion of [PonyThing]</li>
+		<li>r_name->Guardians of [PonyThing]</li>
+		<li>r_name->Cult of [PonyThing]</li>
+		<li>r_name->Sons of [PonyThing]</li>
+		<li>r_name->Daughters of [PonyThing]</li>
+		<li>r_name->Children of [PonyThing]</li>
+		<li>r_name->The [PlaceName2] [PonyThing] [PonyUnit]</li>
       </rulesStrings>
 	  <rulesRaw>
 		<li Class="Rule_File">
@@ -130,8 +132,16 @@
 			<path>NameBanks/PlaceNames</path>
 		</li>
 		<li Class="Rule_File">
+			<keyword>PlaceName2</keyword>
+			<path>NameBanks/PlaceNames2</path>
+		</li>
+		<li Class="Rule_File">
 			<keyword>PonyThing</keyword>
 			<path>NameBanks/PonyThings</path>
+		</li>
+		<li Class="Rule_File">
+			<keyword>PonyUnit</keyword>
+			<path>NameBanks/UnitNames</path>
 		</li>
 	  </rulesRaw>
     </rulePack>
@@ -143,7 +153,7 @@
     <defName>MLRP_BronySettlementNames</defName>
     <rulePack>
       <rulesStrings>
-		<li>r_name(p=2)->[MLRP_SettlementName]</li>
+		<li>r_name->[MLRP_SettlementName]</li>
       </rulesStrings>
 	  <rulesRaw>
 		<li Class="Rule_File">

@@ -27,6 +27,7 @@
 		<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
 		<TradePriceImprovement>0.25</TradePriceImprovement>
 		<ResearchSpeed>0.25</ResearchSpeed>
+		<HackingSpeed>0.25</HackingSpeed>
 	</statOffsets>
 </PreceptDef>
   
