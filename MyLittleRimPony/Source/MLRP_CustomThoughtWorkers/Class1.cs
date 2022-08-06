@@ -26,7 +26,7 @@ namespace MyLittleRimPony
     // ANTI BRONY STUFF
 
     public class ThoughtWorker_AntiBronyVsBrony : ThoughtWorker
-{
+    {
         protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
         {
             if (!p.RaceProps.Humanlike)
@@ -50,21 +50,21 @@ namespace MyLittleRimPony
     }
 
     public class Thought_AntiBronyVsBrony : Thought_SituationalSocial
-{
-    public override float OpinionOffset()
     {
-        if (ThoughtUtility.ThoughtNullified(pawn, def))
+        public override float OpinionOffset()
         {
-            return 0f;
-        }
+            if (ThoughtUtility.ThoughtNullified(pawn, def))
+            {
+                return 0f;
+            }
 
-        if (otherPawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait))
-        {
-            return -25f;
-        }
+            if (otherPawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait))
+            {
+                return -25f;
+            }
             return 0f;
+        }
     }
-}
 
     // PRO BRONY STUFF
 

@@ -1,5 +1,16 @@
 <Defs>
 
+<!--CATEGORY-->
+
+  <IdeoPresetCategoryDef>
+    <defName>MLRP_PresetIdeos</defName>
+    <label>My Little RimPony</label>
+    <description>My Little Pony themed ideoligions.</description>
+    <groupLabel>Preset ideoligions</groupLabel>
+  </IdeoPresetCategoryDef>
+  
+<!--PRESETS-->
+
 	<IdeoPresetDef>
 		<defName>Cult_Of_Harmony</defName>
 		<label>Disciples of Harmony</label>
@@ -11,10 +22,27 @@ Cadence, who told us that love conquers all.
 Twilight, who told us that friendship is eternal.
 
 We are their disciples, and we will not falter in our efforts to spread their lessons across the land.</description>
-		<categoryDef>Strong</categoryDef>
+		<categoryDef>MLRP_PresetIdeos</categoryDef>
+		<iconPath>Things/ElementsOfHarmony</iconPath>
 		<memes>
 			<li>AnimalPersonhood</li>
 			<li>Individualist</li>
+			<li>Proselytizer</li>
+		</memes>
+	</IdeoPresetDef>
+	
+	<IdeoPresetDef>
+		<defName>MLRP_Cult_Of_Chaos</defName>
+		<label>Cult of Chaos</label>
+		<description>Harmony is for the weak; the Lord of Chaos is the one whose lessons we should be spreading.
+		
+(Please note: Howling at the moon and sleeping in the middle of a summer afternoon are optional.)</description>
+		<categoryDef>MLRP_PresetIdeos</categoryDef>
+		<iconPath>Things/PonyPlush/Discord</iconPath>
+		<memes>
+			<li>Supremacist</li>
+			<li>PainIsVirtue</li>
+			<li>HumanPrimacy</li>
 			<li>Proselytizer</li>
 		</memes>
 	</IdeoPresetDef>

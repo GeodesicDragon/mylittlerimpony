@@ -5,7 +5,6 @@
 		<li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
 		<li IfModActive="imranfish.xmlextensions">XML Extensions</li>
-		<li IfModActive="CETeam.CombatExtended">Combat Extended</li>
 	</v1.1>
 	<v1.2>
 		<li>Common</li>
@@ -13,7 +12,6 @@
 		<li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
 		<li IfModActive="imranfish.xmlextensions">XML Extensions</li>
-		<li IfModActive="CETeam.CombatExtended">Combat Extended</li>
 	</v1.2>
 	<v1.3>
 		<li>Common</li>

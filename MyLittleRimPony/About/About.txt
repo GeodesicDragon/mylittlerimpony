@@ -6,7 +6,7 @@
 * Plushies can be made of cloth, or any other textile (including human leather).
 * Colonists will actively seek out and equip plushies themselves, though you might need to force them to wear the one that actually suits them better (because a pawn with poor Plants skill may decide to equip an Applejack plush).
 * Adds the Elements of Harmony, using 1800 textiles and 100 gold. This item combines the bonuses given by all of the Mane Six plushies into one item.
-* Adds a pila-based weapon which hurls Cadences at your enemy. This 'wife thrower' has the same stats as a pila, though it can be thrown twice as fast and only requires skill 3 Crafting and 75 wood to make.
+* Adds a pila-based weapon which hurls Cadences at your enemy. This 'wife thrower' can be thrown twice as fast as a pila and only requires skill 3 Crafting and 75 wood to make.
 * Adds the Orbital Friendship Cannon (OFC), an item only available through quests, traders, or very rarely at some faction settlements. It can be rearmed for 100 gold, allowing you to use it again.
 * All items added by this mod, with the exception of the OFC, are made at a dedicated plushie bench.
 * Adds the 'Brony' trait, which renders the pawn incapable of violence, but increases their Social skill by 6 and prevents mood loss from being insulted. Also prevents them from going on violence-related mental breaks, such as sadistic rage. Gets a +25 opinion bonus to other pawns with the same trait and a +10 mood bonus as long as a plushie is equipped. They also get +20 to mood if they have a Harmony Chip implant.
@@ -21,21 +21,12 @@
 * Adds a Statue of Nightmare Moon, which allows you to obtain exotic items using chocolate (though it's a bit more expensive than buying them normally).
 * Adds a Statue of Daybreaker, which allows you to convert one material into the market value equivalent of another. It also allows you to make batches of 5 regular or advanced components much quicker than a fabrication bench. Just make sure you've got plenty of chemfuel in stock.
 * Adds Nurse Redheart, obtainable only via quests, who will provide 5 Medicine every 10 days as long as she has 350W of power.
-* Adds patches which work with Irn-Bru And Other Scottish Delights, if you have it enabled.
-* Adds patches which work with RimPonk, if you have it enabled.
-* Adds a patch that works with Bulk Carrier, if you have it enabled.
-* Adds a patch that works with Reverse Engineered Mechanoid Shields, if you have it enabled.
-* Adds patches which work with Vanilla Achievements Expanded, if you have it enabled.
-* Adds patches which work with Addictol - Addiction Removal, if you have it enabled.
-* Adds patches which work with Harvest Organs Post Mortem, if you have it enabled.
-* Adds patches which work with Vanilla Furniture Expanded - Production, if you have it enabled.
-* Adds patches which work with A RimWorld of Magic, if you have it enabled.
-* Adds a patch that works with Callouts, if you have it enabled.
+* Adds patches for various other mods (see below for details).
 * Combatible with Combat Extended!
-* Adds patches which allow you to configure aspects of the mod to your own liking, if you have XML Extensions enabled.
 * Adds the Harmony Chip - if you have the Royalty DLC enabled - which is a brain implant that grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology plushies are also applied (if that DLC is enabled).
 * Adds Mudbriar, Quibble Pants and Zephyr Breeze as turrets which do zero damage, and only serve to distract raiders.
 * Adds poison joke, a drug which improves a pawns movement and manipulation, but causes a mood debuff. Also adds a medical procedure which uses 25 herbal medicine to cure a person of an addiction to poison joke.
+* Adds two precept ideologies if you have the Ideology DLC enabled.
 
 |-------------------------|
 |      CORE PLUSHIES      |
@@ -98,11 +89,13 @@ Single Use Grenades N'at: Patches the wife thrower to be single use only.
 A RimWorld of Magic: Adds a new item and makes the brony trait conflict with many of the traits added by this mod.
 Addictol - Addiciton Removal: NPC faction settlements and weapon traders will sell addictol.
 Bulk Carrier: Big Macintosh increases carrying capacity by 50kg instead of 25.
+Callouts: Adds MLP themed callouts for various events; they are only said by pawns with the Brony trait.
 Combat Extended: Weapons use ammo and have clip sizes, plushies have some bulk.
 Harvest Organs Post Mortem: Adds recipes to the Nightmare Moon statue which allow you to turn extra organs into chocolate.
 Irn-Bru And Other Scottish Delights: NPC faction will send Scottish goods traders and stock goods at their settlements.
 Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
 RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction.
+Single Use Grenades N'at: Making wife throwers now costs just 10 wood, on account of the fact you'll need to keep making replacements.
 Vanilla Achievements Expanded: Adds several achievements to acquire each of the items added by MLRP.
 Vanilla Backgrounds Expanded: Adds new main menu and loading screen backgrounds.
 Vanilla Furniture Expanded - Production: Allows the plushie bench to benefit from the work speed bonus of the tailoring cabinet.
@@ -120,9 +113,3 @@ XML Extensions: Allows you to configure many aspects of the mod to your own liki
 	* The type of medicine spawned by Nurse Redheart (industrial or glitterworld).
 	* How much medicine is spawned by Nurse Redheart.
 	* How often medicine is spawned by Nurse Redheart.
-
-|------------------------------------|
-|      CAN YOU ADD <CHARACTER>?      |
-|------------------------------------|
-
-If you have any suggestions about what bonus(es) they could give then sure, I'll consider it. Let me know via Discord.

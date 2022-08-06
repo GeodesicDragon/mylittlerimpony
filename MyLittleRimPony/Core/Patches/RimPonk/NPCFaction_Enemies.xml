@@ -2,9 +2,11 @@
 
 <Patch>
 
-<Operation Class="PatchOperationFindMod">
+<!--These patches don't work because the ability to set faction relations has been removed.-->
+<!--The code will remain on the off-chance that decision is reversed sometime in the future.-->
+
+<!--<Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">
@@ -25,7 +27,6 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Humanoid Alien Races</li>
         <li>RimPonk</li>
     </mods>
     <match Class="PatchOperationAdd">
@@ -42,6 +43,6 @@
 			</li>
 	    </value>
     </match>
-</Operation>
+</Operation>-->
 	
 </Patch>

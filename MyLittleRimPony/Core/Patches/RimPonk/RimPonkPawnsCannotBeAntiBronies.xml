@@ -1,0 +1,34 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>/Defs/TraitDef[defName="MLRP_AntiBronyTrait"]/conflictingTraits</xpath>
+		<value>
+			<li>ThisPonyIsAL</li>
+			<li>ThisPonyIsBP</li>
+			<li>ThisPonyIsEP</li>
+			<li>ThisPonyIsPG</li>
+			<li>ThisPonyIsUN</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Changeling_pony" or defName="Griffon_pony" or defName="Kirin_pony"]/alienRace/disallowedTraits</xpath>
+		<value>
+			<li>
+				<defName>MLRP_AntiBronyTrait</defName>
+				<chance>100</chance>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

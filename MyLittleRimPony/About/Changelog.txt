@@ -1,3 +1,16 @@
+Version 2.46.62 (August 6th 2022)
+
+* Core: Added a recipe to the Daybreaker statue which allows for the creation of 10 components at a time (uses 150 chemfuel).
+* Core: Added a recipe to the Daybreaker statue which allows for the creation of 10 advanced components at a time (uses 150 chemfuel).
+* Core: Added a patch, applied if Single Use Grenades N'at is enabled, that reduces the cost of making wife throwers to just 10 wood. It makes sense to do this because, well, 75 wood to make something that you only get to throw once is kinda expensive.
+* Core: You should now be able to make Rainbow Lasers using Elements of Harmony again. This seems kinda tempermental, so I'd like to apologise in advance if it turns out not to work.
+* Core: Combat Extended is no longer in the load order when using Rimworld 1.1 or 1.2 (since CE itself only supports 1.3).
+* Ideology: Added the Cult of Chaos as a precept ideoligion you can select when starting a new colony.
+	* Uses the Supremacist, Pain Is Virtue, Human Primacy and Proselytizer memes.
+* Ideology: Precept ideoligions added by this mod now have their own category. They can be found at the bottom of the list.
+* RimPonk: Removed the patch which would try to set the relation of the NPC faction with the Nightmare Moon and Changeling player colonies to -100. (I forgot to do it when I removed the one that made the NPC faction allied with colonies containing any of the Mane Six.)
+* RimPonk: Pawns added by this mod can no longer have the anti brony trait.
+
 Version 2.41.58 (July 15th 2022)
 
 * Core: Added 8 new backgrounds (requires Vanilla Backgrounds Expanded).

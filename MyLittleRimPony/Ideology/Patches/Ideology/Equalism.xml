@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Ideology</li>
-		</mods>
-			<match Class="PatchOperationSequence">
-				<operations>
-					<Operation Class="PatchOperationReplace">
-						<xpath>/Defs/MemeDef[defName="Collectivist"]/label</xpath>
-						<value>
-							<label>equalism</label>
-						</value>
-					</Operation>
-					
-					<Operation Class="PatchOperationReplace">
-						<xpath>/Defs/MemeDef[defName="Collectivist"]/description</xpath>
-						<value>
-							<description>True harmony can only be achieved by equality; no one is special, no one argues, and everyone is equal.</description>
-						</value>
-					</Operation>
-					
-					<Operation Class="PatchOperationReplace">
-						<xpath>/Defs/MemeDef[defName="Collectivist"]/iconPath</xpath>
-						<value>
-							<iconPath>UI/Memes/Equality</iconPath>
-						</value>
-					</Operation>
-				</operations>
-			</match>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/MemeDef[defName="Collectivist"]/label</xpath>
+		<value>
+			<label>equalism</label>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/MemeDef[defName="Collectivist"]/description</xpath>
+		<value>
+			<description>True harmony can only be achieved by equality; no one is special, no one argues, and everyone is equal.</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/MemeDef[defName="Collectivist"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Memes/Equality</iconPath>
+		</value>
 	</Operation>
 </Patch>
