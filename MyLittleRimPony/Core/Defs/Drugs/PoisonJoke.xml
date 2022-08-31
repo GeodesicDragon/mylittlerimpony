@@ -3,13 +3,12 @@
 
 <!--Plant-->
 
-<ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBaseNonEdible">
 	<defName>MLRP_PoisonJokePlant</defName>
     <label>poison joke plant</label>
     <description>A genetically engineered plant that can be turned into joints which improve movement and manipulation, but cause a reduction in mood due to hallucinations.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Nutrition>0</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/PoisonJokeCrop</texPath>
@@ -17,7 +16,6 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>14</pathCost>
-    <ingestible />
     <plant>
 		<fertilityMin>1.4</fertilityMin>
 		<growDays>14</growDays>
@@ -57,7 +55,7 @@
       <li>PlantMatter</li>
     </thingCategories>
     <ingestible>
-      <preferability>DesperateOnly</preferability>
+      <preferability>NeverForNutrition</preferability>
       <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
     </ingestible>
   </ThingDef>

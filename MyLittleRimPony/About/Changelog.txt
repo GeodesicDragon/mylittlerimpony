@@ -1,3 +1,30 @@
+Version 2.47.90 (August 31st 2022)
+
+* Core: Nightmare Moon is now offering luciferium pills in lots of 5.
+	* As well as 175 chocolate, she also demands 10 each of smokeleaf joints, go-juice, wake-up and yayo.
+	* You will need to research drug production before this offering will become available.
+	* You cannot return luciferium pills to the statue.
+* Core: To thank you for your dedication, Nightmare Moon is now offering double the chocolate when returning things.
+* Core: Building Nightmare Moon and Daybreaker statues no longer requires plushies.
+* Core: Massively nerfed the Mudbriar, Quibble Pants, and Zephyr Breeze turrets.
+	* Doubled the material cost of building them (in Mudbriar's case, the wood cost has been tripled).
+	* They are now only 100% accurate at long range; at short/medium range, their accuracy is reduced to 25%, while they are only 10% accurate when firing at enemies within touching distance.
+	* Increased cooldown between shots to 3 seconds (was 0).
+	* Reduced speed of the 'projectile' fired by the turrets to 125 (was 250).
+	* Combat Extended: Reduced accuracy to 50%.
+	* These changes have been made because it was too easy to build a lot of these turrets and not worry about raiders, as they'd be too busy hitting them to pay any attention to your colonists.
+* Core: Fixed '... does not belong in <ThingDef> (defName="MLRP_ElementsOfHarmony")' error.
+* Core: Fixed '... does not belong in <ThingDef> (defName="PonyPlush_CutieMarkCrusaders")' error.
+* Core: Fixed 'Could not find a type named MyLittleRimPony.Thought_AntiBronyVsMLPRace' error.
+* Core: Fixed 'Could not find a type named MyLittleRimPony.ThoughtWorker_AntiBronyVsMLPRace' error.
+* Core: Fixed 'Config error in MLRP_ElementsOfHarmony: has duplicate thingCategory Pony_Plushies' error.
+* Core: Fixed 'Config error in PonyPlush_CutieMarkCrusaders: has duplicate thingCategory Pony_Plushies' error.
+* Core: Fixed 'Config error in MLRP_ScrewballGenerator: madeFromStuff but has a defined constructEffect' error.
+* Core: Fixed 'MLRP_PoisonJokePlant: Nutrition == 0 but preferability is RawBad instead of NeverForNutrition' error.
+* XML Extensions: Fixed formatting error.
+* RimPonk: The anti brony trait should now properly conflict with all traits added by this mod.
+* RimPonk Unique Pawns: The anti brony trait should now properly conflict with all traits added by this mod.
+
 Version 2.46.62 (August 6th 2022)
 
 * Core: Added a recipe to the Daybreaker statue which allows for the creation of 10 components at a time (uses 150 chemfuel).

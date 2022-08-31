@@ -20,9 +20,9 @@
       <li>Metallic</li>
       <li>Stony</li>
     </stuffCategories>
-    <costList>
+    <!--<costList>
       <PonyPlush_PrincessCelestia>1</PonyPlush_PrincessCelestia>
-    </costList>
+    </costList>-->
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>

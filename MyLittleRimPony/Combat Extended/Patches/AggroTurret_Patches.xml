@@ -10,14 +10,14 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze"]/statBases</xpath>
 		<value>
-			<AimingAccuracy>1</AimingAccuracy>
+			<AimingAccuracy>0.5</AimingAccuracy>
 		</value>
 	</Operation>
 	
   <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
     <defName>MLRP_Weaponless</defName>
     <statBases>
-      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
       <SightsEfficiency>1</SightsEfficiency>
       <ShotSpread>0</ShotSpread>
       <SwayFactor>0</SwayFactor>
@@ -30,7 +30,7 @@
       <defaultProjectile>MLRP_WeaponisedArrogance</defaultProjectile>
       <warmupTime>0</warmupTime>
       <range>40</range>
-      <ticksBetweenBurstShots>250</ticksBetweenBurstShots>
+      <ticksBetweenBurstShots>125</ticksBetweenBurstShots>
       <burstShotCount>0</burstShotCount>
       <recoilPattern>Mounted</recoilPattern>
     </Properties>

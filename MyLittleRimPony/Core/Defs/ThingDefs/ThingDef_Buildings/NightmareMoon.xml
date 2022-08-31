@@ -3,7 +3,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_NightmareMoon</defName>
     <label>Statue of Nightmare Moon</label>
-    <description>Nightmare Moon was once Equestria's greatest threat, feared by many and respected by few.\n\nOut here on the rimworlds, however, she's perfectly happy to accept offers of chocolate in exchange for powerful items that will benefit your colony.</description>
+    <description>Nightmare Moon was once Equestria's greatest threat, feared by many and respected by few.\n\nOut here on the rimworlds, however, she's perfectly happy to accept offers of chocolate - and sometimes other stuff - in exchange for powerful items that will benefit your colony.</description>
     <thingClass>Building_WorkTable</thingClass>
 	<designationHotKey>Misc4</designationHotKey>
     <graphicData>
@@ -20,9 +20,9 @@
       <li>Metallic</li>
       <li>Stony</li>
     </stuffCategories>
-    <costList>
+    <!--<costList>
       <PonyPlush_PrincessLuna>1</PonyPlush_PrincessLuna>
-    </costList>
+    </costList>-->
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>

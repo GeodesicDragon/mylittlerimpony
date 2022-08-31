@@ -85,22 +85,4 @@
 	</requiredTraits>
   </ThoughtDef>
   
-  <!--Experimental feature that should make anti bronies detest pony pawns added by RimPonk.-->
-  <!--Does not apply to changelings, gryphons or kirin.-->
-  
-  <ThoughtDef>
-    <defName>AntiBronyVsMLPRace</defName>
-    <thoughtClass>MyLittleRimPony.Thought_AntiBronyVsMLPRace</thoughtClass>
-    <workerClass>MyLittleRimPony.ThoughtWorker_AntiBronyVsMLPRace</workerClass>
-    <validWhileDespawned>true</validWhileDespawned>
-    <stages>
-      <li>
-        <label>anti brony dislikes pony species</label>
-      </li>
-    </stages>
-	<requiredTraits>
-		<li>MLRP_AntiBronyTrait</li>
-	</requiredTraits>
-  </ThoughtDef>
-  
 </Defs>

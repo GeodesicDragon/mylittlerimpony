@@ -47,7 +47,6 @@
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>MLRP_Buildings</designationCategory>
-    <constructEffect>ConstructDirt</constructEffect>
     <researchPrerequisites>
       <li>MLRP_ScrewballResearch</li>
     </researchPrerequisites>

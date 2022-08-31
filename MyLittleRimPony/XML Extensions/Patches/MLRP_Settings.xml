@@ -18,7 +18,7 @@
 		</li>
 		
 		<!--ELEMENTS OF HARMONY: STUFF REQUIRED-->
-		<match Class="XmlExtensions.UseSetting">
+		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
 			<key>MLRP_PlushiesCloth</key>
 			<apply>
@@ -37,10 +37,10 @@
 					</apply>
 				</Operation>
 			</apply>
-		</match>
+		</li>
 		
 		<!--CUTIE MARK CRUSADERS: STUFF REQUIRED-->
-		<match Class="XmlExtensions.UseSetting">
+		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
 			<key>MLRP_PlushiesCloth</key>
 			<apply>
@@ -59,7 +59,7 @@
 					</apply>
 				</Operation>
 			</apply>
-		</match>
+		</li>
 		
 		<!--PLUSHIES: CRAFTING SKILL REQUIRED-->
 		<li Class="XmlExtensions.UseSetting">

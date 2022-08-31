@@ -26,9 +26,6 @@
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
-    <thingCategories>
-      <li>Pony_Plushies</li>
-    </thingCategories>
     <equippedStatOffsets>
       <PlantWorkSpeed>0.25</PlantWorkSpeed>
       <PlantHarvestYield>0.25</PlantHarvestYield>
@@ -65,9 +62,6 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-	<recipeUsers>
-		<li>PlushieBench</li>
-	</recipeUsers>
     <costList>
         <Gold>10</Gold>
     </costList>

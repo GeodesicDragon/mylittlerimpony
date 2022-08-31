@@ -26,9 +26,6 @@
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
-    <thingCategories>
-      <li>Pony_Plushies</li>
-    </thingCategories>
     <equippedStatOffsets>
 		<ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
 		<InjuryHealingFactor>0.5</InjuryHealingFactor>
@@ -54,9 +51,6 @@
       </bodyPartGroups>
     <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
-	<recipeUsers>
-		<li>PlushieBench</li>
-	</recipeUsers>
     <costStuffCount>900</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>

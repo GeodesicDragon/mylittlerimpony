@@ -13,11 +13,11 @@
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <AccuracyTouch>1</AccuracyTouch>
-      <AccuracyShort>1</AccuracyShort>
-      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>1</AccuracyLong>
-      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>5</Mass>
       <Flammability>0</Flammability>
@@ -48,7 +48,7 @@
 		<projectile>
 			<damageDef>MLRP_Harmless</damageDef>
 			<damageAmountBase>0</damageAmountBase>
-			<speed>250</speed>
+			<speed>125</speed>
 		</projectile>
 	</ThingDef>
   

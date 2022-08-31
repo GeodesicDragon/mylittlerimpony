@@ -2,18 +2,15 @@
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>RimPonk</li>
+        <li>RimPonkUniquePawns</li>
     </mods>
     <match Class="PatchOperationAdd">
 		<xpath>/Defs/TraitDef[defName="MLRP_AntiBronyTrait"]/conflictingTraits</xpath>
 		<value>
-			<li>ThisPonyIsAL</li>
-			<li>ThisPonyIsBP</li>
-			<li>ThisPonyIsEP</li>
-			<li>ThisPonyIsPG</li>
-			<li>ThisPonyIsUN</li>
-			<li>EternalLunacy</li>
-			<li>ExtremelyFriendly</li>
+			<li>DimensionalTraveler</li>
+			<li>SleepLover</li>
+			<li>DerpyEyes</li>
+			<li>ScorchingSun</li>
 		</value>
 	</match>
 </Operation>

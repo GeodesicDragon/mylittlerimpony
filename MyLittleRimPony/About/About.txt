@@ -18,7 +18,7 @@
 * Adds a Sweetie Bot turret. 'nuff said.
 * Apple Bloom, Scootaloo and Sweetie Belle can be combined into the Cutie Mark Crusaders to gain all three of their bonuses at once (or you could use 900 cloth).
 * Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -25 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie or if they have a Harmony Chip installed.
-* Adds a Statue of Nightmare Moon, which allows you to obtain exotic items using chocolate (though it's a bit more expensive than buying them normally).
+* Adds a Statue of Nightmare Moon, which allows you to obtain exotic items - including luciferium - using chocolate (though it's a bit more expensive than buying them normally).
 * Adds a Statue of Daybreaker, which allows you to convert one material into the market value equivalent of another. It also allows you to make batches of 5 regular or advanced components much quicker than a fabrication bench. Just make sure you've got plenty of chemfuel in stock.
 * Adds Nurse Redheart, obtainable only via quests, who will provide 5 Medicine every 10 days as long as she has 350W of power.
 * Adds patches for various other mods (see below for details).

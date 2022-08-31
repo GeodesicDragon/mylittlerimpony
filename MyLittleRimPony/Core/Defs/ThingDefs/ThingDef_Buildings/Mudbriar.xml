@@ -33,15 +33,15 @@
     <pathCost>50</pathCost>
     <fillPercent>0.25</fillPercent>
     <hasTooltip>false</hasTooltip>
-    <costStuffCount>300</costStuffCount>
+    <costStuffCount>600</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
 	<costList>
-      <WoodLog>100</WoodLog>
-      <Plasteel>50</Plasteel>
-      <Uranium>50</Uranium>
+      <WoodLog>300</WoodLog>
+      <Plasteel>100</Plasteel>
+      <Uranium>100</Uranium>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>MLRP_Buildings</designationCategory>
@@ -49,7 +49,7 @@
       <expandHomeArea>true</expandHomeArea>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>MLRP_Weaponless</turretGunDef>
-      <turretBurstCooldownTime>0</turretBurstCooldownTime>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
     </building>
   </ThingDef>
   
