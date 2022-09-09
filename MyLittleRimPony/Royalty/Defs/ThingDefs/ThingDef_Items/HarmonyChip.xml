@@ -85,6 +85,7 @@
 				<MeleeDodgeChanceIndoorsLitOffset>0.1</MeleeDodgeChanceIndoorsLitOffset>
 				<MeleeDodgeChanceOutdoorsDarkOffset>0.1</MeleeDodgeChanceOutdoorsDarkOffset>
 				<MeleeDodgeChanceOutdoorsLitOffset>0.1</MeleeDodgeChanceOutdoorsLitOffset>
+				<ToxicSensitivity>-0.25</ToxicSensitivity>
 			</statOffsets>
 		</li>
 	</stages>

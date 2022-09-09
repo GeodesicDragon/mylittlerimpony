@@ -2,7 +2,7 @@
 
 <!--INDUSTRIAL COMPONENTS-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_CreateComponentIndustrial</defName>
 	<label>create component x 5</label>
 	<description>Create 5 components, using chemfuel to accelerate the process.</description>
@@ -26,21 +26,13 @@
 			</filter>
 			<count>60</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<ComponentIndustrial>5</ComponentIndustrial>
 	</products>
 </RecipeDef>
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
 	<defName>MLRP_DB_CreateComponentIndustrialTen</defName>
 	<label>create component x 10</label>
 	<description>Create 10 components, using a lot of chemfuel to accelerate the process.</description>
@@ -64,14 +56,6 @@
 			</filter>
 			<count>120</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>150</count>
-		</li>
 	</ingredients>
 	<products>
 		<ComponentIndustrial>10</ComponentIndustrial>
@@ -80,7 +64,7 @@
 
 <!--ADVANCED COMPONENTS-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_CreateComponentSpacer</defName>
 	<label>create advanced component x 5</label>
 	<description>Create 5 advanced components, using chemfuel to accelerate the process.</description>
@@ -128,21 +112,13 @@
 			</filter>
 			<count>1.5</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<ComponentSpacer>5</ComponentSpacer>
 	</products>
 </RecipeDef>
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
 	<defName>MLRP_DB_CreateComponentSpacerTen</defName>
 	<label>create advanced component x 10</label>
 	<description>Create 10 advanced components, using a lot of chemfuel to accelerate the process.</description>
@@ -189,14 +165,6 @@
 				</thingDefs>
 			</filter>
 			<count>3</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>150</count>
 		</li>
 	</ingredients>
 	<products>

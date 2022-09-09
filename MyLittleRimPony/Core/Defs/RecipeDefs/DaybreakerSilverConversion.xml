@@ -2,7 +2,7 @@
 
 <!--CONVERT SILVER TO JADE-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertSilverIntoJade</defName>
 	<label>convert silver to jade</label>
 	<description>Convert 1000 silver into the market value equivalent of jade.</description>
@@ -25,14 +25,6 @@
 			</filter>
 			<count>100</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<Jade>200</Jade>
@@ -41,7 +33,7 @@
 
 <!--CONVERT SILVER TO STEEL-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertSilverIntoSteel</defName>
 	<label>convert silver to steel</label>
 	<description>Convert 1000 silver into the market value equivalent of steel.</description>
@@ -64,14 +56,6 @@
 			</filter>
 			<count>100</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<Steel>526</Steel>
@@ -80,7 +64,7 @@
 
 <!--CONVERT SILVER TO PLASTEEL-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertSilverIntoPlasteel</defName>
 	<label>convert silver to plasteel</label>
 	<description>Convert 1000 silver into the market value equivalent of plasteel.</description>
@@ -103,14 +87,6 @@
 			</filter>
 			<count>100</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<Plasteel>111</Plasteel>
@@ -119,7 +95,7 @@
 
 <!--CONVERT SILVER TO URANIUM-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertSilverIntoUranium</defName>
 	<label>convert silver to uranium</label>
 	<description>Convert 1000 silver into the market value equivalent of uranium.</description>
@@ -142,14 +118,6 @@
 			</filter>
 			<count>100</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<Uranium>167</Uranium>
@@ -158,7 +126,7 @@
 
 <!--CONVERT SILVER TO GOLD-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertSilverIntoGold</defName>
 	<label>convert silver to gold</label>
 	<description>Convert 1000 silver into the market value equivalent of gold.</description>
@@ -180,14 +148,6 @@
 				</thingDefs>
 			</filter>
 			<count>100</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
 		</li>
 	</ingredients>
 	<products>

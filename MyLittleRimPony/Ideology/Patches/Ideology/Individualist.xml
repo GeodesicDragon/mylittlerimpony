@@ -1,12 +1,21 @@
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/MemeDef[defName="Individualist"]</xpath>
-		<value>
-			<agreeableTraits>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/MemeDef[defName="Individualist"]/agreeableTraits</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName="Individualist"]</xpath>
+			<value>
+				<agreeableTraits>
+					<li>MLRP_BronyTrait</li>
+				</agreeableTraits>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName="Individualist"]/agreeableTraits</xpath>
+			<value>
 				<li>MLRP_BronyTrait</li>
-			</agreeableTraits>
-		</value>
+			</value>
+		</match>
 	</Operation>
 	
 </Patch>

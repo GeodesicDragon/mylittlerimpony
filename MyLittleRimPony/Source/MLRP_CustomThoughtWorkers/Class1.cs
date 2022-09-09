@@ -6,12 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using Unity.Jobs;
 using RimWorld;
 using Verse;
+using Verse.AI;
 
 namespace MyLittleRimPony
 {
     [DefOf]
+
     public static class MyDefOf
     {
         public static TraitDef MLRP_BronyTrait;

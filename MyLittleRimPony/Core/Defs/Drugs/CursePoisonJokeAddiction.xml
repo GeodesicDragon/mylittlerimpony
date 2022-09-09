@@ -12,7 +12,7 @@
     <targetsBodyPart>false</targetsBodyPart>
     <removesHediff>MLRP_PoisonJokeAddiction</removesHediff>
 	<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
-    <successfullyRemovedHediffMessage>{0} has successfully cured {1}'s poison joke addiction.</successfullyRemovedHediffMessage>
+	<successfullyRemovedHediffMessage>{0} has successfully cured {1}'s poison joke addiction.</successfullyRemovedHediffMessage>
     <skillRequirements>
       <Medicine>5</Medicine>
     </skillRequirements>

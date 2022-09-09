@@ -1,0 +1,29 @@
+<Defs>
+
+	<RecipeDef Name="DaybreakerRecipes_RegularChemfuel" Abstract="True">
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+	
+	<RecipeDef Name="DaybreakerRecipes_DoubleChemfuel" Abstract="True">
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+
+</Defs>

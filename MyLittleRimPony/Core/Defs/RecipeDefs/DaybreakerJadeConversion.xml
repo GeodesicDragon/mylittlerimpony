@@ -2,7 +2,7 @@
 
 <!--CONVERT JADE TO STEEL-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertJadeIntoSteel</defName>
 	<label>convert jade to steel</label>
 	<description>Convert 100 jade into the market value equivalent of steel.</description>
@@ -25,14 +25,6 @@
 			</filter>
 			<count>100</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<Steel>263</Steel>
@@ -41,7 +33,7 @@
 
 <!--CONVERT JADE TO PLASTEEL-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertJadeIntoPlasteel</defName>
 	<label>convert jade to plasteel</label>
 	<description>Convert 100 jade into the market value equivalent of plasteel.</description>
@@ -64,14 +56,6 @@
 			</filter>
 			<count>100</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<Plasteel>56</Plasteel>
@@ -80,7 +64,7 @@
 
 <!--CONVERT JADE TO URANIUM-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertJadeIntoUranium</defName>
 	<label>convert jade to uranium</label>
 	<description>Convert 100 jade into the market value equivalent of uranium.</description>
@@ -103,14 +87,6 @@
 			</filter>
 			<count>100</count>
 		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
-		</li>
 	</ingredients>
 	<products>
 		<Uranium>83</Uranium>
@@ -119,7 +95,7 @@
 
 <!--CONVERT JADE TO GOLD-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertJadeIntoGold</defName>
 	<label>convert jade to gold</label>
 	<description>Convert 100 jade into the market value equivalent of gold.</description>
@@ -141,14 +117,6 @@
 				</thingDefs>
 			</filter>
 			<count>100</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Chemfuel</li>
-				</thingDefs>
-			</filter>
-			<count>75</count>
 		</li>
 	</ingredients>
 	<products>

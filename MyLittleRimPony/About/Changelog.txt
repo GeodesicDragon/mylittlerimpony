@@ -1,3 +1,30 @@
+Version 2.53.102 (September 9th 2022)
+
+* Core: Added Spoiled Rich (-25% to toxic sensitivity).
+* Core: Added the Super Speedy Cider Squeezy 6000.
+	* Like Nurse Redheart, it is only available as a quest reward.
+	* It's a big building, taking up a 4x2 area.
+	* Requires 500W of power to operate.
+	* Spawns 30 beer every 30 days.
+	* Flim and Flam not included.
+* Core: Added a recipe to obtain 5 glitterworld medicine from the Nightmare Moon statue.
+* Core: Researching Statues of the Evil Sisters can now be done at a simple research bench.
+* Core: Fixed incorrect description of plushie recycling research.
+* Core: Updated the description of the Nightmare Moon statue to show what you can get, and what research is needed.
+* Royalty: Anima trees and grass have been patched accordingly, and now have pony-themed names and descriptions. I was unable to patch the ritual for linking with the tree, however, as I couldn't seem to locate it in the game files.
+* Ideology: The patch for the Individualist meme now checks to see if the value it is trying to change has been edited already, thus preventing conflicts with other meme editing mods.
+* A RimWorld of Magic: Fixed error related to the now-removed Elements of Harmony and CMC recycling recipes.
+* RimPonk: All traits added by this mod now conflict with the Brony trait.
+* RimPonk Unique Pawns: All traits added by this mod now conflict with the Brony trait.
+* Changes related to Vanilla Achievements Expanded:
+	* Added an achievement to acquire the Super Speedy Cider Squeezy 6000.
+	* Achievements will now only be available if you are using RimWorld 1.2 or 1.3, as VAE only supports those. This may generate red errors in advance if you are only using 1.1, so apologies in advance.
+	* Fixed the 'This Is Your Brain On Pony' achievement appearing when you didn't have the Royalty DLC enabled.
+	* Renamed the 'Power Of Love' achievement to 'Equestria Games Gold Medallist.'
+* XML Extensions: Added options to edit how much beer the SSCS6K spawns, and how often.
+* XML Extensions: Added options to edit how much chemfuel is required by recipes at the Daybreaker statue.
+* XML Extensions: Reduced maximum amount of medicine that Nurse Redheart can spawn to 30 (was 300). If you have it set to a value greater than 30 it should still work as it normally did.
+
 Version 2.47.90 (August 31st 2022)
 
 * Core: Nightmare Moon is now offering luciferium pills in lots of 5.
@@ -105,8 +132,8 @@ Version 2.29.28 (May 14th 2022)
 	* Making ammo requires 100 wood, and makes 5000 rounds at a time.
 	* I haven't actually tested these patches, so PLEASE tell me if they break!
 * Overhauled research system to use tiers of Quick, Easy, Medium, Hard, and Very Hard.
-	* Quick research is exactly that, and can be done at a simple research base. (Base cost: 500)
-	* Easy research costs more than quick research, and can also be done at a simple research base. (Base cost: 1500)
+	* Quick research is exactly that, and can be done at a simple research bench. (Base cost: 500)
+	* Easy research costs more than quick research, and can also be done at a simple research bench. (Base cost: 1500)
 	* Medium research requires a hi-tech research bench. (Base cost: 3000)
 	* Hard research requires a hi-tech research bench and a multi-analyser. (Base cost: 4500)
 	* Very Hard research requires the Royalty DLC, a hi-tech research bench, a multi-analyser, and a techprint. (Base cost: 6000)

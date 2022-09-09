@@ -18,15 +18,16 @@
 * Adds a Sweetie Bot turret. 'nuff said.
 * Apple Bloom, Scootaloo and Sweetie Belle can be combined into the Cutie Mark Crusaders to gain all three of their bonuses at once (or you could use 900 cloth).
 * Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -25 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie or if they have a Harmony Chip installed.
-* Adds a Statue of Nightmare Moon, which allows you to obtain exotic items - including luciferium - using chocolate (though it's a bit more expensive than buying them normally).
+* Adds a Statue of Nightmare Moon, which allows you to obtain exotic items - including luciferium - using chocolate (though it works out being a bit more expensive than buying them normally).
 * Adds a Statue of Daybreaker, which allows you to convert one material into the market value equivalent of another. It also allows you to make batches of 5 regular or advanced components much quicker than a fabrication bench. Just make sure you've got plenty of chemfuel in stock.
-* Adds Nurse Redheart, obtainable only via quests, who will provide 5 Medicine every 10 days as long as she has 350W of power.
+* Adds Nurse Redheart, obtainable only via quests; she provides 5 Medicine every 10 days as long as she has 350W of power.
 * Adds patches for various other mods (see below for details).
 * Combatible with Combat Extended!
-* Adds the Harmony Chip - if you have the Royalty DLC enabled - which is a brain implant that grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology plushies are also applied (if that DLC is enabled).
+* Adds the Harmony Chip - if you have the Royalty DLC - which is a brain implant that grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology plushies are also applied (if that DLC is enabled).
 * Adds Mudbriar, Quibble Pants and Zephyr Breeze as turrets which do zero damage, and only serve to distract raiders.
 * Adds poison joke, a drug which improves a pawns movement and manipulation, but causes a mood debuff. Also adds a medical procedure which uses 25 herbal medicine to cure a person of an addiction to poison joke.
 * Adds two precept ideologies if you have the Ideology DLC enabled.
+* Adds the Super Speedy Cider Squeezy 6000, obtainable only via quests; it will provide 30 Beer every 30 days as long as it has 500W of power.
 
 |-------------------------|
 |      CORE PLUSHIES      |
@@ -51,6 +52,7 @@ Rainbow Dash: +50% to movement and +5% to melee hit chance and shooting accuracy
 Rarity: +25% to trade price improvement.
 Scootaloo: +50% to injury healing speed.
 Shining Armour: +15% to blunt, heat and sharp armour ratings.
+Spoiled Rich: -25% to toxic sensitivity.
 Starlight Glimmer: -100% to psychic sensitivity.
 Sweetie Belle: +20 to cooking speed and -5% chance of poisoning a meal.
 Twilight Sparkle: +25% research speed.
@@ -95,10 +97,10 @@ Harvest Organs Post Mortem: Adds recipes to the Nightmare Moon statue which allo
 Irn-Bru And Other Scottish Delights: NPC faction will send Scottish goods traders and stock goods at their settlements.
 Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
 RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction.
-Single Use Grenades N'at: Making wife throwers now costs just 10 wood, on account of the fact you'll need to keep making replacements.
-Vanilla Achievements Expanded: Adds several achievements to acquire each of the items added by MLRP.
+Single Use Grenades N'at: Making wife throwers will only cost 10 wood.
+Vanilla Achievements Expanded: Adds achievements to acquire each of the items added by MLRP. (RimWorld 1.2/1.3 only.)
 Vanilla Backgrounds Expanded: Adds new main menu and loading screen backgrounds.
-Vanilla Furniture Expanded - Production: Allows the plushie bench to benefit from the work speed bonus of the tailoring cabinet.
+Vanilla Furniture Expanded - Production: The plushie bench can benefit from the bonus provided by the tailoring cabinet.
 Weeb Faction: The Weeaboo Clan faction is not hostile to player or NPC brony factions.
 XML Extensions: Allows you to configure many aspects of the mod to your own liking.
 	* Amount of stuff needed to make plushies.
@@ -113,3 +115,5 @@ XML Extensions: Allows you to configure many aspects of the mod to your own liki
 	* The type of medicine spawned by Nurse Redheart (industrial or glitterworld).
 	* How much medicine is spawned by Nurse Redheart.
 	* How often medicine is spawned by Nurse Redheart.
+	* How much beer is spawned by the Super Speedy Cider Squeezy 6000.
+	* How often beer is spawned by the Super Speedy Cider Squeezy 6000.

@@ -1,0 +1,64 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_SSCS6K</defName>
+    <label>Super Speedy Cider Squeezy 6000</label>
+    <description>Unlike when Flim and Flam were using it, the Super Speedy Cider Squeezy 6000 will produce something that can actually be enjoyed, provided it has enough power.\n\nGenerates 30 Beer every 30 days.</description>
+    <graphicData>
+      <texPath>Things/Building/SSCS6K</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4, 2)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <costList>
+      <Steel>750</Steel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Spawner">
+        <requiresPower>true</requiresPower>
+        <thingToSpawn>Beer</thingToSpawn>
+        <spawnCount>30</spawnCount>
+        <spawnIntervalRange><min>1800000</min><max>1800000</max></spawnIntervalRange>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <showMessageIfOwned>true</showMessageIfOwned>
+      </li>
+    </comps>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+      <Mass>15</Mass>
+      <WorkToBuild>12000</WorkToBuild>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <tickerType>Normal</tickerType>
+    <size>(1, 1)</size>
+    <fillPercent>1.0</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <passability>Impassable</passability>
+    <rotatable>false</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeability>None</tradeability>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+  </ThingDef>
+  
+</Defs>
