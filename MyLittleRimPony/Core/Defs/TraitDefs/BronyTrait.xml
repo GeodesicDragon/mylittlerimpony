@@ -14,29 +14,14 @@
 					<value>6</value>
 				</li>
 			</skillGains>
-		<disallowedMentalStates>
-			<li>Berserk</li>
-			<li>Binging_DrugExtreme</li>
-			<li>Binging_DrugMajor</li>
-			<li>InsultingSpree</li>
-			<li>MurderousRage</li>
-			<li>SadisticRage</li>
-			<li>Slaughterer</li>
-			<li>TargetedInsultingSpree</li>
-		</disallowedMentalStates>
-		<marketValueFactorOffset>-0.5</marketValueFactorOffset>
+			<marketValueFactorOffset>-0.5</marketValueFactorOffset>
 		</li>
 	</degreeDatas>
 	<conflictingTraits>
-		<li>Abrasive</li>
-		<li>Bloodlust</li>
-		<li>Brawler</li>
-		<li>Cannibal</li>
 		<li>DislikesMen</li>
 		<li>DislikesWomen</li>
 		<li>DrugDesire</li>
 		<li>Psychopath</li>
-		<li>ShootingAccuracy</li>
 		<li>MLRP_AntiBronyTrait</li>
 	</conflictingTraits>
 </TraitDef>

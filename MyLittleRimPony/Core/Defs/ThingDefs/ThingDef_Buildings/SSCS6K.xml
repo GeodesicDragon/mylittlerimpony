@@ -47,7 +47,7 @@
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
     <tickerType>Normal</tickerType>
-    <size>(1, 1)</size>
+    <size>(4, 2)</size>
     <fillPercent>1.0</fillPercent>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -55,7 +55,7 @@
     <rotatable>false</rotatable>
     <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
-    <tradeability>None</tradeability>
+    <tradeability>Buyable</tradeability>
     <tradeTags>
       <li>ExoticBuilding</li>
     </tradeTags>

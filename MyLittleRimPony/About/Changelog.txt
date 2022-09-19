@@ -1,3 +1,48 @@
+Version 2.61.119 (September 19th 2022)
+
+* Core: Added three new Discord lamps.
+	* Now available in red, green and blue.
+	* Requires coloured lights research.
+* Core: Added NPC faction slave trader.
+	* Only has slaves for sale; will not buy or sell anything else.
+	* Can be requested via the comms console.
+* Core: Added NPC faction stonemason.
+	* Doesn't carry a lot of silver.
+	* Buys and sells blocks of stone.
+	* Can be requested via the comms console.
+* Core: Added NPC faction exotic goods trader.
+	* Sells the usual goods you'd expect from a exotic goods caravan.
+	* Has a (very) small chance of stocking a single Nurse Redheart.
+	* Has a (very) small chance of stocking a single Super Speedy Cider Squeezy 6000.
+	* If you have Royalty enabled, this trader will stock implants and techprints.
+	* Can be requested via the comms console.
+* Ideology: Added darklight Discord lamp.
+	* Has a 25% larger glow radius than the normal standing darklight.
+	* Like all other Discord lamps, it will continue to operate during solar flares.
+* Vanilla Backstories Expanded: Added the 'MLP Obsessive' backstory.
+	* Only seen if RimWorld 1.3 is being used, since VBE only supports it.
+	* Pawns with this backstory will have the brony trait by default.
+	* Gives +10 to Crafting, Artistic and Social, all of which the pawn is very passionate about, but disables all other work. If you've allowed bronies to be violent via XML Extensions settings, pawns with this backstory can still fight.
+	* While this mod is enabled, the brony trait is patched so that it only gives +2 to Social instead of +6.
+* Core: The brony trait no longer conflicts with the abrasive trait.
+* Core: The brony trait no longer conflicts with the bloodlust trait.
+* Core: The brony trait no longer conflicts with the brawler trait.
+* Core: The brony trait no longer conflicts with the cannibal trait.
+* Core: The brony trait no longer conflicts with the shooting traits.
+* Core: Anti-bronies now have a -10 opinion of bronies (was -25).
+* Core: Bronies now have a +10 opinion of other bronies (was +25).
+* Core: NPC faction settlements should now buy and sell slaves.
+* Core: Fixed being unable to request bulk goods traders from the NPC faction.
+* Core: Fixed being unable to request weapon traders from the NPC faction.
+* Core: Pawns with the brony trait are no longer prevented from having extreme mental breaks such as murderous rage.
+* Core: Reduced the amount of raw food carried by NPC faction bulk goods traders to 1000-1500 (was 1500-2500).
+* Core: NPC faction bulk goods traders now have medicine in stock.
+* Core: Fixed plushie traders not stocking Spoiled Rich.
+* Core: Fixed the Super Speedy Cider Squeezy 6000 showing a 1x1 square when selected.
+* Royalty: Fixed plushie traders not stocking Aloe and Lotus.
+* Humanoid Alien Races: The brony trait now conflicts with the xenophobia trait.
+	* I'm not sure if it is possible to allow bronies to be xenophiles and not xenophobes; for now, they can't be either.
+
 Version 2.53.102 (September 9th 2022)
 
 * Core: Added Spoiled Rich (-25% to toxic sensitivity).
@@ -18,7 +63,7 @@ Version 2.53.102 (September 9th 2022)
 * RimPonk Unique Pawns: All traits added by this mod now conflict with the Brony trait.
 * Changes related to Vanilla Achievements Expanded:
 	* Added an achievement to acquire the Super Speedy Cider Squeezy 6000.
-	* Achievements will now only be available if you are using RimWorld 1.2 or 1.3, as VAE only supports those. This may generate red errors in advance if you are only using 1.1, so apologies in advance.
+	* Achievements will now only be available if you are using RimWorld 1.2 or 1.3, as VAE only supports those. This may generate red errors if you are only using 1.1, so apologies in advance.
 	* Fixed the 'This Is Your Brain On Pony' achievement appearing when you didn't have the Royalty DLC enabled.
 	* Renamed the 'Power Of Love' achievement to 'Equestria Games Gold Medallist.'
 * XML Extensions: Added options to edit how much beer the SSCS6K spawns, and how often.

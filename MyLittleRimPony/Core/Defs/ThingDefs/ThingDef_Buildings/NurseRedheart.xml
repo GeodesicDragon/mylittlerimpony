@@ -55,7 +55,7 @@
     <rotatable>false</rotatable>
     <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
-    <tradeability>None</tradeability>
+    <tradeability>Buyable</tradeability>
     <tradeTags>
       <li>ExoticBuilding</li>
     </tradeTags>

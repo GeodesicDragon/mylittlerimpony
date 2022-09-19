@@ -63,7 +63,7 @@ namespace MyLittleRimPony
 
             if (otherPawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait))
             {
-                return -25f;
+                return -10f;
             }
             return 0f;
         }
@@ -105,7 +105,7 @@ namespace MyLittleRimPony
 
             if (otherPawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait))
             {
-                return 25f;
+                return 10f;
             }
             return 0f;
         }

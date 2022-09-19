@@ -1,0 +1,15 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Soccer Player Trait (Wimp Patch)</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[32]</xpath>
+			<value>
+				<li>The Cadence plush can be used to slightly counteract the effect of the 'soccer player' trait.</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

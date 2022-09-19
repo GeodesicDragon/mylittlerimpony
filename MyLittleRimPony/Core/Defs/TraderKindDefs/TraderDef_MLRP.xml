@@ -92,6 +92,10 @@
 				<countRange>1</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>PonyPlush_SpoiledRich</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>PonyPlush_StarlightGlimmer</thingDef>
 				<countRange>1</countRange>
 			</li>

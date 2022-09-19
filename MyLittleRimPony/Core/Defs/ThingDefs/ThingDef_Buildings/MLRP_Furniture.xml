@@ -64,13 +64,58 @@
   <ThingDef ParentName="DiscordLampBase" >
     <defName>MLRP_DiscordLamp</defName>
     <label>Discord lamp</label>
-    <description>It's a lamp that looks like Discord, what else is there to say?</description>
+    <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a standard white light.</description>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>12</glowRadius>
         <glowColor>(255,255,255,0)</glowColor>
       </li>
     </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="DiscordLampBase" >
+    <defName>MLRP_DiscordLamp_Red</defName>
+    <label>Discord lamp (red)</label>
+    <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a red light.</description>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(255,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ColoredLights</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="DiscordLampBase" >
+    <defName>MLRP_DiscordLamp_Blue</defName>
+    <label>Discord lamp (blue)</label>
+    <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a blue light.</description>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(0,255,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ColoredLights</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="DiscordLampBase" >
+    <defName>MLRP_DiscordLamp_Green</defName>
+    <label>Discord lamp (Green)</label>
+    <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a green light.</description>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(0,0,255,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites Inherit="False">
+      <li>ColoredLights</li>
+    </researchPrerequisites>
   </ThingDef>
   
 </Defs>

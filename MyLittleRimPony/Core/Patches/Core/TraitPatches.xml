@@ -5,40 +5,6 @@
 	<!--TRAIT CONFLICTS-->
 
 	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/TraitDef[defName="Abrasive"]</xpath>
-	    <value>
-			<conflictingTraits>
-				<li>MLRP_BronyTrait</li>
-			</conflictingTraits>
-	    </value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/TraitDef[defName="Bloodlust"]</xpath>
-	    <value>
-			<conflictingTraits>
-				<li>MLRP_BronyTrait</li>
-			</conflictingTraits>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/TraitDef[defName="Brawler"]/conflictingTraits</xpath>
-	    <value>
-	        <li>MLRP_BronyTrait</li>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/TraitDef[defName="Cannibal"]</xpath>
-	    <value>
-			<conflictingTraits>
-				<li>MLRP_BronyTrait</li>
-			</conflictingTraits>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/TraitDef[defName="DislikesMen"]</xpath>
 	    <value>
 			<conflictingTraits>

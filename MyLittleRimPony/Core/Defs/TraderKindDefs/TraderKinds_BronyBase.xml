@@ -193,6 +193,12 @@
           <li>AnimalFarm</li>
         </createMatingPair>
       </li>
+	  
+      <!-- Slaves -->
+      <li Class="StockGenerator_Slaves">
+        <respectPopulationIntent>false</respectPopulationIntent>
+        <countRange>1~3</countRange>
+      </li>
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
@@ -207,6 +213,7 @@
 <TraderKindDef>
     <defName>MLRP_NPCFaction_BulkGoods</defName>
     <label>bulk goods trader</label>
+	<requestable>true</requestable>
     <stockGenerators>
 
       <!-- Resources -->
@@ -252,7 +259,11 @@
       <li Class="StockGenerator_Category">
         <categoryDef>PlantFoodRaw</categoryDef>
         <thingDefCountRange>1~10</thingDefCountRange>
-        <totalPriceRange>1500~2500</totalPriceRange>
+        <totalPriceRange>1000~1500</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>25~75</countRange>
       </li>
            
       <!-- Apparel -->
@@ -301,6 +312,7 @@
 <TraderKindDef>
     <defName>MLRP_NPCFaction_CombatSupplier</defName>
     <label>weapon trader</label>
+	<requestable>true</requestable>
     <stockGenerators>
 
       <!-- Resources -->
@@ -349,6 +361,156 @@
       <!-- Buying -->
       <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+  
+<!--SLAVE TRADER-->
+  
+<TraderKindDef>
+	<defName>MLRP_NPCFaction_SlaveTrader</defName>
+	<label>slave trader</label>
+	<requestable>true</requestable>
+	<stockGenerators>
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>Silver</thingDef>
+		<countRange>1000~2500</countRange>
+	</li>
+	<li Class="StockGenerator_Slaves">
+		<countRange>5</countRange>
+	</li>
+	</stockGenerators>
+</TraderKindDef>
+
+<!--EXOTIC GOODS TRADER-->
+
+<TraderKindDef>
+    <defName>MLRP_NPCFaction_ExoticGoodsTrader</defName>
+    <label>exotic goods trader</label>
+	<requestable>true</requestable>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>6~20</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>1~4</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>50~150</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>40~80</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>2~8</countRange>
+      </li>
+	  
+      <!-- Buildings -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Television</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Telescope</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+	  
+      <!-- Exotic -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ExoticMisc</tradeTag>
+        <thingDefCountRange>3~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+        <excludedThingDefs>
+          <li>MedicineUltratech</li> <!-- already handled by single def -->
+          <li>ComponentSpacer</li> <!-- already handled by single def -->
+        </excludedThingDefs>
+        <customCountRanges>
+          <Luciferium>7~25</Luciferium>
+          <Hyperweave>40~120</Hyperweave>
+        </customCountRanges>
+      </li>
+	  
+      <!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalFighter</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~3</kindCountRange>
+        <countRange>1~3</countRange>
+        <createMatingPair>
+          <li>AnimalFarm</li>
+        </createMatingPair>
+      </li>
+      
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+	  
+	  <!--MLRP Exotic Buildings-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_SSCS6K</thingDef>
+        <countRange>-19~1</countRange> <!--5% chance... I think.-->
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_NurseRedheart</thingDef>
+        <countRange>-19~1</countRange> <!--5% chance... I think.-->
+      </li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+<!--STONEMASON-->
+
+<TraderKindDef>
+    <defName>MLRP_NPCFaction_Stonemason</defName>
+    <label>stonemason</label>
+	<requestable>true</requestable>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>1000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksSandstone</thingDef>
+        <countRange>100</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksGranite</thingDef>
+        <countRange>100</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksLimestone</thingDef>
+        <countRange>100</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksSlate</thingDef>
+        <countRange>100</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksMarble</thingDef>
+        <countRange>100</countRange>
+      </li>
       
     </stockGenerators>
   </TraderKindDef>

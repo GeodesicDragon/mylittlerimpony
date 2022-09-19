@@ -4,6 +4,10 @@
 	<xpath>/Defs/TraderKindDef[defName="MLRP_PlushieTrader"]/stockGenerators</xpath>
 	<value>
 		<li Class="StockGenerator_SingleDef">
+			<thingDef>PonyPlush_AloeAndLotus</thingDef>
+			<countRange>1</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
 			<thingDef>PonyPlush_Trixie</thingDef>
 			<countRange>1</countRange>
 		</li>

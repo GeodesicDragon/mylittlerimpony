@@ -21,6 +21,7 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
 		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
+		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded</li>
 		<li IfModActive="imranfish.xmlextensions">XML Extensions</li>
 		<li IfModActive="CETeam.CombatExtended">Combat Extended</li>
 	</v1.3>

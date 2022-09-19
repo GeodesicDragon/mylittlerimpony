@@ -1,0 +1,44 @@
+<Defs>
+
+	<VFECore.BackstoryDef>
+		<defName>MLRP_VBE_MLPFanBackstory</defName>
+		<title>MLP Obsessive</title>
+		<titleShort>MLP Obsessive</titleShort>
+		<baseDescription>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about talking to people and creating things, but has zero interest in many other practical skills.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>Offworld</li>
+		  <li>Outlander</li>
+		  <li>Outsider</li>
+		</spawnCategories>
+		<skillGains>
+			<Artistic>10</Artistic>
+			<Crafting>10</Crafting>
+			<Social>10</Social>
+		</skillGains>
+		<workDisables>
+		  <li>Animals</li>
+		  <li>Caring</li>
+		  <li>Constructing</li>
+		  <li>Cooking</li>
+		  <li>Hunting</li>
+		  <li>Intellectual</li>
+		  <li>Mining</li>
+		  <li>PlantWork</li>
+		</workDisables>
+		<passions>
+		  <Artistic>2</Artistic>
+		  <Crafting>2</Crafting>
+		  <Social>2</Social>
+		</passions>
+		<disallowedTraits>
+			<li><defName>DislikesMen</defName></li>
+			<li><defName>DislikesWomen</defName></li>
+			<li><defName>DrugDesire</defName></li>
+			<li><defName>Psychopath</defName></li>
+			<li><defName>MLRP_AntiBronyTrait</defName></li>
+		</disallowedTraits>
+		<forcedTraits><li><defName>MLRP_BronyTrait</defName></li></forcedTraits>
+	</VFECore.BackstoryDef>
+
+</Defs>
