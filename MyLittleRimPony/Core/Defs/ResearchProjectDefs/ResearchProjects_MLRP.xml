@@ -31,7 +31,7 @@
 	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
 		<defName>MLRP_CurePoisonJokeAddictionResearch</defName>
 		<label>Cure poison joke addiction</label>
-		<description>Learn how to use herbal medicine to cure a person of an addiction to poison joke.</description>
+		<description>Learn how to make a herbal infusion which will cure a person of an addiction to poison joke when it is consumed.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
@@ -56,13 +56,27 @@
 	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
 		<defName>MLRP_NightmareMoonResearch</defName>
 		<label>Statues of the Evil Sisters</label>
-		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate, as well as a statue of Daybreaker, who will convert 100 of one material (or 1000 silver) into its market value equivalent of another.</description>
+		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate, as well as a statue of Daybreaker, who will convert 100 of one material (or 1000 silver) into its market value equivalent of another.\n\nSome recipes at these items will require additional research before they are unlocked; see descriptions of each for details.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<prerequisites>
 			<li>Cocoa</li>
 			<li>BiofuelRefining</li>
 		</prerequisites>
 		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--SKILLTRAINERS-->
+
+	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+		<defName>MLRP_GetSkilltrainersFromNMM</defName>
+		<label>Request skilltrainers</label>
+		<description>Nightmare Moon will grant you the ability to request skilltrainers from her.</description>
+		<prerequisites>
+			<li>MLRP_NightmareMoonResearch</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 

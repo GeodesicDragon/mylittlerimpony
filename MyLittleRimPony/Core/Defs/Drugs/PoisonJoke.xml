@@ -265,7 +265,10 @@
   <HediffDef ParentName="AddictionBase">
     <defName>MLRP_PoisonJokeAddiction</defName>
     <label>poison joke dependence</label>
-    <description>A chemical addiction to poison joke. Long-term use of poison joke has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.\n\nWithout regular doses of poison joke, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    <description>A chemical addiction to poison joke. Long-term use of poison joke has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.\n\nWithout regular doses of poison joke, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.\n\nAlternatively, you can buy or make a solution that will immediately cure the addiction.</description>
+	<descriptionHyperlinks>
+      <ThingDef>MLRP_PoisonJokeAddictionCureKit</ThingDef>
+    </descriptionHyperlinks>
     <hediffClass>Hediff_Addiction</hediffClass>
     <causesNeed>MLRP_PoisonJokeNeed</causesNeed>
     <comps>

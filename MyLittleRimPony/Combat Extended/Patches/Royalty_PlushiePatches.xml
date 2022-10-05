@@ -10,8 +10,15 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName="PonyPlush_Trixie"]/statBases</xpath>
 					<value>
-						<Bulk>1</Bulk>
-						<WornBulk>1</WornBulk>
+						<Bulk>0.5</Bulk>
+						<WornBulk>0.5</WornBulk>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="PonyPlush_AloeAndLotus"]/statBases</xpath>
+					<value>
+						<Bulk>0.5</Bulk>
+						<WornBulk>0.5</WornBulk>
 					</value>
 				</li>
 			</operations>

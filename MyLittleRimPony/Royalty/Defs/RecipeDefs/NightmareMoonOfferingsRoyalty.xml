@@ -30,5 +30,517 @@
 		<PsychicAmplifier>1</PsychicAmplifier>
 	</products>
 </RecipeDef>
-  
+
+<!--GET NEUROCALCULATOR-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_Neurocalculator</defName>
+	<label>request learning assistant</label>
+	<description>Offer chocolate in exchange for a neurocalculator.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurocalculator>1</Neurocalculator>
+	</products>
+	<researchPrerequisite>NeuralComputation</researchPrerequisite>
+</RecipeDef>
+
+<!--GET LEARNING ASSISTANT-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_LearningAssistant</defName>
+	<label>request learning assistant</label>
+	<description>Offer chocolate in exchange for a learning assistant.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<LearningAssistant>1</LearningAssistant>
+	</products>
+	<researchPrerequisite>NeuralComputation</researchPrerequisite>
+</RecipeDef>
+
+<!--GET IMMUNOENHANCER-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_Immunoenhancer</defName>
+	<label>request immunoenhancer</label>
+	<description>Offer chocolate in exchange for an immunoenhancer.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<Immunoenhancer>1</Immunoenhancer>
+	</products>
+	<researchPrerequisite>MolecularAnalysis</researchPrerequisite>
+</RecipeDef>
+
+<!--GET COAGULATOR-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_Coagulator</defName>
+	<label>request coagulator</label>
+	<description>Offer chocolate in exchange for a coagulator.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>415</count>
+		</li>
+	</ingredients>
+	<products>
+		<Coagulator>1</Coagulator>
+	</products>
+	<researchPrerequisite>HealingFactors</researchPrerequisite>
+</RecipeDef>
+
+<!--GET HEALING ENHANCER-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_HealingEnhancer</defName>
+	<label>request healing enhancer</label>
+	<description>Offer chocolate in exchange for a healing enhancer.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<HealingEnhancer>1</HealingEnhancer>
+	</products>
+	<researchPrerequisite>HealingFactors</researchPrerequisite>
+</RecipeDef>
+
+<!--GET TOUGHSKIN GLAND-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ToughskinGland</defName>
+	<label>request toughskin gland</label>
+	<description>Offer chocolate in exchange for a toughskin gland.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<ToughskinGland>1</ToughskinGland>
+	</products>
+	<researchPrerequisite>SkinHardening</researchPrerequisite>
+</RecipeDef>
+
+<!--GET ARMORSKIN GLAND-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ArmorskinGland</defName>
+	<label>request armorskin gland</label>
+	<description>Offer chocolate in exchange for an armorskin gland.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>738</count>
+		</li>
+	</ingredients>
+	<products>
+		<ArmorskinGland>1</ArmorskinGland>
+	</products>
+	<researchPrerequisite>SkinHardening</researchPrerequisite>
+</RecipeDef>
+
+<!--GET STONESKIN GLAND-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_StoneskinGland</defName>
+	<label>request stoneskin gland</label>
+	<description>Offer chocolate in exchange for a stoneskin gland.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>960</count>
+		</li>
+	</ingredients>
+	<products>
+		<StoneskinGland>1</StoneskinGland>
+	</products>
+	<researchPrerequisite>SkinHardening</researchPrerequisite>
+</RecipeDef>
+
+<!--GET AESTHETIC SHAPER-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_AestheticShaper</defName>
+	<label>request aesthetic shaper</label>
+	<description>Offer chocolate in exchange for an aesthetic shaper.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>415</count>
+		</li>
+	</ingredients>
+	<products>
+		<AestheticShaper>1</AestheticShaper>
+	</products>
+	<researchPrerequisite>FleshShaping</researchPrerequisite>
+</RecipeDef>
+
+<!--GET AESTHETIC NOSE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_AestheticNose</defName>
+	<label>request aesthetic nose</label>
+	<description>Offer chocolate in exchange for an aesthetic nose.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>293</count>
+		</li>
+	</ingredients>
+	<products>
+		<AestheticNose>1</AestheticNose>
+	</products>
+	<researchPrerequisite>FleshShaping</researchPrerequisite>
+</RecipeDef>
+
+<!--GET LOVE ENHANCER-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_LoveEnhancer</defName>
+	<label>request love enhancer</label>
+	<description>Offer chocolate in exchange for a love enhancer.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<LoveEnhancer>1</LoveEnhancer>
+	</products>
+	<researchPrerequisite>FleshShaping</researchPrerequisite>
+</RecipeDef>
+
+<!--GET DETOXIFIER STOMACH-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_DetoxifierStomach</defName>
+	<label>request detoxifier stomach</label>
+	<description>Offer chocolate in exchange for a detoxifier stomach.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<DetoxifierStomach>1</DetoxifierStomach>
+	</products>
+	<researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+</RecipeDef>
+
+<!--GET REPROCESSOR STOMACH-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ReprocessorStomach</defName>
+	<label>request detoxifier stomach</label>
+	<description>Offer chocolate in exchange for a reprocessor stomach.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<ReprocessorStomach>1</ReprocessorStomach>
+	</products>
+	<researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+</RecipeDef>
+
+<!--GET NUCLEAR STOMACH-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_NuclearStomach</defName>
+	<label>request nuclear stomach</label>
+	<description>Offer chocolate in exchange for a nuclear stomach.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<NuclearStomach>1</NuclearStomach>
+	</products>
+	<researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+</RecipeDef>
+
+<!--GET CIRCADIAN ASSISTANT-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_CircadianAssistant</defName>
+	<label>request circadian assistant</label>
+	<description>Offer chocolate in exchange for a circadian assistant.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<CircadianAssistant>1</CircadianAssistant>
+	</products>
+	<researchPrerequisite>CircadianInfluence</researchPrerequisite>
+</RecipeDef>
+
+<!--GET CIRCADIAN HALF-CYCLER-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_CircadianHalfCycler</defName>
+	<label>request circadian half-cycler</label>
+	<description>Offer chocolate in exchange for a circadian half-cycler.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chocolate</li>
+				</thingDefs>
+			</filter>
+			<count>515</count>
+		</li>
+	</ingredients>
+	<products>
+		<CircadianHalfCycler>1</CircadianHalfCycler>
+	</products>
+	<researchPrerequisite>CircadianInfluence</researchPrerequisite>
+</RecipeDef>
+
 </Defs>

@@ -6,24 +6,25 @@
 		<li>Royalty</li>
 	</mods>
 	<match Class="XmlExtensions.ForEachDescendant">
-	  <xpathParent>Defs/ThingDef[@Name="BasePawn"]</xpathParent>
-	  <concreteOnly>true</concreteOnly>
-	  <storeIn>MLRP_Humanlike_Loop</storeIn>  
-	  <apply> 
-		<Operation Class="XmlExtensions.CreateVariable">
-		  <storeIn>MLRP_Humanlike_DefNameLoop</storeIn>
-		  <value>{MLRP_Humanlike_Loop}/defName</value>
-		  <fromXml>true</fromXml>
-		  <apply> 
-			<Operation Class="PatchOperationAdd">
-			  <xpath>Defs/RecipeDef[defName="MLRP_InstallHarmonyChip"]/recipeUsers</xpath>
-			  <value>
-				<li>{MLRP_Humanlike_DefNameLoop}</li>
-			  </value>
+		<xpathParent>Defs/ThingDef[@Name="BasePawn"]</xpathParent>
+		<concreteOnly>true</concreteOnly>
+		<storeIn>MLRP_Humanlike_Loop</storeIn>  
+		<apply> 
+			<Operation Class="XmlExtensions.CreateVariable">
+				<storeIn>MLRP_Humanlike_DefNameLoop</storeIn>
+				<value>{MLRP_Humanlike_Loop}/defName</value>
+				<fromXml>true</fromXml>
+				<apply> 
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="MLRP_InstallHarmonyChip"]/recipeUsers</xpath>
+						<value>
+							<li>{MLRP_Humanlike_DefNameLoop}</li>
+						</value>
+					</Operation>
+				</apply>
 			</Operation>
-		  </apply>
-		</Operation>
 	  </apply>
 	</match>
 </Operation>
+
 </Patch>

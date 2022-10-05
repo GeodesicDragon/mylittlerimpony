@@ -22,11 +22,11 @@
 	<HediffDef>
 		<defName>MLRP_IzzyPlush</defName>
 		<label>Izzy Moonbow plush</label>
-		<description>You feel happier, as well as more appreciate of others.</description>
+		<description>You feel a lot happier.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<stages>
 			<li>
-				<opinionOfOthersFactor>0.5</opinionOfOthersFactor>
+				<opinionOfOthersFactor>1.5</opinionOfOthersFactor>
 			</li>
 		</stages>
 		<comps>

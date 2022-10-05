@@ -160,8 +160,6 @@
 					<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/conflictingTraits</xpath>
 					<value>
 						<conflictingTraits>
-							<li>Abrasive</li>
-							<li>Cannibal</li>
 							<li>DislikesMen</li>
 							<li>DislikesWomen</li>
 							<li>DrugDesire</li>
@@ -197,15 +195,10 @@
 					<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/conflictingTraits</xpath>
 					<value>
 						<conflictingTraits>
-							<li>Abrasive</li>
-							<li>Bloodlust</li>
-							<li>Brawler</li>
-							<li>Cannibal</li>
 							<li>DislikesMen</li>
 							<li>DislikesWomen</li>
 							<li>DrugDesire</li>
 							<li>Psychopath</li>
-							<li>ShootingAccuracy</li>
 							<li>MLRP_AntiBronyTrait</li>
 						</conflictingTraits>
 					</value>
@@ -375,12 +368,26 @@
 						<thingToSpawn>MedicineUltratech</thingToSpawn>
 					</value>
 				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+					<value>
+						<basePowerConsumption>700</basePowerConsumption>
+					</value>
+				</Operation>
 			</caseTrue>
 			<caseFalse>
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Spawner"]/thingToSpawn</xpath>
 					<value>
 						<thingToSpawn>MedicineIndustrial</thingToSpawn>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+					<value>
+						<basePowerConsumption>350</basePowerConsumption>
 					</value>
 				</Operation>
 			</caseFalse>
@@ -446,6 +453,28 @@
 			</apply>
 		</li>
 		
+		<!--NURSE REDHEART: REPLACE TIP-->
+		<li Class="XmlExtensions.UseSettings">
+			<modId>geodesicdragon.rimpony</modId>
+			<keys>
+				<li>MLRP_NurseRedheartMedicineSpawnAmount</li>
+				<li>MLRP_NurseRedheartMedicineSpawnTime</li>
+			</keys>
+			<defaultValues>
+				<li>5</li>
+				<li>10</li>
+			</defaultValues>
+			<brackets>{}</brackets>    
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[42]</xpath>
+					<value>
+						<li>Nurse Redheart is a rare reward from quests; she will grant you {MLRP_NurseRedheartMedicineSpawnAmount} Medicine every {MLRP_NurseRedheartMedicineSpawnTime} days as long as she has 350W of power.</li>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
 		<!--AGGRO TURRETS: RANGE-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
@@ -471,6 +500,82 @@
 					<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze"]/statBases/MaxHitPoints</xpath>
 					<value>
 						<MaxHitPoints>{MLRP_ZephyrBreezeHealth}</MaxHitPoints>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+
+		<!--AGGRO TURRETS: TOUCH ACCURACY-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_AggroTurretAccuracyTouch</key>
+			<defaultValue>0.1</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyTouch</xpath>
+					<value>
+						<AccuracyTouch>{MLRP_AggroTurretAccuracyTouch}</AccuracyTouch>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+
+		<!--AGGRO TURRETS: SHORT RANGE ACCURACY-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_AggroTurretAccuracyShort</key>
+			<defaultValue>0.25</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyShort</xpath>
+					<value>
+						<AccuracyShort>{MLRP_AggroTurretAccuracyShort}</AccuracyShort>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+
+		<!--AGGRO TURRETS: MEDIUM RANGE ACCURACY-->
+
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_AggroTurretAccuracyMedium</key>
+			<defaultValue>0.25</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyMedium</xpath>
+					<value>
+						<AccuracyMedium>{MLRP_AggroTurretAccuracyMedium}</AccuracyMedium>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+
+		<!--AGGRO TURRETS: LONG RANGE ACCURACY-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_AggroTurretAccuracyLong</key>
+			<defaultValue>1</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyLong</xpath>
+					<value>
+						<AccuracyLong>{MLRP_AggroTurretAccuracyLong}</AccuracyLong>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--AGGRO TURRETS: SHOTS PER BURST-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_AggroTurretBurstAmount</key>
+			<defaultValue>3</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/verbs/li/burstShotCount</xpath>
+					<value>
+						<burstShotCount>{MLRP_AggroTurretBurstAmount}</burstShotCount>
 					</value>
 				</Operation>
 			</apply>
@@ -522,8 +627,8 @@
 				<li>MLRP_SSCS6KBeerSpawnTime</li>
 			</keys>
 			<defaultValues>
-				<li>5</li>
-				<li>10</li>
+				<li>30</li>
+				<li>30</li>
 			</defaultValues>
 			<brackets>{}</brackets>    
 			<apply>
@@ -531,6 +636,28 @@
 					<xpath>Defs/ThingDef[defName="MLRP_SSCS6K"]/description</xpath>
 					<value>
 						<description>Unlike when Flim and Flam were using it, the Super Speedy Cider Squeezy 6000 will produce something just as good as cider, provided it has enough power.\n\nGenerates {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days.</description>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--SSCS6K: REPLACE TIP-->
+		<li Class="XmlExtensions.UseSettings">
+			<modId>geodesicdragon.rimpony</modId>
+			<keys>
+				<li>MLRP_SSCS6KBeerSpawnAmount</li>
+				<li>MLRP_SSCS6KBeerSpawnTime</li>
+			</keys>
+			<defaultValues>
+				<li>30</li>
+				<li>30</li>
+			</defaultValues>
+			<brackets>{}</brackets>    
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[43]</xpath>
+					<value>
+						<li>The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days as long as it has 500W of power.</li>
 					</value>
 				</Operation>
 			</apply>
@@ -698,7 +825,7 @@
 				<li Class="XmlExtensions.Setting.Slider">
 					<key>MLRP_BronyTraitCommonality</key>
 					<defaultValue>0.1</defaultValue>
-					<min>0.1</min>
+					<min>0</min>
 					<max>1</max>
 					<label>Brony Trait Commonality: {MLRP_BronyTraitCommonality}</label>
 					<decimals>1</decimals>
@@ -707,7 +834,7 @@
 				<li Class="XmlExtensions.Setting.Slider">
 					<key>MLRP_AntiBronyTraitCommonality</key>
 					<defaultValue>0.2</defaultValue>
-					<min>0.1</min>
+					<min>0</min>
 					<max>1</max>
 					<label>Anti Brony Trait Commonality: {MLRP_AntiBronyTraitCommonality}</label>
 					<decimals>1</decimals>
@@ -724,6 +851,12 @@
 				<li Class="XmlExtensions.Setting.Checkbox">
 					<key>MLRP_NurseRedheartSpawnGlitterworldMedicine</key>
 					<label>Spawn glitterworld medicine</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Text">
+					<text>Spawning glitterworld medicine will make the building consume twice as much power.</text>
+					<font>Small</font>
+					<anchor>Left</anchor>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Slider">
@@ -747,7 +880,7 @@
 				<li Class="XmlExtensions.Setting.Gap"/>
 
 				<li Class="XmlExtensions.Setting.Text">
-					<text>Mudbriar/Quibble Pants/Zephyr Breeze Settings</text>
+					<text>Aggro Turret Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
 				</li>
@@ -767,6 +900,51 @@
 					<min>100</min>
 					<max>3000</max>
 					<label>Health: {MLRP_ZephyrBreezeHealth}</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_AggroTurretAccuracyTouch</key>
+					<defaultValue>0.1</defaultValue>
+					<min>0.1</min>
+					<max>1</max>
+					<label>Touch Accuracy: {MLRP_AggroTurretAccuracyTouch}</label>
+					<decimals>2</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_AggroTurretAccuracyShort</key>
+					<defaultValue>0.25</defaultValue>
+					<min>0.1</min>
+					<max>1</max>
+					<label>Short Range Accuracy: {MLRP_AggroTurretAccuracyShort}</label>
+					<decimals>2</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_AggroTurretAccuracyMedium</key>
+					<defaultValue>0.25</defaultValue>
+					<min>0.1</min>
+					<max>1</max>
+					<label>Medium Range Accuracy: {MLRP_AggroTurretAccuracyMedium}</label>
+					<decimals>2</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_AggroTurretAccuracyLong</key>
+					<defaultValue>1</defaultValue>
+					<min>0.1</min>
+					<max>1</max>
+					<label>Long Range Accuracy: {MLRP_AggroTurretAccuracyLong}</label>
+					<decimals>2</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_AggroTurretBurstAmount</key>
+					<defaultValue>3</defaultValue>
+					<min>3</min>
+					<max>15</max>
+					<label>Shots Per Burst: {MLRP_AggroTurretBurstAmount}</label>
 					<decimals>0</decimals>
 				</li>
 				

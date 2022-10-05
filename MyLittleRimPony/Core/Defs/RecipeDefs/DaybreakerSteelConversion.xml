@@ -93,7 +93,7 @@
 	</products>
 </RecipeDef>
 
-<!--CONVERT STEEL INTO URANIUM-->
+<!--CONVERT STEEL INTO GOLD-->
 
 <RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertSteelIntoGold</defName>

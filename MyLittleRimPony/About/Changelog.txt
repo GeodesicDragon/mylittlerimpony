@@ -1,3 +1,55 @@
+Version 2.81.138 (October 5th 2022)
+
+* Core: The poison joke addiction cure wasn't showing up in a pawn's health bills, so I've changed how it works.
+	* Added a new item, made at a drug lab using 10 neutroamine and 15 herbal medicine, which will cure the poison joke addiction when it is ingested.
+	* Requires 6 Medical skill to make.
+	* Researching the cure is still required.
+	* Works instantly with no adverse side effects.
+	* Also removes any built-up tolerance.
+	* NPC faction settlements will usually have 1-3 in stock.
+	* Laughable texture by me, as per usual.
+	* RimPonk: This item will also cure magical cake addiction and remove any built-up tolerance. It will also be renamed to 'Equestrian Addiction Removal Kit.'
+	* Many thanks to Cyber and Wild, creators of the Addictol mod, as I examined their code to see how I could do it myself. You can get the Addictol mod here: https://steamcommunity.com/sharedfiles/filedetails/?id=2454250644
+* Core: Added the ability to request skilltrainers from Nightmare Moon.
+	* Each skilltrainer costs 1125 chocolate.
+	* Unlocking these recipes requires research at a hi-tech research bench with a multi-analyser.
+* Royalty: Added the ability to request neurocalculators from Nightmare Moon (requires neural computation).
+* Royalty: Added the ability to request learning assistants from Nightmare Moon (requires neural computation).
+* Royalty: Added the ability to request immunoenhancers from Nightmare Moon (requires molecular analysis).
+* Royalty: Added the ability to request coagulators from Nightmare Moon (requires healing factors).
+* Royalty: Added the ability to request healing enhancers from Nightmare Moon (requires healing factors).
+* Royalty: Added the ability to request toughskin glands from Nightmare Moon (requires skin hardening).
+* Royalty: Added the ability to request armorskin glands from Nightmare Moon (requires skin hardening).
+* Royalty: Added the ability to request stoneskin glands from Nightmare Moon (requires skin hardening).
+* Royalty: Added the ability to request aesthetic shapers from Nightmare Moon (requires flesh shaping).
+* Royalty: Added the ability to request aesthetic noses from Nightmare Moon (requires flesh shaping).
+* Royalty: Added the ability to request love enhancers from Nightmare Moon (requires flesh shaping).
+* Royalty: Added the ability to request detoxifier stomachs from Nightmare Moon (requires artificial metabolism).
+* Royalty: Added the ability to request reprocessor stomachs from Nightmare Moon (requires artificial metabolism).
+* Royalty: Added the ability to request nuclear stomachs from Nightmare Moon (requires artificial metabolism).
+* Royalty: Added the ability to request circadian assistants from Nightmare Moon (requires circadian influence).
+* Royalty: Added the ability to request circadian half-cyclers from Nightmare Moon (requires circadian influence).
+* XML Extensions: Added options which allow you to set the touch/short/medium/long range accuracy of aggro turrets.
+* XML Extensions: Added an option which allows you to set the number of shots fired by aggro turrets each burst.
+* Core: Increased power generation of Screwballs to 300W (was 250).
+* Core: Updated the description of the Daybreaker statue to reflect that research is needed before components can be made.
+* Core: Fixed aggro turrets not 'firing' at enemies.
+* Core: Fixed Izzy Moonbow reducing a pawn's opinions of others instead of increasing them.
+* Core: Fixed bulk goods caravans not buying leather.
+* Royalty: Fixed the harmony chip reducing a pawn's opinions of others instead of increasing them.
+* Royalty: Fixed duplicate text in Nightmare Moon statue description.
+* Combat Extended: Increased bulk and worn bulk of the Cutie Mark Crusaders plush to 1.5 (was 0.5).
+* Combat Extended: Increased bulk and worn bulk of the Elements of Harmony to 3 (was 0.5).
+* Combat Extended: Reduced bulk and worn bulk of Royalty plushies to 0.5 (was 1).
+* Combat Extended: Reduced bulk and worn bulk of Ideology plushies to 0.5 (was 1).
+* Combat Extended: Added missing patch for Daring Do plushie.
+* Combat Extended: Added missing patch for Spoiled Rich plushie.
+* Combat Extended: Added missing patch for Aloe and Lotus plushie.
+* RimPonk: Removed recipe to cure magical cake addiction, as it wasn't showing in the bills on the Health tab.
+* XML Extensions: Fixed brony trait conflicting with traits it shouldn't after changing some settings.
+* XML Extensions: You can now set the commonality of the brony and anti-brony traits to zero.
+* XML Extensions: Setting Nurse Redheart to spawn glitterworld medicine will now make her use twice as much power.
+
 Version 2.61.119 (September 19th 2022)
 
 * Core: Added three new Discord lamps.

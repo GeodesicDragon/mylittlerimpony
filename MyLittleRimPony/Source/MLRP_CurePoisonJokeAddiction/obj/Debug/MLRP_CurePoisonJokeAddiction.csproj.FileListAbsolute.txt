@@ -1,0 +1,4 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Common\Assemblies\MLRP_CurePoisonJokeAddiction.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CurePoisonJokeAddiction\obj\Debug\MLRP_CurePoisonJokeAddiction.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CurePoisonJokeAddiction\obj\Debug\MLRP_CurePoisonJokeAddiction.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CurePoisonJokeAddiction\obj\Debug\MLRP_CurePoisonJokeAddiction.dll

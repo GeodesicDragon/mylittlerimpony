@@ -199,6 +199,11 @@
         <respectPopulationIntent>false</respectPopulationIntent>
         <countRange>1~3</countRange>
       </li>
+	  
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_PoisonJokeAddictionCureKit</thingDef>
+        <countRange>1~3</countRange>
+      </li>
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
@@ -233,9 +238,10 @@
         <thingDef>Steel</thingDef>
         <countRange>200~750</countRange>
       </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Cloth</thingDef>
-        <countRange>1000~2000</countRange>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>1~99</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>

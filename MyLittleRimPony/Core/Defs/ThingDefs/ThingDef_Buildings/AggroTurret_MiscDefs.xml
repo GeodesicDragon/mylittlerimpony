@@ -33,7 +33,7 @@
         <warmupTime>0</warmupTime>
         <range>10</range>
         <ticksBetweenBurstShots>250</ticksBetweenBurstShots>
-        <burstShotCount>0</burstShotCount>
+        <burstShotCount>3</burstShotCount>
       </li>
     </verbs>
   </ThingDef>

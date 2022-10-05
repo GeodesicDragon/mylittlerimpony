@@ -50,7 +50,7 @@
 	<stages>
 		<li>
 			<painOffset>-0.1</painOffset>
-			<opinionOfOthersFactor>0.5</opinionOfOthersFactor>
+			<opinionOfOthersFactor>1.5</opinionOfOthersFactor>
 			<statOffsets>
 				<PlantWorkSpeed>0.25</PlantWorkSpeed>
 				<PlantHarvestYield>0.25</PlantHarvestYield>

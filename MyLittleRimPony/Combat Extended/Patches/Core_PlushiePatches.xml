@@ -4,8 +4,8 @@
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/statBases</xpath>
 	    <value>
-			<Bulk>0.5</Bulk>
-			<WornBulk>0.5</WornBulk>
+			<Bulk>3</Bulk>
+			<WornBulk>3</WornBulk>
 	    </value>
 	</Operation>
 	
@@ -52,6 +52,14 @@
 	
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[defName="PonyPlush_CutieMarkCrusaders"]/statBases</xpath>
+	    <value>
+			<Bulk>1.5</Bulk>
+			<WornBulk>1.5</WornBulk>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_DaringDo"]/statBases</xpath>
 	    <value>
 			<Bulk>0.5</Bulk>
 			<WornBulk>0.5</WornBulk>
@@ -156,6 +164,14 @@
 	
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[defName="PonyPlush_ShiningArmour"]/statBases</xpath>
+	    <value>
+			<Bulk>0.5</Bulk>
+			<WornBulk>0.5</WornBulk>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_SpoiledRich"]/statBases</xpath>
 	    <value>
 			<Bulk>0.5</Bulk>
 			<WornBulk>0.5</WornBulk>

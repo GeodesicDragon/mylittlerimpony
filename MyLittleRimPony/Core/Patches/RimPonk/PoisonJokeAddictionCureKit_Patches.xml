@@ -1,0 +1,25 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>RimPonk</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_PoisonJokeAddictionCureKit"]/label</xpath>
+				<value>
+					<label>Equestrian Addiction Removal Kit</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_PoisonJokeAddictionCureKit"]/description</xpath>
+				<value>
+					<description>A herbal remedy specially formulated to remove addictions of an Equestrian nature.\n\nWorks on poison joke and magical cake.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>
