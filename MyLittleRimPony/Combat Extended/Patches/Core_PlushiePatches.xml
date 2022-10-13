@@ -75,6 +75,14 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_FleurDeLis"]/statBases</xpath>
+	    <value>
+			<Bulk>0.5</Bulk>
+			<WornBulk>0.5</WornBulk>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[defName="PonyPlush_Fluttershy"]/statBases</xpath>
 	    <value>
 			<Bulk>0.5</Bulk>

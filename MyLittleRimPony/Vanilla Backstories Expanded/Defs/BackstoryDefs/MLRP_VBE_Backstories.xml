@@ -4,7 +4,7 @@
 		<defName>MLRP_VBE_MLPFanBackstory</defName>
 		<title>MLP Obsessive</title>
 		<titleShort>MLP Obsessive</titleShort>
-		<baseDescription>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about talking to people and creating things, but has zero interest in many other practical skills.</baseDescription>
+		<baseDescription>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art, fanfiction and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about talking to people and creating things, but has no interest in any other skills.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>Offworld</li>

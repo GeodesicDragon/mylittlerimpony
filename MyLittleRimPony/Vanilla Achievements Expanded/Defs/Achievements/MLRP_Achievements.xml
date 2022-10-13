@@ -109,6 +109,21 @@
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_FleurDeLis</defName>
+		<label>Expensive Tastes</label>
+		<description>Craft a Fleur de Lis plushie</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>PonyPlush_FleurDeLis</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/ExpensiveTastes</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_Fluttershy</defName>
 		<label>Yay</label>
 		<description>Craft a Fluttershy plushie</description>
@@ -769,6 +784,24 @@
 		</tracker>
 		
 		<texPath>Achievements/Rimcakes</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<!--OTHER STUFFABLES-->
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_BirdLeatherScootaloo</defName>
+		<label>Cluck Off!</label>
+		<description>Craft a Scootaloo plushie using birdleather</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>PonyPlush_PinkiePie</def>
+			<madeFrom>Leather_Bird</madeFrom>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/CluckOff</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 </Defs>

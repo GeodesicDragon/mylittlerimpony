@@ -6,6 +6,9 @@
     <defName>MLRP_ElementsOfHarmony</defName>
     <label>Elements of Harmony</label>
     <description>It is a well-known fact that the Elements of Harmony are exceptionally powerful; this version, however, is the one that WON'T let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
+	<descriptionHyperlinks>
+		<ThingDef>MLRP_ElementsOfHarmonyWeaponised</ThingDef>
+	</descriptionHyperlinks>
     <techLevel>Industrial</techLevel>
     <useHitPoints>True</useHitPoints>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -62,9 +65,6 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costList>
-        <Gold>10</Gold>
-    </costList>
   </ThingDef>
   
 </Defs>

@@ -39,6 +39,7 @@
 						<li>callout_villain->Queen Chrysalis</li>
 						<li>callout_villain->King Sombra</li>
 						<li>callout_villain->Grogar</li>
+						<li>callout_villain->Shadow Pony</li>
 						<li>callout_celestialbody->sun</li>
 						<li>callout_celestialbody->moon</li>
 					</value>
@@ -59,22 +60,6 @@
 						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
 					</value>
 				</li>
-
-				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Melee_Attack"]/rulePack/rulesStrings</xpath>
-					<value>
-						<li>rule(BRONY==true)->Friendship is magic!</li>
-						<li>rule(BRONY==true)->[callout_pony] be damned, you're getting the business end of my [INITIATOR_WEAPON_label]!</li>
-						<li>rule(BRONY==true)->Fear the Great and Powerful [INITIATOR_label]!</li>
-						<li>rule(BRONY==true)->With [callout_princess] as my witness, I will defeat you!</li>
-						<li>rule(BRONY==true)->[callout_princess] preserve you, because I sure as hell won't!</li>
-						<li>rule(BRONY==true)->By Discord's left nut, I will end you!</li>
-						<li>rule(BRONY==true)->By Discord's right nut, I will end you!</li>
-						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
-						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
-					</value>
-				</li>-->
 	  
 				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.-->
 				<li Class="PatchOperationAdd">
@@ -82,6 +67,7 @@
 					<value>
 						<li>rule(BRONY==true)->Got you! [callout_princess] is on my side today!</li>
 						<li>rule(BRONY==true)->By the [callout_celestialbody], I hope that hurt!</li>
+						<li>rule(BRONY==true)->[callout_villain] take you!</li>
 					</value>
 				</li>
 	  
@@ -107,6 +93,7 @@
 					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Wounded"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->[callout_princess] will soon grant me a new [destroyed_part]!</li>
+						<li>rule(BRONY==true)->You idiot, I can get a new [destroyed_part] from Nightmare Moon!</li>
 					</value>
 				</li>
 	  

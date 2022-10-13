@@ -81,7 +81,7 @@
 				<def>StartingThing_Defined</def>
 				<thingDef>Apparel_AdvancedHelmet</thingDef>
 				<count>3</count>
-			  <stuff>Plasteel</stuff>
+				<stuff>Plasteel</stuff>
 			</li>
 			
 			<!-- Starting animals-->

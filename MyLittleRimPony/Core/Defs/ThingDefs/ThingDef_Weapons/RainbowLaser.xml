@@ -42,6 +42,9 @@
     <defName>MLRP_ElementsOfHarmonyWeaponised</defName>
     <label>Rainbow Laser</label>
     <description>This version of the Elements of Harmony tends to put more emphasis on the 'harm' part.</description>
+	<descriptionHyperlinks>
+		<ThingDef>MLRP_ElementsOfHarmony</ThingDef>
+	</descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Weapons/RainbowLaser</texPath>
       <graphicClass>Graphic_Single</graphicClass>

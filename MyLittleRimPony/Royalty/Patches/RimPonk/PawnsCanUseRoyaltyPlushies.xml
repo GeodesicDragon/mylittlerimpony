@@ -7,6 +7,7 @@
     <match Class="PatchOperationAdd">
 			<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony" or @Name="BaseChan" or @Name="BaseGrif" or @Name="BaseKiri"]/alienRace/raceRestriction/whiteApparelList</xpath>
 			<value>
+				<li>PonyPlush_AloeAndLotus</li>
 				<li>PonyPlush_Trixie</li>
 			</value>
     </match>

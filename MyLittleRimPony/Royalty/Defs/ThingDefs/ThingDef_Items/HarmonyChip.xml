@@ -86,6 +86,7 @@
 				<MeleeDodgeChanceOutdoorsDarkOffset>0.1</MeleeDodgeChanceOutdoorsDarkOffset>
 				<MeleeDodgeChanceOutdoorsLitOffset>0.1</MeleeDodgeChanceOutdoorsLitOffset>
 				<ToxicSensitivity>-0.25</ToxicSensitivity>
+				<!--<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>-->
 			</statOffsets>
 		</li>
 	</stages>
@@ -108,7 +109,7 @@
       <ComponentSpacer>10</ComponentSpacer>
     </costList>
 	<statBases>
-		<MarketValue>17500</MarketValue>
+		<MarketValue>10000</MarketValue>
 		<MaxHitPoints>100</MaxHitPoints>
 		<Mass>1</Mass>
 	</statBases>

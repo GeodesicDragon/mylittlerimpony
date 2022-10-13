@@ -1,0 +1,7 @@
+<Patch>
+
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/PawnKindDef[defName="MLRP_BronyPlayer" or defName="Brony_Leader" or defName="Brony_Villager" or defName="Brony_Trader" or defName="Brony_Mercenary" or defName="Brony_Mercenary_Melee" or defName="Brony_Mercenary_Elite"]/baseRecruitDifficulty</xpath>
+</Operation>
+
+</Patch>

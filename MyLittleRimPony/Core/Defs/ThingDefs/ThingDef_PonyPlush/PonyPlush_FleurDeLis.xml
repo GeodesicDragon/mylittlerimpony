@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_FleurDeLis</defName>
+    <label>Fleur de Lis</label>
+    <description>Fleur is a supermodel whose beauty is known throughout Equestria and beyond.\n\nCarrying her makes you feel more confident in your own looks.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/FleurDeLis</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+      <PawnBeauty>2</PawnBeauty>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

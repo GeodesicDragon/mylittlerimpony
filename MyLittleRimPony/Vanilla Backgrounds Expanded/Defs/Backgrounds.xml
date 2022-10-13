@@ -60,6 +60,22 @@
         <iconPath>UI/Issues/ElementsOfHarmony</iconPath>
     </VBE.BackgroundImageDef>
 	
+    <VBE.BackgroundImageDef>
+        <defName>MLRP_BG_CelestiaTheWatcher</defName>
+        <label>Celestia The Watcher</label>
+        <description>A younger Princess Celestia watches over her subjects.</description>
+        <path>Backgrounds/CelestiaTheWatcher</path>
+        <iconPath>UI/Issues/ElementsOfHarmony</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>MLRP_BG_LunaInTheForest</defName>
+        <label>Luna In The Forest</label>
+        <description>Princess Luna standing in a forest clearing.</description>
+        <path>Backgrounds/LunaInTheForest</path>
+        <iconPath>UI/Issues/ElementsOfHarmony</iconPath>
+    </VBE.BackgroundImageDef>
+	
 	<!--G5 BACKGROUNDS-->
 	
     <VBE.BackgroundImageDef>

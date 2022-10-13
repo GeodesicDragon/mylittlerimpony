@@ -11,4 +11,50 @@
 			</apparelRequired>
 		</value>
 	</Operation>
+	
+    <Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary"]/apparelRequired</xpath>
+		<value>
+			<apparelRequired>
+				<li>Apparel_PowerArmor</li>
+				<li>Apparel_PowerArmorHelmet</li>
+				<li>PonyPlush_RainbowDash</li>
+				<li>Apparel_BasicShirt</li>
+				<li>Apparel_Pants</li>
+			</apparelRequired>
+		</value>
+	</Operation>
+	
+    <Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary_Melee"]/apparelRequired</xpath>
+		<value>
+			<apparelRequired>
+				<li>Apparel_ArmorRecon</li>
+				<li>Apparel_ArmorHelmetRecon</li>
+				<li>PonyPlush_RainbowDash</li>
+				<li>Apparel_BasicShirt</li>
+				<li>Apparel_Pants</li>
+			</apparelRequired>
+		</value>
+	</Operation>
+	
+    <Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary_Melee"]/weaponTags</xpath>
+		<value>
+			<weaponTags>
+				<li>UltratechMelee</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	
+    <Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary_Melee"]/weaponMoney</xpath>
+		<value>
+			<weaponMoney>
+				<min>2100</min>
+				<max>4200</max>
+			</weaponMoney>
+		</value>
+	</Operation>
+
 </Patch>

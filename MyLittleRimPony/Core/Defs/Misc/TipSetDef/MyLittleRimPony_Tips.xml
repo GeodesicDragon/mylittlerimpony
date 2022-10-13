@@ -10,6 +10,7 @@
 		<li>Daring Do: "Another day, another dungeon!"</li>
 		<li>Daybreaker: "Ugh. So much black. We get it. You're sad."</li>
 		<li>Discord: "Make sense? Oh, what fun is there in making sense?"</li>
+		<li>Fleur de Lis: "Mmm! A pony with expensive tastes, I see."</li>
 		<li>Fluttershy: "You're going to LOVE ME!"</li>
 		<li>Maud Pie: "You're the most basic of jokes."</li>
 		<li>Mudbriar: "I will not apologize for speaking with precision."</li>
@@ -47,6 +48,10 @@
 		<li>Nurse Redheart is a rare reward from quests; she will grant you 5 Medicine every 10 days as long as she has 350W of power.</li>
 		<li>The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you 30 Beer every 30 days as long as it has 500W of power.</li>
 		<li>Mudbriar, Quibble Pants and Zephyr Breeze turrets do no damage, but can help to distract raiders. They are, however, quite expensive to build.</li>
+		<li>The Fleur de Lis plush can be used to counter the effects of the 'ugly' traits.</li>
+		<li>The Nightmare Moon statue lets you acquire many exotic items using chocolate, which is handy if your colonists lack the skills, though it does work out to be more expensive than acquiring them normally.</li>
+		<li>The Daybreaker statue lets you convert 100 steel, plasteel, uranium, jade or gold into the market value equivalent of another. She will also let you create components (regular and advanced) much faster than using a fabrication bench, but bear in mind that chemfuel is required for everything she does.</li>
+		<li></li>
 	</tips>
 </TipSetDef>
 

@@ -1,3 +1,32 @@
+Version 2.94.153 (October 13th 2022)
+
+* Mod is now compatible with the RimWorld 1.4 patch.
+* Core: Added Fleur de Lis (+2 to pawn beauty).
+	* This bonus is not applied to the harmony chip.
+* Core: Added five new recipes to the Daybreaker statue that let you convert materials into 1000 silver. Handy if you've got an excess of one thing and would like to convert it into another.
+	* Materials required are exactly the same as you get when converting from silver, such as 526 steel or 111 plasteel.
+* Combat Extended: Added patch for Fleur de Lis.
+* Hooligan Faction: Added patch which makes the NPC faction non-hostile to player controlled hooligans.
+* Trait Icons: Added icons for brony and anti brony traits.
+* Vanilla Achievements Expanded: Added achievement to craft Fleur de Lis.
+* Vanilla Achievements Expanded: Added achievement to craft a Scootaloo plushie using bird leather.
+* Vanilla Backgrounds Expanded: Added 2 new backgrounds.
+* Core: Fixed plushie traders not stocking Daring Do.
+* Core: Reduced construction skill required to build Daybreaker statues to 6 (was 12).
+* Core: Reduced construction skill required to build Nightmare Moon statues to 6 (was 12).
+* Core: Making the Elements of Harmony no longer requires gold.
+* Core: NPC faction spawns now have silver in their loot tables.
+* Core: Instead of long descriptions, the functions of the Nightmare Moon and Daybreaker statues are now explained in a letter, received when you finish researching the technology to unlock them.
+* Core: NPC faction pawns can no longer have the anti brony trait.
+* Royalty: Reduced market value of the harmony chip to 10000 silver (was 17500).
+* Royalty: The NPC faction has seen fit to upgrade the equipment used by the mercenaries they employ.
+	* Melee brony mercenaries are now equipped with recon armour.
+	* Melee brony mercenaries will now use monoswords, zeushammers and plasmaswords.
+	* Ranged brony mercenaries (non elite) are now equipped with marine armour.
+* RimPonk: Fixed pawns not being able to equip the Aloe and Lotus plushie.
+* RimPonk: Fixed pawns not being able to equip the Daring Do plushie.
+* RimPonk: Fixed pawns not being able to equip the Spoiled Rich plushie.
+
 Version 2.81.138 (October 5th 2022)
 
 * Core: The poison joke addiction cure wasn't showing up in a pawn's health bills, so I've changed how it works.

@@ -64,6 +64,8 @@
 		</prerequisites>
 		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
+		<discoveredLetterTitle>About Nightmare Moon and Daybreaker</discoveredLetterTitle>
+		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using chocolate, though it does work out to be more expensive than acquiring them normally. It is handy if your pawns don't have the necessary skills, or if you have excess chocolate and need something urgently.\n\nSome items can also be returned to the statue in exchange for a small amount of chocolate.\n\nMany items, such as bionic limbs and skilltrainers, can only be requested once other research has been completed.\n\nDaybreaker allows you to convert 100 of steel, plasteel, uranium, jade and gold into the market value equivalent of another. For example, 100 steel can be turned into:\n\n- 38 jade\n- 21 plasteel\n- 32 uranium\n- 19 gold\n\nYou can also convert 1000 silver into the market value equivalent of these materials, like so:\n\n- 200 jade\n- 526 steel\n- 111 plasteel\n- 167 uranium\n- 100 gold\n\nYou can also convert these same amounts into 1000 silver, which is useful if you have an excess of one thing and want to turn it into something else.\n\nOnce you have researched the necessary techs, you can also use the Daybreaker statue to rapidly create 5/10 regular or advanced components.\n\nPlease note that all of the recipes Daybreaker can perform also require 75 chemfuel, or 150 if making 10 components, though this amount can be configured to your liking if you use the XML Extensions mod.</discoveredLetterText>
 	</ResearchProjectDef>
 	
 <!--SKILLTRAINERS-->

@@ -29,6 +29,7 @@
 	  <li>DrugDesire</li>
 	  <li>BodyPurist</li>
 	  <li>MLRP_BronyTrait</li>
+	  <li>MLRP_AntiBronyTrait</li>
     </disallowedTraits>
     <nameMaker>NamerBrony</nameMaker>
     <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
@@ -338,7 +339,7 @@
     <apparelTags>
 	  <li>IndustrialMilitaryBasic</li>
     </apparelTags>
-	<apparelRequired>
+	<apparelRequired> <!--Patched to use marine armour if Royalty is installed-->
 		<li>Apparel_ArmorRecon</li>
 		<li>Apparel_ArmorHelmetRecon</li>
 		<li>PonyPlush_RainbowDash</li>
@@ -375,7 +376,7 @@
     <apparelTags>
 	  <li>IndustrialMilitaryAdvanced</li>
     </apparelTags>
-   <apparelRequired>
+   <apparelRequired> <!--Patched to use recon armour if Royalty is installed-->
 		<li>Apparel_PlateArmor</li>
 		<li>Apparel_AdvancedHelmet</li>
 		<li>PonyPlush_RainbowDash</li>
@@ -386,11 +387,11 @@
       <min>2000</min>
       <max>3500</max>
     </apparelMoney>
-    <weaponMoney>
+    <weaponMoney><!--Patched to a min/max of 2100/4200 if Royalty is enabled-->
       <min>420</min>
       <max>650</max>
     </weaponMoney>
-    <weaponTags>
+    <weaponTags> <!--Patched to use monoswords and zeushammers if Royalty is enabled-->
 	  <li>Axe</li>
 	  <li>MedievalMeleeDecent</li>
 	  <li>MedievalMeleeAdvanced</li>

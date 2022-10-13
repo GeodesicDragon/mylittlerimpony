@@ -3,7 +3,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_Daybreaker</defName>
     <label>Statue of Daybreaker</label>
-    <description>Celestia's evil alter ego only ever manifested herself as part of Starlight Glimmer's nightmare, but even then her power was something to behold.\n\nAt least all of the heat she is emanating can be put to some use...\n\nMATERIAL CONVERSION\n\nConvert 100 steel/jade/plasteel/uranium/gold into the market value equivalent of each other. For example, 100 steel can be turned into:\n- 38 jade\n- 21 plasteel\n- 32 uranium\n- 19 gold\n\nSILVER CONVERSION\n\nConvert 1000 silver into:\n- 200 jade\n- 526 steel\n- 111 plasteel\n- 167 uranium\n- 100 gold\n\nOTHER\n\n- Create 5 or 10 regular components (requires fabrication)\n- Create 5 or 10 advanced components (requires advanced fabrication)\n\nBear in mind that all of the recipes at this building also require chemfuel on top of their regular ingredients; this can be customised using XML Extensions.</description>
+    <description>Celestia's evil alter ego only ever manifested herself as part of Starlight Glimmer's nightmare, but even then her power was something to behold.\n\nAt least all of the heat she is emanating can be put to some use...</description>
     <thingClass>Building_WorkTable</thingClass>
 	<designationHotKey>Misc8</designationHotKey>
     <graphicData>
@@ -20,9 +20,6 @@
       <li>Metallic</li>
       <li>Stony</li>
     </stuffCategories>
-    <!--<costList>
-      <PonyPlush_PrincessCelestia>1</PonyPlush_PrincessCelestia>
-    </costList>-->
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
@@ -42,7 +39,7 @@
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
-	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
