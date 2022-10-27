@@ -1,0 +1,21 @@
+<Defs>
+
+<GeneDef>
+	<defName>MLRP_UnicornGene</defName>
+	<label>unicorn</label> 
+	<labelShortAdj>unicorn</labelShortAdj> 
+	<description>Carriers of this gene have increased manipulation, allowing them to perform certain tasks better.</description>
+	<iconPath>UI/Icons/Genes/Unicorn</iconPath>
+	<displayCategory>MLRP_GeneCategory</displayCategory>
+	<displayOrderInCategory>40</displayOrderInCategory>
+    <capMods>
+		<li>
+			<capacity>Manipulation</capacity>
+			<offset>0.25</offset>
+		</li>
+	</capMods>
+	<biostatMet>-2</biostatMet>
+	<biostatCpx>2</biostatCpx>
+</GeneDef>
+  
+</Defs>

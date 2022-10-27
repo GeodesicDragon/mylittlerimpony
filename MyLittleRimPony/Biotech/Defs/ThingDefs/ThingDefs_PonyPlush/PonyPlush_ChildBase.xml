@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="PonyPlushChildBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+	<graphicData>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(255,255,255,255)</color>
+	  <drawSize>(0.5,0.5)</drawSize>
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>PlushieBench</li>
+      </recipeUsers>
+      <soundWorking>Recipe_Tailor</soundWorking>
+    </recipeMaker>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+		<techLevel>Industrial</techLevel>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+		<MarketValue>100</MarketValue>
+		<WorkToMake>6000</WorkToMake>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Mass>1.0</Mass>
+		<Flammability>1</Flammability>
+		<EquipDelay>0.1</EquipDelay>
+		<Beauty>1</Beauty>
+		<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <thingCategories>
+      <li>Pony_Plushies</li>
+    </thingCategories>
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	<!--<costList>
+      <Cloth>300</Cloth>
+    </costList>-->
+    <comps>
+		<li Class="CompProperties_Forbiddable" />
+		<li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>MLRP_PonyPlushEquipped</hediff>
+			<part>Waist</part>
+      </li>
+    </comps>
+    <apparel>
+		<developmentalStageFilter>Child</developmentalStageFilter>
+		<careIfWornByCorpse>true</careIfWornByCorpse>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef> 
+</Defs>

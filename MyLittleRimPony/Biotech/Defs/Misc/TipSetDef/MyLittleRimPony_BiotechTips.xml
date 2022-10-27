@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<TipSetDef>
+	<defName>MyLittleRimPony_BiotechTips</defName>
+	<tips>
+		<li>The unicorn gene increases a pawn's manipulation.</li>
+		<li>The earth pony gene increases a pawn's carrying capacity.</li>		
+		<li>The pegasus gene increases a pawn's melee and trap dodge chance.</li>
+		<li>The alicorn gene combines the bonuses of the unicorn, earth pony and pegasus gene mods into one.</li>
+	</tips>
+</TipSetDef>
+
+</Defs>

@@ -1,9 +1,0 @@
-D:\Steam\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CustomThoughtWorkers\obj\Debug\MLRP_CustomThoughtWorkers.csproj.AssemblyReference.cache
-D:\Steam\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CustomThoughtWorkers\obj\Debug\MLRP_CustomThoughtWorkers.csproj.CoreCompileInputs.cache
-D:\Steam\steamapps\common\RimWorld\Mods\MyLittleRimPony\Assemblies\MLRP_CustomThoughtWorkers.dll
-D:\Steam\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CustomThoughtWorkers\obj\Debug\MLRP_CustomThoughtWorkers.dll
-D:\Steam\steamapps\common\RimWorld\Mods\MyLittleRimPony\Common\Assemblies\MLRP_CustomThoughtWorkers.dll
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Common\Assemblies\MLRP_CustomThoughtWorkers.dll
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CustomThoughtWorkers\obj\Debug\MLRP_CustomThoughtWorkers.csproj.AssemblyReference.cache
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CustomThoughtWorkers\obj\Debug\MLRP_CustomThoughtWorkers.csproj.CoreCompileInputs.cache
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\MLRP_CustomThoughtWorkers\obj\Debug\MLRP_CustomThoughtWorkers.dll

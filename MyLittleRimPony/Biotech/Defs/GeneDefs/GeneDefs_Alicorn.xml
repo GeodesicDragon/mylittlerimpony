@@ -1,0 +1,26 @@
+<Defs>
+
+<GeneDef>
+	<defName>MLRP_AlicornGene</defName>
+	<label>alicorn</label> 
+	<labelShortAdj>alicorn</labelShortAdj> 
+	<description>Carriers of this gene have earth pony strength, unicorn manipulation and pegasus agility.</description>
+	<iconPath>UI/Icons/Genes/Alicorn</iconPath>
+	<displayCategory>MLRP_GeneCategory</displayCategory>
+	<displayOrderInCategory>60</displayOrderInCategory>
+	<statFactors>
+		<CarryingCapacity>1.25</CarryingCapacity>
+		<MeleeDodgeChance>1.1</MeleeDodgeChance>
+		<PawnTrapSpringChance>-0.1</PawnTrapSpringChance>
+	</statFactors>
+    <capMods>
+		<li>
+			<capacity>Manipulation</capacity>
+			<offset>0.25</offset>
+		</li>
+	</capMods>
+	<biostatMet>-5</biostatMet>
+	<biostatCpx>5</biostatCpx>
+</GeneDef>
+
+</Defs>

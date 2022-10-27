@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushChildBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_Cheerilee_Child</defName>
+    <label>Cheerilee (child-sized)</label>
+    <description>Cheerilee loves to teach; rumours that she also loves Big Macintosh have neither been confirmed nor denied.\n\nCarrying her makes you feel as though you can learn faster.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/Cheerilee</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+      <GlobalLearningFactor>1</GlobalLearningFactor>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

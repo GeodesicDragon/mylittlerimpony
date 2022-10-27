@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushChildBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_Discord_Child</defName>
+    <label>Discord (child-sized)</label>
+    <description>The Lord of Chaos may be reformed, but that doesn't mean he can't have any fun.\n\nCarrying him makes you feel as though you are being pushed to your absolute limit.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/Discord</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

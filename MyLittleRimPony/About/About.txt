@@ -2,32 +2,49 @@
 |      WHAT DOES THIS MOD DO?      |
 |----------------------------------|
 
-* Adds plush versions of a variety of ponies, each of which can be carried in the utility slot to confer bonuses depending on which pony it is. Also adds plushies related to the Royalty and Ideology DLCs, if either of them are enabled. It also adds my OC to the core mod, because of *course* it does. :P
+CORE
+
+* Adds plush versions of a variety of ponies, each of which can be carried in the utility slot to confer bonuses depending on which pony it is. Also adds plushies related to the DLCs, if any of them are enabled. It also adds my OC to the core mod, because of *course* it does. :P
 * Plushies can be made of cloth, or any other textile (including human leather).
 * Colonists will actively seek out and equip plushies themselves, though you might need to force them to wear the one that actually suits them better (because a pawn with poor Plants skill may decide to equip an Applejack plush).
-* Adds the Elements of Harmony, using 1800 textiles and 100 gold. This item combines the bonuses given by all of the Mane Six plushies into one item.
-* Adds a pila-based weapon which hurls Cadences at your enemy. This 'wife thrower' can be thrown twice as fast as a pila and only requires skill 3 Crafting and 75 wood to make.
+* Adds the Elements of Harmony, made using 1800 textiles. This item combines the bonuses given by all of the Mane Six plushies into one item.
+* Adds a weapon which hurls Cadences at your enemy. This aptly named 'wife thrower' can be thrown twice as fast as a pila and only requires skill 3 Crafting and 75 wood to make.
 * Adds the Orbital Friendship Cannon (OFC), an item only available through quests, traders, or very rarely at some faction settlements. It can be rearmed for 100 gold, allowing you to use it again.
 * All items added by this mod, with the exception of the OFC, are made at a dedicated plushie bench.
-* Adds the 'Brony' trait, which renders the pawn incapable of violence, but increases their Social skill by 6 and prevents mood loss from being insulted. Gets a +10 opinion bonus to other pawns with the same trait and a +10 mood bonus as long as a plushie is equipped. They also get +20 to mood if they have a Harmony Chip implant.
+* Adds the 'Brony' trait, which renders the pawn incapable of violence, but increases their Social skill by 6 and prevents mood loss from being insulted. Gets a +10 opinion bonus towards other pawns with the same trait and a +10 mood bonus as long as a plushie is equipped. They also get +20 to mood if they have a Harmony Chip implant (requires Royalty).
+* Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -10 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie or if they have a Harmony Chip installed.
 * Adds the 'Brony Community' scenario, which starts you with three pawns, each of whom has the Brony trait. You start with four ready to install steel mini-turrets, as well as the necessary research to build more.
-* Adds the Rainbow Laser, a weaponised version of the Elements of Harmony that fires - you guessed it - rainbows.
+* Adds the Rainbow Laser, a weapon that fires - you guessed it - rainbows.
 * Adds the Discord Lamp, which is the same as a normal standing lamp, except it looks like Discord. Requires 300 cloth or leather to build, and isn't as bright as normal lights, but does not require any electricity. Also available in red, green and blue once coloured lights has been researched.
-* Adds the Screwball generator, which is basically a pony that generates 250W of power.
+* Adds the Screwball generator, which is basically a pony that generates 300W of power.
 * Adds an NPC version of the brony faction, which you can help, hinder or annihilate as you see fit.
 * Adds a Sweetie Bot turret. 'nuff said.
-* Apple Bloom, Scootaloo and Sweetie Belle can be combined into the Cutie Mark Crusaders to gain all three of their bonuses at once (or you could use 900 cloth/leather).
-* Adds the 'Anti brony' trait; the pawn is capable of violence, gets a -10 opinion of pawns with the 'Brony' trait, and suffers -20 to mood if they are forced to carry any kind of pony plushie or if they have a Harmony Chip installed.
+* Adds the Cutie Mark Crusaders, made using 900 textiles. This item combines the bonuses given by all of the CMC plushies into one item.
 * Adds a Statue of Nightmare Moon, which allows you to obtain exotic items - including luciferium - using chocolate (though it works out being a bit more expensive than buying them normally).
-* Adds a Statue of Daybreaker, which allows you to convert one material into the market value equivalent of another. It also allows you to make batches of 5 regular or advanced components much quicker than a fabrication bench. Just make sure you've got plenty of chemfuel in stock.
+* Adds a Statue of Daybreaker, which allows you to convert one material into the market value equivalent of another. It also allows you to make batches of 5 or 10 regular or advanced components much quicker than a fabrication bench. Just make sure you've got plenty of chemfuel in stock.
 * Adds Nurse Redheart, obtainable only via quests; she provides 5 Medicine every 10 days as long as she has 350W of power.
 * Adds patches for various other mods (see below for details).
 * Combatible with Combat Extended!
-* Adds the Harmony Chip - if you have the Royalty DLC - which is a brain implant that grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology plushies are also applied (if that DLC is enabled).
 * Adds Mudbriar, Quibble Pants and Zephyr Breeze as turrets which do zero damage, and only serve to distract raiders.
 * Adds poison joke, a drug which improves a pawns movement and manipulation, but causes a mood debuff. Also adds an item, made using 10 neutroamine and 15 herbal medicine, which cures a person of an addiction to poison joke.
-* Adds two precept ideologies if you have the Ideology DLC enabled.
 * Adds the Super Speedy Cider Squeezy 6000, obtainable only via quests; it will provide 30 Beer every 30 days as long as it has 500W of power.
+
+ROYALTY
+
+* Adds the Harmony Chip - if you have the Royalty DLC - which is a brain implant that grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology plushies are also applied (if that DLC is enabled).
+
+IDEOLOGY
+
+* Adds two preconfigured ideologies: Disciples of Harmony and the Cult of Chaos.
+* Adds the Harmony precept, which grants the bonuses of all the Mane Six plushies. Requires the 'Individualist' meme.
+* Adds a darklight version of the Discord lamp.
+
+BIOTECH
+
+* Adds a unicorn horn gene mod which improves a pawn's manipulation by 50% and their carrying capacity by 50kg.
+* Adds an earth pony strength gene mod which imbues a pawn with extra hardiness, increasing their armour and cold/heat resistances.
+* Adds a pegasus wings gene mod which makes a pawn faster (+2c/s move speed) and more agile (+15% extra dodge chance).
+* All three of these effects can be applied at once using the alicorn gene mod.
 
 |-------------------------|
 |      CORE PLUSHIES      |
@@ -73,6 +90,19 @@ Queen Chrysalis: +25% to a warden's slave suppression power.
 Twilight Sparkle: Increases hacking speed by 25% on top of her usual bonus.
 Zecora: +50% pruning speed.
 
+|----------------------------|
+|      BIOTECH PLUSHIES      |
+|----------------------------|
+
+Button Mash: +2 bandwidth.
+
+Apple Bloom: Adds a variant which can be equipped by children.
+Big Macintosh: Adds a variant which can be equipped by children.
+Cheerilee: Adds a variant which can be equipped by children.
+Discord: Adds a variant which can be equipped by children.
+Scootaloo: Adds a variant which can be equipped by children.
+Shining Armour: Adds a variant which can be equipped by children.
+
 |-----------------------------------------------------|
 |      PLUSHIES ADDED IF CERTAIN MODS ARE ENABLED     |
 |-----------------------------------------------------|
@@ -99,7 +129,8 @@ Irn-Bru And Other Scottish Delights: NPC faction will send Scottish goods trader
 Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
 RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction.
 Single Use Grenades N'at: Making wife throwers will only cost 10 wood.
-Vanilla Achievements Expanded: Adds achievements to acquire each of the items added by MLRP. (RimWorld 1.2/1.3 only.)
+Trait and Backstory Icons: Not a patch; adds icons for the brony and anti brony traits.
+Vanilla Achievements Expanded: Adds achievements to acquire each of the items added by MLRP. (RimWorld 1.2+ only.)
 Vanilla Backgrounds Expanded: Adds new main menu and loading screen backgrounds.
 Vanilla Furniture Expanded - Production: The plushie bench can benefit from the bonus provided by the tailoring cabinet.
 Weeb Faction: The Weeaboo Clan faction is not hostile to player or NPC brony factions.

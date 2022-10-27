@@ -10,21 +10,6 @@
 			<!--HEDIFFS-->
 			
 			<AchievementsExpanded.AchievementDef>
-				<defName>MLRP_Achievement_ImproveRelationsCasting</defName>
-				<label>Friendship is Magic</label>
-				<description>Use the improve relations ability 100 times.</description>
-				<tab>MLRP_AchievementTab</tab>
-				
-				<tracker Class="AchievementsExpanded.HediffTracker">
-					<def>MLRP_GIPsycastUsed</def>
-					<count>100</count>
-				</tracker>
-				
-				<texPath>UI/Abilities/ImproveRelations</texPath>
-				<points>50</points>
-			</AchievementsExpanded.AchievementDef>
-			
-			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_InstallHarmonyChip</defName>
 				<label>This Is Your Brain On Pony</label>
 				<description>Install a Harmony Chip</description>

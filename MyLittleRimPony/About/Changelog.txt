@@ -1,3 +1,43 @@
+Version 3.0.0 (October 27th 2022)
+
+* This mod no longer supports RimWorld 1.1 or 1.2; apologies for any inconvenience this may (read: will) cause.
+* Biotech: Added four new genes.
+	* Earth Pony: +25kg to carrying capacity.
+	* Unicorn: +25% to manipulation.
+	* Pegasus: +10% each to melee and trap dodge chance.
+	* Alicorn: All of the above.
+* Biotech: NPC faction elite brony mercenaries now have a 25% chance of being hussars.
+* Biotech: Some plushies now have child-equippable variants that cost half as many materials to make and have increased bonuses.
+	* Apple Bloom (+100% to immunity gain speed)
+	* Big Macintosh (+50kg to carrying capacity)
+	* Cheerilee (+100% to global learning factor)
+	* Discord (+100% to global work speed)
+	* Scootaloo (+100% to injury healing speed)
+	* Shining Armour (+30% each to blunt armour rating, sharp armour rating and heat armour rating)
+* Biotech: The brony trait now conflicts with the 'Recluse' trait.
+* Biotech: Added Button Mash (+2 bandwidth).
+* Biotech: Added a patch which gives you a Button Mash plushie when starting the mechanitor scenario.
+* Core: Added a recipe to the Daybreaker statue which lets you make 250 bottles of beer using 250 wort. You will need to use 75 chemfuel, and unlock the recipe with some additional research, but it's still a lot quicker than using the fermenting barrel!
+* Core: Added patches for RimWorld 1.4 which allow you to change the colour of the regular Discord lamp. If you have the Ideology DLC, you will also be able to turn it into a darklight. The R/G/B and separate darklight versions still exist, as removing them causes errors, but the colour can't be changed.
+* Core: An alert is now shown on the right of the screen when pawns with the anti brony trait have a plushie equipped.
+* MedPod: Added a recipe to request isolinear processors from the Nightmare Moon statue. Each processor costs 3000 chocolate (thus making them cost 9000 silver) and can only be requested once you have researched accelerated cellular regeneration.
+* MedPod: Added a patch which adds one isolinear processor to the stock carried by NPC faction exotic goods traders.
+* Vanilla Achievements Expanded: Added an achievement for crafting the Button Mash plushie.
+* Core: The poison joke addiction cure kit should now be working again.
+* Core: Sweetie Bot turrets have undergone a few more upgrades, chief among them being the fact they no longer require rearming.
+	* To compensate for this, the power consumption has been increased to 350W (was 175).
+	* Furthermore, the construction cost has increased to to 600 stuff, 5 advanced components and 250 plasteel.
+	* You can now build Sweetie Bots out of metals such as steel and uranium.
+	* Lowered required construction skill to 12 (was 15).
+	* Increased mass to 35 (was 8).
+	* Combat Extended users are unaffected by these changes, and will still need to provide ammo as normal.
+* Vanilla Achievements Expanded: Changed the criteria for earning the 'Friendship is Magic' achievement, as it wasn't tracking your psycasts properly. Instead, you now have to buy or sell 100 Elements of Harmony (not all at once, thankfully).
+* Weeb Faction: The Weeaboo Army and the NPC brony faction have had a bit of a falling out, and are once again hostile towards each other. Despite this, player-led brony communities seem to be unaffected, and can still freely interact with their anime loving friends.
+	* Only applies to new colonies; existing ones may still see the two as being friendly with each other.
+* XML Extensions: Removed setting related to rearming Sweetie Bot turrets. This will leave you with an unused setting, which can be safely deleted.
+* XML Extensions: The crafting skill you set for crafting regular plushies will be applied to the child versions as well.
+* XML Extensions: The market value you set for regular plushies will be divided by two and applied to the child versions.
+
 Version 2.94.153 (October 13th 2022)
 
 * Mod is now compatible with the RimWorld 1.4 patch.

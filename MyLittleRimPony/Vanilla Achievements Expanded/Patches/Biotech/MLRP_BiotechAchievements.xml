@@ -1,0 +1,31 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+			<!--PLUSHIES-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_ButtonMash</defName>
+				<label>I Still Don't Get It</label>
+				<description>Craft a Button Mash plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_ButtonMash</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/IStillDontGetIt</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+		
+		</value>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,13 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ScenarioDef[defName="Mechanitor"]/scenario/parts</xpath>
+		<value>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>PonyPlush_ButtonMash</thingDef>
+				<count>1</count>
+				<stuff>Cloth</stuff>
+			</li>
+		</value>
+	</Operation>
+</Patch>

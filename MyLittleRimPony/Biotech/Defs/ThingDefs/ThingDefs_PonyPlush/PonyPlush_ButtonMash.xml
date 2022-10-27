@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_ButtonMash</defName>
+    <label>ButtonMash</label>
+    <description>Nopony can deny that Button Mash loves gaming, though they can all agree that he seems to find it hard to focus on anything else.\n\nCarrying him makes you feel as though you have a stronger connection.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/ButtonMash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+		<MechBandwidth>2</MechBandwidth>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

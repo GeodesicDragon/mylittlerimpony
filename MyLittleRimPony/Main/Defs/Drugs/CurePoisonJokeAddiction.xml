@@ -1,0 +1,55 @@
+<Defs>
+
+	<ThingDef ParentName="DrugPillBase">
+		<defName>MLRP_PoisonJokeAddictionCureKit</defName>
+		<label>poison joke addiction cure kit</label>
+		<description>A herbal remedy which cures a person of an addiction to poison joke.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/PoisonJokeCureKit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>0.7</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+		<WorkToMake>1000</WorkToMake>
+		</statBases>
+		<techLevel>Ultra</techLevel>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<ingestSound>MechSerumUsed</ingestSound>
+			<outcomeDoers>
+				<li Class="MyLittleRimPony.IngestionOutcomeDoer_PoisonJokeAddictionCure"/>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Medicine>6</Medicine>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Neutroamine>10</Neutroamine>
+			<MedicineHerbal>15</MedicineHerbal>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1011</listOrder>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+</ThingDef>
+  
+</Defs>

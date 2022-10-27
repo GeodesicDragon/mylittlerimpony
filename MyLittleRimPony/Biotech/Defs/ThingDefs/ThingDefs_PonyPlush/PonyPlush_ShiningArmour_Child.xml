@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushChildBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_ShiningArmour_Child</defName>
+    <label>Shining Armour (child-sized)</label>
+    <description>As Captain of the Equestrian Royal Guard, Shining Armour knows a thing or two about combat; shields in particular are his speciality.\n\nCarrying him makes you feel better protected.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/ShiningArmour</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+	  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+	  <ArmorRating_Heat>0.3</ArmorRating_Heat>
+	</equippedStatOffsets>
+  </ThingDef>
+</Defs>

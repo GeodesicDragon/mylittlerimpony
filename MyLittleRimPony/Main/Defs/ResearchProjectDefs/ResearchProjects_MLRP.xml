@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--SCREWBALL-->
+
+	<ResearchProjectDef ParentName="MLRP_QuickResearchBase">
+		<defName>MLRP_ScrewballResearch</defName>
+		<label>Screwball generator</label>
+		<description>Harness the power of a pony supposedly cursed by the Lord of Chaos for your own needs.</description>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--PLUSHIE RECYCLING-->
+	
+	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
+		<defName>MLRP_PlushieRecycling</defName>
+		<label>Plushie recycling</label>
+		<description>Allows you to reclaim some of the material used to make plushies.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+<!--CURE POISON JOKE ADDICTION-->
+	
+	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
+		<defName>MLRP_CurePoisonJokeAddictionResearch</defName>
+		<label>Cure poison joke addiction</label>
+		<description>Learn how to make a herbal infusion which will cure a person of an addiction to poison joke when it is consumed.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--RAINBOW LASER-->
+
+	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+		<defName>MLRP_WeaponisedElementsResearch</defName>
+		<label>Rainbow Laser</label>
+		<description>Create weapons that smite your enemies with the power of rainbows.</description>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--NIGHTMARE MOON AND DAYBREAKER-->
+
+	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
+		<defName>MLRP_NightmareMoonResearch</defName>
+		<label>Statues of the Evil Sisters</label>
+		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for chocolate, as well as a statue of Daybreaker, who will convert 100 of one material (or 1000 silver) into its market value equivalent of another.\n\nSome recipes at these items will require additional research before they are unlocked; see descriptions of each for details.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<prerequisites>
+			<li>Cocoa</li>
+			<li>BiofuelRefining</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+		<discoveredLetterTitle>About Nightmare Moon and Daybreaker</discoveredLetterTitle>
+		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using chocolate, though it does work out to be more expensive than acquiring them normally. It is handy if your pawns don't have the necessary skills, or if you have excess chocolate and need something urgently.\n\nSome items can also be returned to the statue in exchange for a small amount of chocolate.\n\nMany items, such as bionic limbs and skilltrainers, can only be requested once other research has been completed.\n\nDaybreaker allows you to convert 100 of steel, plasteel, uranium, jade and gold into the market value equivalent of another. For example, 100 steel can be turned into:\n\n- 38 jade\n- 21 plasteel\n- 32 uranium\n- 19 gold\n\nYou can also convert 1000 silver into the market value equivalent of these materials, like so:\n\n- 200 jade\n- 526 steel\n- 111 plasteel\n- 167 uranium\n- 100 gold\n\nYou can also convert these same amounts into 1000 silver, which is useful if you have an excess of one thing and want to turn it into something else.\n\nOnce you have researched the necessary techs, you can also use the Daybreaker statue to rapidly create 5/10 regular or advanced components.\n\nPlease note that all of the recipes Daybreaker can perform also require 75 chemfuel, or 150 if making 10 components, though this amount can be configured to your liking if you use the XML Extensions mod.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+<!--SKILLTRAINERS-->
+
+	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+		<defName>MLRP_GetSkilltrainersFromNMM</defName>
+		<label>Request skilltrainers</label>
+		<description>Nightmare Moon will grant you the ability to request skilltrainers from her.</description>
+		<prerequisites>
+			<li>MLRP_NightmareMoonResearch</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--SKILLTRAINERS-->
+
+	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
+		<defName>MLRP_MakeBeerAtDB</defName>
+		<label>Chemfuel-based beer brewing</label>
+		<description>Daybreaker will brew a large quantity of beer for you, though it will cost chemfuel as per usual.</description>
+		<prerequisites>
+			<li>Brewing</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>6</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

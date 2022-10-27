@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!--Bronies can be weebs too, y'know.-->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Weeb Faction</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="WeeabooArmy"]/permanentEnemyToEveryoneExcept</xpath>
+	    <value>
+	        <li>MLRP_BronyFaction</li>
+	    </value>
+    </match>
+</Operation>
+
+</Patch>

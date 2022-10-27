@@ -1,6 +1,6 @@
 All art was sourced from Derpibooru (https://www.derpibooru.org), unless otherwise specified, and is used under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License; credit is followed by the Derpibooru image ID.
 
-If you are one of the artists listed below and want me to stop using your work, get in touch with me via my Discord server. Please be aware that I will ask you to prove that you are who you say you are.
+If you are one of the artists listed below and want me to stop using your work, get in touch with me via my Discord server. Please be aware that you will need to prove that you are who you say you are before I will respond to your request.
 
 KEY
 
@@ -52,6 +52,8 @@ King Sombra: frownfactory (1907550)
 Queen Chrysalis: sketchmcreations (2496399)
 Zecora: uxyd (2560904)
 
+Button Mash: luckreza8 (1004070)
+
 Equestrian Flag: grabusz (1589868)
 Rainbow Laser: Vector-Brony (2493108 - attributed to someone else; original link in description)
 Mudbriar: cheezedoodle96 (1709144)
@@ -97,8 +99,11 @@ Star image (used in some achievements): http://clipart-library.com/clipart/216.h
 Harmony Chip: https://www.kindpng.com/imgv/wbxRhx_clip-art-clip-art-chips-computer-chip-clipart/
 MLP Logo (used in preview image): Artist Unknown (1411173)
 
+Alicorn icon (Biotech): https://www.flaticon.com/free-icon/unicorn-horse-head-with-a-horn-and-wings_32717
+Earth Pony, Pegasus and Unicorn icons (Biotech): https://game-icons.net
+
 SOUNDS
 
-All sounds, unless otherwise specified, are taken from the My Little Pony: Friendship is Magic TV series, and are used under Fair Use legislation. All sounds remain bound by the copyright of the owner; they are included in this mod for entertainment purposes only, and no profit is made from them.
+All sounds, unless otherwise specified below, are taken from the My Little Pony: Friendship is Magic TV series, and are used under Fair Use legislation. Sounds remain bound by the copyright of the owner; they are included in this mod for entertainment purposes only, and no profit is made from them.
 
 Rainbow Laser (firing): https://elements.envato.com/laser-shot-5-29H6P3L

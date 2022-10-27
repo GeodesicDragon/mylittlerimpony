@@ -1,0 +1,93 @@
+<Defs>
+
+<ThingDef ParentName="SweetieBotBase">
+    <defName>MLRP_Turret_SweetieBot</defName>
+    <label>Sweetie Bot</label>
+    <description>A turret which fires rainbow lasers that are accurate at medium to long range. Will not explode if damaged.</description>
+    <thingClass>Building_TurretGun</thingClass>
+	<designationHotKey>Misc11</designationHotKey>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/SweetieBot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/SweetieBot</uiIconPath>
+    <uiIconScale>0.90</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>380</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>2400</WorkToBuild>
+      <Mass>35</Mass>
+      <Beauty>-10</Beauty>
+      <ShootingAccuracyTurret>0.80</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <!--<li Class="CompProperties_Refuelable">
+        <fuelLabel>Combat effectiveness</fuelLabel>
+        <fuelGizmoLabel>Combat effectiveness (%)</fuelGizmoLabel>
+        <outOfFuelMessage>ERROR: Repairs needed</outOfFuelMessage>
+        <fuelFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fuelFilter>
+        <fuelCapacity>100</fuelCapacity>
+        <fuelMultiplier>0.8</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.3</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>-->
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <costStuffCount>600</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Plasteel>200</Plasteel>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <building>
+      <combatPower>45</combatPower>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>MLRP_SweetieBotTurret</turretGunDef>
+      <turretBurstCooldownTime>1.5</turretBurstCooldownTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MLRP_WeaponisedElementsResearch</li>
+    </researchPrerequisites>
+  </ThingDef>
+ 
+</Defs>

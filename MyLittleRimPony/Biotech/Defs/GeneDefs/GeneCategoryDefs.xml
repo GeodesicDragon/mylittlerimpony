@@ -1,0 +1,9 @@
+<Defs>
+
+<GeneCategoryDef>
+	<defName>MLRP_GeneCategory</defName>
+	<label>Equestrian</label>
+	<displayPriorityInXenotype>411</displayPriorityInXenotype>
+</GeneCategoryDef>
+  
+</Defs>

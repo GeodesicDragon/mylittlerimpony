@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushChildBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_BigMacintosh_Child</defName>
+    <label>Big Macintosh (child-sized)</label>
+    <description>What he lacks in words, he makes up for in strength.\n\nCarrying him makes you feel stronger.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/BigMacintosh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+      <CarryingCapacity>50</CarryingCapacity>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

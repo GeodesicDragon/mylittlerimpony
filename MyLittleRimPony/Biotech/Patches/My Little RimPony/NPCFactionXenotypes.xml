@@ -1,0 +1,15 @@
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[@Name="MLRP_BronyKinds_EliteMercBase"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<Hussar>0.25</Hussar>
+				</xenotypeChances>
+				<warnIfTotalAbove1>false</warnIfTotalAbove1>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+</Patch>

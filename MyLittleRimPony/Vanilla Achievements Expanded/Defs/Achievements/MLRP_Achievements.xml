@@ -804,4 +804,21 @@
 		<texPath>Achievements/CluckOff</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
+	
+	<!--TRADING-->
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_ImproveRelationsCasting</defName>
+		<label>Friendship is Magic</label>
+		<description>Buy or sell 100 Elements of Harmony</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.TraderTracker">
+			<def>MLRP_ElementsOfHarmony</def>
+			<count>100</count>
+		</tracker>
+		
+		<texPath>UI/Abilities/ImproveRelations</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
 </Defs>

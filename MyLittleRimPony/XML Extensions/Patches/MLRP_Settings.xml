@@ -39,6 +39,28 @@
 			</apply>
 		</li>
 		
+		<!--KID SIZED PLUSHIES: STUFF REQUIRED-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_PlushiesCloth</key>
+			<apply>
+				<Operation Class="XmlExtensions.CreateVariable">
+					<value>{MLRP_PlushiesCloth}</value>
+					<value2>2</value2>
+					<operation>/</operation>
+					<storeIn>MLRP_ChildPlush_NewStuffValue</storeIn>
+					<apply>
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[@Name="PonyPlushChildBase"]/costStuffCount</xpath>
+							<value>
+								<costStuffCount>{MLRP_ChildPlush_NewStuffValue}</costStuffCount>
+							</value>
+						</Operation>
+					</apply>
+				</Operation>
+			</apply>
+		</li>
+		
 		<!--CUTIE MARK CRUSADERS: STUFF REQUIRED-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
@@ -75,6 +97,21 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--KID PLUSHIES: CRAFTING SKILL REQUIRED-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_PlushieCraftingSkill</key>
+			<defaultValue>5</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="PonyPlushChildBase"]/recipeMaker/skillRequirements/Crafting</xpath>
+					<value>
+						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
+					</value>
+				</Operation>
+			</apply>
+		</li>
 
 		<!--PLUSHIES: MARKET VALUE-->
 		<li Class="XmlExtensions.UseSetting">
@@ -90,7 +127,28 @@
 				</Operation>
 			</apply>
 		</li>
-
+		
+		<!--KID PLUSHIES: MARKET VALUE-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_PlushieMarketValue</key>
+			<apply>
+				<Operation Class="XmlExtensions.CreateVariable" MayRequire="Ludeon.RimWorld.Biotech">
+					<value>{MLRP_PlushieMarketValue}</value>
+					<value2>2</value2>
+					<operation>/</operation>
+					<storeIn>MLRP_ChildPlushieMarketValue</storeIn>
+					<apply>
+						<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+							<xpath>Defs/ThingDef[@Name="PonyPlushChildBase"]/statBases/MarketValue</xpath>
+							<value>
+								<MarketValue>{MLRP_ChildPlushieMarketValue}</MarketValue>
+							</value>
+						</Operation>
+					</apply>
+				</Operation>
+			</apply>
+		</li>
 
 		<!--PLUSHIES: TAINTED ON DEATH-->
 		<li Class="XmlExtensions.OptionalPatch">
@@ -331,29 +389,6 @@
 					</value>
 				</Operation>
 			</apply>
-		</li>
-
-		<!--SWEETIE BOT: REARM COST AFFECTED BY GAME DIFFICULTY-->
-		<li Class="XmlExtensions.OptionalPatch">
-			<modId>geodesicdragon.rimpony</modId>
-			<key>MLRP_SweetieBotRearmCostAffectedByDifficulty</key>
-			<defaultValue>true</defaultValue>
-			<caseTrue>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/comps/li[@Class="CompProperties_Refuelable"]/factorByDifficulty</xpath>
-					<value>
-						<factorByDifficulty>true</factorByDifficulty>
-					</value>
-				</Operation>
-			</caseTrue>
-			<caseFalse>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/comps/li[@Class="CompProperties_Refuelable"]/factorByDifficulty</xpath>
-					<value>
-						<factorByDifficulty>false</factorByDifficulty>
-					</value>
-				</Operation>
-			</caseFalse>
 		</li>
 
 		<!--NURSE REDHEART: SPAWN GLITTERWORLD MEDICINE INSTEAD OF INDUSTRIAL-->
@@ -746,6 +781,12 @@
 					<decimals>0</decimals>
 				</li>
 				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
+					<text>This setting will also be applied to child-sized plushies.</text>
+					<font>Small</font>
+					<anchor>Left</anchor>
+				</li>
+				
 				<li Class="XmlExtensions.Setting.Checkbox">
 					<key>MLRP_PlushiesTaintedOnDeath</key>
 					<label>Plushies become tainted if worn by a corpse</label>
@@ -802,11 +843,6 @@
 					<max>1</max>
 					<label>Long Range Accuracy: {MLRP_SweetieBotAccuracyLong}</label>
 					<decimals>1</decimals>
-				</li>
-				
-				<li Class="XmlExtensions.Setting.Checkbox">
-					<key>MLRP_SweetieBotRearmCostAffectedByDifficulty</key>
-					<label>Cost of rearming Sweetie Bots is affected by game difficulty</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap"/>
