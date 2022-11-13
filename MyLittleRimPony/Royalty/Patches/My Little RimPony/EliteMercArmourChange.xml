@@ -1,6 +1,6 @@
 <Patch>
     <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary_Elite"]/apparelRequired</xpath>
+		<xpath>/Defs/PawnKindDef[defName="Brony_Mercenary_Elite" or defName="Brony_Leader"]/apparelRequired</xpath>
 		<value>
 			<apparelRequired>
 				<li>Apparel_ArmorCataphract</li>

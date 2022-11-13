@@ -1,0 +1,37 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/pawnGroupMakers</xpath>
+		<value>
+			<li>
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Miner>1</Miner>
+				</options>
+			</li>
+			<li>
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Hunter>1</Hunter>
+				</options>
+			</li>
+			<li>
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Logger>1</Logger>
+				</options>
+			</li>
+			<li>
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Farmer>1</Farmer>
+				</options>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

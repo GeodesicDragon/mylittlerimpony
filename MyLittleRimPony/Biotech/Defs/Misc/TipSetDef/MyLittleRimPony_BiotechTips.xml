@@ -5,10 +5,15 @@
 <TipSetDef>
 	<defName>MyLittleRimPony_BiotechTips</defName>
 	<tips>
+		<li>Button Mash: "Tee ni ektum kai."</li>
 		<li>The unicorn gene increases a pawn's manipulation.</li>
 		<li>The earth pony gene increases a pawn's carrying capacity.</li>		
 		<li>The pegasus gene increases a pawn's melee and trap dodge chance.</li>
 		<li>The alicorn gene combines the bonuses of the unicorn, earth pony and pegasus gene mods into one.</li>
+		<li>Child plushies require half the usual materials to make and will - for the most part - grant twice the bonus of the adult version.</li>
+		<li>The child-equippable Rainbow Dash plushie only affects a child's movement speed and not their combat prowess.</li>
+		<li>Requesting hemogen packs from Nightmare Moon should only be done as a last resort, as her price for this service is quite high.</li>
+		<li>Mechanitors can request upgrades from Nightmare Moon once the relevant techs have been researched, but doing so is expensive.</li>
 	</tips>
 </TipSetDef>
 

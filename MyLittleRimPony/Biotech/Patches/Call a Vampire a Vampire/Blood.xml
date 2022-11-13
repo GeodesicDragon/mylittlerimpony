@@ -1,0 +1,33 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Call a Vampire a Vampire</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="MLRP_NMM_HemogenPack"]/label</xpath>
+					<value>
+						<label>request blood packs</label>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="MLRP_NMM_HemogenPack"]/description</xpath>
+					<value>
+						<description>Offer silver in exchange for five blood packs.\n\nShould only be done as a last resort, as the cost is quite steep...</description>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips/li[8]</xpath>
+					<value>
+						<li>Requesting blood packs from Nightmare Moon should only be done as a last resort, as her price for this service is quite high.</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

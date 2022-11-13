@@ -17,6 +17,7 @@
     <invNutrition>2</invNutrition>
     <invFoodDef>MealSurvivalPack</invFoodDef>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <minGenerationAge>16</minGenerationAge>
     <maxGenerationAge>55</maxGenerationAge>
     <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
     <combatEnhancingDrugsCount>
@@ -33,6 +34,23 @@
     </disallowedTraits>
     <nameMaker>NamerBrony</nameMaker>
     <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_LeaderBase" Abstract="True">
+	<itemQuality>Excellent</itemQuality>
+	<skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>12</range>
+      </li>
+	  <li>
+        <skill>Melee</skill>
+        <range>12</range>
+      </li>
+    </skills>
   </PawnKindDef>
   
   <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_VillagerBase" Abstract="True">
@@ -40,43 +58,15 @@
 	<skills>
       <li>
         <skill>Shooting</skill>
-        <range>0</range>
+        <range>1</range>
       </li>
 	  <li>
         <skill>Melee</skill>
-        <range>0</range>
-      </li>
-	  <li>
-        <skill>Animals</skill>
-        <range>6~12</range>
-      </li>	
-	  <li>
-        <skill>Construction</skill>
-        <range>6~12</range>
-      </li>	
-	  <li>
-        <skill>Cooking</skill>
-        <range>6~12</range>
-      </li>	  
-	  <li>
-        <skill>Intellectual</skill>
-        <range>6~12</range>
-      </li>
-	  <li>
-        <skill>Medicine</skill>
-        <range>6~12</range>
-      </li>
-	  <li>
-        <skill>Mining</skill>
-        <range>6~12</range>
-      </li>
-	  <li>
-        <skill>Plants</skill>
-        <range>6~12</range>
+        <range>1</range>
       </li>
 	  <li>
         <skill>Social</skill>
-        <range>6~12</range>
+        <range>8~12</range>
       </li>	
     </skills>
   </PawnKindDef>
@@ -90,45 +80,16 @@
       </li>
 	  <li>
         <skill>Melee</skill>
-        <range>3~5</range>
+        <range>0</range>
       </li>
-	  <li>
-        <skill>Animals</skill>
-        <range>0~8</range>
-      </li>	
-	  <li>
-        <skill>Construction</skill>
-        <range>0~8</range>
-      </li>	
-	  <li>
-        <skill>Cooking</skill>
-        <range>0~8</range>
-      </li>	  
-	  <li>
-        <skill>Intellectual</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Medicine</skill>
-        <range>4~8</range>
-      </li>
-	  <li>
-        <skill>Mining</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Plants</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Social</skill>
-        <range>0~8</range>
-      </li>	
     </skills>
   </PawnKindDef>
   
   <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_MeleeMercBase" Abstract="True">
 	<itemQuality>Good</itemQuality>
+	<forcedTraits>
+		<li>Brawler</li>
+	</forcedTraits>
 	<skills>
       <li>
         <skill>Shooting</skill>
@@ -138,39 +99,7 @@
         <skill>Melee</skill>
         <range>7~12</range>
       </li>
-	  <li>
-        <skill>Animals</skill>
-        <range>0~8</range>
-      </li>	
-	  <li>
-        <skill>Construction</skill>
-        <range>0~8</range>
-      </li>	
-	  <li>
-        <skill>Cooking</skill>
-        <range>0~8</range>
-      </li>	  
-	  <li>
-        <skill>Intellectual</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Medicine</skill>
-        <range>4~8</range>
-      </li>
-	  <li>
-        <skill>Mining</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Plants</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Social</skill>
-        <range>0~8</range>
-      </li>	
-    </skills>
+	</skills>
   </PawnKindDef>
   
 <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_EliteMercBase" Abstract="True">
@@ -184,42 +113,10 @@
         <skill>Melee</skill>
         <range>10~15</range>
       </li>
-	  <li>
-        <skill>Animals</skill>
-        <range>0~8</range>
-      </li>	
-	  <li>
-        <skill>Construction</skill>
-        <range>0~8</range>
-      </li>	
-	  <li>
-        <skill>Cooking</skill>
-        <range>0~8</range>
-      </li>	  
-	  <li>
-        <skill>Intellectual</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Medicine</skill>
-        <range>8~16</range>
-      </li>
-	  <li>
-        <skill>Mining</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Plants</skill>
-        <range>0~8</range>
-      </li>
-	  <li>
-        <skill>Social</skill>
-        <range>0~8</range>
-      </li>	
-    </skills>
+	</skills>
   </PawnKindDef>
   
-<PawnKindDef ParentName="MLRP_BronyKinds_VillagerBase">
+<PawnKindDef ParentName="MLRP_BronyKinds_LeaderBase">
     <defName>Brony_Leader</defName>
 	<factionLeader>true</factionLeader>
     <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
@@ -233,21 +130,31 @@
       <max>1</max>
     </gearHealthRange>
     <apparelTags>
-      <li>IndustrialBasic</li>
+      <li>SpacerMilitary</li>
     </apparelTags>
-   <apparelRequired>
-      <li>Apparel_FlakJacket</li>
-      <li>Apparel_FlakPants</li>
-      <li>Apparel_FlakVest</li>
-      <li>Apparel_AdvancedHelmet</li>
-	  <li>PonyPlush_BigMacintosh</li>
+   <apparelRequired><!--Patched to use cataphract armour if Royalty is installed-->
+		<li>Apparel_PowerArmor</li>
+		<li>Apparel_PowerArmorHelmet</li>
+		<li>PonyPlush_RainbowDash</li>
+		<li>Apparel_BasicShirt</li>
+		<li>Apparel_Pants</li>
     </apparelRequired>
     <apparelMoney>
-      <min>250</min>
-      <max>1000</max>
+      <min>3000</min>
+      <max>5000</max>
     </apparelMoney>
+    <weaponMoney>
+      <min>2000</min>
+      <max>15000</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>Rainbow_Laser</li>
+    </weaponTags>
 	<acceptArrestChanceFactor>0.25</acceptArrestChanceFactor>
 	<isFighter>false</isFighter>
+	<disallowedTraits>
+		<li>Brawler</li>
+	</disallowedTraits>
 </PawnKindDef>
   
 <PawnKindDef ParentName="MLRP_BronyKinds_VillagerBase">
@@ -359,6 +266,50 @@
 	  <li>IndustrialGunAdvanced</li>
     </weaponTags>
 	<isFighter>true</isFighter>
+	<disallowedTraits>
+		<li>Brawler</li>
+	</disallowedTraits>
+</PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_BronyKinds_MercBase">
+    <defName>Brony_Mercenary_Grenadier</defName>
+    <baseRecruitDifficulty>0.3</baseRecruitDifficulty>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>5~7</initialResistanceRange>
+    <label>brony mercenary grenadier</label>
+	<labelPlural>brony mercenary grenadiers</labelPlural>
+    <combatPower>70</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialMilitaryBasic</li>
+    </apparelTags>
+	<apparelRequired>
+		<li>Apparel_FlakVest</li>
+		<li>Apparel_FlakPants</li>
+		<li>PonyPlush_RainbowDash</li>
+		<li>Apparel_AdvancedHelmet</li>
+		<li>Apparel_Pants</li>
+	</apparelRequired>
+    <apparelMoney>
+      <min>2000</min>
+      <max>3500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>420</min>
+      <max>650</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>GrenadeDestructive</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+	<disallowedTraits>
+		<li>Brawler</li>
+	</disallowedTraits>
+    <canBeSapper>true</canBeSapper>
+    <isGoodBreacher>true</isGoodBreacher>
 </PawnKindDef>
   
 <PawnKindDef ParentName="MLRP_BronyKinds_MeleeMercBase">
@@ -433,6 +384,13 @@
     <weaponTags>
 	  <li>Rainbow_Laser</li>
     </weaponTags>
+    <!--Adding this trait causes an error; commenting this part out until the bug is fixed-->
+	<!--<forcedTraits>
+      <li>
+        <def>ShootingAccuracy</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>-->
 	<isFighter>true</isFighter>
 </PawnKindDef>
 

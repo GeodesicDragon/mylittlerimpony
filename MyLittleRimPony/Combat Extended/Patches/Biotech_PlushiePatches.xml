@@ -14,6 +14,13 @@
 						<WornBulk>0.5</WornBulk>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name="PonyPlushChildBase"]/statBases</xpath>
+					<value>
+						<Bulk>0.25</Bulk>
+						<WornBulk>0.25</WornBulk>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

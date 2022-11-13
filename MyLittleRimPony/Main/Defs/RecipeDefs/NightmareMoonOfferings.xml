@@ -258,7 +258,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_GlitterworldMedicine</defName>
 	<label>request glitterworld medicine x 5</label>
-	<description>Offer chocolate in exchange for 5 units of glitterworld medicine.</description>
+	<description>Offer chocolate and 10 units of industrial medicine in exchange for 5 units of glitterworld medicine.</description>
 	<researchPrerequisite>MedicineProduction</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -278,6 +278,14 @@
 				</thingDefs>
 			</filter>
 			<count>125</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MedicineIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
 		</li>
 	</ingredients>
 	<products>

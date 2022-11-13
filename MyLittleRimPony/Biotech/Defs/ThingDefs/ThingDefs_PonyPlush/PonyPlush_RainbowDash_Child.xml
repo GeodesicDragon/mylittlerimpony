@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushChildBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_RainbowDash_Child</defName>
+    <label>Rainbow Dash (child-sized)</label>
+    <description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel fast, as well as more confident in your combat abilities.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/RainbowDash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+      <MoveSpeed>2</MoveSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

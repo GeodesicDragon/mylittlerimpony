@@ -387,8 +387,8 @@
 
 <RecipeDef>
 	<defName>MLRP_NMM_DetoxifierStomach</defName>
-	<label>request detoxifier stomach</label>
-	<description>Offer chocolate in exchange for a detoxifier stomach.</description>
+	<label>request sterilising stomach</label>
+	<description>Offer chocolate in exchange for a sterlising stomach.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -419,7 +419,7 @@
 
 <RecipeDef>
 	<defName>MLRP_NMM_ReprocessorStomach</defName>
-	<label>request detoxifier stomach</label>
+	<label>request reprocessor stomach</label>
 	<description>Offer chocolate in exchange for a reprocessor stomach.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

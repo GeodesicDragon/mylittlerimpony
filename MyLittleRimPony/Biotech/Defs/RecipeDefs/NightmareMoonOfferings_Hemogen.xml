@@ -1,0 +1,34 @@
+<Defs>
+
+<!--GET HEMOGEN PACKS-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_HemogenPack</defName>
+	<label>request hemogen packs</label>
+	<description>Offer silver in exchange for five hemogen packs.\n\nShould only be done as a last resort, as the cost is quite steep...</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<HemogenPack>5</HemogenPack>
+	</products>
+</RecipeDef>
+  
+</Defs>

@@ -1,3 +1,42 @@
+Version 3.22.13 (November 13th 2022)
+
+* Core: Added a file containing 200 random words to use for NPC faction pawn names, though you may see some weird combinations as a result.
+* Core: The NPC faction now employs mercenary grenadiers.
+* Ideology: Added NPC faction mining, hunting, logging and farming camps.
+* Biotech: Added child-equippable Rainbow Dash plushie (+2 to movement speed).
+* Biotech: Added child-equippable Starlight Glimmer plushie.
+* Biotech: Added the ability to request 5 hemogen packs from Nightmare Moon.
+	* She demands 1000 silver for this service, meaning you are effectively paying 40 times the market value (since 5 hemogen packs have a total market value of 25). As such, making this request should always be considered a last resort.
+	* This recipe is available as soon as you construct the statue.
+* Biotech: Added six new recipes to the Nightmare Moon statue which let your mechanitors request things. Please note that, instead of signal, powerfocus or nanostructuring chips, she will demand 1.5 times the chips value in silver AND chocolate; you will also have to provide the regular/advanced components that you would normally use to create the item. This makes the items quite expensive to acquire, but is useful if you want some upgrades but lack the firepower and/or numbers to take down one of the mechanoid bosses.
+	* Control sublink (standard)
+	* Control sublink (high)
+	* Remote repairer
+	* Mech gestation processor
+	* Remote shielder
+	* Repair probe
+	* These recipes can only be performed by a mechanitor, and are unlocked once you have researched the relevant technologies.
+* Biotech: Added a recipe to the Nightmare Moon statue which lets you request a high subcore. Doing so requires 2250 silver, 750 chocolate and 25 hemogen packs, but you won't be forced to sacrifice a pawn or prisoner, thus avoiding the associated mood debuffs.
+* Biotech: The NPC faction has welcomed various xenotypes into the fold. They are now 70% baseliner and 5% each of dirtmoles, pigskins, imps, yttakin, genies and neanderthals. Hussars, meanwhile, still only have a chance of appearing as elite mercenaries, while highmates, sanguophages and wasters will not appear at all (the latter two refused to partake in all of the fun and magic, the miserable gits).
+* Combat Extended: Added bulk and worn bulk for child-equippable plushies.
+* Replimat: Added a recipe to the Nightmare Moon statue which lets you request an isolinear module in exchange for 9000 chocolate (thus making it cost about 27000 silver compared to 18000 normally). The recipe will become available once you have researched molecular nutrient resequencing.
+* Simple Sidearms: Added weapon tag maps for the wife thrower and rainbow laser.
+* Vanilla Backgrounds Expanded: Added one new (very basic) background.
+* XML Extensions: Added option to allow the child-equippable Rainbow Dash plushie to give the same bonuses as the adult version.
+* Core: NPC faction leaders are now equipped with marine armour (cataphract if Royalty is enabled) and rainbow lasers.
+* Core: NPC faction pawns who used ranged weapons should no longer spawn with the 'Brawler' trait.
+* Core: Melee brony mercenaries will now spawn with the 'Brawler' trait.
+* Core: Changed the description of the NPC faction.
+* Core: Nightmare Moon now demands both 125 chocolate and 10 industrial medicine before she will give you any glitterworld medicine.
+* Core: Removed disallowed traits from the starting pawns in the brony community scenario. They can now be wimps, pyromaniacs or have chemical needs.
+* Royalty: Updated 'request detoxifier stomach' recipe to reflect the fact it is now called a 'sterilising stomach.'
+* Royalty: Fixed the Harmony chip not increasing bandwidth.
+* Royalty: Fixed recipe to request a reprocessor stomach using the wrong item name in the bill list.
+* Ideology: The patch which applies plushie bonuses to the harmony chip now checks to see if Royalty is enabled first.
+* Biotech: Fixed plushie trader not stocking child-equippable plushies.
+* Biotech: Fixed missing space in label for Button Mash plushie.
+* RimPonk: Removed patches which add pawns from this mod to the NPC faction.
+
 Version 3.0.0 (October 27th 2022)
 
 * This mod no longer supports RimWorld 1.1 or 1.2; apologies for any inconvenience this may (read: will) cause.

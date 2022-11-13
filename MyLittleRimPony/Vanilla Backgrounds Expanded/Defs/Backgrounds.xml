@@ -86,4 +86,14 @@
         <iconPath>UI/Issues/ElementsOfHarmony</iconPath>
     </VBE.BackgroundImageDef>
 	
+	<!--HAYWICK, BECAUSE OF COURSE I'D INCLUDE HER SOMEHOW-->	
+	
+    <VBE.BackgroundImageDef>
+        <defName>MLRP_BG_ObligatoryOCBackground</defName>
+        <label>Obligatory Background Of Creator's OC</label>
+        <description>Sometimes she forgets that she's a trained medical practitioner.</description>
+        <path>Backgrounds/ObligatoryOCBackground</path>
+        <iconPath>UI/Issues/ElementsOfHarmony</iconPath>
+    </VBE.BackgroundImageDef>
+	
 </Defs>

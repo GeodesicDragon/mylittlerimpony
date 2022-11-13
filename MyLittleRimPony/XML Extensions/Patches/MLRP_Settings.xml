@@ -734,6 +734,49 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--RAINBOW DASH CHILD PLUSHIE: SAME BONUSES AS ADULT VERSION-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_RainbowDashChildPlushUsesAdultStats</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_RainbowDash_Child"]/equippedStatOffsets</xpath>
+					<value>
+						<equippedStatOffsets>
+							<MoveSpeed>1</MoveSpeed>
+							<MeleeHitChance>5</MeleeHitChance>
+							<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+						</equippedStatOffsets>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/li[7]</xpath>
+					<value>
+						<li>The child-equippable Rainbow Dash plushie grants the same bonuses as the adult version.</li>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_RainbowDash_Child"]/equippedStatOffsets</xpath>
+					<value>
+						<equippedStatOffsets>
+							<MoveSpeed>2</MoveSpeed>
+						</equippedStatOffsets>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips/li[7]</xpath>
+					<value>
+						<li>The child-equippable Rainbow Dash plushie only affects a child's movement speed and not their combat prowess.</li>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -1031,6 +1074,19 @@
 					<text>This amount will be doubled for the recipes to acquire 10 regular/advanced components.</text>
 					<font>Small</font>
 					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Biotech"/>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
+					<text>Biotech Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
+					<key>MLRP_RainbowDashChildPlushUsesAdultStats</key>
+					<label>Child-equippable Rainbow Dash plushie has the same bonuses as the adult version</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap">

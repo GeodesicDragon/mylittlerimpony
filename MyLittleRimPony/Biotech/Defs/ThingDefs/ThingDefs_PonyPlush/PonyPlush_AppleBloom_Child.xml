@@ -9,7 +9,6 @@
     <graphicData>
       <texPath>Things/PonyPlush/AppleBloom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
     </graphicData>
     <equippedStatOffsets>
       <ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>

@@ -1,0 +1,29 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Simple sidearms</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+					<defName>MLRP_WifeThrower_WeaponTagMap</defName>
+					<sourceTag>WifeThrower</sourceTag>
+					<resultTags>
+						<li>WifeThrower</li>
+					</resultTags>
+				</SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+				
+				<SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+					<defName>MLRP_RainbowLaser_WeaponTagMap</defName>
+					<sourceTag>Rainbow_Laser</sourceTag>
+					<resultTags>
+						<li>Rainbow_Laser</li>
+					</resultTags>
+				</SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,308 @@
+<Defs>
+
+<!--BASES-->
+
+	<RecipeDef Name="NMM_MechanitorOnlyRecipe" Abstract="True">
+		<mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>	
+	</RecipeDef>
+
+	<RecipeDef ParentName="NMM_MechanitorOnlyRecipe" Name="NMM_SignalChipRecipeBase" Abstract="True">
+		<!--Market Value of Signal Chip: 500 silver-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chocolate</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="NMM_MechanitorOnlyRecipe" Name="NMM_PowerfocusChipRecipeBase" Abstract="True">
+		<!--Market Value of Powerfocus Chip: 1000 silver-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chocolate</li>
+					</thingDefs>
+				</filter>
+				<count>500</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="NMM_MechanitorOnlyRecipe" Name="NMM_NanostructuringChipRecipeBase" Abstract="True">
+		<!--Market Value of Nanostructuring Chip: 1500 silver-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>225</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chocolate</li>
+					</thingDefs>
+				</filter>
+				<count>750</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+
+<!--CONTROL SUBLINK (STANDARD)-->
+
+<RecipeDef ParentName="NMM_SignalChipRecipeBase">
+	<defName>MLRP_NMM_ControlSublinkStandard</defName>
+	<label>request control sublink (standard)</label>
+	<description>Offer chocolate and other items in exchange for a control sublink (standard).\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+	</ingredients>
+	<products>
+		<ControlSublink>1</ControlSublink>
+	</products>
+</RecipeDef>
+
+<!--CONTROL SUBLINK (HIGH)-->
+
+<RecipeDef ParentName="NMM_PowerfocusChipRecipeBase">
+	<defName>MLRP_NMM_ControlSublinkHigh</defName>
+	<label>request control sublink (high)</label>
+	<description>Offer chocolate and other items in exchange for a control sublink (high).\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+	</ingredients>
+	<products>
+		<ControlSublinkHigh>1</ControlSublinkHigh>
+	</products>
+</RecipeDef>
+
+<!--REMOTE REPAIRER-->
+
+<RecipeDef ParentName="NMM_PowerfocusChipRecipeBase">
+	<defName>MLRP_NMM_RemoteRepairer</defName>
+	<label>request remote repairer</label>
+	<description>Offer chocolate and other items in exchange for a remote repairer.\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>6</count>
+		</li>
+	</ingredients>
+	<products>
+		<RemoteRepairer>1</RemoteRepairer>
+	</products>
+</RecipeDef>
+
+<!--MECH GESTATION PROCESSOR-->
+
+<RecipeDef ParentName="NMM_SignalChipRecipeBase">
+	<defName>MLRP_NMM_MechGestationProcessor</defName>
+	<label>request mech gestation processor</label>
+	<description>Offer chocolate and other items in exchange for a mech gestation processor.\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>6</count>
+		</li>
+	</ingredients>
+	<products>
+		<MechFormfeeder>1</MechFormfeeder>
+	</products>
+</RecipeDef>
+  
+<!--REMOTE SHIELDER-->
+
+<RecipeDef ParentName="NMM_PowerfocusChipRecipeBase">
+	<defName>MLRP_NMM_RemoteShielder</defName>
+	<label>request remote shielder</label>
+	<description>Offer chocolate and other items in exchange for a remote shielder.\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>6</count>
+		</li>
+	</ingredients>
+	<products>
+		<RemoteShielder>1</RemoteShielder>
+	</products>
+</RecipeDef>
+
+<!--REPAIR PROBE-->
+
+<RecipeDef ParentName="NMM_NanostructuringChipRecipeBase">
+	<defName>MLRP_NMM_RepairProbe</defName>
+	<label>request repair probe</label>
+	<description>Offer chocolate and other items in exchange for a repair probe.\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+	</ingredients>
+	<products>
+		<RepairProbe>1</RepairProbe>
+	</products>
+</RecipeDef>
+
+<!--HIGH SUBCORE-->
+
+<RecipeDef ParentName="NMM_NanostructuringChipRecipeBase">
+	<defName>MLRP_NMM_HighSubcore</defName>
+	<label>request high subcore</label>
+	<description>Offer chocolate and other items in exchange for a high subcore. This recipe is expensive, requiring hemogen as well as silver and chocolate, but it doesn't require anyone to die first.\n\nThis recipe can only be performed by a mechanitor.</description>
+	<mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>HemogenPack</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+	</ingredients>
+	<products>
+		<SubcoreHigh>1</SubcoreHigh>
+	</products>
+</RecipeDef>
+  
+</Defs>

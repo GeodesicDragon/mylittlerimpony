@@ -1,0 +1,41 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Replimat</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<RecipeDef>
+					<defName>MLRP_NMM_IsolinearModule</defName>
+					<label>request isolinear module</label>
+					<description>Offer chocolate in exchange for an isolinear module.</description>
+					<researchPrerequisite>MolecularNutrientResequencing</researchPrerequisite>
+					<jobString>Making an offering to Nightmare Moon</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>300</workAmount>
+					<recipeUsers>
+						<li>MLRP_NightmareMoon</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Chocolate</li>
+								</thingDefs>
+							</filter>
+							<count>9000</count>
+						</li>
+					</ingredients>
+					<products>
+						<IsolinearModule>1</IsolinearModule>
+					</products>
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+</Patch>

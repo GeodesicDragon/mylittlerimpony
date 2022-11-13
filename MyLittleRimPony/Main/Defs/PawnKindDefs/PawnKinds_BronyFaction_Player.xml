@@ -14,11 +14,6 @@
         </categories>
       </li>
     </backstoryFilters>
-	<disallowedTraits>
-      <li>Wimp</li>
-	  <li>Pyromaniac</li>
-	  <li>DrugDesire</li>
-    </disallowedTraits>
   </PawnKindDef>
 
 <PawnKindDef ParentName="MLRP_BronyKindsPlayer">
