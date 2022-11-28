@@ -1,0 +1,9 @@
+<Defs>
+
+	<RoomRoleDef>
+		<defName>MLRP_PortalRoom</defName>
+		<label>portal room</label>
+		<workerClass>MyLittleRimPony.RoomRoleWorker_PortalRoom</workerClass>
+	</RoomRoleDef>
+  
+</Defs>

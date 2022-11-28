@@ -1,0 +1,61 @@
+<Defs>
+
+    <ThingDef ParentName="BaseGun">
+    <defName>MLRP_ElementsOfHarmonyWeaponised_Mechanoid</defName>
+    <label>Rainbow Laser (mechanoid)</label>
+    <description>This rainbow laser has been designed for use with Sweetie Bot combat mechs.</description>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <graphicData>
+      <texPath>Things/Weapons/RainbowLaser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(0.1,0.1)</drawSize>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+	<relicChance>0</relicChance>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.9</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>RainbowLaser_Mech</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_HarmonyRainbow</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>30</range>
+		<burstShotCount>3</burstShotCount>
+        <soundCast>MLRP_EOH_Fire</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>butt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+ </Defs>

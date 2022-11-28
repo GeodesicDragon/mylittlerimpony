@@ -1,0 +1,61 @@
+<Defs>
+
+<ThingDef ParentName="BasePawn" Name="MLRP_SweetieBot_MechanoidBase" Abstract="True"> <!--Name="BaseMechanoid"-->
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <PsychicSensitivity>0.5</PsychicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <Flammability>0</Flammability>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>250</ComfyTemperatureMax>
+      <MeatAmount>0</MeatAmount>
+      <ArmorRating_Heat>2.00</ArmorRating_Heat>
+      <BandwidthCost>1</BandwidthCost>
+      <ControlTakingTime>12</ControlTakingTime>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <MechEnergyLossPerHP>0.33</MechEnergyLossPerHP>
+      <WastepacksPerRecharge>5</WastepacksPerRecharge>
+      <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+    </statBases>
+    <receivesSignals>true</receivesSignals>
+    <tradeability>None</tradeability>
+    <race>
+      <fleshType>Mechanoid</fleshType>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <lifeExpectancy>2500</lifeExpectancy>
+      <bloodDef>Filth_MachineBits</bloodDef>
+      <nameGenerator>NamerMech</nameGenerator>
+      <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
+      <thinkTreeConstant>MechConstant</thinkTreeConstant>
+    </race>
+    <comps>
+      <li Class="CompProperties_CanBeDormant" />
+      <li Class="CompProperties_WakeUpDormant">
+        <wakeUpOnDamage>true</wakeUpOnDamage>
+        <wakeUpCheckRadius>30</wakeUpCheckRadius>
+        <wakeUpSound>MechanoidsWakeUp</wakeUpSound>
+      </li>
+      <li Class="CompProperties_OverseerSubject">
+        <needsOverseerEffect>MechUncontrolled</needsOverseerEffect>
+        <delayUntilFeralCheck>60000</delayUntilFeralCheck>
+        <feralMtbDays>10</feralMtbDays>
+        <feralCascadeRadialDistance>25</feralCascadeRadialDistance>
+      </li>
+      <li Class="CompProperties_MechRepairable" />
+    </comps>
+  </ThingDef>
+  
+  <PawnKindDef Name="MLRP_SweetieBot_PawnKindBase" Abstract="True"> <!--Name="BaseMechanoidKind"-->
+    <defaultFactionType>Mechanoid</defaultFactionType>
+    <aiAvoidCover>true</aiAvoidCover>
+    <destroyGearOnDrop>true</destroyGearOnDrop>
+    <canStrip>false</canStrip>
+    <minGenerationAge>100</minGenerationAge>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+
+</Defs>

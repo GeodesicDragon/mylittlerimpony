@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Biotech</li>
+	</mods>
+	<match Class="PatchOperationAdd">
+		<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips</xpath>
+		<value>
+			<li>Changes you make to the Sweetie Bot turret will not be applied to the mechanoid version.</li>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

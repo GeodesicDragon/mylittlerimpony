@@ -1,0 +1,63 @@
+<Defs>
+
+<SoundDef>
+	<defName>SweetieBotMech_Call</defName>  
+	<eventNames />  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<onCamera>True</onCamera>      
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>SweetieBot/Call</clipPath>
+					</li>
+				</grains>      
+			<volumeRange>
+				<min>50</min>        
+				<max>50</max>
+			</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>SweetieBotMech_Death</defName>  
+	<eventNames />  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<onCamera>True</onCamera>      
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>SweetieBot/Death</clipPath>
+					</li>
+				</grains>      
+			<volumeRange>
+				<min>50</min>        
+				<max>50</max>
+			</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>SweetieBotMech_Wounded</defName>  
+	<eventNames />  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<onCamera>True</onCamera>      
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>SweetieBot/Wounded</clipPath>
+					</li>
+				</grains>      
+			<volumeRange>
+				<min>50</min>        
+				<max>50</max>
+			</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+  
+</Defs>

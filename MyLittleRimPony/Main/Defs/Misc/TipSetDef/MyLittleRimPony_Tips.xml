@@ -29,6 +29,7 @@
 		<li>Shining Armour: "Come on, gang! Are we gonna gallop, or are we gonna trot?!"</li>
 		<li>Spoiled Rich: "Honestly, if you're looking for somepony to fund-raise, I can bring in enough bits to have several buildings named after me."</li>
 		<li>Starlight Glimmer: "PHYLLIS, NO!"</li>
+		<li>Sunset Shimmer: "Am I the only one who thinks this is overkill?"</li>
 		<li>Sweetie Belle: "OH, COME ON!"</li>
 		<li>Sweetie Bot: "If this world isn't going to love me, I'll teach it to FEAR ME instead."</li>
 		<li>Twilight Sparkle: "I have to finish this report to the princess summarizing all my other reports to the princess."</li>
@@ -37,7 +38,7 @@
 		<li>The Orbital Friendship Cannon can be rearmed using 100 gold.</li>
 		<li>The wife thrower has slightly better long range accuracy than a pila, but can be thrown twice as fast.</li>
 		<li>The Celestia plush can be used to counteract the effects of the 'nervous' and 'volatile' traits.</li>
-		<li>The Cadence plush can be used to slightly counteract the effect of the 'wimp' trait.</li>
+		<li Name="PrincessCadence">The Cadence plush can be used to slightly counteract the effect of the 'wimp' trait.</li>
 		<li>Giving a Luna plush to a pawn with the 'quick sleeper' trait will make them rest twice as fast.</li>
 		<li>Giving a Cheerilee plush to a pawn with the 'fast learner' trait will help them improve their skills faster.</li>
 		<li>Giving a Starlight Glimmer plush to a pawn with the 'psychically hypersensitive' or 'psychically sensitive' traits will lower - or even eliminate - the mood penalty from psychic drones.</li>
@@ -45,13 +46,12 @@
 		<li>Building Screwball generators only requires textiles, which makes them ideal for powering your deep mining drills.</li>
 		<li>Since Discord lamps don't require power, they are able to continue providing light during solar flares.</li>
 		<li>If you have the XML Extensions mod enabled, you can configure many parts of this mod to your liking, such as whether or not bronies can be violent and how many textiles you need to craft plushies.</li>
-		<li>Nurse Redheart is a rare reward from quests; she will grant you 5 Medicine every 10 days as long as she has 350W of power.</li>
-		<li>The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you 30 Beer every 30 days as long as it has 500W of power.</li>
+		<li Name="NurseRedheart">Nurse Redheart is a rare reward from quests; she will grant you 5 Medicine every 10 days as long as she has 350W of power.</li>
+		<li Name="SSCS6K">The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you 30 Beer every 30 days as long as it has 500W of power.</li>
 		<li>Mudbriar, Quibble Pants and Zephyr Breeze turrets do no damage, but can help to distract raiders. They are, however, quite expensive to build.</li>
 		<li>The Fleur de Lis plush can be used to counter the effects of the 'ugly' traits.</li>
 		<li>The Nightmare Moon statue lets you acquire many exotic items using chocolate, which is handy if your colonists lack the skills, though it does work out to be more expensive than acquiring them normally.</li>
 		<li>The Daybreaker statue lets you convert 100 steel, plasteel, uranium, jade or gold into the market value equivalent of another. She will also let you create components (regular and advanced) much faster than using a fabrication bench, but bear in mind that chemfuel is required for everything she does.</li>
-		<li></li>
 	</tips>
 </TipSetDef>
 

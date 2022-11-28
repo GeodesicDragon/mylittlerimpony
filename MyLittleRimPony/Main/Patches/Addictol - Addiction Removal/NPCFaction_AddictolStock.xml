@@ -5,13 +5,15 @@
 <Operation Class="PatchOperationFindMod">
     <mods>
         <li>Addictol - Addiction Removal</li>
+        <li>Addictol [≤1.3]</li>
+		<li>Addictol [1.4]</li>
     </mods>
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader"]/stockGenerators</xpath>
 	    <value>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Addictol</thingDef>
-				<countRange>6</countRange>
+				<countRange>3</countRange>
 			</li>
 	    </value>
     </match>
@@ -20,13 +22,15 @@
 <Operation Class="PatchOperationFindMod">
     <mods>
         <li>Addictol - Addiction Removal</li>
+		<li>Addictol [≤1.3]</li>
+        <li>Addictol [1.4]</li>
     </mods>
     <match Class="PatchOperationAdd">
 	    <xpath>/Defs/TraderKindDef[defName="MLRP_NPCFaction_CombatSupplier"]/stockGenerators</xpath>
 	    <value>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Addictol</thingDef>
-				<countRange>1~3</countRange>
+				<countRange>1</countRange>
 			</li>
 	    </value>
     </match>

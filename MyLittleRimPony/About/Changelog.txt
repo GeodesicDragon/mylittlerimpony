@@ -1,3 +1,31 @@
+Version 3.30.19 (November 28th 2022)
+
+* Core: Added the magic mirror (from Equestria Girls) as a building capable of generating power.
+	* Generates 15000W of power.
+	* Research level is Ultra with a base cost of 30000.
+	* Research requires a hi-tech research bench and multi-analyser.
+	* Building one requires 16 Construction, 75 components, 25 advanced components, 1000 each of plasteel, steel and uranium, and a Sunset Shimmer plushie. Note that the plushie cannot be manufactured; it can only be acquired from quests or exotic goods vendors.
+	* If you stick a bunch of them in the same place you create a portal room, though nothing comes of it. (Thanks to Aelanna from the RimWorld Discord server for helping me with the C# I needed to make this work.)
+* Core: Added Sunset Shimmer plushie. Since she can't be equipped, she can be found under the 'Manufactured' category.
+* Core: Added 'PonyPlushie' apparel tag, meaning you can now create your own pawns that spawn with plushies should you so wish.
+	* Thanks to bblkepling for the suggestion.
+* Biotech: Added ability to create Sweetie Bot mechanoids.
+	* Require high mechtech to unlock.
+	* Created at a large gestator after two cycles.
+	* Move very fast and are equipped with a rainbow laser, but are vulnerable to melee attacks.
+	* Require 200 steel, 75 plasteel, a high subcore, 5 components and 5 bandwidth.
+* Biotech: Added missing textures for poison joke addiction genes.
+	* Thanks again to bblkepling for bringing my attention to the fact that they were missing.
+* MedPod: Added a patch which will prevent pods from attempting to heal the 'pony plushie' hediff.
+* Vanilla Achievements Expanded: Added achievement to acquire a Sunset Shimmer plush.
+* Vanilla Achievements Expanded: Added achievement to build the magic mirror.
+* Core: Fixed 'Config error in Brony_Mercenary_Grenadier: required apparel can't be worn together (Apparel_FlakPants, Apparel_Pants)' error.
+* Core: Fixed some patches related to loading screen tips not being applied correctly.
+* Core: Fixed NPC faction settlements refusing to buy plushies.
+* Addictol: Patches related to this mod should now work whether you are using the 1.3 or 1.4 version.
+* Addictol: Reduced the amount of addictol sold by NPC faction settlements to 3 (was 6).
+* Addictol: Reduced the amount of addictol sold by NPC faction combat suppliers to 1 (was 1-3).
+
 Version 3.22.13 (November 13th 2022)
 
 * Core: Added a file containing 200 random words to use for NPC faction pawn names, though you may see some weird combinations as a result.

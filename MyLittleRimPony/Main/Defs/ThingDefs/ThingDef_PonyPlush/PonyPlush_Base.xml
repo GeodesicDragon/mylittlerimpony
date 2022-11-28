@@ -42,9 +42,9 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-	<!--<costList>
-      <Cloth>300</Cloth>
-    </costList>-->
+    <tradeTags>
+      <li>MLRP_Plushie</li>
+    </tradeTags>
     <comps>
 		<li Class="CompProperties_Forbiddable" />
 		<li Class="CompProperties_CauseHediff_Apparel">
@@ -53,16 +53,20 @@
       </li>
     </comps>
     <apparel>
-  <careIfWornByCorpse>true</careIfWornByCorpse>
-  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-    <useWornGraphicMask>true</useWornGraphicMask>
+		<careIfWornByCorpse>true</careIfWornByCorpse>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		<wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+		<layers>
+			<li>Belt</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Waist</li>
+		</bodyPartGroups>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<tags>
+			<li>PonyPlushie</li>
+		</tags>
     </apparel>
   </ThingDef> 
 </Defs>

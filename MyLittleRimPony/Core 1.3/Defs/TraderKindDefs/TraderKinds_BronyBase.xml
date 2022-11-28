@@ -210,6 +210,7 @@
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 	  <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>MLRP_Plushie</tag></li>
     </stockGenerators>
   </TraderKindDef>
 

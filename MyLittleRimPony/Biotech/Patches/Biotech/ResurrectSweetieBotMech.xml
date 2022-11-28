@@ -1,0 +1,10 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="ResurrectMediumMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_MLRP_SweetieBotMech</li>
+		</value>
+	</Operation>
+  
+</Patch>

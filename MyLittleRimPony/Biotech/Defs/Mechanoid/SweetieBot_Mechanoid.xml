@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Sweetie Bot Mech -->  
+    <ThingDef ParentName="MLRP_SweetieBot_MechanoidBase">
+		<defName>MLRP_SweetieBotMech</defName>
+		<label>Sweetie Bot</label>
+		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to melee attacks.</description>
+		<statBases>
+			<MoveSpeed>10</MoveSpeed>
+			<BandwidthCost>5</BandwidthCost>
+		</statBases>
+		<race>
+			<body>Lancer</body> <!--Attempting to create a new body type would probably make my brain explode-->
+			<intelligence>ToolUser</intelligence>
+			<thinkTreeMain>Mechanoid</thinkTreeMain>
+			<mechWeightClass>Medium</mechWeightClass>
+			<nameGenerator>NamerMech</nameGenerator>
+			<baseBodySize>1.0</baseBodySize>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>SweetieBotMech_Wounded</soundWounded>
+					<soundDeath>SweetieBotMech_Death</soundDeath>
+					<soundCall>SweetieBotMech_Call</soundCall>
+				</li>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>100</minAge>
+					<soundWounded>SweetieBotMech_Wounded</soundWounded>
+					<soundDeath>SweetieBotMech_Death</soundDeath>
+					<soundCall>SweetieBotMech_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<baseHealthScale>1</baseHealthScale>
+		</race>
+		<butcherProducts>
+			<Steel>30</Steel>
+			<Plasteel>10</Plasteel>
+		</butcherProducts>
+		<tools>
+		  <li>
+			<label>front left hoof</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		  </li>
+		  <li>
+			<label>front right hoof</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		  </li>
+		  <li>
+			<label>horn</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		  </li>
+		</tools>
+	</ThingDef>
+    
+    <PawnKindDef ParentName="MLRP_SweetieBot_PawnKindBase">
+      <defName>MLRP_SweetieBotMech</defName>
+      <label>Sweetie Bot</label>
+      <race>MLRP_SweetieBotMech</race>
+      <lifeStages>
+        <li>
+          <bodyGraphicData>
+            <texPath>Things/Pawn/Mechanoid/SweetieBot</texPath>
+            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/SweetieBot</maskPath>
+            <shaderType>CutoutWithOverlay</shaderType>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>1</drawSize>
+          </bodyGraphicData>
+        </li>
+        <li>
+          <bodyGraphicData>
+            <texPath>Things/Pawn/Mechanoid/SweetieBot</texPath>
+            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/SweetieBot</maskPath>
+            <shaderType>CutoutWithOverlay</shaderType>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>1</drawSize>
+          </bodyGraphicData>
+        </li>
+      </lifeStages>   
+		<weaponMoney>9999~9999</weaponMoney>	  
+      <weaponTags>
+        <li>RainbowLaser_Mech</li>
+      </weaponTags>
+		<combatPower>150</combatPower>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    </PawnKindDef>
+	
+  <RecipeDef ParentName="MediumMechanoidRecipe">
+    <defName>MLRP_GestateSweetieBot</defName>
+    <label>gestate Sweetie Bot</label>
+    <description>Gestate a Sweetie Bot mechanoid.</description>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <MLRP_SweetieBotMech>1</MLRP_SweetieBotMech>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>MLRP_SweetieBotMech</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+	
+</Defs>

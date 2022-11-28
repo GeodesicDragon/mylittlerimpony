@@ -291,7 +291,6 @@
 		<li>Apparel_FlakPants</li>
 		<li>PonyPlush_RainbowDash</li>
 		<li>Apparel_AdvancedHelmet</li>
-		<li>Apparel_Pants</li>
 	</apparelRequired>
     <apparelMoney>
       <min>2000</min>

@@ -1,15 +1,13 @@
-﻿// Huge thanks to Aelanna from the official RimWorld Discord server for helping me out with this thing.
+﻿// My Little RimPony - A RimWorld Mod
+// Created by GeodesicDragon
+// MLP is property of Hasbro.
+// Huge thanks to Aelanna from the official RimWorld Discord server for helping me out with this thing.
 // And also for being so damn patient with me while my slow brain figured it all out.
-using System;
+// IMPORTANT: This version of the DLL is only compatible with RimWorld 1.4 and above.
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
-using Unity.Jobs;
 using RimWorld;
 using Verse;
-using Verse.AI;
 
 namespace MyLittleRimPony
 {
@@ -17,9 +15,11 @@ namespace MyLittleRimPony
 
     public static class MyDefOf
     {
+        public static ThingDef MLRP_MagicMirrorGenerator;
         public static TraitDef MLRP_BronyTrait;
         public static TraitDef MLRP_AntiBronyTrait;
         public static ThoughtDef MLRP_PonyPlushEquippedAntiBrony;
+        public static RoomRoleDef MLRP_PortalRoom;
 
         static MyDefOf()
         {
@@ -131,7 +131,6 @@ namespace MyLittleRimPony
     {
         protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
         {
-            //List<Hediff> hediffs3 = pawn.health.hediffSet.GetHediffs<Hediff>().ToList();
             List<Hediff> MLRP_HediffsToCheck = pawn.health.hediffSet.hediffs.ToList();
             foreach (Hediff hediff in MLRP_HediffsToCheck)
             {
@@ -154,6 +153,23 @@ namespace MyLittleRimPony
                         break;
                 }
             }
+        }
+    }
+
+    // PORTAL ROOM
+
+    public class RoomRoleWorker_PortalRoom : RoomRoleWorker
+    {
+        public override float GetScore(Room room)
+        {
+            int num = 0;
+            List<Thing> andAdjacentThings = room.ContainedAndAdjacentThings;
+            for (int index = 0; index < andAdjacentThings.Count; ++index)
+            {
+                if (andAdjacentThings[index].def == MyDefOf.MLRP_MagicMirrorGenerator)
+                    ++num;
+            }
+            return 50f * (float)num;
         }
     }
 }

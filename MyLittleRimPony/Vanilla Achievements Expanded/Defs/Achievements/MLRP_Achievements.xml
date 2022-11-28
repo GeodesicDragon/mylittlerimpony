@@ -689,6 +689,36 @@
 		<points>30</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_SunsetShimmer</defName>
+		<label>Bringing Home The Bacon (Mane)</label>
+		<description>Obtain a Sunset Shimmer plushie</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.ItemTracker">
+			<def>PonyPlush_SunsetShimmer</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/BringingHomeTheBaconMane</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_MagicMirror</defName>
+		<label>Equestrian Girl Power</label>
+		<description>Build a magic mirror</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_MagicMirrorGenerator</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/EquestrianGirlPower</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--HUMAN LEATHER MANE SIX PLUSHIES-->
 	
 	<AchievementsExpanded.AchievementDef>
@@ -821,4 +851,5 @@
 		<texPath>UI/Abilities/ImproveRelations</texPath>
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
+
 </Defs>

@@ -24,5 +24,14 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef Name="MLRP_TimeConsumingResearchBase" Abstract="True">
+		<baseCost>30000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
   
 </Defs>

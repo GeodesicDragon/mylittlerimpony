@@ -1,0 +1,30 @@
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>PonyPlush_SunsetShimmer</defName>
+		<label>Sunset Shimmer</label>
+		<description>Once the student of Princess Celestia, Sunset let the thought of power and glory get to her head, leading to her making a mistake. But with new friends by her side, she is putting her past behind her and moving towards a brighter future.</description>
+		<graphicData>
+				<texPath>Things/PonyPlush/SunsetShimmer</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>1</drawSize>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<statBases>
+			<MarketValue>6000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.125</Mass>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+</Defs>

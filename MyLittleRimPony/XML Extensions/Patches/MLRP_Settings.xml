@@ -502,7 +502,7 @@
 			<brackets>{}</brackets>    
 			<apply>
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[42]</xpath>
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="NurseRedheart"]</xpath>
 					<value>
 						<li>Nurse Redheart is a rare reward from quests; she will grant you {MLRP_NurseRedheartMedicineSpawnAmount} Medicine every {MLRP_NurseRedheartMedicineSpawnTime} days as long as she has 350W of power.</li>
 					</value>
@@ -690,7 +690,7 @@
 			<brackets>{}</brackets>    
 			<apply>
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[43]</xpath>
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="SSCS6K"]</xpath>
 					<value>
 						<li>The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days as long as it has 500W of power.</li>
 					</value>
@@ -753,7 +753,7 @@
 				</Operation>
 				
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/li[7]</xpath>
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/li[@Name="ChildRainbowDash"]</xpath>
 					<value>
 						<li>The child-equippable Rainbow Dash plushie grants the same bonuses as the adult version.</li>
 					</value>
@@ -770,7 +770,7 @@
 				</Operation>
 				
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips/li[7]</xpath>
+					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips/li[@Name="ChildRainbowDash"]</xpath>
 					<value>
 						<li>The child-equippable Rainbow Dash plushie only affects a child's movement speed and not their combat prowess.</li>
 					</value>
@@ -840,6 +840,12 @@
 				<li Class="XmlExtensions.Setting.Text">
 					<text>Sweetie Bot Settings</text>
 					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
+					<text>IMPORTANT: These settings will not be applied to the mechanoid version of Sweetie Bot.</text>
+					<font>Small</font>
 					<anchor>Left</anchor>
 				</li>
 				

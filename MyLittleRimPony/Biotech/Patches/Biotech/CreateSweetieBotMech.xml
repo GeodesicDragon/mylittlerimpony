@@ -1,0 +1,10 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="LargeMechGestator"]/recipes</xpath>
+		<value>
+			<li>MLRP_GestateSweetieBot</li>
+		</value>
+	</Operation>
+	
+</Patch>
