@@ -1,0 +1,15 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/HediffDef[defName="MLRP_ShrewdNegotiatorHediff"]/stages/li/statFactors</xpath>
+			<value>
+				<ConversionPower>10</ConversionPower>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

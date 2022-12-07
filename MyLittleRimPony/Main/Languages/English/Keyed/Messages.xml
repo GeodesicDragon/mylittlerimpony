@@ -1,0 +1,15 @@
+<LanguageData>
+
+	<!--CORE-->
+
+	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured>
+	<MLRP_NothingToCure_NoRimPonk>{0} is not suffering from any poison joke addiction.</MLRP_NothingToCure_NoRimPonk>
+	<MLRP_NothingToCure_RimPonk MayRequire="SovietRabotyaga.RimPonkOld">{0} is not suffering from any poison joke or magical cake addictions.</MLRP_NothingToCure_RimPonk>
+	<MLRP_AntiBronyHasPlushie>A pawn with the anti brony trait has a pony plushie equipped, causing a mood penalty.</MLRP_AntiBronyHasPlushie>
+
+
+	<!--ROYALTY-->
+	
+	<MLRP_AntiBronyHasHarmonyChip MayRequire="Ludeon.RimWorld.Royalty">You have installed a harmony chip in a pawn with the anti brony trait. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChip>
+	
+</LanguageData>

@@ -1,0 +1,64 @@
+<Defs>
+
+	<SoundDef>
+		<defName>MLRP_OFC_Fire</defName>
+		<sustain>False</sustain>
+		<sustainFadeoutTime>1</sustainFadeoutTime>
+		<maxSimultaneous>3</maxSimultaneous>
+		<context>MapOnly</context>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OrbitalFriendshipCannon_Fire</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>MLRP_OFC_Aim</defName>
+		<sustain>True</sustain>
+		<sustainFadeoutTime>1</sustainFadeoutTime>
+		<maxSimultaneous>3</maxSimultaneous>
+		<context>MapOnly</context>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OrbitalFriendshipCannon_Warmup</clipPath>
+					</li>
+				</grains>
+				<volumeRange>100</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>MLRP_EOH_Fire</defName>
+		<sustain>False</sustain>
+		<sustainFadeoutTime>1</sustainFadeoutTime>
+		<maxSimultaneous>99</maxSimultaneous>
+		<context>MapOnly</context>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/WeaponisedEOH_Fire</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+  
+</Defs>

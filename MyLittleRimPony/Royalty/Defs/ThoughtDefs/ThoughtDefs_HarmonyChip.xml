@@ -12,7 +12,7 @@
       <li>
         <label>Brony has harmony chip</label>
         <description>My wildest dream has finally come true!</description>
-        <baseMoodEffect>20</baseMoodEffect>
+        <baseMoodEffect>10</baseMoodEffect>
       </li>
     </stages>
 	<requiredTraits>
@@ -31,7 +31,7 @@
       <li>
         <label>Anti-brony has harmony chip</label>
         <description>Get it out, get it out, get it out, get it out, GET IT OUT!</description>
-        <baseMoodEffect>-20</baseMoodEffect>
+        <baseMoodEffect>-10</baseMoodEffect>
       </li>
     </stages>
 	<requiredTraits>
@@ -50,7 +50,7 @@
       <li>
         <label>Harmony chip installed</label>
         <description>I feel really good, though I do have an urge to break into song for some reason.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
 	<nullifyingTraits>

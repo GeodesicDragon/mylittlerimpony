@@ -1,0 +1,25 @@
+<Defs>
+
+  <HediffDef>
+    <defName>MLRP_ShrewdNegotiatorHediff</defName>
+    <label>shrewd negotiator</label>
+    <description>This pawn has tapped into their alicorn genes, vastly improving their social and negotiation skills for a while.</description>
+	<hediffClass>HediffWithComps</hediffClass>
+	<stages>
+		<li>
+			<statFactors>
+				<NegotiationAbility>10</NegotiationAbility>
+				<TradePriceImprovement>10</TradePriceImprovement>
+				<SocialImpact>10</SocialImpact>
+			</statFactors>
+		</li>
+	</stages>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		</li>
+		<li Class="HediffCompProperties_DisappearsOnDeath"/>
+	</comps>
+  </HediffDef>
+
+</Defs>

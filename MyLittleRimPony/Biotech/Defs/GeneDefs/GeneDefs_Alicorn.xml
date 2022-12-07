@@ -4,10 +4,13 @@
 	<defName>MLRP_AlicornGene</defName>
 	<label>alicorn</label> 
 	<labelShortAdj>alicorn</labelShortAdj> 
-	<description>Carriers of this gene have earth pony strength, unicorn manipulation and pegasus agility.</description>
+	<description>Carriers of this gene have earth pony strength, unicorn manipulation and pegasus agility.\n\nFurthermore, they also have the ability to vastly improve their social skills, though this can only be done once per quadrum.</description>
 	<iconPath>UI/Icons/Genes/Alicorn</iconPath>
 	<displayCategory>MLRP_GeneCategory</displayCategory>
 	<displayOrderInCategory>60</displayOrderInCategory>
+    <abilities>
+      <li>MLRP_ShrewdNegotiator</li>
+    </abilities>
 	<statFactors>
 		<CarryingCapacity>1.25</CarryingCapacity>
 		<MeleeDodgeChance>1.1</MeleeDodgeChance>

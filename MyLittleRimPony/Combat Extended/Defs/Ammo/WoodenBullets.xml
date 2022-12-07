@@ -16,7 +16,7 @@
 		<statBases>
 			<Mass>0.01</Mass>
 			<Bulk>0.015</Bulk>
-			<MarketValue>0.1</MarketValue>
+			<MarketValue>0.01</MarketValue>
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>

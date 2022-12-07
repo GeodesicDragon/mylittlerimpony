@@ -10,6 +10,21 @@
 			<!--PLUSHIES-->
 			
 			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_FlimAndFlam</defName>
+				<label>Warranty Void When Created</label>
+				<description>Craft a Flim and Flam plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_FlimAndFlam</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/WarrantyVoidWhenCreated</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_KingSombra</defName>
 				<label>Crystalsssss</label>
 				<description>Craft a King Sombra plushie</description>

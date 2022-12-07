@@ -53,6 +53,21 @@
 				<texPath>Things/AmmoBox/Ammo_HarmonyLaser</texPath>
 				<points>100</points>
 			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_WoodenBullets</defName>
+				<label>Splinters, Splinters Everywhere</label>
+				<description>Craft 100,000 rounds of aggro turret ammo</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>Ammo_HarmonyLaser</def>
+					<count>100000</count>
+				</tracker>
+				
+				<texPath>Things/AmmoBox/Ammo_WoodenBullets</texPath>
+				<points>100</points>
+			</AchievementsExpanded.AchievementDef>
 		</value>
 	</match>
 </Operation>

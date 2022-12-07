@@ -105,7 +105,7 @@
 	  <Steel>350</Steel>
 	  <Plasteel>350</Plasteel>
 	  <Uranium>350</Uranium>
-	  <Gold>17.5</Gold>
+	  <Gold>15</Gold>
       <ComponentSpacer>10</ComponentSpacer>
     </costList>
 	<statBases>

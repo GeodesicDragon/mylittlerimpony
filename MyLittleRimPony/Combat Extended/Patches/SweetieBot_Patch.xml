@@ -10,12 +10,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases</xpath>
 		<value>
-			<AimingAccuracy>0.45</AimingAccuracy>
+			<AimingAccuracy>0.6</AimingAccuracy>
 		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
 	</Operation>
 	
   <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">

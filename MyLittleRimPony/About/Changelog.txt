@@ -1,3 +1,34 @@
+Version 3.38.34 (December 7th 2022)
+
+* Royalty: Added an alert to show you when you have anti-bronies with harmony chips installed.
+* Ideology: Added Flim and Flam (+25% conversion power).
+	* Like the Aloe and Lotus plush, they require 1.5 times the materials of a regular plushie to make.
+* Biotech: Added a new floordrawing, created by me. Finally, my laughable art skills can be put to good use!
+* Biotech: Added the 'Shrewd Negotiator' ability, available to pawns with the Alicorn gene.
+	* When used, it will vastly improve a pawn's negotiation ability, trade price improvement and social impact for 15 seconds.
+	* If Ideology is enabled, it will also increase their conversion power.
+	* For a pawn with level 20 Social and no other abilities or implants, using Shrewd Negotiator will grant 1900% negotiation ability, 300% trade price improvement, 1370% social impact and 2050% conversion power.
+	* This ability can only be used once every 15 days.
+* Combat Extended: Added patch for Flim and Flam.
+* Combat Extended: Added compatibility patches for the Sweetie Bot mechanoid.
+* Vanilla Achievements Expanded: Added an achievement to make 100,000 rounds of ammo for the aggro turrets. (Requires Combat Extended.)
+* Vanilla Achievements Expanded: Added achievement to make a Flim and Flam plushie.
+* Core: Reduced mood bonus bronies get from having a plushie equipped to 5 (was 10).
+* Core: Reduced mood loss anti bronies get from having a plushie equipped to -10 (was -20).
+* Core: Weapon sounds now work again. Many thanks to OttersHoldHands from the RimWorld Discord for fixing this issue.
+* Core: Replaced the Fluttershy plushie in the Brony Community scenario with Maud Pie. After all, surely mining for steel and components at the start of a new game is slightly more important than trying to tame animals?
+* Core: Mousing over the 'Anti brony has plushie' alert now properly shows the explanation.
+* Core: NPC faction slave traders should now have slaves to sell.
+* Combat Extended: Fixed 'Verse.PatchOperationAdd(xpath="/Defs/ThingDef[defName="*"]/statBases"): Failed to find a node with the given xpath` errors. As a result, all plushies now have a bulk of one and a worn bulk of... well, one.
+* Combat Extended: Increased aiming accuracy of Sweetie Bot turrets to 60% (was 45%).
+* Combat Extended: Reduced market value of wooden bullets to 0.01 silver (was 0.1).
+* Royalty: Reduced mood bonus bronies get from having a harmony chip installed to 10 (was 20).
+* Royalty: Reduced mood bonus non bronies get from having a harmony chip installed to 5 (was 10).
+* Royalty: Reduced mood loss anti bronies get from having a harmony chip installed to -10 (was -20).
+* Royalty: Reduced gold needed to make a harmony chip to 150 (was 175). This also fixes the yellow 'Parsed 17.5 as int.' warning.
+* Royalty: Mousing over the 'Anti brony has harmony chip' alert now properly shows the explanation.
+* XML Extensions: Simplified the operation to change the cost of plushies which feature two ponies (Aloe and Lotus/Flim and Flam). You might be left with some unused variables, but you can safely delete them from the XML Extensions settings menu.
+
 Version 3.30.19 (November 28th 2022)
 
 * Core: Added the magic mirror (from Equestria Girls) as a building capable of generating power.

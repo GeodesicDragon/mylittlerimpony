@@ -391,6 +391,7 @@
 		<countRange>1000~2500</countRange>
 	</li>
 	<li Class="StockGenerator_Slaves">
+		<respectPopulationIntent>false</respectPopulationIntent>
 		<countRange>5</countRange>
 	</li>
 	</stockGenerators>

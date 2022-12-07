@@ -68,5 +68,9 @@
 			<li>PonyPlushie</li>
 		</tags>
     </apparel>
-  </ThingDef> 
+  </ThingDef>
+  
+	<ThingDef Name="DoublePonyPlushBase" ParentName="PonyPlushBase" Abstract="True">
+		<costStuffCount>450</costStuffCount> <!--For plushies that feature two ponies-->
+	</ThingDef>
 </Defs>

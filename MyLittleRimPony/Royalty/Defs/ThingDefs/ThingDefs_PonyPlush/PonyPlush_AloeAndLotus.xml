@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
+  <ThingDef ParentName="DoublePonyPlushBase">
     <thingClass>Apparel</thingClass>
     <defName>PonyPlush_AloeAndLotus</defName>
     <label>Aloe and Lotus</label>
@@ -14,6 +14,5 @@
     <equippedStatOffsets>
       <MeditationFocusGain>0.25</MeditationFocusGain>
     </equippedStatOffsets>
-	<costStuffCount>450</costStuffCount>
   </ThingDef>
 </Defs>

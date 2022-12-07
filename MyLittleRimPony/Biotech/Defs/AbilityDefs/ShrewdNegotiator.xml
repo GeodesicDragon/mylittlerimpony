@@ -1,0 +1,44 @@
+<Defs>
+	<AbilityGroupDef>
+		<defName>MLRP_GeneAbilities</defName>
+		<cooldownTicks>900000</cooldownTicks>
+	</AbilityGroupDef>
+	
+	<AbilityDef>
+		<defName>MLRP_ShrewdNegotiator</defName>
+		<label>Shrewd Negotiator</label>
+		<description>Tap into the power of your alicorn genes to improve your social skills by a substantial amount for 15 seconds.</description>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>UI/Abilities/ShrewdNegotiator</iconPath>
+		<stunTargetWhileCasting>False</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<groupDef>MLRP_GeneAbilities</groupDef>
+		<gizmoClass>Command_Ability</gizmoClass>
+		<hotKey>Misc12</hotKey>
+		<uiOrder>2</uiOrder>
+		<warmupStartSound>WorkDrive_Warmup</warmupStartSound>
+		<statBases>
+			<Ability_Duration>15</Ability_Duration>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>False</drawAimPie>
+			<range>-1</range>
+			<warmupTime>0.1</warmupTime>
+			<targetable>false</targetable>
+			<targetParams>
+				<canTargetSelf>true</canTargetSelf>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>MLRP_ShrewdNegotiatorHediff</hediffDef>
+				<onlyBrain>True</onlyBrain>
+				<applicableToMechs>False</applicableToMechs>
+			</li>
+		</comps>
+	</AbilityDef>
+</Defs>

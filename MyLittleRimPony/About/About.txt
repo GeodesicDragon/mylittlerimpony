@@ -45,6 +45,7 @@ BIOTECH
 * Adds an earth pony strength gene mod which imbues a pawn with extra hardiness, increasing their armour and cold/heat resistances.
 * Adds a pegasus wings gene mod which makes a pawn faster (+2c/s move speed) and more agile (+15% extra dodge chance).
 * All three of these effects can be applied at once using the alicorn gene mod.
+* Sweetie Bot mechanoids!
 
 |-------------------------|
 |      CORE PLUSHIES      |
@@ -52,11 +53,13 @@ BIOTECH
 
 Apple Bloom: +50% to immunity gain rate.
 Applejack: +25% to plant work speed and harvest yield.
-Big Macintosh: +25kg to maximum carry capacity. (Patched to +50kg if Bulk Carrier is enabled.)
+Big Macintosh: +25kg to maximum carry capacity. (Patched to +75kg if Bulk Carrier is enabled.)
 Cheerilee: +50% to global learning factor.
 Cutie Mark Crusaders: Combines the bonuses granted by each CMC plush into one item.
+Daring Do: +10% to melee dodge chance.
 Discord: +25% global work speed.
 Elements of Harmony: Combines the bonuses granted by each Mane Six plush into one item. Required to craft Rainbow Lasers.
+Fleur De Lis: +2 to pawn beauty. (Not applied to harmony chip.)
 Fluttershy: +25% each to animal tame chance and training chance.
 Nurse Haywick (my OC): +25% each to medical tend speed, tend quality and surgery success chance.
 Izzy Moonbow: +10 to mood and opinions of others boosted by 25%.
@@ -69,7 +72,7 @@ Rainbow Dash: +50% to movement and +5% to melee hit chance and shooting accuracy
 Rarity: +25% to trade price improvement.
 Scootaloo: +50% to injury healing speed.
 Shining Armour: +15% to blunt, heat and sharp armour ratings.
-Spoiled Rich: -25% to toxic sensitivity.
+Spoiled Rich: -25% to toxic environment resistance (formerly toxic sensitivity).
 Starlight Glimmer: -100% to psychic sensitivity.
 Sweetie Belle: +20 to cooking speed and -5% chance of poisoning a meal.
 Twilight Sparkle: +25% research speed.
@@ -85,6 +88,7 @@ Trixie: Increases neural heat recovery by 0.1 per second.
 |      IDEOLOGY PLUSHIES      |
 |-----------------------------|
 
+Flim and Flam: +25% conversion power.
 King Sombra: +10% to slave suppression.
 Queen Chrysalis: +25% to a warden's slave suppression power.
 Twilight Sparkle: Increases hacking speed by 25% on top of her usual bonus.
@@ -100,6 +104,7 @@ Apple Bloom: Adds a variant which can be equipped by children.
 Big Macintosh: Adds a variant which can be equipped by children.
 Cheerilee: Adds a variant which can be equipped by children.
 Discord: Adds a variant which can be equipped by children.
+Rainbow Dash: Adds a variant which can be equipped by children (only increases speed; does not affect combat prowess).
 Scootaloo: Adds a variant which can be equipped by children.
 Shining Armour: Adds a variant which can be equipped by children.
 
@@ -151,3 +156,4 @@ XML Extensions: Allows you to configure many aspects of the mod to your own liki
 	* How often medicine is spawned by Nurse Redheart.
 	* How much beer is spawned by the Super Speedy Cider Squeezy 6000.
 	* How often beer is spawned by the Super Speedy Cider Squeezy 6000.
+	* Whether or not the child-equippable Rainbow Dash has the same bonuses as the adult version.
