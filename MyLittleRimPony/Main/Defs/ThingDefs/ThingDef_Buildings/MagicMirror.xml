@@ -16,7 +16,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
-    <blockWind>false</blockWind>
+    <blockWind>true</blockWind>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <WorkToBuild>6000</WorkToBuild>

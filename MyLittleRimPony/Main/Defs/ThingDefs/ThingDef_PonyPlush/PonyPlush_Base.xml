@@ -15,6 +15,7 @@
         <li>PlushieBench</li>
       </recipeUsers>
       <soundWorking>Recipe_Tailor</soundWorking>
+		<workSkill>Crafting</workSkill>
     </recipeMaker>
     <category>Item</category>
     <selectable>True</selectable>
@@ -30,7 +31,7 @@
 		<Flammability>1</Flammability>
 		<EquipDelay>0.1</EquipDelay>
 		<Beauty>1</Beauty>
-		<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold> <!--Plushies are warm and cuddly-->
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>

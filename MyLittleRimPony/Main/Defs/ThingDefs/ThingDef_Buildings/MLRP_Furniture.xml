@@ -58,7 +58,12 @@
       <Mass>4</Mass>
       <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
     </statBases>
-	<designationHotKey>Misc10</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+      </li>
+    </comps>
+	<specialDisplayRadius>8</specialDisplayRadius>
   </ThingDef>
   
   <ThingDef ParentName="DiscordLampBase" >
@@ -67,7 +72,6 @@
     <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a standard white light.</description>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>12</glowRadius>
         <glowColor>(255,255,255,0)</glowColor>
       </li>
     </comps>
@@ -79,7 +83,6 @@
     <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a red light.</description>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>12</glowRadius>
         <glowColor>(255,0,0,0)</glowColor>
       </li>
     </comps>
@@ -94,7 +97,6 @@
     <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a green light.</description>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>12</glowRadius>
         <glowColor>(0,0,255,0)</glowColor>
       </li>
     </comps>
@@ -109,7 +111,6 @@
     <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.\n\nThis one glows with a blue light.</description>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>12</glowRadius>
         <glowColor>(0,255,0,0)</glowColor>
       </li>
     </comps>

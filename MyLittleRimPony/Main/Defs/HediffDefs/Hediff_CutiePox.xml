@@ -1,0 +1,83 @@
+<Defs>
+
+<HediffDef ParentName="InfectionBase">
+	<defName>MLRP_CutiePox</defName>
+	<label>Cutie Pox</label>
+	<description>An infection of Equestrian origin.\n\nIt improves a person's skills, but causes pain and requires a lot of time and medicine in order to be treated.</description>
+	<hediffClass>HediffWithComps</hediffClass>
+	<makesSickThought>false</makesSickThought>
+	<scenarioCanAdd>true</scenarioCanAdd>
+	<tendable>true</tendable>
+	<stages>
+		<li>
+			<painOffset>0.2</painOffset>
+			<statOffsets>
+				<PlantWorkSpeed>0.05</PlantWorkSpeed>
+				<PlantHarvestYield>0.05</PlantHarvestYield>
+				<TameAnimalChance>0.05</TameAnimalChance>
+				<TrainAnimalChance>0.05</TrainAnimalChance>
+				<AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+				<AnimalGatherYield>0.05</AnimalGatherYield>
+				<SocialImpact>0.05</SocialImpact>
+				<TradePriceImprovement>0.05</TradePriceImprovement>
+				<ResearchSpeed>0.05</ResearchSpeed>
+				<MedicalTendSpeed>0.05</MedicalTendSpeed>
+				<MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
+				<SurgerySuccessChanceFactor>0.05</SurgerySuccessChanceFactor>
+				<MiningSpeed>0.05</MiningSpeed>
+				<MiningYield>0.05</MiningYield>
+				<CookSpeed>5</CookSpeed>
+				<FoodPoisonChance>-0.05</FoodPoisonChance>
+			</statOffsets>
+		</li>
+	</stages>
+	<comps>
+		<li Class="HediffCompProperties_TendDuration">
+			<baseTendDurationHours>24</baseTendDurationHours>
+			<disappearsAtTotalTendQuality>10</disappearsAtTotalTendQuality>
+		</li>
+	</comps>
+</HediffDef>
+
+<IncidentDef ParentName="DiseaseIncident">
+	<defName>MLRP_Disease_CutiePox</defName>
+	<label>the Cutie Pox</label>
+	<diseaseIncident>MLRP_CutiePox</diseaseIncident>
+	<letterLabel>Disease: Cutie Pox</letterLabel>
+</IncidentDef>
+
+<ThoughtDef>
+	<defName>MLRP_CutiePoxThoughtBrony</defName>
+	<workerClass>ThoughtWorker_Hediff</workerClass>
+	<hediff>MLRP_CutiePox</hediff>
+	<validWhileDespawned>true</validWhileDespawned>
+	<stages>
+		<li>
+			<label>has the cutie pox</label>
+			<description>Now I know how Apple Bloom must have felt!</description>
+			<baseMoodEffect>3</baseMoodEffect>
+		</li>
+	</stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+</ThoughtDef>
+
+<ThoughtDef>
+	<defName>MLRP_CutiePoxThoughtAntiBrony</defName>
+	<workerClass>ThoughtWorker_Hediff</workerClass>
+	<hediff>MLRP_CutiePox</hediff>
+	<validWhileDespawned>true</validWhileDespawned>
+	<stages>
+		<li>
+			<label>has the cutie pox</label>
+			<description>Seriously? I'd rather have the plague.</description>
+			<baseMoodEffect>-3</baseMoodEffect>
+		</li>
+	</stages>
+	<requiredTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</requiredTraits>
+</ThoughtDef>
+  
+</Defs>

@@ -1,3 +1,31 @@
+Version 3.43.49 (December 25th 2022)
+
+* Core: Added a Manifest.xml file for all you RimPy users out there.
+* Core: Added a recipe to the Nightmare Moon statue which will give you 500 kibble in exchange for 850 silver (1.5x the market value).
+* Core: The Cutie Pox has made its way to the rim.
+	* Increases many stats by 5%, but also increases pain by 20%.
+	* Requires tending every 24 hours.
+	* Clears when the total tending reaches 1000%.
+	* Bronies will get +3 to mood while they have the disease, while anti bronies will get -3 to mood.
+* XML Extensions: Added an option to configure whether the harmony precept grants the old bonuses or the new ones (see below).
+* XML Extensions: Added an option to configure whether MedPods will be prevented from curing the Cutie Pox. Set to true by default.
+* Core: Fixed plushies not granting any Crafting experience while making them. (About damn time, am I right?)
+* Core: Reduced mood bonus given by the Izzy Moonbow plushie to +5 (was +10).
+* Core: Magic mirrors will now block wind turbines.
+* Core: Fixed exotic goods traders not stocking Sunset Shimmer plushies.
+* Core: Reduced light radius of Discord lamps to 8 (was 12).
+* Core: Fixed Discord lamps not showing their light radius when selected.
+* Core: Fluttershy now increases animal gathering speed by 25%.
+* Core: Fluttershy now increases animal gathering yield by 25%.
+* Ideology: The harmony precept has been nerfed, as I felt that the stats it provided were a bit too overpowered.
+	* Reduced melee hit chance to +1 (was +5).
+	* Reduced shooting accuracy bonus to +1 (was +5).
+	* Reduced movement speed bonus to 0.5 (was 1).
+	* Reduced all other bonuses to +10% (was +25%).
+* Biotech: Reduced movement speed of Sweetie Bot mechanoids to 8 (was 10).
+* Biotech: Sweetie Bot mechanoids now have a blunt armour rating of 10 (was 0).
+* Biotech: Sweetie Bot mechanoids now have a sharp armour rating of 30 (was 0).
+
 Version 3.38.34 (December 7th 2022)
 
 * Royalty: Added an alert to show you when you have anti-bronies with harmony chips installed.

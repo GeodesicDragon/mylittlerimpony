@@ -14,6 +14,8 @@
     <equippedStatOffsets>
       <TameAnimalChance>0.25</TameAnimalChance>
       <TrainAnimalChance>0.25</TrainAnimalChance>
+      <AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+      <AnimalGatherYield>0.25</AnimalGatherYield>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>

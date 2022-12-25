@@ -28,6 +28,7 @@ CORE
 * Adds Mudbriar, Quibble Pants and Zephyr Breeze as turrets which do zero damage, and only serve to distract raiders.
 * Adds poison joke, a drug which improves a pawns movement and manipulation, but causes a mood debuff. Also adds an item, made using 10 neutroamine and 15 herbal medicine, which cures a person of an addiction to poison joke.
 * Adds the Super Speedy Cider Squeezy 6000, obtainable only via quests; it will provide 30 Beer every 30 days as long as it has 500W of power.
+* Adds the Cutie Pox as a disease you can catch. It causes pain and requires a lot of tending, but increases a lot of skills by a small amount.
 
 ROYALTY
 

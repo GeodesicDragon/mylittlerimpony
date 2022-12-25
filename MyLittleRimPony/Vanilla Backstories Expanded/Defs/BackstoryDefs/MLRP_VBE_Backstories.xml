@@ -38,7 +38,9 @@
 			<li><defName>Psychopath</defName></li>
 			<li><defName>MLRP_AntiBronyTrait</defName></li>
 		</disallowedTraits>
-		<forcedTraits><li><defName>MLRP_BronyTrait</defName></li></forcedTraits>
+		<forcedTraits>
+			<li><defName>MLRP_BronyTrait</defName></li>
+		</forcedTraits>
 	</VFECore.BackstoryDef>
 
 </Defs>

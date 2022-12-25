@@ -1,0 +1,12 @@
+Battalion
+Brigade
+Company
+Corps
+Crew
+Division
+Patrol
+Platoon
+Regiment
+Squad
+Unit
+League

@@ -56,6 +56,8 @@
 				<PlantHarvestYield>0.25</PlantHarvestYield>
 				<TameAnimalChance>0.25</TameAnimalChance>
 				<TrainAnimalChance>0.25</TrainAnimalChance>
+				<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+				<AnimalGatherYield>0.25</AnimalGatherYield>
 				<SocialImpact>0.25</SocialImpact>
 				<MoveSpeed>1</MoveSpeed>
 				<MeleeHitChance>5</MeleeHitChance>
@@ -86,7 +88,6 @@
 				<MeleeDodgeChanceOutdoorsDarkOffset>0.1</MeleeDodgeChanceOutdoorsDarkOffset>
 				<MeleeDodgeChanceOutdoorsLitOffset>0.1</MeleeDodgeChanceOutdoorsLitOffset>
 				<ToxicSensitivity>-0.25</ToxicSensitivity>
-				<!--<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>-->
 			</statOffsets>
 		</li>
 	</stages>
@@ -97,7 +98,7 @@
   <ThingDef ParentName="MLRP_BionicImplantBase">
     <defName>MLRP_HarmonyChip</defName>
     <label>harmony chip</label>
-    <description>When implanted in the brain, this powerful item will grant the bonuses of nearly every available pony plushie at once, leaving the utility slot free for something else. It is expensive, but many agree that it's worth it for the bonuses to stats and abilities.\n\nHaving one will make people happy - some more than others - but there are those who detest the idea of having this item implanted.</description>
+    <description>When implanted in the brain, this powerful item will grant the bonuses of nearly every available pony plushie at once, leaving the utility slot free for something else. It is expensive, but many agree that it's worth it for the bonuses to stats and abilities.\n\nHaving one will make people happy - some more than others - but there are those who will detest the idea of having this item implanted.</description>
     <thingSetMakerTags>
 		<li>RewardStandardLowFreq</li>
 	</thingSetMakerTags>

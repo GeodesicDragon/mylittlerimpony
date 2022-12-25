@@ -1,0 +1,11 @@
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/HediffDef[defName="MLRP_CutiePox"]/stages/li/statOffsets</xpath>
+	<value>
+		<MeditationFocusGain>0.05</MeditationFocusGain>
+		<PsychicEntropyRecoveryRate>0.02</PsychicEntropyRecoveryRate>
+	</value>
+</Operation>
+
+</Patch>

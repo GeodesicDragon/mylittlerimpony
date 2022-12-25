@@ -119,21 +119,6 @@
 				</Operation>
 			</apply>
 		</li>
-		
-		<!--KID PLUSHIES: CRAFTING SKILL REQUIRED-->
-		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Biotech">
-			<modId>geodesicdragon.rimpony</modId>
-			<key>MLRP_PlushieCraftingSkill</key>
-			<defaultValue>5</defaultValue>
-			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[@Name="PonyPlushChildBase"]/recipeMaker/skillRequirements/Crafting</xpath>
-					<value>
-						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
-					</value>
-				</Operation>
-			</apply>
-		</li>
 
 		<!--PLUSHIES: MARKET VALUE-->
 		<li Class="XmlExtensions.UseSetting">
@@ -526,7 +511,7 @@
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="NurseRedheart"]</xpath>
 					<value>
-						<li>Nurse Redheart is a rare reward from quests; she will grant you {MLRP_NurseRedheartMedicineSpawnAmount} Medicine every {MLRP_NurseRedheartMedicineSpawnTime} days as long as she has 350W of power.</li>
+						<li Name="NurseRedheart">Nurse Redheart is a rare reward from quests; she will grant you {MLRP_NurseRedheartMedicineSpawnAmount} Medicine every {MLRP_NurseRedheartMedicineSpawnTime} days as long as she has 350W of power.</li>
 					</value>
 				</Operation>
 			</apply>
@@ -714,7 +699,7 @@
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="SSCS6K"]</xpath>
 					<value>
-						<li>The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days as long as it has 500W of power.</li>
+						<li Name="SSCS6K">The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days as long as it has 500W of power.</li>
 					</value>
 				</Operation>
 			</apply>
@@ -722,9 +707,9 @@
 		
 		<!--DAYBREAKER STATUE: REGULAR CHEMFUEL REQUIRED-->
 		<li Class="XmlExtensions.UseSetting">
-			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
-			<key>MLRP_DaybreakerChemfuel</key> <!--Key to identify the setting (only used internally, invisible to user)-->
-			<defaultValue>75</defaultValue> <!--What you want the default value of the setting to be-->
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DaybreakerChemfuel</key>
+			<defaultValue>75</defaultValue>
 			<apply>
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/RecipeDef[@Name="DaybreakerRecipes_RegularChemfuel"]/ingredients/li/count</xpath>
@@ -777,7 +762,7 @@
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/li[@Name="ChildRainbowDash"]</xpath>
 					<value>
-						<li>The child-equippable Rainbow Dash plushie grants the same bonuses as the adult version.</li>
+						<li Name="ChildRainbowDash">The child-equippable Rainbow Dash plushie grants the same bonuses as the adult version.</li>
 					</value>
 				</Operation>
 			</caseTrue>
@@ -794,17 +779,101 @@
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips/li[@Name="ChildRainbowDash"]</xpath>
 					<value>
-						<li>The child-equippable Rainbow Dash plushie only affects a child's movement speed and not their combat prowess.</li>
+						<li Name="ChildRainbowDash">The child-equippable Rainbow Dash plushie only affects a child's movement speed and not their combat prowess.</li>
 					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
+		<!--IDEOLOGY: HARMONY PRECEPT PROVIDES OLD BONUSES-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Ideology">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_HarmonyPreceptProvidesIncreasedBonuses</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/PreceptDef[defName="MLRP_HarmonyPrecept"]/statOffsets</xpath>
+					<value>
+						<statOffsets>
+							<PlantWorkSpeed>0.25</PlantWorkSpeed>
+							<PlantHarvestYield>0.25</PlantHarvestYield>
+							<TameAnimalChance>0.25</TameAnimalChance>
+							<TrainAnimalChance>0.25</TrainAnimalChance>
+							<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+							<AnimalGatherYield>0.25</AnimalGatherYield>
+							<SocialImpact>0.25</SocialImpact>
+							<MoveSpeed>1</MoveSpeed>
+							<MeleeHitChance>5</MeleeHitChance>
+							<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+							<TradePriceImprovement>0.25</TradePriceImprovement>
+							<ResearchSpeed>0.25</ResearchSpeed>
+							<HackingSpeed>0.25</HackingSpeed>
+						</statOffsets>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/PreceptDef[defName="MLRP_HarmonyPrecept"]/statOffsets</xpath>
+					<value>
+						<statOffsets>
+							<PlantWorkSpeed>0.1</PlantWorkSpeed>
+							<PlantHarvestYield>0.1</PlantHarvestYield>
+							<TameAnimalChance>0.1</TameAnimalChance>
+							<TrainAnimalChance>0.1</TrainAnimalChance>
+							<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
+							<AnimalGatherYield>0.1</AnimalGatherYield>
+							<SocialImpact>0.1</SocialImpact>
+							<MoveSpeed>0.5</MoveSpeed>
+							<MeleeHitChance>1</MeleeHitChance>
+							<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+							<TradePriceImprovement>0.1</TradePriceImprovement>
+							<ResearchSpeed>0.1</ResearchSpeed>
+							<HackingSpeed>0.1</HackingSpeed>
+						</statOffsets>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
+		<!--MEDPOD: PREVENT PODS FROM HEALING THE CUTIE POX-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="sumghai.medpod">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_MedPodsDoNotCureCutiePox</key>
+			<defaultValue>True</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs</xpath>
+						<value>
+							<li Name="MLRP_MedPodCutiePox">MLRP_CutiePox</li>
+						</value>
+					</nomatch>
+					<!--<match Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
+					</match>-->
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
+					<!--<nomatch Class="PatchOperationTest">
+						<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
+						<success>Always</success>
+					</nomatch>-->
+					<match Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
+					</match>
 				</Operation>
 			</caseFalse>
 		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
-			<modId>geodesicdragon.rimpony</modId> <!--MUST be the same as the one entered earlier-->
-			<label>My Little RimPony</label> <!-- This is what displays as your mod's name-->
-			<settings> <!--This is where you define what settings are in the settings menu-->
+			<modId>geodesicdragon.rimpony</modId>
+			<label>My Little RimPony</label>
+			<settings>
 				<li Class="XmlExtensions.Setting.Text">
 					<text>IMPORTANT: You will need to restart RimWorld after changing any of these settings.</text>
 					<font>Medium</font>
@@ -1104,6 +1173,19 @@
 					<anchor>Left</anchor>
 				</li>
 				
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Ideology"/>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Ideology">
+					<text>Ideology Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Ideology">
+					<key>MLRP_HarmonyPreceptProvidesIncreasedBonuses</key>
+					<label>Harmony precept provides increased bonuses</label>
+				</li>
+				
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Biotech"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
@@ -1115,6 +1197,19 @@
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
 					<key>MLRP_RainbowDashChildPlushUsesAdultStats</key>
 					<label>Child-equippable Rainbow Dash plushie has the same bonuses as the adult version</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="sumghai.medpod"/>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="sumghai.medpod">
+					<text>MedPod Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="sumghai.medpod">
+					<key>MLRP_MedPodsDoNotCureCutiePox</key>
+					<label>Prevent MedPods from curing the Cutie Pox</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap">

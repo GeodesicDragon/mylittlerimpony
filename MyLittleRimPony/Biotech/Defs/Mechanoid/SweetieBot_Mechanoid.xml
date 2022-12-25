@@ -5,10 +5,12 @@
     <ThingDef ParentName="MLRP_SweetieBot_MechanoidBase">
 		<defName>MLRP_SweetieBotMech</defName>
 		<label>Sweetie Bot</label>
-		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to melee attacks.</description>
+		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to blunt attacks.</description>
 		<statBases>
-			<MoveSpeed>10</MoveSpeed>
+			<MoveSpeed>8</MoveSpeed>
 			<BandwidthCost>5</BandwidthCost>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>30</ArmorRating_Sharp>
 		</statBases>
 		<race>
 			<body>Lancer</body> <!--Attempting to create a new body type would probably make my brain explode-->

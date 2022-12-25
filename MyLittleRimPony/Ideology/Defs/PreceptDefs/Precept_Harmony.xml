@@ -17,17 +17,19 @@
 		<li>Individualist</li>
 	</requiredMemes>
 	<statOffsets>
-		<PlantWorkSpeed>0.25</PlantWorkSpeed>
-		<PlantHarvestYield>0.25</PlantHarvestYield>
-		<TameAnimalChance>0.25</TameAnimalChance>
-		<TrainAnimalChance>0.25</TrainAnimalChance>
-		<SocialImpact>0.25</SocialImpact>
-		<MoveSpeed>1</MoveSpeed>
-		<MeleeHitChance>5</MeleeHitChance>
-		<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
-		<TradePriceImprovement>0.25</TradePriceImprovement>
-		<ResearchSpeed>0.25</ResearchSpeed>
-		<HackingSpeed>0.25</HackingSpeed>
+		<PlantWorkSpeed>0.1</PlantWorkSpeed>
+		<PlantHarvestYield>0.1</PlantHarvestYield>
+		<TameAnimalChance>0.1</TameAnimalChance>
+		<TrainAnimalChance>0.1</TrainAnimalChance>
+		<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
+		<AnimalGatherYield>0.1</AnimalGatherYield>
+		<SocialImpact>0.1</SocialImpact>
+		<MoveSpeed>0.5</MoveSpeed>
+		<MeleeHitChance>1</MeleeHitChance>
+		<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+		<TradePriceImprovement>0.1</TradePriceImprovement>
+		<ResearchSpeed>0.1</ResearchSpeed>
+		<HackingSpeed>0.1</HackingSpeed>
 	</statOffsets>
 </PreceptDef>
   

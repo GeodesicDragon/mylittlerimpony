@@ -40,6 +40,9 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
+      <buildingTags>
+		<li>Production</li>
+      </buildingTags>
     </building>
     <comps>
       <li Class="CompProperties_Power">
@@ -57,6 +60,7 @@
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
+	  <li>PlaceWorker_ReportWorkSpeedPenalties</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>

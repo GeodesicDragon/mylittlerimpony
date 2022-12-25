@@ -34,6 +34,8 @@
       <PlantHarvestYield>0.25</PlantHarvestYield>
       <TameAnimalChance>0.25</TameAnimalChance>
       <TrainAnimalChance>0.25</TrainAnimalChance>
+      <AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+      <AnimalGatherYield>0.25</AnimalGatherYield>
       <SocialImpact>0.25</SocialImpact>
       <MoveSpeed>1</MoveSpeed>
       <MeleeHitChance>5</MeleeHitChance>

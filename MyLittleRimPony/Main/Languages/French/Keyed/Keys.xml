@@ -1,0 +1,25 @@
+<LanguageData>
+
+	<!--Toutes les traductions ont été faites avec Google.-->
+	<!--N'hésitez pas à soumettre des corrections via mon serveur Discord !-->
+
+	<!--C# CORE-->
+	<MLRP_ModName>Mon Petit RimPoney</MLRP_ModName>
+	<MLRP_ModIntro>chargé. N'oubliez pas que l'amitié est magique!</MLRP_ModIntro>
+	<MLRP_PawnCured>{0} a été guéri de la {1}.</MLRP_PawnCured>
+	<MLRP_NothingToCure>Tentative de guérison d'un hediff inexistant.</MLRP_NothingToCure>
+	<MLRP_AntiBronyHasPlushieAlert>Anti brony à l'aide de peluche</MLRP_AntiBronyHasPlushieAlert>
+	<MLRP_AntiBronyHasPlushieExplanation>Un pion avec le trait anti-brony a une peluche poney équipée, ce qui entraînera une pénalité d'humeur jusqu'à ce qu'il soit lâché. Il pourrait être utile d'attribuer des anti-bronies à une tenue distincte afin d'éviter cela.</MLRP_AntiBronyHasPlushieExplanation>
+	
+	<!--C# ROYALTY-->
+	
+	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti brony a une puce d'harmonie</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Vous avez installé un puce d'harmonie dans un pion avec le trait anti brony. Cela entraînera une pénalité de -10 à leur humeur jusqu'à ce qu'elle soit supprimée.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	
+	<!--C# RELATED TO MODS-->
+	
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">XML Extensions a été détecté.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">Combat Extended a été détecté.</MLRP_CEDetected>
+	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">IMPORTANT: je n'utilise pas CE, donc les patchs correspondants n'ont pas été testés; s'il vous plaît laissez-moi savoir dès que possible si vous avez des problèmes!</MLRP_CEDetectedWarning>
+	
+</LanguageData>

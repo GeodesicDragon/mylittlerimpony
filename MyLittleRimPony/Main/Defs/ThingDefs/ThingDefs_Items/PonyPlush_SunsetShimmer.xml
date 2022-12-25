@@ -18,6 +18,9 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>0.125</Mass>
 		</statBases>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
 		<intricate>true</intricate>
 		<thingCategories>
 			<li>Manufactured</li>

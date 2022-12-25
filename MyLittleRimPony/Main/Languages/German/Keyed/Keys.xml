@@ -1,0 +1,25 @@
+<LanguageData>
+
+	<!--Alle Übersetzungen wurden mit Google durchgeführt.-->
+	<!--Fühlen Sie sich frei, Korrekturen über meinen Discord-Server einzureichen!-->
+
+	<!--C# CORE-->
+	<MLRP_ModName>Mein kleines Felgenpony</MLRP_ModName>
+	<MLRP_ModIntro>geladen. Denken Sie daran, Freundschaft ist Magie!</MLRP_ModIntro>
+	<MLRP_PawnCured>{1} wurde am {0} entfernt.</MLRP_PawnCured>
+	<MLRP_NothingToCure>Hat versucht nicht vorhandenem hediff zu heilen.</MLRP_NothingToCure>
+	<MLRP_AntiBronyHasPlushieAlert>Anti brony mit Plushie</MLRP_AntiBronyHasPlushieAlert>
+	<MLRP_AntiBronyHasPlushieExplanation>Eine Spielfigur mit der Eigenschaft Anti-Brony ist mit einem Plüschpony ausgerüstet, das eine Stimmungsstrafe verursacht, bis es fallen gelassen wird. Um dies zu verhindern, kann es sich lohnen, Anti-Bronies einem separaten Outfit zuzuweisen.</MLRP_AntiBronyHasPlushieExplanation>
+	
+	<!--C# ROYALTY-->
+	
+	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti Brony hat Harmonie-Chip</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Du hast eine Spielfigur mit dem Merkmal Anti-Brony mit einem Harmonie-Chip ausgestattet. Dies führt zu einem Malus von -10 auf ihre Stimmung, bis sie entfernt wird.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	
+	<!--C# RELATED TO MODS-->
+	
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">XML Extensions erkannt wurde.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">Combat Extended erkannt wurde.</MLRP_CEDetected>
+	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">WICHTIG: Ich verwende CE nicht, daher sind Patches dafür ungetestet; bitte benachrichtigen Sie mich so schnell wie möglich, wenn Sie auf Probleme stoßen!</MLRP_CEDetectedWarning>
+	
+</LanguageData>

@@ -1,7 +1,7 @@
 ﻿// My Little RimPony - A RimWorld Mod
 // Created by GeodesicDragon
 // MLP is property of Hasbro.
-// Huge thanks to Aelanna from the official RimWorld Discord server for helping me out with this thing.
+// Huge thanks to users of the official RimWorld Discord server for helping me with code.
 // And also for being so damn patient with me while my slow brain figured it all out.
 // IMPORTANT: This version of the DLL is only compatible with RimWorld 1.4 and above.
 
@@ -29,15 +29,15 @@ namespace MyLittleRimPony
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
-            Verse.Log.Message("[My Little RimPony] Version 3.38.34 loaded. Remember, friendship is magic!");
+            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.43.49 " + "MLRP_ModIntro".Translate()); // If anyone is reading this and can tell me how to get the version number automatically using a method that DOESN'T crash the game, please let me know!
             if (ModsConfig.IsActive("CETeam.CombatExtended"))
             {
-                Verse.Log.Message("[My Little RimPony] Combat Extended has been detected.");
-                Verse.Log.Warning("[My Little RimPony] IMPORTANT: I don't use CE, so patches for it are untested; please alert me ASAP if you encounter any problems!");
+                Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetected".Translate());
+                Log.Warning("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetectedWarning".Translate());
             }
             if (ModsConfig.IsActive("imranfish.xmlextensions"))
             {
-                Verse.Log.Message("[My Little RimPony] XML Extensions has been detected.");
+                Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_XMLExtensionsDetected".Translate());
             }
         }
     }
@@ -50,8 +50,8 @@ namespace MyLittleRimPony
 
         public Alert_AntiBronyHasPlushie()
         {
-            this.defaultLabel = "Anti brony has plushie";
-            this.explanationKey = "MLRP_AntiBronyHasPlushie";
+            this.defaultLabel = "MLRP_AntiBronyHasPlushieAlert".Translate();
+            this.explanationKey = "MLRP_AntiBronyHasPlushieExplanation".Translate();
         }
     }
 
@@ -63,8 +63,8 @@ namespace MyLittleRimPony
 
         public Alert_AntiBronyHasHarmonyChip()
         {
-            this.defaultLabel = "Anti brony has harmony chip";
-            this.explanationKey = "MLRP_AntiBronyHasHarmonyChip";
+            this.defaultLabel = "MLRP_AntiBronyHasHarmonyChipAlert".Translate();
+            this.explanationKey = "MLRP_AntiBronyHasHarmonyChipExplanation".Translate();
         }
     }
 
@@ -181,14 +181,7 @@ namespace MyLittleRimPony
                         Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         break;
                     default:
-                        if (ModsConfig.IsActive("SovietRabotyaga.RimPonkOld"))
-                        {
-                            Messages.Message("MLRP_NothingToCure_RimPonk".Translate(pawn), MessageTypeDefOf.TaskCompletion, historical: false);
-                        }
-                        else
-                        {
-                            Messages.Message("MLRP_NothingToCure_NoRimPonk".Translate(pawn), MessageTypeDefOf.TaskCompletion, historical: false);
-                        }
+                        Log.Warning("[" + "MLRP_ModName".Translate() + "] " + "MLRP_NothingToCure".Translate());
                         break;
                 }
             }

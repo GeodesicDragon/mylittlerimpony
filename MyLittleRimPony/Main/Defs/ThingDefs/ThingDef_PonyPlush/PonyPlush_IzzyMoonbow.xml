@@ -44,7 +44,7 @@
       <li>
         <label>Izzy Moonbow plush</label>
         <description>Izzy's smile is infectious.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
 	<nullifyingTraits>

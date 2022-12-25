@@ -1,0 +1,25 @@
+<LanguageData>
+
+	<!--All translations to other languages were done using Google.-->
+	<!--Feel free to submit corrections via my Discord server!-->
+
+	<!--C# CORE-->
+	<MLRP_ModName>My Little RimPony</MLRP_ModName>
+	<MLRP_ModIntro>loaded. Remember, friendship is magic!</MLRP_ModIntro> <!--Displayed in log after version number-->
+	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured>
+	<MLRP_NothingToCure>Attempted to cure non-existent hediff.</MLRP_NothingToCure>
+	<MLRP_AntiBronyHasPlushieAlert>Anti brony using plushie</MLRP_AntiBronyHasPlushieAlert>
+	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies to a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
+	
+	<!--C# ROYALTY-->
+	
+	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti brony has harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">You have installed a harmony chip in a pawn with the anti brony trait. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	
+	<!--C# RELATED TO MODS-->
+	
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">XML Extensions has been detected.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">Combat Extended has been detected.</MLRP_CEDetected>
+	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">IMPORTANT: I don't use CE, so patches for it are untested; please alert me ASAP if you encounter any problems!</MLRP_CEDetectedWarning>
+	
+</LanguageData>

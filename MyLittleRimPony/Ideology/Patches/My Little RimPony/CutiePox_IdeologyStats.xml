@@ -1,0 +1,11 @@
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/HediffDef[defName="MLRP_CutiePox"]/stages/li/statOffsets</xpath>
+	<value>
+		<ConversionPower>0.05</ConversionPower>
+		<SuppressionPower>0.05</SuppressionPower>
+	</value>
+</Operation>
+
+</Patch>
