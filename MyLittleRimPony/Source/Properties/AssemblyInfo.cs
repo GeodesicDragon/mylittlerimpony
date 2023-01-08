@@ -7,12 +7,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MyLittleRimPony")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A mod for RimWorld which adds MLP related things.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Geo's Stuff")]
 [assembly: AssemblyProduct("MyLittleRimPony")]
 [assembly: AssemblyCopyright("©GeodesicDragon 2021-Present")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("All characters - except for Nurse Haywick - are property of Hasbro. This mod is made for entertainment purposes only and no profit is made from it.")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -33,6 +33,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("3.43.49.0")]
-[assembly: AssemblyFileVersion("3.43.49.0")]
+[assembly: AssemblyVersion("3.47.63.0")]
+[assembly: AssemblyFileVersion("3.47.63.0")]
 [assembly: NeutralResourcesLanguage("")]

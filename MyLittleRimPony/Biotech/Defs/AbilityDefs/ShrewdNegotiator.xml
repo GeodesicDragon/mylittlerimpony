@@ -7,7 +7,7 @@
 	<AbilityDef>
 		<defName>MLRP_ShrewdNegotiator</defName>
 		<label>Shrewd Negotiator</label>
-		<description>Tap into the power of your alicorn genes to improve your social skills by a substantial amount for 15 seconds.</description>
+		<description>Tap into the power of your alicorn genes to improve your social skills by a substantial amount for 60 seconds.</description>
 		<jobDef>CastAbilityOnThingMelee</jobDef>
 		<iconPath>UI/Abilities/ShrewdNegotiator</iconPath>
 		<stunTargetWhileCasting>False</stunTargetWhileCasting>
@@ -20,7 +20,7 @@
 		<uiOrder>2</uiOrder>
 		<warmupStartSound>WorkDrive_Warmup</warmupStartSound>
 		<statBases>
-			<Ability_Duration>15</Ability_Duration>
+			<Ability_Duration>60</Ability_Duration>
 		</statBases>
 		<verbProperties>
 			<verbClass>Verb_CastAbilityTouch</verbClass>

@@ -1,0 +1,66 @@
+<Defs>
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_MagicMirrorGenerator</defName>
+    <label>Magic mirror</label>
+    <description>Equestrian magic once flowed through this mirror into a whole other world, causing all sorts of weird and wonderful things to happen to some of the individuals on the other side.\n\nMirrors on the rim can't be used due to the object blocking any attempt to pass through it, but the magic still flows through regardless.\n\nConsequently, researchers were quick to figure out a way of turning the magic into electric power that can be used to fulfil a colony's every need.</description>
+    <thingClass>Building</thingClass>
+	<designationHotKey>Misc2</designationHotKey>
+    <drawerType>MapMeshAndRealTime</drawerType>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/MagicMirror</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>6000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>3</Beauty>
+	  <Mass>300</Mass>
+    </statBases>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(2,4)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <ComponentIndustrial>75</ComponentIndustrial>
+      <ComponentSpacer>25</ComponentSpacer>
+      <Plasteel>1000</Plasteel>
+      <Steel>1000</Steel>
+      <Uranium>1000</Uranium>
+	  <PonyPlush_SunsetShimmer>1</PonyPlush_SunsetShimmer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-15000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+        <powerUpgrades>
+          <li>
+            <researchProject>MLRP_MagicMirrorExtraPowerResearch</researchProject>
+            <factor>1.25</factor>
+          </li>
+        </powerUpgrades>
+      </li>
+      <li Class="CompProperties_Flickable" />
+	  <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <researchPrerequisites>
+      <li>MLRP_MagicMirrorResearch</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>  

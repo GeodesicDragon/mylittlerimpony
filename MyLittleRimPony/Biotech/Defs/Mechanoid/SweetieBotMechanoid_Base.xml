@@ -29,7 +29,7 @@
       <bloodDef>Filth_MachineBits</bloodDef>
       <nameGenerator>NamerMech</nameGenerator>
       <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
-      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
+      <soundCallIntervalFriendlyFactor>5</soundCallIntervalFriendlyFactor>
       <thinkTreeConstant>MechConstant</thinkTreeConstant>
     </race>
     <comps>

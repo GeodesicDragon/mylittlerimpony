@@ -1,0 +1,39 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony" or @Name="BaseChan" or @Name="BaseGrif" or @Name="BaseKiri"]/alienRace/raceRestriction/whiteApparelList</xpath>
+		<value>
+			<li>MLRP_ElementsOfHarmony</li>
+			<li>PonyPlush_AppleBloom</li>
+			<li>PonyPlush_Applejack</li>
+			<li>PonyPlush_BigMacintosh</li>
+			<li>PonyPlush_Cheerilee</li>
+			<li>PonyPlush_CutieMarkCrusaders</li>
+			<li>PonyPlush_DaringDo</li>
+			<li>PonyPlush_Discord</li>
+			<li>PonyPlush_FleurDeLis</li>
+			<li>PonyPlush_Fluttershy</li>
+			<li>PonyPlush_Haywick</li>
+			<li>PonyPlush_IzzyMoonbow</li>
+			<li>PonyPlush_MaudPie</li>
+			<li>PonyPlush_PinkiePie</li>
+			<li>PonyPlush_PrincessCadence</li>
+			<li>PonyPlush_PrincessCelestia</li>
+			<li>PonyPlush_PrincessLuna</li>
+			<li>PonyPlush_RainbowDash</li>
+			<li>PonyPlush_Rarity</li>
+			<li>PonyPlush_Scootaloo</li>
+			<li>PonyPlush_ShiningArmour</li>
+			<li>PonyPlush_SpoiledRich</li>
+			<li>PonyPlush_StarlightGlimmer</li>
+			<li>PonyPlush_SweetieBelle</li>
+			<li>PonyPlush_TwilightSparkle</li>
+		</value>
+    </match>
+</Operation>
+	
+</Patch>

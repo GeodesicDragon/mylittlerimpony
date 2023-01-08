@@ -9,8 +9,8 @@
 		<statBases>
 			<MoveSpeed>8</MoveSpeed>
 			<BandwidthCost>5</BandwidthCost>
-			<ArmorRating_Blunt>10</ArmorRating_Blunt>
-			<ArmorRating_Sharp>30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 		</statBases>
 		<race>
 			<body>Lancer</body> <!--Attempting to create a new body type would probably make my brain explode-->

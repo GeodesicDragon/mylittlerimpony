@@ -1,7 +1,0 @@
-<Patch>
-
-<Operation Class="PatchOperationRemove">
-	<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction" or defName="MLRP_BronyFaction"]/geneticVariance</xpath>
-</Operation>
-
-</Patch>

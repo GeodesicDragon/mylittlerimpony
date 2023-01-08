@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Base-->
+
+<ThingDef Name="MLRP_BionicImplantBase" ParentName="BodyPartBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(189,169,118)</color>
+    </graphicData>
+    <tradeTags>
+      <li>Bionic</li>
+    </tradeTags>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>MLRP_HarmonyChipResearch</researchPrerequisite>
+      <recipeUsers>
+        <li>PlushieBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+<!--Hediff-->
+<HediffDef ParentName="ImplantHediffBase">
+	<defName>MLRP_HarmonyChipInstalled</defName>
+	<label>Harmony chip</label>
+	<labelNoun>a harmony chip</labelNoun>
+	<description>An installed harmony chip.</description>
+	<descriptionHyperlinks><ThingDef>MLRP_HarmonyChip</ThingDef></descriptionHyperlinks>
+	<spawnThingOnRemoved>MLRP_HarmonyChip</spawnThingOnRemoved>
+	<stages>
+		<li>
+			<painOffset>-0.1</painOffset>
+			<opinionOfOthersFactor>1.5</opinionOfOthersFactor>
+			<statOffsets>
+				<PlantWorkSpeed>0.25</PlantWorkSpeed>
+				<PlantHarvestYield>0.25</PlantHarvestYield>
+				<TameAnimalChance>0.25</TameAnimalChance>
+				<TrainAnimalChance>0.25</TrainAnimalChance>
+				<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+				<AnimalGatherYield>0.25</AnimalGatherYield>
+				<SocialImpact>0.25</SocialImpact>
+				<MoveSpeed>1</MoveSpeed>
+				<MeleeHitChance>5</MeleeHitChance>
+				<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+				<TradePriceImprovement>0.25</TradePriceImprovement>
+				<ResearchSpeed>0.25</ResearchSpeed>
+				<ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
+				<InjuryHealingFactor>0.5</InjuryHealingFactor>
+				<CookSpeed>20</CookSpeed>
+				<FoodPoisonChance>-0.1</FoodPoisonChance>
+				<CarryingCapacity>25</CarryingCapacity>
+				<GlobalLearningFactor>0.50</GlobalLearningFactor>
+				<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+				<MedicalTendSpeed>0.25</MedicalTendSpeed>
+				<MedicalTendQualityOffset>0.25</MedicalTendQualityOffset>
+				<SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>
+				<MiningSpeed>0.25</MiningSpeed>
+				<MiningYield>0.25</MiningYield>
+				<PainShockThreshold>0.25</PainShockThreshold>
+				<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+				<RestRateMultiplier>0.5</RestRateMultiplier>
+				<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+				<ArmorRating_Heat>0.15</ArmorRating_Heat>
+				<MeleeDodgeChance>10</MeleeDodgeChance>
+				<MeleeDodgeChanceIndoorsDarkOffset>0.1</MeleeDodgeChanceIndoorsDarkOffset>
+				<MeleeDodgeChanceIndoorsLitOffset>0.1</MeleeDodgeChanceIndoorsLitOffset>
+				<MeleeDodgeChanceOutdoorsDarkOffset>0.1</MeleeDodgeChanceOutdoorsDarkOffset>
+				<MeleeDodgeChanceOutdoorsLitOffset>0.1</MeleeDodgeChanceOutdoorsLitOffset>
+				<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>
+			</statOffsets>
+		</li>
+	</stages>
+</HediffDef>
+  
+<!--Harmony Chip Item-->
+
+  <ThingDef ParentName="MLRP_BionicImplantBase">
+    <defName>MLRP_HarmonyChip</defName>
+    <label>harmony chip</label>
+    <description>When implanted in the brain, this powerful item will grant the bonuses of nearly every available pony plushie at once, leaving the utility slot free for something else. It is expensive, but many agree that it's worth it for the bonuses to stats and abilities.\n\nHaving one will make people happy - some more than others - but there are those who will detest the idea of having this item implanted.</description>
+    <thingSetMakerTags>
+		<li>RewardStandardLowFreq</li>
+	</thingSetMakerTags>
+    <costList>
+	  <Steel>350</Steel>
+	  <Plasteel>350</Plasteel>
+	  <Uranium>350</Uranium>
+	  <Gold>15</Gold>
+      <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+	<statBases>
+		<MarketValue>10000</MarketValue>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Mass>1</Mass>
+	</statBases>
+    <graphicData>
+      <texPath>Things/HarmonyChip</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+<!--Install-->
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>MLRP_InstallHarmonyChip</defName>
+    <label>install harmony chip</label>
+    <description>Install a harmony chip.</description>
+    <descriptionHyperlinks>
+		<ThingDef>MLRP_HarmonyChip</ThingDef>
+	</descriptionHyperlinks>
+    <jobString>Installing harmony chip.</jobString>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MLRP_HarmonyChip</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>MLRP_HarmonyChipInstalled</addsHediff>
+	<skillRequirements>
+		<Medicine>12</Medicine>
+	</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+  </RecipeDef>
+  
+<!--Remove-->
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>MLRP_RemoveHarmonyChip</defName>
+    <label>remove harmony chip</label>
+    <description>Remove harmony chip.</description>
+    <descriptionHyperlinks>
+      <ThingDef>MLRP_HarmonyChip</ThingDef>
+      <HediffDef>MLRP_HarmonyChipInstalled</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing harmony chip.</jobString>
+    <removesHediff>MLRP_HarmonyChipInstalled</removesHediff>
+  </RecipeDef>
+ 
+</Defs>

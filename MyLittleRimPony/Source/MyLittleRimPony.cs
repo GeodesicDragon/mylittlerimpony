@@ -3,7 +3,6 @@
 // MLP is property of Hasbro.
 // Huge thanks to users of the official RimWorld Discord server for helping me with code.
 // And also for being so damn patient with me while my slow brain figured it all out.
-// IMPORTANT: This version of the DLL is only compatible with RimWorld 1.4 and above.
 
 // NOTE TO SELF: REMEMBER TO UPDATE THE VERSION NUMBER IN THE CONSOLE MESSAGE!
 
@@ -18,6 +17,18 @@ namespace MyLittleRimPony
 
     public static class MyDefOf
     {
+        // Game related stuff because I don't know how to access the DefDatabase
+        public static HediffDef HeartAttack;
+        public static HediffDef FibrousMechanites;
+        public static HediffDef SensoryMechanites;
+        // Mod related stuff
+        public static HediffDef MLRP_PoisonJokeSightBeyondSight;
+        public static HediffDef MLRP_PoisonJokeSlowAndSluggish;
+        public static HediffDef MLRP_PoisonJokeSuperSpeedy;
+        public static HediffDef MLRP_PoisonJokeGoodManipulation;
+        public static HediffDef MLRP_PoisonJokePoorManipulation;
+        public static HediffDef MLRP_PoisonJokeGoodMood;
+        public static HediffDef MLRP_PoisonJokeBadMood;
         public static ThingDef MLRP_MagicMirrorGenerator;
         public static TraitDef MLRP_BronyTrait;
         public static TraitDef MLRP_AntiBronyTrait;
@@ -29,7 +40,7 @@ namespace MyLittleRimPony
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
-            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.43.49 " + "MLRP_ModIntro".Translate()); // If anyone is reading this and can tell me how to get the version number automatically using a method that DOESN'T crash the game, please let me know!
+            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.47.63 " + "MLRP_ModIntro".Translate()); // If anyone is reading this and can tell me how to get the version number automatically using a method that DOESN'T crash the game, please let me know!
             if (ModsConfig.IsActive("CETeam.CombatExtended"))
             {
                 Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetected".Translate());
@@ -155,7 +166,7 @@ namespace MyLittleRimPony
 
     // CURE POISON JOKE ADDICTION
 
-    public class IngestionOutcomeDoer_PoisonJokeAddictionCure : IngestionOutcomeDoer
+    public class PoisonJokeAddictionCure : IngestionOutcomeDoer
     {
         protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
         {
@@ -184,6 +195,76 @@ namespace MyLittleRimPony
                         Log.Warning("[" + "MLRP_ModName".Translate() + "] " + "MLRP_NothingToCure".Translate());
                         break;
                 }
+            }
+        }
+    }
+
+    // POISON JOKE RANDOM EFFECT
+
+    public class PoisonJokeSmoked : IngestionOutcomeDoer
+    {
+        protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
+        {
+            System.Random r = new System.Random();
+            int n = r.Next(1, 11); // maxValue must always be one greater than the number of available hediffs, otherwise the poison joke will always cause a heart attack!
+            var affliction = "";
+
+            switch (n)
+            {
+                case 1:
+                    pawn.health.AddHediff(MyDefOf.HeartAttack);
+                    affliction = "Heart attack";
+                    break;
+                case 2:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSightBeyondSight);
+                    affliction = "Sight beyond sight";
+                    break;
+                case 3:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSlowAndSluggish);
+                    affliction = "Slow and sluggish";
+                    break;
+                case 4:
+                    pawn.health.AddHediff(MyDefOf.FibrousMechanites);
+                    affliction = "Fibrous mechanites";
+                    break;
+                case 5:
+                    pawn.health.AddHediff(MyDefOf.SensoryMechanites);
+                    affliction = "Sensory mechanites";
+                    break;
+                case 6:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSuperSpeedy);
+                    affliction = "Super speedy";
+                    break;
+                case 7:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeGoodManipulation);
+                    affliction = "Improved manipulation";
+                    break;
+                case 8:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokePoorManipulation);
+                    affliction = "Reduced manipulation";
+                    break;
+                case 9:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeGoodMood);
+                    affliction = "Good mood";
+                    break;
+                case 10:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeBadMood);
+                    affliction = "Bad mood";
+                    break;
+            }
+            if (n == 1)
+            {
+                LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.ThreatSmall;
+                string title = "MLRP_PoisonJokeLetterTitle".Translate();
+                string text = "MLRP_PoisonJokeLetterText".Translate(pawn, affliction);
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_PoisonJokeAfflictionLetter);
+            }
+            else
+            {
+                LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.NeutralEvent;
+                string title = "MLRP_PoisonJokeLetterTitle".Translate();
+                string text = "MLRP_PoisonJokeLetterText".Translate(pawn, affliction);
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_PoisonJokeAfflictionLetter);
             }
         }
     }

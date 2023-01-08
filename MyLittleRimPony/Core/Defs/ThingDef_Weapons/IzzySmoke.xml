@@ -1,0 +1,118 @@
+<Defs>
+
+<!--BASES-->
+
+<ThingDef Name="BaseProjectileTennisBall" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>tennis ball</label>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+	<projectile>
+		<damageDef>Smoke</damageDef>
+		<speed>40</speed>
+	</projectile>
+  </ThingDef>
+  
+  <!--PROJECTILE-->
+  
+  <ThingDef ParentName="BaseProjectileTennisBall">
+    <defName>MLRP_TennisBall</defName>
+    <label>tennis ball smoke grenade</label>
+    <graphicData>
+      <texPath>Things/Projectiles/TennisBall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(140,135,156)</color>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>2.4</explosionRadius>
+      <postExplosionGasType>BlindSmoke</postExplosionGasType>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+  </ThingDef>
+
+<!--WEAPON-->
+
+<ThingDef ParentName="MLRP_MakeableWeapon">
+    <defName>Izzy_SmokeLauncher</defName>
+    <label>Tennis Ball Launcher</label>
+    <description>As a pony who wants to make friends, Izzy doesn't really like the idea of violence.\n\nHaving said that, she also knows when to retreat, and has learned a variety of spells to help in that regard.</description>
+    <graphicData>
+      <texPath>Things/Weapons/IzzyWithTennisBall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.3</generateCommonality>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>3.4</Mass>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+	  <PonyPlush_IzzyMoonbow>1</PonyPlush_IzzyMoonbow>
+    </costList>
+	<relicChance>0</relicChance>
+    <weaponTags Inherit="False">
+      <li>GrenadeSmoke</li>
+    </weaponTags>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+	<researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MLRP_TennisBall</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>horn</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>body</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

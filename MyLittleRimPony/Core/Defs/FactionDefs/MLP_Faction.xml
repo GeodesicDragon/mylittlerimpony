@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="MLRP_PlayerFactionBase">
+	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+	  <!--<li>(255, 192, 203)</li>-->
+	  <li>(0.5, 0.5, 0.5)</li>
+    </colorSpectrum>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+  </FactionDef>
+  
+  <FactionDef ParentName="MLRP_PlayerFactionBase">
+    <defName>MLRP_BronyFaction</defName>
+	<label>Brony Community</label>
+    <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.</description>
+	<allowedCultures>
+		<li>Astropolitan</li>
+	</allowedCultures>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>MLRP_BronyPlayer</basicMemberKind>
+    <pawnSingular>brony</pawnSingular>
+    <pawnsPlural>bronies</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+		  <li>Offworld</li>
+		  <li>Outlander</li>
+          <li>Outsider</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Things/EquestrianFlag</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>MLRP_BronyNames</factionNameMaker>
+    <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>
+	<startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

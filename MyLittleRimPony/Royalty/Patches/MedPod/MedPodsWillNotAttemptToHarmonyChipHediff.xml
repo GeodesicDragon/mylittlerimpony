@@ -1,0 +1,15 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MedPod</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs</xpath>
+			<value>
+				<li>MLRP_HarmonyChipInstalled</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

@@ -7,3 +7,6 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\obj\Debug\
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\obj\Debug\MLRP_Assemblies.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\obj\Debug\MyLittleRimPony.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Core 1.4\Assemblies\MyLittleRimPony.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Core\Assemblies\MyLittleRimPony.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Source\..Main\Assemblies\MyLittleRimPony.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Main\Assemblies\MyLittleRimPony.dll
