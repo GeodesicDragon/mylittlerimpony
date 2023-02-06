@@ -24,7 +24,7 @@
     <statBases>
       <MaxHitPoints>1000</MaxHitPoints>
       <Flammability>1</Flammability>
-      <WorkToBuild>750</WorkToBuild>
+      <WorkToBuild>500</WorkToBuild>
       <Mass>6</Mass>
       <Beauty>-20</Beauty>
     </statBases>
@@ -37,6 +37,7 @@
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
+      <li>Metallic</li>
     </stuffCategories>
 	<costList>
       <Steel>200</Steel>

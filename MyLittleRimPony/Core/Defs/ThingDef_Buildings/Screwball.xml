@@ -36,6 +36,8 @@
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
+      <li>Metallic</li>
+      <li>Woody</li>
     </stuffCategories>
     <comps>
       <li Class="CompProperties_Power">

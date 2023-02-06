@@ -1,17 +1,12 @@
 <Patch>
 
-<Operation Class="PatchOperationAdd">
+<!--<Operation Class="PatchOperationAdd">
 	<xpath>/Defs/TraderKindDef[defName="MLRP_PlushieTrader"]/stockGenerators</xpath>
 	<value>
-	
-		<!--ADULT PLUSHIES-->
-	
 		<li Class="StockGenerator_SingleDef">
 			<thingDef>PonyPlush_ButtonMash</thingDef>
 			<countRange>1</countRange>
 		</li>
-		
-		<!--CHILD PLUSHIES-->
 		
 		<li Class="StockGenerator_SingleDef">
 			<thingDef>PonyPlush_AppleBloom_Child</thingDef>
@@ -53,6 +48,6 @@
 			<countRange>1</countRange>
 		</li>
 	</value>
-</Operation>
+</Operation>-->
 
 </Patch>

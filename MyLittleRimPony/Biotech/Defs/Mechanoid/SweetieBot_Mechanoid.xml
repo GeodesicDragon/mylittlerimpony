@@ -83,6 +83,7 @@
       <defName>MLRP_SweetieBotMech</defName>
       <label>Sweetie Bot</label>
       <race>MLRP_SweetieBotMech</race>
+	  <allowInMechClusters>true</allowInMechClusters>
       <lifeStages>
         <li>
           <bodyGraphicData>

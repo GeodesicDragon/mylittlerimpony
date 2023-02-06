@@ -21,7 +21,7 @@
 				</li>
 			
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_Common"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_Common"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>callout_pony->peace</li>
 						<li>callout_pony->love</li>
@@ -39,7 +39,7 @@
 						<li>callout_villain->Queen Chrysalis</li>
 						<li>callout_villain->King Sombra</li>
 						<li>callout_villain->Grogar</li>
-						<li>callout_villain->Shadow Pony</li>
+						<li>callout_villain->The Shadow Pony</li>
 						<li>callout_celestialbody->sun</li>
 						<li>callout_celestialbody->moon</li>
 					</value>
@@ -58,12 +58,13 @@
 						<li>rule(BRONY==true)->By Discord's right nut, I will end you!</li>
 						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
+						<li>rule(BRONY==true)->I'm gonna beat you like they shoulda beat Cozy Glow!</li>
 					</value>
 				</li>
 	  
 				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.-->
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Attack_Landed_Common"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Attack_Landed_Common"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->Got you! [callout_princess] is on my side today!</li>
 						<li>rule(BRONY==true)->By the [callout_celestialbody], I hope that hurt!</li>
@@ -72,7 +73,7 @@
 				</li>
 	  
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Attack_Received_Common"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Attack_Received_Common"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->[callout_princess] preserve me, getting shot hurts!</li>
 						<li>rule(BRONY==true)->The friendship lessons never prepared me for this!</li>
@@ -81,7 +82,7 @@
 				</li>
 	  
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Melee_Attack_Received"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Melee_Attack_Received"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->[callout_princess] preserve me, getting cut hurts!</li>
 						<li>rule(BRONY==true)->The friendship lessons never prepared me for this!</li>
@@ -90,7 +91,7 @@
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Wounded"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Wounded"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->[callout_princess] will soon grant me a new [destroyed_part]!</li>
 						<li>rule(BRONY==true)->You idiot, I can get a new [destroyed_part] from Nightmare Moon!</li>
@@ -98,7 +99,7 @@
 				</li>
 	  
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Drafted"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Drafted"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true,p=2)->The next episode is on soon, so let's get this over with.</li>
 						<li>rule(BRONY==true,p=2)->How may I serve Equestria today?</li>
@@ -110,7 +111,7 @@
 				</li>
 		  
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RulePackDef[defName = "CM_Callouts_RulePack_Lethal_Hediff_Progression"]/rulePack/rulesStrings</xpath>
+					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Lethal_Hediff_Progression"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(CULPRITHEDIFF_stage==extreme,BRONY==true)->Looks like I'll be seeing you real soon, [callout_princess].</li>
 						<li>rule(BRONY==true)->[callout_pony] be with me, it's nearly over...</li>

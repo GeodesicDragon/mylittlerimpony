@@ -5,7 +5,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_PsylinkNeuroformerForChocolate</defName>
 	<label>return psylink neuroformer</label>
-	<description>Return a psylink neuroformer in exchange for chocolate.</description>
+	<description>Return a psylink neuroformer in exchange for silver.</description>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -27,7 +27,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<Chocolate>87</Chocolate>
+		<Silver>65</Silver>
 	</products>
 </RecipeDef>
 

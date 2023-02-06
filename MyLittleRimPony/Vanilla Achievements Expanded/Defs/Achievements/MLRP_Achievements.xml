@@ -500,6 +500,21 @@
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_MissPommel</defName>
+		<label>The Other Fashion Mare</label>
+		<description>Build the Fabric Exchange</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_MissPommel</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/TheOtherFashionMare</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--DECOYS-->
 	
 	<AchievementsExpanded.AchievementDef>

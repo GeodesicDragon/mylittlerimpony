@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MLRP_PrisonCellImpressivenessThought</defName>
+    <workerClass>MyLittleRimPony.ThoughtWorker_PortalRoomImpressiveness</workerClass>
+    <stages>
+      <li>
+        <label>awful portal room</label>
+        <description>Our portal room is a disgrace.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li IsNull="True" /> <!-- dull -->
+      <li IsNull="True" /> <!-- mediocre -->
+      <li IsNull="True" /> <!-- decent -->
+      <li IsNull="True" /> <!-- slightly impressive -->
+      <li>
+        <label>impressive portal room</label>
+        <description>Our portal room is nice enough, but I think it could be better.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>very impressive portal room</label>
+        <description>Our portal room is nice enough, but I think it could be better.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely impressive portal room</label>
+        <description>Our portal room is nice enough, but I think it could be better.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably impressive portal room</label>
+        <description>Our portal room is nice enough, but I think it could be better.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>wondrously impressive portal room</label>
+        <description>Our portal room is a truly glorious sight to behold. Our friends from Equestria would be proud.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+</Defs>

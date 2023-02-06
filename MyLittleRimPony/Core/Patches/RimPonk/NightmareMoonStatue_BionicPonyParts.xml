@@ -9,7 +9,7 @@
 				<RecipeDef>
 					<defName>MLRP_NMM_BionicWing</defName>
 					<label>request bionic wing</label>
-					<description>Offer chocolate in exchange for a bionic wing.</description>
+					<description>Offer silver in exchange for a bionic wing.</description>
 					<researchPrerequisite>Bionics</researchPrerequisite>
 					<jobString>Making an offering to Nightmare Moon</jobString>
 					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -25,10 +25,10 @@
 						<li>
 							<filter>
 								<thingDefs>
-									<li>Chocolate</li>
+									<li>Silver</li>
 								</thingDefs>
 							</filter>
-							<count>545</count>
+							<count>137</count>
 						</li>
 					</ingredients>
 					<products>

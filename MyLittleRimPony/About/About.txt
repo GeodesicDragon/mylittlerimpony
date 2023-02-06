@@ -4,6 +4,7 @@
 
 CORE
 
+* Combatible with Combat Extended!
 * Adds plush versions of a variety of ponies, each of which can be carried in the utility slot to confer bonuses depending on which pony it is. Also adds plushies related to the DLCs, if any of them are enabled. It also adds my OC to the core mod, because of *course* it does. :P
 * Plushies can be made of cloth, or any other textile (including human leather).
 * Colonists will actively seek out and equip plushies themselves, though you might need to force them to wear the one that actually suits them better (because a pawn with poor Plants skill may decide to equip an Applejack plush).
@@ -24,21 +25,19 @@ CORE
 * Adds a Statue of Daybreaker, which allows you to convert one material into the market value equivalent of another. It also allows you to make batches of 5 or 10 regular or advanced components much quicker than a fabrication bench. Just make sure you've got plenty of chemfuel in stock.
 * Adds Nurse Redheart, obtainable only via quests; she provides 5 Medicine every 10 days as long as she has 350W of power.
 * Adds patches for various other mods (see below for details).
-* Combatible with Combat Extended!
 * Adds Mudbriar, Quibble Pants and Zephyr Breeze as turrets which do zero damage, and only serve to distract raiders.
-* Adds poison joke, a drug which improves a pawns movement and manipulation, but causes a mood debuff. Also adds an item, made using 10 neutroamine and 15 herbal medicine, which cures a person of an addiction to poison joke.
+* Adds poison joke, a drug which affects a pawns capacities, such as manipulation or breathing, in either a positive or negative way. Also adds an item, made using 10 neutroamine and 15 herbal medicine, which cures a person of an addiction to poison joke.
 * Adds the Super Speedy Cider Squeezy 6000, obtainable only via quests; it will provide 30 Beer every 30 days as long as it has 500W of power.
 * Adds the Cutie Pox as a disease you can catch. It causes pain and requires a lot of tending, but increases a lot of skills by a small amount.
 
 ROYALTY
 
-* Adds the Harmony Chip - if you have the Royalty DLC - which is a brain implant that grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology plushies are also applied (if that DLC is enabled).
+* Adds the Harmony Chip, a brain implant which grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology and Biotech plushies are also applied (if those DLCs are enabled).
 
 IDEOLOGY
 
 * Adds two preconfigured ideologies: Disciples of Harmony and the Cult of Chaos.
-* Adds the Harmony precept, which grants the bonuses of all the Mane Six plushies. Requires the 'Individualist' meme.
-* Adds a darklight version of the Discord lamp.
+* Adds the Harmony precept, which grants the same bonuses of all the Mane Six plushies, but at a smaller rate. Requires the 'Individualist' meme.
 
 BIOTECH
 
@@ -100,7 +99,6 @@ Zecora: +50% pruning speed.
 |----------------------------|
 
 Button Mash: +2 bandwidth.
-
 Apple Bloom: Adds a variant which can be equipped by children.
 Big Macintosh: Adds a variant which can be equipped by children.
 Cheerilee: Adds a variant which can be equipped by children.

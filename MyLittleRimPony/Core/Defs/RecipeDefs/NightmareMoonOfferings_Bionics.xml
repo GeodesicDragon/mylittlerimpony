@@ -5,7 +5,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicEye</defName>
 	<label>request bionic eye</label>
-	<description>Offer chocolate in exchange for a bionic eye.</description>
+	<description>Offer silver in exchange for a bionic eye.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -21,10 +21,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -37,7 +37,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicArm</defName>
 	<label>request bionic arm</label>
-	<description>Offer chocolate in exchange for a bionic arm.</description>
+	<description>Offer silver in exchange for a bionic arm.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -53,10 +53,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -69,7 +69,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicLeg</defName>
 	<label>request bionic leg</label>
-	<description>Offer chocolate in exchange for a bionic leg.</description>
+	<description>Offer silver in exchange for a bionic leg.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -85,10 +85,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -101,7 +101,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicSpine</defName>
 	<label>request bionic spine</label>
-	<description>Offer chocolate in exchange for a bionic spine.</description>
+	<description>Offer silver in exchange for a bionic spine.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -117,10 +117,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -133,7 +133,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicHeart</defName>
 	<label>request bionic heart</label>
-	<description>Offer chocolate in exchange for a bionic heart.</description>
+	<description>Offer silver in exchange for a bionic heart.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -149,10 +149,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -165,7 +165,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicStomach</defName>
 	<label>request bionic stomach</label>
-	<description>Offer chocolate in exchange for a bionic stomach.</description>
+	<description>Offer silver in exchange for a bionic stomach.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -181,10 +181,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>393</count>
+			<count>100</count>
 		</li>
 	</ingredients>
 	<products>
@@ -197,7 +197,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicEar</defName>
 	<label>request bionic ear</label>
-	<description>Offer chocolate in exchange for a bionic ear.</description>
+	<description>Offer silver in exchange for a bionic ear.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -213,10 +213,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>393</count>
+			<count>100</count>
 		</li>
 	</ingredients>
 	<products>
@@ -229,7 +229,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_BionicTongue</defName>
 	<label>request bionic tongue</label>
-	<description>Offer chocolate in exchange for a bionic tongue.</description>
+	<description>Offer silver in exchange for a bionic tongue.</description>
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -245,10 +245,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>283</count>
+			<count>75</count>
 		</li>
 	</ingredients>
 	<products>

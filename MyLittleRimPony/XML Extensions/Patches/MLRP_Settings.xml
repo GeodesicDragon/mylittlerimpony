@@ -169,38 +169,10 @@
 						<careIfWornByCorpse>true</careIfWornByCorpse>
 					</value>
 				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/apparel/careIfWornByCorpse</xpath>
-					<value>
-						<careIfWornByCorpse>true</careIfWornByCorpse>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="PonyPlush_CutieMarkCrusaders"]/apparel/careIfWornByCorpse</xpath>
-					<value>
-						<careIfWornByCorpse>true</careIfWornByCorpse>
-					</value>
-				</Operation>
 			</caseTrue>
 			<caseFalse>
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/apparel/careIfWornByCorpse</xpath>
-					<value>
-						<careIfWornByCorpse>false</careIfWornByCorpse>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/apparel/careIfWornByCorpse</xpath>
-					<value>
-						<careIfWornByCorpse>false</careIfWornByCorpse>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="PonyPlush_CutieMarkCrusaders"]/apparel/careIfWornByCorpse</xpath>
 					<value>
 						<careIfWornByCorpse>false</careIfWornByCorpse>
 					</value>
@@ -836,6 +808,29 @@
 			</caseFalse>
 		</li>
 		
+		<!--BIOTECH: SWEETIE BOT MECHANOIDS APPEAR IN MECHANOID CLUSTERS-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_SweetieBotMechanoidsAppearInMechClusters</key>
+			<defaultValue>true</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="MLRP_SweetieBotMech"]/allowInMechClusters</xpath>
+					<value>
+						<allowInMechClusters>true</allowInMechClusters>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="MLRP_SweetieBotMech"]/allowInMechClusters</xpath>
+					<value>
+						<allowInMechClusters>false</allowInMechClusters>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
 		<!--MEDPOD: PREVENT PODS FROM HEALING THE CUTIE POX-->
 		<li Class="XmlExtensions.OptionalPatch" MayRequire="sumghai.medpod">
 			<modId>geodesicdragon.rimpony</modId>
@@ -1197,6 +1192,11 @@
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
 					<key>MLRP_RainbowDashChildPlushUsesAdultStats</key>
 					<label>Child-equippable Rainbow Dash plushie has the same bonuses as the adult version</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
+					<key>MLRP_SweetieBotMechanoidsAppearInMechClusters</key>
+					<label>Sweetie Bot mechanoids appear in mechanoid clusters</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="sumghai.medpod"/>

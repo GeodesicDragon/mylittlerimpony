@@ -8,7 +8,7 @@
 	<match Class="PatchOperationAdd">
 		<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips</xpath>
 		<value>
-			<li>Changes you make to the Sweetie Bot turret will not be applied to the mechanoid version.</li>
+			<li>XML Extensions: Changes you make to the Sweetie Bot turret will not be applied to the mechanoid version.</li>
 		</value>
 	</match>
 </Operation>

@@ -9,7 +9,7 @@
 				<RecipeDef>
 					<defName>MLRP_NMM_IsolinearProcessor</defName>
 					<label>request isolinear processor</label>
-					<description>Offer chocolate in exchange for an isolinear processor.</description>
+					<description>Offer silver in exchange for an isolinear processor. It's expensive, but it's marginally better than waiting for a trader or quest reward.</description>
 					<researchPrerequisite>AcceleratedCellularRegeneration</researchPrerequisite>
 					<jobString>Making an offering to Nightmare Moon</jobString>
 					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -25,10 +25,10 @@
 						<li>
 							<filter>
 								<thingDefs>
-									<li>Chocolate</li>
+									<li>Silver</li>
 								</thingDefs>
 							</filter>
-							<count>3000</count>
+							<count>900</count>
 						</li>
 					</ingredients>
 					<products>

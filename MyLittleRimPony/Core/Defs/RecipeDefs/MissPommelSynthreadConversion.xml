@@ -1,0 +1,127 @@
+<Defs>
+
+<!--CONVERT SYNTHREAD TO CLOTH-->
+
+<RecipeDef>
+	<defName>MLRP_MP_ConvertSynthreadIntoCloth</defName>
+	<label>convert synthread to cloth</label>
+	<description>Convert 100 synthread into the market value equivalent of cloth.</description>
+    <jobString>Exchanging materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_MissPommel</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Synthread</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Cloth>267</Cloth>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SYNTHREAD TO HYPERWEAVE-->
+
+<RecipeDef>
+	<defName>MLRP_MP_ConvertSynthreadIntoHyperweave</defName>
+	<label>convert synthread to hyperweave</label>
+	<description>Convert 100 synthread into the market value equivalent of hyperweave.</description>
+    <jobString>Exchanging materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_MissPommel</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Synthread</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Hyperweave>44</Hyperweave>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SYNTHREAD TO DEVILSTRAND-->
+
+<RecipeDef ParentName="MissPommel_DevilstrandBase">
+	<defName>MLRP_MP_ConvertSynthreadIntoDevilstrand</defName>
+	<label>convert synthread to devilstrand</label>
+	<description>Convert 100 synthread into the market value equivalent of devilstrand.</description>
+    <jobString>Exchanging materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_MissPommel</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Synthread</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<DevilstrandCloth>73</DevilstrandCloth>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SYNTHREAD TO THRUMBOFUR-->
+
+<RecipeDef>
+	<defName>MLRP_MP_ConvertSynthreadIntoThrumbofur</defName>
+	<label>convert synthread to thrumbofur</label>
+	<description>Convert 100 synthread into the market value equivalent of thrumbofur.</description>
+    <jobString>Exchanging materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_MissPommel</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Synthread</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Thrumbo>29</Leather_Thrumbo>
+	</products>
+</RecipeDef>
+  
+</Defs>

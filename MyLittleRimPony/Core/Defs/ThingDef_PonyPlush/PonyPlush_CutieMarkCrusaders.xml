@@ -2,7 +2,6 @@
 <Defs>
 
     <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
     <defName>PonyPlush_CutieMarkCrusaders</defName>
     <label>Cutie Mark Crusaders</label>
     <description>Otherwise known as 'The Three Filly Wrecking Crew Of Ponyville.'\n\nCarrying them makes you feel as though they are supporting and guiding you, even though you can't get a cutie mark of your own.</description>
@@ -17,7 +16,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>750</MarketValue>
+      <MarketValue>600</MarketValue>
       <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>1.0</Mass>
@@ -32,25 +31,6 @@
 		<CookSpeed>20</CookSpeed>
 		<FoodPoisonChance>-0.1</FoodPoisonChance>
     </equippedStatOffsets>
-    <comps>
-		<li Class="CompProperties_Forbiddable" />
-		<li Class="CompProperties_CauseHediff_Apparel">
-			<hediff>MLRP_PonyPlushEquipped</hediff>
-        <part>Waist</part>
-      </li>
-    </comps>
-    <apparel>
-  <careIfWornByCorpse>true</careIfWornByCorpse>
-  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-    <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
     <costStuffCount>900</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>

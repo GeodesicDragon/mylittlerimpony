@@ -1,0 +1,24 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MedPod</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs</xpath>
+			<value>
+				<li>MLRP_PoisonJokeIncreasedConsciousness</li>
+				<li>MLRP_PoisonJokeSuperSpeedy</li>
+				<li>MLRP_PoisonJokeGoodManipulation</li>
+				<li>MLRP_PoisonJokeIncreasedTalking</li>
+				<li>MLRP_PoisonJokeIncreasedEating</li>
+				<li>MLRP_PoisonJokeSightBeyondSight</li>
+				<li>MLRP_PoisonJokeIncreasedHearing</li>
+				<li>MLRP_PoisonJokeIncreasedBreathing</li>
+				<li>MLRP_PoisonJokeIncreasedBloodFiltration</li>
+				<li>MLRP_PoisonJokeIncreasedBloodPumping</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

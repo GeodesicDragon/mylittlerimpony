@@ -5,7 +5,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_PsylinkNeuroformer</defName>
 	<label>request psylink neuroformer</label>
-	<description>Offer chocolate in exchange for a psylink neuroformer.</description>
+	<description>Offer silver in exchange for a psylink neuroformer.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -20,10 +20,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>1300</count>
+			<count>325</count>
 		</li>
 	</ingredients>
 	<products>
@@ -36,7 +36,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_Neurocalculator</defName>
 	<label>request learning assistant</label>
-	<description>Offer chocolate in exchange for a neurocalculator.</description>
+	<description>Offer silver in exchange for a neurocalculator.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -51,10 +51,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -68,7 +68,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_LearningAssistant</defName>
 	<label>request learning assistant</label>
-	<description>Offer chocolate in exchange for a learning assistant.</description>
+	<description>Offer silver in exchange for a learning assistant.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -83,10 +83,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -100,7 +100,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_Immunoenhancer</defName>
 	<label>request immunoenhancer</label>
-	<description>Offer chocolate in exchange for an immunoenhancer.</description>
+	<description>Offer silver in exchange for an immunoenhancer.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -115,10 +115,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -132,7 +132,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_Coagulator</defName>
 	<label>request coagulator</label>
-	<description>Offer chocolate in exchange for a coagulator.</description>
+	<description>Offer silver in exchange for a coagulator.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -147,10 +147,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>415</count>
+			<count>104</count>
 		</li>
 	</ingredients>
 	<products>
@@ -164,7 +164,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_HealingEnhancer</defName>
 	<label>request healing enhancer</label>
-	<description>Offer chocolate in exchange for a healing enhancer.</description>
+	<description>Offer silver in exchange for a healing enhancer.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -179,10 +179,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -196,7 +196,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_ToughskinGland</defName>
 	<label>request toughskin gland</label>
-	<description>Offer chocolate in exchange for a toughskin gland.</description>
+	<description>Offer silver in exchange for a toughskin gland.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -211,10 +211,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -228,7 +228,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_ArmorskinGland</defName>
 	<label>request armorskin gland</label>
-	<description>Offer chocolate in exchange for an armorskin gland.</description>
+	<description>Offer silver in exchange for an armorskin gland.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -243,10 +243,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>738</count>
+			<count>185</count>
 		</li>
 	</ingredients>
 	<products>
@@ -260,7 +260,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_StoneskinGland</defName>
 	<label>request stoneskin gland</label>
-	<description>Offer chocolate in exchange for a stoneskin gland.</description>
+	<description>Offer silver in exchange for a stoneskin gland.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -275,10 +275,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>960</count>
+			<count>240</count>
 		</li>
 	</ingredients>
 	<products>
@@ -292,7 +292,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_AestheticShaper</defName>
 	<label>request aesthetic shaper</label>
-	<description>Offer chocolate in exchange for an aesthetic shaper.</description>
+	<description>Offer silver in exchange for an aesthetic shaper.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -307,10 +307,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>415</count>
+			<count>104</count>
 		</li>
 	</ingredients>
 	<products>
@@ -324,7 +324,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_AestheticNose</defName>
 	<label>request aesthetic nose</label>
-	<description>Offer chocolate in exchange for an aesthetic nose.</description>
+	<description>Offer silver in exchange for an aesthetic nose.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -339,10 +339,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>293</count>
+			<count>75</count>
 		</li>
 	</ingredients>
 	<products>
@@ -356,7 +356,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_LoveEnhancer</defName>
 	<label>request love enhancer</label>
-	<description>Offer chocolate in exchange for a love enhancer.</description>
+	<description>Offer silver in exchange for a love enhancer.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -371,10 +371,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -388,7 +388,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_DetoxifierStomach</defName>
 	<label>request sterilising stomach</label>
-	<description>Offer chocolate in exchange for a sterlising stomach.</description>
+	<description>Offer silver in exchange for a sterlising stomach.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -403,10 +403,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -420,7 +420,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_ReprocessorStomach</defName>
 	<label>request reprocessor stomach</label>
-	<description>Offer chocolate in exchange for a reprocessor stomach.</description>
+	<description>Offer silver in exchange for a reprocessor stomach.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -435,10 +435,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -452,7 +452,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_NuclearStomach</defName>
 	<label>request nuclear stomach</label>
-	<description>Offer chocolate in exchange for a nuclear stomach.</description>
+	<description>Offer silver in exchange for a nuclear stomach.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -467,10 +467,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -484,7 +484,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_CircadianAssistant</defName>
 	<label>request circadian assistant</label>
-	<description>Offer chocolate in exchange for a circadian assistant.</description>
+	<description>Offer silver in exchange for a circadian assistant.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -499,10 +499,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>
@@ -516,7 +516,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_CircadianHalfCycler</defName>
 	<label>request circadian half-cycler</label>
-	<description>Offer chocolate in exchange for a circadian half-cycler.</description>
+	<description>Offer silver in exchange for a circadian half-cycler.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -531,10 +531,10 @@
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Chocolate</li>
+					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>515</count>
+			<count>130</count>
 		</li>
 	</ingredients>
 	<products>

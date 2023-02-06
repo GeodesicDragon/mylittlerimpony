@@ -6,6 +6,7 @@
       <shaderType>CutoutComplex</shaderType>
       <color>(255,255,255,255)</color> 
 	</graphicData>
+	<possessionCount>1</possessionCount>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <skillRequirements>
@@ -31,7 +32,7 @@
 		<Flammability>1</Flammability>
 		<EquipDelay>0.1</EquipDelay>
 		<Beauty>1</Beauty>
-		<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold> <!--Plushies are warm and cuddly-->
+		<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold> <!--Plushies are warm and cuddly!-->
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>

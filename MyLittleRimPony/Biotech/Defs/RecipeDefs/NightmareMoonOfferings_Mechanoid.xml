@@ -15,15 +15,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chocolate</li>
-					</thingDefs>
-				</filter>
-				<count>250</count>
+				<count>100</count>
 			</li>
 		</ingredients>
 	</RecipeDef>
@@ -37,15 +29,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chocolate</li>
-					</thingDefs>
-				</filter>
-				<count>500</count>
+				<count>200</count>
 			</li>
 		</ingredients>
 	</RecipeDef>
@@ -59,15 +43,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>225</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chocolate</li>
-					</thingDefs>
-				</filter>
-				<count>750</count>
+				<count>300</count>
 			</li>
 		</ingredients>
 	</RecipeDef>
@@ -77,7 +53,7 @@
 <RecipeDef ParentName="NMM_SignalChipRecipeBase">
 	<defName>MLRP_NMM_ControlSublinkStandard</defName>
 	<label>request control sublink (standard)</label>
-	<description>Offer chocolate and other items in exchange for a control sublink (standard).\n\nThis recipe can only be performed by a mechanitor.</description>
+	<description>Offer silver and other items in exchange for a control sublink (standard).\n\nThis recipe can only be performed by a mechanitor.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>StandardMechtech</researchPrerequisite>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -109,7 +85,7 @@
 <RecipeDef ParentName="NMM_PowerfocusChipRecipeBase">
 	<defName>MLRP_NMM_ControlSublinkHigh</defName>
 	<label>request control sublink (high)</label>
-	<description>Offer chocolate and other items in exchange for a control sublink (high).\n\nThis recipe can only be performed by a mechanitor.</description>
+	<description>Offer silver and other items in exchange for a control sublink (high).\n\nThis recipe can only be performed by a mechanitor.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -149,7 +125,7 @@
 <RecipeDef ParentName="NMM_PowerfocusChipRecipeBase">
 	<defName>MLRP_NMM_RemoteRepairer</defName>
 	<label>request remote repairer</label>
-	<description>Offer chocolate and other items in exchange for a remote repairer.\n\nThis recipe can only be performed by a mechanitor.</description>
+	<description>Offer silver and other items in exchange for a remote repairer.\n\nThis recipe can only be performed by a mechanitor.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -181,7 +157,7 @@
 <RecipeDef ParentName="NMM_SignalChipRecipeBase">
 	<defName>MLRP_NMM_MechGestationProcessor</defName>
 	<label>request mech gestation processor</label>
-	<description>Offer chocolate and other items in exchange for a mech gestation processor.\n\nThis recipe can only be performed by a mechanitor.</description>
+	<description>Offer silver and other items in exchange for a mech gestation processor.\n\nThis recipe can only be performed by a mechanitor.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>StandardMechtech</researchPrerequisite>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -213,7 +189,7 @@
 <RecipeDef ParentName="NMM_PowerfocusChipRecipeBase">
 	<defName>MLRP_NMM_RemoteShielder</defName>
 	<label>request remote shielder</label>
-	<description>Offer chocolate and other items in exchange for a remote shielder.\n\nThis recipe can only be performed by a mechanitor.</description>
+	<description>Offer silver and other items in exchange for a remote shielder.\n\nThis recipe can only be performed by a mechanitor.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -245,7 +221,7 @@
 <RecipeDef ParentName="NMM_NanostructuringChipRecipeBase">
 	<defName>MLRP_NMM_RepairProbe</defName>
 	<label>request repair probe</label>
-	<description>Offer chocolate and other items in exchange for a repair probe.\n\nThis recipe can only be performed by a mechanitor.</description>
+	<description>Offer silver and other items in exchange for a repair probe.\n\nThis recipe can only be performed by a mechanitor.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>UltraMechtech</researchPrerequisite>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -277,7 +253,7 @@
 <RecipeDef ParentName="NMM_NanostructuringChipRecipeBase">
 	<defName>MLRP_NMM_HighSubcore</defName>
 	<label>request high subcore</label>
-	<description>Offer chocolate and other items in exchange for a high subcore. This recipe is expensive, requiring hemogen as well as silver and chocolate, but it doesn't require anyone to die first.\n\nThis recipe can only be performed by a mechanitor.</description>
+	<description>Offer silver and other items in exchange for a high subcore. This recipe is expensive, but the upside is that it doesn't require anyone to die first.\n\nThis recipe can only be performed by a mechanitor.</description>
 	<mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
@@ -297,7 +273,7 @@
 					<li>HemogenPack</li>
 				</thingDefs>
 			</filter>
-			<count>25</count>
+			<count>30</count>
 		</li>
 	</ingredients>
 	<products>

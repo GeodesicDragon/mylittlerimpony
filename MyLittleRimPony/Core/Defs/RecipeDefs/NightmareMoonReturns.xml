@@ -5,7 +5,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_AIPersonaCoreForChocolate</defName>
 	<label>return persona core</label>
-	<description>Return a persona core in exchange for chocolate.</description>
+	<description>Return a persona core in exchange for silver.</description>
 	<researchPrerequisite>ShipComputerCore</researchPrerequisite>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -28,7 +28,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<Chocolate>266</Chocolate>
+		<Silver>100</Silver>
 	</products>
 </RecipeDef>
 
@@ -37,7 +37,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_MechSerumHealerForChocolate</defName>
 	<label>return healer mech serum</label>
-	<description>Return a healer mech serum in exchange for chocolate.</description>
+	<description>Return a healer mech serum in exchange for silver.</description>
 	<researchPrerequisite>HospitalBed</researchPrerequisite>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -60,7 +60,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<Chocolate>86</Chocolate>
+		<Silver>33</Silver>
 	</products>
 </RecipeDef>
 
@@ -69,7 +69,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_MechSerumResurrectorForChocolate</defName>
 	<label>return resurrector mech serum</label>
-	<description>Return a resurrector mech serum in exchange for chocolate.</description>
+	<description>Return a resurrector mech serum in exchange for silver.</description>
 	<researchPrerequisite>MedicineProduction</researchPrerequisite>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -92,7 +92,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<Chocolate>114</Chocolate>
+		<Silver>43</Silver>
 	</products>
 </RecipeDef>
 
@@ -101,7 +101,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_TechprofSubpersonaCoreForChocolate</defName>
 	<label>return techprof subpersona core</label>
-	<description>Return a techprof subpersona core in exchange for chocolate.</description>
+	<description>Return a techprof subpersona core in exchange for silver.</description>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -123,7 +123,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<Chocolate>66</Chocolate>
+		<Silver>25</Silver>
 	</products>
 </RecipeDef>
 
@@ -132,7 +132,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_ElephantTuskForChocolate</defName>
 	<label>return elephant tusk</label>
-	<description>Return an elephant tusk in exchange for (not much) chocolate.</description>
+	<description>Return an elephant tusk in exchange for (not much) silver.</description>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -154,7 +154,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<Chocolate>6</Chocolate>
+		<Silver>2</Silver>
 	</products>
 </RecipeDef>
 
@@ -163,7 +163,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_ThrumboHornForChocolate</defName>
 	<label>return thrumbo horn</label>
-	<description>Return a thrumbo horn in exchange for chocolate.</description>
+	<description>Return a thrumbo horn in exchange for silver.</description>
     <jobString>Returning an item to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -185,7 +185,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<Chocolate>54</Chocolate>
+		<Silver>20</Silver>
 	</products>
 </RecipeDef>
 

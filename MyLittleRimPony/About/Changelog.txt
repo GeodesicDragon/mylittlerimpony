@@ -1,3 +1,56 @@
+Version 3.82.89 (February 6th 2023)
+
+* Core: Added Miss Pommel's Fabric Exchange. (I'd use her proper name, but I don't want to risk getting sued lol.)
+	* Converts 100 of cloth/synthread/hyperweave/devilstrand/thrumbofur into the market value equivalent of another.
+		* Example 1: 100 cloth = 38 synthread, 17 hyperweave, 27 devilstrand or 11 thrumbofur.
+		* Example 2: 100 thrumbofur = 933 cloth, 350 synthread, 156 hyperweave or 255 devilstrand.
+		* Can also convert 100 human leather into the market value equivalent of lightleather or plainleather, but cannot convert the other way.
+		* Comes with 22 new recipes in total.
+		* Recipes do not require any other ingredients.
+		* Requires complex clothing to be researched.
+		* Requires 200 stuff and 150W of power to construct.
+		* Will not short circuit if exposed to wet weather.
+		* Devilstrand recipes will be unlocked once the fabric has been researched.
+* Core: The mood of pawns with the brony trait is now affected by the impressiveness of portal rooms they find themselves in.
+* Core: Poison joke now has a chance of causing a pawn to go blind for 24 hours.
+* Core: Poison joke now has a chance of increasing a pawn's consciousness, or rendering them unconscious, for 24 hours.
+* Core: Poison joke now has a chance of affecting a pawn's ability to speak for 24 hours.
+* Core: Poison joke now has a chance of affecting a pawn's ability to eat for 24 hours.
+* Core: Poison joke now has a chance of affecting a pawn's ability to hear for 24 hours.
+* Core: Poison joke now has a chance of affecting a pawn's ability to breathe for 12 hours.
+* Core: Poison joke now has a chance of affecting a pawn's blood filtration for 12 hours.
+* Core: Poison joke now has a chance of affecting a pawn's blood pumping for 12 hours.
+* Core: Nightmare Moon is now offering antigrain warheads. Requesting one requires mortar research, 4500 silver and 25 high explosive shells.
+* Core: You can now request Sunset Shimmer plushies from Nightmare Moon once the magic mirror has been researched. Requires 7500 silver and 300 cloth.
+* XML Extensions: Added an option to configure whether Sweetie Bot mechanoids appear in mechanoid clusters. Set to true by default.
+* Core: Speaking of Nightmare Moon, she has come to accept the fact that gathering chocolate, especially in the amounts she asks for, is a time-consuming and laborious process. As such, she has decreed that she will now accept payments of silver instead. (If a recipe still asks for chocolate, please let me know!)
+* Core: Reduced markup of acquiring things from Nightmare Moon to at least 25% (was 50%).
+* Core: Plushies now have a chance of appearing as part of a pawn's possessions when starting a new colony, though I should point out that I can't stop them from appearing in the inventories of pawns with the anti brony trait. (Maybe they stole it or something, I don't know.)
+* Core: Plushie traders should now stock all available plushies by default, meaning I will stop forgetting to add new ones to the stock list.
+* Core: Individual poison joke joints have been given a somewhat better new texture.
+* Core: Poison joke no longer has a chance of improving a colonists mood.
+* Core: Poison joke no longer has a chance of reducing a colonists mood.
+* Core: Poison joke no longer has a chance of causing heart attacks. (I lost a few good colonists because of that, so consider this a rage change.)
+* Core: Aggro turrets can now be constructed using metals.
+* Core: Screwball generators can now be constructed using metal and wood.
+* Core: Researching Cocoa is no longer a prerequisite for researching Statues of the Evil Sisters.
+* Core: Reduced market value of the Cutie Mark Crusaders to 600 (was 750).
+* Core: Aggro turrets now take a little less work to build.
+* Core: Increased yield of poison joke plants to 9 (was 6).
+* Core: Removed some offensive words from the list of 200 randoms used to generate NPC faction names and replaced them with something else. Apologies for not noticing this sooner; I just assumed the generator I used wouldn't pick words like those.
+* Biotech: Increased hemogen cost of acquiring a high subcore to 30 (was 25).
+* Biotech: The silver requirement of mechanitor-only recipes at the Nightmare Moon statue are now double the value of the required chip.
+	* Signal Chip: 1000 silver (was 750).
+	* Powerfocus Chip: 2000 silver (was 1500).
+	* Nanostructuring Chip: 3000 silver (was 2250).
+* MedPod: Nightmare Moon is now demanding 9000 silver for isolinear processors instead of 3000 chocolate.
+* MedPod: Pods will no longer remove the 'super speedy' hediff.
+* MedPod: Pods will no longer remove the 'sight beyond sight' hediff.
+* MedPod: Pods will no longer remove the 'good manipulation' hediff.
+* MedPod: Pods will no longer remove the 'shrewd negotiator' hediff (ability added by the alicorn gene).
+* Replimat: Nightmare Moon is now demanding 27000 silver for isolinear modules instead of 9000 chocolate.
+* Harvest Organs Post Mortem: Removed the recipes for returning organs to the Nightmare Moon Statue. This will cause some one-time red errors.
+
 Version 3.47.63 (January 8th 2023)
 
 * Core: Removed support for RimWorld 1.3. From now on, MLRP will only support the latest version of the game.

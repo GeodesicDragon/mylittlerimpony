@@ -2,7 +2,6 @@
 <Defs>
 
   <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
     <defName>MLRP_ElementsOfHarmony</defName>
     <label>Elements of Harmony</label>
     <description>It is a well-known fact that the Elements of Harmony are exceptionally powerful; this version, however, is the one that WON'T let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
@@ -43,25 +42,6 @@
 	  <TradePriceImprovement>0.25</TradePriceImprovement>
 	  <ResearchSpeed>0.25</ResearchSpeed>
     </equippedStatOffsets>
-    <comps>
-		<li Class="CompProperties_Forbiddable" />
-		<li Class="CompProperties_CauseHediff_Apparel">
-			<hediff>MLRP_PonyPlushEquipped</hediff>
-        <part>Waist</part>
-      </li>
-    </comps>
-    <apparel>
-  <careIfWornByCorpse>true</careIfWornByCorpse>
-  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-    <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
     <costStuffCount>1800</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>

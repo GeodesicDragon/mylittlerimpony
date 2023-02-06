@@ -4,6 +4,9 @@
 		<defName>MLRP_PortalRoom</defName>
 		<label>portal room</label>
 		<workerClass>MyLittleRimPony.RoomRoleWorker_PortalRoom</workerClass>
+		<relatedStats>
+			<li>Impressiveness</li>
+		</relatedStats>
 	</RoomRoleDef>
   
 </Defs>

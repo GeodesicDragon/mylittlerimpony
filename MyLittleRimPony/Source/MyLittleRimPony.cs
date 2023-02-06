@@ -3,6 +3,7 @@
 // MLP is property of Hasbro.
 // Huge thanks to users of the official RimWorld Discord server for helping me with code.
 // And also for being so damn patient with me while my slow brain figured it all out.
+// I am always happy to accept updates to this code, especially if you have a better way of doing something I've done. Contact me via my Discord server and we'll talk!
 
 // NOTE TO SELF: REMEMBER TO UPDATE THE VERSION NUMBER IN THE CONSOLE MESSAGE!
 
@@ -14,21 +15,32 @@ using Verse;
 namespace MyLittleRimPony
 {
     [DefOf]
-
     public static class MyDefOf
     {
         // Game related stuff because I don't know how to access the DefDatabase
-        public static HediffDef HeartAttack;
         public static HediffDef FibrousMechanites;
         public static HediffDef SensoryMechanites;
         // Mod related stuff
-        public static HediffDef MLRP_PoisonJokeSightBeyondSight;
-        public static HediffDef MLRP_PoisonJokeSlowAndSluggish;
+        public static HediffDef MLRP_PoisonJokeIncreasedConsciousness;
+        public static HediffDef MLRP_PoisonJokeReducedConsciousness;
         public static HediffDef MLRP_PoisonJokeSuperSpeedy;
+        public static HediffDef MLRP_PoisonJokeSlowAndSluggish;
         public static HediffDef MLRP_PoisonJokeGoodManipulation;
         public static HediffDef MLRP_PoisonJokePoorManipulation;
-        public static HediffDef MLRP_PoisonJokeGoodMood;
-        public static HediffDef MLRP_PoisonJokeBadMood;
+        public static HediffDef MLRP_PoisonJokeIncreasedTalking;
+        public static HediffDef MLRP_PoisonJokeReducedTalking;
+        public static HediffDef MLRP_PoisonJokeIncreasedEating;
+        public static HediffDef MLRP_PoisonJokeReducedEating;
+        public static HediffDef MLRP_PoisonJokeSightBeyondSight;
+        public static HediffDef MLRP_PoisonJokeBlindness;
+        public static HediffDef MLRP_PoisonJokeIncreasedHearing;
+        public static HediffDef MLRP_PoisonJokeReducedHearing;
+        public static HediffDef MLRP_PoisonJokeIncreasedBreathing;
+        public static HediffDef MLRP_PoisonJokeReducedBreathing;
+        public static HediffDef MLRP_PoisonJokeIncreasedBloodFiltration;
+        public static HediffDef MLRP_PoisonJokeReducedBloodFiltration;
+        public static HediffDef MLRP_PoisonJokeIncreasedBloodPumping;
+        public static HediffDef MLRP_PoisonJokeReducedBloodPumping;
         public static ThingDef MLRP_MagicMirrorGenerator;
         public static TraitDef MLRP_BronyTrait;
         public static TraitDef MLRP_AntiBronyTrait;
@@ -40,7 +52,8 @@ namespace MyLittleRimPony
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
-            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.47.63 " + "MLRP_ModIntro".Translate()); // If anyone is reading this and can tell me how to get the version number automatically using a method that DOESN'T crash the game, please let me know!
+
+            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.82.89 " + "MLRP_ModIntro".Translate());
             if (ModsConfig.IsActive("CETeam.CombatExtended"))
             {
                 Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetected".Translate());
@@ -206,53 +219,93 @@ namespace MyLittleRimPony
         protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
         {
             System.Random r = new System.Random();
-            int n = r.Next(1, 11); // maxValue must always be one greater than the number of available hediffs, otherwise the poison joke will always cause a heart attack!
+            int n = r.Next(1, 21); // maxValue must always be one greater than the number of available hediffs, otherwise the first hediff will always be chosen.
             var affliction = "";
 
             switch (n)
             {
                 case 1:
-                    pawn.health.AddHediff(MyDefOf.HeartAttack);
-                    affliction = "Heart attack";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedConsciousness);
+                    affliction = "increased consciousness";
                     break;
                 case 2:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSightBeyondSight);
-                    affliction = "Sight beyond sight";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedConsciousness);
+                    affliction = "unconsciousness";
                     break;
                 case 3:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSlowAndSluggish);
-                    affliction = "Slow and sluggish";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSuperSpeedy);
+                    affliction = "super speedy";
                     break;
                 case 4:
-                    pawn.health.AddHediff(MyDefOf.FibrousMechanites);
-                    affliction = "Fibrous mechanites";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSlowAndSluggish);
+                    affliction = "slow and sluggish";
                     break;
                 case 5:
-                    pawn.health.AddHediff(MyDefOf.SensoryMechanites);
-                    affliction = "Sensory mechanites";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeGoodManipulation);
+                    affliction = "good manipulation";
                     break;
                 case 6:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSuperSpeedy);
-                    affliction = "Super speedy";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokePoorManipulation);
+                    affliction = "poor manipulation";
                     break;
                 case 7:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeGoodManipulation);
-                    affliction = "Improved manipulation";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedTalking);
+                    affliction = "gift of the gab";
                     break;
                 case 8:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokePoorManipulation);
-                    affliction = "Reduced manipulation";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedTalking);
+                    affliction = "total silence";
                     break;
                 case 9:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeGoodMood);
-                    affliction = "Good mood";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedEating);
+                    affliction = "quick eater";
                     break;
                 case 10:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeBadMood);
-                    affliction = "Bad mood";
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedEating);
+                    affliction = "slow eater";
+                    break;
+                case 11:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSightBeyondSight);
+                    affliction = "sight beyond sight";
+                    break;
+                case 12:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeBlindness);
+                    affliction = "blindness";
+                    break;
+                case 13:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedHearing);
+                    affliction = "improved hearing";
+                    break;
+                case 14:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedHearing);
+                    affliction = "deafness";
+                    break;
+                case 15:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBreathing);
+                    affliction = "improved breathing";
+                    break;
+                case 16:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBreathing);
+                    affliction = "struggling for breath";
+                    break;
+                case 17:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBloodFiltration);
+                    affliction = "improved blood filtration";
+                    break;
+                case 18:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBloodFiltration);
+                    affliction = "poor blood filtration";
+                    break;
+                case 19:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBloodPumping);
+                    affliction = "improved blood pumping";
+                    break;
+                case 20:
+                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBloodPumping);
+                    affliction = "poor blood pumping";
                     break;
             }
-            if (n == 1)
+            if (n == 2 || n == 12 || n == 16 || n == 20)
             {
                 LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.ThreatSmall;
                 string title = "MLRP_PoisonJokeLetterTitle".Translate();
@@ -282,7 +335,20 @@ namespace MyLittleRimPony
                 if (andAdjacentThings[index].def == MyDefOf.MLRP_MagicMirrorGenerator)
                     ++num;
             }
-            return 50f * (float)num;
+            return 10f * (float)num;
+        }
+    }
+
+    // PORTAL ROOM IMPRESSIVENESS
+
+    public class ThoughtWorker_PortalRoomImpressiveness : ThoughtWorker_RoomImpressiveness
+    {
+        protected override ThoughtState CurrentStateInternal(Pawn p)
+        {
+            if (!p.IsColonist)
+                return ThoughtState.Inactive;
+            ThoughtState thoughtState = base.CurrentStateInternal(p);
+            return thoughtState.Active && p.GetRoom().Role == MyDefOf.MLRP_PortalRoom ? thoughtState : ThoughtState.Inactive;
         }
     }
 }

@@ -1,12 +1,12 @@
 <Defs>
 
-<!--SIGHT BEYOND SIGHT-->
+<!--CONSCIOUSNESS-->
 
 <HediffDef>
-    <defName>MLRP_PoisonJokeSightBeyondSight</defName>
-    <label>sight beyond sight</label>
+    <defName>MLRP_PoisonJokeIncreasedConsciousness</defName>
+    <label>increased consciousness</label>
 	<hediffClass>HediffWithComps</hediffClass>
-    <description>Improved sight for 24 hours, one of the possible side effects of smoking poison joke.</description>
+    <description>Increased consciousness, one of the possible side effects of smoking poison joke.</description>
 	<comps>
 		<li Class="HediffCompProperties_Disappears">
 			<disappearsAfterTicks>60000</disappearsAfterTicks>
@@ -17,7 +17,7 @@
 		<li>
 			<capMods>
 				<li>
-					<capacity>Sight</capacity>
+					<capacity>Consciousness</capacity>
 					<offset>1</offset>
 				</li>
 			</capMods>
@@ -25,16 +25,14 @@
 	</stages>
 </HediffDef>
 
-<!--SLOW AND SLUGGISH-->
-
 <HediffDef>
-    <defName>MLRP_PoisonJokeSlowAndSluggish</defName>
-    <label>slow and sluggish</label>
+    <defName>MLRP_PoisonJokeReducedConsciousness</defName>
+    <label>knocked out</label>
 	<hediffClass>HediffWithComps</hediffClass>
-    <description>Reduced movement speed, one of the possible side effects of smoking poison joke.</description>
+    <description>Reduced consciousness, one of the possible side effects of smoking poison joke.</description>
 	<comps>
 		<li Class="HediffCompProperties_Disappears">
-			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
 			<showRemainingTime>true</showRemainingTime>
 		</li>
 	</comps>
@@ -42,15 +40,15 @@
 		<li>
 			<capMods>
 				<li>
-					<capacity>Moving</capacity>
-					<offset>-0.5</offset>
+					<capacity>Consciousness</capacity>
+					<offset>-0.99</offset>
 				</li>
 			</capMods>
 		</li>
 	</stages>
 </HediffDef>
 
-<!--SUPER SPEEDY-->
+<!--MOVING-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeSuperSpeedy</defName>
@@ -75,7 +73,30 @@
 	</stages>
 </HediffDef>
 
-<!--GOOD MANIPULATION-->
+<HediffDef>
+    <defName>MLRP_PoisonJokeSlowAndSluggish</defName>
+    <label>slow and sluggish</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Reduced movement speed, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.5</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--MANIPULATION-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeGoodManipulation</defName>
@@ -100,8 +121,6 @@
 	</stages>
 </HediffDef>
 
-<!--POOR MANIPULATION-->
-
 <HediffDef>
     <defName>MLRP_PoisonJokePoorManipulation</defName>
     <label>poor manipulation</label>
@@ -125,62 +144,368 @@
 	</stages>
 </HediffDef>
 
-<!--GOOD MOOD-->
+<!--TALKING-->
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeIncreasedTalking</defName>
+    <label>gift of the gab</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Increased speaking ability, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Talking</capacity>
+					<offset>1</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeReducedTalking</defName>
+    <label>total silence</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>A complete inability to speak, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Talking</capacity>
+					<offset>-1</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--EATING-->
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeIncreasedEating</defName>
+    <label>quick eater</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Increased eating ability, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Eating</capacity>
+					<offset>1</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeReducedEating</defName>
+    <label>slow eater</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Reduced eating ability, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Eating</capacity>
+					<offset>-0.5</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--SIGHT-->
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeSightBeyondSight</defName>
+    <label>sight beyond sight</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Improved sight for 24 hours, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Sight</capacity>
+					<offset>1</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeBlindness</defName>
+    <label>blindness</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>A complete inability to see, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Sight</capacity>
+					<offset>-1</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--HEARING-->
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeIncreasedHearing</defName>
+    <label>improved hearing</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Increased hearing ability, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Hearing</capacity>
+					<offset>1</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeReducedHearing</defName>
+    <label>deafness</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>A complete inability to hear, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Hearing</capacity>
+					<offset>-1</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--BREATHING-->
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeIncreasedBreathing</defName>
+    <label>improved breathing</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Increased breathing ability, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>0.5</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeReducedBreathing</defName>
+    <label>struggling for breath</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Reduced breathing ability, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.5</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--BLOOD FILTRATION-->
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeIncreasedBloodFiltration</defName>
+    <label>better blood filtration</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Increased blood filtration, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>0.5</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeReducedBloodFiltration</defName>
+    <label>poor blood filtration</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Reduced blood filtration, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.5</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--BLOOD PUMPING-->
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeIncreasedBloodPumping</defName>
+    <label>better blood pumping</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Increased blood pumping, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>0.25</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef>
+    <defName>MLRP_PoisonJokeReducedBloodPumping</defName>
+    <label>poor blood pumping</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>Reduced blood pumping, one of the possible side effects of smoking poison joke.</description>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>30000</disappearsAfterTicks>
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.25</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!--OBSOLETE: WILL BE REMOVED IN THE NEXT UPDATE-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeGoodMood</defName>
     <label>good mood</label>
-	<hediffClass>HediffWithComps</hediffClass>
+	<hediffClass>Hediff_High</hediffClass>
     <description>Improved mood, one of the possible side effects of smoking poison joke.</description>
 	<comps>
 		<li Class="HediffCompProperties_Disappears">
-			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<disappearsAfterTicks>1</disappearsAfterTicks>
 			<showRemainingTime>true</showRemainingTime>
 		</li>
 	</comps>
 </HediffDef>
-
-<ThoughtDef>
-	<defName>MLRP_PoisonJokeGoodMoodThought</defName>
-	<workerClass>ThoughtWorker_Hediff</workerClass>
-	<hediff>MLRP_PoisonJokeGoodMood</hediff>
-	<validWhileDespawned>true</validWhileDespawned>
-	<stages>
-		<li>
-			<label>good mood (poison joke)</label>
-			<description>I feel really great right now!</description>
-			<baseMoodEffect>10</baseMoodEffect>
-		</li>
-	</stages>
-</ThoughtDef>
-
-<!--BAD MOOD-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeBadMood</defName>
     <label>bad mood</label>
-	<hediffClass>HediffWithComps</hediffClass>
+	<hediffClass>Hediff_High</hediffClass>
     <description>Reduced mood, one of the possible side effects of smoking poison joke.</description>
 	<comps>
 		<li Class="HediffCompProperties_Disappears">
-			<disappearsAfterTicks>60000</disappearsAfterTicks>
+			<disappearsAfterTicks>1</disappearsAfterTicks>
 			<showRemainingTime>true</showRemainingTime>
 		</li>
 	</comps>
 </HediffDef>
-
-<ThoughtDef>
-	<defName>MLRP_PoisonJokeBadMoodThought</defName>
-	<workerClass>ThoughtWorker_Hediff</workerClass>
-	<hediff>MLRP_PoisonJokeBadMood</hediff>
-	<validWhileDespawned>true</validWhileDespawned>
-	<stages>
-		<li>
-			<label>bad mood (poison joke)</label>
-			<description>Get stuffed!</description>
-			<baseMoodEffect>-10</baseMoodEffect>
-		</li>
-	</stages>
-</ThoughtDef>
 
 </Defs>
