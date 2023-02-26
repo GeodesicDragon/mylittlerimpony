@@ -1,3 +1,26 @@
+Version 3.91.99 (February 26th 2023)
+
+* Core: You will now receive a letter whenever you finish researching a technology that unlocks a new recipe at either Daybreaker or Nightmare Moon. Loading a save with relevant research already completed will still send the letter anyway; apologies in advance for the spam this will cause.
+* Biotech: Added a recipe to the Nightmare Moon statue which will give you a deathrest capacity serum in exchange for 1250 silver and 5 hemogen packs.
+* Biotech: Added a recipe to the Nightmare Moon statue which will give you a detoxifier lung in exchange for 1160 silver. (Requires toxin filtration.)
+* Biotech: Added a recipe to the Nightmare Moon statue which will give you a detoxifier kidney in exchange for 1350 silver. (Requires toxin filtration.)
+* Reinforced Mechanoid 2: Added a recipe to the Nightmare Moon statue which will give you a weather control chip in exchange for 650 silver.
+* Reinforced Mechanoid 2: Added a recipe to the Nightmare Moon statue which will give you a climate control chip in exchange for 650 silver.
+* Reinforced Mechanoid 2: Added a recipe to the Nightmare Moon statue which will give you a sun blocker chip in exchange for 650 silver.
+* Bandwidth Enhancer: Added a recipe to the Nightmare Moon statue which will give you a bandwidth enhancer in exchange for 7000 silver (the equivalent cost of the various chips you need), 6 regular and 2 advanced components.
+* Mod Icons: Added support for this mod.
+* Core: Nightmare Moon's description now mentions silver instead of chocolate.
+* Core: Increased variety of raw food stocked by NPC faction settlements.
+* Core: Increased variety of mortar shells stocked by NPC faction settlements.
+* Core: Increased variety of textiles stocked by NPC faction settlements.
+* Core: Increased variety of raw resources stocked by NPC faction settlements.
+* Core: Reduced the chance of pawns immediately dropping dead when afflicted with the negative consciousness effect of poison joke (I hope).
+* Core: Removed the research requirement for brewing 250 beer at the Daybreaker statue; it now unlocks when you research Brewing. This will generate a one-time red error when loading a new save, but you should be able to ignore it.
+* Royalty: Increased cost of requesting a coagulator from Nightmare Moon to 1300 silver (was 1040).
+* Biotech: Reduced bandwidth cost of Sweetie Bot mechanoids to 3 (was 5).
+	* This will be further reduced to 2 if you are using the 'Lancers Are 2 Bandwidth Again' mod.
+* Biotech: Sweetie Bot mechanoids can now be ridden in caravans, putting their speed to good use.
+
 Version 3.82.89 (February 6th 2023)
 
 * Core: Added Miss Pommel's Fabric Exchange. (I'd use her proper name, but I don't want to risk getting sued lol.)

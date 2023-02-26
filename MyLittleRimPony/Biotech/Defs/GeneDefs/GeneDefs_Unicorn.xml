@@ -16,6 +16,14 @@
 	</capMods>
 	<biostatMet>-2</biostatMet>
 	<biostatCpx>2</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>uni</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>corn</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
 </GeneDef>
   
 </Defs>

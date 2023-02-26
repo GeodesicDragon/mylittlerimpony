@@ -1,0 +1,67 @@
+<Defs>
+
+<!--REQUEST DETOXIFIER LUNG-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_DetoxifierLung</defName>
+	<label>request detoxifier lung</label>
+	<description>Offer silver in exchange for a detoxifier lung.</description>
+	<researchPrerequisite>ToxFiltration</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>116</count>
+		</li>
+	</ingredients>
+	<products>
+		<DetoxifierLung>1</DetoxifierLung>
+	</products>
+</RecipeDef>
+
+<!--REQUEST DETOXIFIER KIDNEY-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_DetoxifierKidney</defName>
+	<label>request detoxifier kidney</label>
+	<description>Offer silver in exchange for a detoxifier kidney.</description>
+	<researchPrerequisite>ToxFiltration</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>135</count>
+		</li>
+	</ingredients>
+	<products>
+		<DetoxifierKidney>1</DetoxifierKidney>
+	</products>
+</RecipeDef>
+  
+</Defs>

@@ -1,0 +1,109 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Reinforced Mechanoid 2</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<!--WEATHER CONTROL CHIP-->
+				
+				<RecipeDef>
+					<defName>MLRP_NMM_RM_ChipWeather</defName>
+					<label>request weather control chip</label>
+					<description>Offer silver in exchange for a weather control chip.</description>
+					<researchPrerequisite>RM_WeatherController</researchPrerequisite>
+					<jobString>Making an offering to Nightmare Moon</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>300</workAmount>
+					<recipeUsers>
+						<li>MLRP_NightmareMoon</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>65</count>
+						</li>
+					</ingredients>
+					<products>
+						<RM_ChipWeather>1</RM_ChipWeather>
+					</products>
+				</RecipeDef>
+				
+				<!--CLIMATE CONTROL CHIP-->
+				
+				<RecipeDef>
+					<defName>MLRP_NMM_RM_ChipClimate</defName>
+					<label>request climate control chip</label>
+					<description>Offer silver in exchange for a climate control chip.</description>
+					<researchPrerequisite>RM_ClimateAdjuster</researchPrerequisite>
+					<jobString>Making an offering to Nightmare Moon</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>300</workAmount>
+					<recipeUsers>
+						<li>MLRP_NightmareMoon</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>65</count>
+						</li>
+					</ingredients>
+					<products>
+						<RM_ChipClimate>1</RM_ChipClimate>
+					</products>
+				</RecipeDef>
+				
+				<!--SUN BLOCKER CHIP-->
+				
+				<RecipeDef>
+					<defName>MLRP_NMM_RM_ChipBlocker</defName>
+					<label>request sun blocker chip</label>
+					<description>Offer silver in exchange for a sun blocker chip.</description>
+					<researchPrerequisite>RM_SunBlocker</researchPrerequisite>
+					<jobString>Making an offering to Nightmare Moon</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>300</workAmount>
+					<recipeUsers>
+						<li>MLRP_NightmareMoon</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>65</count>
+						</li>
+					</ingredients>
+					<products>
+						<RM_ChipBlocker>1</RM_ChipBlocker>
+					</products>
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

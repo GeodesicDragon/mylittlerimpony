@@ -2,8 +2,8 @@
 
 <ThingDef ParentName="SweetieBotBase">
     <defName>MLRP_Turret_SweetieBot</defName>
-    <label>Sweetie Bot</label>
-    <description>A turret which fires rainbow lasers that are accurate at medium to long range. Will not explode if damaged.</description>
+    <label>Sweetie Bot turret</label>
+    <description>Fires rainbow lasers that are accurate at medium to long range. Will not explode if damaged.</description>
     <thingClass>Building_TurretGun</thingClass>
 	<designationHotKey>Misc11</designationHotKey>
     <drawerType>MapMeshAndRealTime</drawerType>

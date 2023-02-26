@@ -1,0 +1,59 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Bandwidth Enhancer</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<RecipeDef ParentName="NMM_MechanitorOnlyRecipe">
+					<defName>MLRP_NMM_BandwidthEnhancer</defName>
+					<label>request bandwidth enhancer</label>
+					<description>Offer silver and other items in exchange for a bandwidth enhancer. This recipe is expensive, given that it requires varying amount of each kind of chip.\n\nThis recipe can only be performed by a mechanitor.</description>
+					<jobString>Making an offering to Nightmare Moon</jobString>
+					<researchPrerequisite>UltraMechtech</researchPrerequisite>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>300</workAmount>
+					<recipeUsers>
+						<li>MLRP_NightmareMoon</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>700</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+					<products>
+						<MechBandwidthImprover>1</MechBandwidthImprover>
+					</products>
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+  
+</Patch>

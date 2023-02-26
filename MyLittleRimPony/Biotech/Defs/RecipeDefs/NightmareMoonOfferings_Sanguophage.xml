@@ -1,0 +1,43 @@
+<Defs>
+
+<!--GET DEATHREST CAPACITY SERUM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_DeathrestCapacitySerum</defName>
+	<label>request deathrest capacity serum</label>
+	<description>Offer silver and hemogen in exchange for a deathrest capacity serum.</description>
+	<researchPrerequisite>Deathrest</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>125</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>HemogenPack</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+	</ingredients>
+	<products>
+		<DeathrestCapacitySerum>1</DeathrestCapacitySerum>
+	</products>
+</RecipeDef>
+  
+</Defs>

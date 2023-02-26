@@ -15,7 +15,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>100</count> <!--1000 silver-->
 			</li>
 		</ingredients>
 	</RecipeDef>
@@ -29,7 +29,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>200</count> <!--2000 silver-->
 			</li>
 		</ingredients>
 	</RecipeDef>
@@ -43,7 +43,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>300</count>
+				<count>300</count> <!--3000 silver-->
 			</li>
 		</ingredients>
 	</RecipeDef>

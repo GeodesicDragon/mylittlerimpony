@@ -26,6 +26,13 @@
 						<li Name="NightmareMoonHemogenPack">Requesting blood packs from Nightmare Moon should only be done as a last resort, as her price for this service is quite high.</li>
 					</value>
 				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="MLRP_NMM_DeathrestCapacitySerum"]/description</xpath>
+					<value>
+						<description>Offer silver and blood in exchange for a deathrest capacity serum.</description>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

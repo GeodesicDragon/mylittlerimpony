@@ -14,7 +14,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <thingDefCountRange>1~20</thingDefCountRange>
+        <thingDefCountRange>1~99</thingDefCountRange>
         <totalPriceRange>150~450</totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -70,17 +70,17 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
+        <thingDefCountRange>1~10</thingDefCountRange>
         <countRange>20~40</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
-        <thingDefCountRange>1~2</thingDefCountRange>
+        <thingDefCountRange>1~20</thingDefCountRange>
         <totalPriceRange>400~800</totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
-        <thingDefCountRange>2~4</thingDefCountRange>
+        <thingDefCountRange>1~20</thingDefCountRange>
         <totalPriceRange>400~800</totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">

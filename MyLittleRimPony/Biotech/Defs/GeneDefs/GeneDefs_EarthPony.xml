@@ -13,6 +13,14 @@
 	</statFactors>
 	<biostatMet>-1</biostatMet>
 	<biostatCpx>1</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>earth</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>pony</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
 </GeneDef>
   
 </Defs>

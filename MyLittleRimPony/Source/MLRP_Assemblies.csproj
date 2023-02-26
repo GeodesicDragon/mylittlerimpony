@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MLRP_ResearchNotifications.cs" />
     <Compile Include="MyLittleRimPony.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

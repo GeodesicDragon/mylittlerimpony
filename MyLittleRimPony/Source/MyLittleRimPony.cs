@@ -53,7 +53,7 @@ namespace MyLittleRimPony
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
 
-            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.82.89 " + "MLRP_ModIntro".Translate());
+            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.91.99 " + "MLRP_ModIntro".Translate());
             if (ModsConfig.IsActive("CETeam.CombatExtended"))
             {
                 Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetected".Translate());
@@ -230,7 +230,7 @@ namespace MyLittleRimPony
                     break;
                 case 2:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedConsciousness);
-                    affliction = "unconsciousness";
+                    affliction = "reduced consciousness";
                     break;
                 case 3:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSuperSpeedy);
@@ -305,7 +305,7 @@ namespace MyLittleRimPony
                     affliction = "poor blood pumping";
                     break;
             }
-            if (n == 2 || n == 12 || n == 16 || n == 20)
+            if (n == 12 || n == 16 || n == 20)
             {
                 LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.ThreatSmall;
                 string title = "MLRP_PoisonJokeLetterTitle".Translate();

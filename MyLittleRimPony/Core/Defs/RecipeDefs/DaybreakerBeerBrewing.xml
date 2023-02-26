@@ -6,7 +6,7 @@
 	<defName>MLRP_DB_CreateTwoHundredFiftyBeer</defName>
 	<label>create beer x 250</label>
 	<description>Create 250 bottles of beer, using chemfuel to accelerate the process.</description>
-	<researchPrerequisite>MLRP_MakeBeerAtDB</researchPrerequisite>
+	<researchPrerequisite>Brewing</researchPrerequisite>
     <jobString>Making beer.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

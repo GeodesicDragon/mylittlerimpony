@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<LifeStageDef>
+		<defName>SweetieBotMechanoidFullyFormed</defName>
+		<label>fully-formed</label>
+		<caravanRideable>true</caravanRideable>
+		<visible>false</visible>
+	</LifeStageDef>
+
     <!-- Sweetie Bot Mech -->  
     <ThingDef ParentName="MLRP_SweetieBot_MechanoidBase">
 		<defName>MLRP_SweetieBotMech</defName>
 		<label>Sweetie Bot</label>
-		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to blunt attacks.</description>
+		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to blunt attacks.\n\nShe can also be used as a mount when part of a caravan; rumours that she plots the demise of anyone who does so are completely unfounded.</description>
 		<statBases>
 			<MoveSpeed>8</MoveSpeed>
-			<BandwidthCost>5</BandwidthCost>
+			<BandwidthCost>3</BandwidthCost>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<CaravanRidingSpeedFactor>2</CaravanRidingSpeedFactor>
 		</statBases>
 		<race>
 			<body>Lancer</body> <!--Attempting to create a new body type would probably make my brain explode-->
@@ -24,14 +32,14 @@
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>SweetieBotMechanoidFullyFormed</def>
 					<minAge>0</minAge>
 					<soundWounded>SweetieBotMech_Wounded</soundWounded>
 					<soundDeath>SweetieBotMech_Death</soundDeath>
 					<soundCall>SweetieBotMech_Call</soundCall>
 				</li>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>SweetieBotMechanoidFullyFormed</def>
 					<minAge>100</minAge>
 					<soundWounded>SweetieBotMech_Wounded</soundWounded>
 					<soundDeath>SweetieBotMech_Death</soundDeath>

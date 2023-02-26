@@ -27,7 +27,7 @@
 
 <HediffDef>
     <defName>MLRP_PoisonJokeReducedConsciousness</defName>
-    <label>knocked out</label>
+    <label>reduced consciousness</label>
 	<hediffClass>HediffWithComps</hediffClass>
     <description>Reduced consciousness, one of the possible side effects of smoking poison joke.</description>
 	<comps>
@@ -41,7 +41,7 @@
 			<capMods>
 				<li>
 					<capacity>Consciousness</capacity>
-					<offset>-0.99</offset>
+					<offset>-0.1</offset>
 				</li>
 			</capMods>
 		</li>

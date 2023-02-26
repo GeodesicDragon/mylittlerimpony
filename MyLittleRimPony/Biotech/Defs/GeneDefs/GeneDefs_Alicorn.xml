@@ -24,6 +24,19 @@
 	</capMods>
 	<biostatMet>-5</biostatMet>
 	<biostatCpx>5</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>ali</symbol></li>
+        <li><symbol>uni</symbol></li>
+        <li><symbol>peg</symbol></li>
+        <li><symbol>earth</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>corn</symbol></li>
+        <li><symbol>asus</symbol></li>
+        <li><symbol>pony</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
 </GeneDef>
 
 </Defs>

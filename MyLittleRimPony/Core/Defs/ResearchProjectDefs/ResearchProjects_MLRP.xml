@@ -64,7 +64,7 @@
 		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>About Nightmare Moon and Daybreaker</discoveredLetterTitle>
-		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally. It is handy if your pawns don't have the necessary skills, or if you have excess silver and need something urgently.\n\nSome items can also be returned to the statue in exchange for a small amount of silver.\n\nMany items, such as bionic limbs and skilltrainers, can only be requested once other research has been completed.\n\nDaybreaker allows you to convert 100 of steel, plasteel, uranium, jade and gold into the market value equivalent of another. For example, 100 steel can be turned into:\n\n- 38 jade\n- 21 plasteel\n- 32 uranium\n- 19 gold\n\nYou can also convert 1000 silver into the market value equivalent of these materials, like so:\n\n- 200 jade\n- 526 steel\n- 111 plasteel\n- 167 uranium\n- 100 gold\n\nYou can also convert these same amounts into 1000 silver, which is useful if you have an excess of one thing and want to turn it into something else.\n\nOnce you have researched the necessary techs, you can also use the Daybreaker statue to rapidly create 5/10 regular or advanced components, or even 250 beer.\n\nPlease note that all of the recipes Daybreaker can perform also require 75 chemfuel, or 150 if making 10 components, though this amount can be configured to your liking if you use the XML Extensions mod.</discoveredLetterText>
+		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally, while Daybreaker lets you convert materials using chemfuel.\n\nSome recipes at these buildings are locked behind research; you will receive a letter whenever you unlock a new one.</discoveredLetterText>
 	</ResearchProjectDef>
 	
 <!--SKILLTRAINERS-->
@@ -78,20 +78,6 @@
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>5</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
-	
-<!--MAKE BEER AT DAYBREAKER STATUE-->
-
-	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
-		<defName>MLRP_MakeBeerAtDB</defName>
-		<label>Chemfuel-based beer brewing</label>
-		<description>Unlock the ability to create a large quantity of beer at the Daybreaker statue.</description>
-		<prerequisites>
-			<li>Brewing</li>
-		</prerequisites>
-		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>6</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
