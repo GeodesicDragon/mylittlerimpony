@@ -1,3 +1,11 @@
+Version 3.91.104 (March 1st 2023)
+
+* Core: Fixed letter spam when loading saved games. It will happen one more time when you load a save, but should stop once you save again.
+* Core: Fixed incorrect letter being sent after researching Fabrication.
+* Core: Fixed incorrect letter being sent after researching Advanced Fabrication.
+* Core: Fixed a letter not being sent after researching Devilstrand.
+* Core: Fixed recipes at the Fabric Exchange using the wrong sound.
+
 Version 3.91.99 (February 26th 2023)
 
 * Core: You will now receive a letter whenever you finish researching a technology that unlocks a new recipe at either Daybreaker or Nightmare Moon. Loading a save with relevant research already completed will still send the letter anyway; apologies in advance for the spam this will cause.

@@ -16,7 +16,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <allowMixingIngredients>false</allowMixingIngredients>
     <workAmount>300</workAmount>
 	<recipeUsers>
@@ -47,7 +47,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <allowMixingIngredients>false</allowMixingIngredients>
     <workAmount>300</workAmount>
 	<recipeUsers>
@@ -78,7 +78,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <allowMixingIngredients>false</allowMixingIngredients>
     <workAmount>300</workAmount>
 	<recipeUsers>
@@ -109,7 +109,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <allowMixingIngredients>false</allowMixingIngredients>
     <workAmount>300</workAmount>
 	<recipeUsers>

@@ -1,92 +1,96 @@
-﻿using RimWorld;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using RimWorld;
 using Verse;
 
-namespace ResearchFinished
+public class MLRP_ResearchTracker : GameComponent
 {
-    public class ResearchFinished : GameComponent
+    private HashSet<string> completedResearches = new HashSet<string>();
+
+    // Lists of research to track
+    private List<string> researchesToTrackFE = new List<string>
     {
-        private List<ResearchProjectDef> monitoredProjects = new List<ResearchProjectDef>();
-        private HashSet<string> completedProjects = new HashSet<string>();
+        "Devilstrand"
+    };
+	
+    private List<string> researchesToTrackDB = new List<string>
+    {
+        "Brewing",
+        "Fabrication",
+        "AdvancedFabrication"
+    };
+	
+    private List<string> researchesToTrackNMM  = new List<string>
+    {
+		"ShipComputerCore",
+		"MedicineProduction",
+		"DrugProduction",
+		"Mortars",
+		"Bionics",
+		"HospitalBed",
+		"HealingFactors",
+		"NeuralComputation",
+		"MolecularAnalysis",
+		"SkinHardening",
+		"FleshShaping",
+		"ArtificialMetabolism",
+		"CircadianInfluence",
+		"StandardMechtech",
+		"HighMechtech",
+		"UltraMechtech",
+		"Deathrest",
+		"ToxFiltration",
+        "MLRP_MagicMirrorResearch", // My Little RimPony
+        "MolecularNutrientResequencing", // Replimat
+		"AcceleratedCellularRegeneration", // MedPod
+		"RM_WeatherController", // Reinforced Mechanoids 2
+		"RM_ClimateAdjuster", // Reinforced Mechanoids 2
+		"RM_SunBlocker" // Reinforced Mechanoids 2
+    };
 
-        public ResearchFinished(Game game)
+    public MLRP_ResearchTracker(Game game) { }
+
+    public override void ExposeData()
+    {
+        base.ExposeData();
+        Scribe_Collections.Look(ref completedResearches, "completedResearches", LookMode.Value);
+    }
+
+    public override void GameComponentTick()
+    {
+        base.GameComponentTick();
+
+        foreach (var researchFE in researchesToTrackFE)
         {
-        }
-
-        public override void FinalizeInit()
-        {
-            base.FinalizeInit();
-            // Add the defNames of the research projects you want to monitor to the list.
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("Brewing"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("Fabrication"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("AdvancedFabrication"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("ShipComputerCore"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("MedicineProduction"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("Mortars"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("MLRP_MagicMirrorResearch"));
-            monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("Bionics"));
-
-            if (!ModsConfig.IsActive("Ludeon.RimWorld.Royalty"))
+            if (!completedResearches.Contains(researchFE) && ResearchProjectDef.Named(researchFE).IsFinished)
             {
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("HospitalBed"));
-            }
-
-            if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty"))
-            {
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("HealingFactors"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("NeuralComputation"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("MolecularAnalysis"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("SkinHardening"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("FleshShaping"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("ArtificialMetabolism"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("CircadianInfluence"));
-            }
-
-            if (ModsConfig.IsActive("Ludeon.RimWorld.Biotech"))
-            {
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("StandardMechtech"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("HighMechtech"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("UltraMechtech"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("Deathrest"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("ToxFiltration"));
-            }
-
-            if (ModsConfig.IsActive("sumghai.Replimat"))
-            {
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("MolecularNutrientResequencing"));
-            }
-
-            if (ModsConfig.IsActive("sumghai.medpod"))
-            {
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("AcceleratedCellularRegeneration"));
-            }
-
-            if (ModsConfig.IsActive("hlx.ReinforcedMechanoids2"))
-            {
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("RM_WeatherController"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("RM_ClimateAdjuster"));
-                monitoredProjects.Add(DefDatabase<ResearchProjectDef>.GetNamed("RM_SunBlocker"));
+                // Research is completed for the first time, send letter
+                Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_FE".Translate(), LetterDefOf.PositiveEvent);
+                completedResearches.Add(researchFE);
             }
         }
 
-        public override void GameComponentTick()
+        foreach (var researchDB in researchesToTrackDB)
         {
-            base.GameComponentTick();
-            foreach (var project in monitoredProjects)
+            if (!completedResearches.Contains(researchDB) && ResearchProjectDef.Named(researchDB).IsFinished)
             {
-                if (!completedProjects.Contains(project.defName) && project.IsFinished)
-                {
-                    if (project.defName == "Brewing")
-                    {
-                        Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), $"MLRP_RecipeUnlockedLetterText_DB".Translate(project.label), LetterDefOf.PositiveEvent);
-                    }
-                    else
-                    {
-                        Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), $"MLRP_RecipeUnlockedLetterText_NMM".Translate(project.label), LetterDefOf.PositiveEvent);
-                    }
-                    completedProjects.Add(project.defName);
-                }
+                // Research is completed for the first time, send letter
+                Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_DB".Translate(), LetterDefOf.PositiveEvent);
+                completedResearches.Add(researchDB);
+            }
+        }
+
+        foreach (var researchNMM in researchesToTrackNMM)
+        {
+            if (!completedResearches.Contains(researchNMM) && ResearchProjectDef.Named(researchNMM).IsFinished)
+            {
+                // Don't send a letter if the player researches hospital beds with Royalty enabled
+				if (ResearchProjectDef.Named("HospitalBed").IsFinished && ModsConfig.IsActive("Ludeon.RimWorld.Royalty"))
+				{
+					return;
+				}
+                // Research is completed for the first time, send letter
+                Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_NMM".Translate(), LetterDefOf.PositiveEvent);
+                completedResearches.Add(researchNMM);
             }
         }
     }

@@ -3,12 +3,12 @@
 // MLP is property of Hasbro.
 // Huge thanks to users of the official RimWorld Discord server for helping me with code.
 // And also for being so damn patient with me while my slow brain figured it all out.
-// I am always happy to accept updates to this code, especially if you have a better way of doing something I've done. Contact me via my Discord server and we'll talk!
-
-// NOTE TO SELF: REMEMBER TO UPDATE THE VERSION NUMBER IN THE CONSOLE MESSAGE!
+// I am always happy to accept updates to this code, especially if you have a better way of doing something I've done.
+// Contact me via my Discord server and we'll talk! (Invite Code: BGKnpza)
 
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using RimWorld;
 using Verse;
 
@@ -52,8 +52,10 @@ namespace MyLittleRimPony
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
+            var version = Assembly.GetExecutingAssembly().GetName().Version;
 
-            Log.Message("[" + "MLRP_ModName".Translate() + "] v3.91.99 " + "MLRP_ModIntro".Translate());
+            Log.Message("[" + "MLRP_ModName".Translate() + "] v" + version.ToString(3) + " " + "MLRP_ModIntro".Translate());
+
             if (ModsConfig.IsActive("CETeam.CombatExtended"))
             {
                 Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetected".Translate());

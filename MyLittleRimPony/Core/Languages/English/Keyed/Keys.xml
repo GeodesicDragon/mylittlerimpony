@@ -11,12 +11,10 @@
 	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies to a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Poison joke affliction</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
 	<MLRP_PoisonJokeLetterText>Smoking poison joke has given {0} the following: {1}</MLRP_PoisonJokeLetterText> <!--Text of letter received after a pawn smokes poison joke. {0} is the pawn's name and {1} is what they were afflicted with, such as super speedy or blindness.-->
-	
-	<!--C# RESEARCH LETTERS-->
-	
 	<MLRP_RecipeUnlockedLetterHeader>New recipe(s) unlocked</MLRP_RecipeUnlockedLetterHeader> <!--Sent whenever certain research is completed-->
-	<MLRP_RecipeUnlockedLetterText_NMM>Researching {0} has unlocked a new recipe at the Nightmare Moon statue.</MLRP_RecipeUnlockedLetterText_NMM> <!--{0} is the name of the research.-->
-	<MLRP_RecipeUnlockedLetterText_DB>Researching {0} has unlocked a new recipe at the Daybreaker statue.</MLRP_RecipeUnlockedLetterText_DB> <!--{0} is the name of the research.-->
+	<MLRP_RecipeUnlockedLetterText_NMM>New recipe(s) available at the Nightmare Moon statue.</MLRP_RecipeUnlockedLetterText_NMM>
+	<MLRP_RecipeUnlockedLetterText_DB>New recipe(s) available at the Daybreaker statue.</MLRP_RecipeUnlockedLetterText_DB>
+	<MLRP_RecipeUnlockedLetterText_FE>New recipe(s) available at the Fabric Exchange.</MLRP_RecipeUnlockedLetterText_FE>
 	
 	<!--C# ROYALTY-->
 	
