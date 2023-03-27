@@ -25,7 +25,7 @@
 		<techLevel>Industrial</techLevel>
     <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
-		<MarketValue>200</MarketValue>
+		<!--<MarketValue>200</MarketValue>-->
 		<WorkToMake>6000</WorkToMake>
 		<MaxHitPoints>100</MaxHitPoints>
 		<Mass>1.0</Mass>

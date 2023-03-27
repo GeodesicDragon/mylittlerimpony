@@ -1,0 +1,628 @@
+<Defs>
+
+<!--BASE-->
+
+<RecipeDef Name="MLRP_FE_RecipeBase" Abstract="True">
+    <jobString>Purchasing materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_MissPommel</li>
+	</recipeUsers>
+</RecipeDef>
+
+<!--PURCHASE ALPACA WOOL-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_WoolAlpaca</defName>
+	<label>purchase alpaca wool</label>
+	<description>Use silver to purchase 100 alpaca wool.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>40</count>
+		</li>
+	</ingredients>
+	<products>
+		<WoolAlpaca>100</WoolAlpaca>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE BEARSKIN-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Bear</defName>
+	<label>purchase bearskin</label>
+	<description>Use silver to purchase 100 bearskin.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>36</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Bear>100</Leather_Bear>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE BIRDSKIN-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Bird</defName>
+	<label>purchase birdskin</label>
+	<description>Use silver to purchase 100 birdskin.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>19</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Bird>100</Leather_Bird>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE BISON WOOL-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_WoolBison</defName>
+	<label>purchase bison wool</label>
+	<description>Use silver to purchase 100 bison wool.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>29</count>
+		</li>
+	</ingredients>
+	<products>
+		<WoolBison>100</WoolBison>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE BLUEFUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Bluefur</defName>
+	<label>purchase bison wool</label>
+	<description>Use silver to purchase 100 bluefur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Bluefur>100</Leather_Bluefur>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE CAMELHIDE-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Camel</defName>
+	<label>purchase camelhide</label>
+	<description>Use silver to purchase 100 camelhide.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Camel>100</Leather_Camel>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE CHINCHILLA FUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Chinchilla</defName>
+	<label>purchase chinchilla fur</label>
+	<description>Use silver to purchase 100 chincilla fur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>69</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Chinchilla>100</Leather_Chinchilla>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE CLOTH-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Cloth</defName>
+	<label>purchase cloth</label>
+	<description>Use silver to purchase 100 cloth.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>16</count>
+		</li>
+	</ingredients>
+	<products>
+		<Cloth>100</Cloth>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE DEVILSTRAND-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_DevilstrandCloth</defName>
+	<label>purchase devilstrand</label>
+	<description>Use silver to purchase 100 devilstrand.</description>
+	<researchPrerequisite>Devilstrand</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>58</count>
+		</li>
+	</ingredients>
+	<products>
+		<DevilstrandCloth>100</DevilstrandCloth>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE DOG LEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Dog</defName>
+	<label>purchase dog leather</label>
+	<description>Use silver to purchase 100 dog leather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>21</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Dog>100</Leather_Dog>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE DOG LEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Elephant</defName>
+	<label>purchase elephant leather</label>
+	<description>Use silver to purchase 100 elephant leather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>26</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Elephant>100</Leather_Elephant>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE FOXFUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Fox</defName>
+	<label>purchase foxfur</label>
+	<description>Use silver to purchase 100 foxfur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>37</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Fox>100</Leather_Fox>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE GUINEA PIG FUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_GuineaPig</defName>
+	<label>purchase guinea pig fur</label>
+	<description>Use silver to purchase 100 guinea pig fur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>53</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_GuineaPig>100</Leather_GuineaPig>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE HEAVY FUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Heavy</defName>
+	<label>purchase heavy fur</label>
+	<description>Use silver to purchase 100 heavy fur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>53</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Heavy>100</Leather_Heavy>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE HUMAN LEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Human</defName>
+	<label>purchase human leather</label>
+	<description>Use silver to purchase 100 human leather.\n\n(If Miss Pommel asks, it's fake.)</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>45</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Human>100</Leather_Human>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE HYPERWEAVE-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Hyperweave</defName>
+	<label>purchase hyperweave</label>
+	<description>Use silver to purchase 100 hyperweave.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>95</count>
+		</li>
+	</ingredients>
+	<products>
+		<Hyperweave>100</Hyperweave>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE LIGHTLEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Light</defName>
+	<label>purchase lightleather</label>
+	<description>Use silver to purchase 100 lightleather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>20</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Light>100</Leather_Light>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE LIZARDSKIN-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Lizard</defName>
+	<label>purchase lizardskin</label>
+	<description>Use silver to purchase 100 lizardskin.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>23</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Lizard>100</Leather_Lizard>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE MEGASLOTH WOOL-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_WoolMegasloth</defName>
+	<label>purchase megasloth wool</label>
+	<description>Use silver to purchase 100 megasloth wool.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>29</count>
+		</li>
+	</ingredients>
+	<products>
+		<WoolMegasloth>100</WoolMegasloth>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE MUFFALO WOOL-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_WoolMuffalo</defName>
+	<label>purchase muffalo wool</label>
+	<description>Use silver to purchase 100 muffalo wool.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>29</count>
+		</li>
+	</ingredients>
+	<products>
+		<WoolMuffalo>100</WoolMuffalo>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE PANTHERA FUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Panthera</defName>
+	<label>purchase panthera fur</label>
+	<description>Use silver to purchase 100 panthera fur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>32</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Panthera>100</Leather_Panthera>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE PATCHLEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Patch</defName>
+	<label>purchase patchleater</label>
+	<description>Use silver to purchase 100 patchleather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>16</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Patch>100</Leather_Patch>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE PIGSKIN-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Pig</defName>
+	<label>purchase pigskin</label>
+	<description>Use silver to purchase 100 pigskin.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>20</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Pig>100</Leather_Pig>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE PLAINLEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Plain</defName>
+	<label>purchase plainleather</label>
+	<description>Use silver to purchase 100 plainleather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>23</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Plain>100</Leather_Plain>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE RHINOCEROS LEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Rhinoceros</defName>
+	<label>purchase rhinoceros leather</label>
+	<description>Use silver to purchase 100 rhinoceros leather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>45</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Rhinoceros>100</Leather_Rhinoceros>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE SHEEP WOOL-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_WoolSheep</defName>
+	<label>purchase sheep wool</label>
+	<description>Use silver to purchase 100 sheep wool.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>29</count>
+		</li>
+	</ingredients>
+	<products>
+		<WoolSheep>100</WoolSheep>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE SYNTHREAD-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Synthread</defName>
+	<label>purchase synthread</label>
+	<description>Use silver to purchase 100 synthread.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>42</count>
+		</li>
+	</ingredients>
+	<products>
+		<Synthread>100</Synthread>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE THRUMBO FUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Thrumbo</defName>
+	<label>purchase thrumbofur</label>
+	<description>Use silver to purchase 100 thrumbo fur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>147</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Thrumbo>100</Leather_Thrumbo>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE WOLFSKIN-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Wolf</defName>
+	<label>purchase wolfskin</label>
+	<description>Use silver to purchase 100 wolfskin.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>32</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Wolf>100</Leather_Wolf>
+	</products>	
+</RecipeDef>
+  
+</Defs>

@@ -1,0 +1,16 @@
+<Defs>
+
+	<ResearchProjectDef ParentName="MLRP_QuickResearchBase">
+		<defName>MLRP_SweetieBotMechResearch</defName>
+		<label>Sweetie Bot mechanoids</label>
+		<description>Unlocks the ability to gestate Sweetie Bot mechanoids at a large mech gestator.</description>
+		<prerequisites>
+			<li>HighMechtech</li>
+			<li>MLRP_WeaponisedElementsResearch</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

@@ -33,6 +33,7 @@
 								<label>horn</label>
 								<capacities>
 									<li>Poke</li>
+									<li>Stab</li>
 								</capacities>
 								<power>9</power>
 								<cooldownTime>2.0</cooldownTime>

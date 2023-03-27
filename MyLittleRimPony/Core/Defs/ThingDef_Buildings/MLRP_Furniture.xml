@@ -53,6 +53,8 @@
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
+      <li>Metallic</li>
+      <li>Woody</li>
     </stuffCategories>
     <statBases>
       <Mass>4</Mass>

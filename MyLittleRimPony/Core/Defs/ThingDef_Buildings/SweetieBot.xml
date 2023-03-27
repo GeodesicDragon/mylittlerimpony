@@ -23,6 +23,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>380</MaxHitPoints>
+	  <MarketValue>2500</MarketValue>
       <Flammability>0.7</Flammability>
       <WorkToBuild>2400</WorkToBuild>
       <Mass>35</Mass>
@@ -34,10 +35,9 @@
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>350</basePowerConsumption>
+        <basePowerConsumption>400</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
       <!--<li Class="CompProperties_Refuelable">
         <fuelLabel>Combat effectiveness</fuelLabel>
         <fuelGizmoLabel>Combat effectiveness (%)</fuelGizmoLabel>
@@ -74,7 +74,7 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>MLRP_Buildings</designationCategory>
-    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
     <building>
       <combatPower>45</combatPower>
       <ai_combatDangerous>true</ai_combatDangerous>

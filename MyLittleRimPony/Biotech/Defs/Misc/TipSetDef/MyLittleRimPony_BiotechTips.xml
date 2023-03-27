@@ -7,11 +7,13 @@
 	<tips>
 		<li>Button Mash: "Tee ni ektum kai."</li>
 		<li>The alicorn gene grants an ability which will increase a pawns social skills for 60 seconds.</li>
-		<li>Child plushies require half the usual materials to make and will - for the most part - grant twice the bonus of the adult version.</li>
+		<li>Child plushies require half the materials to make and will - for the most part - grant twice the bonus of the adult version.</li>
 		<li Name="ChildRainbowDash">The child-equippable Rainbow Dash plushie only affects a child's movement speed and not their combat prowess.</li>
 		<li Name="NightmareMoonHemogenPack">Requesting hemogen packs from Nightmare Moon should only be done as a last resort, as her price for this service is quite high.</li>
 		<li>Mechanitors can request upgrades from Nightmare Moon once the relevant techs have been researched, but doing so is expensive.</li>
 		<li>Sweetie Bot mechanoids move very fast, but are vulnerable to melee attacks.</li>
+		<li>Sweetie Bot mechanoids are vulnerable to friendly fire, especially in large groups.</li>
+		<li>Sweetie Bot mechanoids can be used as mounts in caravans.</li>
 	</tips>
 </TipSetDef>
 

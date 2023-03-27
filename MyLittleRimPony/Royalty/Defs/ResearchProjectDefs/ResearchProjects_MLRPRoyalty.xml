@@ -17,7 +17,25 @@
 			<li>Outlander</li>
 		</heldByFactionCategoryTags>
 	</ResearchProjectDef>
+	
+<!--VERY TIME CONSUMING RESEARCH BASE-->
 
+	<ResearchProjectDef Name="MLRP_VeryTimeConsumingResearchBase" Abstract="True">
+		<baseCost>50000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<techprintCount>3</techprintCount>
+		<techprintCommonality>0.5</techprintCommonality>
+		<techprintMarketValue>5000</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>Empire</li>
+			<li>Outlander</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+	
 <!--HARMONY CHIP-->
 	
 	<ResearchProjectDef ParentName="MLRP_VeryHardResearchBase">
@@ -30,6 +48,17 @@
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+<!--REQUEST ARCHOTECH STUFF-->
+
+	<ResearchProjectDef ParentName="MLRP_VeryTimeConsumingResearchBase">
+		<defName>MLRP_ArchotechResearch</defName>
+		<label>Request archotech items</label>
+		<description>Nightmare Moon will allow you to request archotech items from her.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

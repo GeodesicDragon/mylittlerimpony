@@ -40,11 +40,17 @@ public class MLRP_ResearchTracker : GameComponent
 		"Deathrest",
 		"ToxFiltration",
         "MLRP_MagicMirrorResearch", // My Little RimPony
+        "MLRP_ArchotechResearch", // My Little RimPony
         "MolecularNutrientResequencing", // Replimat
 		"AcceleratedCellularRegeneration", // MedPod
 		"RM_WeatherController", // Reinforced Mechanoids 2
 		"RM_ClimateAdjuster", // Reinforced Mechanoids 2
 		"RM_SunBlocker" // Reinforced Mechanoids 2
+    };
+
+    private List<string> otherResearchToTrack = new List<string>
+    {
+        "MLRP_SweetieBotMechResearch"
     };
 
     public MLRP_ResearchTracker(Game game) { }
@@ -63,7 +69,6 @@ public class MLRP_ResearchTracker : GameComponent
         {
             if (!completedResearches.Contains(researchFE) && ResearchProjectDef.Named(researchFE).IsFinished)
             {
-                // Research is completed for the first time, send letter
                 Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_FE".Translate(), LetterDefOf.PositiveEvent);
                 completedResearches.Add(researchFE);
             }
@@ -73,7 +78,6 @@ public class MLRP_ResearchTracker : GameComponent
         {
             if (!completedResearches.Contains(researchDB) && ResearchProjectDef.Named(researchDB).IsFinished)
             {
-                // Research is completed for the first time, send letter
                 Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_DB".Translate(), LetterDefOf.PositiveEvent);
                 completedResearches.Add(researchDB);
             }
@@ -83,14 +87,33 @@ public class MLRP_ResearchTracker : GameComponent
         {
             if (!completedResearches.Contains(researchNMM) && ResearchProjectDef.Named(researchNMM).IsFinished)
             {
-                // Don't send a letter if the player researches hospital beds with Royalty enabled
-				if (ResearchProjectDef.Named("HospitalBed").IsFinished && ModsConfig.IsActive("Ludeon.RimWorld.Royalty"))
+				if (ResearchProjectDef.Named("HospitalBed").IsFinished)
 				{
-					return;
+                    if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty"))
+                    {
+                        return; // Don't send a letter if the player researches hospital beds with Royalty enabled
+                    }
+                    else
+                    {
+                        Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_NMM".Translate(), LetterDefOf.PositiveEvent);
+                        completedResearches.Add(researchNMM);
+                    }
 				}
-                // Research is completed for the first time, send letter
-                Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_NMM".Translate(), LetterDefOf.PositiveEvent);
-                completedResearches.Add(researchNMM);
+                else if (!ResearchProjectDef.Named("HospitalBed").IsFinished)
+                {
+                    Find.LetterStack.ReceiveLetter("MLRP_RecipeUnlockedLetterHeader".Translate(), "MLRP_RecipeUnlockedLetterText_NMM".Translate(), LetterDefOf.PositiveEvent);
+                    completedResearches.Add(researchNMM);
+                }
+                    
+            }
+        }
+
+        foreach (var researchSBM in otherResearchToTrack)
+        {
+            if (!completedResearches.Contains(researchSBM) && ResearchProjectDef.Named(researchSBM).IsFinished)
+            {
+                Find.LetterStack.ReceiveLetter("MLRP_AboutSweetieBotMechLetterHeader".Translate(), "MLRP_AboutSweetieBotMechLetterText".Translate(), LetterDefOf.PositiveEvent);
+                completedResearches.Add(researchSBM);
             }
         }
     }

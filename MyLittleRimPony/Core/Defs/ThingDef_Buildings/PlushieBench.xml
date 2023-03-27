@@ -3,7 +3,7 @@
 <ThingDef ParentName="BenchBase">
     <defName>PlushieBench</defName>
     <label>plushie bench</label>
-    <description>A workbench with a sewing machine, dedicated purely to the creation of pony plushies. Can work without electricity at 50% of normal speed.</description>
+    <description>A workbench with a sewing machine; while mostly dedicated to the creation of pony plushies, it can create other pony-themed items as well.\n\nCan work without electricity at 50% of its normal speed.</description>
     <thingClass>Building_WorkTable</thingClass>
 	<designationHotKey>Misc12</designationHotKey>
     <graphicData>

@@ -12,20 +12,20 @@
     <ThingDef ParentName="MLRP_SweetieBot_MechanoidBase">
 		<defName>MLRP_SweetieBotMech</defName>
 		<label>Sweetie Bot</label>
-		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to blunt attacks.\n\nShe can also be used as a mount when part of a caravan; rumours that she plots the demise of anyone who does so are completely unfounded.</description>
+		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to blunt attacks and friendly fire.\n\nMany mechanitors use her for hit and run attacks, flanking the enemy from the sides and rear.\n\nShe can also be used as a mount when part of a caravan; rumours that she plots the demise of anyone who does so are completely unfounded.</description>
 		<statBases>
 			<MoveSpeed>8</MoveSpeed>
 			<BandwidthCost>3</BandwidthCost>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-			<CaravanRidingSpeedFactor>2</CaravanRidingSpeedFactor>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<CaravanRidingSpeedFactor>1.6</CaravanRidingSpeedFactor>
 		</statBases>
 		<race>
-			<body>Lancer</body> <!--Attempting to create a new body type would probably make my brain explode-->
+			<body>MLRP_SweetieBotMech</body>
 			<intelligence>ToolUser</intelligence>
 			<thinkTreeMain>Mechanoid</thinkTreeMain>
 			<mechWeightClass>Medium</mechWeightClass>
-			<nameGenerator>NamerMech</nameGenerator>
+			<nameGenerator>NamerBronyFemale</nameGenerator>
 			<baseBodySize>1.0</baseBodySize>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -60,7 +60,7 @@
 			</capacities>
 			<power>9</power>
 			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 			<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 		  </li>
 		  <li>
@@ -70,13 +70,14 @@
 			</capacities>
 			<power>9</power>
 			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 			<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 		  </li>
 		  <li>
 			<label>horn</label>
 			<capacities>
 			  <li>Poke</li>
+			  <li>Stab</li>
 			</capacities>
 			<power>9</power>
 			<cooldownTime>2</cooldownTime>
@@ -125,7 +126,7 @@
     <defName>MLRP_GestateSweetieBot</defName>
     <label>gestate Sweetie Bot</label>
     <description>Gestate a Sweetie Bot mechanoid.</description>
-    <researchPrerequisite>HighMechtech</researchPrerequisite>
+    <researchPrerequisite>MLRP_SweetieBotMechResearch</researchPrerequisite>
     <ingredients Inherit="False">
       <li>
         <filter>

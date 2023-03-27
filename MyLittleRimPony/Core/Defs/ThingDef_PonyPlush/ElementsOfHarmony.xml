@@ -19,7 +19,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>2000</MarketValue>
+      <!--<MarketValue>2000</MarketValue>-->
       <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>1.0</Mass>

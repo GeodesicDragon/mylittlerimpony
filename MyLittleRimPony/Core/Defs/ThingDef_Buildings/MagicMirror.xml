@@ -61,6 +61,6 @@
     <researchPrerequisites>
       <li>MLRP_MagicMirrorResearch</li>
     </researchPrerequisites>
-    <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
   </ThingDef>
 </Defs>  

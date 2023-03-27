@@ -11,8 +11,7 @@
       <ComfyTemperatureMax>250</ComfyTemperatureMax>
       <MeatAmount>0</MeatAmount>
       <ArmorRating_Heat>2.00</ArmorRating_Heat>
-      <BandwidthCost>1</BandwidthCost>
-      <ControlTakingTime>12</ControlTakingTime>
+      <ControlTakingTime>6</ControlTakingTime>
       <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
       <MechEnergyLossPerHP>0.33</MechEnergyLossPerHP>
       <WastepacksPerRecharge>5</WastepacksPerRecharge>
@@ -27,7 +26,6 @@
       <foodType>None</foodType>
       <lifeExpectancy>2500</lifeExpectancy>
       <bloodDef>Filth_MachineBits</bloodDef>
-      <nameGenerator>NamerMech</nameGenerator>
       <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
       <soundCallIntervalFriendlyFactor>5</soundCallIntervalFriendlyFactor>
       <thinkTreeConstant>MechConstant</thinkTreeConstant>

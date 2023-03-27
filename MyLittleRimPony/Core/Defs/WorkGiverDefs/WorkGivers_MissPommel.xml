@@ -2,15 +2,15 @@
 
   <WorkGiverDef>
     <defName>MLRP_DoStuffWithMissPommel</defName>
-    <label>make offering</label>
+    <label>make purchase</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>BasicWorker</workType>
     <priorityInType>300</priorityInType>
     <fixedBillGiverDefs>
       <li>MLRP_MissPommel</li>
     </fixedBillGiverDefs>
-    <verb>exchange</verb>
-    <gerund>exchanging fabric at</gerund>
+    <verb>purchase</verb>
+    <gerund>purchasing fabric at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>

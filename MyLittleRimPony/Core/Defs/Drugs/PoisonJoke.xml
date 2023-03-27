@@ -6,7 +6,7 @@
 <ThingDef ParentName="PlantBaseNonEdible">
 	<defName>MLRP_PoisonJokePlant</defName>
     <label>poison joke plant</label>
-    <description>A genetically engineered plant that can be turned into joints which, when smoked, will affect a person's capacities in some way.</description>
+    <description>A genetically engineered plant that can be turned into joints which, when smoked, will affect a person's capacities in either a positive or negative way.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
     </statBases>
@@ -178,20 +178,20 @@
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
-      <stages>
-        <li>
-          <capMods>
-            <li>
-              <capacity>Manipulation</capacity>
-              <offset>0.25</offset>
-            </li>
-            <li>
-              <capacity>Moving</capacity>
-              <offset>0.25</offset>
-            </li>
-          </capMods>
-        </li>
-      </stages>
+	<!--<stages>
+	<li>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.25</offset>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<offset>0.25</offset>
+			</li>
+		</capMods>
+	</li>
+	</stages>-->
   </HediffDef>
   
   <!-- Poison Joke addiction -->

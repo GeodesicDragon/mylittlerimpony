@@ -515,6 +515,37 @@
 		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_DerpyHooves</defName>
+		<label>Derpy Hooves Logistics</label>
+		<description>Build a total of 100 Derpy Hooves transport pods</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_DerpyHooves</def>
+			<count>100</count>
+		</tracker>
+		
+		<texPath>Achievements/DerpyHoovesLogistics</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_DerpyHoovesGold</defName>
+		<label>Special Delivery!</label>
+		<description>Build a Derpy Hooves transport pod out of gold</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_DerpyHooves</def>
+			<madeFrom>Gold</madeFrom>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/SpecialDelivery</texPath>
+		<points>75</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--DECOYS-->
 	
 	<AchievementsExpanded.AchievementDef>

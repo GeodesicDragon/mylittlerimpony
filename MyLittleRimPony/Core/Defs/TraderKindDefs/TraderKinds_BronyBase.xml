@@ -14,8 +14,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <thingDefCountRange>1~99</thingDefCountRange>
-        <totalPriceRange>150~450</totalPriceRange>
+        <thingDefCountRange>1~15</thingDefCountRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -76,12 +75,10 @@
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
         <thingDefCountRange>1~20</thingDefCountRange>
-        <totalPriceRange>400~800</totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
         <thingDefCountRange>1~20</thingDefCountRange>
-        <totalPriceRange>400~800</totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
@@ -159,6 +156,11 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Telescope</thingDef>
         <countRange>0~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_Turret_SweetieBot</thingDef>
+        <countRange>5</countRange>
+		<totalPriceRange>2200~2800</totalPriceRange>
       </li>
 
       <!-- Exotic -->
@@ -245,8 +247,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
-        <thingDefCountRange>1~99</thingDefCountRange>
-        <totalPriceRange>400~800</totalPriceRange>
+        <thingDefCountRange>1~15</thingDefCountRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
@@ -262,7 +263,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
-        <totalPriceRange>100~200</totalPriceRange>
+        <countRange>50~250</countRange>
       </li>
       <li Class="StockGenerator_ReinforcedBarrels">
         <countRange>1~4</countRange>
@@ -270,7 +271,6 @@
       <li Class="StockGenerator_Category">
         <categoryDef>PlantFoodRaw</categoryDef>
         <thingDefCountRange>1~10</thingDefCountRange>
-        <totalPriceRange>1000~1500</totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
@@ -370,6 +370,13 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>MLRP_OFC_Weapon</thingDef>
         <countRange>0~1</countRange>
+      </li>
+	  
+	  <!--Buildings-->
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_Turret_SweetieBot</thingDef>
+        <countRange>5</countRange>
+		<totalPriceRange>2200~2800</totalPriceRange>
       </li>
       
       <!-- Buying -->

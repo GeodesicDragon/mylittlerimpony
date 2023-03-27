@@ -117,42 +117,13 @@
 						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
 					</value>
 				</Operation>
-			</apply>
-		</li>
-
-		<!--PLUSHIES: MARKET VALUE-->
-		<li Class="XmlExtensions.UseSetting">
-			<modId>geodesicdragon.rimpony</modId>
-			<key>MLRP_PlushieMarketValue</key>
-			<defaultValue>200</defaultValue>
-			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/statBases/MarketValue</xpath>
+				
+				<!--VANILLA OUTPOSTS EXPANDED-->
+				<Operation Class="PatchOperationReplace" MayRequire="vanillaexpanded.outposts">
+					<xpath>/Defs/WorldObjectDef[defName="MLRP_Plushie_Outpost"]/modExtensions/li[@ Class="Outposts.OutpostExtension"]/RequiredSkills/Crafting</xpath>
 					<value>
-						<MarketValue>{MLRP_PlushieMarketValue}</MarketValue>
+						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
 					</value>
-				</Operation>
-			</apply>
-		</li>
-		
-		<!--KID PLUSHIES: MARKET VALUE-->
-		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Biotech">
-			<modId>geodesicdragon.rimpony</modId>
-			<key>MLRP_PlushieMarketValue</key>
-			<apply>
-				<Operation Class="XmlExtensions.CreateVariable" MayRequire="Ludeon.RimWorld.Biotech">
-					<value>{MLRP_PlushieMarketValue}</value>
-					<value2>2</value2>
-					<operation>/</operation>
-					<storeIn>MLRP_ChildPlushieMarketValue</storeIn>
-					<apply>
-						<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-							<xpath>Defs/ThingDef[@Name="PonyPlushChildBase"]/statBases/MarketValue</xpath>
-							<value>
-								<MarketValue>{MLRP_ChildPlushieMarketValue}</MarketValue>
-							</value>
-						</Operation>
-					</apply>
 				</Operation>
 			</apply>
 		</li>
@@ -681,12 +652,34 @@
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
 			<key>MLRP_DaybreakerChemfuel</key>
-			<defaultValue>75</defaultValue>
+			<defaultValue>50</defaultValue>
 			<apply>
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/RecipeDef[@Name="DaybreakerRecipes_RegularChemfuel"]/ingredients/li/count</xpath>
 					<value>
 						<count>{MLRP_DaybreakerChemfuel}</count>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+
+		<!--DERPY HOOVES: MASS CAPACITY-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DerpyHoovesMassCapacity</key>
+			<defaultValue>300</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_DerpyHooves"]/comps/li[@Class="CompProperties_Transporter"]/massCapacity</xpath>
+					<value>
+						<massCapacity>{MLRP_DerpyHoovesMassCapacity}</massCapacity>
+					</value>
+				</Operation>
+			
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_DerpyHooves"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>{MLRP_DerpyHoovesMassCapacity}</costStuffCount>
 					</value>
 				</Operation>
 			</apply>
@@ -831,6 +824,35 @@
 			</caseFalse>
 		</li>
 		
+		<!--BIOTECH: SWEETIE BOT MECHANOIDS ARE QUIET-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_SweetieBotMechanoidsAreQuiet</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/SoundDef[defName="SweetieBotMech_Call"]/subSounds/li/volumeRange</xpath>
+					<value>
+						<volumeRange>
+							<min>0</min>        
+							<max>0</max>
+						</volumeRange>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/SoundDef[defName="SweetieBotMech_Call"]/subSounds/li/volumeRange</xpath>
+					<value>
+						<volumeRange>
+							<min>50</min>        
+							<max>50</max>
+						</volumeRange>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
 		<!--MEDPOD: PREVENT PODS FROM HEALING THE CUTIE POX-->
 		<li Class="XmlExtensions.OptionalPatch" MayRequire="sumghai.medpod">
 			<modId>geodesicdragon.rimpony</modId>
@@ -845,23 +867,31 @@
 							<li Name="MLRP_MedPodCutiePox">MLRP_CutiePox</li>
 						</value>
 					</nomatch>
-					<!--<match Class="PatchOperationRemove">
-						<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
-					</match>-->
 				</Operation>
 			</caseTrue>
 			<caseFalse>
 				<Operation Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
-					<!--<nomatch Class="PatchOperationTest">
-						<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
-						<success>Always</success>
-					</nomatch>-->
 					<match Class="PatchOperationRemove">
 						<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs/li[@Name="MLRP_MedPodCutiePox"]</xpath>
 					</match>
 				</Operation>
 			</caseFalse>
+		</li>
+		
+		<!--RIM WAR SETTINGS-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Torann.RimWar">
+			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+			<key>MLRP_NPCFactionRimWarBehaviour</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+			<defaultValue>Cautious</defaultValue> <!--What you want the default value of the setting to be-->
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>/Defs/RimWar.RimWarDef[defName="RimWar_MLRP_FactionBehavior"]/defDatas/li[2]/behavior</xpath>
+					<value>
+						<behavior>{MLRP_NPCFactionRimWarBehaviour}</behavior>
+					</value>
+				</Operation>
+			</apply>
 		</li>
 
 		<!--SETTINGS WINDOW-->
@@ -877,10 +907,21 @@
 		
 				<li Class="XmlExtensions.Setting.Gap"/>
 				
-				<li Class="XmlExtensions.Setting.Text">
-					<text>Plushie Settings</text>
-					<font>Medium</font>
-					<anchor>Left</anchor>
+				<li Class="XmlExtensions.Setting.SplitColumn">
+					<leftCol>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Plushie Settings</text>
+							<font>Medium</font>
+							<anchor>Left</anchor>
+						</li>
+					</leftCol>
+					<rightCol>
+						<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
+							<text>These settings will also be applied to child-sized plushies.</text>
+							<font>Small</font>
+							<anchor>Right</anchor>
+						</li>
+					</rightCol>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Textbox">
@@ -889,14 +930,10 @@
 					<defaultValue>300</defaultValue>
 				</li>
 				
-				<li Class="XmlExtensions.Setting.Gap">
-					<spacing>8</spacing>
-				</li>
-				
-				<li Class="XmlExtensions.Setting.Textbox">
-					<key>MLRP_PlushieMarketValue</key>
-					<label>Market Value: </label>
-					<defaultValue>200</defaultValue>
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
+					<text>This value will be halved for child-sized plushies.</text>
+					<font>Small</font>
+					<anchor>Left</anchor>
 				</li>
 		
 				<li Class="XmlExtensions.Setting.Gap"/>
@@ -908,12 +945,6 @@
 					<max>20</max>
 					<label>Crafting Skill Required: {MLRP_PlushieCraftingSkill}</label>
 					<decimals>0</decimals>
-				</li>
-				
-				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
-					<text>This setting will also be applied to child-sized plushies.</text>
-					<font>Small</font>
-					<anchor>Left</anchor>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Checkbox">
@@ -1168,6 +1199,29 @@
 					<anchor>Left</anchor>
 				</li>
 				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
+					<text>Derpy Hooves Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_DerpyHoovesMassCapacity</key>
+					<defaultValue>300</defaultValue>
+					<min>300</min>
+					<max>1200</max>
+					<label>Mass Capacity: {MLRP_DerpyHoovesMassCapacity}</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Text">
+					<text>This will also be how much stuff is required to build one.</text>
+					<font>Small</font>
+					<anchor>Left</anchor>
+				</li>
+				
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Ideology"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Ideology">
@@ -1199,6 +1253,11 @@
 					<label>Sweetie Bot mechanoids appear in mechanoid clusters</label>
 				</li>
 				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
+					<key>MLRP_SweetieBotMechanoidsAreQuiet</key>
+					<label>Mute Sweetie Bot mechanoid call sound</label>
+				</li>
+				
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="sumghai.medpod"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="sumghai.medpod">
@@ -1210,6 +1269,56 @@
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="sumghai.medpod">
 					<key>MLRP_MedPodsDoNotCureCutiePox</key>
 					<label>Prevent MedPods from curing the Cutie Pox</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="Torann.RimWar"/>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Torann.RimWar">
+					<text>Rim War Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="Torann.RimWar">
+					<spacing>24</spacing>
+				</li>
+			
+				<li Class="XmlExtensions.Setting.SplitColumn" MayRequire="Torann.RimWar">
+					<leftCol>
+						<li Class="XmlExtensions.Setting.Text" MayRequire="Torann.RimWar">
+							<text>NPC Faction Behaviour: </text>
+							<font>Small</font>
+							<anchor>Left</anchor>
+						</li>
+					</leftCol>
+					<rightCol>
+						<li Class="XmlExtensions.Setting.RadioButtons" MayRequire="Torann.RimWar">
+							<key>MLRP_NPCFactionRimWarBehaviour</key>
+							<defaultValue>Cautious</defaultValue>
+							<buttons>
+							<li>
+								<value>Aggressive</value>
+								<label>Aggressive</label>
+							</li>
+							<li>
+								<value>Cautious</value>
+								<label>Cautious</label>
+								</li>
+							<li>
+								<value>Expansionist</value>
+								<label>Expansionist</label>
+							</li>
+							<li>
+								<value>Merchant</value>
+								<label>Merchant</label>
+							</li>
+							<li>
+								<value>Warmonger</value>
+								<label>Warmonger</label>
+							</li>
+							</buttons>
+						</li>
+					</rightCol>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap">

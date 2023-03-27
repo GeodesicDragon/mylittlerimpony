@@ -41,7 +41,7 @@
 			<capMods>
 				<li>
 					<capacity>Consciousness</capacity>
-					<offset>-0.1</offset>
+					<setMax>0.01</setMax>
 				</li>
 			</capMods>
 		</li>

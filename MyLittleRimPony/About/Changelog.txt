@@ -1,3 +1,65 @@
+Version 3.129.137 (March 27th 2023)
+
+* Core: Added Derpy Hooves as an alternative to the transport pod.
+	* Can carry twice as much cargo as a regular pod.
+	* Requires 300 fabric/leather/metal/wood to build.
+	* Can carry pawns as well, but they won't rest as effectively while inside.
+	* Unlocked once the transport pod is researched; she can be found in the 'RimPony' section of the Architect menu.
+	* If you have XML Extensions, you can configure how much mass is carried in the settings, up to a maximum of 1200kg. Whatever mass you set it to will also be how much stuff you need to build it.
+* Core: Miss Pommel has changed how the Fabric Exchange conducts business. Instead of swapping one material for another, she is now selling all available materials in batches of 100 for a 5% markup.
+	* Added 29 new recipes.
+	* Removed all existing recipes; this may cause some one-time red errors on game load.
+	* Only materials that exist in the base game are sold; if you have a mod that adds custom ones, let me know and I'll create a patch.
+* Royalty: Added three new recipes to the Nightmare Moon statue which let you request archotech arms, legs and eyes.
+	* Each recipe requires 5600 silver, 1000 gold and 10 equivalent bionics.
+	* Recipes are locked behind extensive research.
+	* Research is locked behind three rare and costly (5000 silver each) techprints, carried by imperial and outlander factions.
+* Some Things Float: Added support for this mod, though only plushies are affected.
+* Vanilla Achievements Expanded: Added an achievement for building 100 Derpys.
+* Vanilla Achievements Expanded: Added an achievement for building a Derpy out of gold.
+* Vanilla Outposts Expanded: Added the plushie factory.
+	* Each pawn requires at least 5 skill (or whatever you might have changed it to via XML Extensions) in Crafting.
+	* Produces ((100*Total Skill) + (50*Number of Pawns)) silver every 3 days.
+	* Takes about a day to set up.
+* XML Extensions: Added an option to mute the call sound of Sweetie Bot mechanoids. Handy if you're like me and have 30+ of them hanging around.
+* Core: Sweetie Bot turrets now have a market value of 2500 silver.
+* Core: NPC faction settlements and weapon traders now carry a stock of 5 Sweetie Bot turrets ranging in price from 2200-2800 silver.
+* Core: The negative effect of poison joke on a pawn's consciousness now sets it to 1%, thus eliminating the chance of instant death.
+* Core: All of the negative effects of poison joke now come with a warning letter when a pawn is afflicted by one.
+* Core: The 'high on poison joke' hediff no longer increases manipulation and moving.
+* Core: Poison joke addiction cure kits now require 6 Crafting to make, instead of 6 Medical.
+* Core: Poison joke addiction cure kits can now be made at the plushie bench as well as the drug lab.
+* Core: Sweetie Bot turrets no longer break down, but now consume an additional 50W of power.
+* Core: Fixed plushie traders not carrying any silver.
+* Core: Massively increased the amount of silver carried by plushie traders.
+* Core: Fixed plushie traders not carrying any textiles.
+* Core: Plushie traders now stock between one and three of each plushie.
+* Core: NPC faction settlements and traders no longer have price ranges on the majority of their wares.
+* Core: Discord lamps can now be built using metals and wood.
+* Core: Reduced the amount of chemfuel needed for Daybreaker recipes to 50/100 (was 75/150).
+* Core: Pony plushies no longer have a set market value. (1)
+* Core: The Elements of Harmony no longer have a set market value. (1)
+* Core: Reduced the Construction skill needed to build Sweetie Bot turrets to 10. (2)
+* Core: Reduced the Construction skill needed to build magic mirrors to 10. (2)
+* Royalty: Reduced the Crafting skill needed to make harmony chips to 10. (2)
+* Royalty: Reduced the Medical skill needed to install harmony chips to 10. (2)
+* Biotech: Sweetie Bot mechanoids now have their own body type; no more will they have their 'fingers' blown off.
+* Biotech: Sweetie Bot mechanoids can now stab with their horns in melee combat.
+* Biotech: Increased sharp armour of Sweetie Bot mechanoids to 80% (was 30). (3)
+* Biotech: Changed the allegiance overlay graphic used by Sweetie Bot mechanoids.
+* Biotech: Reduced the time required to take control of Sweetie Bot mechanoids to 6 seconds (was 12).
+* Biotech: Sweetie Bot mechanoids now use the same random naming system as female NPC faction colonists.
+* Biotech: Reduced caravan riding speed of Sweetie Bot mechanoids to 160% (was 200%).
+* Biotech: Gestating Sweetie Bot mechanoids now requires some quick research, requiring both high mechtech and the rainbow laser.
+* Reinforced Mechanoid 2: Fixed letters not being sent when researching Weather Controller, Climate Adjuster and Sun Blocker.
+* MedPod: Fixed letter not being sent when researching Accelerated Cellular Regeneration.
+* Replimat: Fixed letter not being sent when researching Molecular Nutrient Resequencing.
+* Vanilla Achievements Expanded: Changed the texture of the Equestrian Girl Power achievement to one that isn't so stretchy.
+
+1. I noticed that plushies made out of cloth and hyperweave both had a market value of 152 silver (based on my settings and difficulty level). RimWorld will now calculate the market value for you, and - having seen this in action - I can safely say that there will be some HUGE price changes. Not only is it more expensive to buy plushies, it's also more profitable to sell any that you've made. Also, users of XML Extensions will find that they now have an unused key called MLRP_PlushieMarketValue left over; this can be safely removed, as it is no longer needed.
+2. This change was made in order to allow Biotech mechanoids to perform the task as well.
+3. I'm hoping that this will make them somewhat less prone to killing each other with friendly fire, especially in large groups.
+
 Version 3.91.104 (March 1st 2023)
 
 * Core: Fixed letter spam when loading saved games. It will happen one more time when you load a save, but should stop once you save again.

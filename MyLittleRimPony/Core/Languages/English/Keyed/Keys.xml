@@ -1,14 +1,12 @@
 <LanguageData>
 
-	<!--I don't really trust Google for translating.-->
-
 	<!--C# CORE-->
 	<MLRP_ModName>My Little RimPony</MLRP_ModName> <!--Shown in log when game loads-->
 	<MLRP_ModIntro>loaded. Remember, friendship is magic!</MLRP_ModIntro> <!--Displayed in log after version number-->
-	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured> <!--Shown at top of screen when a pawn is cured using the poison joke cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
-	<MLRP_NothingToCure>Attempted to cure non-existent hediff.</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
+	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the poison joke cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
+	<MLRP_NothingToCure>Warning: Attempted to cure non-existent hediff(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
 	<MLRP_AntiBronyHasPlushieAlert>Anti brony using plushie</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
-	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies to a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
+	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Poison joke affliction</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
 	<MLRP_PoisonJokeLetterText>Smoking poison joke has given {0} the following: {1}</MLRP_PoisonJokeLetterText> <!--Text of letter received after a pawn smokes poison joke. {0} is the pawn's name and {1} is what they were afflicted with, such as super speedy or blindness.-->
 	<MLRP_RecipeUnlockedLetterHeader>New recipe(s) unlocked</MLRP_RecipeUnlockedLetterHeader> <!--Sent whenever certain research is completed-->
@@ -16,10 +14,15 @@
 	<MLRP_RecipeUnlockedLetterText_DB>New recipe(s) available at the Daybreaker statue.</MLRP_RecipeUnlockedLetterText_DB>
 	<MLRP_RecipeUnlockedLetterText_FE>New recipe(s) available at the Fabric Exchange.</MLRP_RecipeUnlockedLetterText_FE>
 	
-	<!--C# ROYALTY-->
+	<!--C# ROYALTY DLC-->
 	
 	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti brony has harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
-	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">You have installed a harmony chip in a pawn with the anti brony trait. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">A pawn with the anti brony trait has a harmony chip installed. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	
+	<!--C# BIOTECH DLC-->
+	
+	<MLRP_AboutSweetieBotMechLetterHeader MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot mechanoids</MLRP_AboutSweetieBotMechLetterHeader>
+	<MLRP_AboutSweetieBotMechLetterText MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot mechanoids are fast moving with decent sharp armour, but they are vulnerable when engaged in melee combat.\n\nThey are best suited for attacking an enemy's flanks, rushing in and laying down fire before retreating to a safe distance.\n\nThey can also be used as mounts when part of caravans.</MLRP_AboutSweetieBotMechLetterText>
 	
 	<!--C# RELATED TO MODS-->
 	

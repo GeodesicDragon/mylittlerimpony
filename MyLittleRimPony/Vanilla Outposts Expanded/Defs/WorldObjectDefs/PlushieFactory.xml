@@ -1,0 +1,32 @@
+<Defs>
+
+	<WorldObjectDef ParentName="OutpostBase">
+	<defName>MLRP_Plushie_Outpost</defName>
+	<label>plushie factory</label>
+	<description>Places a temporary, autonomously-led camp that specializes in mass producing plushies in exchange for silver. Once an ample amount is collected, a delivery will be made at the outskirts of a faction's primary colony.</description>
+	<expandingIconTexture>Things/PonyPlush/NurseHaywick</expandingIconTexture>
+	<modExtensions>
+		<li Class="Outposts.OutpostExtension">
+			<RequiredSkills>
+				<Crafting>5</Crafting>
+			</RequiredSkills>
+			<TicksPerProduction>180000</TicksPerProduction>
+			<TicksToSetUp>60000</TicksToSetUp>
+			<ProvidedFood>MealFine_Veg</ProvidedFood>
+			<ResultOptions>
+				<li>
+					<Thing>Silver</Thing>
+					<AmountsPerSkills>
+						<Crafting>100</Crafting>
+					</AmountsPerSkills>
+					<AmountPerPawn>50</AmountPerPawn>
+				</li>
+			</ResultOptions>
+		</li>
+		<li Class="KCSG.CustomGenOption">
+			<fullClear>true</fullClear>
+		</li>
+	</modExtensions>
+	</WorldObjectDef>
+				
+</Defs>

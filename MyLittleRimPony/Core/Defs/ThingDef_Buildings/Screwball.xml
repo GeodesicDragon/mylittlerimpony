@@ -2,7 +2,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_ScrewballGenerator</defName>
     <label>Screwball</label>
-    <description>A strange power emanates from this pony; some say she was cursed by the Lord of Chaos - something he has always vehemently denied - but at least this power can be put to some use.</description>
+    <description>A strange power emanates from this pony; there are those who say she was cursed by Discord - something he has always vehemently denied - but at least this power can be put to use.</description>
     <thingClass>Building</thingClass>
 	<designationHotKey>Misc2</designationHotKey>
     <drawerType>MapMeshAndRealTime</drawerType>

@@ -1,0 +1,57 @@
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>MLRP_DerpyHooves</defName>
+		<label>Derpy Hooves</label>
+		<description>Ponyville's number one mail delivery mare, Derpy will do whatever she can to get things to where they need to be.\n\nThere may be the odd accident, but her strong determination means she never falters.\n\n(Performs in the same way as a normal transport pod, but has twice the capacity.)</description>
+		<graphicData>
+			<texPath>Things/Building/DerpyHooves</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>false</castEdgeShadows>
+		<designationHotKey>Misc12</designationHotKey>
+		<fillPercent>0.5</fillPercent>
+		<designationCategory>MLRP_Buildings</designationCategory>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>1600</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costStuffCount>300</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<comps>
+			<li Class="CompProperties_Transporter">
+				<massCapacity>300</massCapacity>
+				<restEffectiveness>0.3</restEffectiveness>
+			</li>
+			<li Class="CompProperties_Launchable">
+				<skyfallerLeaving>DropPodLeaving</skyfallerLeaving>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_ContentsTransporter</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>PlaceWorker_NeedsFuelingPort</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>TransportPod</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<uiIconScale>0.65</uiIconScale>
+	</ThingDef>
+  
+</Defs>

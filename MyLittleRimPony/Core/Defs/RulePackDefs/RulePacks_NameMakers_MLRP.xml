@@ -141,6 +141,8 @@
 		<li>r_name->Sons of [PonyThing]</li>
 		<li>r_name->Daughters of [PonyThing]</li>
 		<li>r_name->Children of [PonyThing]</li>
+		<li>r_name->Union of [PonyThing]</li>
+		<li>r_name->Heralds of [PonyThing]</li>
 		<li>r_name->The [PlaceName2] [PonyThing] [PonyUnit]</li>
       </rulesStrings>
 	  <rulesRaw>

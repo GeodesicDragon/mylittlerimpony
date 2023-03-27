@@ -30,9 +30,10 @@
 			<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
 			<recipeUsers>
 				<li>DrugLab</li>
+				<li>PlushieBench</li>
 			</recipeUsers>
 			<skillRequirements>
-				<Medicine>6</Medicine>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
