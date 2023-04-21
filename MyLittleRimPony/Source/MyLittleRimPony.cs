@@ -7,6 +7,7 @@
 // Contact me via my Discord server and we'll talk! (Invite Code: BGKnpza)
 
 using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -38,12 +39,14 @@ namespace MyLittleRimPony
         public static HediffDef MLRP_PoisonJokeReducedBloodFiltration;
         public static HediffDef MLRP_PoisonJokeIncreasedBloodPumping;
         public static HediffDef MLRP_PoisonJokeReducedBloodPumping;
+        public static RoomRoleDef MLRP_PortalRoom;
         public static ThingDef MLRP_MagicMirrorGenerator;
-        public static ThingDef MLRP_DerpyHooves;
+        public static ThoughtDef MLRP_PonyPlushEquippedAntiBrony;
+        public static ThoughtDef MLRP_PartyCannonBoostRegularPawn;
+        public static ThoughtDef MLRP_PartyCannonBoostBrony;
+        public static ThoughtDef MLRP_PartyCannonBoostAntiBrony;
         public static TraitDef MLRP_BronyTrait;
         public static TraitDef MLRP_AntiBronyTrait;
-        public static ThoughtDef MLRP_PonyPlushEquippedAntiBrony;
-        public static RoomRoleDef MLRP_PortalRoom;
         [MayRequireRoyalty]
         public static ThoughtDef MLRP_HarmonyChipInstalledAntiBrony;
 
@@ -349,6 +352,30 @@ namespace MyLittleRimPony
                 return ThoughtState.Inactive;
             ThoughtState thoughtState = base.CurrentStateInternal(p);
             return thoughtState.Active && p.GetRoom().Role == MyDefOf.MLRP_PortalRoom ? thoughtState : ThoughtState.Inactive;
+        }
+    }
+
+    // PARTY CANNON
+
+    public class MLRP_PartyCannonMoodBoost : CompTargetEffect
+    {
+        public override void DoEffectOn(Pawn user, Thing target)
+        {
+            Pawn pawn = (Pawn)target;
+            if (pawn.Dead || pawn.needs == null || pawn.needs.mood == null)
+                return;
+            if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait))
+            {
+                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostRegularPawn));
+            }
+            if (pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait))
+            {
+                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostBrony));
+            }
+            if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait))
+            {
+                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostAntiBrony));
+            }
         }
     }
 }

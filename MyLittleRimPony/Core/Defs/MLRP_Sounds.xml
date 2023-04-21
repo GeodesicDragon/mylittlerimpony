@@ -60,5 +60,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+	<SoundDef>
+		<defName>MLRP_PartyCannonUse</defName>
+		<sustain>False</sustain>
+		<sustainFadeoutTime>1</sustainFadeoutTime>
+		<maxSimultaneous>1</maxSimultaneous>
+		<context>MapOnly</context>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>PartyCannonUse</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
   
 </Defs>

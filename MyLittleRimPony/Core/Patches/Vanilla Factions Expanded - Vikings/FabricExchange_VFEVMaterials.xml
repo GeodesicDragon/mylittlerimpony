@@ -1,0 +1,90 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Vikings</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+			
+				<RecipeDef ParentName="MLRP_FE_RecipeBase">
+					<defName>MLRP_FE_VFEV_Leather_Fenrir</defName>
+					<label>purchase fenrirskin</label>
+					<description>Use silver to purchase 100 fenrirskin.</description>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>168</count>
+						</li>
+					</ingredients>
+					<products>
+						<VFEV_Leather_Fenrir>100</VFEV_Leather_Fenrir>
+					</products>	
+				</RecipeDef>
+				
+				<RecipeDef ParentName="MLRP_FE_RecipeBase">
+					<defName>MLRP_FE_VFEV_Leather_Lothurr</defName>
+					<label>purchase lothurr leather</label>
+					<description>Use silver to purchase 100 lothurr leather.</description>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>137</count>
+						</li>
+					</ingredients>
+					<products>
+						<VFEV_Leather_Lothurr>100</VFEV_Leather_Lothurr>
+					</products>	
+				</RecipeDef>
+				
+				<RecipeDef ParentName="MLRP_FE_RecipeBase">
+					<defName>MLRP_FE_VFEV_Leather_Njorun</defName>
+					<label>purchase njorunfur</label>
+					<description>Use silver to purchase 100 njorunfur.</description>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>105</count>
+						</li>
+					</ingredients>
+					<products>
+						<VFEV_Leather_Njorun>100</VFEV_Leather_Njorun>
+					</products>	
+				</RecipeDef>
+				
+				<RecipeDef ParentName="MLRP_FE_RecipeBase">
+					<defName>MLRP_FE_VFEV_WoolCow</defName>
+					<label>purchase cow wool</label>
+					<description>Use silver to purchase 100 cow wool.</description>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>29</count>
+						</li>
+					</ingredients>
+					<products>
+						<VFEV_WoolCow>100</VFEV_WoolCow>
+					</products>	
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

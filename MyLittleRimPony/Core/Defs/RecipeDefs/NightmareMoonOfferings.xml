@@ -1,6 +1,6 @@
 <Defs>
 
-<!--GET PERSONA CORE-->
+<!--REQUEST PERSONA CORE-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_AIPersonaCore</defName>
@@ -32,7 +32,7 @@
 	</products>
 </RecipeDef>
 
-<!--GET HEALER MECH SERUM-->
+<!--REQUEST HEALER MECH SERUM-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_MechSerumHealer</defName>
@@ -64,7 +64,7 @@
 	</products>
 </RecipeDef>
 
-<!--GET RESURRECTOR MECH SERUM-->
+<!--REQUEST RESURRECTOR MECH SERUM-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_MechSerumResurrector</defName>
@@ -96,7 +96,7 @@
 	</products>
 </RecipeDef>
 
-<!--GET TECHPROF SUBPERSONA CORE-->
+<!--REQUEST TECHPROF SUBPERSONA CORE-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_TechprofSubpersonaCore</defName>
@@ -127,7 +127,7 @@
 	</products>
 </RecipeDef>
 
-<!--GET ELEPHANT TUSK-->
+<!--REQUEST ELEPHANT TUSK-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_ElephantTusk</defName>
@@ -158,7 +158,7 @@
 	</products>
 </RecipeDef>
 
-<!--GET THRUMBO HORN-->
+<!--REQUEST THRUMBO HORN-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_ThrumboHorn</defName>
@@ -189,7 +189,7 @@
 	</products>
 </RecipeDef>
 
-<!--GET LUCIFERIUM-->
+<!--REQUEST LUCIFERIUM-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_Luciferium</defName>
@@ -253,7 +253,7 @@
 	</products>
 </RecipeDef>
 
-<!--GET GLITTERWORLD MEDICINE-->
+<!--REQUEST GLITTERWORLD MEDICINE-->
 
 <RecipeDef>
 	<defName>MLRP_NMM_GlitterworldMedicine</defName>
@@ -401,6 +401,38 @@
 	</ingredients>
 	<products>
 		<PonyPlush_SunsetShimmer>1</PonyPlush_SunsetShimmer>
+	</products>
+</RecipeDef>
+
+<!--REQUEST 100 NEUTROAMINE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_Neutroamine</defName>
+	<label>request 100 neutroamine</label>
+	<description>Offer silver in exchange for 100 neutroamine.</description>
+	<researchPrerequisite>MedicineProduction</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>240</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neutroamine>100</Neutroamine>
 	</products>
 </RecipeDef>
   

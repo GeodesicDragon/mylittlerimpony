@@ -1,0 +1,26 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BossgroupDef[defName="Diabolus" or defName="Warqueen" or defName="Apocriton"]/waves/li[6]/escorts</xpath>
+				<value>
+					<MLRP_SweetieBotMech>4</MLRP_SweetieBotMech>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BossgroupDef[defName="Diabolus" or defName="Warqueen" or defName="Apocriton"]/waves/li[7]/escorts</xpath>
+				<value>
+					<MLRP_SweetieBotMech>6</MLRP_SweetieBotMech>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BossgroupDef[defName="Diabolus" or defName="Warqueen" or defName="Apocriton"]/waves/li[8]/escorts</xpath>
+				<value>
+					<MLRP_SweetieBotMech>8</MLRP_SweetieBotMech>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

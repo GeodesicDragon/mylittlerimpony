@@ -583,12 +583,12 @@
 	</products>	
 </RecipeDef>
 
-<!--PURCHASE THRUMBO FUR-->
+<!--PURCHASE THRUMBOFUR-->
 
 <RecipeDef ParentName="MLRP_FE_RecipeBase">
 	<defName>MLRP_FE_Leather_Thrumbo</defName>
 	<label>purchase thrumbofur</label>
-	<description>Use silver to purchase 100 thrumbo fur.</description>
+	<description>Use silver to purchase 100 thrumbofur.</description>
     <ingredients>
 		<li>
 			<filter>

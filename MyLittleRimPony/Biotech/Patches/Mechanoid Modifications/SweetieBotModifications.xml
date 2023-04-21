@@ -1,0 +1,25 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Mechanoid Modifications</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[@Name="InstallModificationBaseAll"]/recipeUsers</xpath>
+					<value>
+					  <li>MLRP_SweetieBotMech</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[@Name="RemoveModificationBase"]/recipeUsers</xpath>
+					<value>
+					  <li>MLRP_SweetieBotMech</li>	
+					</value>
+				</li>
+			  </operations>
+		</match>
+	</Operation>
+	
+</Patch>

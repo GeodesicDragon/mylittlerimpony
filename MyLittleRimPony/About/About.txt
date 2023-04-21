@@ -29,10 +29,12 @@ CORE
 * Adds poison joke, a drug which affects a pawns capacities, such as manipulation or breathing, in either a positive or negative way. Also adds an item, made using 10 neutroamine and 15 herbal medicine, which cures a person of an addiction to poison joke.
 * Adds the Super Speedy Cider Squeezy 6000, obtainable only via quests; it will provide 30 Beer every 30 days as long as it has 500W of power.
 * Adds the Cutie Pox as a disease you can catch. It causes pain and requires a lot of tending, but increases a lot of skills by a small amount.
+* Adds the Fabric Exchange, which lets you purchase 100 of each base game textile in exchange for silver.
 
 ROYALTY
 
 * Adds the Harmony Chip, a brain implant which grants a pawn the bonuses of every plushie at once (except for Starlight Glimmer). Bonuses from Ideology and Biotech plushies are also applied (if those DLCs are enabled).
+* Adds recipes to the Nightmare Moon statue which, when researched, allow for the acquisition of archotech limbs.
 
 IDEOLOGY
 
@@ -141,7 +143,6 @@ Weeb Faction: The Weeaboo Clan faction is not hostile to player or NPC brony fac
 XML Extensions: Allows you to configure many aspects of the mod to your own liking.
 	* Amount of stuff needed to make plushies.
 	* Crafting skill needed to make plushies.
-	* Market value of plushies.
 	* Whether or not plushies become tainted upon death.
 	* Whether or not bronies are capable of violence.
 	* How often the brony trait appears on pawns. (Can be set to 0 so it no longer appears.)

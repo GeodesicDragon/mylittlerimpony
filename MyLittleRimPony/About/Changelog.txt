@@ -1,3 +1,23 @@
+Version 3.140.142 (April 22nd 2023)
+
+* Core: Removed the research tracker because - according to Dubs Performance Analyser - it was causing some performance issues. Plus there's the fact it very rarely worked to begin with, so all the more reason to remove it.
+* Core: Added the Party Cannon, a rare artifact which works in a similar way to the pyschic soothe pulser. When activated, it will apply a +15 mood bonus to most pawns. Bronies, however, will get a +20 bonus, while anti bronies will only get a +5 bonus. Babies are not affected.
+* Core: Added a recipe to the Nightmare Moon statue to request 100 neutroamine. Requires medicine production. This request is a lot more expensive than the other ones, as the silver cost is equal to three times the market value of the product.
+* Biotech: Sweetie Bots will now start to accompany mechanoid bosses after a certain point.
+* Mechanoid Modifications: Sweetie Bots can now benefit from upgrades added by this mod.
+* Muzzle Flash: Added support for this mod to the Rainbow Laser.
+* Vanilla Achievements Expanded: Added an achievement to obtain the Party Cannon.
+* Vanilla Factions Expanded - Vikings: Added a recipe to the Nightmare Moon statue to request a psychic cornucopia. Requires advanced fabrication.
+* Vanilla Factions Expanded - Vikings: Added four new recipes to the Fabric Exchange.
+	* Purchase fenrirskin (1680 silver)
+	* Purchase lothurr leather (1370 silver)
+	* Purchase njorunfur (1050 silver)
+	* Purchase cow wool (290 silver)
+* Vanilla Achievements Expanded: Removed the 'Friendship is Magic' achievement.
+* Vanilla Achievements Expanded: Removed the 'Cluck Off!' achievement.
+* Callouts: Updated patch to also check for the 1.4 version uploaded by Profligate.
+* Callouts: Updated patch with some new and updated entries.
+
 Version 3.129.137 (March 27th 2023)
 
 * Core: Added Derpy Hooves as an alternative to the transport pod.

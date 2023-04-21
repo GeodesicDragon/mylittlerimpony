@@ -2,6 +2,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Callouts</li>
+			<li>Callouts 1.4</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -17,6 +18,15 @@
 							<name>BRONY</name>
 							<value>true</value>
 						</CM_Callouts.CalloutConstantByTraitDef>
+						
+						<CalloutsExpanded.CalloutConstantByPawnkindDef MayRequire="Ludeon.RimWorld.Biotech">
+							<defName>CM_Callout_SweetieBot</defName> 
+							<pawnKindDefs>
+								<li>MLRP_SweetieBotMech</li>
+							</pawnKindDefs>
+							<name>SWEETIEBOT</name>
+							<value>true</value>
+						</CalloutsExpanded.CalloutConstantByPawnkindDef>
 					</value>
 				</li>
 			
@@ -27,6 +37,11 @@
 						<li>callout_pony->love</li>
 						<li>callout_pony->friendship</li>
 						<li>callout_pony->magic</li>
+						<li>callout_pony->generosity</li>
+						<li>callout_pony->loyalty</li>
+						<li>callout_pony->honesty</li>
+						<li>callout_pony->kindness</li>
+						<li>callout_pony->laughter</li>
 						<li>callout_pony->harmony</li>
 						<li>callout_pony->chaos</li>
 						<li>callout_princess->Cadence</li>
@@ -42,6 +57,7 @@
 						<li>callout_villain->The Shadow Pony</li>
 						<li>callout_celestialbody->sun</li>
 						<li>callout_celestialbody->moon</li>
+						<li>callout_celestialbody->Crystal Heart</li>
 					</value>
 				</li>
 	  
@@ -59,6 +75,10 @@
 						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you like they shoulda beat Cozy Glow!</li>
+						<li>rule(BRONY==true)->I will defeat you with the power of [callout_pony], and this gun I found.</li>
+						<li>rule(SWEETIEBOT==true)->Attack in progress.</li>
+						<li>rule(SWEETIEBOT==true)->Engaging hostiles.</li>
+						<li>rule(SWEETIEBOT==true)->Targeting systems online.</li>
 					</value>
 				</li>
 	  
@@ -69,6 +89,9 @@
 						<li>rule(BRONY==true)->Got you! [callout_princess] is on my side today!</li>
 						<li>rule(BRONY==true)->By the [callout_celestialbody], I hope that hurt!</li>
 						<li>rule(BRONY==true)->[callout_villain] take you!</li>
+						<li>rule(SWEETIEBOT==true)->Enemy unit has been damaged. Continuing attack.</li>
+						<li>rule(SWEETIEBOT==true)->Hostiles will be terminated.</li>
+						<li>rule(SWEETIEBOT==true)->Die, meatbag!</li>
 					</value>
 				</li>
 	  
@@ -78,6 +101,9 @@
 						<li>rule(BRONY==true)->[callout_princess] preserve me, getting shot hurts!</li>
 						<li>rule(BRONY==true)->The friendship lessons never prepared me for this!</li>
 						<li>rule(BRONY==true)->Leave me alone! [callout_princess], tell them!</li>
+						<li>rule(SWEETIEBOT==true)->Damage sustained. Continuing combat operations.</li>
+						<li>rule(SWEETIEBOT==true)->Unit damaged. Repairs advised.</li>
+						<li>rule(SWEETIEBOT==true)->Combat efficiency at *kzzt* percent.</li>
 					</value>
 				</li>
 	  
@@ -87,6 +113,8 @@
 						<li>rule(BRONY==true)->[callout_princess] preserve me, getting cut hurts!</li>
 						<li>rule(BRONY==true)->The friendship lessons never prepared me for this!</li>
 						<li>rule(BRONY==true)->Leave me alone! [callout_princess], tell them!</li>
+						<li>rule(SWEETIEBOT==true)->Damage sustained. Continuing combat operations.</li>
+						<li>rule(SWEETIEBOT==true)->Unit damaged. Repairs advised.</li>
 					</value>
 				</li>
 				
@@ -94,7 +122,7 @@
 					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Wounded"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(BRONY==true)->[callout_princess] will soon grant me a new [destroyed_part]!</li>
-						<li>rule(BRONY==true)->You idiot, I can get a new [destroyed_part] from Nightmare Moon!</li>
+						<li>rule(BRONY==true)->You idiot, I can just get a new [destroyed_part] from our Nightmare Moon statue!</li>
 					</value>
 				</li>
 	  
@@ -105,8 +133,12 @@
 						<li>rule(BRONY==true,p=2)->How may I serve Equestria today?</li>
 						<li>rule(BRONY==true,p=2)->Glory to Princess [callout_princess]!</li>
 						<li>rule(BRONY==true,p=2)->Praise the [callout_celestialbody]!</li>
-						<li>rule(BRONY==true,p=2)->For [callout_princess]' sake, I was about to have [callout_noun_meal]!</li>
+						<li>rule(BRONY==true,p=2)->For [callout_princess]'s sake, I was about to eat!</li>
+						<li>rule(BRONY==true,p=2)->For [callout_princess]'s sake, I was about to take a nap!</li>
 						<li>rule(BRONY==true,p=2)->It's about to get twenty percent cooler!</li>
+						<li>rule(SWEETIEBOT==true)->Unit ready.</li>
+						<li>rule(SWEETIEBOT==true)->Acknowledged.</li>
+						<li>rule(SWEETIEBOT==true)->All systems nominal.</li>
 					</value>
 				</li>
 		  
@@ -116,7 +148,7 @@
 						<li>rule(CULPRITHEDIFF_stage==extreme,BRONY==true)->Looks like I'll be seeing you real soon, [callout_princess].</li>
 						<li>rule(BRONY==true)->[callout_pony] be with me, it's nearly over...</li>
 						<li>rule(BRONY==true)->[callout_princess], let not this affliction claim me!</li>
-						<li>rule(BRONY==true)->Oh, no, I can see [callout_villain]...</li>
+						<li>rule(BRONY==true)->Is... is that [callout_villain] I can see?</li>
 					</value>
 				</li>
 			</operations>

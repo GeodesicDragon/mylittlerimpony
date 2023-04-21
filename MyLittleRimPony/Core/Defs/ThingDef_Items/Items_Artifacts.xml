@@ -1,0 +1,39 @@
+<Defs>
+
+	<ThingDef ParentName="ArtifactBase">
+		<defName>MLRP_PartyCannonArtifact</defName>
+		<label>party cannon</label>
+		<description>This artifact was created by persons unknown in order to bring the fun of a Pinkie Pie party to the masses.\n\nWhen fired, it improves the mood of everyone on the map, though bronies will feel a stronger effect. The cannon is even powerful enough to improve the mood of anti bronies, but not by much.\n\nUnlike Pinkie's own Party Cannon, this one can only be used once.</description>
+		<graphicData>
+			<texPath>Things/Item/Artifact/PartyCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<tradeNeverStack>true</tradeNeverStack>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+		<MarketValue>600</MarketValue>
+		<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<relicChance>0</relicChance>
+		<comps>
+			<li Class="CompProperties_Targetable">
+				<compClass>CompTargetable_AllPawnsOnTheMap</compClass>
+				<psychicSensitiveTargetsOnly>true</psychicSensitiveTargetsOnly>
+				<doCameraShake>true</doCameraShake>
+				<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
+				<fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
+				<fleckOnUsedScale>10</fleckOnUsedScale>
+			</li>
+			<li>
+				<compClass>MyLittleRimPony.MLRP_PartyCannonMoodBoost</compClass>
+			</li>
+			<li Class="CompProperties_UseEffectArtifact">
+				<sound>MLRP_PartyCannonUse</sound>
+			</li>
+		</comps>
+	</ThingDef>
+  
+</Defs>

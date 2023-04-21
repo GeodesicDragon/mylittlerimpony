@@ -1,0 +1,23 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Muzzle Flash</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmonyWeaponised"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_ChargedMuzzleFalsh</def>
+							<drawSize>(0.4,0.4)</drawSize>
+							<offsets>
+								<li>(0.52,0.03)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -703,6 +703,21 @@
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_PartyCannonArtifact</defName>
+		<label>Party Hard</label>
+		<description>Obtain a Party Cannon</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.ItemTracker">
+			<def>MLRP_PartyCannonArtifact</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/PartyHard</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--SPECIAL ACHIEVEMENTS-->
 	
 	<AchievementsExpanded.AchievementDef>
@@ -861,41 +876,6 @@
 		
 		<texPath>Achievements/Rimcakes</texPath>
 		<points>10</points>
-	</AchievementsExpanded.AchievementDef>
-	
-	<!--OTHER STUFFABLES-->
-	
-	<AchievementsExpanded.AchievementDef>
-		<defName>MLRP_Achievement_BirdLeatherScootaloo</defName>
-		<label>Cluck Off!</label>
-		<description>Craft a Scootaloo plushie using birdleather</description>
-		<tab>MLRP_AchievementTab</tab>
-		
-		<tracker Class="AchievementsExpanded.ItemCraftTracker">
-			<def>PonyPlush_PinkiePie</def>
-			<madeFrom>Leather_Bird</madeFrom>
-			<count>1</count>
-		</tracker>
-		
-		<texPath>Achievements/CluckOff</texPath>
-		<points>10</points>
-	</AchievementsExpanded.AchievementDef>
-	
-	<!--TRADING-->
-	
-	<AchievementsExpanded.AchievementDef>
-		<defName>MLRP_Achievement_ImproveRelationsCasting</defName>
-		<label>Friendship is Magic</label>
-		<description>Buy or sell 100 Elements of Harmony</description>
-		<tab>MLRP_AchievementTab</tab>
-		
-		<tracker Class="AchievementsExpanded.TraderTracker">
-			<def>MLRP_ElementsOfHarmony</def>
-			<count>100</count>
-		</tracker>
-		
-		<texPath>UI/Abilities/ImproveRelations</texPath>
-		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
 
 </Defs>

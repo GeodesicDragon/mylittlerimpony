@@ -1,0 +1,58 @@
+<Defs>
+
+	<ThoughtDef>
+		<defName>MLRP_PartyCannonBoostRegularPawn</defName>
+		<durationDays>1.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>party cannon effect</label>
+				<description>I don't remember going to any parties lately, but I still feel great!</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>MLRP_BronyTrait</li>
+			<li>MLRP_AntiBronyTrait</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>MLRP_PartyCannonBoostBrony</defName>
+		<durationDays>1.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>party cannon effect (brony)</label>
+				<description>Pinkie Pie parties are the best!</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>MLRP_BronyTrait</li>
+		</requiredTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>MLRP_PartyCannonBoostAntiBrony</defName>
+		<durationDays>1.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>party cannon effect (anti brony)</label>
+				<description>As much as I hate this pony stuff, even I have to admit that this is a good feeling.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>MLRP_AntiBronyTrait</li>
+		</requiredTraits>
+	</ThoughtDef>
+  
+</Defs>
