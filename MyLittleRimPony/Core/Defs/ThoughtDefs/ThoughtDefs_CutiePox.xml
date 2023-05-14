@@ -1,0 +1,37 @@
+<Defs>
+
+	<ThoughtDef>
+		<defName>MLRP_CutiePoxThoughtBrony</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>MLRP_CutiePox</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>has the cutie pox</label>
+				<description>Now I know how Apple Bloom must have felt!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>MLRP_BronyTrait</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>MLRP_CutiePoxThoughtAntiBrony</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>MLRP_CutiePox</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>has the cutie pox</label>
+				<description>Seriously? I'd rather have the plague.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>MLRP_AntiBronyTrait</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+</Defs>

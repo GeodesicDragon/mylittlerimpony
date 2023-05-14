@@ -1,3 +1,101 @@
+Version 4.0.0 - The Xenotypes Update (May 14th 2023)
+
+* Core: Added Marble Pie's Stone Exchange.
+	* Allows you to buy 100 of each stone block type in exchange for silver, at a rate of 1 silver per block.
+	* She'll also give you 500 of everything at once, provided you bring her something special...
+	* Requires 150W of power and stonecutting research.
+	* Can be built using wood, metals or stone.
+	* Why am I not using Limestone for this? Because I don't like her, that's why. :P
+* Biotech: Added earth pony, unicorn, pegasus and alicorn xenotypes.
+	* EARTH PONY
+		* Robust
+		* Unstoppable
+		* Great animals skill
+		* Great plants skill
+		* Great mining skill
+		* Awful art skill
+		* Awful crafting skill
+		* Awful intellectual skill
+		* Awful medical skill
+		* Large appetites
+		* Horse voice
+	* UNICORN
+		* Super clotting
+		* Super psy-sensitive
+		* Dead calm
+		* Fast learning
+		* Great intellectual skill
+		* Great medical skill
+		* Awful construction skill
+		* Awful animals skill
+		* Awful mining skill
+		* Awful plants skill
+		* Wake-up dependency
+		* Horse voice
+	* PEGASUS
+		* Very fast move speed
+		* Hyper aggressive
+		* Strong melee damage
+		* Dark vision
+		* Great shooting skills
+		* Great melee skills
+		* Poor skills in everything else
+		* Awful social skills
+		* Go-juice dependency
+		* Horse voice
+	* ALICORN
+		* Beautiful
+		* Superfast immunity gain
+		* Superfast wound healing
+		* Excellent social skill
+		* Excellent art skill
+		* Poor skill in everything else
+		* Delicate
+		* Shrewd negotiator
+		* Horse voice
+	* The NPC faction is now 33% earth pony, 33% unicorn, 33% pegasus, and 1% alicorn.
+	* The old earth pony, unicorn and pegasus genes still exist, but their costs have not changed.
+	* The alicorn gene has been renamed to shrewd negotiator and can be implanted to grant the ability of the same name.
+	* I know, pegasi and alicorns don't have wings, but that's only because I couldn't find a decent graphic.
+	* Bronies have a +10 opinion towards these xenotypes, but anti bronies have a -20 opinion.
+	* Turning an anti brony into one of these xenotypes will give them a permanent -20 mood debuff.
+	* Xenotypes have a +5 opinion towards each other.
+* Biotech: Added the Brony Xenotypes scenario.
+	* Starts with four pawns, one of each xenotype above, and four unbonded horses.
+	* Starts with slightly more resources than the standard brony community scenario.
+	* Starts with six mini turrets and three Screwballs.
+	* Starts with a Rainbow Dash plushie as well as Applejack, Maud and Twilight.
+* Device Standby: Added support for this mod to the plushie bench and fabric exchange.
+* [Ry]Rimcraft Metals: Added six new recipes to the Daybreaker statue.
+	* Each one allows you to convert 500 of each ore into the respective number of bars.
+	* Requires three times the amount of chemfuel a normal recipe uses (150 if you didn't change it using XML Extensions).
+	* Does not require any specific crafting level.
+	* Dark iron bars are only made in batches of 100, as they require 8 ores each.
+	* Hardened adamantite bars are only made in batches of 50, as they require 10 adamantite bars each, but the recipe only uses double the fuel.
+* Vanilla Achievements Expanded: Added an achievement to build the Stone Exchange.
+* Core: The party cannon no longer affects the mood of prisoners or visitors.
+* Core: Plushies no longer hog the utility slot. You can now equip a plushie and a shield belt (or whatever) at the same time!
+* Core: The letter that is sent after researching Statues of the Evil Sisters no longer says you'll get a letter when new recipes are unlocked.
+* Core: The brony trait no longer conflicts with the misogynist trait. (1)
+* Core: The brony trait no longer conflicts with the misandrist trait. (1)
+* Core: The brony trait no longer conflicts with the chemical fascination trait.
+* Core: The brony trait no longer conflicts with the chemical interest trait.
+* Core: Having a bunch of Screwballs in one room now designates it as a 'Screwball Room.' (Dancing is optional.)
+* Core: The thought bronies have regarding portal rooms is now permanent, providing a -3 to +6 mood change depending on its impressiveness. Be advised that the -3 mood will be applied even if you don't actually have a portal room (I couldn't figure out a way to prevent that).
+* Core: NPC faction settlements now sell drugs. (You may need to wait for a restock before you see them.)
+* Core: NPC faction weapon traders now sell drugs.
+* Core: NPC faction exotic goods traders now sell drugs.
+* Core: Fixed incorrect description on the fabric exchange.
+* Ideology: Zecora now increases pruning speed by 500% (was 100%).
+* Ideology: Applejack now provides a 100% boost to pruning speed on top of her usual bonuses.
+* Biotech: Changed alicorn icon to white to make it a bit more visible.
+* Hooligan Faction: The NPC brony community will now send drug dealer caravans your way.
+* Hooligan Faction: The NPC brony community and the NPC hooligan faction are now hostile to each other.
+* Vanilla Achievements Expanded: Split achievements into separate categories for easy reference.
+* XML Extensions: The description for the Brony Community scenario is now altered if you have allowed bronies to be violent.
+
+1. Just because someone is a brony, it doesn't mean they can't be a terrible person.
+
 Version 3.140.142 (April 22nd 2023)
 
 * Core: Removed the research tracker because - according to Dubs Performance Analyser - it was causing some performance issues. Plus there's the fact it very rarely worked to begin with, so all the more reason to remove it.

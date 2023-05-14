@@ -1,0 +1,164 @@
+<Defs>
+
+<!--BASE-->
+
+<RecipeDef Name="MLRP_SE_RecipeBase" Abstract="True">
+    <jobString>Purchasing materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_MarblePieStoneExchange</li>
+	</recipeUsers>
+</RecipeDef>
+
+<!--PURCHASE GRANITE BLOCKS-->
+
+<RecipeDef ParentName="MLRP_SE_RecipeBase">
+	<defName>MLRP_SE_GraniteBlocks</defName>
+	<label>purchase granite blocks</label>
+	<description>Use silver to purchase 100 granite blocks.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<BlocksGranite>100</BlocksGranite>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE LIMESTONE BLOCKS-->
+
+<RecipeDef ParentName="MLRP_SE_RecipeBase">
+	<defName>MLRP_SE_LimestoneBlocks</defName>
+	<label>purchase limestone blocks</label>
+	<description>Use silver to purchase 100 limestone blocks.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<BlocksLimestone>100</BlocksLimestone>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE MARBLE BLOCKS-->
+
+<RecipeDef ParentName="MLRP_SE_RecipeBase">
+	<defName>MLRP_SE_MarbleBlocks</defName>
+	<label>purchase marble blocks</label>
+	<description>Use silver to purchase 100 marble blocks.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<BlocksMarble>100</BlocksMarble>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE SANDSTONE BLOCKS-->
+
+<RecipeDef ParentName="MLRP_SE_RecipeBase">
+	<defName>MLRP_SE_SandstoneBlocks</defName>
+	<label>purchase sandstone blocks</label>
+	<description>Use silver to purchase 100 sandstone blocks.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<BlocksSandstone>100</BlocksSandstone>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE SLATE BLOCKS-->
+
+<RecipeDef ParentName="MLRP_SE_RecipeBase">
+	<defName>MLRP_SE_SlateBlocks</defName>
+	<label>purchase slate blocks</label>
+	<description>Use silver to purchase 100 slate blocks.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<BlocksSlate>100</BlocksSlate>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE 500 OF EVERY VANILLA BLOCK-->
+
+<RecipeDef ParentName="MLRP_SE_RecipeBase">
+	<defName>MLRP_SE_OneHundredVanillaBlocks</defName>
+	<label>purchase 500 of each</label>
+	<description>Purchase 500 each of granite, limestone, marble, sandstone and slate blocks.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PonyPlush_MaudPie</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PonyPlush_PinkiePie</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PonyPlush_BigMacintosh</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<BlocksGranite>500</BlocksGranite>
+		<BlocksLimestone>500</BlocksLimestone>
+		<BlocksMarble>500</BlocksMarble>
+		<BlocksSandstone>500</BlocksSandstone>
+		<BlocksSlate>500</BlocksSlate>
+	</products>	
+</RecipeDef>
+
+</Defs>

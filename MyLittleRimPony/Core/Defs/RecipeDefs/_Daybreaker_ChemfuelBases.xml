@@ -25,5 +25,18 @@
 			</li>
 		</ingredients>
 	</RecipeDef>
+	
+	<RecipeDef Name="DaybreakerRecipes_TripleChemfuel" Abstract="True">
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
 
 </Defs>

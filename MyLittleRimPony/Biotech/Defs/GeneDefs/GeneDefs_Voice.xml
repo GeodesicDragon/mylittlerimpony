@@ -1,0 +1,35 @@
+<Defs>
+
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>MLRP_VoiceHorse</defName>
+		<label>horse voice</label>
+		<description>Carriers make noises similar to a horse.</description>
+		<iconPath>UI/Icons/Genes/Gene_VoiceHorse</iconPath>
+		<displayOrderInCategory>125</displayOrderInCategory>
+		<soundCall>Pawn_Horse_Call</soundCall>
+		<soundDeath>Pawn_Horse_Death</soundDeath>
+		<soundWounded>Pawn_Horse_Wounded</soundWounded>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li><symbol>horsey</symbol></li>
+				<li><symbol>neigher</symbol></li>
+				<li><symbol>whinnyer</symbol></li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li><symbol>neigh</symbol></li>
+				<li><symbol>whinny</symbol></li>
+				<li><symbol>nicker</symbol></li>
+				<li><symbol>snort</symbol></li>
+				<li><symbol>squeal</symbol></li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li><symbol>neigh</symbol></li>
+				<li><symbol>whinny</symbol></li>
+				<li><symbol>nicker</symbol></li>
+				<li><symbol>snort</symbol></li>
+				<li><symbol>squeal</symbol></li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+</Defs>

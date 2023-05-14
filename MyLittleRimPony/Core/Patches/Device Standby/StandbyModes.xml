@@ -1,0 +1,17 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Device Standby</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="PlushieBench" or defName="MLRP_MissPommel"]/comps</xpath>
+			<value>
+				<li Class="DS.CompProperties_DeviceStandby">
+					<mode>Reservable</mode>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

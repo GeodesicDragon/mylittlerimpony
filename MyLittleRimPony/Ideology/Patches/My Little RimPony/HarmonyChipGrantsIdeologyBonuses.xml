@@ -10,7 +10,7 @@
 			<ConversionPower>0.25</ConversionPower>
 			<SuppressionPower>0.25</SuppressionPower>
 			<SlaveSuppressionOffset>0.1</SlaveSuppressionOffset>
-			<PruningSpeed>1</PruningSpeed>
+			<PruningSpeed>5</PruningSpeed>
 			<HackingSpeed>0.25</HackingSpeed>
 		</value>
 	</match>

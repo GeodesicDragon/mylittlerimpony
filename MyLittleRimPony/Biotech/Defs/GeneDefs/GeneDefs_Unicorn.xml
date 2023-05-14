@@ -2,7 +2,7 @@
 
 <GeneDef>
 	<defName>MLRP_UnicornGene</defName>
-	<label>unicorn</label> 
+	<label>unicorn manipulation</label> 
 	<labelShortAdj>unicorn</labelShortAdj> 
 	<description>Carriers of this gene have increased manipulation, allowing them to perform certain tasks better.</description>
 	<iconPath>UI/Icons/Genes/Unicorn</iconPath>

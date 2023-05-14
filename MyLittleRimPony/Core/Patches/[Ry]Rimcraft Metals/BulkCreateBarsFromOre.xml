@@ -1,0 +1,199 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[Ry]Rimcraft Metals</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<!--THORIUM-->
+
+				<RecipeDef ParentName="DaybreakerRecipes_TripleChemfuel">
+					<defName>MLRP_DB_RC_BulkCreateThorium</defName>
+					<label>create thorium bars</label>
+					<description>Create 250 thorium bars, using chemfuel to accelerate the process.</description>
+					<jobString>Making thorium bars.</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>600</workAmount>
+					<recipeUsers>
+						<li>MLRP_Daybreaker</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WoW_thorium_ore</li>
+								</thingDefs>
+							</filter>
+							<count>500</count>
+						</li>
+					</ingredients>
+					<products>
+						<WoW_thorium>250</WoW_thorium>
+					</products>
+				</RecipeDef>
+				
+				<!--DARK IRON-->
+
+				<RecipeDef ParentName="DaybreakerRecipes_TripleChemfuel">
+					<defName>MLRP_DB_RC_BulkCreateDarkIron</defName>
+					<label>create dark iron bars</label>
+					<description>Create 100 dark iron bars, using chemfuel to accelerate the process.</description>
+					<jobString>Making dark iron bars.</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>600</workAmount>
+					<recipeUsers>
+						<li>MLRP_Daybreaker</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WoW_darkiron_ore</li>
+								</thingDefs>
+							</filter>
+							<count>800</count>
+						</li>
+					</ingredients>
+					<products>
+						<WoW_darkiron>100</WoW_darkiron>
+					</products>
+				</RecipeDef>
+				
+				<!--MITHRIL-->
+
+				<RecipeDef ParentName="DaybreakerRecipes_TripleChemfuel">
+					<defName>MLRP_DB_RC_BulkCreateMithril</defName>
+					<label>create mithril bars</label>
+					<description>Create 250 mithril bars, using chemfuel to accelerate the process.</description>
+					<jobString>Making mithril bars.</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>600</workAmount>
+					<recipeUsers>
+						<li>MLRP_Daybreaker</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WoW_mithril_ore</li>
+								</thingDefs>
+							</filter>
+							<count>500</count>
+						</li>
+					</ingredients>
+					<products>
+						<WoW_mithril>250</WoW_mithril>
+					</products>
+				</RecipeDef>
+				
+				<!--ADAMANTITE-->
+
+				<RecipeDef ParentName="DaybreakerRecipes_TripleChemfuel">
+					<defName>MLRP_DB_RC_BulkCreateAdamantite</defName>
+					<label>create adamantite bars</label>
+					<description>Create 250 adamantite bars, using chemfuel to accelerate the process.</description>
+					<jobString>Making adamantite bars.</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>600</workAmount>
+					<recipeUsers>
+						<li>MLRP_Daybreaker</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WoW_adamantite_ore</li>
+								</thingDefs>
+							</filter>
+							<count>500</count>
+						</li>
+					</ingredients>
+					<products>
+						<WoW_adamantite>250</WoW_adamantite>
+					</products>
+				</RecipeDef>
+				
+				<!--HARDENED ADAMANTITE-->
+
+				<RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
+					<defName>MLRP_DB_RC_BulkCreateHardenedAdamantite</defName>
+					<label>create hardened adamantite bars</label>
+					<description>Create 50 hardened adamantite bars, using chemfuel to accelerate the process.</description>
+					<jobString>Making hardened adamantite bars.</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>600</workAmount>
+					<recipeUsers>
+						<li>MLRP_Daybreaker</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WoW_adamantite</li>
+								</thingDefs>
+							</filter>
+							<count>500</count>
+						</li>
+					</ingredients>
+					<products>
+						<WoW_hardened_adamantite>50</WoW_hardened_adamantite>
+					</products>
+				</RecipeDef>
+				
+				<!--TRUESILVER-->
+
+				<RecipeDef ParentName="DaybreakerRecipes_TripleChemfuel">
+					<defName>MLRP_DB_RC_BulkCreateTruesilver</defName>
+					<label>create truesilver bars</label>
+					<description>Create 250 truesilver bars, using chemfuel to accelerate the process.</description>
+					<jobString>Making truesilver bars.</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>600</workAmount>
+					<recipeUsers>
+						<li>MLRP_Daybreaker</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WoW_truesilver_ore</li>
+								</thingDefs>
+							</filter>
+							<count>500</count>
+						</li>
+					</ingredients>
+					<products>
+						<WoW_truesilver>250</WoW_truesilver>
+					</products>
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

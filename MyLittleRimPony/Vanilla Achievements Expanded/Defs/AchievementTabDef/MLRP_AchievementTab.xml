@@ -1,6 +1,16 @@
 <Defs>
 	<AchievementsExpanded.AchievementTabDef>
 		<defName>MLRP_AchievementTab</defName>
-		<label>My Little RimPony</label>
+		<label>MLRP - Items</label>
+	</AchievementsExpanded.AchievementTabDef>
+	
+	<AchievementsExpanded.AchievementTabDef>
+		<defName>MLRP_BuildingAchievementTab</defName>
+		<label>MLRP - Buildings</label>
+	</AchievementsExpanded.AchievementTabDef>
+	
+	<AchievementsExpanded.AchievementTabDef>
+		<defName>MLRP_WeaponAchievementTab</defName>
+		<label>MLRP - Weapons</label>
 	</AchievementsExpanded.AchievementTabDef>
 </Defs>

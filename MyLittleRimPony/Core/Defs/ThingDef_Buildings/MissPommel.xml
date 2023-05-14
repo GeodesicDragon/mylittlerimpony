@@ -3,7 +3,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_MissPommel</defName>
     <label>Fabric Exchange</label>
-    <description>Miss Pommel is looking to work with new fabrics, and will gladly exchange 100 cloth, synthread, hyperweave, devilstrand or thrumbofur into the market value equivalent of another of these materials.</description>
+    <description>Miss Pommel will gladly sell you 100 of any material, provided she has it in stock.</description>
     <thingClass>Building_WorkTable</thingClass>
 	<!--<designationHotKey>Misc4</designationHotKey>-->
     <graphicData>

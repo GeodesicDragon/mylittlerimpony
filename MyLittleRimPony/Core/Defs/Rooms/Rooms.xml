@@ -8,5 +8,11 @@
 			<li>Impressiveness</li>
 		</relatedStats>
 	</RoomRoleDef>
+	
+	<RoomRoleDef>
+		<defName>MLRP_ScrewballRoom</defName>
+		<label>Screwball room</label>
+		<workerClass>MyLittleRimPony.RoomRoleWorker_ScrewballRoom</workerClass>
+	</RoomRoleDef>
   
 </Defs>

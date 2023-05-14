@@ -1,0 +1,10 @@
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="PonyPlush_Applejack"]/equippedStatOffsets</xpath>
+	<value>
+		<PruningSpeed>1</PruningSpeed>
+	</value>
+</Operation>
+
+</Patch>

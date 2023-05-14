@@ -1,0 +1,10 @@
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/TraitDef[defName="MLRP_AntiBronyTrait"]/degreeDatas/li/description</xpath>
+	<value>
+		<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does.\n\n{PAWN_pronoun} gets a mood loss from equipping pony plushies, and has a strong dislike of pony xenotypes.</description>
+	</value>
+</Operation>
+
+</Patch>

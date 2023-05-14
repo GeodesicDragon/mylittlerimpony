@@ -60,7 +60,7 @@
 		<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		<wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
 		<layers>
-			<li>Belt</li>
+			<li>MLRP_PlushieSlot</li>
 		</layers>
 		<bodyPartGroups>
 			<li>Waist</li>

@@ -70,6 +70,7 @@ Magic Mirror: nano23823 (2462765)
 Miss Pommel: chainchomp2 (964470)
 Derpy Hooves: starryshineviolet (2944310)
 Party Cannon: benpictures1 (2756837)
+Marble Pie: littlejurnalina (2824560)**
 
 MAIN MENU BACKGROUNDS (Requires Vanilla Backgrounds Expanded)
 
@@ -107,11 +108,14 @@ Star image (used in some achievements): http://clipart-library.com/clipart/216.h
 Harmony Chip: https://www.kindpng.com/imgv/wbxRhx_clip-art-clip-art-chips-computer-chip-clipart/
 MLP Logo (used in preview image): Artist Unknown (1411173)**
 
-Alicorn icon (Biotech): https://www.flaticon.com/free-icon/unicorn-horse-head-with-a-horn-and-wings_32717
-Earth Pony, Pegasus and Unicorn icons (Biotech): https://game-icons.net
+Alicorn icon (Biotech): https://www.flaticon.com/free-icon/unicorn-horse-head-with-a-horn-and-wings_32717 **
+Earth Pony icon (Biotech): https://game-icons.net/1x1/delapouite/horse-head.html
+Unicorn icon (Biotech): https://game-icons.net/1x1/delapouite/unicorn.html
+Pegasus icon (Biotech): https://game-icons.net/1x1/skoll/pegasus.html
 Heart icon (Biotech): https://game-icons.net/1x1/zeromancer/heart-minus.html
 Shield icon (Biotech): https://game-icons.net/1x1/sbed/shield.html
 Broken Wall icon (Biotech): https://game-icons.net/1x1/delapouite/broken-wall.html
+Horseshoe icon (Biotech): https://game-icons.net/1x1/delapouite/horseshoe.html
 
 SOUNDS
 

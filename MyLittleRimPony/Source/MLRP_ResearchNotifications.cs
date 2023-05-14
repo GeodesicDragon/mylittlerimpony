@@ -1,4 +1,4 @@
-﻿// Having this enabled eats up a LOT of your processor.
+﻿// Having this enabled eats up a LOT of your TPS.
 // Feel free to add it and recompile the DLL, but don't say I didn't warn you.
 // As always, if you have a better way of doing this, then please let me know!
 

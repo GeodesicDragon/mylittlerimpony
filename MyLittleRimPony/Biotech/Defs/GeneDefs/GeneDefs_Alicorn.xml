@@ -2,38 +2,25 @@
 
 <GeneDef>
 	<defName>MLRP_AlicornGene</defName>
-	<label>alicorn</label> 
-	<labelShortAdj>alicorn</labelShortAdj> 
-	<description>Carriers of this gene have earth pony strength, unicorn manipulation and pegasus agility.\n\nFurthermore, they also have the ability to vastly improve their social skills, though this can only be done once per quadrum.</description>
+	<label>shrewd negotiator</label> 
+	<labelShortAdj>negotiator</labelShortAdj> 
+	<description>Carriers of this gene have the ability to vastly improve their social skills once per quadrum.</description>
 	<iconPath>UI/Icons/Genes/Alicorn</iconPath>
 	<displayCategory>MLRP_GeneCategory</displayCategory>
 	<displayOrderInCategory>60</displayOrderInCategory>
     <abilities>
       <li>MLRP_ShrewdNegotiator</li>
     </abilities>
-	<statFactors>
-		<CarryingCapacity>1.25</CarryingCapacity>
-		<MeleeDodgeChance>1.1</MeleeDodgeChance>
-		<PawnTrapSpringChance>-0.1</PawnTrapSpringChance>
-	</statFactors>
-    <capMods>
-		<li>
-			<capacity>Manipulation</capacity>
-			<offset>0.25</offset>
-		</li>
-	</capMods>
-	<biostatMet>-5</biostatMet>
-	<biostatCpx>5</biostatCpx>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>ali</symbol></li>
         <li><symbol>uni</symbol></li>
-        <li><symbol>peg</symbol></li>
+        <li><symbol>pega</symbol></li>
         <li><symbol>earth</symbol></li>
       </prefixSymbols>
       <suffixSymbols>
         <li><symbol>corn</symbol></li>
-        <li><symbol>asus</symbol></li>
+        <li><symbol>sus</symbol></li>
         <li><symbol>pony</symbol></li>
       </suffixSymbols>
     </symbolPack>

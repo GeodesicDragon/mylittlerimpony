@@ -1,0 +1,10 @@
+<Defs>
+
+	<IncidentDef ParentName="DiseaseIncident">
+		<defName>MLRP_Disease_CutiePox</defName>
+		<label>the Cutie Pox</label>
+		<diseaseIncident>MLRP_CutiePox</diseaseIncident>
+		<letterLabel>Disease: Cutie Pox</letterLabel>
+	</IncidentDef>
+
+</Defs>

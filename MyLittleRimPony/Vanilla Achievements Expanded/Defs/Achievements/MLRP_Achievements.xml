@@ -5,7 +5,7 @@
 		<defName>MLRP_Achievement_PlushieBench</defName>
 		<label>It All Starts Here</label>
 		<description>Build a plushie bench</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>PlushieBench</def>
@@ -414,7 +414,7 @@
 		<defName>MLRP_Achievement_DiscordLamp</defName>
 		<label>There, All Better</label>
 		<description>Build a Discord lamp</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_DiscordLamp</def>
@@ -429,7 +429,7 @@
 		<defName>MLRP_Achievement_ScrewballGenerator</defName>
 		<label>Oddly Powerful</label>
 		<description>Build a Screwball generator</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_ScrewballGenerator</def>
@@ -444,7 +444,7 @@
 		<defName>MLRP_Achievement_SweetieBot</defName>
 		<label>All Systems Nominal</label>
 		<description>Build a Sweetie Bot turret</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_Turret_SweetieBot</def>
@@ -459,7 +459,7 @@
 		<defName>MLRP_Achievement_SweetieBot_TenTurrets</defName>
 		<label>Beep Boop</label>
 		<description>Build ten Sweetie Bot turrets</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_Turret_SweetieBot</def>
@@ -474,7 +474,7 @@
 		<defName>MLRP_Achievement_Daybreaker</defName>
 		<label>Feelin' Hot, Hot, Hot</label>
 		<description>Build a statue of Daybreaker</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_Daybreaker</def>
@@ -489,7 +489,7 @@
 		<defName>MLRP_Achievement_NightmareMoon</defName>
 		<label>Give Us Something Sweet To Bite</label>
 		<description>Build a statue of Nightmare Moon</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_NightmareMoon</def>
@@ -504,7 +504,7 @@
 		<defName>MLRP_Achievement_MissPommel</defName>
 		<label>The Other Fashion Mare</label>
 		<description>Build the Fabric Exchange</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_MissPommel</def>
@@ -519,7 +519,7 @@
 		<defName>MLRP_Achievement_DerpyHooves</defName>
 		<label>Derpy Hooves Logistics</label>
 		<description>Build a total of 100 Derpy Hooves transport pods</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_DerpyHooves</def>
@@ -534,7 +534,7 @@
 		<defName>MLRP_Achievement_DerpyHoovesGold</defName>
 		<label>Special Delivery!</label>
 		<description>Build a Derpy Hooves transport pod out of gold</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_DerpyHooves</def>
@@ -546,13 +546,43 @@
 		<points>75</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_MarblePie</defName>
+		<label>Mm-Hmm</label>
+		<description>Build the Stone Exchange</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_MarblePieStoneExchange</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/MmHmm</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_MarblePie_MarbleBlocks</defName>
+		<label>Namesake</label>
+		<description>Build a Stone Exchange using marble blocks</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_MarblePieStoneExchange</def>
+			<madeFrom>BlocksMarble</madeFrom>
+		</tracker>
+		
+		<texPath>Achievements/Namesake</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--DECOYS-->
 	
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_Mudbriar</defName>
 		<label>Stick It To Me</label>
 		<description>Build a Mudbriar decoy</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_Mudbriar</def>
@@ -567,7 +597,7 @@
 		<defName>MLRP_Achievement_QuibblePants</defName>
 		<label>Quibble Me This</label>
 		<description>Build a Quibble Pants decoy</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_QuibblePants</def>
@@ -582,7 +612,7 @@
 		<defName>MLRP_Achievement_ZephyrBreeze</defName>
 		<label>Weaponised Arrogance</label>
 		<description>Build a Zephyr Breeze decoy</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_ZephyrBreeze</def>
@@ -599,7 +629,7 @@
 		<defName>MLRP_Achievement_WifeThrower</defName>
 		<label>(Crystal) Heart-Seeking Missile</label>
 		<description>Craft a wife thrower</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_WeaponAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>MLRP_WifeThrower</def>
@@ -614,7 +644,7 @@
 		<defName>MLRP_Achievement_WifeThrowerLegendary</defName>
 		<label>Equestria Games Gold Medallist</label>
 		<description>Craft a wife thrower of legendary quality</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_WeaponAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>MLRP_WifeThrower</def>
@@ -630,7 +660,7 @@
 		<defName>MLRP_Achievement_TennisBallLauncher</defName>
 		<label>Having A Ball</label>
 		<description>Craft a tennis ball launcher</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_WeaponAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>Izzy_SmokeLauncher</def>
@@ -645,7 +675,7 @@
 		<defName>MLRP_Achievement_TennisBallLauncherLegendary</defName>
 		<label>Sssssssmokin'!</label>
 		<description>Craft a tennis ball launcher of legendary quality</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_WeaponAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>Izzy_SmokeLauncher</def>
@@ -661,7 +691,7 @@
 		<defName>MLRP_Achievement_RainbowLaser</defName>
 		<label>Emphasis On 'Harm'</label>
 		<description>Craft a rainbow laser</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_WeaponAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>MLRP_ElementsOfHarmonyWeaponised</def>
@@ -676,7 +706,7 @@
 		<defName>MLRP_Achievement_RainbowLaserLegendary</defName>
 		<label>Nothing Stops The Friendship Train</label>
 		<description>Craft a rainbow laser of legendary quality</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_WeaponAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>MLRP_ElementsOfHarmonyWeaponised</def>
@@ -692,7 +722,7 @@
 		<defName>MLRP_Achievement_OrbitalFriendShipCannon</defName>
 		<label>Friendship Is Firepower</label>
 		<description>Obtain an Orbital Friendship Cannon</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_WeaponAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemTracker">
 			<def>MLRP_OFC_Weapon</def>
@@ -724,7 +754,7 @@
 		<defName>MLRP_Achievement_NurseRedheart</defName>
 		<label>Hellooooooo, Nurse!</label>
 		<description>Obtain Nurse Redheart</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemTracker">
 			<def>MLRP_NurseRedheart</def>
@@ -739,7 +769,7 @@
 		<defName>MLRP_Achievement_SSCS6K</defName>
 		<label>You've Got Opportunity</label>
 		<description>Obtain the Super Speedy Cider Squeezy 6000</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemTracker">
 			<def>MLRP_SSCS6K</def>
@@ -769,7 +799,7 @@
 		<defName>MLRP_Achievement_MagicMirror</defName>
 		<label>Equestrian Girl Power</label>
 		<description>Build a magic mirror</description>
-		<tab>MLRP_AchievementTab</tab>
+		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
 			<def>MLRP_MagicMirrorGenerator</def>

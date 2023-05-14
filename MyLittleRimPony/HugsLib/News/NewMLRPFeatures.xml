@@ -1,0 +1,16 @@
+<Defs>
+
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="MLRP_UpdateNewsBase">
+		<defName>MLRP_UpdateNews</defName>
+		<modNameReadable>[MLP] My Little RimPony</modNameReadable>
+		<modIdentifier>geodesicdragon.rimpony</modIdentifier>
+		<linkUrl>https://discord.gg/BGKnpza</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_400</defName>
+		<assemblyVersion>4.0.0</assemblyVersion>
+		<content>&lt;b&gt;Welcome to the Xenotypes Update!&lt;/b&gt;\n\n&lt;i&gt;What's New?&lt;/i&gt;\n\n- New Building: Marble Pie's Rock Exchange\n- Plushies now have their own item slot\n- Biotech: Four new pony based xenotypes\n- Biotech: New xenotypes scenario</content>
+	</HugsLib.UpdateFeatureDef>
+	
+</Defs>

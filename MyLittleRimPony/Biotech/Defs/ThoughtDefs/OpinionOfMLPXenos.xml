@@ -1,0 +1,48 @@
+<Defs>
+
+  <ThoughtDef>
+    <defName>BronyLovesMLPXenotype</defName>
+    <thoughtClass>MLRP_Biotech.Thought_BronyLovesMLPXenotype</thoughtClass>
+    <workerClass>MLRP_Biotech.ThoughtWorker_BronyLovesMLPXenotype</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>brony loves pony xenotype</label>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AntiBronyVsMLPXenotype</defName>
+    <thoughtClass>MLRP_Biotech.Thought_AntiBronyVsMLPXenotype</thoughtClass>
+    <workerClass>MLRP_Biotech.ThoughtWorker_AntiBronyVsMLPXenotype</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>anti brony dislikes pony xenotype</label>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>MLPXenotypeAppreciation</defName>
+    <thoughtClass>MLRP_Biotech.Thought_MLPXenotypeAppreciation</thoughtClass>
+    <workerClass>MLRP_Biotech.ThoughtWorker_MLPXenotypeAppreciation</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>fellow pony xenotype</label>
+      </li>
+    </stages>
+	<nullifyingTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</nullifyingTraits>
+  </ThoughtDef>
+  
+</Defs>

@@ -2,9 +2,9 @@
 
 <GeneDef>
 	<defName>MLRP_PegasusGene</defName>
-	<label>pegasus</label> 
+	<label>pegasus agility</label> 
 	<labelShortAdj>pegasus</labelShortAdj> 
-	<description>Carriers of this gene have increased agility, allowing them to better dodge melee attacks and traps.</description>
+	<description>Carriers of this gene have an improved chance of dodging melee attacks and traps.</description>
 	<iconPath>UI/Icons/Genes/Pegasus</iconPath>
 	<displayCategory>MLRP_GeneCategory</displayCategory>
 	<displayOrderInCategory>20</displayOrderInCategory>

@@ -41,6 +41,7 @@ namespace MyLittleRimPony
         public static HediffDef MLRP_PoisonJokeReducedBloodPumping;
         public static RoomRoleDef MLRP_PortalRoom;
         public static ThingDef MLRP_MagicMirrorGenerator;
+        public static ThingDef MLRP_ScrewballGenerator;
         public static ThoughtDef MLRP_PonyPlushEquippedAntiBrony;
         public static ThoughtDef MLRP_PartyCannonBoostRegularPawn;
         public static ThoughtDef MLRP_PartyCannonBoostBrony;
@@ -343,7 +344,6 @@ namespace MyLittleRimPony
     }
 
     // PORTAL ROOM IMPRESSIVENESS
-
     public class ThoughtWorker_PortalRoomImpressiveness : ThoughtWorker_RoomImpressiveness
     {
         protected override ThoughtState CurrentStateInternal(Pawn p)
@@ -351,10 +351,10 @@ namespace MyLittleRimPony
             if (!p.IsColonist)
                 return ThoughtState.Inactive;
             ThoughtState thoughtState = base.CurrentStateInternal(p);
-            return thoughtState.Active && p.GetRoom().Role == MyDefOf.MLRP_PortalRoom ? thoughtState : ThoughtState.Inactive;
+            return thoughtState.Active && p.GetRoom().Role == MyDefOf.MLRP_PortalRoom ? thoughtState : ThoughtState.ActiveDefault;
         }
     }
-
+	
     // PARTY CANNON
 
     public class MLRP_PartyCannonMoodBoost : CompTargetEffect
@@ -364,18 +364,38 @@ namespace MyLittleRimPony
             Pawn pawn = (Pawn)target;
             if (pawn.Dead || pawn.needs == null || pawn.needs.mood == null)
                 return;
-            if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait))
+            if (pawn.IsColonist)
             {
-                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostRegularPawn));
+                if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Pawn has neither the brony or anti brony trait
+                {
+                    pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostRegularPawn));
+                }
+                if (pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Pawn has the brony trait
+                {
+                    pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostBrony));
+                }
+                if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Pawn has the anti brony trait
+                {
+                    pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostAntiBrony));
+                }
             }
-            if (pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait))
+        }
+    }
+
+    // SCREWBALL ROOM
+
+    public class RoomRoleWorker_ScrewballRoom : RoomRoleWorker
+    {
+        public override float GetScore(Room room)
+        {
+            int num = 0;
+            List<Thing> andAdjacentThings = room.ContainedAndAdjacentThings;
+            for (int index = 0; index < andAdjacentThings.Count; ++index)
             {
-                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostBrony));
+                if (andAdjacentThings[index].def == MyDefOf.MLRP_ScrewballGenerator)
+                    ++num;
             }
-            if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait))
-            {
-                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostAntiBrony));
-            }
+            return 10f * (float)num;
         }
     }
 }

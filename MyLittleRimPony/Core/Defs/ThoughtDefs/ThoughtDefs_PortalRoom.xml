@@ -2,42 +2,58 @@
 <Defs>
 
   <ThoughtDef>
-    <defName>MLRP_PrisonCellImpressivenessThought</defName>
+    <defName>MLRP_PortalRoomImpressivenessThought</defName>
     <workerClass>MyLittleRimPony.ThoughtWorker_PortalRoomImpressiveness</workerClass>
     <stages>
       <li>
         <label>awful portal room</label>
-        <description>Our portal room is a disgrace.</description>
-        <baseMoodEffect>-5</baseMoodEffect>
+        <description>It's a disgrace!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
       </li>
-      <li IsNull="True" /> <!-- dull -->
-      <li IsNull="True" /> <!-- mediocre -->
-      <li IsNull="True" /> <!-- decent -->
-      <li IsNull="True" /> <!-- slightly impressive -->
+      <li>
+        <label>dull portal room</label>
+        <description>It's a bit drab.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>mediocre portal room</label>
+        <description>Meh.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>decent portal room</label>
+        <description>It's a start.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>slightly impressive portal room</label>
+        <description>Getting there.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
       <li>
         <label>impressive portal room</label>
-        <description>Our portal room is nice enough, but I think it could be better.</description>
+        <description>Not bad, but it could be better.</description>
         <baseMoodEffect>2</baseMoodEffect>
       </li>
       <li>
         <label>very impressive portal room</label>
-        <description>Our portal room is nice enough, but I think it could be better.</description>
-        <baseMoodEffect>2</baseMoodEffect>
+        <description>Okay, now we're getting somewhere.</description>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
       <li>
         <label>extremely impressive portal room</label>
-        <description>Our portal room is nice enough, but I think it could be better.</description>
-        <baseMoodEffect>2</baseMoodEffect>
+        <description>Looking good!</description>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
       <li>
         <label>unbelievably impressive portal room</label>
-        <description>Our portal room is nice enough, but I think it could be better.</description>
-        <baseMoodEffect>2</baseMoodEffect>
+        <description>It's great, but I bet we can improve it even more.</description>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
       <li>
         <label>wondrously impressive portal room</label>
         <description>Our portal room is a truly glorious sight to behold. Our friends from Equestria would be proud.</description>
-        <baseMoodEffect>5</baseMoodEffect>
+        <baseMoodEffect>6</baseMoodEffect>
       </li>
     </stages>
 	<requiredTraits>

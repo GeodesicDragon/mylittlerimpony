@@ -310,6 +310,11 @@
           <li>AnimalFarm</li>
         </createMatingPair>
       </li>
+	  
+      <li Class="StockGenerator_Category">
+          <categoryDef>Drugs</categoryDef>
+          <thingDefCountRange>1~30</thingDefCountRange>
+      </li>
       
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
@@ -377,6 +382,11 @@
         <thingDef>MLRP_Turret_SweetieBot</thingDef>
         <countRange>5</countRange>
 		<totalPriceRange>2200~2800</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+          <categoryDef>Drugs</categoryDef>
+          <thingDefCountRange>1~30</thingDefCountRange>
       </li>
       
       <!-- Buying -->
@@ -480,6 +490,11 @@
         <createMatingPair>
           <li>AnimalFarm</li>
         </createMatingPair>
+      </li>
+	  
+      <li Class="StockGenerator_Category">
+          <categoryDef>Drugs</categoryDef>
+          <thingDefCountRange>1~30</thingDefCountRange>
       </li>
       
       <!-- Buying -->
