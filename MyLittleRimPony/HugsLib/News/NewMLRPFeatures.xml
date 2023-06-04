@@ -8,6 +8,11 @@
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_417</defName>
+		<assemblyVersion>4.1.7</assemblyVersion>
+		<content>&lt;b&gt;My Little RimPony - Version 4.1.7&lt;/b&gt;\n\n&lt;i&gt;What's New?&lt;/i&gt;\n\nThe Changeling xenotype has been added.\n* Acid Spray\n* High cold resistance\n* Pyrophobia\n* High libido\n* Fertile\n* Very ugly\n* Grey eyes\n* Bald\n* No beard\n* Insect voice\n* Facial ridges\n* Ink black skin\n* Robust digestion\n* Pollution stimulus\n* Great construction skill\n* Great crafting skill\n* Terrible mining skill\n* Terrible cooking skill\n* Terrible plants skill\n* Terrible animals skill\n* Terrible artistic skill\n* Terrible medicine skill\n* Terrible social skill\n* Terrible intellectual skill</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_400</defName>
 		<assemblyVersion>4.0.0</assemblyVersion>
 		<content>&lt;b&gt;Welcome to the Xenotypes Update!&lt;/b&gt;\n\n&lt;i&gt;What's New?&lt;/i&gt;\n\n- New Building: Marble Pie's Rock Exchange\n- Plushies now have their own item slot\n- Biotech: Four new pony based xenotypes\n- Biotech: New xenotypes scenario</content>

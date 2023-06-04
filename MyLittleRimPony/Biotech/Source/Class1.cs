@@ -13,6 +13,7 @@ namespace MLRP_Biotech
         public static XenotypeDef MLRP_Xeno_EarthPony;
         public static XenotypeDef MLRP_Xeno_Unicorn;
         public static XenotypeDef MLRP_Xeno_Pegasus;
+        public static XenotypeDef MLRP_Xeno_Changeling;
 
         static MLRP_BiotechDefOf()
         {
@@ -34,7 +35,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (p.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (p.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
             {
                 return false;
             }
@@ -42,7 +43,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
             {
                 return false;
             }
@@ -85,7 +86,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
             {
                 return false;
             }
@@ -102,7 +103,7 @@ namespace MLRP_Biotech
                 return 0f;
             }
 
-            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
             {
                 return -20f;
             }
@@ -159,8 +160,95 @@ namespace MLRP_Biotech
     public class ThoughtWorker_AntiBronyIsPonyXenotype : ThoughtWorker
     {
 
-        protected override ThoughtState CurrentStateInternal(Pawn p) => (ThoughtState)(p.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait) && p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus);
+        protected override ThoughtState CurrentStateInternal(Pawn p) => (ThoughtState)(p.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait) && p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling);
 
+    }
+
+    // CHANGELINGS DISLIKE MLP XENOTYPES
+
+    public class ThoughtWorker_ChangelingsHateMLPXenotype : ThoughtWorker
+    {
+        protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
+        {
+            if (!p.RaceProps.Humanlike)
+            {
+                return false;
+            }
+            if (p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            {
+                return false;
+            }
+            if (!otherPawn.RaceProps.Humanlike)
+            {
+                return false;
+            }
+            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            {
+                return false;
+            }
+            return true;
+        }
+    }
+
+    public class Thought_ChangelingsHateMLPXenotype : Thought_SituationalSocial
+    {
+        public override float OpinionOffset()
+        {
+            if (ThoughtUtility.ThoughtNullified(pawn, def))
+            {
+                return 0f;
+            }
+
+            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            {
+                return -25f;
+            }
+            return 0f;
+        }
+    }
+
+    // MLP XENOTYPES DISLIKE CHANGELINGS
+
+    public class ThoughtWorker_MLPXenotypesHateChangelings : ThoughtWorker
+    {
+        protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
+        {
+            if (!p.RaceProps.Humanlike)
+            {
+                return false;
+            }
+            if (p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            
+            {
+                return false;
+            }
+            if (!otherPawn.RaceProps.Humanlike)
+            {
+                return false;
+            }
+            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            {
+                return false;
+            }
+            return true;
+        }
+    }
+
+    public class Thought_MLPXenotypesHateChangelings : Thought_SituationalSocial
+    {
+        public override float OpinionOffset()
+        {
+            if (ThoughtUtility.ThoughtNullified(pawn, def))
+            {
+                return 0f;
+            }
+
+            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            {
+                return -25f;
+            }
+            return 0f;
+        }
     }
 
 }

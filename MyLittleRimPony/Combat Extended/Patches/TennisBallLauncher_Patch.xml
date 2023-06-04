@@ -15,7 +15,7 @@
 	<value>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<explosionRadius>2.4</explosionRadius>
-			<postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+			<postExplosionSpawnThingDef>BlindSmoke</postExplosionSpawnThingDef>
 			<postExplosionSpawnChance>1</postExplosionSpawnChance>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<arcHeightFactor>0.2</arcHeightFactor>

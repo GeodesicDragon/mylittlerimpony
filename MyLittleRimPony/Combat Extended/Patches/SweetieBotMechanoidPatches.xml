@@ -48,7 +48,7 @@
 								</capacities>
 								<power>9</power>
 								<cooldownTime>2.0</cooldownTime>
-								<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+								<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 								<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 								<armorPenetrationBlunt>2</armorPenetrationBlunt>
 							</li>
@@ -59,7 +59,7 @@
 								</capacities>
 								<power>9</power>
 								<cooldownTime>2.0</cooldownTime>
-								<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+								<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 								<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 								<armorPenetrationBlunt>2</armorPenetrationBlunt>
 							</li>

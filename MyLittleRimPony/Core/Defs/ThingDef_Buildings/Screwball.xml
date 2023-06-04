@@ -44,6 +44,12 @@
         <compClass>CompPowerPlant</compClass>
         <basePowerConsumption>-300</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
+        <powerUpgrades>
+          <li>
+            <researchProject>MLRP_MagicMirrorExtraPowerResearch</researchProject>
+            <factor>1.25</factor>
+          </li>
+        </powerUpgrades>
       </li>
       <li Class="CompProperties_Flickable" />
     </comps>

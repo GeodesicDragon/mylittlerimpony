@@ -96,10 +96,11 @@
 
 	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
 		<defName>MLRP_MagicMirrorExtraPowerResearch</defName>
-		<label>Magic mirror power increase</label>
-		<description>By further studying the magic mirror, we can increase its power output by 25 percent.</description>
+		<label>Magical power increase</label>
+		<description>Increases the power output of Screwballs and magic mirrors by 25%.</description>
 		<prerequisites>
 			<li>MLRP_MagicMirrorResearch</li>
+			<li>MLRP_ScrewballResearch</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>8</researchViewX>

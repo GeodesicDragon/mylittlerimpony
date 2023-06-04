@@ -83,10 +83,6 @@
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 				<ArmorRating_Heat>0.15</ArmorRating_Heat>
 				<MeleeDodgeChance>10</MeleeDodgeChance>
-				<MeleeDodgeChanceIndoorsDarkOffset>0.1</MeleeDodgeChanceIndoorsDarkOffset>
-				<MeleeDodgeChanceIndoorsLitOffset>0.1</MeleeDodgeChanceIndoorsLitOffset>
-				<MeleeDodgeChanceOutdoorsDarkOffset>0.1</MeleeDodgeChanceOutdoorsDarkOffset>
-				<MeleeDodgeChanceOutdoorsLitOffset>0.1</MeleeDodgeChanceOutdoorsLitOffset>
 				<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>
 			</statOffsets>
 		</li>

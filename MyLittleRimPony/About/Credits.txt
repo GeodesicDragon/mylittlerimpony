@@ -116,6 +116,7 @@ Heart icon (Biotech): https://game-icons.net/1x1/zeromancer/heart-minus.html
 Shield icon (Biotech): https://game-icons.net/1x1/sbed/shield.html
 Broken Wall icon (Biotech): https://game-icons.net/1x1/delapouite/broken-wall.html
 Horseshoe icon (Biotech): https://game-icons.net/1x1/delapouite/horseshoe.html
+Insect jaws icon (Biotech): https://game-icons.net/1x1/lorc/insect-jaws.html
 
 SOUNDS
 

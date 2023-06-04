@@ -31,5 +31,32 @@
 			</suffixSymbols>
 		</symbolPack>
 	</GeneDef>
+	
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>MLRP_InsectVoice</defName>
+		<label>insect voice</label>
+		<description>Carriers make noises similar to giant insects.</description>
+		<iconPath>UI/Icons/Genes/Changeling</iconPath>
+		<displayOrderInCategory>125</displayOrderInCategory>
+		<soundCall>Pawn_Megascarab_Call</soundCall>
+		<soundDeath>Pawn_Megascarab_Death</soundDeath>
+		<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li><symbol>insect</symbol></li>
+				<li><symbol>bug</symbol></li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li><symbol>bug</symbol></li>
+				<li><symbol>insect</symbol></li>
+				<li><symbol>buzz</symbol></li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li><symbol>bug</symbol></li>
+				<li><symbol>insect</symbol></li>
+				<li><symbol>buzz</symbol></li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
 
 </Defs>

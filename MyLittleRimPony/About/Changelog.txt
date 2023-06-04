@@ -1,3 +1,43 @@
+Version 4.1.7 (June 4th 2023)
+
+* Biotech: Added the Changeling Drone xenotype.
+	* Acid Spray
+	* High cold resistance
+	* Pyrophobia
+	* High libido
+	* Fertile
+	* Very ugly
+	* Grey eyes
+	* Bald
+	* No beard
+	* Insect voice
+	* Facial ridges
+	* Ink black skin
+	* Robust digestion
+	* Pollution stimulus
+	* Great construction skill
+	* Great crafting skill
+	* Terrible mining skill
+	* Terrible cooking skill
+	* Terrible plants skill
+	* Terrible animals skill
+	* Terrible artistic skill
+	* Terrible medicine skill
+	* Terrible social skill
+	* Terrible intellectual skill
+	* -25 opinion of alicorns, earth ponies, unicorns and pegasi
+	* These xenotypes also have a -25 opinion of changelings
+	* Pawns with the brony trait will still get a +10 opinion of them (even if they're a pony xenotype)
+* Core: Made some changes to the magical mirror power increase research.
+	* Renamed it to 'magical power increase.'
+	* Researching it now requires you to have unlocked Screwballs.
+	* Screwballs now benefit from the research, increasing their power output to 400W.
+* Biotech: Fixed pink square appearing around children with plushies equipped.
+* Combat Extended: Fixed a few patch errors. Thanks to BBLKepling for pointing out these problems and providing the fixes.
+	* Daring Do plushie now provides a 10% melee dodge chance regardless of indoor/outdoor light conditions.
+	* The tennis ball launcher is now using the correct smoke type.
+	* The Sweetie Bot mechanoid patch now refers to the correct body type.
+
 Version 4.0.0 - The Xenotypes Update (May 14th 2023)
 
 * Core: Added Marble Pie's Stone Exchange.
@@ -73,6 +113,7 @@ Version 4.0.0 - The Xenotypes Update (May 14th 2023)
 	* Dark iron bars are only made in batches of 100, as they require 8 ores each.
 	* Hardened adamantite bars are only made in batches of 50, as they require 10 adamantite bars each, but the recipe only uses double the fuel.
 * Vanilla Achievements Expanded: Added an achievement to build the Stone Exchange.
+* Vanilla Achievements Expanded: Added an achievement to build the Stone Exchange using marble blocks.
 * Core: The party cannon no longer affects the mood of prisoners or visitors.
 * Core: Plushies no longer hog the utility slot. You can now equip a plushie and a shield belt (or whatever) at the same time!
 * Core: The letter that is sent after researching Statues of the Evil Sisters no longer says you'll get a letter when new recipes are unlocked.

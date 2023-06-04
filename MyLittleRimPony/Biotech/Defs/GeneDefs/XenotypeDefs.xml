@@ -3,7 +3,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Alicorn</defName>
     <label>alicorn</label>
-    <description>This xenotype is one of four that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the four pony races, but the end results turned out to be much different than they expected.\n\nAlicorns have exceptional artistic and social skills, but fare poorly at everything else. They are exceedingly beautiful, and can heal wounds or gain immunity to disease faster than other races, but are vulnerable to attack.\n\nThey can also increase their social skills by a substantial amount for a time, but only once per quadrum.</description>
+    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nAlicorns have exceptional artistic and social skills, but fare poorly at everything else. They are exceedingly beautiful, and can heal wounds or gain immunity to disease faster than other races, but are vulnerable to attack.\n\nThey can also increase their social skills by a substantial amount for a time, but only once per quadrum.\n\nThey get along fine with earth ponies, unicorns and pegasi, but they are not very fond of changelings.</description>
     <descriptionShort>Alicorns are beautiful, have excellent art and social skills, and can heal very fast. They are vulnerable to attack, and struggle with many other skills, but have the ability to vastly increase their social skills once per quadrum.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Alicorn</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -46,7 +46,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_EarthPony</defName>
     <label>earth pony</label>
-    <description>This xenotype is one of four that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the four pony races, but the end results turned out to be much different than they expected.\n\nEarth ponies are sturdy beings who excel at working with nature, but aren't very good at more 'advanced' skills, such as crafting.\n\nThey also have quite large appetites, and will consume more food than the other pony races.</description>
+    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nEarth ponies are sturdy beings who excel at working with nature, but aren't very good at more 'advanced' skills, such as crafting.\n\nThey also have quite large appetites, and will consume more food than the other pony races.\n\nThey get along fine with alicorns, unicorns and pegasi, but they are not very fond of changelings.</description>
     <descriptionShort>Earth ponies excel at working with plants and animals, but struggle with more intellectual skills. They can shrug off most blows, and will not slow down when attacked. However, they do tend to eat a lot.</descriptionShort>
 	<iconPath>UI/Icons/Genes/EarthPony</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -82,7 +82,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Unicorn</defName>
     <label>unicorn</label>
-    <description>This xenotype is one of four that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the four pony races, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.\n\nFurthermore, a side effect of the xenogerm creation process has left them dependent on wake-up to keep going.</description>
+    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.\n\nFurthermore, a side effect of the xenogerm creation process has left them dependent on wake-up to keep going.\n\nThey get along fine with alicorns, earth ponies and pegasi, but they are not very fond of changelings.</description>
     <descriptionShort>Unicorns excel at research and medicine, but struggle with more manual skills. They are calm, fast learners with a dependence on wake-up.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Unicorn</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -119,7 +119,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Pegasus</defName>
     <label>pegasus</label>
-    <description>This xenotype is one of four that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the four pony races, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities, as well as leaving them dependent on regular doses of go-juice.</description>
+    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities, as well as leaving them dependent on regular doses of go-juice.\n\nThey get along fine with alicorns, earth ponies and unicorns, but they are not very fond of changelings.</description>
     <descriptionShort>Pegasi excel at combat, but struggle with everything else. They are aggressive, fast movers and can see in the dark. They are also dependent on go-juice.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Pegasus</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -156,6 +156,49 @@
 		<li>Hair_Pink</li>
 		<li>Hair_LightPurple</li>
 		<li>Hair_BrightRed</li>
+	</genes>
+</XenotypeDef>
+
+<XenotypeDef>
+    <defName>MLRP_Xeno_Changeling</defName>
+    <label>changeling</label>
+    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nChangelings are a race of insect-like equines who can change their form to that of any creature they like; they then use this ability to gather love, which they bring back to their hives and feed on.\n\nRim-based changelings lack the ability to shapeshift, but they make up for that with their skills in crafting and construction, though they are terrible at pretty much anything else. They are not very nice to look at, but they have high libidos, are very fertile, can eat pretty much anything, don't get cold easily, and thrive in polluted areas.\n\nA side effect of the xenogerm implementation process has given them the ability to shoot acid at their enemies, something they do with great zeal. Furthermore, they are scared of fire, and they don't get along with the other pony xenotypes.</description>
+    <descriptionShort>Changelings excel at crafting and construction, but are bad at everything else. They can spray acid at their enemies, survive in cold areas with ease and have high libidos and fertility alongside robust digestive systems and the ability to thrive in polluted areas. They are afraid of fire, very ugly and don't get along with other pony kinds.</descriptionShort>
+	<iconPath>UI/Icons/Genes/Changeling</iconPath>
+	<nameMaker>NamerBrony</nameMaker>
+    <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+	<inheritable>true</inheritable>
+	<genes>
+		<li>AcidSpray</li>
+		<li>MinTemp_LargeDecrease</li>
+		<li>FireTerror</li>
+		<li>Libido_High</li>
+		<li>Fertile</li>
+		<li>Beauty_VeryUgly</li>
+		<li>Eyes_Gray</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Ears_Human</li>
+		<li>Nose_Human</li>
+		<li>Headbone_Human</li>
+		<li>MLRP_InsectVoice</li>
+		<li>FacialRidges</li>
+		<li>Body_Thin</li>
+		<li>Skin_InkBlack</li>
+		<li>RobustDigestion</li>
+		<li>Hands_Human</li>
+		<li>PollutionRush</li>
+		<li>AptitudeRemarkable_Construction</li>
+		<li>AptitudeTerrible_Mining</li>
+		<li>AptitudeTerrible_Cooking</li>
+		<li>AptitudeTerrible_Plants</li>
+		<li>AptitudeTerrible_Animals</li>
+		<li>AptitudeRemarkable_Crafting</li>
+		<li>AptitudeTerrible_Artistic</li>
+		<li>AptitudeTerrible_Medicine</li>
+		<li>AptitudeTerrible_Social</li>
+		<li>AptitudeTerrible_Intellectual</li>
 	</genes>
 </XenotypeDef>
 

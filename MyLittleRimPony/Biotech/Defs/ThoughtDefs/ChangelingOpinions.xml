@@ -1,0 +1,27 @@
+<Defs>
+
+  <ThoughtDef>
+    <defName>ChangelingsHateMLPXenotype</defName>
+    <thoughtClass>MLRP_Biotech.Thought_ChangelingsHateMLPXenotype</thoughtClass>
+    <workerClass>MLRP_Biotech.ThoughtWorker_ChangelingsHateMLPXenotype</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>pony xenotype</label>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>MLPXenotypesHateChangelings</defName>
+    <thoughtClass>MLRP_Biotech.Thought_MLPXenotypesHateChangelings</thoughtClass>
+    <workerClass>MLRP_Biotech.ThoughtWorker_MLPXenotypesHateChangelings</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>changeling</label>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>
