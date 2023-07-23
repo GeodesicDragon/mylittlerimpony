@@ -34,11 +34,11 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
+      <Steel>1000</Steel>
+      <Plasteel>1000</Plasteel>
+      <Uranium>1000</Uranium>
       <ComponentIndustrial>75</ComponentIndustrial>
       <ComponentSpacer>25</ComponentSpacer>
-      <Plasteel>1000</Plasteel>
-      <Steel>1000</Steel>
-      <Uranium>1000</Uranium>
 	  <PonyPlush_SunsetShimmer>1</PonyPlush_SunsetShimmer>
     </costList>
     <comps>
@@ -54,7 +54,6 @@
         </powerUpgrades>
       </li>
       <li Class="CompProperties_Flickable" />
-	  <li Class="CompProperties_Breakdownable"/>
     </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>MLRP_Buildings</designationCategory>

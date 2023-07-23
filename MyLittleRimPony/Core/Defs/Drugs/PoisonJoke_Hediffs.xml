@@ -41,11 +41,12 @@
 			<capMods>
 				<li>
 					<capacity>Consciousness</capacity>
-					<setMax>0.01</setMax>
+					<setMax>0.1</setMax>
 				</li>
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--MOVING-->
@@ -94,6 +95,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--MANIPULATION-->
@@ -142,6 +144,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--TALKING-->
@@ -190,6 +193,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--EATING-->
@@ -238,6 +242,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--SIGHT-->
@@ -286,6 +291,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--HEARING-->
@@ -334,6 +340,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--BREATHING-->
@@ -382,6 +389,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--BLOOD FILTRATION-->
@@ -430,6 +438,7 @@
 			</capMods>
 		</li>
 	</stages>
+	<isBad>true</isBad>
 </HediffDef>
 
 <!--BLOOD PUMPING-->
@@ -478,34 +487,7 @@
 			</capMods>
 		</li>
 	</stages>
-</HediffDef>
-
-<!--OBSOLETE: WILL BE REMOVED IN THE NEXT UPDATE-->
-
-<HediffDef>
-    <defName>MLRP_PoisonJokeGoodMood</defName>
-    <label>good mood</label>
-	<hediffClass>Hediff_High</hediffClass>
-    <description>Improved mood, one of the possible side effects of smoking poison joke.</description>
-	<comps>
-		<li Class="HediffCompProperties_Disappears">
-			<disappearsAfterTicks>1</disappearsAfterTicks>
-			<showRemainingTime>true</showRemainingTime>
-		</li>
-	</comps>
-</HediffDef>
-
-<HediffDef>
-    <defName>MLRP_PoisonJokeBadMood</defName>
-    <label>bad mood</label>
-	<hediffClass>Hediff_High</hediffClass>
-    <description>Reduced mood, one of the possible side effects of smoking poison joke.</description>
-	<comps>
-		<li Class="HediffCompProperties_Disappears">
-			<disappearsAfterTicks>1</disappearsAfterTicks>
-			<showRemainingTime>true</showRemainingTime>
-		</li>
-	</comps>
+	<isBad>true</isBad>
 </HediffDef>
 
 </Defs>

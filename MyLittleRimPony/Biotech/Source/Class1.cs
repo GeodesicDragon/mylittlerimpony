@@ -71,7 +71,7 @@ namespace MLRP_Biotech
     // ANTI BRONIES DISLIKE MLP XENOTYPES
 
     public class ThoughtWorker_AntiBronyVsMLPXenotype : ThoughtWorker
-    { 
+    {
         protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
         {
             if (!p.RaceProps.Humanlike)
@@ -164,7 +164,7 @@ namespace MLRP_Biotech
 
     }
 
-    // CHANGELINGS DISLIKE MLP XENOTYPES
+    // CHANGELINGS LIKE MLP XENOTYPES
 
     public class ThoughtWorker_ChangelingsHateMLPXenotype : ThoughtWorker
     {
@@ -201,13 +201,13 @@ namespace MLRP_Biotech
 
             if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
             {
-                return -25f;
+                return 5f;
             }
             return 0f;
         }
     }
 
-    // MLP XENOTYPES DISLIKE CHANGELINGS
+    // MLP XENOTYPES LIKE CHANGELINGS
 
     public class ThoughtWorker_MLPXenotypesHateChangelings : ThoughtWorker
     {
@@ -218,7 +218,7 @@ namespace MLRP_Biotech
                 return false;
             }
             if (p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
-            
+
             {
                 return false;
             }
@@ -245,7 +245,7 @@ namespace MLRP_Biotech
 
             if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
             {
-                return -25f;
+                return 5f;
             }
             return 0f;
         }

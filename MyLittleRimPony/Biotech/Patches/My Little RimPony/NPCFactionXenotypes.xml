@@ -5,10 +5,11 @@
 		<value>
 			<xenotypeSet>
 				<xenotypeChances>
-					<MLRP_Xeno_EarthPony>0.33</MLRP_Xeno_EarthPony>
-					<MLRP_Xeno_Unicorn>0.33</MLRP_Xeno_Unicorn>
-					<MLRP_Xeno_Pegasus>0.33</MLRP_Xeno_Pegasus>
-					<MLRP_Xeno_Alicorn>0.01</MLRP_Xeno_Alicorn>
+					<MLRP_Xeno_EarthPony>0.25</MLRP_Xeno_EarthPony>
+					<MLRP_Xeno_Unicorn>0.25</MLRP_Xeno_Unicorn>
+					<MLRP_Xeno_Pegasus>0.25</MLRP_Xeno_Pegasus>
+					<MLRP_Xeno_Changeling>0.2</MLRP_Xeno_Changeling>
+					<MLRP_Xeno_Alicorn>0.05</MLRP_Xeno_Alicorn>
 				</xenotypeChances>
 			</xenotypeSet>
 		</value>

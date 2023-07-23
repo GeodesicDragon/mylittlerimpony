@@ -4,7 +4,7 @@
 <ScenarioDef>
     <defName>MLRP_Scenario_Xenos</defName>
     <label>Brony Xenotypes</label>
-    <description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; since you are all against violence, you are tempting targets for raiders.\n\nNote: Due to how these xenotypes are set up, your starting characters may be lacking skills in construction, cooking and crafting.</description>
+    <description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; since you are all against violence, you are tempting targets for raiders.</description>
     <scenario>
 		<summary>A group comprised of one of each pony xenotype attempts to carve out a new existence. Difficult.</summary>
 		<playerFaction>
@@ -13,59 +13,70 @@
 		</playerFaction>
 		<parts>
 			<!-- Config pages -->
-        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
-          <def>ConfigurePawnsXenotypes</def>
-          <pawnChoiceCount>4</pawnChoiceCount>
-          <customSummary>Start with one earth pony, one unicorn, one pegasus and an alicorn.</customSummary>
-          <overrideKinds>
-            <li>
-              <xenotype>MLRP_Xeno_Alicorn</xenotype>
-              <pawnKind>MLRP_BronyPlayer</pawnKind>
-            </li>
-            <li>
-              <xenotype>MLRP_Xeno_EarthPony</xenotype>
-              <pawnKind>MLRP_BronyPlayer</pawnKind>
-            </li>
-            <li>
-              <xenotype>MLRP_Xeno_Unicorn</xenotype>
-              <pawnKind>MLRP_BronyPlayer</pawnKind>
-            </li>
-            <li>
-              <xenotype>MLRP_Xeno_Pegasus</xenotype>
-              <pawnKind>MLRP_BronyPlayer</pawnKind>
-            </li>
-          </overrideKinds>
-          <xenotypeCounts>
-            <li>
-              <xenotype>MLRP_Xeno_Alicorn</xenotype>
-              <count>1</count>
-              <description>alicorn</description>
-              <requiredAtStart>true</requiredAtStart>
-              <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
-            </li>
-            <li>
-              <xenotype>MLRP_Xeno_EarthPony</xenotype>
-              <count>1</count>
-              <description>earth pony</description>
-              <requiredAtStart>true</requiredAtStart>
-              <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
-            </li>
-            <li>
-              <xenotype>MLRP_Xeno_Unicorn</xenotype>
-              <count>1</count>
-              <description>unicorn</description>
-              <requiredAtStart>true</requiredAtStart>
-              <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
-            </li>
-            <li>
-              <xenotype>MLRP_Xeno_Pegasus</xenotype>
-              <count>1</count>
-              <description>pegasus</description>
-              <requiredAtStart>true</requiredAtStart>
-              <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
-            </li>			
-          </xenotypeCounts>
-        </li>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+				<def>ConfigurePawnsXenotypes</def>
+				<pawnChoiceCount>5</pawnChoiceCount>
+				<customSummary>Start with an earth pony, a unicorn, a pegasus, an alicorn and a changeling.</customSummary>
+				<overrideKinds>
+					<li>
+						<xenotype>MLRP_Xeno_Alicorn</xenotype>
+						<pawnKind>MLRP_BronyPlayer</pawnKind>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_EarthPony</xenotype>
+						<pawnKind>MLRP_BronyPlayer</pawnKind>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_Unicorn</xenotype>
+						<pawnKind>MLRP_BronyPlayer</pawnKind>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_Pegasus</xenotype>
+						<pawnKind>MLRP_BronyPlayer</pawnKind>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_Changeling</xenotype>
+						<pawnKind>MLRP_BronyPlayer</pawnKind>
+					</li>
+				</overrideKinds>
+				<xenotypeCounts>
+					<li>
+						<xenotype>MLRP_Xeno_Alicorn</xenotype>
+						<count>1</count>
+						<description>alicorn</description>
+						<requiredAtStart>true</requiredAtStart>
+						<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_EarthPony</xenotype>
+						<count>1</count>
+						<description>earth pony</description>
+						<requiredAtStart>true</requiredAtStart>
+						<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_Unicorn</xenotype>
+						<count>1</count>
+						<description>unicorn</description>
+						<requiredAtStart>true</requiredAtStart>
+						<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_Pegasus</xenotype>
+						<count>1</count>
+						<description>pegasus</description>
+						<requiredAtStart>true</requiredAtStart>
+						<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+					</li>
+					<li>
+						<xenotype>MLRP_Xeno_Changeling</xenotype>
+						<count>1</count>
+						<description>changeling</description>
+						<requiredAtStart>true</requiredAtStart>
+						<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+					</li>
+				</xenotypeCounts>
+			</li>
 
 			<!-- Player starting stuff spawn method-->
 			<li Class="ScenPart_PlayerPawnsArriveMethod">
@@ -108,13 +119,13 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MealSurvivalPack</thingDef>
-				<count>80</count>
+				<count>50</count>
 			</li>
 			
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MedicineIndustrial</thingDef>
-				<count>40</count>
+				<count>20</count>
 			</li>		
 			
 			<li Class="ScenPart_StartingThing_Defined">
@@ -128,17 +139,31 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Apparel_AdvancedHelmet</thingDef>
-				<count>4</count>
+				<count>5</count>
 				<stuff>Plasteel</stuff>
 			</li>
 			
-			<!-- Starting animals-->
+			<!-- Starting animals -->
 			
 			<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
 				<animalKind>Horse</animalKind>
-				<count>4</count>
+				<count>5</count>
 				<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
+			</li>
+			
+			<!-- Starting drugs -->
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>GoJuice</thingDef>
+				<count>5</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>WakeUp</thingDef>
+				<count>5</count>
 			</li>
 			
 			<!-- Starting buildings -->
@@ -168,14 +193,7 @@
 			
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>PonyPlush_MaudPie</thingDef>
-				<count>1</count>
-				<stuff>Cloth</stuff>
-			</li>
-			
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>PonyPlush_TwilightSparkle</thingDef>
+				<thingDef>PonyPlush_Discord</thingDef>
 				<count>1</count>
 				<stuff>Cloth</stuff>
 			</li>
@@ -183,6 +201,20 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>PonyPlush_RainbowDash</thingDef>
+				<count>1</count>
+				<stuff>Cloth</stuff>
+			</li>
+
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>PonyPlush_Rarity</thingDef>
+				<count>1</count>
+				<stuff>Cloth</stuff>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>PonyPlush_TwilightSparkle</thingDef>
 				<count>1</count>
 				<stuff>Cloth</stuff>
 			</li>

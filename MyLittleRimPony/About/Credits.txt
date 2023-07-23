@@ -1,4 +1,4 @@
-All art was sourced from Derpibooru (https://www.derpibooru.org), unless otherwise specified, and is used under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License; credit is followed by the Derpibooru image ID.
+All art was sourced from Derpibooru (https://www.derpibooru.org), unless otherwise specified, and is used under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License; artist credit is followed by the Derpibooru image ID.
 
 If you are one of the artists listed below and want me to stop using your work, get in touch with me via my Discord server. Please be aware that you will need to prove that you are who you say you are before I will respond to your request.
 
@@ -101,6 +101,11 @@ PROJECTILES
 
 Rainbow Laser: Made by me.
 Tennis ball: Taken from art by greenhoof (2560819)
+
+STORYTELLERS
+
+Sunny Starscout (background): Unknown Artist (3106126)
+Sunny Starscout (tiny): Unknown Artist (2700716)
 
 OTHER IMAGES
 

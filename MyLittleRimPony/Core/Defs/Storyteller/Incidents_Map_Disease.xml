@@ -5,6 +5,8 @@
 		<label>the Cutie Pox</label>
 		<diseaseIncident>MLRP_CutiePox</diseaseIncident>
 		<letterLabel>Disease: Cutie Pox</letterLabel>
+		<diseaseVictimFractionRange>0.15~0.3</diseaseVictimFractionRange>
+		<letterText>{0} of your {1} have been infected with the Cutie Pox. This disease will improve their overall skills, but causes pain and requires a lot of medicine to treat.\n\nThe following {1} are affected</letterText>
 	</IncidentDef>
 
 </Defs>

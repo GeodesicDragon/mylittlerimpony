@@ -10,7 +10,7 @@
 				<RecipeDef ParentName="NMM_MechanitorOnlyRecipe">
 					<defName>MLRP_NMM_BandwidthEnhancer</defName>
 					<label>request bandwidth enhancer</label>
-					<description>Offer silver and other items in exchange for a bandwidth enhancer. This recipe is expensive, given that it requires varying amount of each kind of chip.\n\nThis recipe can only be performed by a mechanitor.</description>
+					<description>Offer silver and other items in exchange for a bandwidth enhancer. This recipe is expensive, given that it requires varying amounts of each kind of chip.\n\nThis recipe can only be performed by a mechanitor.</description>
 					<jobString>Making an offering to Nightmare Moon</jobString>
 					<researchPrerequisite>UltraMechtech</researchPrerequisite>
 					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

@@ -22,10 +22,10 @@
     <selectable>True</selectable>
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
-		<techLevel>Industrial</techLevel>
+	<techLevel>Industrial</techLevel>
     <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
-		<WorkToMake>6000</WorkToMake>
+		<WorkToMake>3000</WorkToMake>
 		<MaxHitPoints>100</MaxHitPoints>
 		<Mass>1.0</Mass>
 		<Flammability>1</Flammability>

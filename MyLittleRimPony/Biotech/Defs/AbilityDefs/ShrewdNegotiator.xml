@@ -14,6 +14,7 @@
 		<showPsycastEffects>False</showPsycastEffects>
 		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<!--<showGizmoOnWorldView>True</showGizmoOnWorldView>--> <!--Doesn't actually cast. Need to figure that out at some point.-->
 		<groupDef>MLRP_GeneAbilities</groupDef>
 		<gizmoClass>Command_Ability</gizmoClass>
 		<hotKey>Misc12</hotKey>

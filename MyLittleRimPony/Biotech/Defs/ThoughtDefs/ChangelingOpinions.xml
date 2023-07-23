@@ -7,7 +7,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>pony xenotype</label>
+        <label>fellow pony xenotype</label>
       </li>
     </stages>
   </ThoughtDef>
@@ -19,7 +19,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>changeling</label>
+        <label>fellow pony xenotype</label>
       </li>
     </stages>
   </ThoughtDef>

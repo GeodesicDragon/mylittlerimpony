@@ -39,6 +39,7 @@ namespace MyLittleRimPony
         public static HediffDef MLRP_PoisonJokeReducedBloodFiltration;
         public static HediffDef MLRP_PoisonJokeIncreasedBloodPumping;
         public static HediffDef MLRP_PoisonJokeReducedBloodPumping;
+        public static HediffDef MLRP_CutiePox;
         public static RoomRoleDef MLRP_PortalRoom;
         public static ThingDef MLRP_MagicMirrorGenerator;
         public static ThingDef MLRP_ScrewballGenerator;
@@ -223,7 +224,7 @@ namespace MyLittleRimPony
         protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
         {
             System.Random r = new System.Random();
-            int n = r.Next(1, 21); // maxValue must always be one greater than the number of available hediffs, otherwise the first hediff will always be chosen.
+            int n = r.Next(1, 22); // maxValue must always be one greater than the number of available hediffs, otherwise the first hediff will always be chosen.
             var affliction = "";
 
             switch (n)
@@ -308,8 +309,12 @@ namespace MyLittleRimPony
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBloodPumping);
                     affliction = "poor blood pumping";
                     break;
+                case 21:
+                    pawn.health.AddHediff(MyDefOf.MLRP_CutiePox);
+                    affliction = "Cutie Pox";
+                    break;
             }
-            if (n == 2 || n == 4 || n == 6 || n == 8 || n == 10 || n == 12 || n == 14 || n == 16 || n == 18 || n == 20)
+            if (n == 2 || n == 4 || n == 6 || n == 8 || n == 10 || n == 12 || n == 14 || n == 16 || n == 18 || n == 20 || n == 21)
             {
                 LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.ThreatSmall;
                 string title = "MLRP_PoisonJokeLetterTitle".Translate();
@@ -340,18 +345,6 @@ namespace MyLittleRimPony
                     ++num;
             }
             return 10f * (float)num;
-        }
-    }
-
-    // PORTAL ROOM IMPRESSIVENESS
-    public class ThoughtWorker_PortalRoomImpressiveness : ThoughtWorker_RoomImpressiveness
-    {
-        protected override ThoughtState CurrentStateInternal(Pawn p)
-        {
-            if (!p.IsColonist)
-                return ThoughtState.Inactive;
-            ThoughtState thoughtState = base.CurrentStateInternal(p);
-            return thoughtState.Active && p.GetRoom().Role == MyDefOf.MLRP_PortalRoom ? thoughtState : ThoughtState.ActiveDefault;
         }
     }
 	

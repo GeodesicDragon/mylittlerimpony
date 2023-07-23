@@ -4,17 +4,19 @@
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rimpony</packageId>
 	<url>https://discord.gg/BGKnpza</url>
-	<modVersion>4.1.7</modVersion>
+	<modVersion>4.4.31</modVersion>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
+	<loadBefore>
+		<li>WheatyTail.MyLittleRimPonyRus</li>
+	</loadBefore>
 	<loadAfter>
 		<li>imranfish.xmlextensions</li>
 		<li>CETeam.CombatExtended</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>geodesicdragon.rimpony.vanillarimworld</li>
-		<li>WheatyTail.MyLittleRimPonyRus</li>
 	</incompatibleWith>
 	<description><![CDATA[<b>ABOUT</b>
 	

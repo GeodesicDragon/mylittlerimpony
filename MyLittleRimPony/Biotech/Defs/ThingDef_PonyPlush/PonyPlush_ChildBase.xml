@@ -8,5 +8,8 @@
 	<graphicData>
       <drawSize>(0.5,0.5)</drawSize>
     </graphicData>
+	<statBases>
+		<WorkToMake>1500</WorkToMake>
+	</statBases>
   </ThingDef> 
 </Defs>

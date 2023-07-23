@@ -15,10 +15,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
-    <pathCost>14</pathCost>
+    <pathCost>7</pathCost>
     <plant>
 		<fertilityMin>1.4</fertilityMin>
-		<growDays>14</growDays>
+		<growDays>7</growDays>
 		<dieIfLeafless>true</dieIfLeafless>
 		<harvestTag>Standard</harvestTag>
 		<harvestedThingDef>MLRP_PoisonJokeLeaves</harvestedThingDef>
@@ -66,19 +66,29 @@
     <defName>MLRP_PoisonJokeJoint</defName>
     <label>poison joke joint</label>
     <description>This variant of poison joke was spliced together by yet another MLP fan with too much time on their hands.\n\nWhen smoked, it will provide the imbiber with a random effect, which can be either positive or negative.\n\nReports from other colonies suggest that the effects can range from improved sight or speed to slowness, poor manipulation and even temporary blindness.</description>
-    <descriptionHyperlinks>
-      <HediffDef>MLRP_PoisonJokeHigh</HediffDef>
-      <HediffDef>MLRP_PoisonJokeTolerance</HediffDef>
-      <HediffDef>MLRP_PoisonJokeAddiction</HediffDef>
-      <HediffDef>SensoryMechanites</HediffDef>
-      <HediffDef>FibrousMechanites</HediffDef>
-      <HediffDef>MLRP_PoisonJokeSightBeyondSight</HediffDef>
-      <HediffDef>MLRP_PoisonJokeBlindness</HediffDef>
-      <HediffDef>MLRP_PoisonJokeSuperSpeedy</HediffDef>
-      <HediffDef>MLRP_PoisonJokeSlowAndSluggish</HediffDef>
-      <HediffDef>MLRP_PoisonJokeGoodManipulation</HediffDef>
-      <HediffDef>MLRP_PoisonJokePoorManipulation</HediffDef>
-    </descriptionHyperlinks>
+	<descriptionHyperlinks>
+		<HediffDef>MLRP_CutiePox</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedConsciousness</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedConsciousness</HediffDef>
+		<HediffDef>MLRP_PoisonJokeSuperSpeedy</HediffDef>
+		<HediffDef>MLRP_PoisonJokeSlowAndSluggish</HediffDef>
+		<HediffDef>MLRP_PoisonJokeGoodManipulation</HediffDef>
+		<HediffDef>MLRP_PoisonJokePoorManipulation</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedTalking</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedTalking</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedEating</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedEating</HediffDef>
+		<HediffDef>MLRP_PoisonJokeSightBeyondSight</HediffDef>
+		<HediffDef>MLRP_PoisonJokeBlindness</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedHearing</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedHearing</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedBreathing</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedBreathing</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedBloodFiltration</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedBloodFiltration</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedBloodPumping</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedBloodPumping</HediffDef>
+	</descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Item/Drug/PoisonJokeJoint</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -147,7 +157,7 @@
       <workSkill>Cooking</workSkill>
     </recipeMaker>
     <costList>
-      <MLRP_PoisonJokeLeaves>10</MLRP_PoisonJokeLeaves>
+      <MLRP_PoisonJokeLeaves>8</MLRP_PoisonJokeLeaves>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">

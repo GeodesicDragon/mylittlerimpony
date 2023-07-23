@@ -120,7 +120,7 @@
 				
 				<!--VANILLA OUTPOSTS EXPANDED-->
 				<Operation Class="PatchOperationReplace" MayRequire="vanillaexpanded.outposts">
-					<xpath>/Defs/WorldObjectDef[defName="MLRP_Plushie_Outpost"]/modExtensions/li[@ Class="Outposts.OutpostExtension"]/RequiredSkills/Crafting</xpath>
+					<xpath>/Defs/WorldObjectDef[defName="MLRP_Plushie_Outpost"]/modExtensions/li[@Class="Outposts.OutpostExtension"]/RequiredSkills/Crafting</xpath>
 					<value>
 						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
 					</value>
@@ -188,7 +188,7 @@
 				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
 					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/description</xpath>
 					<value>
-						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about MLP, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; you forgot to bring any weapons other than the turrets, making you tempting targets for raiders.\n\nNote: Due to how these xenotypes are set up, your starting characters may be lacking skills in construction, cooking and crafting.</description>
+						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; you forgot to bring any weapons other than the turrets, making you tempting targets for raiders.</description>
 					</value>
 				</Operation>
 			</caseTrue>
@@ -224,7 +224,7 @@
 				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
 					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/description</xpath>
 					<value>
-						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about MLP, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; since you are all against violence, you are tempting targets for raiders.\n\nNote: Due to how these xenotypes are set up, your starting characters may be lacking skills in construction, cooking and crafting.</description>
+						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; since you are all against violence, you are tempting targets for raiders.</description>
 					</value>
 				</Operation>
 			</caseFalse>

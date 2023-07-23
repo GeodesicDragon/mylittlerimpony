@@ -90,7 +90,7 @@
 	
     <VBE.BackgroundImageDef>
         <defName>MLRP_BG_ObligatoryOCBackground</defName>
-        <label>Obligatory Background Of Creator's OC</label>
+        <label>Obligatory background of the mod creator's OC.</label>
         <description>Sometimes she forgets that she's a trained medical practitioner.</description>
         <path>Backgrounds/ObligatoryOCBackground</path>
         <iconPath>UI/Issues/ElementsOfHarmony</iconPath>

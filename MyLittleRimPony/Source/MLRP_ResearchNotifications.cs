@@ -70,7 +70,7 @@ public class MLRP_ResearchTracker : GameComponent
         Scribe_Collections.Look(ref completedResearches, "completedResearches", LookMode.Value);
     }
 
-    public override void GameComponentTick() // This is probably why it was eating so much CPU
+    public override void GameComponentTick() // This is probably why it was eating so much TPS
     {
         base.GameComponentTick();
 

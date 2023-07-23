@@ -1,3 +1,38 @@
+Version 4.4.31 (July 23rd 2023)
+
+* Core: Added Sunny Starscout as a storyteller.
+	* More frequent quests, traders and visitors.
+	* More days between threats, and (hopefully) less of them.
+	* Feedback on her performance would be greatly appreciated!
+* Ideology: Added patches which turn the Christmas tree into a Hearth's Warming tree.
+* Alpha Genes: Added a patch, applied if this mod is enabled, that will add wings to alicorns and pegasi.
+	* Only newly spawned alicorns and pegasi will be affected; you will need to manually add the gene to existing ones.
+	* Thanks to CTH2004 for the suggestion.
+* Core: The mood of bronies is no longer affected by portal room impressiveness. (It wasn't working the way I wanted it to.)
+* Core: Smoking poison joke now has a chance of afflicting pawns with the Cutie Pox.
+* Core: Updated the information window for poison joke joints to show you all the different ways they can affect your pawns.
+* Core: Reduced the amount of work needed to make plushies to 3000 (was 6000).
+* Core: Reduced the number of leaves needed to make poison joke joints to 8 (was 10).
+* Core: Poison joke now takes 7 days to grow to maturity (was 14).
+* Core: The 'reduced consciousness' effect of poison joke joints now sets the pawn's consciousness to 10% (was 1%).
+* Core: Magic mirrors can no longer break down.
+* Biotech: Made some changes to the Brony Xenotypes scenario.
+	* Now starts with a changeling as well as the other four xenotypes.
+	* Reduced starting meal count to 50 (was 80).
+	* Reduced starting medicine count to 20 (was 40).
+	* Increased starting flak helmet count to 5 (was 4).
+	* Increased starting horse count to 5 (was 4).
+	* Added Discord to the list of starting plushies.
+	* Replaced Maud Pie with Rarity.
+	* Added 5 units of go-juice and 5 units of wake-up, which will help your unicorns and pegasi while you get production set up. Also, remember that pawns might have their required drug as part of their starting possessions.
+* Biotech: Alicorns, earth ponies, unicorns and pegasi no longer hate changelings, and vice versa.
+* Biotech: Increased the mood loss anti bronies get from being turned into a pony xenotype to -40 (was -20).
+* Biotech: Changelings can now come in a variety of colours.
+* Biotech: The NPC faction is now made up of 25% each of earth ponies, unicorns and pegasi, 20% changelings, and 5% alicorns.
+* Biotech: Child-equippable plushies now require half as much work to make as their adult counterparts.
+* Combat Extended: The Brony Xenotypes scenario should now start with 600 rounds of turret ammo.
+* MedPod: Fixed pawns not seeking treatment for negative poison joke effects.
+
 Version 4.1.7 (June 4th 2023)
 
 * Biotech: Added the Changeling Drone xenotype.
