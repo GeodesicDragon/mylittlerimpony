@@ -7,11 +7,11 @@
 		<linkUrl>https://discord.gg/BGKnpza</linkUrl>
 	</HugsLib.UpdateFeatureDef>
 	
-	<!--<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
-		<defName>MLRP_Version_4429</defName>
-		<assemblyVersion>4.4.29</assemblyVersion>
-		<content>&lt;b&gt;My Little RimPony - Version 4.4.29&lt;/b&gt;\n\n&lt;i&gt;What's New?&lt;/i&gt;\n\n- New Storyteller: Sunny Starscout (more friends and less enemies)\n- Biotech: The Brony Xenotypes scenario now includes a changeling\n- All of the pony xenotypes now get along with each other\n- Changelings can now come in a variety of colours\n- Poison joke now has a chance of giving pawns the Cutie Pox\n- Added Alpha genes patch for alicorns and pegasi which will give newly spawned ones a shiny pair of wings\n\nPlease refer to the changelog for more info!</content>
-	</HugsLib.UpdateFeatureDef>-->
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_4431</defName>
+		<assemblyVersion>4.4.31</assemblyVersion>
+		<content>&lt;b&gt;My Little RimPony - Version 4.4.31&lt;/b&gt;\n\n&lt;i&gt;What's New?&lt;/i&gt;\n\n- New Storyteller: Sunny Starscout (more friends and less enemies)\n- Biotech: The Brony Xenotypes scenario now includes a changeling\n- All of the pony xenotypes now get along with each other\n- Changelings can now come in a variety of colours\n- Poison joke now has a chance of giving pawns the Cutie Pox\n- Added Alpha genes patch for alicorns and pegasi which will give newly spawned ones a shiny pair of wings\n\nPlease refer to the changelog for more info!</content>
+	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_417</defName>
