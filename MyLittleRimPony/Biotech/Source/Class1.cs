@@ -14,6 +14,7 @@ namespace MLRP_Biotech
         public static XenotypeDef MLRP_Xeno_Unicorn;
         public static XenotypeDef MLRP_Xeno_Pegasus;
         public static XenotypeDef MLRP_Xeno_Changeling;
+        public static XenotypeDef MLRP_Xeno_DiamondDog;
 
         static MLRP_BiotechDefOf()
         {

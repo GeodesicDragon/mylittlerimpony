@@ -35,7 +35,7 @@
 
 <RecipeDef>
 	<defName>MLRP_NMM_Neurocalculator</defName>
-	<label>request learning assistant</label>
+	<label>request neurocalculator</label>
 	<description>Offer silver in exchange for a neurocalculator.</description>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

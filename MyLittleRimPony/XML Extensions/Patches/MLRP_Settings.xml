@@ -730,6 +730,35 @@
 				</Operation>
 			</apply>
 		</li>
+
+		<!--DAYBREAKER STATUE: HALF CHEMFUEL AMOUNT-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DaybreakerChemfuel</key>
+			<apply>
+				<Operation Class="XmlExtensions.CreateVariable">
+					<value>{MLRP_DaybreakerChemfuel}</value>
+					<value2>2</value2>
+					<operation>/</operation>
+					<storeIn>MLRP_DB_HalfChemfuelValue</storeIn>
+					<apply>
+						<Operation Class="XmlExtensions.CreateVariable">
+							<value>{MLRP_DB_HalfChemfuelValue}</value>
+							<operation>rounddown</operation>
+							<storeIn>MLRP_DB_HalfChemfuelValueRounded</storeIn>
+							<apply>
+								<Operation Class="PatchOperationReplace">
+									<xpath>Defs/RecipeDef[@Name="DaybreakerRecipes_HalfChemfuel"]/ingredients/li/count</xpath>
+									<value>
+										<count>{MLRP_DB_HalfChemfuelValueRounded}</count>
+									</value>
+								</Operation>
+							</apply>
+						</Operation>
+					</apply>
+				</Operation>
+			</apply>
+		</li>
 		
 		<!--RAINBOW DASH CHILD PLUSHIE: SAME BONUSES AS ADULT VERSION-->
 		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Biotech">

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="MLRP_DogKinds" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>MLRP_DiamondDog_Faction</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+          <li>Outsider</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <invNutrition>2</invNutrition>
+    <invFoodDef>MealSurvivalPack</invFoodDef>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <minGenerationAge>13</minGenerationAge>
+    <maxGenerationAge>65</maxGenerationAge>
+    <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>0</max>
+    </combatEnhancingDrugsCount>
+	<disallowedTraits>
+      <li>Wimp</li>
+	  <li>MLRP_BronyTrait</li>
+    </disallowedTraits>
+	<forcedTraits>
+	  <li>Brawler</li>
+	  <li>MLRP_AntiBronyTrait</li>
+	</forcedTraits>
+    <nameMaker>NamerDog</nameMaker>
+    <nameMakerFemale>NamerDogFemale</nameMakerFemale>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_DogKinds" Name="MLRP_DogKinds_LeaderBase" Abstract="True">
+	<itemQuality>Excellent</itemQuality>
+	<skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Medicine</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Crafting</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Melee</skill>
+        <range>8~16</range>
+      </li>
+	  <li>
+        <skill>Mining</skill>
+        <range>9~15</range>
+      </li>
+
+    </skills>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_DogKinds_SoldierBase" Abstract="True">
+	<itemQuality>Good</itemQuality>
+	<skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Medicine</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Crafting</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Melee</skill>
+        <range>6~15</range>
+      </li>
+	  <li>
+        <skill>Mining</skill>
+        <range>6~15</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_DogKinds_LeaderBase">
+    <defName>DiamondDog_Alpha</defName>
+	<factionLeader>true</factionLeader>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>10~17</initialResistanceRange>
+    <label>Diamond Dog alpha</label>
+	<labelPlural>Diamond Dog alphas</labelPlural>
+    <combatPower>60</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+   <apparelRequired>
+		<li>Apparel_PlateArmor</li>
+		<li>Apparel_AdvancedHelmet</li>
+		<li>Apparel_BasicShirt</li>
+		<li>Apparel_Pants</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>2000</min>
+      <max>3500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>420</min>
+      <max>650</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>Axe</li>
+	  <li>MedievalMeleeDecent</li>
+	  <li>MedievalMeleeAdvanced</li>
+	  <li>LongSword</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+	<acceptArrestChanceFactor>0</acceptArrestChanceFactor>
+</PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_DogKinds_SoldierBase">
+    <defName>DiamondDogSoldier</defName>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>3~5</initialResistanceRange>
+    <label>Diamond Dog soldier</label>
+	<labelPlural>Diamond Dog soldiers</labelPlural>
+    <combatPower>40</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+   <apparelRequired>
+		<li>Apparel_PlateArmor</li>
+		<li>Apparel_AdvancedHelmet</li>
+		<li>Apparel_BasicShirt</li>
+		<li>Apparel_Pants</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>2000</min>
+      <max>3500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>420</min>
+      <max>650</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>Axe</li>
+	  <li>MedievalMeleeDecent</li>
+	  <li>MedievalMeleeAdvanced</li>
+	  <li>LongSword</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+	<acceptArrestChanceFactor>0</acceptArrestChanceFactor>
+</PawnKindDef>
+
+</Defs>

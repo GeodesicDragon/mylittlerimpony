@@ -316,7 +316,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>85</count>
+			<count>60</count>
 		</li>
 	</ingredients>
 	<products>
@@ -410,7 +410,7 @@
 	<defName>MLRP_NMM_Neutroamine</defName>
 	<label>request 100 neutroamine</label>
 	<description>Offer silver in exchange for 100 neutroamine.</description>
-	<researchPrerequisite>MedicineProduction</researchPrerequisite>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

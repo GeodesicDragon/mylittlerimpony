@@ -14,8 +14,8 @@
       <li Class="StorytellerCompProperties_OnOffCycle">
         <category>ThreatBig</category>
         <minDaysPassed>30</minDaysPassed>
-        <onDays>30.0</onDays>
-        <offDays>30.0</offDays>
+        <onDays>29</onDays>
+        <offDays>31</offDays>
         <numIncidentsRange>0.1~1</numIncidentsRange>
         <forceRaidEnemyBeforeDaysPassed>30</forceRaidEnemyBeforeDaysPassed>
         <disallowedTargetTags>

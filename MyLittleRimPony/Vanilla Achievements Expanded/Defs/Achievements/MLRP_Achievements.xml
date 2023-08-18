@@ -533,7 +533,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_DerpyHoovesGold</defName>
 		<label>Special Delivery!</label>
-		<description>Build a Derpy Hooves transport pod out of gold</description>
+		<description>Build a Derpy Hooves transport pod using gold</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -905,6 +905,40 @@
 		</tracker>
 		
 		<texPath>Achievements/Rimcakes</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<!--OTHER STUFFABLES-->
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_ThrumbofurFleurDeLis</defName>
+		<label>Putting The 'Super' In 'Supermodel'</label>
+		<description>Craft a Fleur de Lis plushie using thrumbofur</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>PonyPlush_FleurDeLis</def>
+			<madeFrom>Leather_Thrumbo</madeFrom>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/PuttingTheSuperInSupermodel</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_BirdskinScootaloo</defName>
+		<label>Cluck Off!</label>
+		<description>Craft a Scootaloo plushie using birdskin</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>PonyPlush_Scootaloo</def>
+			<madeFrom>Leather_Bird</madeFrom>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/CluckOff</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 

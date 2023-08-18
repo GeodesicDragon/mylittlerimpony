@@ -1,3 +1,56 @@
+Version 4.17.38 (August 18th 2023)
+
+* Core: Added 8 new recipes to the Daybreaker statue which allow for the rapid creation of 100 drugs at a time, provided you have the right materials.
+	* Flake: 400 psychoid leaves
+	* Go-juice: 200 neutroamine and 100 yayo
+	* Penoxycyline: 200 neutroamine
+	* Poison joke joint: 800 poison joke leaves
+	* Psychite tea: 400 psychoid leaves
+	* Smokeleaf joint: 400 smokeleaf leaves
+	* Wake-up: 200 neutroamine
+	* Yayo: 800 psychoid leaves
+	* Each of these recipes requires half the standard amount of chemfuel (25, or half of whatever you set it to in XML Extensions; value will be rounded down to the nearest whole number to prevent any issues with recipes requiring x.5 chemfuel).
+* Biotech: Added the Diamond Dog xenotype.
+	* Strong stomach
+	* Super strong immunity
+	* Psychically deaf
+	* High cold resistance
+	* High heat resistance
+	* Mild UV sensitivity
+	* Extremely aggressive
+	* Low sleep
+	* Furry tail
+	* Floppy ears
+	* Roar voice
+	* Standard body
+	* Hulk body
+	* Dark vision
+	* Furskin
+	* Terrible shooting
+	* Terrible crafting
+	* Terrible medicine
+	* Remarkable mining
+	* Poison joke dependency
+* Biotech: Added the Diamond Dog faction.
+	* Permanently hostile.
+	* Only uses melee fighters.
+	* Incapable of laying siege.
+	* Drops minerals as loot.
+	* A maximum of three separate factions can be added to a new game.
+* Better Kibble: Added a patch which reduces the cost of requesting kibble from Nightmare Moon to 60 silver (to compensate for the lower market value).
+* Vanilla Achievements Expanded: Added an achievement to make a Fleur De Lis plushie using thrumbofur. (1)
+* Vanilla Achievements Expanded: Re-added the 'Cluck Off!' achievement. (1)
+* Core: Fixed plushie traders not selling cloth.
+* Core: Reduced the cost of requesting 500 kibble from Nightmare Moon to 600 silver (was 850).
+	* This works out at just under 10% above market value (500 x 1.1 = 550 * 1.1 = 605).
+* Core: Requesting neutroamine from Nightmare Moon now requires you to research drug production (was medicine production).
+* Core: Starlight Glimmer now reduces psychic sensitivity by 300% in order to eliminate the larger mood penalties suffered by psychically hypersensitive pawns.
+* Core: Pawns now have a chance of possessing five poison joke joints when creating a new colony.
+* Core: Screwballs can now be built using stone.
+* Royalty: Fixed the 'Request neurocalculator' recipe at the Nightmare Moon statue having the wrong label. Thanks to Wheat Tail for bringing this to my attention.
+
+(1) It's a bit of a pain to unlock, but what worked for me was saving the game just before the item was made and then reloading it.
+
 Version 4.4.31 (July 23rd 2023)
 
 * Core: Added Sunny Starscout as a storyteller.

@@ -12,7 +12,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <equippedStatOffsets>
-      <PsychicSensitivity>-1</PsychicSensitivity>
+      <PsychicSensitivity>-3</PsychicSensitivity>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>

@@ -1,0 +1,80 @@
+<Defs>
+
+<!--PAWN NAMES-->
+<!--I consulted a list of the most popular dog names, but there weren't many. Feel free to suggest ones I could add!-->
+
+    <RulePackDef>
+        <defName>NamerDog</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[MaleDogFirstName] [DiamondDogPawPrefix][DiamondDogSuffix]</li> <!--Example: Rex Bloodclaw-->
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>MaleDogFirstName</keyword>
+                    <path>NameBanks/MaleDogFirstNames</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>DiamondDogPrefix</keyword>
+                    <path>NameBanks/DiamondDogPrefixes</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>DiamondDogSuffix</keyword>
+                    <path>NameBanks/DiamondDogSuffixes</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+	
+    <RulePackDef>
+        <defName>NamerDogFemale</defName>
+        <rulePack>
+            <rulesStrings>
+				<li>name->[FemaleDogFirstName] [DiamondDogPrefix][DiamondDogSuffix]</li> <!--Example: Bella Deathpaw-->
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>FemaleDogFirstName</keyword>
+                    <path>NameBanks/FemaleDogFirstNames</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>DiamondDogPrefix</keyword>
+                    <path>NameBanks/DiamondDogPrefixes</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>DiamondDogSuffix</keyword>
+                    <path>NameBanks/DiamondDogSuffixes</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+
+<!--FACTION NAMES-->
+
+  <RulePackDef>
+    <defName>MLRP_DogFactionNames</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name->The [PonyThing] [Destruction]</li> <!--Example: The Harmony Stompers-->
+		<li>r_name->The [Fury] [Destruction]</li> <!--Example: The Raging Rippers-->
+      </rulesStrings>
+	  <rulesRaw>
+		<li Class="Rule_File">
+			<keyword>Destruction</keyword>
+			<path>NameBanks/DestructionWords</path>
+		</li>
+		<li Class="Rule_File">
+			<keyword>Fury</keyword>
+			<path>NameBanks/FuryWords</path>
+		</li>
+		<li Class="Rule_File">
+			<keyword>PonyThing</keyword>
+			<path>NameBanks/PonyThings</path>
+		</li>
+	  </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+<!--SETTLEMENT NAMES ARE HANDLED BY THE EXISTING TRIBAL RULES-->
+  
+</Defs>

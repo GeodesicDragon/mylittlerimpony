@@ -3,7 +3,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Alicorn</defName>
     <label>alicorn</label>
-    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nAlicorns have exceptional artistic and social skills, but fare poorly at everything else. They are exceedingly beautiful, and can heal wounds or gain immunity to disease faster than other races, but are vulnerable to attack.\n\nThey can also increase their social skills by a substantial amount for a time, but only once per quadrum.</description>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nAlicorns have exceptional artistic and social skills, but fare poorly at everything else. They are exceedingly beautiful, and can heal wounds or gain immunity to disease faster than other races, but are vulnerable to attack.\n\nThey can also increase their social skills by a substantial amount for a time, but only once per quadrum.</description>
     <descriptionShort>Alicorns are beautiful, have excellent art and social skills, and can heal very fast. They are vulnerable to attack, and struggle with many other skills, but have the ability to vastly increase their social skills once per quadrum.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Alicorn</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -46,7 +46,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_EarthPony</defName>
     <label>earth pony</label>
-    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nEarth ponies are sturdy beings who excel at working with nature, but aren't very good at more 'advanced' skills, such as crafting.\n\nThey also have quite large appetites, and will consume more food than the other pony races.</description>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nEarth ponies are sturdy beings who excel at working with nature, but aren't very good at more 'advanced' skills, such as crafting.\n\nThey also have quite large appetites, and will consume more food than the other pony races.</description>
     <descriptionShort>Earth ponies excel at working with plants and animals, but struggle with more intellectual skills. They can shrug off most blows, and will not slow down when attacked. However, they do tend to eat a lot.</descriptionShort>
 	<iconPath>UI/Icons/Genes/EarthPony</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -82,7 +82,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Unicorn</defName>
     <label>unicorn</label>
-    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.\n\nFurthermore, a side effect of the xenogerm creation process has left them dependent on wake-up to keep going.</description>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.\n\nFurthermore, a side effect of the xenogerm creation process has left them dependent on wake-up to keep going.</description>
     <descriptionShort>Unicorns excel at research and medicine, but struggle with more manual skills. They are calm, fast learners with a dependence on wake-up.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Unicorn</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -119,7 +119,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Pegasus</defName>
     <label>pegasus</label>
-    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities, as well as leaving them dependent on regular doses of go-juice.</description>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities, as well as leaving them dependent on regular doses of go-juice.</description>
     <descriptionShort>Pegasi excel at combat, but struggle with everything else. They are aggressive, fast movers and can see in the dark. They are also dependent on go-juice.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Pegasus</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -162,7 +162,7 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Changeling</defName>
     <label>changeling</label>
-    <description>This xenotype is one of five that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the five pony races, but the end results turned out to be much different than they expected.\n\nChangelings are a race of insect-like equines who can change their form to that of any creature they like; they then use this ability to gather love, which they bring back to their hives and feed on.\n\nThese humanoid changelings lack the ability to shapeshift, but they make up for that with their skills in crafting and construction, though they are terrible at pretty much anything else. They are not very nice to look at, but they have high libidos, are very fertile, can eat pretty much anything, don't get cold easily, and thrive in polluted areas.\n\nSide effects of the xenogerm implementation process include the ability to shoot acid at their enemies, as well as a fear of fire.</description>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nChangelings are a race of insect-like equines who can change their form to that of any creature they like; they then use this ability to gather love, which they bring back to their hives and feed on.\n\nThese humanoid changelings lack the ability to shapeshift, but they make up for that with their skills in crafting and construction, though they are terrible at pretty much anything else. They are not very nice to look at, but they have high libidos, are very fertile, can eat pretty much anything, don't get cold easily, and thrive in polluted areas.\n\nSide effects of the xenogerm implementation process include the ability to shoot acid at their enemies, as well as a fear of fire.</description>
     <descriptionShort>Changelings excel at crafting and construction, but are bad at everything else. They can spray acid at their enemies, survive in cold areas with ease and have high libidos and fertility alongside robust digestive systems and the ability to thrive in polluted areas. They are afraid of fire and very ugly to look at.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Changeling</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
@@ -209,6 +209,39 @@
 		<li>AptitudeTerrible_Medicine</li>
 		<li>AptitudeTerrible_Social</li>
 		<li>AptitudeTerrible_Intellectual</li>
+	</genes>
+</XenotypeDef>
+
+<XenotypeDef>
+    <defName>MLRP_Xeno_DiamondDog</defName>
+    <label>diamond dog</label>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nDiamond Dogs are exceptional miners who thrive in the underground parts of the world, where they have developed strong stomachs, super strong immunity, a complete disregard for psychic phenomena, and a lowered need to sleep. A lifetime spent underground has led to them being sensitive to sunlight, though it has also built up their resistances to varying levels of cold and heat.\n\nSide effects of the xenogerm implantation process include a heightened level of aggression, as well as a poison joke dependency.</description>
+    <descriptionShort>Diamond Dogs are exceptional miners with strong stomachs and immune systems, total immunity to psychic phenomena, and a less frequent need for rest. They are sensitive to sunlight, resistant to cold and heat, but also highly aggressive and dependent on regular doses of poison joke.</descriptionShort>
+	<iconPath>UI/Icons/Genes/DiamondDog</iconPath>
+	<nameMaker>NamerPersonYttakin</nameMaker> <!--Hopefully this will be a temporary measure-->
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+	<inheritable>true</inheritable>
+	<genes>
+			<li>StrongStomach</li>
+			<li>Immunity_SuperStrong</li>
+			<li>PsychicAbility_Deaf</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>UVSensitivity_Mild</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>LowSleep</li>
+			<li>Tail_Furry</li>
+			<li>Ears_Floppy</li>
+			<li>VoiceRoar</li>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>DarkVision</li>
+			<li>Furskin</li>
+			<li>AptitudeTerrible_Shooting</li>
+			<li>AptitudeRemarkable_Mining</li>
+			<li>AptitudeTerrible_Crafting</li>
+			<li>AptitudeTerrible_Medicine</li>
+			<li>ChemicalDependency_MLRP_PoisonJoke</li>
 	</genes>
 </XenotypeDef>
 

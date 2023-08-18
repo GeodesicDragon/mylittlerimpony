@@ -12,6 +12,11 @@
 				<countRange>10000~20000</countRange>
 			</li>
 			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>300~900</countRange>
+			</li>
+			
 			<li Class="StockGenerator_Category">
 				<categoryDef>Pony_Plushies</categoryDef>
 				<thingDefCountRange>99~99</thingDefCountRange>
@@ -22,6 +27,9 @@
 				<categoryDef>Textiles</categoryDef>
 				<thingDefCountRange>1~20</thingDefCountRange>
 				<countRange>300~900</countRange>
+				<excludedThingDefs>
+					<li>Cloth</li> <!-- already handled by single def -->
+				</excludedThingDefs>
 			</li>
 		</stockGenerators>
 	</TraderKindDef>
