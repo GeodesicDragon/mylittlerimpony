@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>MLRP_PartyCannonBoostSlave</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>party cannon effect (slave)</label>
+				<description>I feel a bit better, but it doesn't change the fact that I'm a slave.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>MLRP_AntiBronyTrait</li>
+			<li>MLRP_BronyTrait</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+</Defs>

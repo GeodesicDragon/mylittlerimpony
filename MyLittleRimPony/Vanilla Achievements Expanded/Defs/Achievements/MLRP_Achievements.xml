@@ -13,7 +13,7 @@
 		</tracker>
 		
 		<texPath>Achievements/ItAllStartsHere</texPath>
-		<points>25</points>
+		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 
 	<!--PLUSHIES-->
@@ -467,7 +467,7 @@
 		</tracker>
 		
 		<texPath>Achievements/TenSweetieBots</texPath>
-		<points>250</points>
+		<points>100</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -543,7 +543,7 @@
 		</tracker>
 		
 		<texPath>Achievements/SpecialDelivery</texPath>
-		<points>75</points>
+		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -684,7 +684,7 @@
 		</tracker>
 		
 		<texPath>Achievements/LegendaryTennisBallLauncher</texPath>
-		<points>50</points>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -715,7 +715,7 @@
 		</tracker>
 		
 		<texPath>Achievements/LegendaryRainbowLaser</texPath>
-		<points>50</points>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -762,7 +762,7 @@
 		</tracker>
 		
 		<texPath>Achievements/HelloooooooNurse</texPath>
-		<points>30</points>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -777,7 +777,7 @@
 		</tracker>
 		
 		<texPath>Achievements/YouveGotOpportunity</texPath>
-		<points>30</points>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>

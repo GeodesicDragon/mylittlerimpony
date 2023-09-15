@@ -1,0 +1,28 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<AchievementsExpanded.AchievementDef>
+					<defName>MLRP_VFED_Achievement_Spitfire</defName>
+					<label>Well, Whoop Dee Doodle Doo!</label>
+					<description>Build a Spitfire</description>
+					<tab>MLRP_BuildingAchievementTab</tab>
+					
+					<tracker Class="AchievementsExpanded.BuildingTracker">
+						<def>MLRP_VFE_Deserters_Spitfire</def>
+						<count>1</count>
+					</tracker>
+					
+					<texPath>Achievements/WhoopDeeDoodleDoo</texPath>
+					<points>10</points>
+				</AchievementsExpanded.AchievementDef>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

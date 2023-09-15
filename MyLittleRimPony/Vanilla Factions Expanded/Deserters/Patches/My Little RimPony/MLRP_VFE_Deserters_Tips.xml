@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips</xpath>
+		<value>
+			<li>Spitfire: "Well, I'm here to tell ya that if ya play *that* game, you're gonna find out it's pretty hard to 'stunt tricks' in a FULL BODY WING-AND-HOOF CAST DRINKIN' THROUGH A STRAW!"</li>
+		</value>
+	</Operation>
+
+</Patch>

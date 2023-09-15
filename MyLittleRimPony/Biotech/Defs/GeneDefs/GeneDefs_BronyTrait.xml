@@ -1,0 +1,18 @@
+<Defs>
+
+<GeneDef>
+    <defName>MLRP_BronyGene</defName>
+    <label>brony</label>
+    <labelShortAdj>brony</labelShortAdj>
+    <description>Carriers of this gene are bronies.</description>
+    <iconPath>Things/EquestrianFlag</iconPath>
+    <forcedTraits>
+		<li>
+			<def>MLRP_BronyTrait</def>
+		</li>
+    </forcedTraits>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+</GeneDef>
+
+</Defs>

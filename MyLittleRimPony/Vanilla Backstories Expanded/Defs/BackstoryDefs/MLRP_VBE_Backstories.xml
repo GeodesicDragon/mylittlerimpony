@@ -1,20 +1,19 @@
 <Defs>
-
-	<VFECore.BackstoryDef>
-		<defName>MLRP_VBE_MLPFanBackstory</defName>
-		<title>MLP Obsessive</title>
-		<titleShort>MLP Obsessive</titleShort>
-		<baseDescription>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art, fanfiction and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about making friends and creating things, but has no interest in any other skills.</baseDescription>
+	<BackstoryDef>
 		<slot>Adulthood</slot>
+		<title>MLP Obsessive</title>
+		<defName>MLRP_VBE_MLPFanBackstory</defName>
+		<titleShort>MLP Obsessive</titleShort>
+		<baseDesc>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art, fanfiction and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about making friends and creating things, but has no interest in any other skills.</baseDesc>
 		<spawnCategories>
 		  <li>Offworld</li>
 		  <li>Outlander</li>
 		  <li>Outsider</li>
 		</spawnCategories>
 		<skillGains>
-			<Artistic>10</Artistic>
-			<Crafting>10</Crafting>
-			<Social>10</Social>
+			<li><key>Artistic</key><value>10</value></li>
+			<li><key>Crafting</key><value>10</value></li>
+			<li><key>Social</key><value>10</value></li>
 		</skillGains>
 		<workDisables>
 		  <li>Animals</li>
@@ -26,21 +25,19 @@
 		  <li>Mining</li>
 		  <li>PlantWork</li>
 		</workDisables>
-		<passions>
+		<!--<passions>
 		  <Artistic>2</Artistic>
 		  <Crafting>2</Crafting>
 		  <Social>2</Social>
-		</passions>
+		</passions>-->
 		<disallowedTraits>
-			<li><defName>DislikesMen</defName></li>
-			<li><defName>DislikesWomen</defName></li>
-			<li><defName>DrugDesire</defName></li>
-			<li><defName>Psychopath</defName></li>
-			<li><defName>MLRP_AntiBronyTrait</defName></li>
+			<DrugDesire />
+			<Psychopath />
+			<MLRP_AntiBronyTrait />
 		</disallowedTraits>
 		<forcedTraits>
-			<li><defName>MLRP_BronyTrait</defName></li>
+			<MLRP_BronyTrait />
 		</forcedTraits>
-	</VFECore.BackstoryDef>
+	</BackstoryDef>
 
 </Defs>

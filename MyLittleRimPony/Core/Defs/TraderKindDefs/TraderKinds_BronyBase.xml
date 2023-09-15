@@ -61,8 +61,12 @@
         <countRange>-30~70</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>25~75</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-        <countRange>50~200</countRange>
+        <countRange>25~75</countRange>
       </li>
       <li Class="StockGenerator_ReinforcedBarrels">
         <countRange>1~4</countRange>
@@ -162,6 +166,7 @@
         <countRange>5</countRange>
 		<totalPriceRange>2200~2800</totalPriceRange>
       </li>
+	  
 
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
@@ -202,8 +207,7 @@
 	  
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <respectPopulationIntent>false</respectPopulationIntent>
-        <countRange>1~3</countRange>
+        <countRange>2~4</countRange>
       </li>
 	  
       <li Class="StockGenerator_SingleDef">
@@ -217,6 +221,7 @@
 	  <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
 	  <li Class="StockGenerator_BuyTradeTag"><tag>MLRP_Plushie</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>ExoticMisc</tag></li>
     </stockGenerators>
   </TraderKindDef>
 
@@ -378,11 +383,29 @@
       </li>
 	  
 	  <!--Buildings-->
+	  
 	  <li Class="StockGenerator_SingleDef">
         <thingDef>MLRP_Turret_SweetieBot</thingDef>
         <countRange>5</countRange>
-		<totalPriceRange>2200~2800</totalPriceRange>
+		<!--<totalPriceRange>2200~2800</totalPriceRange>-->
       </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_Mudbriar</thingDef>
+        <countRange>1</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_QuibblePants</thingDef>
+        <countRange>1</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_ZephyrBreeze</thingDef>
+        <countRange>1</countRange>
+      </li>
+	  
+	  <!--Drugs-->
 
       <li Class="StockGenerator_Category">
           <categoryDef>Drugs</categoryDef>
@@ -390,29 +413,12 @@
       </li>
       
       <!-- Buying -->
+	  
       <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
       
     </stockGenerators>
   </TraderKindDef>
-  
-<!--SLAVE TRADER-->
-  
-<TraderKindDef>
-	<defName>MLRP_NPCFaction_SlaveTrader</defName>
-	<label>slave trader</label>
-	<requestable>true</requestable>
-	<stockGenerators>
-	<li Class="StockGenerator_SingleDef">
-		<thingDef>Silver</thingDef>
-		<countRange>1000~2500</countRange>
-	</li>
-	<li Class="StockGenerator_Slaves">
-		<respectPopulationIntent>false</respectPopulationIntent>
-		<countRange>5</countRange>
-	</li>
-	</stockGenerators>
-</TraderKindDef>
 
 <!--EXOTIC GOODS TRADER-->
 

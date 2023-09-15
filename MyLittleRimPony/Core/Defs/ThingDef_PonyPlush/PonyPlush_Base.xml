@@ -36,16 +36,19 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <thingCategories>
-      <li>Pony_Plushies</li>
+		<li>Pony_Plushies</li>
     </thingCategories>
     <costStuffCount>300</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
     </stuffCategories>
     <tradeTags>
-      <li>MLRP_Plushie</li>
+		<li>MLRP_Plushie</li>
     </tradeTags>
+	<thingSetMakerTags>
+		<li>Pony_Plushie</li>
+	</thingSetMakerTags>
     <comps>
 		<li Class="CompProperties_Forbiddable" />
 		<li Class="CompProperties_CauseHediff_Apparel">

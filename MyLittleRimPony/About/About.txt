@@ -43,11 +43,13 @@ IDEOLOGY
 
 BIOTECH
 
-* Adds a unicorn horn gene mod which improves a pawn's manipulation by 50% and their carrying capacity by 50kg.
-* Adds an earth pony strength gene mod which imbues a pawn with extra hardiness, increasing their armour and cold/heat resistances.
-* Adds a pegasus wings gene mod which makes a pawn faster (+2c/s move speed) and more agile (+15% extra dodge chance).
+* Adds a unicorn horn gene which improves a pawn's manipulation by 50% and their carrying capacity by 50kg.
+* Adds an earth pony strength gene which imbues a pawn with extra hardiness, increasing their armour and cold/heat resistances.
+* Adds a pegasus wings gene which makes a pawn faster (+2c/s move speed) and more agile (+15% extra dodge chance).
 * All three of these effects can be applied at once using the alicorn gene mod.
 * Sweetie Bot mechanoids!
+* Pony-based xenotypes: alicorns, earth ponies, unicorns, pegasi, changelings and Diamond Dogs.
+* Hostile Diamond Dog faction (of which three can be added to a new game).
 
 |-------------------------|
 |      CORE PLUSHIES      |
@@ -130,7 +132,6 @@ Addictol - Addiciton Removal: NPC faction settlements and weapon traders will se
 Bulk Carrier: Big Macintosh increases carrying capacity by 50kg instead of 25.
 Callouts: Adds MLP themed callouts for various events; they are only said by pawns with the Brony trait.
 Combat Extended: Weapons use ammo and have clip sizes, plushies have some bulk.
-Harvest Organs Post Mortem: Adds recipes to the Nightmare Moon statue which allow you to turn extra organs into chocolate.
 Irn-Bru And Other Scottish Delights: NPC faction will send Scottish goods traders and stock goods at their settlements.
 Reverse Engineered Mechanoid Shields: The NPC faction will send mechanoid shield traders.
 RimPonk: All factions send plushie traders, pony pawns can equip plushies and pony pawns can be part of the NPC faction.
@@ -139,12 +140,11 @@ Trait and Backstory Icons: Not a patch; adds icons for the brony and anti brony 
 Vanilla Achievements Expanded: Adds achievements to acquire each of the items added by MLRP. (RimWorld 1.2+ only.)
 Vanilla Backgrounds Expanded: Adds new main menu and loading screen backgrounds.
 Vanilla Furniture Expanded - Production: The plushie bench can benefit from the bonus provided by the tailoring cabinet.
-Weeb Faction: The Weeaboo Clan faction is not hostile to player or NPC brony factions.
 XML Extensions: Allows you to configure many aspects of the mod to your own liking.
 	* Amount of stuff needed to make plushies.
 	* Crafting skill needed to make plushies.
 	* Whether or not plushies become tainted upon death.
-	* Whether or not bronies are capable of violence.
+	* Whether or not bronies are capable of violence. If yes, the scenarios will include weapons.
 	* How often the brony trait appears on pawns. (Can be set to 0 so it no longer appears.)
 	* How often the anti brony trait appears on pawns. (Can be set to 0 so it no longer appears.)
 	* Accuracy of Sweetie Bot turrets at touch/short/medium/long range.

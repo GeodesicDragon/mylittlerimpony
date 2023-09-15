@@ -5,9 +5,10 @@
     <defName>MLRP_DiamondDog_Faction</defName>
     <label>diamond dog clan</label>
     <categoryTag>Outlander</categoryTag>
-    <description>A colony of people who have undergone xenotype implantation to become Diamond Dogs. They have a zero tolerance approach to outsiders, and will attack anyone and everyone who is not a member of their clan. In combat, they rely solely on large numbers of melee combatants wearing plate armour.</description>
-	<naturalEnemy>true</naturalEnemy>
-	<permanentEnemy>true</permanentEnemy>
+    <description>A colony of people who have undergone xenotype implantation to become Diamond Dogs. They have a zero tolerance approach to outsiders, and will attack anyone who is not one of them. In combat, they rely solely on large numbers of melee combatants wearing plate armour.</description>
+	<permanentEnemyToEveryoneExcept>
+		<li>MLRP_DiamondDog_Faction</li> <!--If you have more than one clan, they will get along with each other and nobody else.-->
+	</permanentEnemyToEveryoneExcept>
     <pawnSingular>Diamond Dog</pawnSingular>
     <pawnsPlural>Diamond Dogs</pawnsPlural>
     <settlementGenerationWeight>2</settlementGenerationWeight>
@@ -27,7 +28,8 @@
     <factionNameMaker>MLRP_DogFactionNames</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <allowedCultures>
-		<li>Astropolitan</li>
+		<li>Kriminul</li>
+		<li>Rustican</li>
 	</allowedCultures>
 	<disallowedMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
@@ -61,14 +63,15 @@
       <stuffCategoriesToAllow>
         <li>Metallic</li>
         <li>Fabric</li>
+        <li>Leathery</li>
       </stuffCategoriesToAllow>
     </apparelStuffFilter>
     <allowedArrivalTemperatureRange>-60~60</allowedArrivalTemperatureRange>
     <settlementTexturePath>World/WorldObjects/DiamondDogSettlement</settlementTexturePath>
     <colorSpectrum>
       <li>(1, 0, 0)</li>
-      <li>(0.75, 0, 0)</li>
-      <li>(0.5, 0, 0)</li>
+      <li>(0, 1, 0)</li>
+      <li>(0, 0, 1)</li>
     </colorSpectrum>
     <fixedLeaderKinds>
       <li>DiamondDog_Alpha</li>

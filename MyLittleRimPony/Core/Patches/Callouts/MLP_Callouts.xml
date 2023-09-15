@@ -55,6 +55,7 @@
 						<li>callout_villain->King Sombra</li>
 						<li>callout_villain->Grogar</li>
 						<li>callout_villain->The Shadow Pony</li>
+						<li>callout_villain->Opaline Arcana</li>
 						<li>callout_celestialbody->sun</li>
 						<li>callout_celestialbody->moon</li>
 						<li>callout_celestialbody->Crystal Heart</li>
@@ -75,7 +76,8 @@
 						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you like they shoulda beat Cozy Glow!</li>
-						<li>rule(BRONY==true)->I will defeat you with the power of [callout_pony], and this gun I found.</li>
+						<li>rule(BRONY==true)->I will defeat you with the power of [callout_pony], and this weapon I found.</li>
+						<li>rule(BRONY==true)->You're going to be in a FULL-BODY ARMS AND LEGS CAST, DRINKIN' THROUGH A STRAW!</li>
 						<li>rule(SWEETIEBOT==true)->Attack in progress.</li>
 						<li>rule(SWEETIEBOT==true)->Engaging hostiles.</li>
 						<li>rule(SWEETIEBOT==true)->Targeting systems online.</li>

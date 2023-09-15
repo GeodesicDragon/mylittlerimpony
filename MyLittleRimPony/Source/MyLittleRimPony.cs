@@ -47,11 +47,14 @@ namespace MyLittleRimPony
         public static ThoughtDef MLRP_PartyCannonBoostRegularPawn;
         public static ThoughtDef MLRP_PartyCannonBoostBrony;
         public static ThoughtDef MLRP_PartyCannonBoostAntiBrony;
+        public static ThoughtDef MLRP_PartyCannonBoostPrisoner;
         public static TraitDef MLRP_BronyTrait;
         public static TraitDef MLRP_AntiBronyTrait;
         [MayRequireRoyalty]
         public static ThoughtDef MLRP_HarmonyChipInstalledAntiBrony;
-
+        [MayRequireIdeology]
+        public static ThoughtDef MLRP_PartyCannonBoostSlave;
+        
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
@@ -231,87 +234,87 @@ namespace MyLittleRimPony
             {
                 case 1:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedConsciousness);
-                    affliction = "increased consciousness";
+                    affliction = "MLRP_PoisonJokeGoodConsciousness".Translate();
                     break;
                 case 2:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedConsciousness);
-                    affliction = "reduced consciousness";
+                    affliction = "MLRP_PoisonJokeBadConsciousness".Translate();
                     break;
                 case 3:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSuperSpeedy);
-                    affliction = "super speedy";
+                    affliction = "MLRP_PoisonJokeGoodSpeed".Translate();
                     break;
                 case 4:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSlowAndSluggish);
-                    affliction = "slow and sluggish";
+                    affliction = "MLRP_PoisonJokeBadSpeed".Translate();
                     break;
                 case 5:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeGoodManipulation);
-                    affliction = "good manipulation";
+                    affliction = "MLRP_PoisonJokeGoodManipulation".Translate();
                     break;
                 case 6:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokePoorManipulation);
-                    affliction = "poor manipulation";
+                    affliction = "MLRP_PoisonJokeBadManipulation".Translate();
                     break;
                 case 7:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedTalking);
-                    affliction = "gift of the gab";
+                    affliction = "MLRP_PoisonJokeGoodTalking".Translate();
                     break;
                 case 8:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedTalking);
-                    affliction = "total silence";
+                    affliction = "MLRP_PoisonJokeBadTalking".Translate();
                     break;
                 case 9:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedEating);
-                    affliction = "quick eater";
+                    affliction = "MLRP_PoisonJokeGoodEating".Translate();
                     break;
                 case 10:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedEating);
-                    affliction = "slow eater";
+                    affliction = "MLRP_PoisonJokeBadEating".Translate();
                     break;
                 case 11:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSightBeyondSight);
-                    affliction = "sight beyond sight";
+                    affliction = "MLRP_PoisonJokeGoodSight".Translate();
                     break;
                 case 12:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeBlindness);
-                    affliction = "blindness";
+                    affliction = "MLRP_PoisonJokeBadSight".Translate();
                     break;
                 case 13:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedHearing);
-                    affliction = "improved hearing";
+                    affliction = "MLRP_PoisonJokeGoodHearing".Translate();
                     break;
                 case 14:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedHearing);
-                    affliction = "deafness";
+                    affliction = "MLRP_PoisonJokeBadHearing".Translate();
                     break;
                 case 15:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBreathing);
-                    affliction = "improved breathing";
+                    affliction = "MLRP_PoisonJokeGoodBreathing".Translate();
                     break;
                 case 16:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBreathing);
-                    affliction = "struggling for breath";
+                    affliction = "MLRP_PoisonJokeBadBreathing".Translate();
                     break;
                 case 17:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBloodFiltration);
-                    affliction = "improved blood filtration";
+                    affliction = "MLRP_PoisonJokeGoodBloodFiltration".Translate();
                     break;
                 case 18:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBloodFiltration);
-                    affliction = "poor blood filtration";
+                    affliction = "MLRP_PoisonJokeBadBloodFiltration".Translate();
                     break;
                 case 19:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBloodPumping);
-                    affliction = "improved blood pumping";
+                    affliction = "MLRP_PoisonJokeGoodBloodPumping".Translate();
                     break;
                 case 20:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBloodPumping);
-                    affliction = "poor blood pumping";
+                    affliction = "MLRP_PoisonJokeBadBloodPumping".Translate();
                     break;
                 case 21:
                     pawn.health.AddHediff(MyDefOf.MLRP_CutiePox);
-                    affliction = "Cutie Pox";
+                    affliction = "MLRP_PoisonJokeCutiePox".Translate();
                     break;
             }
             if (n == 2 || n == 4 || n == 6 || n == 8 || n == 10 || n == 12 || n == 14 || n == 16 || n == 18 || n == 20 || n == 21)
@@ -357,20 +360,28 @@ namespace MyLittleRimPony
             Pawn pawn = (Pawn)target;
             if (pawn.Dead || pawn.needs == null || pawn.needs.mood == null)
                 return;
-            if (pawn.IsColonist)
+            if (pawn.IsColonist) // Pawn is a colonist
             {
-                if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Pawn has neither the brony or anti brony trait
+                if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Colonist has neither the brony or anti brony trait
                 {
                     pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostRegularPawn));
                 }
-                if (pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Pawn has the brony trait
+                if (pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && !pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Colonist has the brony trait
                 {
                     pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostBrony));
                 }
-                if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Pawn has the anti brony trait
+                if (!pawn.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && pawn.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait)) // Colonist has the anti brony trait
                 {
                     pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostAntiBrony));
                 }
+            }
+            if (pawn.IsPrisoner) // Pawn is a prisoner
+            {
+                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostPrisoner));
+            }
+			if (ModsConfig.IsActive("Ludeon.RimWorld.Ideology") && pawn.IsSlave) // Pawn is a slave (requires Ideology DLC)
+            {
+				pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostSlave));
             }
         }
     }

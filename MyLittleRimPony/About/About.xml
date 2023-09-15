@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>[MLP] My Little RimPony</name>
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rimpony</packageId>
 	<url>https://discord.gg/BGKnpza</url>
-	<modVersion>4.17.38</modVersion>
+	<modVersion>4.24.66</modVersion>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
@@ -30,5 +29,5 @@ Some people have even gone so far as to undergo xenotype implementation in order
 
 <b>I HAVE A QUESTION/COMMENT/BUG/SUGGESTION</b>
 
-Please use my Discord server for all enquiries, as I am on Discord a lot; I will reply to you much faster there than I will anywhere else.]]></description>
+Please use my Discord server for all enquiries; I am on Discord a lot, so I will reply to you much faster there than I will anywhere else.]]></description>
 </ModMetaData>

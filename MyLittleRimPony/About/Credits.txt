@@ -6,7 +6,7 @@ KEY
 
 * Source provided on Derpibooru was either missing or invalid.
 ** I had to edit this image before I could use it.
-*** This image is used by an item which is only seen if a particular mod is enabled.
+*** This image is used by an item or building which is only seen if a particular mod is enabled.
 
 CREDITS
 
@@ -71,6 +71,7 @@ Miss Pommel: chainchomp2 (964470)
 Derpy Hooves: starryshineviolet (2944310)
 Party Cannon: benpictures1 (2756837)
 Marble Pie: littlejurnalina (2824560)**
+Spitfire: fikrieka (2094942)***
 
 MAIN MENU BACKGROUNDS (Requires Vanilla Backgrounds Expanded)
 

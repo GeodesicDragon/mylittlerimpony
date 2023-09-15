@@ -6,7 +6,7 @@
 		<!--MLP doesn't have a lot of male names, so we'll have to use a bunch of random ones-->
         <defName>NamerBrony</defName>
         <rulePack>
-            <rulesStrings><!--r_name(p=12)-->
+            <rulesStrings>
                 <li>name->[PonyFirstName] [PonyLastName]</li>
                 <li>name->[PonyLastName] [PonyFirstName]</li>
                 <li>name->[MaleFirstName] [MaleLastName]</li>
@@ -39,6 +39,8 @@
                 <li>name->Sky Stinger</li>
                 <li>name->Snap Shutter</li>
                 <li>name->Sprout Cloverleaf</li>
+                <li>name->Zephyr Breeze</li>
+                <li>name->Mudbriar</li>
 				<!--Use some OC names too; contact me on Discord if you'd like yours added-->
 				<li>name->Doctor Haywick</li>
 				<li>name->Aquilla Hawkmoon</li>
@@ -88,17 +90,28 @@
                 <li>name->[FemaleFirstName] [PonyLastName]</li>
 				<li>name->[RandomWord] [RandomWord]</li> <!--Will more than likely generate some weird combinations-->
                 <li>name->[FemaleSingleName]</li>
-				<!--Use the names of Twilight and her friends as they are-->
+				<!--Mane Six (G4)-->
 				<li>name->Twilight Sparkle</li>
 				<li>name->Rarity</li>
 				<li>name->Rainbow Dash</li>
 				<li>name->Applejack</li>
 				<li>name->Fluttershy</li>
 				<li>name->Pinkie Pie</li>
-				<!--Same goes for the Cutie Mark Crusaders-->
+				<!--Cutie Mark Crusaders-->
 				<li>name->Sweetie Belle</li>
 				<li>name->Apple Bloom</li>
 				<li>name->Scootaloo</li>
+				<!--Mane Six (G5)-->
+				<li>name->Sunny Starscout</li>
+				<li>name->Izzy Moonbow</li>
+				<li>name->Zipp Storm</li>
+				<li>name->Pipp Petals</li>
+				<li>name->Misty Brightdawn</li>
+				<!--Villains too because why not?-->
+				<li>name->Nightmare Moon</li>
+				<li>name->Daybreaker</li>
+				<li>name->Queen Chrysalis</li>
+				<li>name->Opaline Arcana</li>
 				<!--Use some OC names too; contact me on Discord if you'd like yours added-->
 				<li>name->Nurse Haywick</li>
 				<li>name->Amethyst Shade</li>

@@ -23,7 +23,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>380</MaxHitPoints>
-	  <MarketValue>2500</MarketValue>
+	  <!--<MarketValue>2500</MarketValue>-->
       <Flammability>0.7</Flammability>
       <WorkToBuild>2400</WorkToBuild>
       <Mass>35</Mass>

@@ -1,0 +1,95 @@
+<Defs>
+
+<!--REQUEST REGULAR INTEL-->
+
+<RecipeDef>
+	<defName>MLRP_VFE_Deserters_GetRegularIntel</defName>
+	<label>request intel</label>
+	<description>Spitfire and her team will gather intelligence for you, for a price.</description>
+    <jobString>Contacting the Wonderbolts</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3600</workAmount>
+	<recipeUsers>
+		<li>MLRP_VFE_Deserters_Spitfire</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>750</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MedicineIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+		<li>
+			<filter>
+			  <customSummary>pony-friendly foodstuffs</customSummary>
+			  <categories>
+				<li>PlantFoodRaw</li>
+			  </categories>
+			</filter>
+			<count>500</count>
+		</li>
+	</ingredients>
+	<products>
+		<VFED_Intel>50</VFED_Intel>
+	</products>
+</RecipeDef>
+
+<!--REQUEST CRITICAL INTEL-->
+
+<RecipeDef>
+	<defName>MLRP_VFE_Deserters_GetCriticalIntel</defName>
+	<label>request critical intel</label>
+	<description>Spitfire and her team will gather critical intelligence for you, for a price.</description>
+    <jobString>Contacting the Wonderbolts</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3600</workAmount>
+	<recipeUsers>
+		<li>MLRP_VFE_Deserters_Spitfire</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>1500</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MedicineUltratech</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+		<li>
+			<filter>
+			  <customSummary>pony-friendly foodstuffs</customSummary>
+			  <categories>
+				<li>PlantFoodRaw</li>
+			  </categories>
+			</filter>
+			<count>750</count>
+		</li>
+	</ingredients>
+	<products>
+		<VFED_CriticalIntel>10</VFED_CriticalIntel>
+	</products>
+</RecipeDef>
+
+</Defs>

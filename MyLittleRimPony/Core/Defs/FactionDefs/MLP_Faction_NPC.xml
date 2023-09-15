@@ -54,7 +54,6 @@
       <li>MLRP_PlushieTrader</li>
       <li>MLRP_NPCFaction_BulkGoods</li>
 	  <li>MLRP_NPCFaction_CombatSupplier</li>
-	  <li>MLRP_NPCFaction_SlaveTrader</li>
 	  <li>MLRP_NPCFaction_ExoticGoodsTrader</li>
 	  <li>MLRP_NPCFaction_Stonemason</li>
     </caravanTraderKinds>

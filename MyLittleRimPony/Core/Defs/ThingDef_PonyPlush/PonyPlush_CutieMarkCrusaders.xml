@@ -29,7 +29,7 @@
 		<ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
 		<InjuryHealingFactor>0.5</InjuryHealingFactor>
 		<CookSpeed>20</CookSpeed>
-		<FoodPoisonChance>-0.1</FoodPoisonChance>
+		<FoodPoisonChance>-0.25</FoodPoisonChance>
     </equippedStatOffsets>
     <costStuffCount>900</costStuffCount>
     <stuffCategories>

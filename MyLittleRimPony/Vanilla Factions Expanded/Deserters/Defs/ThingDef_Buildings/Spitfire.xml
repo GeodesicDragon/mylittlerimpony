@@ -1,0 +1,53 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_VFE_Deserters_Spitfire</defName>
+    <label>Spitfire</label>
+    <description>When she isn't yelling and blowing her whistle, Spitfire serves as Captain of the Wonderbolts, Equestria's finest stunt flying team. However, many ponies fail to realise that they are also an elite Special Forces unit, tasked with [CLASSIFIED], [REDACTED] and [CENSORED] behind enemy lines.\n\nThey will help you to gather intel on the Empire, but you are expected to pay heavily for their services, as well as provide supplies for their missions.\n\nJust bear in mind that, since they are ponies, they will only accept vegetarian foods as payment.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Spitfire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+		<li>BuildingsProduction</li>
+    </thingCategories>
+	<costStuffCount>300</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>7200</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0</Flammability>
+	  <Mass>50</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+  </ThingDef>
+
+</Defs>

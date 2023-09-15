@@ -52,6 +52,9 @@
       <turretGunDef>MLRP_Weaponless</turretGunDef>
       <turretBurstCooldownTime>3</turretBurstCooldownTime>
     </building>
+    <researchPrerequisites>
+      <li>GunTurrets</li>
+    </researchPrerequisites>
   </ThingDef>
   
 </Defs>

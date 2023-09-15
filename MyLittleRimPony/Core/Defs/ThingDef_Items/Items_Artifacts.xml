@@ -3,7 +3,7 @@
 	<ThingDef ParentName="ArtifactBase">
 		<defName>MLRP_PartyCannonArtifact</defName>
 		<label>party cannon</label>
-		<description>This artifact was created by persons unknown in order to bring the fun of a Pinkie Pie party to the masses.\n\nWhen fired, it improves the mood of everyone on the map, though bronies will feel a stronger effect. The cannon is even powerful enough to improve the mood of anti bronies, but not by much.\n\nUnlike Pinkie's own Party Cannon, this one can only be used once.</description>
+		<description>This artifact was created by persons unknown in order to bring the fun of a Pinkie Pie party to the masses.\n\nWhen fired, it improves the mood of all colonists in the area, though bronies will feel a stronger effect. The cannon is even powerful enough to improve the mood of anti bronies, but not by much.\n\nUnlike Pinkie's own Party Cannon, this one can only be used once.</description>
 		<graphicData>
 			<texPath>Things/Item/Artifact/PartyCannon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

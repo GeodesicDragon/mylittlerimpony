@@ -1,3 +1,59 @@
+Version 4.24.66 (September 15th 2023)
+
+IMPORTANT NOTICE: I have moved several textures to other folders, so they'll only be loaded when certain DLCs or mods are enabled. I highly doubt that this will have even the slightest impact on performance, but it's still something I've been wanting to do for a while. If you are updating the mod manually, you will need to delete the 'MyLittleRimPony' folder before extracting this update.
+
+* Core: Added two new recipes to the Daybreaker statue which let you convert 1000 silver into 833 wood and vice versa.
+	* Market value of wood is 1.2 silver (Source: RimWorld Wiki). 1000/1.2 = 833.333333333...etc.
+	* Recipes are available from game start and, unlike other Daybreaker recipes, do not require any chemfuel.
+* Core: Added translation keys for poison joke afflictions.
+* Biotech: Added a new gene which gives pawns the Brony trait.
+	* Alicorns, earth ponies, unicorns, pegasi and changelings now have it by default. (Only applies to newly spawned ones.)
+* Vanilla Factions Expanded - Deserters: Added Spitfire (building).
+	* Provides 50 regular intel or 10 critical intel in exchange for silver (at +50% of market value), medicine and 'pony-friendly foodstuffs.'
+	* The Workshop page for VFED says regular intel is valued at 100 silver and critical intel is valued at 1000 silver.
+	* Request regular intel: 7500 silver, 25 industrial medicine and 500 food.
+	* Request critical intel: 15000 silver, 25 glitterworld medicine and 750 food.
+	* Each bill takes 60 seconds to complete, similar to extracting intel from imperial buildings.
+	* Your visibility is not affected in any way by performing either of these recipes, so the high cost helps to keep things balanced.
+* Vanilla Achievements Expanded: Added an achievement to build Spitfire.
+* XML Extensions: Added the ability to set how much stuff is required to build statues of Nightmare Moon and Daybreaker.
+	* Minimum amount of stuff is 100.
+	* Maximum amount of stuff is 1000.
+	* Default amount of stuff is 750.
+* Core: Removed NPC faction slave trader caravan since they never sold any slaves to begin with.
+	* This may cause a one-time red error on game/save load.
+	* Settlements should still buy and sell slaves if you find yourself needing to acquire or offload any.
+* Core: The Brony Community scenario now starts with Screwball research already unlocked.
+* Core: The Brony Community scenario no longer starts with Gun Turrets research already unlocked.
+* Core: NPC faction weapon traders now stock Mudbriar, Quibble Pants and Zephyr Breeze turrets.
+* Core: The market value of Sweetie Bot turrets is now determined by the game. Expect some major price changes!
+* Core: Sweetie Belle plushies now reduce food poisoning chance by 25% (was 10%).
+* Core: Mudbriar is now locked behind gun turrets research.
+* Core: Quibble Pants is now locked behind gun turrets research.
+* Core: Zephyr Breeze is now locked behind gun turrets research.
+* Core: Fixed NPC faction settlements refusing to buy herbal medicine.
+* Core: NPC faction settlements now stock 25-75 industrial medicine (was 50-200).
+* Core: NPC faction settlements now buy items tagged as 'ExoticMisc.'
+* Core: Prisoners and slaves now get a small mood bonus whenever a party cannon is fired.
+	* Like anti bronies, the effect is not much; it is only +3 for a single day, and it only stacks once.
+	* If your prisoners and/or slaves have the brony or anti brony traits, they will be ignored.
+* Biotech: The Brony Xenotypes scenario now starts with Screwball research already unlocked.
+* Biotech: The Brony Xenotypes scenario no longer starts with Gun Turrets research already unlocked.
+* Biotech: Diamond dog clans should no longer send you quests.
+* Biotech: Diamond dog clans now get along with each other.
+* RimPonk: Fixed a texture error related to earth ponies. Thanks to Sunlight Swift for bringing this to my attention.
+* Vanilla Achievements Expanded: Reduced the amount of points awarded for the 'It All Starts Here' achievement to 10 (was 25).
+* Vanilla Achievements Expanded: Reduced the amount of points awarded for the 'Beep Boop' achievement to 100 (was 250).
+* Vanilla Achievements Expanded: Reduced the amount of points awarded for the 'Special Delivery!' achievement to 50 (was 75).
+* Vanilla Achievements Expanded: Reduced the amount of points awarded for the 'Sssssssmokin'!' achievement to 25 (was 50).
+* Vanilla Achievements Expanded: Reduced the amount of points awarded for the 'Nothing Stops The Friendship Train' achievement to 25 (was 50).
+* Vanilla Achievements Expanded: Reduced the amount of points awarded for the 'Hellooooooo, Nurse!' achievement to 25 (was 30).
+* Vanilla Achievements Expanded: Reduced the amount of points awarded for the 'You've Got Opportunity' achievement to 25 (was 30).
+* Vanilla Backstories Expanded: Fixed the 'MLP Obsessive' backstory not showing up, but it no longer gives passions.
+* XML Extensions: If you have allowed bronies to be violent, the Brony Community and Xenotypes scenarios will now start with enough weapons to equip all of your starting colonists. The number of starting turrets will also be affected.
+	* Brony Community: 2 autopistols, a plasteel knife and 2 turrets (down from 4)
+	* Brony Xenotypes: 3 autopistols, 2 plasteel knives and 3 turrets (down from 6).
+
 Version 4.17.38 (August 18th 2023)
 
 * Core: Added 8 new recipes to the Daybreaker statue which allow for the rapid creation of 100 drugs at a time, provided you have the right materials.

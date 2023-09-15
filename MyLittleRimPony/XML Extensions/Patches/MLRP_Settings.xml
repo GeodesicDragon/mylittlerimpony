@@ -181,14 +181,84 @@
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/description</xpath>
 					<value>
-						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you all love a show about cartoon ponies, and have taken its lessons to heart.\n\nYou'll need to work fast in order to secure your new home, though; you forgot to bring any weapons other than the turrets, making you tempting targets for raiders.</description>
+						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you all love a show about cartoon ponies, and have taken its lessons to heart.\n\nYou'll need to work fast in order to secure your new home, though; your starting weapons are very basic and you are in posession of a lot of valuable items, thus making you tempting targets for raiders.</description>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_RangedWeapons"]</xpath>
+					<value>
+						<li Name="MLRP_CoreScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>Gun_Autopistol</thingDef>
+							<count>2</count>
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_MeleeWeapons"]</xpath>
+					<value>
+						<li Name="MLRP_CoreScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>MeleeWeapon_Knife</thingDef>
+							<count>1</count>
+							<stuff>Plasteel</stuff>
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_Turrets"]</xpath>
+					<value>
+						<li Name="MLRP_CoreScenario_Turrets" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>Turret_MiniTurret</thingDef>
+							<count>2</count>
+							<stuff>Steel</stuff>
+						</li>
+					</value>
+				</Operation>
+								
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/description</xpath>
+					<value>
+						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; your starting weapons are very basic and you are in posession of a lot of valuable items, thus making you tempting targets for raiders.</description>
 					</value>
 				</Operation>
 				
 				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/description</xpath>
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_RangedWeapons"]</xpath>
 					<value>
-						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; you forgot to bring any weapons other than the turrets, making you tempting targets for raiders.</description>
+						<li Name="MLRP_BiotechScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>Gun_Autopistol</thingDef>
+							<count>3</count>
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_MeleeWeapons"]</xpath>
+					<value>
+						<li Name="MLRP_BiotechScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>MeleeWeapon_Knife</thingDef>
+							<count>2</count>
+							<stuff>Plasteel</stuff>
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_Turrets"]</xpath>
+					<value>
+						<li Name="MLRP_BiotechScenario_Turrets" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>Turret_MiniTurret</thingDef>
+							<count>3</count>
+							<stuff>Steel</stuff>
+						</li>
 					</value>
 				</Operation>
 			</caseTrue>
@@ -221,10 +291,80 @@
 					</value>
 				</Operation>
 				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_RangedWeapons"]</xpath>
+					<value>
+						<li Name="MLRP_CoreScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined">
+							<!--<def>StartingThing_Defined</def>
+							<thingDef>Gun_Autopistol</thingDef>
+							<count>2</count>-->
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_MeleeWeapons"]</xpath>
+					<value>
+						<li Name="MLRP_CoreScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined">
+							<!--<def>StartingThing_Defined</def>
+							<thingDef>MeleeWeapon_Knife</thingDef>
+							<count>1</count>
+							<stuff>Plasteel</stuff>-->
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_Turrets"]</xpath>
+					<value>
+						<li Name="MLRP_CoreScenario_Turrets" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>Turret_MiniTurret</thingDef>
+							<count>4</count>
+							<stuff>Steel</stuff>
+						</li>
+					</value>
+				</Operation>
+				
 				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
 					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/description</xpath>
 					<value>
 						<description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; since you are all against violence, you are tempting targets for raiders.</description>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_RangedWeapons"]</xpath>
+					<value>
+						<li Name="MLRP_BiotechScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined">
+							<!--<def>StartingThing_Defined</def>
+							<thingDef>Gun_Autopistol</thingDef>
+							<count>3</count>-->
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_MeleeWeapons"]</xpath>
+					<value>
+						<li Name="MLRP_BiotechScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined">
+							<!--<def>StartingThing_Defined</def>
+							<thingDef>MeleeWeapon_Knife</thingDef>
+							<count>2</count>
+							<stuff>Plasteel</stuff>-->
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_Turrets"]</xpath>
+					<value>
+						<li Name="MLRP_BiotechScenario_Turrets" Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>Turret_MiniTurret</thingDef>
+							<count>6</count>
+							<stuff>Steel</stuff>
+						</li>
 					</value>
 				</Operation>
 			</caseFalse>
@@ -255,6 +395,21 @@
 					<xpath>Defs/TraitDef[defName="MLRP_AntiBronyTrait"]/commonality</xpath>
 					<value>
 						<commonality>{MLRP_AntiBronyTraitCommonality}</commonality>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--EVIL SISTERS: STUFF REQUIRED-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+			<key>MLRP_EvilSistersStuffRequired</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+			<defaultValue>750</defaultValue> <!--What you want the default value of the setting to be-->
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_NightmareMoon" or defName="MLRP_Daybreaker"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>{MLRP_EvilSistersStuffRequired}</costStuffCount>
 					</value>
 				</Operation>
 			</apply>
@@ -1008,13 +1163,30 @@
 				<li Class="XmlExtensions.Setting.Gap"/>
 				
 				<li Class="XmlExtensions.Setting.Text">
+					<text>Evil Sisters Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_EvilSistersStuffRequired</key>
+					<defaultValue>750</defaultValue>
+					<min>100</min>
+					<max>1000</max>
+					<label>Stuff Required: {MLRP_EvilSistersStuffRequired}</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
 					<text>Sweetie Bot Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
-					<text>IMPORTANT: These settings will not be applied to the mechanoid version of Sweetie Bot.</text>
+					<text>IMPORTANT: These settings will only be applied to the turret version.</text>
 					<font>Small</font>
 					<anchor>Left</anchor>
 				</li>

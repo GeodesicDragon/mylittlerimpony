@@ -13,6 +13,7 @@
 		</playerFaction>
 		<parts>
 			<!-- Config pages -->
+			
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 				<def>ConfigPage_ConfigureStartingPawns</def>
 				<pawnCount>3</pawnCount>
@@ -20,22 +21,42 @@
 			</li>
 
 			<!-- Player starting stuff spawn method-->
+			
 			<li Class="ScenPart_PlayerPawnsArriveMethod">
 				<def>PlayerPawnsArriveMethod</def>
 				<method>Standing</method>
 			</li>
 			
+			<!-- Player starting research -->
+						
 			<li Class="ScenPart_StartingResearch">
 				<def>StartingResearch</def>
-				<project>GunTurrets</project>
+				<project>MLRP_ScrewballResearch</project>
 			</li>
+			
+			<!-- Forced pawn traits -->
 			
 			<li Class="ScenPart_ForcedTrait">
 				<def>ForcedTrait</def>
 				<chance>1</chance>
 				<context>PlayerStarter</context>
 				<trait>MLRP_BronyTrait</trait>
-			</li>			
+			</li>
+
+			<!-- Player starting weapons (Requires XML Extensions)-->
+			
+			<li Name="MLRP_CoreScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined">
+				<!--<def>StartingThing_Defined</def>
+				<thingDef>Gun_Autopistol</thingDef>
+				<count>2</count>-->
+			</li>
+			
+			<li Name="MLRP_CoreScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined">
+				<!--<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Knife</thingDef>
+				<count>1</count>
+				<stuff>Plasteel</stuff>-->
+			</li>
 			
 			<!-- Player starting things-->
 				
@@ -95,7 +116,7 @@
 			
 			<!-- Starting buildings -->
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Name="MLRP_CoreScenario_Turrets" Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Turret_MiniTurret</thingDef>
 				<count>4</count>
