@@ -1,3 +1,11 @@
+Version 4.26.68 (September 16th 2023)
+
+* Mod: Added French localisation for C# keys.
+* Mod: Added German localisation for C# keys.
+* XML Extensions: Fixed 'Cannot read data' error when selecting the Brony Community and Brony Xenotypes scenarios.
+	* Error was only seen if XML Extensions was not enabled.
+	* Thanks to Lunysha for bringing the issue to my attention.
+
 Version 4.24.66 (September 15th 2023)
 
 IMPORTANT NOTICE: I have moved several textures to other folders, so they'll only be loaded when certain DLCs or mods are enabled. I highly doubt that this will have even the slightest impact on performance, but it's still something I've been wanting to do for a while. If you are updating the mod manually, you will need to delete the 'MyLittleRimPony' folder before extracting this update.

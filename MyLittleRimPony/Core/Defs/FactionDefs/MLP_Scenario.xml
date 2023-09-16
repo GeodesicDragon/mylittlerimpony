@@ -45,13 +45,13 @@
 
 			<!-- Player starting weapons (Requires XML Extensions)-->
 			
-			<li Name="MLRP_CoreScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined">
+			<li Name="MLRP_CoreScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined" MayRequire="imranfish.xmlextensions">
 				<!--<def>StartingThing_Defined</def>
 				<thingDef>Gun_Autopistol</thingDef>
 				<count>2</count>-->
 			</li>
 			
-			<li Name="MLRP_CoreScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined">
+			<li Name="MLRP_CoreScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined" MayRequire="imranfish.xmlextensions">
 				<!--<def>StartingThing_Defined</def>
 				<thingDef>MeleeWeapon_Knife</thingDef>
 				<count>1</count>
