@@ -39,7 +39,7 @@
     </graphicData>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <WorkToBuild>300</WorkToBuild>
+      <WorkToBuild>150</WorkToBuild>
       <Flammability>1</Flammability>
     </statBases>
   </ThingDef>
@@ -54,6 +54,7 @@
       <li>Fabric</li>
       <li>Leathery</li>
       <li>Metallic</li>
+      <li>Stony</li>
       <li>Woody</li>
     </stuffCategories>
     <statBases>

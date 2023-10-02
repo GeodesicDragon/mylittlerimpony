@@ -9,7 +9,7 @@
     <fixedBillGiverDefs>
       <li>MLRP_Daybreaker</li>
     </fixedBillGiverDefs>
-    <verb>offer</verb>
+    <verb>make offering at</verb>
     <gerund>converting materials at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>

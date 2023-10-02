@@ -9,7 +9,7 @@
     <fixedBillGiverDefs>
       <li>MLRP_NightmareMoon</li>
     </fixedBillGiverDefs>
-    <verb>offer</verb>
+    <verb>make offering at</verb>
     <gerund>making offering at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>

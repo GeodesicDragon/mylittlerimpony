@@ -117,14 +117,6 @@
 						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
 					</value>
 				</Operation>
-				
-				<!--VANILLA OUTPOSTS EXPANDED-->
-				<Operation Class="PatchOperationReplace" MayRequire="vanillaexpanded.outposts">
-					<xpath>/Defs/WorldObjectDef[defName="MLRP_Plushie_Outpost"]/modExtensions/li[@Class="Outposts.OutpostExtension"]/RequiredSkills/Crafting</xpath>
-					<value>
-						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
-					</value>
-				</Operation>
 			</apply>
 		</li>
 
@@ -146,6 +138,29 @@
 					<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/apparel/careIfWornByCorpse</xpath>
 					<value>
 						<careIfWornByCorpse>false</careIfWornByCorpse>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
+		<!--PLUSHIES: PIPP IS SHORT-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Dubwise.DubsBadHygiene">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DubsBadHygiene_PippIsShort</key>
+			<defaultValue>true</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_PippPetals"]/graphicData/drawSize</xpath>
+					<value>
+						<drawSize>0.5</drawSize>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_PippPetals"]/graphicData/drawSize</xpath>
+					<value>
+						<drawSize>1</drawSize>
 					</value>
 				</Operation>
 			</caseFalse>
@@ -207,18 +222,6 @@
 						</li>
 					</value>
 				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_Turrets"]</xpath>
-					<value>
-						<li Name="MLRP_CoreScenario_Turrets" Class="ScenPart_StartingThing_Defined">
-							<def>StartingThing_Defined</def>
-							<thingDef>Turret_MiniTurret</thingDef>
-							<count>2</count>
-							<stuff>Steel</stuff>
-						</li>
-					</value>
-				</Operation>
 								
 				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
 					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/description</xpath>
@@ -246,18 +249,6 @@
 							<thingDef>MeleeWeapon_Knife</thingDef>
 							<count>2</count>
 							<stuff>Plasteel</stuff>
-						</li>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_Turrets"]</xpath>
-					<value>
-						<li Name="MLRP_BiotechScenario_Turrets" Class="ScenPart_StartingThing_Defined">
-							<def>StartingThing_Defined</def>
-							<thingDef>Turret_MiniTurret</thingDef>
-							<count>3</count>
-							<stuff>Steel</stuff>
 						</li>
 					</value>
 				</Operation>
@@ -314,18 +305,6 @@
 					</value>
 				</Operation>
 				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_Turrets"]</xpath>
-					<value>
-						<li Name="MLRP_CoreScenario_Turrets" Class="ScenPart_StartingThing_Defined">
-							<def>StartingThing_Defined</def>
-							<thingDef>Turret_MiniTurret</thingDef>
-							<count>4</count>
-							<stuff>Steel</stuff>
-						</li>
-					</value>
-				</Operation>
-				
 				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
 					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/description</xpath>
 					<value>
@@ -352,18 +331,6 @@
 							<thingDef>MeleeWeapon_Knife</thingDef>
 							<count>2</count>
 							<stuff>Plasteel</stuff>-->
-						</li>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_Turrets"]</xpath>
-					<value>
-						<li Name="MLRP_BiotechScenario_Turrets" Class="ScenPart_StartingThing_Defined">
-							<def>StartingThing_Defined</def>
-							<thingDef>Turret_MiniTurret</thingDef>
-							<count>6</count>
-							<stuff>Steel</stuff>
 						</li>
 					</value>
 				</Operation>
@@ -1158,6 +1125,11 @@
 				<li Class="XmlExtensions.Setting.Checkbox">
 					<key>MLRP_PlushiesTaintedOnDeath</key>
 					<label>Plushies become tainted if worn by a corpse</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Dubwise.DubsBadHygiene">
+					<key>MLRP_DubsBadHygiene_PippIsShort</key>
+					<label>[Dubs Bad Hygiene] Pipp is short</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap"/>

@@ -10,20 +10,24 @@
 			<RequiredSkills>
 				<Crafting>5</Crafting>
 			</RequiredSkills>
-			<TicksPerProduction>180000</TicksPerProduction>
+			<TicksPerProduction>300000</TicksPerProduction>
 			<TicksToSetUp>60000</TicksToSetUp>
-			<ProvidedFood>MealFine_Veg</ProvidedFood>
+			<ProvidedFood>MealFine</ProvidedFood>
 			<ResultOptions>
 				<li>
 					<Thing>Silver</Thing>
 					<AmountsPerSkills>
-						<Crafting>100</Crafting>
+						<Crafting>150</Crafting>
 					</AmountsPerSkills>
 					<AmountPerPawn>50</AmountPerPawn>
 				</li>
 			</ResultOptions>
 		</li>
 		<li Class="KCSG.CustomGenOption">
+			<preventBridgeable>true</preventBridgeable>
+			<chooseFromlayouts>
+				<li>Outpost_Struct_Production</li>
+			</chooseFromlayouts>
 			<fullClear>true</fullClear>
 		</li>
 	</modExtensions>

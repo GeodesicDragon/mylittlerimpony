@@ -9,7 +9,7 @@
     <fixedBillGiverDefs>
       <li>MLRP_MissPommel</li>
     </fixedBillGiverDefs>
-    <verb>purchase</verb>
+    <verb>purchase fabric at</verb>
     <gerund>purchasing fabric at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>

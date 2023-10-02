@@ -179,7 +179,7 @@
 			<li Name="MLRP_BiotechScenario_Turrets" Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Turret_MiniTurret</thingDef>
-				<count>6</count>
+				<count>3</count>
 				<stuff>Steel</stuff>
 			</li>
 			
@@ -187,7 +187,7 @@
 				<def>StartingThing_Defined</def>
 				<thingDef>MLRP_ScrewballGenerator</thingDef>
 				<count>3</count>
-				<stuff>Cloth</stuff>
+				<stuff>WoodLog</stuff>
 			</li>
 			
 			<!-- Starting plushies -->

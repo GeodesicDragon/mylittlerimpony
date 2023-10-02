@@ -34,23 +34,10 @@
     </disallowedTraits>
     <nameMaker>NamerBrony</nameMaker>
     <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
-    <requiredWorkTags>
-      <li>Violent</li>
-    </requiredWorkTags>
   </PawnKindDef>
   
 <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_LeaderBase" Abstract="True">
 	<itemQuality>Excellent</itemQuality>
-	<skills>
-      <li>
-        <skill>Shooting</skill>
-        <range>12</range>
-      </li>
-	  <li>
-        <skill>Melee</skill>
-        <range>12</range>
-      </li>
-    </skills>
   </PawnKindDef>
   
   <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_VillagerBase" Abstract="True">
@@ -150,7 +137,7 @@
 	  <li>Rainbow_Laser</li>
     </weaponTags>
 	<acceptArrestChanceFactor>0.25</acceptArrestChanceFactor>
-	<isFighter>false</isFighter>
+	<isFighter>true</isFighter>
 	<disallowedTraits>
 		<li>Brawler</li>
 	</disallowedTraits>
@@ -188,7 +175,7 @@
       <max>1000</max>
     </apparelMoney>
 	<acceptArrestChanceFactor>1</acceptArrestChanceFactor>
-	<isFighter>false</isFighter>
+	<isFighter>true</isFighter>
 </PawnKindDef>
 
 <PawnKindDef ParentName="MLRP_BronyKinds_VillagerBase">
@@ -224,7 +211,7 @@
       <max>1000</max>
     </apparelMoney>
 	<acceptArrestChanceFactor>1</acceptArrestChanceFactor>
-	<isFighter>false</isFighter>
+	<isFighter>true</isFighter>
 	<trader>true</trader>
 </PawnKindDef>
 

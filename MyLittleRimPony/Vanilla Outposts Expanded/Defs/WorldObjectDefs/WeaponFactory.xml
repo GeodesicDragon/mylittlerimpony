@@ -1,0 +1,50 @@
+<Defs>
+
+	<WorldObjectDef ParentName="OutpostBase">
+		<defName>MLRP_Weapon_Outpost</defName>
+		<label>pony weapon factory</label>
+		<description>Places a temporary, autonomously-led camp that specializes in producing MLP-themed weapons. Each pawn will be responsible for the manufacture of a single weapon; after some time has passed, delivery will be made at the faction's primary colony.</description>
+		<worldObjectClass>Outposts.Outpost_ChooseResult</worldObjectClass>
+		<expandingIconTexture>Things/Weapons/RainbowLaser</expandingIconTexture>
+		<modExtensions>
+			<li Class="Outposts.OutpostExtension_Choose">
+				<RequiredSkills>
+					<Crafting>10</Crafting>
+				</RequiredSkills>
+				<ChooseLabel>Choose output</ChooseLabel>
+				<ChooseDesc>Choose which weapon to manufacture</ChooseDesc>
+				<ResultOptions>
+					<li>
+						<Thing>MLRP_WifeThrower</Thing>
+						<AmountPerPawn>1</AmountPerPawn>
+					</li>
+					<li>
+						<Thing>Izzy_SmokeLauncher</Thing>
+						<MinSkills>
+							<Crafting>50</Crafting>
+						</MinSkills>
+						<AmountPerPawn>1</AmountPerPawn>
+					</li>
+					<li>
+						<Thing>MLRP_ElementsOfHarmonyWeaponised</Thing>
+						<MinSkills>
+							<Crafting>100</Crafting>
+						</MinSkills>
+						<AmountPerPawn>1</AmountPerPawn>
+					</li>
+				</ResultOptions>
+			<TicksPerProduction>450000</TicksPerProduction>
+			<TicksToSetUp>60000</TicksToSetUp>
+			<ProvidedFood>MealFine</ProvidedFood>
+			</li>
+			<li Class="KCSG.CustomGenOption">
+				<preventBridgeable>true</preventBridgeable>
+				<chooseFromlayouts>
+					<li>Outpost_Struct_Production</li>
+				</chooseFromlayouts>
+				<fullClear>true</fullClear>
+			</li>
+		</modExtensions>
+	</WorldObjectDef>
+	
+</Defs>

@@ -220,10 +220,11 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_DiamondDog</defName>
     <label>diamond dog</label>
-    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nDiamond Dogs are exceptional miners who thrive in the underground parts of the world, where they have developed strong stomachs, super strong immunity, a complete disregard for psychic phenomena, and a lowered need to sleep. A lifetime spent underground has led to them being sensitive to sunlight, though it has also built up their resistances to varying levels of cold and heat.\n\nSide effects of the xenogerm implantation process include a heightened level of aggression, as well as a poison joke dependency.</description>
-    <descriptionShort>Diamond Dogs are exceptional miners with strong stomachs and immune systems, total immunity to psychic phenomena, and a less frequent need for rest. They are sensitive to sunlight, resistant to cold and heat, but also highly aggressive and dependent on regular doses of poison joke.</descriptionShort>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nDiamond Dogs are exceptional miners who thrive in the underground parts of the world, where they have developed strong stomachs, super strong immunity, a complete disregard for psychic phenomena, and a lowered need to sleep. A lifetime spent underground has built up their resistances to varying levels of cold and heat, though side effects of the xenogerm implantation process include a heightened level of aggression, as well as a poison joke dependency.</description>
+    <descriptionShort>Diamond Dogs are exceptional miners with strong stomachs and immune systems, total immunity to psychic phenomena, and a less frequent need for rest. They are also resistant to cold and heat, but highly aggressive and dependent on regular doses of poison joke.</descriptionShort>
 	<iconPath>UI/Icons/Genes/DiamondDog</iconPath>
-	<nameMaker>NamerPersonYttakin</nameMaker> <!--Hopefully this will be a temporary measure-->
+	<nameMaker>NamerDog</nameMaker>
+	<nameMakerFemale>NamerDogFemale</nameMakerFemale>
 	<chanceToUseNameMaker>1</chanceToUseNameMaker>
 	<inheritable>true</inheritable>
 	<genes>
@@ -232,7 +233,6 @@
 			<li>PsychicAbility_Deaf</li>
 			<li>MinTemp_LargeDecrease</li>
 			<li>MaxTemp_LargeIncrease</li>
-			<li>UVSensitivity_Mild</li>
 			<li>Aggression_HyperAggressive</li>
 			<li>LowSleep</li>
 			<li>Tail_Furry</li>

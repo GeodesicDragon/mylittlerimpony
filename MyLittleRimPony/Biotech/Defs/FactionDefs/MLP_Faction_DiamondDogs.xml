@@ -67,7 +67,7 @@
       </stuffCategoriesToAllow>
     </apparelStuffFilter>
     <allowedArrivalTemperatureRange>-60~60</allowedArrivalTemperatureRange>
-    <settlementTexturePath>World/WorldObjects/DiamondDogSettlement</settlementTexturePath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
       <li>(1, 0, 0)</li>
       <li>(0, 1, 0)</li>

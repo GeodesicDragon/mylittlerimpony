@@ -9,8 +9,8 @@
     <fixedBillGiverDefs>
       <li>MLRP_MarblePieStoneExchange</li>
     </fixedBillGiverDefs>
-    <verb>purchase</verb>
-    <gerund>purchasing materials at</gerund>
+    <verb>purchase stone blocks at</verb>
+    <gerund>purchasing stone blocks at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>

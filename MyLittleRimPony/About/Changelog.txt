@@ -1,3 +1,31 @@
+Version 4.30.82 (October 2nd 2023)
+
+NOTE: If you are installing this update manually, you will need to go into MyLittleRimPony/Core/Languages/French/Keyed and then delete the extra 'Keyed' folder once you have extracted it, in order to remove the extra localisation file (which is in the wrong place due to my own mistake).
+
+* Vanilla Outposts Expanded: Added the 'pony weapon factory' outpost, which will send you weapons every 7.5 days. You can choose to make wife throwers, tennis ball launchers or rainbow lasers, though each requires a minimum cumulative crafting skill.
+	* Wife thrower requires at least 10 crafting.
+	* Tennis ball launcher requires at least 50 crafting.
+	* Rainbow Laser requires at least 100 crafting.
+	* You will get one weapon for each pawn in the outpost.
+* Dubs Bad Hygiene: Added Pipp Petals (-10% hygiene loss).
+	* Vanilla Achievements Expanded: Added an achievement to craft a Pipp plushie.
+	* XML Extensions: Added a setting to change whether or not Pipp is short (set to true by default).
+* Mod: Fixed C# keys not being translated into French properly.
+* Core: Fixed a rare error in which faction bases weren't being spawned properly during the setup of a new colony.
+* Core: Discord lamps can now be built using stone.
+* Core: Reduced the amount of work needed to build Discord lamps to 150 (was 300).
+* Core: The Brony Community scenario now starts with 3 steel mini-turrets (was 4).
+* Core: The Brony Community scenario now starts with wooden Screwballs (was cloth).
+* Biotech: Diamond Dogs are no longer sensitive to sunlight. This will only affect newly spawned ones; any you might have will need to have the gene removed somehow. Dev mode is probably the easiest method, but there are no doubt mods you can use.
+* Biotech: Diamond Dogs now have their own names, instead of those of the yttakin. Again, this will only apply to newly spawned ones.
+* Biotech: MLP xenotype pawns that spawn with both the brony and anti brony traits should now have the latter suppressed.
+* Biotech: The Brony Xenotypes scenario now starts with 3 steel mini-turrets (was 6).
+* Biotech: The Brony Xenotypes scenario now starts with wooden Screwballs (was cloth).
+* XML Extensions: The number of turrets you start with in the Brony Community/Xenotypes scenarios is no longer affected by whether or not pawns with the brony trait are capable of violence. It has now been set to 3 regardless.
+* Vanilla Outposts Expanded: Plushie factories now generate 150 silver per level of crafting skill assigned pawns have (was 100). This means that a pawn with 20 crafting will now generate 3000 silver, which is on par with plushies made of more expensive materials.
+* Vanilla Outposts Expanded: Plushie factories now generate silver every 5 days (was 3).
+* Vanilla Outposts Expanded: The crafting skill required by plushie factories is no longer set to whatever you changed the crafting skill requirement to in XML Extensions. I was getting reports of some weird stuff happening, so best to remove it altogether.
+
 Version 4.26.68 (September 16th 2023)
 
 * Mod: Added French localisation for C# keys.

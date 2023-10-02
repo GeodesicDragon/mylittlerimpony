@@ -11,6 +11,11 @@
 			<def>MLRP_BronyTrait</def>
 		</li>
     </forcedTraits>
+	<suppressedTraits>
+		<li>
+			<def>MLRP_AntiBronyTrait</def>
+		</li>
+    </suppressedTraits>
     <biostatCpx>0</biostatCpx>
     <biostatMet>0</biostatMet>
 </GeneDef>

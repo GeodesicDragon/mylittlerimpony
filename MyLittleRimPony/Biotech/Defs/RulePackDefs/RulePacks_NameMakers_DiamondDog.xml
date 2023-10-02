@@ -1,13 +1,13 @@
 <Defs>
 
 <!--PAWN NAMES-->
-<!--I consulted a list of the most popular dog names, but there weren't many. Feel free to suggest ones I could add!-->
+<!--Feel free to suggest more!-->
 
     <RulePackDef>
         <defName>NamerDog</defName>
         <rulePack>
             <rulesStrings>
-                <li>name->[MaleDogFirstName] [DiamondDogPawPrefix][DiamondDogSuffix]</li> <!--Example: Rex Bloodclaw-->
+                <li>name->[MaleDogFirstName] [DiamondDogPrefix][DiamondDogSuffix]</li> <!--Example: Rex Bloodclaw-->
             </rulesStrings>
             <rulesRaw>
                 <li Class="Rule_File">
