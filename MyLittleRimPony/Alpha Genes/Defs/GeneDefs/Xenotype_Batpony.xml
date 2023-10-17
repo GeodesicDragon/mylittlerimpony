@@ -1,0 +1,39 @@
+<Defs>
+
+<XenotypeDef>
+    <defName>MLRP_Xeno_Batpony</defName>
+    <label>batpony</label>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nBatponies are a race who, for the most part, are 'jacks of all trades,' not really excelling at one skill or another unlike their other pony counterparts. They are entirely nocturnal, to the point where they cannot handle any exposure to UV radiation. Because of their unwillingness to co-operate with non-batponies, their social skills are somewhat lacking, though they are good doctors because they've had to look after themselves for so long.\n\nA side effect of the xenogerm implantation process makes them more fertile during the night.</description>
+    <descriptionShort>Batponies are nocturnal creatures who cannot tolerate the light and have poor social skills, but make for excellent doctors. They are more fertile during nighttime hours, can see in the dark, and are night owls by nature.</descriptionShort>
+	<iconPath>UI/Icons/Genes/Batpony</iconPath>
+	<nameMaker>NamerBrony</nameMaker>
+    <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+	<inheritable>true</inheritable>
+	<genes>
+		<li>UVSensitivity_Intense</li>
+		<li>AG_NightOwl</li>
+		<li>AG_FertilityDarkness</li>
+		<li>AG_BatWings</li>
+		<li>Ears_Human</li>
+		<li>Eyes_Red</li>
+		<li>Eyes_Gray</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Nose_Human</li>
+		<li>Jaw_Baseline</li>
+		<li>Headbone_Human</li>
+		<li>MLRP_VoiceHorse</li>
+		<li>Body_Standard</li>
+		<li>Body_Thin</li>
+		<li>Hair_MidBlack</li>
+		<li>Hair_DarkBlack</li>
+		<li>Hair_InkBlack</li>
+		<li>MLRP_BronyGene</li>
+		<li>DarkVision</li>
+		<li>Hands_Human</li>
+		<li>AptitudeRemarkable_Medicine</li>
+		<li>AptitudeTerrible_Social</li>
+	</genes>
+</XenotypeDef>
+
+</Defs>

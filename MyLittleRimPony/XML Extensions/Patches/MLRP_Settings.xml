@@ -1068,6 +1068,37 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--RAINBOW LASER: ELEMENTS OF HARMONY REQUIRED-->
+		<li Class="XmlExtensions.OptionalPatch">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_RainbowLaserRequiresEOH</key>
+			<defaultValue>true</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmonyWeaponised"]/costList</xpath>
+					<value>
+						<costList>
+							<Plasteel>100</Plasteel>
+							<Gold>5</Gold>
+							<MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
+						</costList>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_ElementsOfHarmonyWeaponised"]/costList</xpath>
+					<value>
+						<costList>
+							<Plasteel>100</Plasteel>
+							<Gold>5</Gold>
+							<ComponentSpacer>3</ComponentSpacer>
+						</costList>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -1130,6 +1161,25 @@
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Dubwise.DubsBadHygiene">
 					<key>MLRP_DubsBadHygiene_PippIsShort</key>
 					<label>[Dubs Bad Hygiene] Pipp is short</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
+					<text>Rainbow Laser Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox">
+					<key>MLRP_RainbowLaserRequiresEOH</key>
+					<label>Weapon requires Elements of Harmony to craft</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
+					<text>If you set this value to false, making a rainbow laser will require 3 advanced components instead of the Elements.</text>
+					<font>Small</font>
+					<anchor>Left</anchor>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap"/>

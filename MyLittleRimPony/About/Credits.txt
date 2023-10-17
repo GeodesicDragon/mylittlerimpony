@@ -125,8 +125,9 @@ Broken Wall icon (Biotech): https://game-icons.net/1x1/delapouite/broken-wall.ht
 Horseshoe icon (Biotech): https://game-icons.net/1x1/delapouite/horseshoe.html
 Insect jaws icon (Biotech): https://game-icons.net/1x1/lorc/insect-jaws.html
 Diamond Dog xenotype icon (Biotech): https://game-icons.net/1x1/lorc/diamond-hard.html
-Diamond Dog settlement icon (Biotech): https://game-icons.net/1x1/lorc/bone-gnawer.html
 Diamond Dog faction icon (Biotech): https://game-icons.net/1x1/lorc/cut-diamond.html
+Batpony xenotype icon (Biotech): https://game-icons.net/1x1/lorc/batwing-emblem.html
+Batpony xenotype faction icon (Biotech): https://game-icons.net/1x1/delapouite/bat.html
 
 SOUNDS
 

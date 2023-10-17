@@ -6,6 +6,7 @@
 		<li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
 		<li IfModActive="UnlimitedHugs.HugsLib">HugsLib</li> <!--News Updates-->
 		<li IfModActive="Dubwise.DubsBadHygiene">Dubs Bad Hygiene</li>
+		<li IfModActive="sarg.alphagenes">Alpha Genes</li>
 		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
 		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded</li>

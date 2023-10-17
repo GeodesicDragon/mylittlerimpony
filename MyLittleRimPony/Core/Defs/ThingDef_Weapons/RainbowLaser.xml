@@ -71,7 +71,6 @@
       <Plasteel>100</Plasteel>
 	  <Gold>5</Gold>
 	  <MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
-	  <!--<ComponentSpacer>2</ComponentSpacer>-->
     </costList>
     <recipeMaker>
       <skillRequirements>

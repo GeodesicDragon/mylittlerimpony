@@ -5,7 +5,6 @@
     <label>Quibble Pants</label>
     <description>Quibble Pants thinks he is the ultimate fan, and will go out of his way to prove he knows more than anypony else. Good thing his constant blabbering can be put to use.</description>
     <thingClass>Building_TurretGun</thingClass>
-	<!--<designationHotKey>Misc1</designationHotKey>-->
     <graphicData>
       <texPath>Things/Building/QuibblePants</texPath>
       <graphicClass>Graphic_Single</graphicClass>

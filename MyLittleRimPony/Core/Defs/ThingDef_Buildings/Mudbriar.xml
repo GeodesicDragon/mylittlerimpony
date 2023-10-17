@@ -5,7 +5,6 @@
     <label>Mudbriar</label>
     <description>Mudbriar is a stick pony through and through, but out here on the rim he's nothing more than target practice for any raiders coming your way.</description>
     <thingClass>Building_TurretGun</thingClass>
-	<!--<designationHotKey>Misc1</designationHotKey>-->
     <graphicData>
       <texPath>Things/Building/Mudbriar</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -40,7 +39,7 @@
 	  <li>Metallic</li>
     </stuffCategories>
 	<costList>
-      <WoodLog>300</WoodLog>
+      <WoodLog>200</WoodLog>
       <Plasteel>100</Plasteel>
       <Uranium>100</Uranium>
     </costList>

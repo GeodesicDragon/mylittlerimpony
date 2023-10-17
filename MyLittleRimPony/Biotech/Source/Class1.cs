@@ -161,7 +161,7 @@ namespace MLRP_Biotech
     public class ThoughtWorker_AntiBronyIsPonyXenotype : ThoughtWorker
     {
 
-        protected override ThoughtState CurrentStateInternal(Pawn p) => (ThoughtState)(p.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait) && p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling);
+        protected override ThoughtState CurrentStateInternal(Pawn p) => (ThoughtState)(p.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait) && p.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling);
 
     }
 

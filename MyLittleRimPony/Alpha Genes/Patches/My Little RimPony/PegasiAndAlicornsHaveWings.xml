@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/XenotypeDef[defName="MLRP_Xeno_Alicorn" or defName="MLRP_Xeno_Pegasus"]/genes</xpath>
+		<value>
+			<li>AG_PegasusWings</li>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -4,31 +4,40 @@
 		<title>MLP Obsessive</title>
 		<defName>MLRP_VBE_MLPFanBackstory</defName>
 		<titleShort>MLP Obsessive</titleShort>
-		<baseDesc>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art, fanfiction and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about making friends and creating things, but has no interest in any other skills.</baseDesc>
+		<baseDesc>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art, fanfiction and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about making friends and creating things, but is completely incapable of any other skills.</baseDesc>
 		<spawnCategories>
-		  <li>Offworld</li>
-		  <li>Outlander</li>
-		  <li>Outsider</li>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>Outsider</li>
 		</spawnCategories>
 		<skillGains>
-			<li><key>Artistic</key><value>10</value></li>
-			<li><key>Crafting</key><value>10</value></li>
-			<li><key>Social</key><value>10</value></li>
+			<li>
+				<key>Artistic</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
 		</skillGains>
 		<workDisables>
-		  <li>Animals</li>
-		  <li>Caring</li>
-		  <li>Constructing</li>
-		  <li>Cooking</li>
-		  <li>Hunting</li>
-		  <li>Intellectual</li>
-		  <li>Mining</li>
-		  <li>PlantWork</li>
+			<li>Animals</li>
+			<li>Caring</li>
+			<li>Constructing</li>
+			<li>Cooking</li>
+			<li>Hunting</li>
+			<li>Intellectual</li>
+			<li>Mining</li>
+			<li>PlantWork</li>
 		</workDisables>
 		<!--<passions>
-		  <Artistic>2</Artistic>
-		  <Crafting>2</Crafting>
-		  <Social>2</Social>
+			<Artistic>2</Artistic>
+			<Crafting>2</Crafting>
+			<Social>2</Social>
 		</passions>-->
 		<disallowedTraits>
 			<DrugDesire />

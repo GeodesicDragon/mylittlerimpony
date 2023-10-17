@@ -56,7 +56,7 @@
 	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
 		<defName>MLRP_NightmareMoonResearch</defName>
 		<label>Statues of the Evil Sisters</label>
-		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for silver, as well as a statue of Daybreaker, who will convert 100 of one material (or 1000 silver) into the market value equivalent of another.\n\nSome recipes at these buildings will require additional research before they are unlocked.</description>
+		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for silver, as well as a statue of Daybreaker, who will allow you to convert metals using chemfuel.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<prerequisites>
 			<li>BiofuelRefining</li>
@@ -92,7 +92,7 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
-<!--EQG MIRROR POWER INCREASE-->
+<!--POWER INCREASE-->
 
 	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
 		<defName>MLRP_MagicMirrorExtraPowerResearch</defName>

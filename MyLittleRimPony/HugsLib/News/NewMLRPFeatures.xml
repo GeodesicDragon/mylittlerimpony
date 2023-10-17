@@ -8,6 +8,12 @@
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_43398</defName>
+		<assemblyVersion>4.33.98</assemblyVersion>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Biotech: Added the batpony xenotype and faction (requires Alpha Genes)\n- Removed many of the conversion recipes from the Daybreaker statue\n- Reduced combat power of NPC faction pawns to hopefully allow more to spawn during raids or other events\n\nPlease refer to the changelog for more info!</content>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_41738</defName>
 		<assemblyVersion>4.17.38</assemblyVersion>
 		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Added a bunch of recipes to the Daybreaker statue which allow you to synthesise drugs in batches of 100, using half the regular amount of chemfuel\n- Biotech: Added the Diamond Dog xenotype and faction\n\nPlease refer to the changelog for more info!</content>

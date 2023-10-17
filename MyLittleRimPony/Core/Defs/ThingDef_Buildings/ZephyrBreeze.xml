@@ -5,7 +5,6 @@
     <label>Zephyr Breeze</label>
     <description>Although Zephyr Breeze reckons he is Celestia's gift to mares, he is yet to find one who agrees with him. Thankfully, though, his pig-headed arrogance can actually be useful.\n\nFuthermore, his thick skull - which has absorbed countless rejections from Rainbow Dash alone - makes him surprisingly durable.\n\nGood thing, too, because a lot of people seem to want to hit him.</description>
     <thingClass>Building_TurretGun</thingClass>
-	<!--<designationHotKey>Misc1</designationHotKey>-->
     <graphicData>
       <texPath>Things/Building/ZephyrBreeze</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -1,3 +1,53 @@
+Version 4.33.98 (October 17th 2023)
+
+* Alpha Genes: Added the Batpony xenotype. (Requires Alpha Genes because that's where most of the important genes come from.)
+	* Intense UV sensitivity
+	* Night owl trait
+	* Fertility in darkness
+	* Bat wings
+	* Human ears
+	* Red or grey eyes
+	* No beards
+	* Human nose
+	* Human jawline
+	* Human headbone
+	* Horse voice
+	* Standard or thin bodies
+	* Mid/dark/ink black hair
+	* Brony trait
+	* Dark vision
+	* Human hands
+	* Great medical skill
+	* Terrible social skill
+* Alpha Genes: Added the batpony faction.
+	* Starts out hostile, but can be allied with.
+	* Works much like the main NPC faction, but is 100% batpony.
+	* Uses the same pawnkinds as the NPC faction (because I was too lazy to make new ones).
+	* Uses the same traders as the NPC faction (because I was too lazy to make new ones).
+	* I'll try not to add any more new factions (for now).
+* XML Extensions: Added a setting for the rainbow laser that lets you decide whether or not you need the Elements of Harmony to make it.
+	* Option is enabled by default.
+	* Disabling it will change the recipe for the rainbow laser to require 3 advanced components instead of the Elements.
+* Core: NPC faction pawns can now spawn with leather apparel.
+* Core: Reduced combat power of brony traders to 20 (was 45).
+* Core: Reduced combat power of regular brony mercenaries to 40 (was 60).
+* Core: Reduced combat power of melee brony mercenaries to 40 (was 60).
+* Core: Reduced combat power of elite brony mercenaries to 50 (was 75).
+* Core: Reduced combat power of brony mercenary grenadiers to 40 (was 70).
+* Core: Updated the description of the wife thrower so that it actually explains what it does.
+* Core: Reduced the wood cost of the wife thrower to 70 (was 75).
+* Core: Reduced the wood cost of the Mudbriar turret to 200 (was 300).
+* Core: Removed a lot of conversion recipes from the Daybreaker statue.
+	* The only ones left are [Silver <=> Material] and [Gold => Material].
+	* It was often better to convert materials to silver first, and then convert that silver to what you needed.
+	* This may cause a ton of one-time red errors when starting the game or loading a save, but you should be able to ignore them.
+* Royalty: Brony mercenary grenadiers can now be used by the Empire for some quests.
+* Biotech: Diamond Dog soldiers can now be used by the Empire for some quests.
+* Biotech: Diamond Dog clans should no longer send you quests. (For real this time.)
+* Biotech: As a result of the above, Diamond Dog clans no longer get along with each other.
+* Biotech: Changed tech level of the Diamond Dog faction to Medieval (was Neolithic).
+* Dubs Bad Hygiene: Fixed the harmony chip not granting pawns the bonus applied by the Pipp Petals plushie.
+
 Version 4.30.82 (October 2nd 2023)
 
 NOTE: If you are installing this update manually, you will need to go into MyLittleRimPony/Core/Languages/French/Keyed and then delete the extra 'Keyed' folder once you have extracted it, in order to remove the extra localisation file (which is in the wrong place due to my own mistake).

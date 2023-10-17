@@ -1,26 +1,6 @@
 <Patch>
 
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Alpha Genes</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/XenotypeDef[defName="MLRP_Xeno_Alicorn"]/genes</xpath>
-					<value>
-						<li>AG_PegasusWings</li>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/XenotypeDef[defName="MLRP_Xeno_Pegasus"]/genes</xpath>
-					<value>
-						<li>AG_PegasusWings</li>
-					</value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
-	
+	<!--Patch has been moved to the main Alpha Genes load folder.-->
+	<!--This file only continues to exist so that non-Steam users don't have to do a manual reinstall for the millionth time.-->
+
 </Patch>
