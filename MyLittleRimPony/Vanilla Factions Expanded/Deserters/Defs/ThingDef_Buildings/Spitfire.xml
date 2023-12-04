@@ -33,6 +33,7 @@
     </statBases>
     <size>(1,1)</size>
     <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>61</uiOrder>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>

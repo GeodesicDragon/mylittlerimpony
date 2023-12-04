@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase" Name="PonyPlushChildBase" Abstract="True">
-	<costStuffCount>150</costStuffCount>
-    <apparel>
-		<developmentalStageFilter>Child</developmentalStageFilter>
-    </apparel>
-	<graphicData>
-      <drawSize>(0.5,0.5)</drawSize>
-    </graphicData>
-	<statBases>
-		<WorkToMake>1500</WorkToMake>
-	</statBases>
-  </ThingDef> 
+	<ThingDef ParentName="PonyPlushBase" Name="PonyPlushChildBase" Abstract="True">
+		<costStuffCount>150</costStuffCount>
+		<apparel>
+			<developmentalStageFilter>Child</developmentalStageFilter>
+		</apparel>
+		<graphicData>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>1500</WorkToMake>
+		</statBases>
+	</ThingDef> 
 </Defs>

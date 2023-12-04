@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_KingSombra</defName>
-    <label>King Sombra</label>
-    <description>If there's one thing King Sombra truly understands, it is fear.\n\nWhen your slaves carry him, they feel less likely to fight back.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/KingSombra</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-      <SlaveSuppressionOffset>0.1</SlaveSuppressionOffset>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Slavery">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_KingSombra</defName>
+		<label>King Sombra</label>
+		<description>If there's one thing King Sombra truly understands, it is fear.\n\nWhen your slaves carry him, they feel less likely to fight back.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/KingSombra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>0.1</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

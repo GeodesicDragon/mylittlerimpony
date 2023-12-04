@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_PrincessCelestia</defName>
-    <label>Princess Celestia</label>
-    <description>As one of the rulers of Equestria, Celestia has been through a lot; recently, though, she has never been happier.\n\nCarrying her makes you feel more in control of your emotions.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/PrincessCelestia</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-      <MentalBreakThreshold>-0.25</MentalBreakThreshold>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Utility">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_PrincessCelestia</defName>
+		<label>Princess Celestia</label>
+		<description>As one of the rulers of Equestria, Celestia has been through a lot; recently, though, she has never been happier.\n\nCarrying her makes you feel more in control of your emotions.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/PrincessCelestia</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_PinkiePie</defName>
-    <label>Pinkie Pie</label>
-    <description>Pinkie Pie never fails to liven up somepony's day, and yours will be no exception.\n\nCarrying her makes you feel more talkative.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/PinkiePie</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-      <SocialImpact>0.25</SocialImpact>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Social">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_PinkiePie</defName>
+		<label>Pinkie Pie</label>
+		<description>Pinkie Pie never fails to liven up somepony's day, and yours will be no exception.\n\nCarrying her makes you feel more talkative.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/PinkiePie</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<SocialImpact>0.25</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

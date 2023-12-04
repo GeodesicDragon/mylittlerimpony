@@ -1,20 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_Haywick</defName>
-    <label>Nurse Haywick</label>
-    <description>Did you really think that the guy who made this mod wouldn't find a way to include his OC in it somehow?\n\nCarrying her makes you feel like a better medic.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/NurseHaywick</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-      <MedicalTendSpeed>0.25</MedicalTendSpeed>
-	  <MedicalTendQualityOffset>0.25</MedicalTendQualityOffset>
-	  <SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Health">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_Haywick</defName>
+		<label>Nurse Haywick</label>
+		<description>Did you really think that the guy who made this mod wouldn't find a way to include his OC in it somehow?\n\nCarrying her makes you feel like a better medic.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/NurseHaywick</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<MedicalTendSpeed>0.25</MedicalTendSpeed>
+			<MedicalTendQualityOffset>0.25</MedicalTendQualityOffset>
+			<SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

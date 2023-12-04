@@ -1,0 +1,42 @@
+<Defs>
+
+<FactionDef ParentName="MLRP_PlayerFactionBase">
+    <defName>MLRP_RenegadeAlicornFaction</defName>
+	<label>Renegade Alicorn</label>
+    <description>A colony of people led by a renegade alicorn.</description>
+	<allowedCultures>
+		<li>Astropolitan</li>
+	</allowedCultures>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>MLRP_BronyPlayer</basicMemberKind>
+    <pawnSingular>brony</pawnSingular>
+    <pawnsPlural>bronies</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+		  <li>Offworld</li>
+		  <li>Outlander</li>
+          <li>Outsider</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Things/EquestrianFlag</factionIconPath> <!--I'm only using this because I couldn't find anything else.-->
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>MLRP_BronyNames</factionNameMaker>
+    <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>
+	<startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+</FactionDef>
+
+</Defs>

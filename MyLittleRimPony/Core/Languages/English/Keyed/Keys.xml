@@ -28,10 +28,6 @@
 	<MLRP_PoisonJokeBadHearing>deafness</MLRP_PoisonJokeBadHearing>
 	<MLRP_PoisonJokeGoodBreathing>improved breathing ability</MLRP_PoisonJokeGoodBreathing>
 	<MLRP_PoisonJokeBadBreathing>reduced breathing ability</MLRP_PoisonJokeBadBreathing>
-	<MLRP_PoisonJokeGoodBloodFiltration>improved blood filtration</MLRP_PoisonJokeGoodBloodFiltration>
-	<MLRP_PoisonJokeBadBloodFiltration>reduced blood filtration</MLRP_PoisonJokeBadBloodFiltration>
-	<MLRP_PoisonJokeGoodBloodPumping>improved blood pumping</MLRP_PoisonJokeGoodBloodPumping>
-	<MLRP_PoisonJokeBadBloodPumping>poor blood pumping</MLRP_PoisonJokeBadBloodPumping>
 	<MLRP_PoisonJokeCutiePox>the Cutie Pox</MLRP_PoisonJokeCutiePox>
 	
 	<!--C# ROYALTY-->

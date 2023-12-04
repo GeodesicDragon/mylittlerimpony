@@ -623,6 +623,21 @@
 		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_MissHarshwhinny</defName>
+		<label>Miss Harshwinter</label>
+		<description>Build a Miss Harshwhinny cooler</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_MissHarshwhinny</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/MissHarshwinter</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--WEAPONS-->
 	
 	<AchievementsExpanded.AchievementDef>

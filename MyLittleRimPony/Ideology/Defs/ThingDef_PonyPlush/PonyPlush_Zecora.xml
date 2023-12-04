@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_Zecora</defName>
-    <label>Zecora</label>
-    <description>Zecora has spent enough time in the Everfree Forest to know a thing or two about trees.\n\nCarrying her makes you feel as though you can cut leaves faster.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/Zecora</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-      <PruningSpeed>5</PruningSpeed>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Utility">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_Zecora</defName>
+		<label>Zecora</label>
+		<description>Zecora has spent enough time in the Everfree Forest to know a thing or two about trees.\n\nCarrying her makes you feel as though you can cut leaves faster.</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Things/PonyPlush/Zecora</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<PruningSpeed>5</PruningSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

@@ -74,6 +74,7 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>85</uiOrder>
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
     <building>
       <combatPower>45</combatPower>

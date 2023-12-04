@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_Applejack</defName>
-    <label>Applejack</label>
-    <description>Strong and dependable, Applejack will always be there for her friends, though she's more reluctant to ask for help herself.\n\nCarrying her makes you feel at one with the earth, and more in tune with nature.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/Applejack</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-      <PlantWorkSpeed>0.25</PlantWorkSpeed>
-      <PlantHarvestYield>0.25</PlantHarvestYield>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Work">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_Applejack</defName>
+		<label>Applejack</label>
+		<description>Strong and dependable, Applejack will always be there for her friends, though she's more reluctant to ask for help herself.\n\nCarrying her makes you feel at one with the earth, and more in tune with nature.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/Applejack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.25</PlantWorkSpeed>
+			<PlantHarvestYield>0.25</PlantHarvestYield>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

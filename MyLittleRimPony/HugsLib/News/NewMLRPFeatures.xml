@@ -8,6 +8,12 @@
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_445109</defName>
+		<assemblyVersion>4.45.109</assemblyVersion>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Added Miss Harshwhinny, a passive cooler that can freeze a room at twice the fuel cost\n\n- Biotech: Added the Renegade Alicorn scenario\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: Poison joke plants now require 70% soil fertility (was 140%)\n- Core: Doubled the hitpoints of Screwballs\n\nPlease refer to the changelog for more info!</content>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_43398</defName>
 		<assemblyVersion>4.33.98</assemblyVersion>
 		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Biotech: Added the batpony xenotype and faction (requires Alpha Genes)\n- Removed many of the conversion recipes from the Daybreaker statue\n- Reduced combat power of NPC faction pawns to hopefully allow more to spawn during raids or other events\n\nPlease refer to the changelog for more info!</content>

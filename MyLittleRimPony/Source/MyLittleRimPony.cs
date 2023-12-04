@@ -35,10 +35,6 @@ namespace MyLittleRimPony
         public static HediffDef MLRP_PoisonJokeReducedHearing;
         public static HediffDef MLRP_PoisonJokeIncreasedBreathing;
         public static HediffDef MLRP_PoisonJokeReducedBreathing;
-        public static HediffDef MLRP_PoisonJokeIncreasedBloodFiltration;
-        public static HediffDef MLRP_PoisonJokeReducedBloodFiltration;
-        public static HediffDef MLRP_PoisonJokeIncreasedBloodPumping;
-        public static HediffDef MLRP_PoisonJokeReducedBloodPumping;
         public static HediffDef MLRP_CutiePox;
         public static RoomRoleDef MLRP_PortalRoom;
         public static ThingDef MLRP_MagicMirrorGenerator;
@@ -227,7 +223,7 @@ namespace MyLittleRimPony
         protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
         {
             System.Random r = new System.Random();
-            int n = r.Next(1, 22); // maxValue must always be one greater than the number of available hediffs, otherwise the first hediff will always be chosen.
+            int n = r.Next(1, 18); // maxValue must always be one greater than the number of available hediffs, otherwise the first hediff will always be chosen.
             var affliction = "";
 
             switch (n)
@@ -297,27 +293,11 @@ namespace MyLittleRimPony
                     affliction = "MLRP_PoisonJokeBadBreathing".Translate();
                     break;
                 case 17:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBloodFiltration);
-                    affliction = "MLRP_PoisonJokeGoodBloodFiltration".Translate();
-                    break;
-                case 18:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBloodFiltration);
-                    affliction = "MLRP_PoisonJokeBadBloodFiltration".Translate();
-                    break;
-                case 19:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBloodPumping);
-                    affliction = "MLRP_PoisonJokeGoodBloodPumping".Translate();
-                    break;
-                case 20:
-                    pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBloodPumping);
-                    affliction = "MLRP_PoisonJokeBadBloodPumping".Translate();
-                    break;
-                case 21:
                     pawn.health.AddHediff(MyDefOf.MLRP_CutiePox);
                     affliction = "MLRP_PoisonJokeCutiePox".Translate();
                     break;
             }
-            if (n == 2 || n == 4 || n == 6 || n == 8 || n == 10 || n == 12 || n == 14 || n == 16 || n == 18 || n == 20 || n == 21)
+            if (n == 2 || n == 4 || n == 6 || n == 8 || n == 10 || n == 12 || n == 14 || n == 16 || n == 17)
             {
                 LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.ThreatSmall;
                 string title = "MLRP_PoisonJokeLetterTitle".Translate();

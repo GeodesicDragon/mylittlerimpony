@@ -51,9 +51,11 @@
       <li>ClassicStartTechprints</li>
     </startingTechprintsResearchTags>
     <apparelStuffFilter>
-      <thingDefs>
-        <li>DevilstrandCloth</li>
-      </thingDefs>
+      <stuffCategoriesToAllow>
+        <li>Metallic</li>
+        <li>Fabric</li>
+        <li>Leathery</li>
+      </stuffCategoriesToAllow>
     </apparelStuffFilter>
   </FactionDef>
 </Defs>

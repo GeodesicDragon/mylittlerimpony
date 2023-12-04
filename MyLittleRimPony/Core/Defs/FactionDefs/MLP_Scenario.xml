@@ -98,7 +98,7 @@
 			
 			<!-- Flak helmets because I couldn't figure out how to get pawns wearing them by default -->
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Name="MLRP_CoreScenario_Helmets" Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Apparel_AdvancedHelmet</thingDef>
 				<count>3</count>

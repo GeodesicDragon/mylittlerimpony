@@ -22,6 +22,7 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>5</uiOrder>
     <rotatable>false</rotatable>
     <uiIconOffset>(0, 0.03)</uiIconOffset>
     <thingCategories>

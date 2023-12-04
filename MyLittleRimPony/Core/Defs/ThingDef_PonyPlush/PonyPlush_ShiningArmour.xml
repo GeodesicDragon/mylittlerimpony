@@ -1,20 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_ShiningArmour</defName>
-    <label>Shining Armour</label>
-    <description>As Captain of the Equestrian Royal Guard, Shining Armour knows a thing or two about combat; shields in particular are his speciality.\n\nCarrying him makes you feel better protected.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/ShiningArmour</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-	  <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-	  <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-	  <ArmorRating_Heat>0.15</ArmorRating_Heat>
-	</equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Combat">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_ShiningArmour</defName>
+		<label>Shining Armour</label>
+		<description>As Captain of the Equestrian Royal Guard, Shining Armour knows a thing or two about combat; shields in particular are his speciality.\n\nCarrying him makes you feel better protected.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/ShiningArmour</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

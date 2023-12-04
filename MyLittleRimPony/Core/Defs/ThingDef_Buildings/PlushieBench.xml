@@ -29,6 +29,7 @@
     </statBases>
     <size>(3,1)</size>
     <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>0</uiOrder>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>

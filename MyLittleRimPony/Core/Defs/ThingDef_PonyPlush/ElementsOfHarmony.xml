@@ -1,52 +1,47 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ThingDef ParentName="PonyPlushBase">
-    <defName>MLRP_ElementsOfHarmony</defName>
-    <label>Elements of Harmony</label>
-    <description>It is a well-known fact that the Elements of Harmony are exceptionally powerful; this version, however, is the one that WON'T let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
-	<descriptionHyperlinks>
-		<ThingDef>MLRP_ElementsOfHarmonyWeaponised</ThingDef>
-	</descriptionHyperlinks>
-    <techLevel>Industrial</techLevel>
-    <useHitPoints>True</useHitPoints>
-    <drawGUIOverlay>true</drawGUIOverlay>
-	<category>Item</category>
-	<selectable>True</selectable>
-    <graphicData>
-      <texPath>Things/ElementsOfHarmony</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <statBases>
-      <!--<MarketValue>2000</MarketValue>-->
-      <WorkToMake>9000</WorkToMake>
-      <MaxHitPoints>150</MaxHitPoints>
-      <Mass>1.0</Mass>
-      <Flammability>1</Flammability>
-      <EquipDelay>0.5</EquipDelay>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <equippedStatOffsets>
-      <PlantWorkSpeed>0.25</PlantWorkSpeed>
-      <PlantHarvestYield>0.25</PlantHarvestYield>
-      <TameAnimalChance>0.25</TameAnimalChance>
-      <TrainAnimalChance>0.25</TrainAnimalChance>
-      <AnimalGatherSpeed>0.25</AnimalGatherSpeed>
-      <AnimalGatherYield>0.25</AnimalGatherYield>
-      <SocialImpact>0.25</SocialImpact>
-      <MoveSpeed>1</MoveSpeed>
-      <MeleeHitChance>5</MeleeHitChance>
-      <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
-	  <TradePriceImprovement>0.25</TradePriceImprovement>
-	  <ResearchSpeed>0.25</ResearchSpeed>
-    </equippedStatOffsets>
-    <costStuffCount>1800</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-  </ThingDef>
-  
+	<ThingDef ParentName="PonyPlush_Special">
+		<defName>MLRP_ElementsOfHarmony</defName>
+		<label>Elements of Harmony</label>
+		<description>It is a well-known fact that the Elements of Harmony are exceptionally powerful; this version, however, is the one that WON'T let you shoot rainbow lasers at your enemies.\n\nCarrying it makes you feel as though the strengths of each of the Bearers are flowing within you.</description>
+		<descriptionHyperlinks>
+			<ThingDef>MLRP_ElementsOfHarmonyWeaponised</ThingDef>
+		</descriptionHyperlinks>
+		<useHitPoints>True</useHitPoints>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<graphicData>
+			<texPath>Things/ElementsOfHarmony</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.0</Mass>
+			<Flammability>1</Flammability>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.25</PlantWorkSpeed>
+			<PlantHarvestYield>0.25</PlantHarvestYield>
+			<TameAnimalChance>0.25</TameAnimalChance>
+			<TrainAnimalChance>0.25</TrainAnimalChance>
+			<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+			<AnimalGatherYield>0.25</AnimalGatherYield>
+			<SocialImpact>0.25</SocialImpact>
+			<MoveSpeed>1</MoveSpeed>
+			<MeleeHitChance>5</MeleeHitChance>
+			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+			<TradePriceImprovement>0.25</TradePriceImprovement>
+			<ResearchSpeed>0.25</ResearchSpeed>
+		</equippedStatOffsets>
+		<costStuffCount>1800</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+	</ThingDef>
 </Defs>

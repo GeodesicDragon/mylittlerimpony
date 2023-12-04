@@ -18,7 +18,7 @@
     <selectable>true</selectable>
     <pathCost>7</pathCost>
     <plant>
-		<fertilityMin>1.4</fertilityMin>
+		<fertilityMin>0.7</fertilityMin>
 		<growDays>7</growDays>
 		<dieIfLeafless>true</dieIfLeafless>
 		<harvestTag>Standard</harvestTag>

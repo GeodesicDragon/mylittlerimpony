@@ -1,29 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_IzzyMoonbow</defName>
-    <label>Izzy Moonbow</label>
-    <description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/IzzyMoonbow</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <comps>
-      <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>MLRP_IzzyPlush</hediff>
-        <part>Head</part>
-      </li>
-    </comps>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Social">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_IzzyMoonbow</defName>
+		<label>Izzy Moonbow</label>
+		<description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/IzzyMoonbow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>MLRP_IzzyPlush</hediff>
+				<part>Head</part>
+			</li>
+		</comps>
+	</ThingDef>
   
 	<HediffDef>
 		<defName>MLRP_IzzyPlush</defName>
 		<label>Izzy Moonbow plush</label>
 		<description>You feel a lot happier.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
 		<stages>
 			<li>
 				<opinionOfOthersFactor>1.5</opinionOfOthersFactor>
@@ -32,23 +31,22 @@
 		<comps>
 			<li Class="HediffCompProperties_RemoveIfApparelDropped" />
 		</comps>
-	<isBad>false</isBad>
-  </HediffDef>
+	</HediffDef>
   
-  <ThoughtDef>
-    <defName>MLRP_IzzyPlush</defName>
-    <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>MLRP_IzzyPlush</hediff>
-    <validWhileDespawned>true</validWhileDespawned>
-    <stages>
-      <li>
-        <label>Izzy Moonbow plush</label>
-        <description>Izzy's smile is infectious.</description>
-        <baseMoodEffect>5</baseMoodEffect>
-      </li>
-    </stages>
-	<nullifyingTraits>
-		<li>MLRP_AntiBronyTrait</li>
-	</nullifyingTraits>
-  </ThoughtDef>
+	<ThoughtDef>
+		<defName>MLRP_IzzyPlush</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>MLRP_IzzyPlush</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>Izzy Moonbow plush</label>
+				<description>Izzy's smile is infectious.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>MLRP_AntiBronyTrait</li>
+		</nullifyingTraits>
+	</ThoughtDef>
 </Defs>

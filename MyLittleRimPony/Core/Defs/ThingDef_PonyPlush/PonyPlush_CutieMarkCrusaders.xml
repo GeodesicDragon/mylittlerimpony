@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="PonyPlushBase">
+    <ThingDef ParentName="PonyPlush_Special">
     <defName>PonyPlush_CutieMarkCrusaders</defName>
     <label>Cutie Mark Crusaders</label>
     <description>Otherwise known as 'The Three Filly Wrecking Crew Of Ponyville.'\n\nCarrying them makes you feel as though they are supporting and guiding you, even though you can't get a cutie mark of your own.</description>
-    <techLevel>Industrial</techLevel>
     <useHitPoints>True</useHitPoints>
     <drawGUIOverlay>true</drawGUIOverlay>
 	<category>Item</category>

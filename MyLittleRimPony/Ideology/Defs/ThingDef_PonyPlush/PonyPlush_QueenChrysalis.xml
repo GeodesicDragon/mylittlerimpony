@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="PonyPlushBase">
-    <thingClass>Apparel</thingClass>
-    <defName>PonyPlush_QueenChrysalis</defName>
-    <label>Queen Chrysalis</label>
-    <description>The Changelings were a force to be reckoned with under the leadership of Queen Chrysalis; with her defeat came the realisation that maybe, just maybe, they were nothing more than slaves.\n\nCarrying her makes you feel as though you can control your own slaves better.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>Things/PonyPlush/QueenChrysalis</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <equippedStatOffsets>
-      <SuppressionPower>0.25</SuppressionPower>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef ParentName="PonyPlush_Slavery">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_QueenChrysalis</defName>
+		<label>Queen Chrysalis</label>
+		<description>The Changelings were a force to be reckoned with under the leadership of Queen Chrysalis; with her defeat came the realisation that maybe, just maybe, they were nothing more than slaves.\n\nCarrying her makes you feel as though you can control your own slaves better.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/QueenChrysalis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<SuppressionPower>0.25</SuppressionPower>
+		</equippedStatOffsets>
+	</ThingDef>
 </Defs>

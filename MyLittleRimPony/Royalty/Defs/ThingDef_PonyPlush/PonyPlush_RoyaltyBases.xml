@@ -1,0 +1,11 @@
+<Defs>
+
+	<ThingDef Name="PonyPlush_Psycaster" ParentName="PonyPlushBase" Abstract="True">
+		<apparel>
+			<tags>
+				<li>PonyPlush_Psycaster</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

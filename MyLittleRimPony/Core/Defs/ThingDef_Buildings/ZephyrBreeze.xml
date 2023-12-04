@@ -45,6 +45,7 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>80</uiOrder>
     <building>
       <expandHomeArea>true</expandHomeArea>
       <ai_combatDangerous>true</ai_combatDangerous>

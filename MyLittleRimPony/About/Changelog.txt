@@ -1,3 +1,39 @@
+Version 4.45.109 (December 4th 2023)
+
+* Core: Added Miss Harshwhinny.
+	* Works in the same way as a passive cooler.
+	* Uses wood as fuel, but consumes twice as much.
+	* Requires passive cooler research before she can be built.
+	* Capable of reducing the temperature of a room to freezing (hence the double fuel usage).
+* Core: Plushies have been given some additional apparel tags.
+	* PonyPlush_Combat: Daring Do, Princess Cadence, Rainbow Dash, Shining Armour
+	* PonyPlush_Health: Apple Bloom, Nurse Haywick, Scootaloo
+	* PonyPlush_Ideology: Flim and Flam
+	* PonyPlush_Misc: Fleur de Lis
+	* PonyPlush_Psycaster: Aloe and Lotus and Trixie
+	* PonyPlush_Slavery: King Sombra and Queen Chrysalis
+	* PonyPlush_Social: Izzy Moonbow, Pinkie Pie
+	* PonyPlush_Special: Cutie Mark Crusaders and Elements of Harmony.
+	* PonyPlush_Utility: Big Macintosh, Princess Celestia, Princess Luna, Rarity, Spoiled Rich, Starlight Glimmer, Button Mash, Pipp Petals, Zecora
+	* PonyPlush_Work: Applejack, Cheerilee, Discord, Fluttershy, Maud Pie, Sweetie Belle, Twilight Sparkle
+	* Tags are not applied to child-sized plushies.
+* Biotech: Added the Renegade Alicorn scenario.
+	* Starts with one alicorn and three baseliners.
+	* Starts with 15000 silver... and nothing else.
+	* Relations with the NPC faction are not affected (batponies will still start out hostile).
+* Core: Made some changes to Sunny Starscout.
+	* The 'Config error in MLRP_Storyteller_Sunny: minSpacingDays too high compared to max number of incidents' red error you would often see on startup has finally been fixed. (Thanks to Jamaican Castle and erdelf from the RimWorld Discord for helping with this.)
+	* Since you can't have it too easy - this IS RimWorld, after all - disease outbreaks will now occur on average every 15 days (was 30).
+* Core: Poison joke plants now require at least 70% soil fertility (was 140%).
+* Core: Poison joke joints no longer affect blood filtration.
+* Core: Poison joke joints no longer affect blood pumping.
+* Core: Increased the base hitpoints of Screwballs to 200 (was 100). Any that you've built will need to be repaired as a result of this change.
+* Core: Increased heat output of Daybreaker to 9 per second (was 6).
+* Core: Daybreaker should now act as a heater, warming rooms to to roughly 25°C (77°F).
+* Royalty: Aloe and Lotus now require 300 stuff to make (was 450).
+* Ideology: Flim and Flam now require 300 stuff to make (was 450).
+* Biotech: Fixed child-sized Starlight Glimmer plush not providing the same level of protection as the adult version.
+
 Version 4.33.98 (October 17th 2023)
 
 * Alpha Genes: Added the Batpony xenotype. (Requires Alpha Genes because that's where most of the important genes come from.)
