@@ -1,0 +1,34 @@
+<Defs>
+
+<!--REQUEST PSYCHIC CORNUCOPIA-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_VFEV_PlantGrowerArtifact</defName>
+	<label>request psychic cornucopia</label>
+	<description>Offer silver in exchange for a psychic cornucopia.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>88</count>
+		</li>
+	</ingredients>
+	<products>
+		<VFEV_PlantGrowerArtifact>1</VFEV_PlantGrowerArtifact>
+	</products>
+</RecipeDef>
+  
+</Defs>

@@ -11,6 +11,7 @@
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
 		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded</li>
 		<li IfModActive="OskarPotocki.VFE.Deserters">Vanilla Factions Expanded/Deserters</li>
+		<li IfModActive="OskarPotocki.VFE.Vikings">Vanilla Factions Expanded/Vikings</li>
 		<li IfModActive="vanillaexpanded.outposts">Vanilla Outposts Expanded</li>
 		<li IfModActive="imranfish.xmlextensions">XML Extensions</li>
 		<li IfModActive="CETeam.CombatExtended">Combat Extended</li>

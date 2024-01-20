@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips</xpath>
+		<value>
+			<li>Pipp Petals: "My sparkle is aquamarine? That's, like, my sixth favorite color!"</li>
+		</value>
+	</Operation>
+
+</Patch>

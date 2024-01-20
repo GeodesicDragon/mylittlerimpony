@@ -41,10 +41,10 @@ public class MLRP_ResearchTracker : GameComponent
         "FleshShaping",
         "ArtificialMetabolism",
         "CircadianInfluence",
-        "StandardMechtech",
-        "HighMechtech",
-        "UltraMechtech",
-        "Deathrest",
+        "StandardMechtech", // Biotech
+        "HighMechtech", // Biotech
+        "UltraMechtech", // Biotech
+        "Deathrest", // Biotech
         "ToxFiltration",
         "MLRP_MagicMirrorResearch", // My Little RimPony
         "MLRP_ArchotechResearch", // My Little RimPony

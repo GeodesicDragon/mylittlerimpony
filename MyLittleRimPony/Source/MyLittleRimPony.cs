@@ -67,6 +67,10 @@ namespace MyLittleRimPony
             {
                 Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_XMLExtensionsDetected".Translate());
             }
+            if (ModsConfig.IsActive("geodesicdragon.rimpony.medieval"))
+            {
+                Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_MOPatchesDetected".Translate());
+            }
         }
     }
 

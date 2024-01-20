@@ -60,7 +60,6 @@
     </stuffCategories>
     <statBases>
       <Mass>4</Mass>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
     </statBases>
     <comps>
       <li Class="CompProperties_Glower">

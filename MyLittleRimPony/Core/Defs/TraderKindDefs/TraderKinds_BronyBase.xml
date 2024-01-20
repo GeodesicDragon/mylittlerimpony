@@ -93,6 +93,13 @@
         <thingDef>Kibble</thingDef>
         <countRange>250~500</countRange>
       </li>
+	  
+      <!-- Drugs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <maxTechLevelGenerate>Spacer</maxTechLevelGenerate>
+        <thingDefCountRange>1~10</thingDefCountRange>
+      </li>
 
       <!-- Weapons -->
       <li Class="StockGenerator_MarketValue">
@@ -316,9 +323,11 @@
         </createMatingPair>
       </li>
 	  
+      <!-- Drugs -->
       <li Class="StockGenerator_Category">
-          <categoryDef>Drugs</categoryDef>
-          <thingDefCountRange>1~30</thingDefCountRange>
+        <categoryDef>Drugs</categoryDef>
+        <maxTechLevelGenerate>Spacer</maxTechLevelGenerate>
+        <thingDefCountRange>1~10</thingDefCountRange>
       </li>
       
       <!-- Buying -->

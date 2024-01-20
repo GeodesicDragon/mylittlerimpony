@@ -8,9 +8,9 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases</xpath>
 		<value>
-			<AimingAccuracy>0.5</AimingAccuracy>
+			<AimingAccuracy>0.25</AimingAccuracy>
 		</value>
 	</Operation>
 	

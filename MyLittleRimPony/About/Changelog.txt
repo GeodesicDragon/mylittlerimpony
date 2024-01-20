@@ -1,3 +1,28 @@
+Version 4.47.122 (January 20th 2024)
+
+* XML Extensions: Added the ability to set how much stuff is required to build Discord lamps.
+	* Minimum amount of stuff is 100.
+	* Maximum amount of stuff is 1000.
+	* Default amount of stuff is 300.
+* XML Extensions: Added the ability to set the brightness of Discord lamps.
+	* Minimum brightness is 1.
+	* Maximum brightness is 20.
+	* Default brightness is 8.
+* Core: NPC faction settlements should now sell drugs (you will need to wait for them to restock).
+* Biotech: Fixed 'Could not resolve cross-reference: No RimWorld.XenotypeDef named MLRP_Xeno_Batpony found to give to RimWorld.XenotypeChance RimWorld.XenotypeChance' error, seen when Alpha Genes wasn't active.
+* Combat Extended: Reduced points awarded by the 'Wimbledon This Ain't' achievement to 50 (was 75).
+* Combat Extended: Reduced points awarded by the 'Hazardous Harmonious Materials' achievement to 50 (was 100).
+* Combat Extended: Reduced points awarded by the 'Splinters, Splinters Everywhere' achievement to 50 (was 100).
+* Combat Extended: Fixed 'Could not resolve cross-reference: No Verse.ThingDef named BlindSmoke found to give to CombatExtended.ProjectilePropertiesCE CombatExtended.ProjectilePropertiesCE' error.
+* Combat Extended: Fixed 'Verse.PatchOperationReplace(xpath="Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyTouch"): Failed to find a node with the given xpath' seen when XML Extensions was enabled.
+* Combat Extended: Fixed 'Verse.PatchOperationReplace(xpath="Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyTouch"): Failed to find a node with the given xpath' seen when XML Extensions was enabled.
+* Dubs Bad Hygiene: Changed the texture of the Pipp Petals plushie.
+* Dubs Bad Hygiene: Changed the texture of the 'Pipp, Pipp, Hooray!' achievement.
+* Vanilla Factions Expanded - Deserters: Halved the cost of acquiring intel from Spitfire, as well as how much you get.
+* Vanilla Factions Expanded - Deserters: Fixed being unable to acquire intel from Spitfire despite having the required items.
+	* Thanks to Wheat Tail for bringing this issue to my attention.
+* XML Extensions: Changing Nurse Redheart to spawn glitterworld medicine no longer increases her power consumption.
+
 Version 4.45.109 (December 4th 2023)
 
 * Core: Added Miss Harshwhinny.

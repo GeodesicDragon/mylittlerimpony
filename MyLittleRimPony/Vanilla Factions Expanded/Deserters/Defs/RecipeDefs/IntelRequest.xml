@@ -21,7 +21,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>750</count>
+			<count>375</count>
 		</li>
 		<li>
 			<filter>
@@ -29,7 +29,7 @@
 					<li>MedicineIndustrial</li>
 				</thingDefs>
 			</filter>
-			<count>25</count>
+			<count>15</count>
 		</li>
 		<li>
 			<filter>
@@ -38,11 +38,16 @@
 				<li>PlantFoodRaw</li>
 			  </categories>
 			</filter>
-			<count>500</count>
+			<count>250</count>
 		</li>
 	</ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
 	<products>
-		<VFED_Intel>50</VFED_Intel>
+		<VFED_Intel>25</VFED_Intel>
 	</products>
 </RecipeDef>
 
@@ -67,7 +72,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>1500</count>
+			<count>750</count>
 		</li>
 		<li>
 			<filter>
@@ -75,7 +80,7 @@
 					<li>MedicineUltratech</li>
 				</thingDefs>
 			</filter>
-			<count>25</count>
+			<count>15</count>
 		</li>
 		<li>
 			<filter>
@@ -84,11 +89,16 @@
 				<li>PlantFoodRaw</li>
 			  </categories>
 			</filter>
-			<count>750</count>
+			<count>375</count>
 		</li>
 	</ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
 	<products>
-		<VFED_CriticalIntel>10</VFED_CriticalIntel>
+		<VFED_CriticalIntel>5</VFED_CriticalIntel>
 	</products>
 </RecipeDef>
 

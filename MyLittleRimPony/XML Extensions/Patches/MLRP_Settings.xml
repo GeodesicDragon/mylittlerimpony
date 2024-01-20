@@ -358,6 +358,40 @@
 					</value>
 				</Operation>
 			</apply>
+		</li>		
+
+		<!--DISCORD LAMP: STUFF REQUIRED-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+			<key>MLRP_DiscordLampStuffRequired</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+			<defaultValue>300</defaultValue> <!--What you want the default value of the setting to be-->
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="DiscordLampBase"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>{MLRP_DiscordLampStuffRequired}</costStuffCount>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--DISCORD LAMP: BRIGHTNESS-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+			<key>MLRP_DiscordLampBrightness</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+			<defaultValue>8</defaultValue> <!--What you want the default value of the setting to be-->
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="DiscordLampBase"]/comps</xpath>
+					<value>
+						<comps>
+							<li Class="CompProperties_Glower">
+								<glowRadius>{MLRP_DiscordLampBrightness}</glowRadius>
+							</li>
+						</comps>
+					</value>
+				</Operation>
+			</apply>
 		</li>
 		
 		<!--SWEETIE BOT: RANGE-->
@@ -381,11 +415,28 @@
 			<key>MLRP_SweetieBotAccuracyTouch</key>
 			<defaultValue>0.3</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyTouch</xpath>
-					<value>
-						<AccuracyTouch>{MLRP_SweetieBotAccuracyTouch}</AccuracyTouch>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_SweetieBotAccuracyTouch}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyTouch</xpath>
+							<value>
+								<AccuracyTouch>{MLRP_SweetieBotAccuracyTouch}</AccuracyTouch>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -396,11 +447,28 @@
 			<key>MLRP_SweetieBotAccuracyShort</key>
 			<defaultValue>0.4</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyShort</xpath>
-					<value>
-						<AccuracyShort>{MLRP_SweetieBotAccuracyShort}</AccuracyShort>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_SweetieBotAccuracyShort}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyShort</xpath>
+							<value>
+								<AccuracyShort>{MLRP_SweetieBotAccuracyShort}</AccuracyShort>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -412,11 +480,28 @@
 			<key>MLRP_SweetieBotAccuracyMedium</key>
 			<defaultValue>0.8</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyMedium</xpath>
-					<value>
-						<AccuracyMedium>{MLRP_SweetieBotAccuracyMedium}</AccuracyMedium>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_SweetieBotAccuracyMedium}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyMedium</xpath>
+							<value>
+								<AccuracyMedium>{MLRP_SweetieBotAccuracyMedium}</AccuracyMedium>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -427,18 +512,35 @@
 			<key>MLRP_SweetieBotAccuracyLong</key>
 			<defaultValue>0.8</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyLong</xpath>
-					<value>
-						<AccuracyLong>{MLRP_SweetieBotAccuracyLong}</AccuracyLong>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases/ShootingAccuracyTurret</xpath>
-					<value>
-						<ShootingAccuracyTurret>{MLRP_SweetieBotAccuracyLong}</ShootingAccuracyTurret>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_SweetieBotAccuracyLong}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/statBases/AccuracyLong</xpath>
+							<value>
+								<AccuracyLong>{MLRP_SweetieBotAccuracyLong}</AccuracyLong>
+							</value>
+						</Operation>
+						
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Turret_SweetieBot"]/statBases/ShootingAccuracyTurret</xpath>
+							<value>
+								<ShootingAccuracyTurret>{MLRP_SweetieBotAccuracyLong}</ShootingAccuracyTurret>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -455,26 +557,12 @@
 						<thingToSpawn>MedicineUltratech</thingToSpawn>
 					</value>
 				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
-					<value>
-						<basePowerConsumption>700</basePowerConsumption>
-					</value>
-				</Operation>
 			</caseTrue>
 			<caseFalse>
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Spawner"]/thingToSpawn</xpath>
 					<value>
 						<thingToSpawn>MedicineIndustrial</thingToSpawn>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_NurseRedheart"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
-					<value>
-						<basePowerConsumption>350</basePowerConsumption>
 					</value>
 				</Operation>
 			</caseFalse>
@@ -556,7 +644,7 @@
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="NurseRedheart"]</xpath>
 					<value>
-						<li Name="NurseRedheart">Nurse Redheart is a rare reward from quests; she will grant you {MLRP_NurseRedheartMedicineSpawnAmount} Medicine every {MLRP_NurseRedheartMedicineSpawnTime} days as long as she has 350W of power.</li>
+						<li Name="NurseRedheart">Nurse Redheart is a rare reward from quests; she will grant you {MLRP_NurseRedheartMedicineSpawnAmount} Medicine every {MLRP_NurseRedheartMedicineSpawnTime} days as long as she has enough power.</li>
 					</value>
 				</Operation>
 			</apply>
@@ -569,7 +657,7 @@
 			<defaultValue>10</defaultValue>
 			<apply>
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/verbs/li/range</xpath>
+					<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/verbs/li/range</xpath>
 					<value>
 						<range>{MLRP_ZephyrBreezeAggroRange}</range>
 					</value>
@@ -598,11 +686,28 @@
 			<key>MLRP_AggroTurretAccuracyTouch</key>
 			<defaultValue>0.1</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyTouch</xpath>
-					<value>
-						<AccuracyTouch>{MLRP_AggroTurretAccuracyTouch}</AccuracyTouch>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_AggroTurretAccuracyTouch}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AccuracyTouch</xpath>
+							<value>
+								<AccuracyTouch>{MLRP_AggroTurretAccuracyTouch}</AccuracyTouch>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -613,11 +718,28 @@
 			<key>MLRP_AggroTurretAccuracyShort</key>
 			<defaultValue>0.25</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyShort</xpath>
-					<value>
-						<AccuracyShort>{MLRP_AggroTurretAccuracyShort}</AccuracyShort>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_AggroTurretAccuracyShort}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AccuracyShort</xpath>
+							<value>
+								<AccuracyShort>{MLRP_AggroTurretAccuracyShort}</AccuracyShort>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -629,11 +751,28 @@
 			<key>MLRP_AggroTurretAccuracyMedium</key>
 			<defaultValue>0.25</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyMedium</xpath>
-					<value>
-						<AccuracyMedium>{MLRP_AggroTurretAccuracyMedium}</AccuracyMedium>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_AggroTurretAccuracyMedium}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AccuracyMedium</xpath>
+							<value>
+								<AccuracyMedium>{MLRP_AggroTurretAccuracyMedium}</AccuracyMedium>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -644,11 +783,28 @@
 			<key>MLRP_AggroTurretAccuracyLong</key>
 			<defaultValue>1</defaultValue>
 			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/statBases/AccuracyLong</xpath>
-					<value>
-						<AccuracyLong>{MLRP_AggroTurretAccuracyLong}</AccuracyLong>
-					</value>
+				<Operation Class="XmlExtensions.FindMod">
+					<mods>
+						<li>CETeam.CombatExtended</li>
+					</mods>
+					<packageId>true</packageId>
+					<logic>and</logic>
+					<caseTrue> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AimingAccuracy</xpath>
+							<value>
+								<AimingAccuracy>{MLRP_AggroTurretAccuracyLong}</AimingAccuracy>
+							</value>
+						</Operation>
+					</caseTrue>
+					<caseFalse> 
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/statBases/AccuracyLong</xpath>
+							<value>
+								<AccuracyLong>{MLRP_AggroTurretAccuracyLong}</AccuracyLong>
+							</value>
+						</Operation>
+					</caseFalse>
 				</Operation>
 			</apply>
 		</li>
@@ -660,7 +816,7 @@
 			<defaultValue>3</defaultValue>
 			<apply>
 				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="MLRP_Weaponless"]/verbs/li/burstShotCount</xpath>
+					<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze" or defName="MLRP_Weaponless"]/verbs/li/burstShotCount</xpath>
 					<value>
 						<burstShotCount>{MLRP_AggroTurretBurstAmount}</burstShotCount>
 					</value>
@@ -744,7 +900,7 @@
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="SSCS6K"]</xpath>
 					<value>
-						<li Name="SSCS6K">The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days as long as it has 500W of power.</li>
+						<li Name="SSCS6K">The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days as long as it has enough power.</li>
 					</value>
 				</Operation>
 			</apply>
@@ -1180,6 +1336,32 @@
 				<li Class="XmlExtensions.Setting.Gap"/>
 				
 				<li Class="XmlExtensions.Setting.Text">
+					<text>Discord Lamp Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_DiscordLampStuffRequired</key>
+					<defaultValue>300</defaultValue>
+					<min>100</min>
+					<max>1000</max>
+					<label>Building a Discord lamp requires {MLRP_DiscordLampStuffRequired} stuff</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_DiscordLampBrightness</key>
+					<defaultValue>8</defaultValue>
+					<min>1</min>
+					<max>20</max>
+					<label>Brightess: {MLRP_DiscordLampBrightness}</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
 					<text>Sweetie Bot Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
@@ -1280,8 +1462,8 @@
 					<label>Spawn glitterworld medicine</label>
 				</li>
 				
-				<li Class="XmlExtensions.Setting.Text">
-					<text>Spawning glitterworld medicine will make the building consume twice as much power.</text>
+				<li Class="XmlExtensions.Setting.Text" MayRequire="geodesicdragon.rimpony.medieval">
+					<text>IMPORTANT: This setting will be ignored because you are using the Medieval Overhaul patches.</text>
 					<font>Small</font>
 					<anchor>Left</anchor>
 				</li>

@@ -45,5 +45,6 @@
 	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">XML Extensions has been detected.</MLRP_XMLExtensionsDetected>
 	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">Combat Extended has been detected.</MLRP_CEDetected>
 	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">IMPORTANT: I don't use CE, so patches for it are untested; please alert me ASAP if you encounter any problems!</MLRP_CEDetectedWarning>
+	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">Medieval Overhaul patches have been applied.</MLRP_MOPatchesDetected>
 	
 </LanguageData>
