@@ -7,7 +7,7 @@
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/HediffDef[defName="MLRP_ShrewdNegotiatorHediff"]/stages/li/statFactors</xpath>
 			<value>
-				<ConversionPower>10</ConversionPower>
+				<ConversionPower>5</ConversionPower>
 			</value>
 		</match>
 	</Operation>

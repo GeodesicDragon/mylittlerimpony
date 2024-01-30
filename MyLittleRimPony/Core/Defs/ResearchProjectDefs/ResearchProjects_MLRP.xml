@@ -30,8 +30,8 @@
 	
 	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
 		<defName>MLRP_CurePoisonJokeAddictionResearch</defName>
-		<label>Cure poison joke addiction</label>
-		<description>Learn how to make a herbal infusion which will cure a person of an addiction to poison joke when it is consumed.</description>
+		<label>Herbal cure kit</label>
+		<description>Learn how to make a herbal remedy which will cure a person of a variety of afflictions.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>

@@ -76,7 +76,7 @@
 				<SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>
 				<MiningSpeed>0.25</MiningSpeed>
 				<MiningYield>0.25</MiningYield>
-				<PainShockThreshold>0.25</PainShockThreshold>
+				<PainShockThreshold>0.5</PainShockThreshold>
 				<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				<RestRateMultiplier>0.5</RestRateMultiplier>
 				<ArmorRating_Blunt>0.15</ArmorRating_Blunt>

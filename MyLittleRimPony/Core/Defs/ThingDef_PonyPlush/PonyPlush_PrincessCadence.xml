@@ -10,7 +10,7 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.25</PainShockThreshold>
+			<PainShockThreshold>0.5</PainShockThreshold>
 		</equippedStatOffsets>
 	</ThingDef>
 </Defs>

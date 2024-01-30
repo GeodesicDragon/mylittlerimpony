@@ -4,6 +4,9 @@
     <defName>MLRP_Turret_SweetieBot</defName>
     <label>Sweetie Bot turret</label>
     <description>Fires rainbow lasers that are accurate at medium to long range. Will not explode if damaged.</description>
+	<descriptionHyperlinks>
+		<ThingDef MayRequire="CETeam.CombatExtended">Ammo_HarmonyLaser</ThingDef>
+	</descriptionHyperlinks>
     <thingClass>Building_TurretGun</thingClass>
 	<designationHotKey>Misc11</designationHotKey>
     <drawerType>MapMeshAndRealTime</drawerType>

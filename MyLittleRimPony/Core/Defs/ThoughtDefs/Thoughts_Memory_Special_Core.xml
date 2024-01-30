@@ -9,7 +9,7 @@
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>
-				<label>party cannon effect (brony)</label>
+				<label>party cannon effect</label>
 				<description>Pinkie Pie parties are the best!</description>
 				<baseMoodEffect>20</baseMoodEffect>
 			</li>
@@ -29,7 +29,7 @@
 			<li>
 				<label>party cannon effect</label>
 				<description>I don't remember going to any parties lately, but I still feel great!</description>
-				<baseMoodEffect>15</baseMoodEffect>
+				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
 		<nullifyingTraits>
@@ -46,7 +46,7 @@
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>
-				<label>party cannon effect (anti brony)</label>
+				<label>party cannon effect</label>
 				<description>As much as I hate this pony stuff, even I have to admit that this is a good feeling.</description>
 				<baseMoodEffect>5</baseMoodEffect>
 			</li>
@@ -64,7 +64,7 @@
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>
-				<label>party cannon effect (prisoner)</label>
+				<label>party cannon effect</label>
 				<description>I feel a bit better, but it doesn't change the fact that I'm being held captive.</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>

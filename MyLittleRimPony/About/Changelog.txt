@@ -1,3 +1,87 @@
+Version 4.48.191 (January 30th 2024)
+
+* Combat Extended: Added patches for the Sweetie Bot mechanoid.
+	* She now requires harmony lasers as ammunition.
+	* Blunt armour rating of 3.
+	* Sharp armour rating of 6.
+	* 50 carry weight.
+	* 20 bulk capacity.
+	* 10% melee dodge chance.
+	* 5% melee crit chance.
+	* 5% melee parry chance.
+	* 700 armour durability.
+* Core: Reduced the amount of work needed to make the wife thrower to 3600 (was 7000).
+* Core: Princess Cadence now increases pain shock threshold by 50% (was 25%). Equipping her should completely counter the 'Wimp' trait.
+* Core: Many C# translation keys have been updated to be a single string, instead of two or more stuck together.
+* Core: Renamed the poison joke addiction cure kit to 'herbal cure kit.'
+* Core: The herbal cure kit can now remove flu, malaria and food poisoning on a pawn, though it will not work on animals, plague or the Cutie Pox.
+* Core: Crafting a herbal cure kit now requires at least 6 Intellectual on top of 6 Crafting.
+* Core: Crafting a herbal cure kit no longer requires neutroamine, but the herbal medicine cost has been increased to 25 (was 15).
+* Core: Lowered the tech level of the herbal cure kit to Industrial (was Ultra).
+* Core: Lowered the mood buff of party cannons on non brony/anti-brony colonists to 10 (was 15).
+* Core: Added 150 more random words as potential names for NPC faction pawns.
+* Core: Fixed NPC faction settlements not selling drugs (for real this time).
+* Core: Fixed NPC faction settlements not selling raw food.
+* Core: Fixed NPC faction settlements not selling textiles.
+* Core: Fixed NPC faction settlements not selling raw resources.
+* Core: Fixed NPC faction bulk goods traders not selling raw food.
+* Core: Fixed NPC faction bulk goods traders not selling textiles.
+* Core: Fixed NPC faction bulk goods traders not selling drugs.
+* Core: Fixed NPC faction weapon traders not selling drugs.
+* Core: Fixed NPC faction exotic goods traders not selling drugs.
+* Core: Changed how poison joke affliction letters are worded.
+* Biotech: Added 15 more words as Diamond Dog surname prefixes.
+* Biotech: Added 3 more words as Diamond Dog surname suffixes.
+* Biotech: Added 30 more words as potential first names for male Diamond Dogs.
+* Biotech: Added 50 more words as potential first names for female Diamond Dogs.
+* Biotech: Reduced the maximum number of Diamond Dog factions you can have at game start to 1 (was 3).
+* Biotech: Halved the effects of the shrewd negotiator ability, as it could get a little bit overpowered at times.
+* Combat Extended: If you've allowed bronies to be violent, the Brony Community and Xenotypes scenarios will now start with some .45 ACP (FMJ) ammunition for the autopistols (requires XML Extensions).
+* Combat Extended: Reduced the bulk value of plushies to 0.1 (was 1).
+* Combat Extended: Big Macintosh now increases bulk capacity by 15.
+* Combat Extended: Rainbow Dash now increases reload speed by 5%.
+* Combat Extended: Fixed Cadence javelins being categorised as more advanced ammunition than they actually are.
+* Combat Extended: Cadence javelins can now be made at a crafting spot.
+* Combat Extended: Wooden bullets can now be made at a crafting spot.
+* Combat Extended: Cadence javelins can now be made at the loading bench.
+* Combat Extended: Harmony lasers can now be made at the loading bench.
+* Combat Extended: Tennis balls can now be made at the loading bench.
+* Combat Extended: Wooden bullets can now be made at the loading bench.
+* Combat Extended: Increased the number of Cadence javelins made at a time to 100 (was 50).
+* Combat Extended: Reduced the cost of making Cadence javelins to 10 wood (was 25).
+* Combat Extended: Reduced the amount of work needed to craft Cadence javelins to 60 (was 1900).
+* Combat Extended: Reduced the amount of work needed to craft Harmony lasers to 60 (was 3800).
+* Combat Extended: Reduced the amount of work needed to craft tennis balls to 60 (was 1900).
+* Combat Extended: Reduced the amount of work needed to craft wooden bullets to 60 (was 600).
+* Combat Extended: Fixed being unable to draft pawns equipped with a wife thrower.
+* Combat Extended: Fixed being unable to unforbid wife throwers that had been dropped by a pawn.
+* Combat Extended: Fixed having to research pulse-charged munitions in order to make wooden bullets.
+* Combat Extended: Reduced the number of 5.56x45mm NATO (FMJ) rounds the Brony Community scenario starts with to 300 (was 400).
+* Combat Extended: Reduced the number of 5.56x45mm NATO (FMJ) rounds the Brony Xenotypes scenario starts with to 300 (was 600).
+* Combat Extended: Increased the steel cost of making harmony lasers to 40 (was 20).
+* Combat Extended: Making harmony lasers no longer costs plasteel or components.
+* Combat Extended: Making harmony lasers now requires you to have researched the Rainbow Laser first.
+* Combat Extended: NPC faction settlements now sell ammo, FSX and Prometheum.
+* Combat Extended: NPC faction bulk goods traders now sell ammo, FSX and Prometheum.
+* Combat Extended: NPC faction combat suppliers now sell ammo, FSX and Prometheum.
+* Combat Extended: Increased the sharp armour penetration of harmony lasers to 25mm RHA (was 8). For such an advanced ammunition, it sure did suck against mechanoids. At least colonists armed with a rainbow laser, as well as Sweetie Bot turrets, should actually be able to harm the damn things now.
+* Combat Extended: Reduced the blunt armour penetration of harmony lasers to 35 (was 70).
+* Combat Extended: Reduced the base damage of harmony lasers to 20 (was 25).
+* Combat Extended: Increased the sight efficiency of the rainbow laser to 100% (was 80%).
+* Combat Extended: Reduced the shot spread of the rainbow laser to 0.07 (was 0.15).
+* Combat Extended: Reduced the sway factor of the rainbow laser to 1.33 (was 2).
+* Combat Extended: Increased the mass of the rainbow laser to 3 (was 2).
+* Combat Extended: Increased the bulk of the rainbow laser to 7.5 (was 3).
+* Combat Extended: Reduced the base damage of the wife thrower to 15 (was 25).
+* Combat Extended: Fixed 'MakeThing error: Apparel_AdvancedHelmet is not madeFromStuff but stuff=Plasteel. Setting to null.' red message seen when starting either the Brony Community or Brony Xenotypes scenarios.
+* Combat Extended: Changed the criteria for the 'A Whole Lotta Love' achievement to stockpile Cadence javelins. (1)
+* Combat Extended: Changed the criteria for the 'Wimbledon This Ain't' achievement to stockpile tennis balls. (1)
+* Combat Extended: Changed the criteria for the 'Hazardous Harmonious Materials' achievement to stockpile Harmony lasers. (1)
+* Combat Extended: Changed the criteria for the 'Splinters, Splinters Everywhere' achievement to stockpile wooden bullets. (1)
+* Combat Extended: Reduced the number of rounds needed to earn the 'Splinters, Splinters Everywhere' achievement to 50000 (was 100000).
+
+1. If you're loading a saved game, you will need to regenerate your achievements using dev mode in order for these to be tracked properly, otherwise VAE will continue to track how many times you perform the recipes to make them, instead of tracking how many you have.
+
 Version 4.47.122 (January 20th 2024)
 
 * XML Extensions: Added the ability to set how much stuff is required to build Discord lamps.
@@ -779,7 +863,7 @@ Version 3.0.0 (October 27th 2022)
 * Core: The poison joke addiction cure kit should now be working again.
 * Core: Sweetie Bot turrets have undergone a few more upgrades, chief among them being the fact they no longer require rearming.
 	* To compensate for this, the power consumption has been increased to 350W (was 175).
-	* Furthermore, the construction cost has increased to to 600 stuff, 5 advanced components and 250 plasteel.
+	* Furthermore, the construction cost has increased to 600 stuff, 5 advanced components and 250 plasteel.
 	* You can now build Sweetie Bots out of metals such as steel and uranium.
 	* Lowered required construction skill to 12 (was 15).
 	* Increased mass to 35 (was 8).
@@ -1487,7 +1571,7 @@ Version 1.82.147 (January 29th 2022)
 * Added Shining Armour as a plushie (+15% to blunt, heat and sharp armour ratings).
 * Added patches which are applied if Vanilla Achievements Expanded is enabled.
 	* 28 achievements to aquire each item added by the mod, as well as making a legendary Rainbow Laser.
-	* Adds 2 more achievements to make the Ideology plushies, if that mod is enabled as well.
+	* Adds 2 more achievements to make the Ideology plushies, if that DLC is enabled as well.
 * Fixed the alternate recipe for the Elements of Harmony showing the finished result as a separate item.
 * Fixed the alternate recipe for the Cutie Mark Crusaders showing the finished result as a separate item.
 

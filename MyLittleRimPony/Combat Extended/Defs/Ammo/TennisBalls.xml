@@ -49,9 +49,10 @@
 		<label>make Tennis balls x50</label>
 		<description>Craft 50 tennis balls.</description>
 		<jobString>Making tennis balls.</jobString>
-		<workAmount>1900</workAmount>
+		<workAmount>60</workAmount>
 		<recipeUsers>
 			<li>PlushieBench</li>
+			<li>AmmoBench</li>
 		</recipeUsers>
 		<ingredients>
 			<li>

@@ -3,10 +3,9 @@
 <LanguageData>
 
 	<!--C# CORE-->
-	<MLRP_ModName>My Little RimPony</MLRP_ModName> <!--Wird im Protokoll angezeigt, wenn das Spiel geladen wird-->
-	<MLRP_ModIntro>geladen. Denken Sie daran, Freundschaft ist Magie!</MLRP_ModIntro> <!--Wird im Protokoll nach der Versionsnummer angezeigt-->
+	<MLRP_WelcomeMessage>[My Little RimPony] v{0} geladen. Denken Sie daran, Freundschaft ist Magie!</MLRP_WelcomeMessage><!--Wird im Protokoll angezeigt, wenn das Spiel in das Hauptmenü geladen wird. {0} ist die aktuelle Version und wird automatisch abgerufen.-->
 	<MLRP_PawnCured>{0} wurde von {1} geheilt.</MLRP_PawnCured> <!--Wird oben auf dem Bildschirm angezeigt, wenn ein Bauer mit dem Giftwitz-Heilungsset geheilt wird. {0} ist der Name des Bauern und {1} ist das, wovon sie geheilt wurden.-->
-	<MLRP_NothingToCure>Warnung: Es wurde versucht, nicht existierende Hediff(s) zu heilen.</MLRP_NothingToCure> <!--Wird im Protokoll angezeigt, wenn das Giftwitz-Heilungsset für einen Bauern verwendet wird, der nicht an einem Giftwitz und/oder einer magischen Kuchensucht leidet.-->
+	<MLRP_NothingToCure>[My Little RimPony] Warnung: Es wurde versucht, nicht existierende Hediff(s) zu heilen.</MLRP_NothingToCure> <!--Wird im Protokoll angezeigt, wenn das Giftwitz-Heilungsset für einen Bauern verwendet wird, der nicht an einem Giftwitz und/oder einer magischen Kuchensucht leidet.-->
 	<MLRP_AntiBronyHasPlushieAlert>Anti-Brony mit Plüschtier</MLRP_AntiBronyHasPlushieAlert> <!--Wird an der Seite des Bildschirms angezeigt, wenn eine Figur mit der Anti-Brony-Eigenschaft ein Plüschtier ausgerüstet hat.-->
 	<MLRP_AntiBronyHasPlushieExplanation>Eine Figur mit der Anti-Brony-Eigenschaft ist mit einem Pony-Plüschtier ausgestattet, das eine Stimmungsstrafe verursacht, bis es fallen gelassen wird. Um dies zu verhindern, könnte es sich lohnen, Anti-Bronies ein eigenes Outfit zuzuweisen.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Giftwitz-Betroffenheit</MLRP_PoisonJokeLetterTitle> <!--Titel des Briefes, der erhalten wurde, nachdem ein Bauer einen Giftwitz geraucht hat.-->
@@ -44,8 +43,9 @@
 
 	<!--C# MODS-->
 
-	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">XML-Erweiterungen wurden erkannt.</MLRP_XMLExtensionsDetected>
-	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">Combat Extended wurde erkannt.</MLRP_CEDetected>
-	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">WICHTIG: Ich verwende kein CE, daher sind Patches dafür ungetestet; Bitte benachrichtigen Sie mich so schnell wie möglich, wenn Sie auf Probleme stoßen!</MLRP_CEDetectedWarning>
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[My Little RimPony] XML-Erweiterungen wurden erkannt.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[My Little RimPony] Combat Extended wurde erkannt.</MLRP_CEDetected>
+	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">[My Little RimPony] WICHTIG: Ich verwende kein CE, daher sind Patches dafür ungetestet; Bitte benachrichtigen Sie mich so schnell wie möglich, wenn Sie auf Probleme stoßen!</MLRP_CEDetectedWarning>
+	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Patches für die mittelalterliche Überholung wurden angewendet.</MLRP_MOPatchesDetected>
 
 </LanguageData>

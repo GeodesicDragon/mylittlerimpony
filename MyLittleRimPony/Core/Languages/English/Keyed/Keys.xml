@@ -1,34 +1,33 @@
 <LanguageData>
 
 	<!--C# CORE-->
-	<MLRP_ModName>My Little RimPony</MLRP_ModName> <!--Shown in log when game loads-->
-	<MLRP_ModIntro>loaded. Remember, friendship is magic!</MLRP_ModIntro> <!--Displayed in log after version number-->
+	<MLRP_WelcomeMessage>[My Little RimPony] v{0} loaded. Remember, friendship is magic!</MLRP_WelcomeMessage><!--Shown in the log when the game loads to the main menu. {0} is the current version, and is obtained automatically.-->
 	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the poison joke cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
-	<MLRP_NothingToCure>Warning: Attempted to cure non-existent hediff(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
+	<MLRP_NothingToCure>[My Little RimPony] Warning: Attempted to cure non-existent hediff(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
 	<MLRP_AntiBronyHasPlushieAlert>Anti brony using plushie</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
 	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Poison joke affliction</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
-	<MLRP_PoisonJokeLetterText>Smoking poison joke has given {0} the following: {1}</MLRP_PoisonJokeLetterText> <!--Text of letter received after a pawn smokes poison joke. {0} is the pawn's name and {1} is what they were afflicted with; translations for afflictions are below.-->
 	
-	<!--POISON JOKE AFFLICTIONS: MUST BE LOWER CASE UNLESS OTHERWISE SPECIFIED-->
+	<!--POISON JOKE LETTER TEXT-->
+	<!--{0} is the pawn's name.-->
 	
-	<MLRP_PoisonJokeGoodConsciousness>increased consciousness</MLRP_PoisonJokeGoodConsciousness>
-	<MLRP_PoisonJokeBadConsciousness>reduced consciousness</MLRP_PoisonJokeBadConsciousness>
-	<MLRP_PoisonJokeGoodSpeed>increased movement speed</MLRP_PoisonJokeGoodSpeed>
-	<MLRP_PoisonJokeBadSpeed>reduced movement speed</MLRP_PoisonJokeBadSpeed>
-	<MLRP_PoisonJokeGoodManipulation>improved manipulation</MLRP_PoisonJokeGoodManipulation>
-	<MLRP_PoisonJokeBadManipulation>reduced manipulation</MLRP_PoisonJokeBadManipulation>
-	<MLRP_PoisonJokeGoodTalking>improved speaking ability</MLRP_PoisonJokeGoodTalking>
-	<MLRP_PoisonJokeBadTalking>inability to talk</MLRP_PoisonJokeBadTalking>
-	<MLRP_PoisonJokeGoodEating>improved eating speed</MLRP_PoisonJokeGoodEating>
-	<MLRP_PoisonJokeBadEating>reduced eating speed</MLRP_PoisonJokeBadEating>
-	<MLRP_PoisonJokeGoodSight>improved eyesight</MLRP_PoisonJokeGoodSight>
-	<MLRP_PoisonJokeBadSight>blindness</MLRP_PoisonJokeBadSight>
-	<MLRP_PoisonJokeGoodHearing>improved hearing</MLRP_PoisonJokeGoodHearing>
-	<MLRP_PoisonJokeBadHearing>deafness</MLRP_PoisonJokeBadHearing>
-	<MLRP_PoisonJokeGoodBreathing>improved breathing ability</MLRP_PoisonJokeGoodBreathing>
-	<MLRP_PoisonJokeBadBreathing>reduced breathing ability</MLRP_PoisonJokeBadBreathing>
-	<MLRP_PoisonJokeCutiePox>the Cutie Pox</MLRP_PoisonJokeCutiePox>
+	<MLRP_PoisonJokeGoodConsciousness>Smoking poison joke has increased {0}'s consciousness.</MLRP_PoisonJokeGoodConsciousness>
+	<MLRP_PoisonJokeBadConsciousness>Smoking poison joke has reduced {0}'s consciousness.</MLRP_PoisonJokeBadConsciousness>
+	<MLRP_PoisonJokeGoodSpeed>Smoking poison joke has increased {0}'s movement speed.</MLRP_PoisonJokeGoodSpeed>
+	<MLRP_PoisonJokeBadSpeed>Smoking poison joke has reduced {0}'s movement speed.</MLRP_PoisonJokeBadSpeed>
+	<MLRP_PoisonJokeGoodManipulation>Smoking poison joke has improved {0}'s manipulation.</MLRP_PoisonJokeGoodManipulation>
+	<MLRP_PoisonJokeBadManipulation>Smoking poison joke has reduced {0}'s manipulation.</MLRP_PoisonJokeBadManipulation>
+	<MLRP_PoisonJokeGoodTalking>Smoking poison joke has improved {0}'s speaking ability.</MLRP_PoisonJokeGoodTalking>
+	<MLRP_PoisonJokeBadTalking>Smoking poison joke has rendered {0] unable to speak.</MLRP_PoisonJokeBadTalking>
+	<MLRP_PoisonJokeGoodEating>Smoking poison joke has improved {0}'s eating speed.</MLRP_PoisonJokeGoodEating>
+	<MLRP_PoisonJokeBadEating>Smoking poison joke has reduced {0}'s eating speed.</MLRP_PoisonJokeBadEating>
+	<MLRP_PoisonJokeGoodSight>Smoking poison joke has improved {0}'s eyesight.</MLRP_PoisonJokeGoodSight>
+	<MLRP_PoisonJokeBadSight>Smoking poison joke has rendered {0} blind.</MLRP_PoisonJokeBadSight>
+	<MLRP_PoisonJokeGoodHearing>Smoking poison joke has improved {0}'s hearing.</MLRP_PoisonJokeGoodHearing>
+	<MLRP_PoisonJokeBadHearing>Smoking poison joke has rendered {0} deaf.</MLRP_PoisonJokeBadHearing>
+	<MLRP_PoisonJokeGoodBreathing>Smoking poison joke has improved {0}'s breathing ability.</MLRP_PoisonJokeGoodBreathing>
+	<MLRP_PoisonJokeBadBreathing>Smoking poison joke has reduced {0}'s breathing ability.</MLRP_PoisonJokeBadBreathing>
+	<MLRP_PoisonJokeCutiePox>Smoking poison joke has given {0} the Cutie Pox.</MLRP_PoisonJokeCutiePox>
 	
 	<!--C# ROYALTY-->
 	
@@ -42,9 +41,9 @@
 	
 	<!--C# MODS-->
 	
-	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">XML Extensions has been detected.</MLRP_XMLExtensionsDetected>
-	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">Combat Extended has been detected.</MLRP_CEDetected>
-	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">IMPORTANT: I don't use CE, so patches for it are untested; please alert me ASAP if you encounter any problems!</MLRP_CEDetectedWarning>
-	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">Medieval Overhaul patches have been applied.</MLRP_MOPatchesDetected>
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[My Little RimPony] XML Extensions has been detected.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[My Little RimPony] Combat Extended has been detected.</MLRP_CEDetected>
+	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">[My Little RimPony] IMPORTANT: Combat Extended patches are mostly untested; please alert me ASAP if you encounter any problems!</MLRP_CEDetectedWarning>
+	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Medieval Overhaul patches have been applied.</MLRP_MOPatchesDetected>
 	
 </LanguageData>

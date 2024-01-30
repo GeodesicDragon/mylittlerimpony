@@ -186,6 +186,11 @@
 							<thingDef>Gun_Autopistol</thingDef>
 							<count>2</count>
 						</li>
+						<li Class="ScenPart_StartingThing_Defined" MayRequire="CETeam.CombatExtended">
+							<def>StartingThing_Defined</def>
+							<thingDef>Ammo_45ACP_FMJ</thingDef>
+							<count>210</count>
+						</li>
 					</value>
 				</Operation>
 				
@@ -215,6 +220,11 @@
 							<def>StartingThing_Defined</def>
 							<thingDef>Gun_Autopistol</thingDef>
 							<count>3</count>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined" MayRequire="CETeam.CombatExtended">
+							<def>StartingThing_Defined</def>
+							<thingDef>Ammo_45ACP_FMJ</thingDef>
+							<count>315</count>
 						</li>
 					</value>
 				</Operation>

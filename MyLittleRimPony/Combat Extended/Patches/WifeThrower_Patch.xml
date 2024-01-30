@@ -14,7 +14,7 @@
 	<xpath>/Defs/ThingDef[defName="LovePrincess"]/projectile</xpath>
 	<value>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>15</damageAmountBase>
 			<armorPenetrationSharp>3</armorPenetrationSharp>
 			<armorPenetrationBlunt>30</armorPenetrationBlunt>
 		</projectile>
@@ -58,7 +58,7 @@
 		<ShotSpread>0.5</ShotSpread>
 		<SwayFactor>4</SwayFactor>
 		<Bulk>3</Bulk>
-		<WorkToMake>7000</WorkToMake>
+		<WorkToMake>3600</WorkToMake>
 	</statBases>
 	<costList>
 		<WoodLog>75</WoodLog>
@@ -82,6 +82,7 @@
 	<weaponTags>
 		<li>WifeThrower</li>
 		<li>NeolithicRangedBasic</li>
+		<li>CE_Pila</li>
 	</weaponTags>
 </Operation>
 </Patch>

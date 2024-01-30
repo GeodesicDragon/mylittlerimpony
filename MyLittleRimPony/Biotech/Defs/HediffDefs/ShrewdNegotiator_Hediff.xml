@@ -8,9 +8,9 @@
 	<stages>
 		<li>
 			<statFactors>
-				<NegotiationAbility>10</NegotiationAbility>
-				<TradePriceImprovement>10</TradePriceImprovement>
-				<SocialImpact>10</SocialImpact>
+				<NegotiationAbility>5</NegotiationAbility>
+				<TradePriceImprovement>5</TradePriceImprovement>
+				<SocialImpact>5</SocialImpact>
 			</statFactors>
 		</li>
 	</stages>

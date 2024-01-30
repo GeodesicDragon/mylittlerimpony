@@ -11,7 +11,7 @@
     <pawnsPlural>Diamond Dogs</pawnsPlural>
     <settlementGenerationWeight>2</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <maxCountAtGameStart>3</maxCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
     <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>alpha</leaderTitle>
@@ -105,7 +105,7 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <maxConfigurableAtWorldCreation>3</maxConfigurableAtWorldCreation>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>70</configurationListOrderPriority>
   </FactionDef>
 

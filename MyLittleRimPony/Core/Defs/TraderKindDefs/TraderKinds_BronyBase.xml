@@ -15,6 +15,7 @@
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
         <thingDefCountRange>1~15</thingDefCountRange>
+		<countRange>100~500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -79,10 +80,12 @@
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
         <thingDefCountRange>1~20</thingDefCountRange>
+		<countRange>100~300</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
         <thingDefCountRange>1~20</thingDefCountRange>
+		<countRange>100~300</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
@@ -99,6 +102,7 @@
         <categoryDef>Drugs</categoryDef>
         <maxTechLevelGenerate>Spacer</maxTechLevelGenerate>
         <thingDefCountRange>1~10</thingDefCountRange>
+		<countRange>10~50</countRange>
       </li>
 
       <!-- Weapons -->
@@ -260,6 +264,7 @@
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
         <thingDefCountRange>1~15</thingDefCountRange>
+		<countRange>100~300</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
@@ -281,8 +286,9 @@
         <countRange>1~4</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>PlantFoodRaw</categoryDef>
+        <categoryDef>FoodRaw</categoryDef>
         <thingDefCountRange>1~10</thingDefCountRange>
+		<countRange>100~300</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
@@ -328,6 +334,7 @@
         <categoryDef>Drugs</categoryDef>
         <maxTechLevelGenerate>Spacer</maxTechLevelGenerate>
         <thingDefCountRange>1~10</thingDefCountRange>
+		<countRange>10~25</countRange>
       </li>
       
       <!-- Buying -->
@@ -419,6 +426,7 @@
       <li Class="StockGenerator_Category">
           <categoryDef>Drugs</categoryDef>
           <thingDefCountRange>1~30</thingDefCountRange>
+		  <countRange>10~25</countRange>
       </li>
       
       <!-- Buying -->
@@ -510,6 +518,7 @@
       <li Class="StockGenerator_Category">
           <categoryDef>Drugs</categoryDef>
           <thingDefCountRange>1~30</thingDefCountRange>
+		  <countRange>10~25</countRange>
       </li>
       
       <!-- Buying -->
@@ -537,34 +546,30 @@
     <label>stonemason</label>
 	<requestable>true</requestable>
     <stockGenerators>
-
-      <!-- Resources -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Silver</thingDef>
-        <countRange>1000</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>BlocksSandstone</thingDef>
-        <countRange>100</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>BlocksGranite</thingDef>
-        <countRange>100</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>BlocksLimestone</thingDef>
-        <countRange>100</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>BlocksSlate</thingDef>
-        <countRange>100</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>BlocksMarble</thingDef>
-        <countRange>100</countRange>
-      </li>
-      
-    </stockGenerators>
-  </TraderKindDef>
+	
+	<!-- Resources -->
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>BlocksSandstone</thingDef>
+		<countRange>100</countRange>
+	</li>
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>BlocksGranite</thingDef>
+		<countRange>100</countRange>
+	</li>
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>BlocksLimestone</thingDef>
+		<countRange>100</countRange>
+	</li>
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>BlocksSlate</thingDef>
+		<countRange>100</countRange>
+	</li>
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>BlocksMarble</thingDef>
+		<countRange>100</countRange>
+	</li>
+	  
+	</stockGenerators>
+</TraderKindDef>
 
 </Defs>

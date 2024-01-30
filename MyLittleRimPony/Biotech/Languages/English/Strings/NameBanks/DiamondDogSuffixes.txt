@@ -1,2 +1,5 @@
 paw
 claw
+fang
+tooth
+tail

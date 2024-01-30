@@ -7,7 +7,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="PrincessCadence"]</xpath>
 			<value>
-				<li Name="PrincessCadence">The Cadence plush can be used to slightly counteract the effect of the 'soccer player' trait.</li>
+				<li Name="PrincessCadence">The Cadence plush can be used to counteract the effect of the 'soccer player' trait.</li>
 			</value>
 		</match>
 	</Operation>

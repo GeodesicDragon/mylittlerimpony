@@ -176,7 +176,7 @@
 			
 			<!-- Starting buildings -->
 			
-			<li Name="MLRP_BiotechScenario_Turrets" Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Turret_MiniTurret</thingDef>
 				<count>3</count>

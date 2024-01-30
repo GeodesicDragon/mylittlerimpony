@@ -1,0 +1,25 @@
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_Helmets"]</xpath>
+		<value>
+			<li Name="MLRP_CoreScenario_Helmets" Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Apparel_AdvancedHelmet</thingDef>
+				<count>3</count>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_Helmets"]</xpath>
+		<value>
+			<li Name="MLRP_BiotechScenario_Helmets" Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Apparel_AdvancedHelmet</thingDef>
+				<count>5</count>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

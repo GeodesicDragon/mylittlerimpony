@@ -54,22 +54,22 @@ namespace MyLittleRimPony
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
-            var MLRP_Version = Assembly.GetExecutingAssembly().GetName().Version;
+            var MLRP_Version = Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
 
-            Log.Message("[" + "MLRP_ModName".Translate() + "] v" + MLRP_Version.ToString(3) + " " + "MLRP_ModIntro".Translate());
+            Log.Message("MLRP_WelcomeMessage".Translate(MLRP_Version));
 
             if (ModsConfig.IsActive("CETeam.CombatExtended"))
             {
-                Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetected".Translate());
-                Log.Warning("[" + "MLRP_ModName".Translate() + "] " + "MLRP_CEDetectedWarning".Translate());
+                Log.Message("MLRP_CEDetected".Translate());
+                Log.Warning("MLRP_CEDetectedWarning".Translate());
             }
             if (ModsConfig.IsActive("imranfish.xmlextensions"))
             {
-                Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_XMLExtensionsDetected".Translate());
+                Log.Message("MLRP_XMLExtensionsDetected".Translate());
             }
             if (ModsConfig.IsActive("geodesicdragon.rimpony.medieval"))
             {
-                Log.Message("[" + "MLRP_ModName".Translate() + "] " + "MLRP_MOPatchesDetected".Translate());
+                Log.Message("MLRP_MOPatchesDetected".Translate());
             }
         }
     }
@@ -196,6 +196,18 @@ namespace MyLittleRimPony
             {
                 switch (hediff.def.defName)
                 {
+                    case "Flu":
+                        pawn.health.RemoveHediff(hediff);
+                        Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        break;
+                    case "Malaria":
+                        pawn.health.RemoveHediff(hediff);
+                        Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        break;
+                    case "FoodPoisoning":
+                        pawn.health.RemoveHediff(hediff);
+                        Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        break;
                     case "MLRP_PoisonJokeAddiction":
                         pawn.health.RemoveHediff(hediff);
                         Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
@@ -213,7 +225,7 @@ namespace MyLittleRimPony
                         Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         break;
                     default:
-                        Log.Warning("[" + "MLRP_ModName".Translate() + "] " + "MLRP_NothingToCure".Translate());
+                        Log.Warning("MLRP_NothingToCure".Translate());
                         break;
                 }
             }
@@ -238,81 +250,81 @@ namespace MyLittleRimPony
                     break;
                 case 2:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedConsciousness);
-                    affliction = "MLRP_PoisonJokeBadConsciousness".Translate();
+                    affliction = "MLRP_PoisonJokeBadConsciousness".Translate(pawn);
                     break;
                 case 3:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSuperSpeedy);
-                    affliction = "MLRP_PoisonJokeGoodSpeed".Translate();
+                    affliction = "MLRP_PoisonJokeGoodSpeed".Translate(pawn);
                     break;
                 case 4:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSlowAndSluggish);
-                    affliction = "MLRP_PoisonJokeBadSpeed".Translate();
+                    affliction = "MLRP_PoisonJokeBadSpeed".Translate(pawn);
                     break;
                 case 5:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeGoodManipulation);
-                    affliction = "MLRP_PoisonJokeGoodManipulation".Translate();
+                    affliction = "MLRP_PoisonJokeGoodManipulation".Translate(pawn);
                     break;
                 case 6:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokePoorManipulation);
-                    affliction = "MLRP_PoisonJokeBadManipulation".Translate();
+                    affliction = "MLRP_PoisonJokeBadManipulation".Translate(pawn);
                     break;
                 case 7:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedTalking);
-                    affliction = "MLRP_PoisonJokeGoodTalking".Translate();
+                    affliction = "MLRP_PoisonJokeGoodTalking".Translate(pawn);
                     break;
                 case 8:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedTalking);
-                    affliction = "MLRP_PoisonJokeBadTalking".Translate();
+                    affliction = "MLRP_PoisonJokeBadTalking".Translate(pawn);
                     break;
                 case 9:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedEating);
-                    affliction = "MLRP_PoisonJokeGoodEating".Translate();
+                    affliction = "MLRP_PoisonJokeGoodEating".Translate(pawn);
                     break;
                 case 10:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedEating);
-                    affliction = "MLRP_PoisonJokeBadEating".Translate();
+                    affliction = "MLRP_PoisonJokeBadEating".Translate(pawn);
                     break;
                 case 11:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeSightBeyondSight);
-                    affliction = "MLRP_PoisonJokeGoodSight".Translate();
+                    affliction = "MLRP_PoisonJokeGoodSight".Translate(pawn);
                     break;
                 case 12:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeBlindness);
-                    affliction = "MLRP_PoisonJokeBadSight".Translate();
+                    affliction = "MLRP_PoisonJokeBadSight".Translate(pawn);
                     break;
                 case 13:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedHearing);
-                    affliction = "MLRP_PoisonJokeGoodHearing".Translate();
+                    affliction = "MLRP_PoisonJokeGoodHearing".Translate(pawn);
                     break;
                 case 14:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedHearing);
-                    affliction = "MLRP_PoisonJokeBadHearing".Translate();
+                    affliction = "MLRP_PoisonJokeBadHearing".Translate(pawn);
                     break;
                 case 15:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedBreathing);
-                    affliction = "MLRP_PoisonJokeGoodBreathing".Translate();
+                    affliction = "MLRP_PoisonJokeGoodBreathing".Translate(pawn);
                     break;
                 case 16:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedBreathing);
-                    affliction = "MLRP_PoisonJokeBadBreathing".Translate();
+                    affliction = "MLRP_PoisonJokeBadBreathing".Translate(pawn);
                     break;
                 case 17:
                     pawn.health.AddHediff(MyDefOf.MLRP_CutiePox);
-                    affliction = "MLRP_PoisonJokeCutiePox".Translate();
+                    affliction = "MLRP_PoisonJokeCutiePox".Translate(pawn);
                     break;
             }
             if (n == 2 || n == 4 || n == 6 || n == 8 || n == 10 || n == 12 || n == 14 || n == 16 || n == 17)
             {
                 LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.ThreatSmall;
                 string title = "MLRP_PoisonJokeLetterTitle".Translate();
-                string text = "MLRP_PoisonJokeLetterText".Translate(pawn, affliction);
+                string text = affliction;
                 Find.LetterStack.ReceiveLetter(title, text, MLRP_PoisonJokeAfflictionLetter);
             }
             else
             {
                 LetterDef MLRP_PoisonJokeAfflictionLetter = LetterDefOf.NeutralEvent;
                 string title = "MLRP_PoisonJokeLetterTitle".Translate();
-                string text = "MLRP_PoisonJokeLetterText".Translate(pawn, affliction);
+                string text = affliction;
                 Find.LetterStack.ReceiveLetter(title, text, MLRP_PoisonJokeAfflictionLetter);
             }
         }

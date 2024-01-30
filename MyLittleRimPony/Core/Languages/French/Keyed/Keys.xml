@@ -3,10 +3,9 @@
 <LanguageData>
 
 	<!--C# CORE-->
-	<MLRP_ModName>Mon petit RimPony</MLRP_ModName> <!--Shown in log when game loads-->
-	<MLRP_ModIntro>chargé. N'oubliez pas que l'amitié est magique!</MLRP_ModIntro> <!--Displayed in log after version number-->
+	<MLRP_WelcomeMessage>[Mon petit RimPony] v{0} chargé. N'oubliez pas que l'amitié est magique!</MLRP_WelcomeMessage><!--Afficher dans le journal lorsque le jeu se charge dans le menu principal. {0} est la version actuelle et est obtenue automatiquement.-->
 	<MLRP_PawnCured>{0} a été guéri de {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the poison joke cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
-	<MLRP_NothingToCure>Avertissement : Tentative de guérison de hediff(s) inexistant(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
+	<MLRP_NothingToCure>[Mon petit RimPony] Avertissement : Tentative de guérison de hediff(s) inexistant(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
 	<MLRP_AntiBronyHasPlushieAlert>Anti brony utilisant la peluche</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
 	<MLRP_AntiBronyHasPlushieExplanation>Un pion avec le trait anti brony a une peluche de poney équipée, ce qui causera une pénalité d'humeur jusqu'à ce qu'elle soit abandonnée. Il pourrait être intéressant d'attribuer aux anti-bronys une tenue distincte afin d'éviter cela.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Affliction de la blague du poison</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
@@ -44,8 +43,9 @@
 	
 	<!--C# MODS-->
 	
-	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">XML Extensions a été détecté.</MLRP_XMLExtensionsDetected>
-	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">Combat Extended a été détecté.</MLRP_CEDetected>
-	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">IMPORTANT : Je n'utilise pas CE, donc les correctifs ne sont pas testés ; veuillez m'avertir dès que possible si vous rencontrez des problèmes!</MLRP_CEDetectedWarning>
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[Mon petit RimPony] XML Extensions a été détecté.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[Mon petit RimPony] Combat Extended a été détecté.</MLRP_CEDetected>
+	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">[Mon petit RimPony] IMPORTANT : Je n'utilise pas CE, donc les correctifs ne sont pas testés ; veuillez m'avertir dès que possible si vous rencontrez des problèmes!</MLRP_CEDetectedWarning>
+	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Des correctifs de révision médiévale ont été appliqués.</MLRP_MOPatchesDetected>
 	
 </LanguageData>

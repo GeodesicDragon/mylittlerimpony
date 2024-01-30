@@ -3,8 +3,30 @@
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[@Name="PonyPlushBase"]/statBases</xpath>
 	    <value>
-			<Bulk>1</Bulk>
-			<WornBulk>1</WornBulk>
+			<Bulk>0.1</Bulk>
+			<WornBulk>0.1</WornBulk>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets</xpath>
+	    <value>
+			<CarryBulk>15</CarryBulk>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_RainbowDash"]/equippedStatOffsets</xpath>
+	    <value>
+			<ReloadSpeed>0.05</ReloadSpeed>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+	    <xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
+	    <value>
+			<CarryBulk>15</CarryBulk>
+			<ReloadSpeed>0.05</ReloadSpeed>
 	    </value>
 	</Operation>
 	

@@ -14,9 +14,9 @@
 	<xpath>/Defs/ThingDef[defName="Projectile_HarmonyRainbow"]/projectile</xpath>
 	<value>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationSharp>8</armorPenetrationSharp>
-			<armorPenetrationBlunt>70</armorPenetrationBlunt>
+			<damageAmountBase>20</damageAmountBase>
+			<armorPenetrationSharp>25</armorPenetrationSharp>
+			<armorPenetrationBlunt>35</armorPenetrationBlunt>
 		</projectile>
 	</value>
 </Operation>
@@ -28,7 +28,7 @@
 	<value>
 		<tools>
 		  <li Class="CombatExtended.ToolCE">
-			<label>elements</label>
+			<label>barrel</label>
 			<capacities>
 			  <li>Blunt</li>
 			</capacities>
@@ -44,12 +44,12 @@
 <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 	<defName>MLRP_ElementsOfHarmonyWeaponised</defName>
 	<statBases>
-		<Mass>2</Mass>
+		<Mass>3</Mass>
 		<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
-		<SightsEfficiency>0.8</SightsEfficiency>
+		<SightsEfficiency>1</SightsEfficiency>
 		<ShotSpread>0.15</ShotSpread>
-		<SwayFactor>2</SwayFactor>
-		<Bulk>3</Bulk>
+		<SwayFactor>1.33</SwayFactor>
+		<Bulk>7.5</Bulk>
 		<WorkToMake>18000</WorkToMake>
 	</statBases>
 	<costList>
@@ -74,11 +74,11 @@
 		<ammoSet>AmmoSet_HarmonyLasers</ammoSet>
 	</AmmoUser>
 	<FireModes>
-		<aiUseBurstMode>FALSE</aiUseBurstMode>
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
+		<aiAimMode>AimedShot</aiAimMode>
 	</FireModes>
 	<weaponTags>
 		<li>Rainbow_Laser</li>
-		<li>AdvancedGun</li>
 	</weaponTags>
 	<researchPrerequisite>MLRP_WeaponisedElementsResearch</researchPrerequisite>
 </Operation>

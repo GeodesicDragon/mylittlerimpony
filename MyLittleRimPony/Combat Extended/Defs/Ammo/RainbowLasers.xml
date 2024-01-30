@@ -35,7 +35,7 @@
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
 		<defName>Ammo_HarmonyLaser</defName>
 		<label>Harmony Lasers</label>
-		<description>Ammo for the Rainbow Laser.\n\nVery bright and colourful.</description>
+		<description>Ammo for the Rainbow Laser and Sweetie Bot turret.\n\nVery bright and colourful.</description>
 		<statBases>
 			<Mass>0.025</Mass>
 			<Bulk>0.02</Bulk>
@@ -64,9 +64,10 @@
 		<label>make Harmony lasers x500</label>
 		<description>Craft 500 shots' worth of Harmony lasers.</description>
 		<jobString>Making harmony lasers.</jobString>
-		<workAmount>3800</workAmount>
+		<workAmount>60</workAmount>
 		<recipeUsers>
 			<li>PlushieBench</li>
+			<li>AmmoBench</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -75,35 +76,13 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
+				<count>40</count>
 			</li>
 		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>Plasteel</li>
-				<li>ComponentIndustrial</li>
-			</thingDefs>
-		</fixedIngredientFilter>
 		<products>
 			<Ammo_HarmonyLaser>500</Ammo_HarmonyLaser>
 		</products>
+		<researchPrerequisite>MLRP_WeaponisedElementsResearch</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

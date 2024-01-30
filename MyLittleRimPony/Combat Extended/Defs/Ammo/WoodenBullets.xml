@@ -9,7 +9,7 @@
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="NeolithicAmmoBase">
 		<defName>Ammo_WoodenBullets</defName>
 		<label>Wooden Bullets</label>
 		<description>Ammo for the Mudbriar, Quibble Pants and Zephyr Breeze turrets.\n\nThey do no damage, but most people find that getting hit by one is rather irritating.</description>
@@ -32,14 +32,16 @@
 	</ThingDef>
 
 
-	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
 		<defName>MakeAmmo_WoodenBullets</defName>
 		<label>make wooden bullets x5000</label>
 		<description>Craft 5000 wooden bullets.</description>
 		<jobString>Making wooden bullets.</jobString>
-		<workAmount>600</workAmount>
+		<workAmount>60</workAmount>
 		<recipeUsers>
 			<li>PlushieBench</li>
+			<li>CraftingSpot</li>
+			<li>AmmoBench</li>
 		</recipeUsers>
 		<ingredients>
 			<li>

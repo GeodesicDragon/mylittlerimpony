@@ -7,7 +7,7 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
-				<count>600</count>
+				<count>300</count>
 			</li>
 		</value>
 	</Operation>
