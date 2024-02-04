@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -21,6 +19,22 @@
 					<value>
 						<AimingAccuracy>1.0</AimingAccuracy>
 						<ShootingAccuracyPawn>1.75</ShootingAccuracyPawn>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="MLRP_SweetieBot_MechanoidBase"]/comps</xpath>
+					<value>
+						<li>
+							<compClass>CombatExtended.CompPawnGizmo</compClass>
+						</li>
+						<li>
+							<compClass>CombatExtended.CompAmmoGiver</compClass>
+						</li>
+						<li Class="CombatExtended.CompProperties_MechAmmo">
+							<gizmoIconSetMagCount>UI/Buttons/SetMagCount</gizmoIconSetMagCount>
+							<gizmoIconTakeAmmoNow>UI/Buttons/TakeAmmoNow</gizmoIconTakeAmmoNow>
+						</li>
 					</value>
 				</li>
 			

@@ -48,9 +48,6 @@
     <defName>Izzy_SmokeLauncher</defName>
     <label>Tennis Ball Launcher</label>
     <description>As a pony who wants to make friends, Izzy doesn't really like the idea of violence.\n\nHaving said that, she also knows when to retreat, and has learned a variety of spells to help in that regard.</description>
-	<descriptionHyperlinks>
-		<ThingDef MayRequire="CETeam.CombatExtended">Ammo_TennisBalls</ThingDef>
-	</descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Weapons/IzzyWithTennisBall</texPath>
       <graphicClass>Graphic_Single</graphicClass>

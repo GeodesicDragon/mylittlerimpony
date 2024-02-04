@@ -6,8 +6,6 @@
 		<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/PrincessCadence</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.5</PainShockThreshold>

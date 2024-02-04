@@ -3,16 +3,18 @@
 		<thingClass>Apparel</thingClass>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<color>(255,255,255,255)</color> 
+			<color>(255,255,255,255)</color>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
 		</graphicData>
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<skillRequirements>
-			<Crafting>5</Crafting>
+				<Crafting>5</Crafting>
 			</skillRequirements>
 			<recipeUsers>
-			<li>PlushieBench</li>
+				<li>PlushieBench</li>
 			</recipeUsers>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<workSkill>Crafting</workSkill>
@@ -31,6 +33,7 @@
 			<EquipDelay>0.1</EquipDelay>
 			<Beauty>1</Beauty>
 			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold> <!--Plushies are warm and cuddly!-->
+			<DeteriorationRate>2</DeteriorationRate>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>True</alwaysHaulable>

@@ -6,13 +6,11 @@
 		<description>As Captain of the Equestrian Royal Guard, Shining Armour knows a thing or two about combat; shields in particular are his speciality.\n\nCarrying him makes you feel better protected.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/ShiningArmour</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
-		<equippedStatOffsets>
+		<statBases>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-		</equippedStatOffsets>
+		</statBases>
 	</ThingDef>
 </Defs>

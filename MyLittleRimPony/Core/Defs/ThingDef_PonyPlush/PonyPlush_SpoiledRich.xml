@@ -6,8 +6,6 @@
 		<description>Ponyville is widely regarded as being home to some of the friendliest ponies in Equestria. Spoiled Rich is not one of them.\n\nCarrying her makes you feel more resistant to toxic environments.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/SpoiledRich</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>

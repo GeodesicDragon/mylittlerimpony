@@ -6,7 +6,6 @@
 		<description>The Lord of Chaos may be reformed, but that doesn't mean he can't have any fun.\n\nCarrying him makes you feel as though you are being pushed to your absolute limit.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/Discord</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>1</WorkSpeedGlobal>

@@ -3,11 +3,9 @@
 		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_IzzyMoonbow</defName>
 		<label>Izzy Moonbow</label>
-		<description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.</description>
+		<description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.\n\n(When equipped, she will apply a hediff to the pawn that will improve their mood by 10, and boost their opinion of other pawns by 50%.)</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/IzzyMoonbow</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_CauseHediff_Apparel">

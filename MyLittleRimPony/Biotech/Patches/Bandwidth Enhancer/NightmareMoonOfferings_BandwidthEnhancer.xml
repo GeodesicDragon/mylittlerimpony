@@ -10,7 +10,7 @@
 				<RecipeDef ParentName="NMM_MechanitorOnlyRecipe">
 					<defName>MLRP_NMM_BandwidthEnhancer</defName>
 					<label>request bandwidth enhancer</label>
-					<description>Offer silver and other items in exchange for a bandwidth enhancer. This recipe is expensive, given that it requires varying amounts of each kind of chip.\n\nThis recipe can only be performed by a mechanitor.</description>
+					<description>Offer silver and other items in exchange for a bandwidth enhancer. This recipe is expensive, given that it normally requires varying amounts of each kind of chip.\n\nThis recipe can only be performed by a mechanitor.</description>
 					<jobString>Making an offering to Nightmare Moon</jobString>
 					<researchPrerequisite>UltraMechtech</researchPrerequisite>
 					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -52,6 +52,61 @@
 						<MechBandwidthImprover>1</MechBandwidthImprover>
 					</products>
 				</RecipeDef>
+
+				<RecipeDef ParentName="NMM_MechanitorOnlyRecipe">
+					<defName>MLRP_NMM_HighMechBandwidthImprover</defName>
+					<label>request advanced bandwidth enhancer</label>
+					<description>Offer silver and other items in exchange for an advanced bandwidth enhancer. This recipe is expensive, given that it normally requires varying amounts of each kind of chip.\n\nCan only be performed by a mechanitor.</description>
+					<jobString>Making an offering to Nightmare Moon</jobString>
+					<researchPrerequisite>AdvancedBandwidthEnhancer</researchPrerequisite>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>300</workAmount>
+					<recipeUsers>
+						<li>MLRP_NightmareMoon</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>1900</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentIndustrial</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</filter>
+							<count>3</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>MechBandwidthImprover</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+					<products>
+						<HighMechBandwidthImprover>1</HighMechBandwidthImprover>
+					</products>
+				</RecipeDef>
+				
 			</value>
 		</match>
 	</Operation>

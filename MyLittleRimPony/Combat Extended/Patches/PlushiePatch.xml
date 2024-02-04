@@ -1,5 +1,7 @@
 <Patch>
 
+	<!--Add bulk and worn bulk to plushies-->
+
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[@Name="PonyPlushBase"]/statBases</xpath>
 	    <value>
@@ -8,6 +10,8 @@
 	    </value>
 	</Operation>
 	
+	<!--Big Macintosh-->
+	
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets</xpath>
 	    <value>
@@ -15,18 +19,66 @@
 	    </value>
 	</Operation>
 	
+	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh_Child"]/equippedStatOffsets</xpath>
+	    <value>
+			<CarryBulk>30</CarryBulk>
+	    </value>
+	</Operation>
+	
+	<!--Rainbow Dash-->
+	
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[defName="PonyPlush_RainbowDash"]/equippedStatOffsets</xpath>
 	    <value>
+			<!--The child version is only affected if the appropriate setting is configured in XML Extensions.-->
+			<NightVisionEfficiency_Apparel>0.1</NightVisionEfficiency_Apparel>
 			<ReloadSpeed>0.05</ReloadSpeed>
 	    </value>
 	</Operation>
+	
+	<!--Shining Armour-->
+	
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_ShiningArmour"]/statBases</xpath>
+	    <value>
+		<statBases>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+		</statBases>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+	    <xpath>/Defs/ThingDef[defName="PonyPlush_ShiningArmour_Child"]/statBases</xpath>
+	    <value>
+		<statBases>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		</statBases>
+	    </value>
+	</Operation>
+	
+	<!--Spoiled Rich-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PonyPlush_SpoiledRich"]/equippedStatOffsets</xpath>
+		<value>
+			<SmokeSensitivity>-0.25</SmokeSensitivity>
+		</value>
+	</Operation>
+	
+	<!--Harmony Chip (Requires Royalty DLC)-->
 	
 	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
 	    <xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
 	    <value>
 			<CarryBulk>15</CarryBulk>
 			<ReloadSpeed>0.05</ReloadSpeed>
+			<NightVisionEfficiency>0.1</NightVisionEfficiency>
+			<SmokeSensitivity>-0.25</SmokeSensitivity>
 	    </value>
 	</Operation>
 	

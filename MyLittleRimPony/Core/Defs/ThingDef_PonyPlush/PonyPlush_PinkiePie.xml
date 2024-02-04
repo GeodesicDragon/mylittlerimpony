@@ -6,8 +6,6 @@
 		<description>Pinkie Pie never fails to liven up somepony's day, and yours will be no exception.\n\nCarrying her makes you feel more talkative.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/PinkiePie</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<SocialImpact>0.25</SocialImpact>

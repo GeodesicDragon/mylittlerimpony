@@ -4,9 +4,6 @@
     <defName>MLRP_Turret_SweetieBot</defName>
     <label>Sweetie Bot turret</label>
     <description>Fires rainbow lasers that are accurate at medium to long range. Will not explode if damaged.</description>
-	<descriptionHyperlinks>
-		<ThingDef MayRequire="CETeam.CombatExtended">Ammo_HarmonyLaser</ThingDef>
-	</descriptionHyperlinks>
     <thingClass>Building_TurretGun</thingClass>
 	<designationHotKey>Misc11</designationHotKey>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -41,25 +38,6 @@
         <basePowerConsumption>400</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
-      <!--<li Class="CompProperties_Refuelable">
-        <fuelLabel>Combat effectiveness</fuelLabel>
-        <fuelGizmoLabel>Combat effectiveness (%)</fuelGizmoLabel>
-        <outOfFuelMessage>ERROR: Repairs needed</outOfFuelMessage>
-        <fuelFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fuelFilter>
-        <fuelCapacity>100</fuelCapacity>
-        <fuelMultiplier>0.8</fuelMultiplier>
-        <initialFuelPercent>1</initialFuelPercent>
-        <autoRefuelPercent>0.3</autoRefuelPercent>
-        <showFuelGizmo>true</showFuelGizmo>
-        <minimumFueledThreshold>1</minimumFueledThreshold>
-        <factorByDifficulty>true</factorByDifficulty>
-        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
-      </li>-->
     </comps>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>

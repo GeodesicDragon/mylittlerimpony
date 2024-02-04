@@ -6,8 +6,6 @@
 		<description>As well as her generosity and beauty, Rarity is also known for running a very successful business.\n\nCarrying her makes you feel as though you can get a better deal.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/Rarity</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<TradePriceImprovement>0.25</TradePriceImprovement>

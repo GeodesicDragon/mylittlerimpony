@@ -25,9 +25,6 @@
     <defName>MLRP_WifeThrower</defName>
     <label>wife thrower</label>
     <description>This weapon is similar to a pila, but with a couple of major differences; it can be thrown twice as fast, and is more accurate at longer ranges.\n\nDespite what many people may think about the design, they can all agree on one thing: that you really haven't lived until you've killed someone with a pretty pink pony princess.</description>
-	<descriptionHyperlinks>
-		<ThingDef MayRequire="CETeam.CombatExtended">Ammo_CadenceJavelins</ThingDef>
-	</descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Weapons/ShiningArmourThrowing</texPath>
       <graphicClass>Graphic_Single</graphicClass>

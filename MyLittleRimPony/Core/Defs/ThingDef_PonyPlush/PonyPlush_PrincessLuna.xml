@@ -6,8 +6,6 @@
 		<description>As Princess of the night, Luna is responsible for keeping an eye on the dreams of slumbering ponies.\n\nCarrying her makes you feel as though she is watching over your dreams as well.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/PrincessLuna</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<RestRateMultiplier>0.5</RestRateMultiplier>

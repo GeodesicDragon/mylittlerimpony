@@ -254,7 +254,6 @@
 	<defName>MLRP_NMM_HighSubcore</defName>
 	<label>request high subcore</label>
 	<description>Offer silver and other items in exchange for a high subcore. This recipe is expensive, but the upside is that it doesn't require anyone to die first.\n\nThis recipe can only be performed by a mechanitor.</description>
-	<mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
     <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -278,6 +277,102 @@
 	</ingredients>
 	<products>
 		<SubcoreHigh>1</SubcoreHigh>
+	</products>
+</RecipeDef>
+
+<!--SIGNAL CHIP-->
+
+<RecipeDef ParentName="NMM_MechanitorOnlyRecipe">
+	<defName>MLRP_NMM_SignalChip</defName>
+	<label>request signal chip</label>
+	<description>Offer silver in exchange for a signal chip.\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<SignalChip>1</SignalChip>
+	</products>
+</RecipeDef>
+
+<!--POWERFOCUS CHIP-->
+
+<RecipeDef ParentName="NMM_MechanitorOnlyRecipe">
+	<defName>MLRP_NMM_PowerfocusChip</defName>
+	<label>request powerfocus chip</label>
+	<description>Offer silver in exchange for a powerfocus chip.\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+	</ingredients>
+	<products>
+		<PowerfocusChip>1</PowerfocusChip>
+	</products>
+</RecipeDef>
+
+<!--NANO STRUCTURING CHIP-->
+
+<RecipeDef ParentName="NMM_MechanitorOnlyRecipe">
+	<defName>MLRP_NMM_NanostructuringChip</defName>
+	<label>request nanostructuring chip</label>
+	<description>Offer silver in exchange for a nanostructuring chip.\n\nThis recipe can only be performed by a mechanitor.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>300</count>
+		</li>
+	</ingredients>
+	<products>
+		<NanostructuringChip>1</NanostructuringChip>
 	</products>
 </RecipeDef>
   

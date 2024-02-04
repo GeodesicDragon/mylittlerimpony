@@ -48,6 +48,8 @@ namespace MyLittleRimPony
         public static TraitDef MLRP_AntiBronyTrait;
         [MayRequireRoyalty]
         public static ThoughtDef MLRP_HarmonyChipInstalledAntiBrony;
+        [MayRequireRoyalty]
+        public static HediffDef PsychicAmplifier;
         [MayRequireIdeology]
         public static ThoughtDef MLRP_PartyCannonBoostSlave;
         

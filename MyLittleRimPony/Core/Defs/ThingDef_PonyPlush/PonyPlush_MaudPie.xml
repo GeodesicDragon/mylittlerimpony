@@ -6,8 +6,6 @@
 		<description>Maud isn't as talkative as her sister Pinkie, but she knows her stuff when it comes to rocks.\n\nCarrying her makes you feel as though you can exploit mineral deposits much easier.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/MaudPie</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<MiningSpeed>0.25</MiningSpeed>

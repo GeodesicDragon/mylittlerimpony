@@ -34,7 +34,8 @@
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>Projectile_HarmonyRainbow</defaultProjectile>
 					<warmupTime>0.8</warmupTime>
-					<range>14</range>
+					<range>40</range>
+					<burstShotCount>3</burstShotCount>
 					<soundCast>MLRP_EOH_Fire</soundCast>
 					<soundCastTail>GunTail_Light</soundCastTail>
 					<muzzleFlashScale>0</muzzleFlashScale>

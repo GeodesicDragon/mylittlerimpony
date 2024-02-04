@@ -6,8 +6,6 @@
 		<description>Fleur is a supermodel whose beauty is known throughout Equestria and beyond.\n\nCarrying her makes you feel more confident in your own looks.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/FleurDeLis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<PawnBeauty>2</PawnBeauty>

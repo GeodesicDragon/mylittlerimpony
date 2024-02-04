@@ -19,23 +19,26 @@
     <statBases>
       <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
       <SightsEfficiency>1</SightsEfficiency>
-      <ShotSpread>0</ShotSpread>
-      <SwayFactor>0</SwayFactor>
+      <ShotSpread>0.1</ShotSpread>
+      <SwayFactor>0.8</SwayFactor>
       <Bulk>15.00</Bulk>
     </statBases>
     <Properties>
-      <recoilAmount>0</recoilAmount>
+      <recoilAmount>0.5</recoilAmount>
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>MLRP_WeaponisedArrogance</defaultProjectile>
       <warmupTime>0</warmupTime>
       <range>40</range>
-      <ticksBetweenBurstShots>125</ticksBetweenBurstShots>
-      <burstShotCount>0</burstShotCount>
+      <ticksBetweenBurstShots>120</ticksBetweenBurstShots>
+      <burstShotCount>9</burstShotCount>
+      <!--<soundCast>MLRP_EOH_Fire</soundCast>
+      <soundCastTail>GunTail_Light</soundCastTail>-->
+      <muzzleFlashScale>9</muzzleFlashScale>
       <recoilPattern>Mounted</recoilPattern>
     </Properties>
     <AmmoUser>
-      <magazineSize>5000</magazineSize>
+      <magazineSize>300</magazineSize>
       <reloadTime>3</reloadTime>
       <ammoSet>AmmoSet_WoodenBullets</ammoSet>
     </AmmoUser>
@@ -45,4 +48,5 @@
       <noSingleShot>true</noSingleShot>
     </FireModes>
   </Operation>
+  
 </Patch>

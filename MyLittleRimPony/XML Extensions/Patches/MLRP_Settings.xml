@@ -1039,7 +1039,16 @@
 							<MoveSpeed>1</MoveSpeed>
 							<MeleeHitChance>5</MeleeHitChance>
 							<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+							<ReloadSpeed MayRequire="CETeam.CombatExtended">0.05</ReloadSpeed>
+							<NightVisionEfficiency_Apparel MayRequire="CETeam.CombatExtended">0.1</NightVisionEfficiency_Apparel>
 						</equippedStatOffsets>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_RainbowDash_Child"]/description</xpath>
+					<value>
+						<description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel fast, as well as more confident in your combat abilities.</description>
 					</value>
 				</Operation>
 				
@@ -1057,6 +1066,13 @@
 						<equippedStatOffsets>
 							<MoveSpeed>2</MoveSpeed>
 						</equippedStatOffsets>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_RainbowDash_Child"]/description</xpath>
+					<value>
+						<description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel faster on your feet.</description>
 					</value>
 				</Operation>
 				

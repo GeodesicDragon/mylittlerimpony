@@ -57,12 +57,12 @@
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_WoodenBullets</defName>
 				<label>Splinters, Splinters Everywhere</label>
-				<description>Stockpile 50,000 rounds of aggro turret ammo</description>
+				<description>Stockpile 3,000 rounds of aggro turret ammo</description>
 				<tab>MLRP_AchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemTracker">
-					<def>Ammo_HarmonyLaser</def>
-					<count>100000</count>
+					<def>Ammo_WoodenBullets</def>
+					<count>3000</count>
 				</tracker>
 				
 				<texPath>Things/AmmoBox/Ammo_WoodenBullets</texPath>

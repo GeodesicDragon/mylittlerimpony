@@ -6,8 +6,6 @@
 		<description>Did you really think that the guy who made this mod wouldn't find a way to include his OC in it somehow?\n\nCarrying her makes you feel like a better medic.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/NurseHaywick</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<MedicalTendSpeed>0.25</MedicalTendSpeed>

@@ -6,8 +6,6 @@
 		<description>Cheerilee loves to teach; rumours that she also loves Big Macintosh have neither been confirmed nor denied.\n\nCarrying her makes you feel as though you can learn faster.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/Cheerilee</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<GlobalLearningFactor>0.50</GlobalLearningFactor>

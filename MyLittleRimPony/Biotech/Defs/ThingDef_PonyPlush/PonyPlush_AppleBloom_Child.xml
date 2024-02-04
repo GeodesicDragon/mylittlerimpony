@@ -6,7 +6,6 @@
 		<description>Apple Bloom doesn't like to recall that time she had the Cutie Pox, but that doesn't stop anypony from reminding her every now and again.\n\nCarrying her makes you feel as though illness and disease have no hold on you.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/AppleBloom</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedStatOffsets>
 			<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>

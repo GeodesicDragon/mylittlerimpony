@@ -1,15 +1,15 @@
 <Defs>
-	<ThingDef ParentName="PonyPlush_Work">
+	<ThingDef ParentName="PonyPlushChildBase">
 		<thingClass>Apparel</thingClass>
-		<defName>PonyPlush_SweetieBelle</defName>
-		<label>Sweetie Belle</label>
+		<defName>PonyPlush_SweetieBelle_Child</defName>
+		<label>Sweetie Belle (child-sized)</label>
 		<description>Sweetie Belle is, as her name implies, very sweet; unfortunately, the same cannot be said for her cooking.\n\nCarrying her reminds you of her culinary disasters, but at least the memories make you more confident in your own cooking ability.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/SweetieBelle</texPath>
 		</graphicData>
 		<equippedStatOffsets>
-			<CookSpeed>20</CookSpeed>
-			<FoodPoisonChance>-0.25</FoodPoisonChance>
+			<CookSpeed>40</CookSpeed>
+			<FoodPoisonChance>-0.5</FoodPoisonChance>
 		</equippedStatOffsets>
 	</ThingDef>
 </Defs>

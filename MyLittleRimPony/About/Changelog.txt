@@ -1,3 +1,46 @@
+Version 4.53.215 (February 4th 2024)
+
+* Biotech: Added three new recipes to the Nightmare Moon statue to request signal, powerfocus and nano structuring chips in exchange for silver.
+	* Signal Chip: 1000 silver, unlocked once standard mechtech is researched.
+	* Powerfocus Chip: 2000 silver, unlocked once high mechtech is researched.
+	* Nanostructuring Chip: 3000 silver, unlocked once ultra mechtech is researched.
+	* Recipes can only be performed by a mechanitor.
+	* The silver cost is twice the items market value (as per the RimWorld wiki).
+* Bandwidth Enhancer: Added a new recipe to the Nightmare Moon statue to request advanced bandwidth enhancers.
+	* Costs 19000 silver, 12 components, 5 advanced components, and a basic bandwidth enhancer.
+	* Recipes are unlocked once the relevant research has been completed.
+	* Reminder that the silver cost is twice the value of the required chips.
+* Biotech: Added child-equippable Sweetie Belle plushie.
+	* Increases cooking speed by 40.
+	* Reduces food poisoning chance by 50%.
+* Core: Updated the description of the Izzy Moonbow plushie to better explain what she does. (1)
+* Core: Plushies are no longer immune to deterioration.
+* Core: The Shining Armour plushie now increases blunt/sharp/heat armour by a flat amount, rather than increasing whatever the pawn already had. So, for example, if you had 15% blunt, 10% sharp and 5% heat, equipping him should increase that to 30/25/20, instead of 17.25/11.5/5.75.
+* Biotech: The child-equippable Shining Armour plushie now increases blunt/sharp/heat armour by a flat amount, rather than increasing whatever the pawn already had. So, for example, if you had 15% blunt, 10% sharp and 5% heat, equipping him should increase that to 45/40/35, instead of 17.25/11.5/5.75.
+* Royalty: Removed duplicate words from the description of the Trixie plushie. (1)
+* Combat Extended: Fixed Sweetie Bot mechanoids not refilling their ammo. (2)
+* Combat Extended: Reduced the number of rounds needed to earn the 'Splinters, Splinters Everywhere' achievement to 3000 (was 50000).
+* Combat Extended: Fixed the 'Splinters, Splinters Everywhere' achievement not tracking your stock of wooden bullets.
+* Combat Extended: Updated the description for the Sweetie Bot turret to reflect the fact it cannot fire if behind cover.
+* Combat Extended: Fixed Sweetie Bot mechanoids only firing one shot at a time instead of three.
+* Combat Extended: Increased the firing range of Sweetie Bot mechanoids to 40 (was 14).
+* Combat Extended: Fixed aggro turrets not working properly.
+* Combat Extended: Reduced mass of wooden bullets to 0.
+* Combat Extended: Reduced bulk of wooden bullets to 0.
+* Combat Extended: Reduced magazine capacity of aggro turrets to 150 (was 5000). Any you had loaded over this amount will remain.
+* Combat Extended: Reduced number of wooden bullets you can make at a time to 300 (was 500).
+* Combat Extended: Reduced wood cost of making wooden bullets to 6 (was 100).
+* Combat Extended: Reduced wood cost of making wooden bullets to 6 (was 100).
+* Combat Extended: Spoiled Rich now provides 25% protection against smoke inhalation on top of her usual bonus.
+* Combat Extended: Rainbow Dash plushies now improve night vision by 10%.
+* Combat Extended: Increased sharp and blunt armour bonus of Shining Armour plushies to 1 (was 0.15).
+* Combat Extended: Increased sharp and blunt armour bonus of child-equippable Shining Armour plushies to 2 (was 0.3).
+* Combat Extended: Child-equippable Big Macintosh plushies now increase bulk carrying capacity by 30.
+* XML Extensions: Fixed reload speed not being affected if you had changed the setting to make child-sized Rainbow Dash plushies provide the same bonuses as the adult version and were using Combat Extended.
+
+1. Thanks to Kittamaru for suggesting the change and for pointing out the mistake.
+2. Thanks to Samael from the CE Discord for helping with this.
+
 Version 4.48.191 (January 30th 2024)
 
 * Combat Extended: Added patches for the Sweetie Bot mechanoid.

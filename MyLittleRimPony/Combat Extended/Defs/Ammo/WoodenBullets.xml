@@ -8,14 +8,20 @@
 			<Ammo_WoodenBullets>MLRP_WeaponisedArrogance</Ammo_WoodenBullets>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
+	
+	<CombatExtended.AmmoCategoryDef>
+		<defName>MLRP_WoodenBullet</defName>
+		<label>wooden bullet</label>
+		<description>Bullets made of wood that inflict no damage, but irritate people hit by one to the point they'll want to destroy whatever happens to be firing them.</description>
+	</CombatExtended.AmmoCategoryDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="NeolithicAmmoBase">
 		<defName>Ammo_WoodenBullets</defName>
 		<label>Wooden Bullets</label>
-		<description>Ammo for the Mudbriar, Quibble Pants and Zephyr Breeze turrets.\n\nThey do no damage, but most people find that getting hit by one is rather irritating.</description>
+		<description>Ammo for the Mudbriar, Quibble Pants and Zephyr Breeze turrets.</description>
 		<statBases>
-			<Mass>0.01</Mass>
-			<Bulk>0.015</Bulk>
+			<Mass>0</Mass>
+			<Bulk>0</Bulk>
 			<MarketValue>0.01</MarketValue>
 		</statBases>
 		<tradeTags>
@@ -28,14 +34,14 @@
 			<texPath>Things/AmmoBox/Ammo_WoodenBullets</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!--<ammoClass>Charged</ammoClass>-->
+		<ammoClass>MLRP_WoodenBullet</ammoClass>
 	</ThingDef>
 
 
 	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
 		<defName>MakeAmmo_WoodenBullets</defName>
-		<label>make wooden bullets x5000</label>
-		<description>Craft 5000 wooden bullets.</description>
+		<label>make wooden bullets x300</label>
+		<description>Craft 300 wooden bullets.</description>
 		<jobString>Making wooden bullets.</jobString>
 		<workAmount>60</workAmount>
 		<recipeUsers>
@@ -50,7 +56,7 @@
 						<li>WoodLog</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>6</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -59,7 +65,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_WoodenBullets>5000</Ammo_WoodenBullets>
+			<Ammo_WoodenBullets>300</Ammo_WoodenBullets>
 		</products>
 	</RecipeDef>
 

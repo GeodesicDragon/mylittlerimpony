@@ -6,8 +6,6 @@
 		<description>As one of the rulers of Equestria, Celestia has been through a lot; recently, though, she has never been happier.\n\nCarrying her makes you feel more in control of your emotions.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/PrincessCelestia</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.25</MentalBreakThreshold>

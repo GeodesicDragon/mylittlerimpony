@@ -6,8 +6,6 @@
 		<description>Element of Magic, Princess of Friendship, and now ruler of Equestria; Twilight Sparkle has accomplished so much in her lifetime, but she still can't escape being called an egghead.\n\nCarrying her makes you feel smarter.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/TwilightSparkle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<ResearchSpeed>0.25</ResearchSpeed>

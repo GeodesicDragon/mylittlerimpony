@@ -6,8 +6,6 @@
 		<description>Fluttershy is the kindest pony around, though she's not used to all the attention.\n\nCarrying her makes you feel as though you can understand animals much better.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/Fluttershy</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
 			<TameAnimalChance>0.25</TameAnimalChance>
