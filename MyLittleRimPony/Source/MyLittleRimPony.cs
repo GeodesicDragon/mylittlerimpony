@@ -48,8 +48,6 @@ namespace MyLittleRimPony
         public static TraitDef MLRP_AntiBronyTrait;
         [MayRequireRoyalty]
         public static ThoughtDef MLRP_HarmonyChipInstalledAntiBrony;
-        [MayRequireRoyalty]
-        public static HediffDef PsychicAmplifier;
         [MayRequireIdeology]
         public static ThoughtDef MLRP_PartyCannonBoostSlave;
         
@@ -63,7 +61,6 @@ namespace MyLittleRimPony
             if (ModsConfig.IsActive("CETeam.CombatExtended"))
             {
                 Log.Message("MLRP_CEDetected".Translate());
-                Log.Warning("MLRP_CEDetectedWarning".Translate());
             }
             if (ModsConfig.IsActive("imranfish.xmlextensions"))
             {

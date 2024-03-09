@@ -1,22 +1,7 @@
 <Defs>
 
-<ThingDef ParentName="BasePawn" Name="MLRP_SweetieBot_MechanoidBase" Abstract="True"> <!--Name="BaseMechanoid"-->
+<ThingDef ParentName="BasePawn" Name="MLRP_SweetieBot_MechanoidBase" Abstract="True">
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <statBases>
-      <MarketValue>1200</MarketValue>
-      <PsychicSensitivity>0.5</PsychicSensitivity>
-      <ToxicResistance>1</ToxicResistance>
-      <Flammability>0</Flammability>
-      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
-      <ComfyTemperatureMax>250</ComfyTemperatureMax>
-      <MeatAmount>0</MeatAmount>
-      <ArmorRating_Heat>2.00</ArmorRating_Heat>
-      <ControlTakingTime>6</ControlTakingTime>
-      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-      <MechEnergyLossPerHP>0.33</MechEnergyLossPerHP>
-      <WastepacksPerRecharge>5</WastepacksPerRecharge>
-      <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
-    </statBases>
     <receivesSignals>true</receivesSignals>
     <tradeability>None</tradeability>
     <race>

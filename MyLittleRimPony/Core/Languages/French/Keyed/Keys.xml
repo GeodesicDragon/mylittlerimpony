@@ -45,7 +45,6 @@
 	
 	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[Mon petit RimPony] XML Extensions a été détecté.</MLRP_XMLExtensionsDetected>
 	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[Mon petit RimPony] Combat Extended a été détecté.</MLRP_CEDetected>
-	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">[Mon petit RimPony] IMPORTANT : Je n'utilise pas CE, donc les correctifs ne sont pas testés ; veuillez m'avertir dès que possible si vous rencontrez des problèmes!</MLRP_CEDetectedWarning>
 	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Des correctifs de révision médiévale ont été appliqués.</MLRP_MOPatchesDetected>
 	
 </LanguageData>

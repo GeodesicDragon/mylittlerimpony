@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>MLRP_DerpyHooves</defName>
 		<label>Derpy Hooves</label>
-		<description>Ponyville's number one mail delivery mare, Derpy will do whatever she can to get things to where they need to be.\n\nThere may be the odd accident, but her strong determination means she never falters.\n\n(Performs in the same way as a normal transport pod, but has twice the capacity.)</description>
+		<description>Ponyville's number one mail delivery mare, Derpy will do whatever she can to get things to where they need to be.\n\nThere may be the odd accident, but her strong determination means she never falters.\n\n(Performs in the same way as a normal transport pod, but has more capacity.)</description>
 		<graphicData>
 			<texPath>Things/Building/DerpyHooves</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

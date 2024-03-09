@@ -18,7 +18,19 @@
 			<BandwidthCost>3</BandwidthCost>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 			<CaravanRidingSpeedFactor>1.6</CaravanRidingSpeedFactor>
+			<PsychicSensitivity>0.5</PsychicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
+			<Flammability>0</Flammability>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<MeatAmount>0</MeatAmount>
+			<ControlTakingTime>3</ControlTakingTime>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<MechEnergyLossPerHP>0.33</MechEnergyLossPerHP>
+			<WastepacksPerRecharge>5</WastepacksPerRecharge>
+			<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
 		</statBases>
 		<race>
 			<body>MLRP_SweetieBotMech</body>

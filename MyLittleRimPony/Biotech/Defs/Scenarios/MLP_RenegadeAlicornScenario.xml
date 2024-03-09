@@ -50,6 +50,16 @@ You managed to convince a few people to follow you and now, with nothing but the
 				<method>Standing</method>
 			</li>
 			
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>MLRP_ScrewballResearch</project>
+			</li>
+			
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>MLRP_NightmareMoonResearch</project>
+			</li>	
+			
 			<!--Starting items-->
 			
 			<li Class="ScenPart_StartingThing_Defined">

@@ -36,6 +36,12 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>400</basePowerConsumption>
+        <powerUpgrades>
+          <li>
+            <researchProject>MLRP_MagicMirrorExtraPowerResearch</researchProject>
+            <factor>0.75</factor>
+          </li>
+        </powerUpgrades>
       </li>
       <li Class="CompProperties_Flickable"/>
     </comps>

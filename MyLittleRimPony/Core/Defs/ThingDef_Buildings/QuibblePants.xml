@@ -4,9 +4,6 @@
     <defName>MLRP_QuibblePants</defName>
     <label>Quibble Pants</label>
     <description>Quibble Pants thinks he is the ultimate fan, and will go out of his way to prove he knows more than anypony else. Good thing his constant blabbering can be put to use.</description>
-	<descriptionHyperlinks>
-		<ThingDef MayRequire="CETeam.CombatExtended">Ammo_WoodenBullets</ThingDef>
-	</descriptionHyperlinks>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>Things/Building/QuibblePants</texPath>

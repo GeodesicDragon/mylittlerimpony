@@ -1,3 +1,49 @@
+Version 4.60.236 (March 9th 2024)
+
+* [SYR] Trait Value: Added values for the brony and anti brony traits.
+	* Brony trait has a value of +10 because of the boost to social skills.
+	* Anti brony trait has a value of 0 because it only affects how the pawn interacts with bronies.
+* Combat Extended: Added research which unlocks the ability to craft Cadence javelins, tennis balls, harmony lasers and wooden bullets.
+	* Can be done at a simple research bench.
+	* Does not require you to research anything else first.
+	* Handy if you get hold of a weapon before you can actually craft it yourself.
+* Mechanitor Command Range Extenders: Added two new recipes to the Nightmare Moon statue.
+	* Request command uplink: 1000 silver and 6 components. Unlocked once standard mechtech is researched.
+	* Request command uplink (high): 2000 silver, 3 components and 3 advanced components. Unlocked once high mechtech is researched.
+* XML Extensions: Added an option to set whether or not the anima tree is turned into the tree of harmony. Set to true by default. (1)
+* XML Extensions: Added the ability to set how much stuff is required to build Screwballs.
+	* Minimum amount of stuff is 100.
+	* Maximum amount of stuff is 1000.
+	* Default amount of stuff is 300.
+	* Does not affect how much power is generated.
+* Core: Miss Pommel no longer sells human leather. Instead, the recipe has been changed to let you convert 100 human leather into the market value equivalent of cloth.
+* Core: Renamed 'magical power increase' research to 'magical power efficiency.'
+* Core: Screwballs will now output 50% more power once you research magical power efficiency (was 25%).
+* Core: Researching magical power efficiency will now affect the power consumption of other buildings.
+	* Plushie bench: 50% less power.
+	* Fabric Exchange: 50% less power.
+	* Stone Exchange: 50% less power.
+	* Sweetie Bot turret: 25% less power.
+	* Nurse Redheart: 25% less power.
+	* Super Speedy Cider Squeezy 6000: 25% less power.
+* Core: Unlocking the ability to request resurrector mech serums from Nightmare Moon no longer requires research, but the price has been doubled.
+* Core: You are no longer required to have the NPC faction present when starting a new colony. (2)
+* Core: Tweaked the large portrait of Sunny Starscout so that it no longer looks stretched.
+* Core: Replaced the small portrait of Sunny Starscout with a new one.
+* Ideology: Fixed the texture on the villain statue not displaying correctly.
+* Biotech: Reduced the time needed for a mechanitor to take control of Sweetie Bot mechanoids to 3 seconds (was 6).
+* Biotech: The Empire is no longer permanently hostile to the renegade alicorn faction.
+* Biotech: The Renegade Alicorn scenario now starts with Screwball research already unlocked.
+* Biotech: The Renegade Alicorn scenario now starts with Evil Sisters research already unlocked.
+* Biotech: You are no longer required to have the diamond dog faction present when starting a new colony. (2)
+* Alpha Genes: You are no longer required to have the batpony faction present when starting a new colony. (2)
+* Combat Extended: Fixed Sweetie Bot mechanoids showing as not having any armour.
+
+1. The anima tree has returned to normal; it will only be changed if you have XML Extensions and keep the option enabled.
+2. If you want this faction in your game, you will have to add it manually during map generation.
+
+Special thanks to Le_Me from the Steam Workshop for suggesting both of the above changes.
+
 Version 4.53.215 (February 4th 2024)
 
 * Biotech: Added three new recipes to the Nightmare Moon statue to request signal, powerfocus and nano structuring chips in exchange for silver.

@@ -1,0 +1,14 @@
+<Defs>
+
+<!--SCREWBALL-->
+
+	<ResearchProjectDef ParentName="MLRP_QuickResearchBase">
+		<defName>MLRP_CE_AmmoResearch</defName>
+		<label>magical ammunition</label>
+		<description>Unlocks the ability to craft pony-themed ammunition.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

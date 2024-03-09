@@ -67,6 +67,7 @@
 		<products>
 			<Ammo_WoodenBullets>300</Ammo_WoodenBullets>
 		</products>
+		<researchPrerequisite>MLRP_CE_AmmoResearch</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

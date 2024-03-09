@@ -10,7 +10,6 @@
       <texPath>Things/Building/VillainStatue</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,3)</drawSize>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>

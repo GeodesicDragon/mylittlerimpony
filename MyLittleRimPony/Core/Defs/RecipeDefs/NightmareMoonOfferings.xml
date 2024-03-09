@@ -70,7 +70,6 @@
 	<defName>MLRP_NMM_MechSerumResurrector</defName>
 	<label>request resurrector mech serum</label>
 	<description>Offer silver in exchange for a resurrector mech serum.</description>
-	<researchPrerequisite>MedicineProduction</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -88,7 +87,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>213</count>
+			<count>426</count>
 		</li>
 	</ingredients>
 	<products>

@@ -310,24 +310,25 @@
 	</products>	
 </RecipeDef>
 
-<!--PURCHASE HUMAN LEATHER-->
+<!--EXCHANGE HUMAN LEATHER-->
 
 <RecipeDef ParentName="MLRP_FE_RecipeBase">
 	<defName>MLRP_FE_Leather_Human</defName>
-	<label>purchase human leather</label>
-	<description>Use silver to purchase 100 human leather.\n\n(If Miss Pommel asks, it's fake.)</description>
+	<label>exchange human leather</label>
+	<jobString>Exchanging materials</jobString>
+	<description>Convert 100 human leather into the market value equivalent of cloth.</description>
     <ingredients>
 		<li>
 			<filter>
 				<thingDefs>
-					<li>Silver</li>
+					<li>Leather_Human</li>
 				</thingDefs>
 			</filter>
-			<count>45</count>
+			<count>100</count>
 		</li>
 	</ingredients>
 	<products>
-		<Leather_Human>100</Leather_Human>
+		<Cloth>280</Cloth>
 	</products>	
 </RecipeDef>
 

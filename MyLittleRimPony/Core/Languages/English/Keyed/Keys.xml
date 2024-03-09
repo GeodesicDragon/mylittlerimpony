@@ -2,7 +2,7 @@
 
 	<!--C# CORE-->
 	<MLRP_WelcomeMessage>[My Little RimPony] v{0} loaded. Remember, friendship is magic!</MLRP_WelcomeMessage><!--Shown in the log when the game loads to the main menu. {0} is the current version, and is obtained automatically.-->
-	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the poison joke cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
+	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the herbal cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
 	<MLRP_NothingToCure>[My Little RimPony] Warning: Attempted to cure non-existent hediff(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
 	<MLRP_AntiBronyHasPlushieAlert>Anti brony using plushie</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
 	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
@@ -43,7 +43,6 @@
 	
 	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[My Little RimPony] XML Extensions has been detected.</MLRP_XMLExtensionsDetected>
 	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[My Little RimPony] Combat Extended has been detected.</MLRP_CEDetected>
-	<MLRP_CEDetectedWarning MayRequire="CETeam.CombatExtended">[My Little RimPony] IMPORTANT: Combat Extended patches are mostly untested; please alert me ASAP if you encounter any problems!</MLRP_CEDetectedWarning>
 	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Medieval Overhaul patches have been applied.</MLRP_MOPatchesDetected>
 	
 </LanguageData>

@@ -48,7 +48,7 @@
         <powerUpgrades>
           <li>
             <researchProject>MLRP_MagicMirrorExtraPowerResearch</researchProject>
-            <factor>1.25</factor>
+            <factor>1.5</factor>
           </li>
         </powerUpgrades>
       </li>

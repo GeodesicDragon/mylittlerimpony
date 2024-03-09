@@ -10,8 +10,11 @@
     <pawnSingular>batpony</pawnSingular>
     <pawnsPlural>batponies</pawnsPlural>
     <settlementGenerationWeight>2</settlementGenerationWeight>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+    <maxCountAtGameStart>0</maxCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>70</configurationListOrderPriority>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>top bat</leaderTitle>
@@ -159,7 +162,5 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>70</configurationListOrderPriority>
   </FactionDef>
 </Defs>

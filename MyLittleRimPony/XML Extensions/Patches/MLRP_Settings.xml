@@ -404,6 +404,21 @@
 			</apply>
 		</li>
 		
+		<!--SCREWBALL: STUFF REQUIRED-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
+			<key>MLRP_ScrewballStuffRequired</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+			<defaultValue>300</defaultValue> <!--What you want the default value of the setting to be-->
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_ScrewballGenerator"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>{MLRP_ScrewballStuffRequired}</costStuffCount>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
 		<!--SWEETIE BOT: RANGE-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
@@ -1085,6 +1100,96 @@
 			</caseFalse>
 		</li>
 		
+		<!--ROYALTY: PATCH ANIMA TREE-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Royalty">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_TurnAnimaTreeIntoTreeOfHarmony</key>
+			<defaultValue>true</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationSequence">
+					<operations>
+					
+						<!--ANIMA TREE-->
+					
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/label</xpath>
+							<value>
+								<label>Tree of Harmony</label>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/description</xpath>
+							<value>
+								<description>The Tree of Harmony is a magical tree that once held the Elements of Harmony. Nobody knows how it ended up on the rim, but many people suspect that science was involved.\n\nIf a person (psycaster or not) meditates near the tree, it will grow harmony grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from the Tree of Harmony while meditating at it.\n\nThe tree's psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that these trees are not simply trees, but are rather the physical extremities of a single world spirit, while bronies believe them to be a physical extension of their beliefs.</description>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/comps/li[4]/enoughPlantsLetterLabel</xpath>
+							<value>
+								<enoughPlantsLetterLabel>About: Linking with the Tree of Harmony</enoughPlantsLetterLabel>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/comps/li[4]/enoughPlantsLetterText</xpath>
+							<value>
+								<enoughPlantsLetterText>The Tree of Harmony now has {0} harmony grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires 20 grass.\n\nThe harmony grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with the Tree of Harmony. You can see a person's focus types by looking at their info card with the 'i' button.</enoughPlantsLetterText>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData/texPath</xpath>
+							<value>
+								<texPath>Things/TreeOfHarmony</texPath>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData/graphicClass</xpath>
+							<value>
+								<graphicClass>Graphic_Single</graphicClass>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationAdd">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/graphicData</xpath>
+							<value>
+								<drawSize>(2,2)</drawSize>
+							</value>
+						</li>
+								
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/comps/li[5]/message</xpath>
+							<value>
+								<message>The Tree of Harmony has died and emitted a disturbing psychic scream.</message>
+							</value>
+						</li>
+						
+						<!--ANIMA GRASS-->
+						
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]/label</xpath>
+							<value>
+								<label>harmony grass</label>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]/description</xpath>
+							<value>
+								<description>A grass infused with luminous microorganisms. Tribal peoples find that this grass grows around the base of the Tree of Harmony as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nAnimals refuse to eat anima grass, which tribal stories say is done out of respect.\n\nBronies believe that the grass is a physical extension of the tree's power, and that it holds the key to opening a link to Equestria, but the grass degenerates into normal plant matter when observed too closely.</description>
+							</value>
+						</li>
+					</operations>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<!--If the option is false, do nothing.-->
+			</caseFalse>
+		</li>
+		
 		<!--IDEOLOGY: HARMONY PRECEPT PROVIDES OLD BONUSES-->
 		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Ideology">
 			<modId>geodesicdragon.rimpony</modId>
@@ -1388,6 +1493,23 @@
 				<li Class="XmlExtensions.Setting.Gap"/>
 				
 				<li Class="XmlExtensions.Setting.Text">
+					<text>Screwball Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_ScrewballStuffRequired</key>
+					<defaultValue>300</defaultValue>
+					<min>100</min>
+					<max>1000</max>
+					<label>Building Screwballs requires {MLRP_ScrewballStuffRequired} stuff</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
 					<text>Sweetie Bot Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
@@ -1661,10 +1783,23 @@
 					<anchor>Left</anchor>
 				</li>
 				
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Royalty"/>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Royalty">
+					<text>Royalty DLC Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Ideology">
+					<key>MLRP_TurnAnimaTreeIntoTreeOfHarmony</key>
+					<label>Turn the anima tree into the Tree of Harmony</label>
+				</li>
+				
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Ideology"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Ideology">
-					<text>Ideology Settings</text>
+					<text>Ideology DLC Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
 				</li>
@@ -1677,7 +1812,7 @@
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Biotech"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
-					<text>Biotech Settings</text>
+					<text>Biotech DLC Settings</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
 				</li>
@@ -1700,7 +1835,7 @@
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="sumghai.medpod"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="sumghai.medpod">
-					<text>MedPod Settings</text>
+					<text>Mod Settings: MedPod</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
 				</li>
@@ -1713,7 +1848,7 @@
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="Torann.RimWar"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Torann.RimWar">
-					<text>Rim War Settings</text>
+					<text>Mod Settings: Rim War</text>
 					<font>Medium</font>
 					<anchor>Left</anchor>
 				</li>

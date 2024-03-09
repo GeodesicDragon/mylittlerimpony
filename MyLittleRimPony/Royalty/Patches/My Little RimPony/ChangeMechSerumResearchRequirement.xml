@@ -1,10 +1,5 @@
 <Patch>
 
-<Operation Class="PatchOperationReplace">
-	<xpath>/Defs/RecipeDef[defName="MLRP_NMM_MechSerumHealer" or defName="MLRP_NMM_MechSerumHealerForChocolate" or defName="MLRP_NMM_MechSerumResurrector" or defName="MLRP_NMM_MechSerumResurrectorForChocolate"]/researchPrerequisite</xpath>
-	<value>
-		<researchPrerequisite>HealingFactors</researchPrerequisite>
-	</value>
-</Operation>
+<!--No longer required-->
 
 </Patch>

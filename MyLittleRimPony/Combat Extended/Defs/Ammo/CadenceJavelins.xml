@@ -61,6 +61,7 @@
 		<products>
 			<Ammo_CadenceJavelins>100</Ammo_CadenceJavelins>
 		</products>
+		<researchPrerequisite>MLRP_CE_AmmoResearch</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

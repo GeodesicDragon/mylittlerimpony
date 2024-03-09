@@ -81,6 +81,7 @@
 		<products>
 			<Ammo_TennisBalls>50</Ammo_TennisBalls>
 		</products>
+		<researchPrerequisite>MLRP_CE_AmmoResearch</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

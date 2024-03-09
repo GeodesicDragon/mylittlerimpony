@@ -82,7 +82,7 @@
 		<products>
 			<Ammo_HarmonyLaser>500</Ammo_HarmonyLaser>
 		</products>
-		<researchPrerequisite>MLRP_WeaponisedElementsResearch</researchPrerequisite>
+		<researchPrerequisite>MLRP_CE_AmmoResearch</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>
