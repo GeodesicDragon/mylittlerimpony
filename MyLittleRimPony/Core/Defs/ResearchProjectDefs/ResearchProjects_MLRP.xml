@@ -28,7 +28,7 @@
 
 <!--CURE POISON JOKE ADDICTION-->
 	
-	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
+	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
 		<defName>MLRP_CurePoisonJokeAddictionResearch</defName>
 		<label>Herbal cure kit</label>
 		<description>Learn how to make a herbal remedy which will cure a person of a variety of afflictions.</description>

@@ -1,0 +1,35 @@
+<Defs>
+
+<!--250 BEER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_CreateTwoHundredFiftyBeer</defName>
+	<label>create beer x 250</label>
+	<description>Create 250 bottles of beer, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>Brewing</researchPrerequisite>
+    <jobString>Making beer.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Wort</li>
+				</thingDefs>
+			</filter>
+			<count>250</count>
+		</li>
+	</ingredients>
+	<products>
+		<Beer>250</Beer>
+	</products>
+</RecipeDef>
+  
+</Defs>

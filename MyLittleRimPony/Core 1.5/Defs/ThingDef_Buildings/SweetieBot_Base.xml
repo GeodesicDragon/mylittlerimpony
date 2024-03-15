@@ -1,0 +1,50 @@
+<Defs>
+
+<ThingDef Name="SweetieBotBase" Abstract="True">
+	<category>Building</category>
+	<thingClass>Building</thingClass>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<selectable>true</selectable>
+	<drawerType>MapMeshOnly</drawerType>
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<repairEffect>Repair</repairEffect>
+	<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+	<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+</ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MLRP_SweetieBotTurret</defName>
+    <label>Sweetie Bot turret</label>
+    <description>Sweetie Bot *is* the turret.</description>
+    <graphicData>
+      <texPath>Things/PonyPlush/PlushEquipped</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+	  <MarketValue>2500</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Projectile_HarmonyRainbow</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>46</range>
+        <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>MLRP_EOH_Fire</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+</Defs>

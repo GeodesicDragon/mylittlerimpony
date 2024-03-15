@@ -1,0 +1,50 @@
+<!--Traductions fournies par deepl.com. N'hésitez pas à me faire part de vos corrections !-->
+
+<LanguageData>
+
+	<!--C# CORE-->
+	<MLRP_WelcomeMessage>[Mon petit RimPony] v{0} chargé. N'oubliez pas que l'amitié est magique!</MLRP_WelcomeMessage><!--Afficher dans le journal lorsque le jeu se charge dans le menu principal. {0} est la version actuelle et est obtenue automatiquement.-->
+	<MLRP_PawnCured>{0} a été guéri de {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the poison joke cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
+	<MLRP_NothingToCure>[Mon petit RimPony] Avertissement : Tentative de guérison de hediff(s) inexistant(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
+	<MLRP_AntiBronyHasPlushieAlert>Anti brony utilisant la peluche</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
+	<MLRP_AntiBronyHasPlushieExplanation>Un pion avec le trait anti brony a une peluche de poney équipée, ce qui causera une pénalité d'humeur jusqu'à ce qu'elle soit abandonnée. Il pourrait être intéressant d'attribuer aux anti-bronys une tenue distincte afin d'éviter cela.</MLRP_AntiBronyHasPlushieExplanation>
+	<MLRP_PoisonJokeLetterTitle>Affliction de la blague du poison</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
+	<MLRP_PoisonJokeLetterText>Fumer une blague du poison a donné à {0} ce qui suit : {1}</MLRP_PoisonJokeLetterText> <!--Text of letter received after a pawn smokes poison joke. {0} is the pawn's name and {1} is what they were afflicted with; translations for afflictions are below.-->
+	
+	<!--POISON JOKE AFFLICTIONS: MUST BE LOWER CASE UNLESS OTHERWISE SPECIFIED-->
+	
+	<MLRP_PoisonJokeGoodConsciousness>accrue de l'état de conscience</MLRP_PoisonJokeGoodConsciousness>
+	<MLRP_PoisonJokeBadConsciousness>diminution de l'état de conscience</MLRP_PoisonJokeBadConsciousness>
+	<MLRP_PoisonJokeGoodSpeed>vitesse de déplacement accrue</MLRP_PoisonJokeGoodSpeed>
+	<MLRP_PoisonJokeBadSpeed>vitesse de déplacement réduite</MLRP_PoisonJokeBadSpeed>
+	<MLRP_PoisonJokeGoodManipulation>une meilleure manipulation</MLRP_PoisonJokeGoodManipulation>
+	<MLRP_PoisonJokeBadManipulation>réduction de la manipulation</MLRP_PoisonJokeBadManipulation>
+	<MLRP_PoisonJokeGoodTalking>amélioration de la capacité d'expression orale</MLRP_PoisonJokeGoodTalking>
+	<MLRP_PoisonJokeBadTalking>incapacité à parler</MLRP_PoisonJokeBadTalking>
+	<MLRP_PoisonJokeGoodEating>Amélioration de la vitesse de consommation</MLRP_PoisonJokeGoodEating>
+	<MLRP_PoisonJokeBadEating>réduction de la vitesse d'ingestion des aliments</MLRP_PoisonJokeBadEating>
+	<MLRP_PoisonJokeGoodSight>amélioration de la vue</MLRP_PoisonJokeGoodSight>
+	<MLRP_PoisonJokeBadSight>cécité</MLRP_PoisonJokeBadSight>
+	<MLRP_PoisonJokeGoodHearing>amélioration de l'audition</MLRP_PoisonJokeGoodHearing>
+	<MLRP_PoisonJokeBadHearing>surdité</MLRP_PoisonJokeBadHearing>
+	<MLRP_PoisonJokeGoodBreathing>amélioration de la capacité respiratoire</MLRP_PoisonJokeGoodBreathing>
+	<MLRP_PoisonJokeBadBreathing>une diminution de la capacité respiratoire</MLRP_PoisonJokeBadBreathing>
+	<MLRP_PoisonJokeCutiePox>la Cutie Pox</MLRP_PoisonJokeCutiePox>
+	
+	<!--C# ROYALTY-->
+	
+	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti brony utilisant harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Un pion ayant le trait anti-brony a une puce d'harmonie installée. Cette puce inflige une pénalité de -10 à son humeur jusqu'à ce qu'elle soit retirée.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	
+	<!--C# BIOTECH-->
+	
+	<MLRP_AboutSweetieBotMechLetterHeader MayRequire="Ludeon.RimWorld.Biotech">Mécanoïdes Sweetie Bot</MLRP_AboutSweetieBotMechLetterHeader>
+	<MLRP_AboutSweetieBotMechLetterText MayRequire="Ludeon.RimWorld.Biotech">Les méchanoïdes Sweetie Bot se déplacent rapidement et sont dotés d'une bonne armure, mais ils sont vulnérables lorsqu'ils sont engagés dans un combat au corps à corps. Ils conviennent mieux pour attaquer les flancs de l'ennemi, se précipiter et faire feu avant de se retirer à bonne distance. Ils peuvent également être utilisés comme montures dans les caravanes.</MLRP_AboutSweetieBotMechLetterText>
+	
+	<!--C# MODS-->
+	
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[Mon petit RimPony] XML Extensions a été détecté.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[Mon petit RimPony] Combat Extended a été détecté.</MLRP_CEDetected>
+	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Des correctifs de révision médiévale ont été appliqués.</MLRP_MOPatchesDetected>
+	
+</LanguageData>

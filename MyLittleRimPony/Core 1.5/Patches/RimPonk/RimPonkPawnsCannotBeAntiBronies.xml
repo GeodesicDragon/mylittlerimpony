@@ -1,0 +1,45 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName="MLRP_AntiBronyTrait" or defName="MLRP_BronyTrait"]/conflictingTraits</xpath>
+				<value>
+					<li>ThisPonyIsAL</li>
+					<li>ThisPonyIsBP</li>
+					<li>ThisPonyIsEP</li>
+					<li>ThisPonyIsPG</li>
+					<li>ThisPonyIsUN</li>
+					<li>EternalLunacy</li>
+					<li>ExtremelyFriendly</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/TraitDef[defName="ThisPonyIsAL" or defName="ThisPonyIsBP" or defName="ThisPonyIsEP" or defName="ThisPonyIsPG" or defName="ThisPonyIsUN" or defName="EternalLunacy" or defName="ExtremelyFriendly"]/conflictingTraits</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/TraitDef[defName="ThisPonyIsAL" or defName="ThisPonyIsBP" or defName="ThisPonyIsEP" or defName="ThisPonyIsPG" or defName="ThisPonyIsUN" or defName="EternalLunacy" or defName="ExtremelyFriendly"]</xpath>
+					<value>
+						<conflictingTraits>
+							<li>MLRP_AntiBronyTrait</li>
+							<li>MLRP_BronyTrait</li>
+						</conflictingTraits>
+					</value>
+				</nomatch>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/TraitDef[defName="ThisPonyIsAL" or defName="ThisPonyIsBP" or defName="ThisPonyIsEP" or defName="ThisPonyIsPG" or defName="ThisPonyIsUN" or defName="EternalLunacy" or defName="ExtremelyFriendly"]/conflictingTraits</xpath>
+					<value>
+						<li>MLRP_AntiBronyTrait</li>
+						<li>MLRP_BronyTrait</li>
+					</value>
+				</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

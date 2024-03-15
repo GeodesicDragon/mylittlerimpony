@@ -1,0 +1,15 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Single Use Grenades N'at</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MLRP_WifeThrower"]/costList/WoodLog</xpath>
+			<value>
+				<WoodLog>10</WoodLog>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

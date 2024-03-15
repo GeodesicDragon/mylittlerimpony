@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>A RimWorld of Magic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/TraitDef[defName="MLRP_BronyTrait"]/conflictingTraits</xpath>
+	    <value>
+			<li>TM_ArcaneConduitTD</li>
+			<li>TM_ManaWellTD</li>
+			<li>TM_BoundlessTD</li>
+			<li>TM_FaeBloodTD</li>
+			<li>TM_GiantsBloodTD</li>
+			<li>TM_EnlightenedTD</li>
+			<li>TM_CursedTD</li>
+			<li>Undead</li>
+			<li>TM_Gifted</li>
+			<li>InnerFire</li>
+			<li>HeartOfFrost</li>
+			<li>StormBorn</li>
+			<li>Arcanist</li>
+			<li>Druid</li>
+			<li>Paladin</li>
+			<li>Summoner</li>
+			<li>Necromancer</li>
+			<li>Lich</li>
+			<li>Succubus</li>
+			<li>Warlock</li>
+			<li>Geomancer</li>
+			<li>Technomancer</li>
+			<li>BloodMage</li>
+			<li>Enchanter</li>
+			<li>Chronomancer</li>
+			<li>ChaosMage</li>
+			<li>TM_TheShadow</li>
+			<li>TM_Brightmage</li>
+			<li>TM_Shaman</li>
+			<li>TM_Golemancer</li>
+			<li>PhysicalProdigy</li>
+			<li>TM_Wayfarer</li>
+			<li>TM_Apothecary</li>
+			<li>Gladiator</li>
+			<li>Ranger</li>
+			<li>TM_Sniper</li>
+			<li>Bladedancer</li>
+			<li>Faceless</li>
+			<li>TM_Psionic</li>
+			<li>DeathKnight</li>
+			<li>TM_Monk</li>
+			<li>TM_Commander</li>
+			<li>TM_SuperSoldier</li>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>

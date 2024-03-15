@@ -1,0 +1,55 @@
+<Patch>
+
+<!--Trader-->
+
+<!--<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+			<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/pawnGroupMakers/li[1]/guards</xpath>
+			<value>
+				<EPonyVillager>1</EPonyVillager>
+				<PegasusPonyVillager>1</PegasusPonyVillager>
+				<BatPonyVillager>1</BatPonyVillager>
+			</value>
+    </match>
+</Operation>-->
+
+<!--Combat Group-->
+
+<!--<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+			<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/pawnGroupMakers/li[3]/options</xpath>
+			<value>
+				<Pegasus_Soilder_Melee>5</Pegasus_Soilder_Melee>
+				<Unicorn_Soilder_Ranged>2.5</Unicorn_Soilder_Ranged>
+				<GriffonMerc>1</GriffonMerc>
+				<Unicorn_Elite_Ranged>0.5</Unicorn_Elite_Ranged>
+				<UnicornTown_Councilman>0.5</UnicornTown_Councilman>
+			</value>
+    </match>
+</Operation>-->
+
+<!--Settlement Defence-->
+
+<!--<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+			<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/pawnGroupMakers/li[5]/options</xpath>
+			<value>
+				<Pegasus_Soilder_Melee>2.5</Pegasus_Soilder_Melee>
+				<Unicorn_Soilder_Ranged>2.5</Unicorn_Soilder_Ranged>
+				<GriffonMerc>2.5</GriffonMerc>
+				<Unicorn_Elite_Ranged>2.5</Unicorn_Elite_Ranged>
+				<UnicornTown_Councilman>2.5</UnicornTown_Councilman>
+			</value>
+    </match>
+</Operation>-->
+	
+</Patch>

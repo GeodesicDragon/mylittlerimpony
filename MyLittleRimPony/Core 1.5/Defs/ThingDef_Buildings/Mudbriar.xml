@@ -1,0 +1,60 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_Mudbriar</defName>
+    <label>Mudbriar</label>
+    <description>Mudbriar is a stick pony through and through, but out here on the rim he's nothing more than target practice for any raiders coming your way.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Mudbriar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <uiIconPath>Things/Building/Mudbriar</uiIconPath>
+    <uiIconScale>0.90</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>1</Flammability>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>6</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.25</fillPercent>
+    <hasTooltip>false</hasTooltip>
+    <costStuffCount>600</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+	  <li>Metallic</li>
+    </stuffCategories>
+	<costList>
+      <WoodLog>200</WoodLog>
+      <Plasteel>100</Plasteel>
+      <Uranium>100</Uranium>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>70</uiOrder>
+    <building>
+      <expandHomeArea>true</expandHomeArea>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>MLRP_Weaponless</turretGunDef>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>GunTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+</Defs>

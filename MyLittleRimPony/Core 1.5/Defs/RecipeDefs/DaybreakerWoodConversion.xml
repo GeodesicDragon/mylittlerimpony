@@ -1,0 +1,65 @@
+<Defs>
+
+<!--CONVERT SILVER TO WOOD-->
+
+<RecipeDef>
+	<defName>MLRP_DB_ConvertSilverIntoWood</defName>
+	<label>convert silver to wood</label>
+	<description>Convert 1000 silver into 833 wood.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<WoodLog>833</WoodLog>
+	</products>
+</RecipeDef>
+
+<!--CONVERT WOOD TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_DB_ConvertWoodIntoSilver</defName>
+	<label>convert wood to silver</label>
+	<description>Convert 833 wood into 1000 silver.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>WoodLog</li>
+				</thingDefs>
+			</filter>
+			<count>833</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+
+</Defs>

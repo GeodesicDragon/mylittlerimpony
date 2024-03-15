@@ -1,0 +1,313 @@
+<Defs>
+
+<!--CONVERT SILVER TO JADE-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertSilverIntoJade</defName>
+	<label>convert silver to jade</label>
+	<description>Convert 1000 silver into the market value equivalent of jade.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Jade>200</Jade>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO STEEL-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertSilverIntoSteel</defName>
+	<label>convert silver to steel</label>
+	<description>Convert 1000 silver into the market value equivalent of steel.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Steel>526</Steel>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO PLASTEEL-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertSilverIntoPlasteel</defName>
+	<label>convert silver to plasteel</label>
+	<description>Convert 1000 silver into the market value equivalent of plasteel.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Plasteel>111</Plasteel>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO URANIUM-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertSilverIntoUranium</defName>
+	<label>convert silver to uranium</label>
+	<description>Convert 1000 silver into the market value equivalent of uranium.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Uranium>167</Uranium>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO GOLD-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertSilverIntoGold</defName>
+	<label>convert silver to gold</label>
+	<description>Convert 1000 silver into the market value equivalent of gold.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Gold>100</Gold>
+	</products>
+</RecipeDef>
+
+<!--CONVERT JADE TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertJadeIntoSilver</defName>
+	<label>convert jade to silver</label>
+	<description>Convert 200 jade into 1000 silver.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Jade</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT STEEL TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertSteelIntoSilver</defName>
+	<label>convert steel to silver</label>
+	<description>Convert 526 steel into 1000 silver.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>526</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT PLASTEEL TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertPlasteelIntoSilver</defName>
+	<label>convert plasteel to silver</label>
+	<description>Convert 111 plasteel into 1000 silver.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>111</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT URANIUM TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertUraniumIntoSilver</defName>
+	<label>convert uranium to silver</label>
+	<description>Convert 167 jade into 1000 silver.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Uranium</li>
+				</thingDefs>
+			</filter>
+			<count>167</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT GOLD TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertGoldIntoSilver</defName>
+	<label>convert gold to silver</label>
+	<description>Convert 100 gold into 1000 silver.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+  
+</Defs>

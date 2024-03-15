@@ -3,9 +3,10 @@
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rimpony</packageId>
 	<url>https://discord.gg/BGKnpza</url>
-	<modVersion>4.60.236</modVersion>
+	<modVersion>5.0.0</modVersion>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<loadBefore>
 		<li>WheatyTail.MyLittleRimPonyRus</li>

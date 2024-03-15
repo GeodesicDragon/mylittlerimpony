@@ -85,10 +85,6 @@
 		<HediffDef>MLRP_PoisonJokeReducedHearing</HediffDef>
 		<HediffDef>MLRP_PoisonJokeIncreasedBreathing</HediffDef>
 		<HediffDef>MLRP_PoisonJokeReducedBreathing</HediffDef>
-		<HediffDef>MLRP_PoisonJokeIncreasedBloodFiltration</HediffDef>
-		<HediffDef>MLRP_PoisonJokeReducedBloodFiltration</HediffDef>
-		<HediffDef>MLRP_PoisonJokeIncreasedBloodPumping</HediffDef>
-		<HediffDef>MLRP_PoisonJokeReducedBloodPumping</HediffDef>
 	</descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Item/Drug/PoisonJokeJoint</texPath>
@@ -153,6 +149,7 @@
       <recipeUsers>
         <li>CraftingSpot</li>
         <li>DrugLab</li>
+        <li>PlushieBench</li>
       </recipeUsers>
       <workSpeedStat>DrugCookingSpeed</workSpeedStat>
       <workSkill>Cooking</workSkill>

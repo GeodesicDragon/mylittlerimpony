@@ -37,6 +37,15 @@
 	    </value>
 	</Operation>
 	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/equippedStatOffsets</xpath>
+	    <value>
+			<!--The child version is only affected if the appropriate setting is configured in XML Extensions.-->
+			<NightVisionEfficiency_Apparel>0.1</NightVisionEfficiency_Apparel>
+			<ReloadSpeed>0.05</ReloadSpeed>
+	    </value>
+	</Operation>
+	
 	<!--Shining Armour-->
 	
 	<Operation Class="PatchOperationReplace">
@@ -80,6 +89,27 @@
 			<NightVisionEfficiency>0.1</NightVisionEfficiency>
 			<SmokeSensitivity>-0.25</SmokeSensitivity>
 	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Heat</xpath>
+		<value>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+		</value>
 	</Operation>
 	
 </Patch>

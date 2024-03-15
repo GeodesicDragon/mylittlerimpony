@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!--TRAIT CONFLICTS-->
+
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/TraitDef[defName="DislikesMen"]</xpath>
+	    <value>
+			<conflictingTraits>
+				<li>MLRP_BronyTrait</li>
+			</conflictingTraits>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/TraitDef[defName="DislikesWomen"]</xpath>
+	    <value>
+			<conflictingTraits>
+				<li>MLRP_BronyTrait</li>
+			</conflictingTraits>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/TraitDef[defName="Psychopath"]</xpath>
+	    <value>
+			<conflictingTraits>
+				<li>MLRP_BronyTrait</li>
+			</conflictingTraits>
+	    </value>
+	</Operation>
+	
+	<!--IGNORE INSULTS-->
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName="InsultedMood"]</xpath>
+	    <value>
+			<nullifyingTraits>
+				<li>MLRP_BronyTrait</li>
+			</nullifyingTraits>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName="Insulted"]</xpath>
+	    <value>
+			<nullifyingTraits>
+				<li>MLRP_BronyTrait</li>
+			</nullifyingTraits>
+	    </value>
+	</Operation>
+	
+	<!--DO NOT JUDGE OTHERS-->
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName="Disfigured"]</xpath>
+	    <value>
+			<nullifyingTraits>
+				<li>MLRP_BronyTrait</li>
+			</nullifyingTraits>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName="Ugly"]/nullifyingTraits</xpath>
+	    <value>
+			<li>MLRP_BronyTrait</li>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName="AnnoyingVoice"]</xpath>
+	    <value>
+			<nullifyingTraits>
+				<li>MLRP_BronyTrait</li>
+			</nullifyingTraits>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName="CreepyBreathing"]</xpath>
+	    <value>
+			<nullifyingTraits>
+				<li>MLRP_BronyTrait</li>
+			</nullifyingTraits>
+	    </value>
+	</Operation>
+	
+</Patch>

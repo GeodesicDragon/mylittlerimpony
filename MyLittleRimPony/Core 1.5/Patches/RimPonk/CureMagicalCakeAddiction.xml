@@ -1,0 +1,41 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RimPonk</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<RecipeDef ParentName="SurgeryInstallImplantBase">
+					<defName>MLRP_HerbalCureKit_CureMagicalCakeAddiction</defName>
+					<label>cure magical cake addiction</label>
+					<description>Use a herbal cure kit to cure a patient of an addiction to magical cake.</description>
+					<workAmount>600</workAmount>
+					<descriptionHyperlinks>
+						<ThingDef>MLRP_PoisonJokeAddictionCureKit</ThingDef>
+						<HediffDef>MagicalCakeAddiction</HediffDef>
+					</descriptionHyperlinks>
+					<jobString>Using herbal cure kit</jobString>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>MLRP_PoisonJokeAddictionCureKit</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>MLRP_PoisonJokeAddictionCureKit</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+					<removesHediff>MagicalCakeAddiction</removesHediff>
+					<successfullyRemovedHediffMessage>{0} has successfully cured {1} of their magical cake addiction.</successfullyRemovedHediffMessage>
+					<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+</Patch>

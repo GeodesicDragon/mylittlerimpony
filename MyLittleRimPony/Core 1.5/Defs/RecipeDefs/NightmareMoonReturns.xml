@@ -1,0 +1,192 @@
+<Defs>
+
+<!--RETURN PERSONA CORE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_AIPersonaCoreForChocolate</defName>
+	<label>return persona core</label>
+	<description>Return a persona core in exchange for silver.</description>
+	<researchPrerequisite>ShipComputerCore</researchPrerequisite>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>AIPersonaCore</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>100</Silver>
+	</products>
+</RecipeDef>
+
+<!--RETURN HEALER MECH SERUM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MechSerumHealerForChocolate</defName>
+	<label>return healer mech serum</label>
+	<description>Return a healer mech serum in exchange for silver.</description>
+	<researchPrerequisite>HospitalBed</researchPrerequisite>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MechSerumHealer</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>33</Silver>
+	</products>
+</RecipeDef>
+
+<!--RETURN RESURRECTOR MECH SERUM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MechSerumResurrectorForChocolate</defName>
+	<label>return resurrector mech serum</label>
+	<description>Return a resurrector mech serum in exchange for silver.</description>
+	<researchPrerequisite>MedicineProduction</researchPrerequisite>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MechSerumResurrector</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>43</Silver>
+	</products>
+</RecipeDef>
+
+<!--RETURN TECHPROF SUBPERSONA CORE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_TechprofSubpersonaCoreForChocolate</defName>
+	<label>return techprof subpersona core</label>
+	<description>Return a techprof subpersona core in exchange for silver.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>TechprofSubpersonaCore</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>25</Silver>
+	</products>
+</RecipeDef>
+
+<!--RETURN ELEPHANT TUSK-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ElephantTuskForChocolate</defName>
+	<label>return elephant tusk</label>
+	<description>Return an elephant tusk in exchange for (not much) silver.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ElephantTusk</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>2</Silver>
+	</products>
+</RecipeDef>
+
+<!--RETURN THRUMBO HORN-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ThrumboHornForChocolate</defName>
+	<label>return thrumbo horn</label>
+	<description>Return a thrumbo horn in exchange for silver.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ThrumboHorn</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>20</Silver>
+	</products>
+</RecipeDef>
+
+</Defs>

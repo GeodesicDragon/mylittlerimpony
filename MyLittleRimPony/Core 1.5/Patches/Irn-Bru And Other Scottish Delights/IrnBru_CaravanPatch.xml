@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Irn Bru And Other Scottish Delights</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>Caravan_Scottish_Goods</li>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>

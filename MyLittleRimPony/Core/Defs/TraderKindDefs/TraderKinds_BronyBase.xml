@@ -547,6 +547,11 @@
 	<requestable>true</requestable>
     <stockGenerators>
 	
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>1000</countRange>
+      </li>
+	
 	<!-- Resources -->
 	<li Class="StockGenerator_SingleDef">
 		<thingDef>BlocksSandstone</thingDef>

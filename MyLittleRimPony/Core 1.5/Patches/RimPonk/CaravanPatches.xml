@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="FourTribes"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>MLRP_PlushieTrader</li>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="BatponyTribeCannibal"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>MLRP_PlushieTrader</li>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="Changelings"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>MLRP_PlushieTrader</li>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="RedCommonwealth"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>MLRP_PlushieTrader</li>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="Griffon_Mercs"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>MLRP_PlushieTrader</li>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[defName="Sunblessed"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>MLRP_PlushieTrader</li>
+	    </value>
+    </match>
+</Operation>
+	
+</Patch>

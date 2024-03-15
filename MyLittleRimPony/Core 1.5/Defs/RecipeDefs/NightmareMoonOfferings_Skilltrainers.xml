@@ -1,0 +1,387 @@
+<Defs>
+
+<!--SHOOTING-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ShootingSkilltrainer</defName>
+	<label>request skilltrainer (shooting)</label>
+	<description>Offer silver in exchange for a skilltrainer (shooting).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Shooting>1</Neurotrainer_Shooting>
+	</products>
+</RecipeDef>
+
+<!--MELEE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MeleeSkilltrainer</defName>
+	<label>request skilltrainer (melee)</label>
+	<description>Offer silver in exchange for a skilltrainer (melee).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Melee>1</Neurotrainer_Melee>
+	</products>
+</RecipeDef>
+
+<!--CONSTRUCTION-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ConstructionSkilltrainer</defName>
+	<label>request skilltrainer (construction)</label>
+	<description>Offer silver in exchange for a skilltrainer (construction).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Construction>1</Neurotrainer_Construction>
+	</products>
+</RecipeDef>
+
+<!--MINING-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MiningSkilltrainer</defName>
+	<label>request skilltrainer (mining)</label>
+	<description>Offer silver in exchange for a skilltrainer (mining).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Mining>1</Neurotrainer_Mining>
+	</products>
+</RecipeDef>
+
+<!--COOKING-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_CookingSkilltrainer</defName>
+	<label>request skilltrainer (cooking)</label>
+	<description>Offer silver in exchange for a skilltrainer (cooking).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Cooking>1</Neurotrainer_Cooking>
+	</products>
+</RecipeDef>
+
+<!--PLANTS-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_PlantSkilltrainer</defName>
+	<label>request skilltrainer (plants)</label>
+	<description>Offer silver in exchange for a skilltrainer (plants).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Plants>1</Neurotrainer_Plants>
+	</products>
+</RecipeDef>
+
+<!--ANIMALS-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_AnimalSkilltrainer</defName>
+	<label>request skilltrainer (animals)</label>
+	<description>Offer silver in exchange for a skilltrainer (animals).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Animals>1</Neurotrainer_Animals>
+	</products>
+</RecipeDef>
+
+<!--CRAFTING-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_CraftingSkilltrainer</defName>
+	<label>request skilltrainer (crafting)</label>
+	<description>Offer silver in exchange for a skilltrainer (crafting).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Crafting>1</Neurotrainer_Crafting>
+	</products>
+</RecipeDef>
+
+<!--ARTISTIC-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ArtisticSkilltrainer</defName>
+	<label>request skilltrainer (artistic)</label>
+	<description>Offer silver in exchange for a skilltrainer (artistic).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Artistic>1</Neurotrainer_Artistic>
+	</products>
+</RecipeDef>
+
+<!--MEDICINE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MedicineSkilltrainer</defName>
+	<label>request skilltrainer (medicine)</label>
+	<description>Offer silver in exchange for a skilltrainer (medicine).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Medicine>1</Neurotrainer_Medicine>
+	</products>
+</RecipeDef>
+
+<!--SOCIAL-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_SocialSkilltrainer</defName>
+	<label>request skilltrainer (social)</label>
+	<description>Offer silver in exchange for a skilltrainer (social).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Social>1</Neurotrainer_Social>
+	</products>
+</RecipeDef>
+
+<!--INTELLECTUAL-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_IntellectualSkilltrainer</defName>
+	<label>request skilltrainer (intellectual)</label>
+	<description>Offer silver in exchange for a skilltrainer (intellectual).</description>
+	<researchPrerequisite>MLRP_GetSkilltrainersFromNMM</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>282</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neurotrainer_Intellectual>1</Neurotrainer_Intellectual>
+	</products>
+</RecipeDef>
+
+</Defs>

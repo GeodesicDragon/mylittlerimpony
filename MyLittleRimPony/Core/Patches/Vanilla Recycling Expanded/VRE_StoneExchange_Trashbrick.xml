@@ -1,0 +1,52 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Recycling Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<RecipeDef ParentName="MLRP_SE_RecipeBase">
+					<defName>MLRP_SE_BuyTrashbricks</defName>
+					<label>purchase trashbricks</label>
+					<description>Use silver to purchase 100 trashbricks.</description>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+					<products>
+						<VRecyclingE_TrashBrick>100</VRecyclingE_TrashBrick>
+					</products>	
+				</RecipeDef>
+				
+				<RecipeDef ParentName="MLRP_SE_RecipeBase">
+					<defName>MLRP_SE_SellTrashbricks</defName>
+					<label>sell trashbricks</label>
+					<description>Sell 100 trashbricks in exchange for silver.</description>
+					<jobString>Selling trashbricks</jobString>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>VRecyclingE_TrashBrick</li>
+								</thingDefs>
+							</filter>
+							<count>100</count>
+						</li>
+					</ingredients>
+					<products>
+						<Silver>20</Silver>
+					</products>	
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

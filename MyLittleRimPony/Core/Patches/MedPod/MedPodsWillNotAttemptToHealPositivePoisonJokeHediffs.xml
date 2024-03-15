@@ -15,8 +15,6 @@
 				<li>MLRP_PoisonJokeSightBeyondSight</li>
 				<li>MLRP_PoisonJokeIncreasedHearing</li>
 				<li>MLRP_PoisonJokeIncreasedBreathing</li>
-				<li>MLRP_PoisonJokeIncreasedBloodFiltration</li>
-				<li>MLRP_PoisonJokeIncreasedBloodPumping</li>
 			</value>
 		</match>
 	</Operation>

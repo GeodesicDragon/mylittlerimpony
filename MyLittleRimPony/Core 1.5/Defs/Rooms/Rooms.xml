@@ -1,0 +1,15 @@
+<Defs>
+
+	<RoomRoleDef>
+		<defName>MLRP_PortalRoom</defName>
+		<label>portal room</label>
+		<workerClass>MyLittleRimPony.RoomRoleWorker_PortalRoom</workerClass>
+	</RoomRoleDef>
+	
+	<RoomRoleDef>
+		<defName>MLRP_ScrewballRoom</defName>
+		<label>Screwball room</label>
+		<workerClass>MyLittleRimPony.RoomRoleWorker_ScrewballRoom</workerClass>
+	</RoomRoleDef>
+  
+</Defs>

@@ -50,7 +50,7 @@ namespace MyLittleRimPony
         public static ThoughtDef MLRP_HarmonyChipInstalledAntiBrony;
         [MayRequireIdeology]
         public static ThoughtDef MLRP_PartyCannonBoostSlave;
-        
+
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
@@ -345,7 +345,7 @@ namespace MyLittleRimPony
             return 10f * (float)num;
         }
     }
-	
+
     // PARTY CANNON
 
     public class MLRP_PartyCannonMoodBoost : CompTargetEffect
@@ -374,9 +374,9 @@ namespace MyLittleRimPony
             {
                 pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostPrisoner));
             }
-			if (ModsConfig.IsActive("Ludeon.RimWorld.Ideology") && pawn.IsSlave) // Pawn is a slave (requires Ideology DLC)
+            if (ModsConfig.IsActive("Ludeon.RimWorld.Ideology") && pawn.IsSlave) // Pawn is a slave (requires Ideology DLC)
             {
-				pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostSlave));
+                pawn.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(MyDefOf.MLRP_PartyCannonBoostSlave));
             }
         }
     }

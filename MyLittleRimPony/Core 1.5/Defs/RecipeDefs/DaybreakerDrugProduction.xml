@@ -1,0 +1,267 @@
+<Defs>
+
+<!--MAKE 100 FLAKE-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakeFlake</defName>
+	<label>Make 100 flake</label>
+	<description>Convert 400 psychoid leaves into 100 flake, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
+    <jobString>Making flake</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PsychoidLeaves</li>
+				</thingDefs>
+			</filter>
+			<count>400</count>
+		</li>
+	</ingredients>
+	<products>
+		<Flake>100</Flake>
+	</products>
+</RecipeDef>
+
+<!--MAKE 100 GO-JUICE-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakeGoJuice</defName>
+	<label>Make 100 go-juice</label>
+	<description>Convert 200 neutroamine and 100 yayo into 100 go-juice, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>GoJuiceProduction</researchPrerequisite>
+    <jobString>Making go-juice</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Neutroamine</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Yayo</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<GoJuice>100</GoJuice>
+	</products>
+</RecipeDef>
+
+<!--MAKE 100 PENOXYCYLINE-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakePenoxycyline</defName>
+	<label>Make 100 penoxycyline</label>
+	<description>Convert 200 neutroamine into 100 penoxycyline, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+    <jobString>Making penoxycyline</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Neutroamine</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+	</ingredients>
+	<products>
+		<Penoxycyline>100</Penoxycyline>
+	</products>
+</RecipeDef>
+
+<!--MAKE 100 POISON JOKE JOINTS-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakePoisonJokeJoint</defName>
+	<label>Make 100 poison joke joints</label>
+	<description>Convert 800 poison joke leaves into 100 poison joke joints, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
+    <jobString>Making poison joke joints</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MLRP_PoisonJokeLeaves</li>
+				</thingDefs>
+			</filter>
+			<count>800</count>
+		</li>
+	</ingredients>
+	<products>
+		<MLRP_PoisonJokeJoint>100</MLRP_PoisonJokeJoint>
+	</products>
+</RecipeDef>
+
+<!--MAKE 100 PSYCHITE TEA-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakePsychiteTea</defName>
+	<label>Make 100 psychite tea</label>
+	<description>Convert 400 psychoid leaves into 100 psychite tea, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
+    <jobString>Making psychite tea</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PsychoidLeaves</li>
+				</thingDefs>
+			</filter>
+			<count>400</count>
+		</li>
+	</ingredients>
+	<products>
+		<PsychiteTea>100</PsychiteTea>
+	</products>
+</RecipeDef>
+
+<!--MAKE 100 SMOKELEAF JOINTS-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakeSmokeleafJoints</defName>
+	<label>Make 100 smokeleaf joints</label>
+	<description>Convert 400 smokeleaf leaves into 100 smokeleaf joints, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
+    <jobString>Making smokeleaf joints</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>SmokeleafLeaves</li>
+				</thingDefs>
+			</filter>
+			<count>400</count>
+		</li>
+	</ingredients>
+	<products>
+		<SmokeleafJoint>100</SmokeleafJoint>
+	</products>
+</RecipeDef>
+
+<!--MAKE 100 WAKE-UP-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakeWakeUp</defName>
+	<label>Make 100 wake-up</label>
+	<description>Convert 200 neutroamine into 100 wake-up, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>WakeUpProduction</researchPrerequisite>
+    <jobString>Making wake-up</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Neutroamine</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+	</ingredients>
+	<products>
+		<WakeUp>100</WakeUp>
+	</products>
+</RecipeDef>
+
+<!--MAKE 100 YAYO-->
+
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+	<defName>MLRP_DB_MakeYayo</defName>
+	<label>Make 100 yayo</label>
+	<description>Convert 800 psychoid leaves into 100 yayo, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
+    <jobString>Making yayo</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PsychoidLeaves</li>
+				</thingDefs>
+			</filter>
+			<count>800</count>
+		</li>
+	</ingredients>
+	<products>
+		<Yayo>100</Yayo>
+	</products>
+</RecipeDef>
+
+</Defs>

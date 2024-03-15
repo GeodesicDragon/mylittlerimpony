@@ -1,0 +1,16 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[K4G] RimWorld War 2</li>
+	</mods>
+	<match Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="K4G_WW2England" or defName="K4G_WW2FranceAllies" or defName="K4G_WW2FranceExile" or defName="K4G_WW2FranceAxis" or defName="K4G_WW2Germany" or defName="K4G_WW2ItalyAllies" or defName="K4G_WW2ItalyAxis" or defName="K4G_WW2ItalyAxisB" or defName="K4G_WW2Japan" or defName="K4G_WW2RussiaAllies" or defName="K4G_WW2RussiaAxis" or defName="K4G_WW2UnitedStates" or defName="K4G_WW2FinlandIndependent" or defName="K4G_WW2FinlandCoBelligerentAllies" or defName="K4G_WW2FinlandCoBelligerentGermany" or defName="K4G_WW2ItalyCoBelligerentAllies" or defName="K4G_WW2RussiaCoBelligerentGermany"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>MLRP_BronyFaction</li>
+			<li>MLRP_NPC_Faction</li>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

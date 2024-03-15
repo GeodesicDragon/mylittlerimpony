@@ -1,0 +1,41 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RimPonk</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<RecipeDef>
+					<defName>MLRP_NMM_BionicWing</defName>
+					<label>request bionic wing</label>
+					<description>Offer silver in exchange for a bionic wing.</description>
+					<researchPrerequisite>Bionics</researchPrerequisite>
+					<jobString>Making an offering to Nightmare Moon</jobString>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Cremate</effectWorking>
+					<soundWorking>Recipe_Cremate</soundWorking>
+					<allowMixingIngredients>false</allowMixingIngredients>
+					<workAmount>300</workAmount>
+					<recipeUsers>
+						<li>MLRP_NightmareMoon</li>
+					</recipeUsers>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>137</count>
+						</li>
+					</ingredients>
+					<products>
+						<BionicWing>1</BionicWing>
+					</products>
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+</Patch>

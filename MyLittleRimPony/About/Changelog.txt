@@ -1,3 +1,32 @@
+Version 5.0.0 (March 15th 2024)
+
+NOTE 1: There may be issues with patches or features related to other mods; please report them ASAP if you encounter any!
+NOTE 2: Changes marked as just 'Core' apply to both version 1.4 and 1.5 of the game.
+
+* Mod is now compatible with the RimWorld 1.5 update.
+* Core 1.5: Added the ability to request bionic jaws from Nightmare Moon.
+	* Costs 1000 silver.
+	* Requires bionics research.
+* Vanilla Recycling Expanded: Added two new recipes to the Stone Exchange related to trashbricks.
+	* Buy trashbricks: Buy 100 trashbricks for just 20 silver.
+	* Sell trashbricks: Sell 100 trashbricks to get 20 silver back.
+	* It doesn't seem like much, I know, but it might be handy if you're doing a lot of recycling.
+	* Vanilla Recycling Expanded states the market value of the bricks to be 0.2 silver each.
+* Core 1.5: Poison joke no longer plays tricks on those who smoke it. (1)
+* Core 1.5: Instead of pawns using herbal cure kits themselves, the kit is now an ingredient in several new bills that can be accessed via the Health tab. (1)
+* Core 1.5: Pawns without the brony trait no longer have plushies as part of their possessions when starting a new colony.
+* Core 1.5: Bronies now have a 20% chance of starting a new colony with Elements of Harmony in their possession.
+* Core 1.5: Bronies also have a 1% chance of starting a new colony with a rainbow laser in their possession.
+* Core: Fixed not being able to trade with NPC faction stonemasons.
+* Core: Researching herbal cure kits can now be done at a simple research bench.
+* Core: Daybreaker statues can now be built using wood.
+* Core: Nightmare Moon statues can now be built using wood.
+* Core: Poison joke joints can now be made at the plushie bench.
+* Combat Extended: Fixed the Elements of Harmony not granting the reload speed and night vision improvements of the Rainbow Dash plushie.
+* Combat Extended: Fixed the harmony chip not granting the same armour improvements as the Shining Armour plushie.
+
+1. Changes to the RimWorld API in 1.5 that I don't quite understand means these items don't work as they used to, hence these changes.
+
 Version 4.60.236 (March 9th 2024)
 
 * [SYR] Trait Value: Added values for the brony and anti brony traits.

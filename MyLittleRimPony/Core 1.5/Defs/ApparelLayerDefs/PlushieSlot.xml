@@ -1,0 +1,9 @@
+<Defs>
+
+    <ApparelLayerDef>
+        <defName>MLRP_PlushieSlot</defName>
+        <label>plushie</label>
+        <drawOrder>600</drawOrder>
+    </ApparelLayerDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!--These patches don't work because the ability to set faction relations has been removed.-->
+<!--The code will remain on the off-chance that decision is reversed sometime in the future.-->
+
+<!--<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Nightmare_Moon_UP"]/alienRace/generalSettings/factionRelations</xpath>
+	    <value>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>-100</min>
+					<max>-100</max>
+				</goodwill>
+			</li>
+	    </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimPonk</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Changeling_pony"]/alienRace/generalSettings/factionRelations</xpath>
+	    <value>
+			<li>
+				<factions>
+					<li>MLRP_NPC_Faction</li>
+				</factions>
+				<goodwill>
+					<min>-100</min>
+					<max>-100</max>
+				</goodwill>
+			</li>
+	    </value>
+    </match>
+</Operation>-->
+	
+</Patch>

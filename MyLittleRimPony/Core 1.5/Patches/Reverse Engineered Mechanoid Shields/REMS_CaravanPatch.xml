@@ -1,0 +1,15 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Reverse Engineered Mechanoid Shields</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/caravanTraderKinds</xpath>
+		<value>
+			<li>REMS_MechanoidShieldTrader</li>
+		</value>
+    </match>
+</Operation>
+
+</Patch>

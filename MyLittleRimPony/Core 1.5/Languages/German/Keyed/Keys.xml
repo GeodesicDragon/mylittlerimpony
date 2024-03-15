@@ -1,0 +1,50 @@
+<!--Übersetzungen zur Verfügung gestellt von Google. Zögern Sie nicht, mir Ihre Korrekturen mitzuteilen!-->
+
+<LanguageData>
+
+	<!--C# CORE-->
+	<MLRP_WelcomeMessage>[My Little RimPony] v{0} geladen. Denken Sie daran, Freundschaft ist Magie!</MLRP_WelcomeMessage><!--Wird im Protokoll angezeigt, wenn das Spiel in das Hauptmenü geladen wird. {0} ist die aktuelle Version und wird automatisch abgerufen.-->
+	<MLRP_PawnCured>{0} wurde von {1} geheilt.</MLRP_PawnCured> <!--Wird oben auf dem Bildschirm angezeigt, wenn ein Bauer mit dem Giftwitz-Heilungsset geheilt wird. {0} ist der Name des Bauern und {1} ist das, wovon sie geheilt wurden.-->
+	<MLRP_NothingToCure>[My Little RimPony] Warnung: Es wurde versucht, nicht existierende Hediff(s) zu heilen.</MLRP_NothingToCure> <!--Wird im Protokoll angezeigt, wenn das Giftwitz-Heilungsset für einen Bauern verwendet wird, der nicht an einem Giftwitz und/oder einer magischen Kuchensucht leidet.-->
+	<MLRP_AntiBronyHasPlushieAlert>Anti-Brony mit Plüschtier</MLRP_AntiBronyHasPlushieAlert> <!--Wird an der Seite des Bildschirms angezeigt, wenn eine Figur mit der Anti-Brony-Eigenschaft ein Plüschtier ausgerüstet hat.-->
+	<MLRP_AntiBronyHasPlushieExplanation>Eine Figur mit der Anti-Brony-Eigenschaft ist mit einem Pony-Plüschtier ausgestattet, das eine Stimmungsstrafe verursacht, bis es fallen gelassen wird. Um dies zu verhindern, könnte es sich lohnen, Anti-Bronies ein eigenes Outfit zuzuweisen.</MLRP_AntiBronyHasPlushieExplanation>
+	<MLRP_PoisonJokeLetterTitle>Giftwitz-Betroffenheit</MLRP_PoisonJokeLetterTitle> <!--Titel des Briefes, der erhalten wurde, nachdem ein Bauer einen Giftwitz geraucht hat.-->
+	<MLRP_PoisonJokeLetterText>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: {1}</MLRP_PoisonJokeLetterText> <!--Text des Briefes, der erhalten wurde, nachdem ein Bauer einen Giftwitz rauchte. {0} ist der Name des Bauern und {1} ist das, womit er geplagt wurde; Übersetzungen für Bedrängnisse finden Sie unten.-->
+
+	<!--POISON JOKE AFFLICTIONS: MUSS KLEINSCHREIBEN WERDEN, WENN NICHT ANDERS ANGEGEBEN-->
+
+	<MLRP_PoisonJokeGoodConsciousness>erhöhtes Bewusstsein</MLRP_PoisonJokeGoodConsciousness>
+	<MLRP_PoisonJokeBadConsciousness>reduziertes Bewusstsein</MLRP_PoisonJokeBadConsciousness>
+	<MLRP_PoisonJokeGoodSpeed>Bewegungsgeschwindigkeit erhöht</MLRP_PoisonJokeGoodSpeed>
+	<MLRP_PoisonJokeBadSpeed>Bewegungsgeschwindigkeit verringert</MLRP_PoisonJokeBadSpeed>
+	<MLRP_PoisonJokeGoodManipulation>verbesserte Manipulation</MLRP_PoisonJokeGoodManipulation>
+	<MLRP_PoisonJokeBadManipulation>reduzierte Manipulation</MLRP_PoisonJokeBadManipulation>
+	<MLRP_PoisonJokeGoodTalking>verbesserte Sprechfähigkeit</MLRP_PoisonJokeGoodTalking>
+	<MLRP_PoisonJokeBadTalking>Unfähigkeit zu sprechen</MLRP_PoisonJokeBadTalking>
+	<MLRP_PoisonJokeGoodEating>verbesserte Essgeschwindigkeit</MLRP_PoisonJokeGoodEating>
+	<MLRP_PoisonJokeBadEating>Essgeschwindigkeit verringert</MLRP_PoisonJokeBadEating>
+	<MLRP_PoisonJokeGoodSight>verbesserte Sehkraft</MLRP_PoisonJokeGoodSight>
+	<MLRP_PoisonJokeBadSight>Blindheit</MLRP_PoisonJokeBadSight>
+	<MLRP_PoisonJokeGoodHearing>verbessertes Hören</MLRP_PoisonJokeGoodHearing>
+	<MLRP_PoisonJokeBadHearing>Taubheit</MLRP_PoisonJokeBadHearing>
+	<MLRP_PoisonJokeGoodBreathing>verbesserte Atmungsfähigkeit</MLRP_PoisonJokeGoodBreathing>
+	<MLRP_PoisonJokeBadBreathing>reduzierte Atmungsfähigkeit</MLRP_PoisonJokeBadBreathing>
+	<MLRP_PoisonJokeCutiePox>die Cutie Pox</MLRP_PoisonJokeCutiePox>
+
+	<!--C# ROYALTY-->
+
+	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti Brony hat einen Harmonie-Chip</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipExplanation>
+
+	<!--C# BIOTECH-->
+
+	<MLRP_AboutSweetieBotMechLetterHeader MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot Mechanoiden</MLRP_AboutSweetieBotMechLetterHeader>
+	<MLRP_AboutSweetieBotMechLetterText MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot-Mechanoiden bewegen sich schnell und verfügen über eine anständige, scharfe Panzerung, sind aber im Nahkampf verwundbar.\n\nSie eignen sich am besten zum Angriff auf die Flanken eines Feindes, zum Vorstürmen und Legen Feuer ab, bevor sie sich in eine sichere Entfernung zurückziehen.\n\nSie können auch als Reittiere verwendet werden, wenn sie Teil von Karawanen sind.</MLRP_AboutSweetieBotMechLetterText>
+
+	<!--C# MODS-->
+
+	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[My Little RimPony] XML-Erweiterungen wurden erkannt.</MLRP_XMLExtensionsDetected>
+	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[My Little RimPony] Combat Extended wurde erkannt.</MLRP_CEDetected>
+	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Patches für die mittelalterliche Überholung wurden angewendet.</MLRP_MOPatchesDetected>
+
+</LanguageData>

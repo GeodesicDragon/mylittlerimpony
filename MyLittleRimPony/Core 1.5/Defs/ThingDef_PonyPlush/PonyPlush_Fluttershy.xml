@@ -1,0 +1,17 @@
+<Defs>
+	<ThingDef ParentName="PonyPlush_Work">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_Fluttershy</defName>
+		<label>Fluttershy</label>
+		<description>Fluttershy is the kindest pony around, though she's not used to all the attention.\n\nCarrying her makes you feel as though you can understand animals much better.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/Fluttershy</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<TameAnimalChance>0.25</TameAnimalChance>
+			<TrainAnimalChance>0.25</TrainAnimalChance>
+			<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+			<AnimalGatherYield>0.25</AnimalGatherYield>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

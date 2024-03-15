@@ -1,0 +1,123 @@
+<Defs>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>MLRP_HerbalCureKit_CureFlu</defName>
+		<label>cure flu</label>
+		<description>Use a herbal cure kit to cure a patient of the flu.</description>
+		<workAmount>600</workAmount>
+		<descriptionHyperlinks>
+			<ThingDef>MLRP_PoisonJokeAddictionCureKit</ThingDef>
+			<HediffDef>Flu</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Using herbal cure kit</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MLRP_PoisonJokeAddictionCureKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MLRP_PoisonJokeAddictionCureKit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<removesHediff>Flu</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully cured {1} of the flu.</successfullyRemovedHediffMessage>
+		<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>MLRP_HerbalCureKit_CureMalaria</defName>
+		<label>cure malaria</label>
+		<description>Use a herbal cure kit to cure a patient of malaria.</description>
+		<workAmount>600</workAmount>
+		<descriptionHyperlinks>
+			<ThingDef>MLRP_PoisonJokeAddictionCureKit</ThingDef>
+			<HediffDef>Malaria</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Using herbal cure kit</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MLRP_PoisonJokeAddictionCureKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MLRP_PoisonJokeAddictionCureKit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<removesHediff>Malaria</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully cured {1} of malaria.</successfullyRemovedHediffMessage>
+		<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>MLRP_HerbalCureKit_CureFoodPoisoning</defName>
+		<label>cure food poisoning</label>
+		<description>Use a herbal cure kit to cure a patient of food poisoning.</description>
+		<workAmount>600</workAmount>
+		<descriptionHyperlinks>
+			<ThingDef>MLRP_PoisonJokeAddictionCureKit</ThingDef>
+			<HediffDef>FoodPoisoning</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Using herbal cure kit</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MLRP_PoisonJokeAddictionCureKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MLRP_PoisonJokeAddictionCureKit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<removesHediff>FoodPoisoning</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully cured {1} of food poisoning.</successfullyRemovedHediffMessage>
+		<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>MLRP_HerbalCureKit_CurePoisonJokeAddiction</defName>
+		<label>cure magical cake addiction</label>
+		<description>Use a herbal cure kit to cure a patient of an addiction to poison joke.</description>
+		<workAmount>600</workAmount>
+		<descriptionHyperlinks>
+			<ThingDef>MLRP_PoisonJokeAddictionCureKit</ThingDef>
+			<HediffDef>MLRP_PoisonJokeAddiction</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Using herbal cure kit</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MLRP_PoisonJokeAddictionCureKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MLRP_PoisonJokeAddictionCureKit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<removesHediff>MLRP_PoisonJokeAddiction</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully cured {1} of their poison joke addiction.</successfullyRemovedHediffMessage>
+		<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

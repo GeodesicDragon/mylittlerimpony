@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--SCREWBALL-->
+
+	<ResearchProjectDef ParentName="MLRP_QuickResearchBase">
+		<defName>MLRP_ScrewballResearch</defName>
+		<label>Screwball generator</label>
+		<description>Harness the power of a pony supposedly cursed by the Lord of Chaos for your own needs.</description>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--PLUSHIE RECYCLING-->
+	
+	<ResearchProjectDef ParentName="MLRP_MediumResearchBase">
+		<defName>MLRP_PlushieRecycling</defName>
+		<label>Plushie recycling</label>
+		<description>Allows you to reclaim some of the material used to make plushies.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+<!--HERBAL CURE KIT-->
+	
+	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
+		<defName>MLRP_CurePoisonJokeAddictionResearch</defName>
+		<label>Herbal cure kit</label>
+		<description>Learn how to make a herbal remedy which will cure a person of a variety of afflictions.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--RAINBOW LASER-->
+
+	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+		<defName>MLRP_WeaponisedElementsResearch</defName>
+		<label>Rainbow Laser</label>
+		<description>Create weapons that smite your enemies with the power of rainbows.</description>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--NIGHTMARE MOON AND DAYBREAKER-->
+
+	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
+		<defName>MLRP_NightmareMoonResearch</defName>
+		<label>Statues of the Evil Sisters</label>
+		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for silver, as well as a statue of Daybreaker, who will allow you to convert metals using chemfuel.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<prerequisites>
+			<li>BiofuelRefining</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+		<discoveredLetterTitle>About Nightmare Moon and Daybreaker</discoveredLetterTitle>
+		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally, while Daybreaker lets you convert materials using chemfuel.\n\nPlease note that some recipes at these buildings are locked behind research; check back often to see if anything new is available.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+<!--SKILLTRAINERS-->
+
+	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+		<defName>MLRP_GetSkilltrainersFromNMM</defName>
+		<label>Request skilltrainers</label>
+		<description>Nightmare Moon will grant you the ability to request skilltrainers from her.</description>
+		<prerequisites>
+			<li>MLRP_NightmareMoonResearch</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--EQG MIRROR-->
+
+	<ResearchProjectDef ParentName="MLRP_TimeConsumingResearchBase">
+		<defName>MLRP_MagicMirrorResearch</defName>
+		<label>Magic mirror</label>
+		<description>Unlock the secrets of the magic mirror which connects Equestria to a whole other world.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>7</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+<!--POWER INCREASE-->
+
+	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+		<defName>MLRP_MagicMirrorExtraPowerResearch</defName>
+		<label>Magical power efficiency</label>
+		<description>Improves the electricity generated or used by pony-themed buildings.</description>
+		<prerequisites>
+			<li>MLRP_MagicMirrorResearch</li>
+			<li>MLRP_ScrewballResearch</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>8</researchViewX>
+		<researchViewY>0</researchViewY>
+		<discoveredLetterTitle>Magical power efficiency</discoveredLetterTitle>
+		<discoveredLetterText>These buildings now generate more power:\n\n- Screwball: +50%\n- Magic mirror: +25%\n\nThese buildings now use less power:\n\n- Plushie bench: -50%\n- Fabric Exchange: -50%\n- Stone Exchange: -50%\n- Sweetie Bot turret: -25%\n- Nurse Redheart: -25%\n- Super Speedy Cider Squeezy 6000: -25%</discoveredLetterText>
+	</ResearchProjectDef>
+
+</Defs>

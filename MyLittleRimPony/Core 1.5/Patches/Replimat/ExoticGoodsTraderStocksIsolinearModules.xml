@@ -1,0 +1,18 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Replimat</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/TraderKindDef[defName="MLRP_NPCFaction_ExoticGoodsTrader"]/stockGenerators</xpath>
+			<value>
+				<li Class="StockGenerator_SingleDef">
+					<thingDef>IsolinearModule</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

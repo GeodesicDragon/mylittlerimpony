@@ -1,0 +1,175 @@
+<Defs>
+
+<!--INDUSTRIAL COMPONENTS-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_CreateComponentIndustrial</defName>
+	<label>create component x 5</label>
+	<description>Create 5 components, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>Fabrication</researchPrerequisite>
+    <jobString>Making 5 components.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>60</count>
+		</li>
+	</ingredients>
+	<products>
+		<ComponentIndustrial>5</ComponentIndustrial>
+	</products>
+</RecipeDef>
+
+<RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
+	<defName>MLRP_DB_CreateComponentIndustrialTen</defName>
+	<label>create component x 10</label>
+	<description>Create 10 components, using a lot of chemfuel to accelerate the process.</description>
+	<researchPrerequisite>Fabrication</researchPrerequisite>
+    <jobString>Making 10 components.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>120</count>
+		</li>
+	</ingredients>
+	<products>
+		<ComponentIndustrial>10</ComponentIndustrial>
+	</products>
+</RecipeDef>
+
+<!--ADVANCED COMPONENTS-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_CreateComponentSpacer</defName>
+	<label>create advanced component x 5</label>
+	<description>Create 5 advanced components, using chemfuel to accelerate the process.</description>
+	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+    <jobString>Making 5 advanced components.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>1.5</count>
+		</li>
+	</ingredients>
+	<products>
+		<ComponentSpacer>5</ComponentSpacer>
+	</products>
+</RecipeDef>
+
+<RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
+	<defName>MLRP_DB_CreateComponentSpacerTen</defName>
+	<label>create advanced component x 10</label>
+	<description>Create 10 advanced components, using a lot of chemfuel to accelerate the process.</description>
+	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+    <jobString>Making 10 advanced components.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentIndustrial</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Steel</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+	</ingredients>
+	<products>
+		<ComponentSpacer>10</ComponentSpacer>
+	</products>
+</RecipeDef>
+  
+</Defs>
