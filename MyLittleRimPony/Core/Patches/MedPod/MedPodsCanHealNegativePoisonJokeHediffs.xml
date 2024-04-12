@@ -6,7 +6,6 @@
 		</mods>
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/alwaysTreatableHediffs</xpath>
-			<!--<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/nonCriticalTreatableHediffs</xpath>-->
 			<value>
 				<li>MLRP_PoisonJokeReducedConsciousness</li>
 				<li>MLRP_PoisonJokeSlowAndSluggish</li>

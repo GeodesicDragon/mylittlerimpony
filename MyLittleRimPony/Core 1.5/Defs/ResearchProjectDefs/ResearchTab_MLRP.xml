@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+﻿<Defs>
 	<ResearchTabDef>
 		<defName>MLRP_ResearchTab</defName>
 		<label>My Little RimPony</label>
+		<generalTitle>Pony-themed research projects</generalTitle>
+		<generalDescription>Unlock magical new technologies to improve your colony.</generalDescription>
 	</ResearchTabDef>
 </Defs>

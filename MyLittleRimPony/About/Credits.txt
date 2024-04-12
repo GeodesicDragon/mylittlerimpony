@@ -5,7 +5,7 @@ If you are one of the artists listed below and want me to stop using your work, 
 KEY
 
 * Source provided on Derpibooru was either missing or invalid.
-** I had to edit this image before I could use it.
+** I had to make some minor edits to this image before I could use it.
 *** This image is used by an item or building which is only seen if a particular mod is enabled.
 
 CREDITS
@@ -58,6 +58,8 @@ Villain Statue: prixy05 (2999547)
 
 Button Mash: luckreza8 (1004070)
 
+Thingpone: dvixie (2640948)** - Image flipped horizontally
+
 Equestrian Flag: grabusz (1589868)
 Rainbow Laser: Vector-Brony (2493108 - attributed to someone else; original link in description)
 Mudbriar: cheezedoodle96 (1709144)
@@ -74,6 +76,10 @@ Party Cannon: benpictures1 (2756837)
 Marble Pie: littlejurnalina (2824560)**
 Spitfire: fikrieka (2094942)***
 Miss Harshwhinny: brony-works (1416923)
+Herbal Cure Kit: the smiling pony (3064108)
+Fanfiction (closed): Unknown Artist (280765)
+Fanfiction (open): Unknown Artist (280756)
+Fanfiction (shelved): Me, making full use of my -20 art skill
 
 MAIN MENU BACKGROUNDS (Requires Vanilla Backgrounds Expanded)
 

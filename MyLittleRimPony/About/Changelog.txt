@@ -1,3 +1,24 @@
+Version 5.1.28 (April 12th 2024)
+
+* Core 1.5: Added MLP fanfiction.
+	* Horse words are now on the rim!
+	* Title and author are shown in the label.
+	* Anti bronies will read these books as well, mostly because I can't stop them, but they will not suffer any penalties for it.
+	* The description is the same for every book. I tried to have different descriptions based on the quality, but I couldn't figure out how to do it.
+	* There is a limited selection of titles right now; let me know of your favourite fanfics and I'll add them to the list! However, since I don't want to risk getting into any bother, I am only going to add fics that are rated either Everyone or Teen.
+	* Fanfiction can be stored in bookcases, but if you have any stored and forbid storing more, you'll be spammed with 'Pawn started 10 jobs in 1 tick' errors. I'm not sure why this happens, so I am currently unable to fix it.
+* Core 1.5: Poison joke is once again playing jokes on smokers. (1)
+* Core 1.5: Herbal cure kits now work as intended. (1)
+* Core 1.5: The recipes which used herbal cure kits have been removed from the Health tab. This may cause some one-time errors when loading a save.
+* Core 1.5/MedPod: Fixed red error spam.
+* Core: Herbal cure kits now have a 10% chance of curing the Cutie Pox when used.
+* Core: Changed the texture of the herbal cure kit.
+* Core: Herbal cure kits no longer make a sound when used.
+* Combat Extended: Big Macintosh now increases bulk capacity by 20 (was 15).
+* Vanilla Backstories Expanded: Updated LoadFolders.xml to load correct files based on game version.
+
+1. Thanks to Thekiborg from the official RimWorld Discord server for their help.
+
 Version 5.0.0 (March 15th 2024)
 
 NOTE 1: There may be issues with patches or features related to other mods; please report them ASAP if you encounter any!

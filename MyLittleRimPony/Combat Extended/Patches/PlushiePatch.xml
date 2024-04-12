@@ -15,7 +15,7 @@
 	<Operation Class="PatchOperationAdd">
 	    <xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets</xpath>
 	    <value>
-			<CarryBulk>15</CarryBulk>
+			<CarryBulk>20</CarryBulk>
 	    </value>
 	</Operation>
 	

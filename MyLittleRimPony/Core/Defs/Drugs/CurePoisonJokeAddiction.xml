@@ -30,7 +30,6 @@
 		<techLevel>Industrial</techLevel>
 		<ingestible>
 			<drugCategory>Medical</drugCategory>
-			<ingestSound>MechSerumUsed</ingestSound>
 			<outcomeDoers>
 				<li Class="MyLittleRimPony.PoisonJokeAddictionCure"/>
 			</outcomeDoers>

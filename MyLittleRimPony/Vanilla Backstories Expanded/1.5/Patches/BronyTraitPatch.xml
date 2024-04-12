@@ -1,0 +1,10 @@
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/degreeDatas/li/skillGains/Social</xpath>
+	<value>
+		<Social>2</Social>
+	</value>
+</Operation>
+
+</Patch>

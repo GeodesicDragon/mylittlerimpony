@@ -66,7 +66,26 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>MLRP_PoisonJokeJoint</defName>
     <label>poison joke joint</label>
-    <description>This variant of poison joke was spliced together by yet another MLP fan with too much time on their hands. It once played jokes on users by affecting them in either a positive or negative way, but these effects have recently - for reasons unknown - been rendered inert.</description>
+    <description>This variant of poison joke was spliced together by yet another MLP fan with too much time on their hands.\n\nWhen smoked, it will provide the imbiber with a random effect, which can be either positive or negative.\n\nReports from other colonies suggest that the effects can range from improved sight or speed to slowness, poor manipulation and even temporary blindness.</description>
+	<descriptionHyperlinks>
+		<HediffDef>MLRP_CutiePox</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedConsciousness</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedConsciousness</HediffDef>
+		<HediffDef>MLRP_PoisonJokeSuperSpeedy</HediffDef>
+		<HediffDef>MLRP_PoisonJokeSlowAndSluggish</HediffDef>
+		<HediffDef>MLRP_PoisonJokeGoodManipulation</HediffDef>
+		<HediffDef>MLRP_PoisonJokePoorManipulation</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedTalking</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedTalking</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedEating</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedEating</HediffDef>
+		<HediffDef>MLRP_PoisonJokeSightBeyondSight</HediffDef>
+		<HediffDef>MLRP_PoisonJokeBlindness</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedHearing</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedHearing</HediffDef>
+		<HediffDef>MLRP_PoisonJokeIncreasedBreathing</HediffDef>
+		<HediffDef>MLRP_PoisonJokeReducedBreathing</HediffDef>
+	</descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Item/Drug/PoisonJokeJoint</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -113,6 +132,7 @@
       <ingestReportStringEat>Consuming {0}.</ingestReportStringEat>
       <useEatingSpeedStat>false</useEatingSpeedStat>
       <outcomeDoers>
+		<li Class="MyLittleRimPony.PoisonJokeSmoked"/>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>MLRP_PoisonJokeHigh</hediffDef>
           <severity>0.5</severity>
@@ -265,7 +285,7 @@
       </li>
       <li>
         <label>poison joke withdrawal</label>
-        <description>I need the blue stuff, and I need it NOW.</description>
+        <description>I don't care what it does to me, I just need my fix!</description>
         <baseMoodEffect>-20</baseMoodEffect>
       </li>
     </stages>

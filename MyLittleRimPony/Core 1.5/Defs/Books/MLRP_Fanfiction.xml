@@ -1,0 +1,38 @@
+<Defs>
+
+<ThingDef ParentName="BookBase">
+	<defName>MLRP_Fanfiction</defName>
+	<label>MLP fanfiction</label>
+	<description>A book containing a fan-made story set in the My Little Pony universe.\n\nIt is thousands of years old; the fact it has somehow survived this long is nothing short of a miracle.</description>
+	<graphicData>
+		<texPath>Things/Item/Book/Fanfiction</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>0.8</drawSize>
+	</graphicData>
+	<uiIconPath>Things/Item/Book/Fanfiction</uiIconPath>
+	<statBases>
+		<MarketValue>160</MarketValue>
+	</statBases>
+	<comps>
+		<li Class="CompProperties_Book">
+			<nameMaker>Namer_MLP_Fanfiction</nameMaker>
+			<descriptionMaker>Description_MLP_Fanfiction</descriptionMaker>
+			<ageYearsRange>3476~3488</ageYearsRange> <!--2012-->
+			<openGraphic>
+				<texPath>Things/Item/Book/Fanfiction_Open</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>0.7</drawSize>
+			</openGraphic>
+			<verticalGraphic>
+				<texPath>Things/Item/Book/Fanfiction_Shelved</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<addTopAltitudeBias>true</addTopAltitudeBias>
+			</verticalGraphic>
+			<doers>
+				<li Class="BookOutcomeProperties_JoyFactorModifier" />
+			</doers>
+		</li>
+	</comps>
+</ThingDef>
+
+</Defs>

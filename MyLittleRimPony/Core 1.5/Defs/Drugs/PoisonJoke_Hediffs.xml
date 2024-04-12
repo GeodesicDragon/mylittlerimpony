@@ -1,8 +1,6 @@
 <Defs>
 
-<!--All of these hediffs are currently unavailable due to issues I am trying to fix.-->
-
-<!--CONSCIOUSNESS
+<!--CONSCIOUSNESS-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeIncreasedConsciousness</defName>
@@ -49,9 +47,9 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
-<!--MOVING
+<!--MOVING-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeSuperSpeedy</defName>
@@ -98,9 +96,9 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
-<!--MANIPULATION
+<!--MANIPULATION-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeGoodManipulation</defName>
@@ -147,9 +145,9 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
-<!--TALKING
+<!--TALKING-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeIncreasedTalking</defName>
@@ -196,9 +194,9 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
-<!--EATING
+<!--EATING-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeIncreasedEating</defName>
@@ -245,9 +243,9 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
-<!--SIGHT
+<!--SIGHT-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeSightBeyondSight</defName>
@@ -294,9 +292,9 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
-<!--HEARING
+<!--HEARING-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeIncreasedHearing</defName>
@@ -343,9 +341,9 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
-<!--BREATHING
+<!--BREATHING-->
 
 <HediffDef>
     <defName>MLRP_PoisonJokeIncreasedBreathing</defName>
@@ -392,6 +390,6 @@
 		</li>
 	</stages>
 	<isBad>true</isBad>
-</HediffDef>-->
+</HediffDef>
 
 </Defs>

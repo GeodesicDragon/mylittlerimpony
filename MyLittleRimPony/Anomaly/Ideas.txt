@@ -1,0 +1,16 @@
+* Nightmare Moon: Request deadlife dust. (1)
+* Nightmare Moon: Request items required for dark research. (1, 2)
+* Nightmare Moon: Request ghoul resurrection serum. (1, 3)
+* Thingpone plushie: Reduces sanity loss.
+
+1. This might have to be a very expensive recipe.
+2. Lock behind other dark research so that it won't be too easy.
+3. Lock behind regular research, requiring a hi-tech bench and a multi-analyser.
+
+Alternatively, make Thingpone a new building and put all of this stuff there, making it so that you need dark research items to request stuff.
+
+* Anomaly: Added Thingpone, the loveable eldritch horror who is ready and willing to grant you items in exchange for your hard-earned void research.
+* Anomaly: Added two new recipes, accessible only at the Thingpone statue.
+	* Request deadlife dust: <COST>
+	* Request ghoul resurrection serum: <COST>
+* Vanilla Achievements Expanded: Added achievement to build Thingpone.
