@@ -135,6 +135,10 @@
         <thingDef>MLRP_ScrewballGenerator</thingDef>
         <countRange>1~2</countRange>
       </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_Fanfiction</thingDef>
+        <countRange>1~5</countRange>
+      </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
@@ -293,6 +297,10 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
         <countRange>25~75</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MLRP_Fanfiction</thingDef>
+        <countRange>1~5</countRange>
       </li>
            
       <!-- Apparel -->

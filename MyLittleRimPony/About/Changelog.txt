@@ -1,3 +1,49 @@
+Version 5.15.39 (April 17th 2024)
+
+Changes marked as just 'Core' apply to both version 1.4 and 1.5 of the game.
+
+* Core: Added a recipe to the Nightmare Moon statue which allows you to request 50 herbal medicine in exchange for 250 units of raw (vegetarian) food. Handy if you've got a surplus of food, you keep getting raided, and your single farmer only has a Plants skill of 7. (I might be speaking from experience here.)
+* Anomaly: Added Thingpone, the loveable eldritch horror who is ready and willing to grant you items from the void in exchange for silver.
+	* Requires 250 stuff to build.
+	* Must be researched first; costs 25 knowledge, and is a basic project.
+	* Also requires 250W of power, but this will be halved after completing magical power efficiency research.
+	* With one exception, silver costs are 50% more than the market value of the requested item.
+* Anomaly: Added seven new recipes, accessible only from Thingpone.
+	* Request deadlife shell: 30 silver.
+		* Requires deadlife dust research.
+		* The price is based on the value of the bioferrite needed to make a single shell. Bioferrite has a market value defined in the game code as 0.75 silver, and you need 25 to make a single shell. 25 x 0.75 = 18.75 x 1.5 = 28.125, rounded up to 30.
+	* Request voidsight serum: 90 silver. Requires serum synthesis research.
+	* Request metalblood serum: 300 silver. Requires metalblood serum research.
+	* Request juggernaut serum: 300 silver. Requires juggernaut serum research.
+	* Request mind-numb serum: 120 silver. Requires mind-numb serum research.
+	* Request ghoul resurrection serum: 90 silver. Requires ghoul resurrection research.
+	* Request shard: 1000 silver and 250 twisted meat (this is the exception). Available from beginning.
+	* Prices may be changed if I receive any feedback on whether or not they are too low.
+* Anomaly: Added a recipe to the Fabric Exchange which allows you to purchase 100 dread leather for 370 silver.
+* Anomaly: Added two new recipes to the Daybreaker statue.
+	* Convert silver to bioferrite: Converts 1000 silver into 1333 bioferrite.
+	* Convert bioferrite to silver: Converts 1333 bioferrite into 1000 silver.
+	* Unlocking these recipes requires you to research bioferrite shaping first.
+	* These recipes require 250 chemfuel (or five times whatever you set your default amount to in XML Extensions).
+* Vanilla Achievements Expanded: Added achievement to build Thingpone.
+* XML Extensions: Added the ability to configure how much stuff is needed to build Thingpone.
+	* Minimum is 100.
+	* Maximum is 750.
+	* Default is 250.
+* Core 1.5: NPC faction settlements now sell fanfiction.
+* Core 1.5: NPC faction bulk goods traders now sell fanfiction.
+* Core: Fixed formatting error in letter sent when a pawn is rendered unable to speak after smoking poison joke.
+* Core: Fixed formatting error in letter sent when a pawn receives increased consciousness after smoking poison joke.
+* Core: Adjusted layout of research tab so that it looks less cluttered. Only applies if you aren't using a mod to change the look of the research window.
+* Ideology: Fixed Elements of Harmony not improving hacking speed.
+* Anomaly: The Twilight Sparkle plushie now increases entity study rate by 10% when equipped.
+* Anomaly: Pawns with the Cutie Pox now have 10% increased entity study rate.
+* Anomaly: The harmony chip now increases entity study rate by 10% when installed (requires Royalty DLC).
+* XML Extensions: Values that are divided by two are now rounded up instead of down in order to prevent some recipes requiring 0 of an item.
+* XML Extensions: The amount of cloth needed to make plushies is now set by a slider, with a minimum of 2 and a maximum of 500. Default is 300.
+
+The 'Pawn started 10 jobs in 1 tick error' you got when forbidding fanfiction from being stored in bookshelves appears to have been fixed by a game update.
+
 Version 5.1.28 (April 12th 2024)
 
 * Core 1.5: Added MLP fanfiction.

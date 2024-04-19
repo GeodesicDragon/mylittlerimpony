@@ -1,0 +1,67 @@
+<Defs>
+
+<!--CONVERT SILVER TO BIOFERRITE-->
+
+<RecipeDef ParentName="DaybreakerRecipes_QuintupleChemfuel">
+	<defName>MLRP_DB_ConvertSilverIntoBioferrite</defName>
+	<label>convert silver to bioferrite</label>
+	<description>Convert 1000 silver into the market value equivalent of bioferrite.</description>
+	<researchPrerequisite>BioferriteShaping</researchPrerequisite>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Bioferrite>1333</Bioferrite>
+	</products>
+</RecipeDef>
+
+<!--CONVERT BIOFERRITE TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_QuintupleChemfuel">
+	<defName>MLRP_DB_ConvertBioferriteIntoSilver</defName>
+	<label>convert bioferrite to silver</label>
+	<description>Convert 1333 bioferrite into 1000 silver.</description>
+	<researchPrerequisite>BioferriteShaping</researchPrerequisite>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Bioferrite</li>
+				</thingDefs>
+			</filter>
+			<count>1333</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+ 
+</Defs>

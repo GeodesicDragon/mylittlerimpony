@@ -1,0 +1,28 @@
+<Defs>
+
+  <!-- THINGPONE -->
+
+  <ResearchProjectDef>
+    <defName>MLRP_ThingponeResearch</defName>
+    <label>thingpone</label>
+    <description>Allows you to build</description>
+    <tab>MLRP_ResearchTab</tab>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <knowledgeCost>25</knowledgeCost>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->thingpone</li>
+
+        <li>subject_story->investigated a strange pony-like creature</li>
+
+        <li>subject_gerund->summoning Thingpone</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+</Defs>

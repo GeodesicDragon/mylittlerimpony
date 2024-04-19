@@ -1,0 +1,71 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_Thingpone</defName>
+    <label>Thingpone</label>
+    <description>At first glance, you'd be forgiven for thinking this was just a regular pony. However, the many eyes, the enormous maw and the tentacles quickly convince you otherwise.\n\nDespite her appearance, though, she seems quite willing to help you acquire items from beyond the void.</description>
+    <thingClass>Building_WorkTable</thingClass>
+	<designationHotKey>Misc8</designationHotKey>
+    <graphicData>
+      <texPath>Things/Building/Thingpone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+		<li>BuildingsProduction</li>
+    </thingCategories>
+	<costStuffCount>250</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>7200</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0</Flammability>
+	  <Mass>50</Mass>
+    </statBases>
+    <size>(2,2)</size>
+    <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>1</uiOrder>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+		<li>MLRP_ThingponeResearch</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>150</basePowerConsumption>
+        <powerUpgrades>
+          <li>
+            <researchProject>MLRP_MagicMirrorExtraPowerResearch</researchProject>
+            <factor>0.5</factor>
+          </li>
+        </powerUpgrades>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+  </ThingDef>
+  
+</Defs>

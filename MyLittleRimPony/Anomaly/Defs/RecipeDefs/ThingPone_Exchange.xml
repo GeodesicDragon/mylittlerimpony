@@ -1,0 +1,179 @@
+<Defs>
+
+<!--BASE-->
+
+<RecipeDef Name="MLRP_Thingpone_RecipeBase" Abstract="True">
+    <jobString>Exchanging materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Thingpone</li>
+	</recipeUsers>
+</RecipeDef>
+
+<!--PURCHASE DEADLIFE SHELL-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_Shell_Deadlife</defName>
+	<label>purchase deadlife shell</label>
+	<description>Use silver to purchase a deadlife shell.</description>
+	<researchPrerequisite>DeadlifeDust</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+	</ingredients>
+	<products>
+		<Shell_Deadlife>1</Shell_Deadlife>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE VOIDSIGHT SERUM-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_VoidsightSerum</defName>
+	<label>purchase voidsight serum</label>
+	<description>Use silver to purchase a voidsight serum.</description>
+	<researchPrerequisite>SerumSynthesis</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>9</count>
+		</li>
+	</ingredients>
+	<products>
+		<VoidsightSerum>1</VoidsightSerum>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE METALBLOOD SERUM-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_MetalbloodSerum</defName>
+	<label>purchase metalblood serum</label>
+	<description>Use silver to purchase a metalblood serum.</description>
+	<researchPrerequisite>MetalbloodSerum</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>30</count>
+		</li>
+	</ingredients>
+	<products>
+		<MetalbloodSerum>1</MetalbloodSerum>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE JUGGERNAUT SERUM-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_JuggernautSerum</defName>
+	<label>purchase juggernaut serum</label>
+	<description>Use silver to purchase a juggernaut serum.</description>
+	<researchPrerequisite>JuggernautSerum</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>30</count>
+		</li>
+	</ingredients>
+	<products>
+		<JuggernautSerum>1</JuggernautSerum>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE MIND-NUMB SERUM-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_MindNumbSerum</defName>
+	<label>purchase mind-numb serum</label>
+	<description>Use silver to purchase a mind-numb serum.</description>
+	<researchPrerequisite>MindNumbSerum</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>12</count>
+		</li>
+	</ingredients>
+	<products>
+		<MindNumbSerum>1</MindNumbSerum>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE GHOUL RESURRECTION SERUM-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_GhoulResurrectionSerum</defName>
+	<label>purchase ghoul resurrection serum</label>
+	<description>Use silver to purchase a ghoul resurrection serum.</description>
+	<researchPrerequisite>GhoulResurrection</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>9</count>
+		</li>
+	</ingredients>
+	<products>
+		<GhoulResurrectionSerum>1</GhoulResurrectionSerum>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE SHARD-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_Shard</defName>
+	<label>purchase shard</label>
+	<description>Use silver and twisted meat to purchase a shard.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>250</count>
+		</li>
+	</ingredients>
+	<products>
+		<Shard>1</Shard>
+	</products>	
+</RecipeDef>
+
+</Defs>

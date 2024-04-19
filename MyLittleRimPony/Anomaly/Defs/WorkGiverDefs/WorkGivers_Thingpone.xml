@@ -1,0 +1,19 @@
+<Defs>
+
+  <WorkGiverDef>
+    <defName>MLRP_DoStuffWithThingpone</defName>
+    <label>make purchase</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>BasicWorker</workType>
+    <priorityInType>300</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MLRP_Thingpone</li>
+    </fixedBillGiverDefs>
+    <verb>make purchase at</verb>
+    <gerund>making purchase at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+</Defs>

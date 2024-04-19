@@ -6,7 +6,7 @@ KEY
 
 * Source provided on Derpibooru was either missing or invalid.
 ** I had to make some minor edits to this image before I could use it.
-*** This image is used by an item or building which is only seen if a particular mod is enabled.
+*** This image is used by an item or building which is only seen if a particular mod or game version is enabled.
 
 CREDITS
 
@@ -77,9 +77,9 @@ Marble Pie: littlejurnalina (2824560)**
 Spitfire: fikrieka (2094942)***
 Miss Harshwhinny: brony-works (1416923)
 Herbal Cure Kit: the smiling pony (3064108)
-Fanfiction (closed): Unknown Artist (280765)
-Fanfiction (open): Unknown Artist (280756)
-Fanfiction (shelved): Me, making full use of my -20 art skill
+Fanfiction (closed): Unknown Artist (280765)*** - 1.5 only
+Fanfiction (open): Unknown Artist (280756)*** - 1.5 only
+Fanfiction (shelved): Me, making full use of my -20 art skill*** - 1.5 only
 
 MAIN MENU BACKGROUNDS (Requires Vanilla Backgrounds Expanded)
 

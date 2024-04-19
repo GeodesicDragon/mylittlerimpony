@@ -50,11 +50,18 @@
 					<operation>/</operation>
 					<storeIn>MLRP_ChildPlush_NewStuffValue</storeIn>
 					<apply>
-						<Operation Class="PatchOperationReplace">
-							<xpath>Defs/ThingDef[@Name="PonyPlushChildBase"]/costStuffCount</xpath>
-							<value>
-								<costStuffCount>{MLRP_ChildPlush_NewStuffValue}</costStuffCount>
-							</value>
+						<Operation Class="XmlExtensions.CreateVariable">
+							<value>{MLRP_ChildPlush_NewStuffValue}</value>
+							<operation>roundup</operation>
+							<storeIn>MLRP_DB_ChildPlushStuffValueRounded</storeIn>
+							<apply>
+								<Operation Class="PatchOperationReplace">
+									<xpath>Defs/ThingDef[@Name="PonyPlushChildBase"]/costStuffCount</xpath>
+									<value>
+										<costStuffCount>{MLRP_DB_ChildPlushStuffValueRounded}</costStuffCount>
+									</value>
+								</Operation>
+							</apply>
 						</Operation>
 					</apply>
 				</Operation>
@@ -1025,7 +1032,7 @@
 					<apply>
 						<Operation Class="XmlExtensions.CreateVariable">
 							<value>{MLRP_DB_HalfChemfuelValue}</value>
-							<operation>rounddown</operation>
+							<operation>roundup</operation>
 							<storeIn>MLRP_DB_HalfChemfuelValueRounded</storeIn>
 							<apply>
 								<Operation Class="PatchOperationReplace">
@@ -1035,6 +1042,28 @@
 									</value>
 								</Operation>
 							</apply>
+						</Operation>
+					</apply>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--DAYBREAKER STATUE: QUINTUPLE CHEMFUEL AMOUNT-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Anomaly">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DaybreakerChemfuel</key>
+			<apply>
+				<Operation Class="XmlExtensions.CreateVariable">
+					<value>{MLRP_DaybreakerChemfuel}</value>
+					<value2>5</value2>
+					<operation>*</operation>
+					<storeIn>MLRP_DB_QuintupleChemfuelValue</storeIn>
+					<apply>
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/RecipeDef[@Name="DaybreakerRecipes_QuintupleChemfuel"]/ingredients/li/count</xpath>
+							<value>
+								<count>{MLRP_DB_QuintupleChemfuelValue}</count>
+							</value>
 						</Operation>
 					</apply>
 				</Operation>
@@ -1321,9 +1350,9 @@
 		
 		<!--RIM WAR SETTINGS-->
 		<li Class="XmlExtensions.UseSetting" MayRequire="Torann.RimWar">
-			<modId>geodesicdragon.rimpony</modId> <!--String that XML Extensions can identify your mod with-->
-			<key>MLRP_NPCFactionRimWarBehaviour</key> <!--Key to identify the setting (only used internally, invisible to user)-->
-			<defaultValue>Cautious</defaultValue> <!--What you want the default value of the setting to be-->
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_NPCFactionRimWarBehaviour</key>
+			<defaultValue>Cautious</defaultValue>
 			<apply>
 				<Operation Class="PatchOperationReplace">
 					<xpath>/Defs/RimWar.RimWarDef[defName="RimWar_MLRP_FactionBehavior"]/defDatas/li[2]/behavior</xpath>
@@ -1364,6 +1393,21 @@
 				</Operation>
 			</caseFalse>
 		</li>
+		
+		<!--ANOMALY: STUFF REQUIRED TO BUILD THINGPONE-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Anomaly">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_ThingponeStuffRequired</key>
+			<defaultValue>250</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_Thingpone"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>{MLRP_ThingponeStuffRequired}</costStuffCount>
+					</value>
+				</Operation>
+			</apply>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -1395,10 +1439,13 @@
 					</rightCol>
 				</li>
 				
-				<li Class="XmlExtensions.Setting.Textbox">
+				<li Class="XmlExtensions.Setting.Slider">
 					<key>MLRP_PlushiesCloth</key>
-					<label>Amount Of Stuff Needed: </label>
 					<defaultValue>300</defaultValue>
+					<min>2</min>
+					<max>500</max>
+					<label>Amount Of Stuff Needed: {MLRP_PlushiesCloth}</label>
+					<decimals>0</decimals>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
@@ -1830,6 +1877,23 @@
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
 					<key>MLRP_SweetieBotMechanoidsAreQuiet</key>
 					<label>Mute Sweetie Bot mechanoid call sound</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Anomaly"/>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Anomaly">
+					<text>Anomaly DLC Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider" MayRequire="Ludeon.RimWorld.Anomaly">
+					<key>MLRP_ThingponeStuffRequired</key>
+					<defaultValue>250</defaultValue>
+					<min>100</min>
+					<max>750</max>
+					<label>Building Thingpone requires {MLRP_ThingponeStuffRequired} stuff.</label>
+					<decimals>0</decimals>
 				</li>
 							
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="sumghai.medpod"/>

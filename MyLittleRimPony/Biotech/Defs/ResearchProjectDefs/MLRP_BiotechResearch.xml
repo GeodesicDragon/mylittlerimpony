@@ -9,8 +9,8 @@
 			<li>MLRP_WeaponisedElementsResearch</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>3</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

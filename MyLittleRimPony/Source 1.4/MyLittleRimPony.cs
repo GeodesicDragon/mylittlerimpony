@@ -258,7 +258,7 @@ namespace MyLittleRimPony
             {
                 case 1:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeIncreasedConsciousness);
-                    affliction = "MLRP_PoisonJokeGoodConsciousness".Translate();
+                    affliction = "MLRP_PoisonJokeGoodConsciousness".Translate(pawn);
                     break;
                 case 2:
                     pawn.health.AddHediff(MyDefOf.MLRP_PoisonJokeReducedConsciousness);

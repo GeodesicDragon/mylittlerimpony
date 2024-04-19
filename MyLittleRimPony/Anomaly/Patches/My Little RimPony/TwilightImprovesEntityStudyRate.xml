@@ -3,14 +3,14 @@
 <Operation Class="PatchOperationAdd">
 	<xpath>/Defs/ThingDef[defName="PonyPlush_TwilightSparkle"]/equippedStatOffsets</xpath>
 	<value>
-		<HackingSpeed>0.25</HackingSpeed>
+		<EntityStudyRate>0.1</EntityStudyRate>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
 	<xpath>/Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/equippedStatOffsets</xpath>
 	<value>
-		<HackingSpeed>0.25</HackingSpeed>
+		<EntityStudyRate>0.1</EntityStudyRate>
 	</value>
 </Operation>
 

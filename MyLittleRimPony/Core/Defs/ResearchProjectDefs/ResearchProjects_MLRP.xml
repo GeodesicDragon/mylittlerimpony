@@ -26,7 +26,7 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
-<!--CURE POISON JOKE ADDICTION-->
+<!--HERBAL CURE KIT-->
 	
 	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
 		<defName>MLRP_CurePoisonJokeAddictionResearch</defName>
@@ -88,7 +88,7 @@
 		<label>Magic mirror</label>
 		<description>Unlock the secrets of the magic mirror which connects Equestria to a whole other world.</description>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>7</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
@@ -103,7 +103,7 @@
 			<li>MLRP_ScrewballResearch</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>8</researchViewX>
+		<researchViewX>7</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>Magical power efficiency</discoveredLetterTitle>
 		<discoveredLetterText>These buildings now generate more power:\n\n- Screwball: +50%\n- Magic mirror: +25%\n\nThese buildings now use less power:\n\n- Plushie bench: -50%\n- Fabric Exchange: -50%\n- Stone Exchange: -50%\n- Sweetie Bot turret: -25%\n- Nurse Redheart: -25%\n- Super Speedy Cider Squeezy 6000: -25%</discoveredLetterText>

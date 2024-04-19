@@ -1,6 +1,6 @@
 <Manifest>
 	<identifier>My Little RimPony</identifier>
-	<version>5.1.28</version>
+	<version>5.15.39</version>
 	<showCrossPromotions>true</showCrossPromotions>
 	<manifestUri>https://raw.githubusercontent.com/GeodesicDragon/mylittlerimpony/main/MyLittleRimPony/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/geodesicdragon/mylittlerimpony/releases/latest</downloadUri>

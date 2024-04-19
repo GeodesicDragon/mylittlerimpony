@@ -1,0 +1,22 @@
+<Defs>
+
+	<RecipeDef ParentName="MLRP_FE_RecipeBase">
+		<defName>MLRP_FE_Leather_Dread</defName>
+		<label>purchase dread leather</label>
+		<description>Use silver to purchase 100 dread leather.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>37</count>
+			</li>
+		</ingredients>
+		<products>
+			<Leather_Dread>100</Leather_Dread>
+		</products>	
+	</RecipeDef>
+
+</Defs>

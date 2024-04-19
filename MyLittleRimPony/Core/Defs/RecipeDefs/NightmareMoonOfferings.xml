@@ -434,5 +434,40 @@
 		<Neutroamine>100</Neutroamine>
 	</products>
 </RecipeDef>
-  
+
+<!--REQUEST HERBAL MEDICINE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MedicineHerbal</defName>
+	<label>request 50 herbal medicine</label>
+	<description>Offer your surplus food in exchange for herbal medicine.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+			  <customSummary>pony-friendly foodstuffs</customSummary>
+			  <categories>
+				<li>PlantFoodRaw</li>
+			  </categories>
+			</filter>
+			<count>250</count>
+		</li>
+	</ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+	<products>
+		<MedicineHerbal>50</MedicineHerbal>
+	</products>
+</RecipeDef>
+
 </Defs>
