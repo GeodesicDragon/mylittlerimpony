@@ -9,27 +9,27 @@
 	<MLRP_AntiBronyHasPlushieAlert>Anti brony utilisant la peluche</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
 	<MLRP_AntiBronyHasPlushieExplanation>Un pion avec le trait anti brony a une peluche de poney équipée, ce qui causera une pénalité d'humeur jusqu'à ce qu'elle soit abandonnée. Il pourrait être intéressant d'attribuer aux anti-bronys une tenue distincte afin d'éviter cela.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Affliction de la blague du poison</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
-	<MLRP_PoisonJokeLetterText>Fumer une blague du poison a donné à {0} ce qui suit : {1}</MLRP_PoisonJokeLetterText> <!--Text of letter received after a pawn smokes poison joke. {0} is the pawn's name and {1} is what they were afflicted with; translations for afflictions are below.-->
+	<MLRP_PoisonJokeLetterText>Fumer une blague du poison a donné à {0} ce qui suit: {1}</MLRP_PoisonJokeLetterText> <!--Text of letter received after a pawn smokes poison joke. {0} is the pawn's name and {1} is what they were afflicted with; translations for afflictions are below.-->
 	
 	<!--POISON JOKE AFFLICTIONS: MUST BE LOWER CASE UNLESS OTHERWISE SPECIFIED-->
 	
-	<MLRP_PoisonJokeGoodConsciousness>accrue de l'état de conscience</MLRP_PoisonJokeGoodConsciousness>
-	<MLRP_PoisonJokeBadConsciousness>diminution de l'état de conscience</MLRP_PoisonJokeBadConsciousness>
-	<MLRP_PoisonJokeGoodSpeed>vitesse de déplacement accrue</MLRP_PoisonJokeGoodSpeed>
-	<MLRP_PoisonJokeBadSpeed>vitesse de déplacement réduite</MLRP_PoisonJokeBadSpeed>
-	<MLRP_PoisonJokeGoodManipulation>une meilleure manipulation</MLRP_PoisonJokeGoodManipulation>
-	<MLRP_PoisonJokeBadManipulation>réduction de la manipulation</MLRP_PoisonJokeBadManipulation>
-	<MLRP_PoisonJokeGoodTalking>amélioration de la capacité d'expression orale</MLRP_PoisonJokeGoodTalking>
-	<MLRP_PoisonJokeBadTalking>incapacité à parler</MLRP_PoisonJokeBadTalking>
-	<MLRP_PoisonJokeGoodEating>Amélioration de la vitesse de consommation</MLRP_PoisonJokeGoodEating>
-	<MLRP_PoisonJokeBadEating>réduction de la vitesse d'ingestion des aliments</MLRP_PoisonJokeBadEating>
-	<MLRP_PoisonJokeGoodSight>amélioration de la vue</MLRP_PoisonJokeGoodSight>
-	<MLRP_PoisonJokeBadSight>cécité</MLRP_PoisonJokeBadSight>
-	<MLRP_PoisonJokeGoodHearing>amélioration de l'audition</MLRP_PoisonJokeGoodHearing>
-	<MLRP_PoisonJokeBadHearing>surdité</MLRP_PoisonJokeBadHearing>
-	<MLRP_PoisonJokeGoodBreathing>amélioration de la capacité respiratoire</MLRP_PoisonJokeGoodBreathing>
-	<MLRP_PoisonJokeBadBreathing>une diminution de la capacité respiratoire</MLRP_PoisonJokeBadBreathing>
-	<MLRP_PoisonJokeCutiePox>la Cutie Pox</MLRP_PoisonJokeCutiePox>
+	<MLRP_PoisonJokeGoodConsciousness>Fumer une blague du poison a donné à {0} ce qui suit: accrue de l'état de conscience</MLRP_PoisonJokeGoodConsciousness>
+	<MLRP_PoisonJokeBadConsciousness>Fumer une blague du poison a donné à {0} ce qui suit: diminution de l'état de conscience</MLRP_PoisonJokeBadConsciousness>
+	<MLRP_PoisonJokeGoodSpeed>Fumer une blague du poison a donné à {0} ce qui suit: vitesse de déplacement accrue</MLRP_PoisonJokeGoodSpeed>
+	<MLRP_PoisonJokeBadSpeed>Fumer une blague du poison a donné à {0} ce qui suit: vitesse de déplacement réduite</MLRP_PoisonJokeBadSpeed>
+	<MLRP_PoisonJokeGoodManipulation>Fumer une blague du poison a donné à {0} ce qui suit: une meilleure manipulation</MLRP_PoisonJokeGoodManipulation>
+	<MLRP_PoisonJokeBadManipulation>Fumer une blague du poison a donné à {0} ce qui suit: réduction de la manipulation</MLRP_PoisonJokeBadManipulation>
+	<MLRP_PoisonJokeGoodTalking>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de la capacité d'expression orale</MLRP_PoisonJokeGoodTalking>
+	<MLRP_PoisonJokeBadTalking>Fumer une blague du poison a donné à {0} ce qui suit: incapacité à parler</MLRP_PoisonJokeBadTalking>
+	<MLRP_PoisonJokeGoodEating>Fumer une blague du poison a donné à {0} ce qui suit: Amélioration de la vitesse de consommation</MLRP_PoisonJokeGoodEating>
+	<MLRP_PoisonJokeBadEating>Fumer une blague du poison a donné à {0} ce qui suit: réduction de la vitesse d'ingestion des aliments</MLRP_PoisonJokeBadEating>
+	<MLRP_PoisonJokeGoodSight>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de la vue</MLRP_PoisonJokeGoodSight>
+	<MLRP_PoisonJokeBadSight>Fumer une blague du poison a donné à {0} ce qui suit: cécité</MLRP_PoisonJokeBadSight>
+	<MLRP_PoisonJokeGoodHearing>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de l'audition</MLRP_PoisonJokeGoodHearing>
+	<MLRP_PoisonJokeBadHearing>Fumer une blague du poison a donné à {0} ce qui suit: surdité</MLRP_PoisonJokeBadHearing>
+	<MLRP_PoisonJokeGoodBreathing>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de la capacité respiratoire</MLRP_PoisonJokeGoodBreathing>
+	<MLRP_PoisonJokeBadBreathing>Fumer une blague du poison a donné à {0} ce qui suit: une diminution de la capacité respiratoire</MLRP_PoisonJokeBadBreathing>
+	<MLRP_PoisonJokeCutiePox>Fumer une blague du poison a donné à {0} ce qui suit: la Cutie Pox</MLRP_PoisonJokeCutiePox>
 	
 	<!--C# ROYALTY-->
 	

@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="Fleshbeasts"]/discoveredResearchProjects</xpath>
+		<value>
+			<li>MLRP_ThingponeResearch</li>
+		</value>
+	</Operation>
+
+</Patch>

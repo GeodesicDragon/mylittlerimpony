@@ -7,7 +7,7 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/conflictingTraits</xpath>
 			<value>
-				<li>Xenophobia</li><!--Not sure if you can disallow one part of a spectrum trait and allow another-->
+				<li>HAR_Xenophobia</li><!--Not sure if you can disallow one part of a spectrum trait and allow another-->
 			</value>
 		</match>
 </Operation>

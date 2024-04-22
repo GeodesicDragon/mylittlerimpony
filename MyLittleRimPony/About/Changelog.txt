@@ -1,4 +1,20 @@
-Version 5.15.39 (April 17th 2024)
+Version 5.17.45 (April 22nd 2024)
+
+* Core 1.5: Good news, Harmony users, the research tracker is back! And this time, it won't eat up all your TPS!
+	* Makes use of a Harmony patch to monitor your completed research and send a letter informing you of new recipes when certain projects are completed.
+	* Harmony is not required to use MLRP now; thanks to LoadFolders.xml, the tracker DLL is only loaded if Harmony is active.
+	* Many thanks to SoundOfSpouting and order_without_power from the Harmony Discord server for their assistance.
+* Core 1.5/Ponies of the Rim: Added a recipe to the Fabric Exchange which allows you to convert 100 pony fur into cloth.
+* Core: The brony trait no longer renders pawns incapable of violence.
+	* This means you don't need to use XML Extensions to make them capable of fighting.
+	* XML Extensions users will now have an unused setting - MLRP_BroniesCanBeViolent - that can be safely removed.
+* Anomaly: Fixed incomplete description on Thingpone research.
+* Anomaly: Fixed being unable to research Thingpone. The ability to do so is now unlocked after you first encounter fleshbeasts.
+* Core 1.5/Humanoid Alien Races: Fixed 'Could not resolve cross-reference to RimWorld.TraitDef named Xenophobia (wanter=conflictingTraits)' error.
+* Core 1.5/Ponies of the Rim: Ponies added by this mod should no longer spawn with the brony trait.
+* Core 1.5/Ponies of the Rim: Ponies added by this mod should no longer spawn with the anti brony trait.
+
+Version 5.15.39 (April 19th 2024)
 
 Changes marked as just 'Core' apply to both version 1.4 and 1.5 of the game.
 

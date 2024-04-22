@@ -56,12 +56,6 @@ public class MLRP_ResearchTracker : GameComponent
         "AdvancedFabrication" // Vanilla Factions Expanded - Vikings
     };
 
-	// Track research on Sweetie Bot mechanoids to send a brief letter about them when it's finished
-    private List<string> otherResearchToTrack = new List<string>
-    {
-        "MLRP_SweetieBotMechResearch"
-    };
-
     public MLRP_ResearchTracker(Game game) { }
 
     public override void ExposeData()

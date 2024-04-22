@@ -89,19 +89,19 @@
 				<project>MLRP_ScrewballResearch</project>
 			</li>		
 			
-			<!-- Player starting weapons (Requires XML Extensions)-->
+			<!-- Player starting weapons-->
 			
-			<li Name="MLRP_BiotechScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined" MayRequire="imranfish.xmlextensions">
-				<!--<def>StartingThing_Defined</def>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
 				<thingDef>Gun_Autopistol</thingDef>
-				<count>3</count>-->
+				<count>3</count>
 			</li>
 			
-			<li Name="MLRP_BiotechScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined" MayRequire="imranfish.xmlextensions">
-				<!--<def>StartingThing_Defined</def>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
 				<thingDef>MeleeWeapon_Knife</thingDef>
 				<count>2</count>
-				<stuff>Plasteel</stuff>-->
+				<stuff>Plasteel</stuff>
 			</li>
 			
 			<!-- Player starting things-->	

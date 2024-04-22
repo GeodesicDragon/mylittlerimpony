@@ -3,18 +3,16 @@
 <TraitDef>
 	<defName>MLRP_BronyTrait</defName>
 	<commonality>0.1</commonality>
-	<disabledWorkTags>Violent</disabledWorkTags>
 	<degreeDatas>
 		<li>
 			<label>brony</label>
-			<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, but {PAWN_pronoun} is against the idea of using violence.\n\n{PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.</description>
+			<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, {PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.</description>
 			<skillGains>
 				<li>
 					<key>Social</key>
 					<value>6</value>
 				</li>
 			</skillGains>
-			<marketValueFactorOffset>-0.5</marketValueFactorOffset>
 		</li>
 	</degreeDatas>
 	<conflictingTraits>

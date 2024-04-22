@@ -1,0 +1,33 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Ponies of the Rim</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<RecipeDef ParentName="MLRP_FE_RecipeBase">
+				<defName>MLRP_POTR_FE_PonyFur</defName>
+				<label>exchange pony fur</label>
+				<jobString>Exchanging materials</jobString>
+				<description>Convert 100 pony fur into the market value equivalent of cloth.</description>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>PonyFur</li>
+							</thingDefs>
+						</filter>
+						<count>100</count>
+					</li>
+				</ingredients>
+				<products>
+					<Cloth>300</Cloth>
+				</products>	
+			</RecipeDef>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

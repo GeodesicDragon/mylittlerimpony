@@ -13,23 +13,23 @@
 
 	<!--POISON JOKE AFFLICTIONS: MUSS KLEINSCHREIBEN WERDEN, WENN NICHT ANDERS ANGEGEBEN-->
 
-	<MLRP_PoisonJokeGoodConsciousness>erhöhtes Bewusstsein</MLRP_PoisonJokeGoodConsciousness>
-	<MLRP_PoisonJokeBadConsciousness>reduziertes Bewusstsein</MLRP_PoisonJokeBadConsciousness>
-	<MLRP_PoisonJokeGoodSpeed>Bewegungsgeschwindigkeit erhöht</MLRP_PoisonJokeGoodSpeed>
-	<MLRP_PoisonJokeBadSpeed>Bewegungsgeschwindigkeit verringert</MLRP_PoisonJokeBadSpeed>
-	<MLRP_PoisonJokeGoodManipulation>verbesserte Manipulation</MLRP_PoisonJokeGoodManipulation>
-	<MLRP_PoisonJokeBadManipulation>reduzierte Manipulation</MLRP_PoisonJokeBadManipulation>
-	<MLRP_PoisonJokeGoodTalking>verbesserte Sprechfähigkeit</MLRP_PoisonJokeGoodTalking>
-	<MLRP_PoisonJokeBadTalking>Unfähigkeit zu sprechen</MLRP_PoisonJokeBadTalking>
-	<MLRP_PoisonJokeGoodEating>verbesserte Essgeschwindigkeit</MLRP_PoisonJokeGoodEating>
-	<MLRP_PoisonJokeBadEating>Essgeschwindigkeit verringert</MLRP_PoisonJokeBadEating>
-	<MLRP_PoisonJokeGoodSight>verbesserte Sehkraft</MLRP_PoisonJokeGoodSight>
-	<MLRP_PoisonJokeBadSight>Blindheit</MLRP_PoisonJokeBadSight>
-	<MLRP_PoisonJokeGoodHearing>verbessertes Hören</MLRP_PoisonJokeGoodHearing>
-	<MLRP_PoisonJokeBadHearing>Taubheit</MLRP_PoisonJokeBadHearing>
-	<MLRP_PoisonJokeGoodBreathing>verbesserte Atmungsfähigkeit</MLRP_PoisonJokeGoodBreathing>
-	<MLRP_PoisonJokeBadBreathing>reduzierte Atmungsfähigkeit</MLRP_PoisonJokeBadBreathing>
-	<MLRP_PoisonJokeCutiePox>die Cutie Pox</MLRP_PoisonJokeCutiePox>
+	<MLRP_PoisonJokeGoodConsciousness>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: erhöhtes Bewusstsein</MLRP_PoisonJokeGoodConsciousness>
+	<MLRP_PoisonJokeBadConsciousness>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: reduziertes Bewusstsein</MLRP_PoisonJokeBadConsciousness>
+	<MLRP_PoisonJokeGoodSpeed>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: Bewegungsgeschwindigkeit erhöht</MLRP_PoisonJokeGoodSpeed>
+	<MLRP_PoisonJokeBadSpeed>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: Bewegungsgeschwindigkeit verringert</MLRP_PoisonJokeBadSpeed>
+	<MLRP_PoisonJokeGoodManipulation>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: verbesserte Manipulation</MLRP_PoisonJokeGoodManipulation>
+	<MLRP_PoisonJokeBadManipulation>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: reduzierte Manipulation</MLRP_PoisonJokeBadManipulation>
+	<MLRP_PoisonJokeGoodTalking>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: verbesserte Sprechfähigkeit</MLRP_PoisonJokeGoodTalking>
+	<MLRP_PoisonJokeBadTalking>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: Unfähigkeit zu sprechen</MLRP_PoisonJokeBadTalking>
+	<MLRP_PoisonJokeGoodEating>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: verbesserte Essgeschwindigkeit</MLRP_PoisonJokeGoodEating>
+	<MLRP_PoisonJokeBadEating>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: Essgeschwindigkeit verringert</MLRP_PoisonJokeBadEating>
+	<MLRP_PoisonJokeGoodSight>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: verbesserte Sehkraft</MLRP_PoisonJokeGoodSight>
+	<MLRP_PoisonJokeBadSight>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: Blindheit</MLRP_PoisonJokeBadSight>
+	<MLRP_PoisonJokeGoodHearing>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: verbessertes Hören</MLRP_PoisonJokeGoodHearing>
+	<MLRP_PoisonJokeBadHearing>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: Taubheit</MLRP_PoisonJokeBadHearing>
+	<MLRP_PoisonJokeGoodBreathing>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: verbesserte Atmungsfähigkeit</MLRP_PoisonJokeGoodBreathing>
+	<MLRP_PoisonJokeBadBreathing>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: reduzierte Atmungsfähigkeit</MLRP_PoisonJokeBadBreathing>
+	<MLRP_PoisonJokeCutiePox>Das Rauchen eines Giftwitzes hat {0} Folgendes gegeben: die Cutie Pox</MLRP_PoisonJokeCutiePox>
 
 	<!--C# ROYALTY-->
 

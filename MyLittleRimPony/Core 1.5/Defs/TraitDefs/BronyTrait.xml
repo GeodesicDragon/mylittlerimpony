@@ -3,15 +3,13 @@
 <TraitDef>
 	<defName>MLRP_BronyTrait</defName>
 	<commonality>0.1</commonality>
-	<disabledWorkTags>Violent</disabledWorkTags>
 	<degreeDatas>
 		<li>
 			<label>brony</label>
-			<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, but {PAWN_pronoun} is against the idea of using violence.\n\n{PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.</description>
+			<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, {PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.</description>
 			<skillGains>
 				<Social>6</Social>
 			</skillGains>
-			<marketValueFactorOffset>-0.5</marketValueFactorOffset>
 			<possessions>
 				<MLRP_ElementsOfHarmony>-3~1</MLRP_ElementsOfHarmony>
 				<MLRP_ElementsOfHarmonyWeaponised>-98~1</MLRP_ElementsOfHarmonyWeaponised> <!--Does this equal a 1% chance, or am I overthinking it?-->

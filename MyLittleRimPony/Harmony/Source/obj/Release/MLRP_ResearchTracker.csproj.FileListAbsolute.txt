@@ -1,0 +1,6 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Harmony\Source\bin\Release\MLRP_ResearchTracker.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Harmony\Source\bin\Release\MLRP_ResearchTracker.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Harmony\Source\obj\Release\MLRP_ResearchTracker.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Harmony\Source\obj\Release\MLRP_ResearchTracker.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Harmony\Source\obj\Release\MLRP_ResearchTracker.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Harmony\Assemblies\MLRP_ResearchTracker.dll

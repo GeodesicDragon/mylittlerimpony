@@ -70,6 +70,10 @@ namespace MyLittleRimPony
             {
                 Log.Message("MLRP_MOPatchesDetected".Translate());
             }
+            if (ModsConfig.IsActive("brrainz.harmony"))
+            {
+                Log.Message("MLRP_HarmonyDetected".Translate());
+            }
         }
     }
 

@@ -43,19 +43,20 @@
 				<trait>MLRP_BronyTrait</trait>
 			</li>
 
-			<!-- Player starting weapons (Requires XML Extensions)-->
+			<!-- Player starting weapons-->
 			
-			<li Name="MLRP_CoreScenario_RangedWeapons" Class="ScenPart_StartingThing_Defined" MayRequire="imranfish.xmlextensions">
-				<!--<def>StartingThing_Defined</def>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
 				<thingDef>Gun_Autopistol</thingDef>
-				<count>2</count>-->
+				<count>2</count>
 			</li>
 			
-			<li Name="MLRP_CoreScenario_MeleeWeapons" Class="ScenPart_StartingThing_Defined" MayRequire="imranfish.xmlextensions">
-				<!--<def>StartingThing_Defined</def>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
 				<thingDef>MeleeWeapon_Knife</thingDef>
 				<count>1</count>
-				<stuff>Plasteel</stuff>-->
+				<stuff>Plasteel</stuff>
 			</li>
 			
 			<!-- Player starting things-->
@@ -157,7 +158,7 @@
 			
 			<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>You're finally done wandering the planet, and it is time for you to build a new home where you can live in peace.\n\nIt's not going to be easy - the fact that you're all pacifists will make you tempting targets for those with the presence of mind to consider you a viable threat - but you have belief in yourselves that you can make this work.</text>
+				<text>You're finally done wandering the planet, and it is time for you to build a new home where you can live in peace.\n\nIt's not going to be easy - the fact that you've got all this stuff will make you tempting targets for those with the presence of mind to consider you a viable threat - but you have belief in yourselves that you can make this work.</text>
 			</li>
 		</parts>
 	</scenario>

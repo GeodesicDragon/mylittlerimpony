@@ -5,7 +5,7 @@
   <ResearchProjectDef>
     <defName>MLRP_ThingponeResearch</defName>
     <label>thingpone</label>
-    <description>Allows you to build</description>
+    <description>Allows you to build a statue of Thingpone, where you can request items from beyond the void.</description>
     <tab>MLRP_ResearchTab</tab>
     <prerequisites>
       <li>Electricity</li>
