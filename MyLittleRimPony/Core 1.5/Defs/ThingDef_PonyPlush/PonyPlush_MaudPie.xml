@@ -10,6 +10,7 @@
 		<equippedStatOffsets>
 			<MiningSpeed>0.25</MiningSpeed>
 			<MiningYield>0.25</MiningYield>
+			<DeepDrillingSpeed>0.25</DeepDrillingSpeed>
 		</equippedStatOffsets>
 	</ThingDef>
 </Defs>

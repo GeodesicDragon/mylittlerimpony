@@ -6,22 +6,6 @@ using Verse;
 namespace MLRP_Biotech
 {
 
-    [DefOf]
-    public static class MLRP_BiotechDefOf
-    {
-        public static XenotypeDef MLRP_Xeno_Alicorn;
-        public static XenotypeDef MLRP_Xeno_EarthPony;
-        public static XenotypeDef MLRP_Xeno_Unicorn;
-        public static XenotypeDef MLRP_Xeno_Pegasus;
-        public static XenotypeDef MLRP_Xeno_Changeling;
-        public static XenotypeDef MLRP_Xeno_DiamondDog;
-
-        static MLRP_BiotechDefOf()
-        {
-            DefOfHelper.EnsureInitializedInCtor(typeof(MLRP_BiotechDefOf));
-        }
-    }
-
     // BRONIES LOVE MLP XENOTYPES
 
     public class ThoughtWorker_BronyLovesMLPXenotype : ThoughtWorker
@@ -32,11 +16,11 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (!p.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait))
+            if (!p.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamed("MLRP_BronyTrait")))
             {
                 return false;
             }
-            if (p.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            if (p.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamed("MLRP_BronyTrait")) && p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") || p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") || p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") || p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus") || p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"))
             {
                 return false;
             }
@@ -44,7 +28,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            if (otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"))
             {
                 return false;
             }
@@ -61,7 +45,7 @@ namespace MLRP_Biotech
                 return 0f;
             }
 
-            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus"))
             {
                 return 10f;
             }
@@ -79,7 +63,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (!p.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait))
+            if (!p.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamed("MLRP_AntiBronyTrait")))
             {
                 return false;
             }
@@ -87,7 +71,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            if (otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"))
             {
                 return false;
             }
@@ -104,7 +88,7 @@ namespace MLRP_Biotech
                 return 0f;
             }
 
-            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            if (otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"))
             {
                 return -20f;
             }
@@ -122,7 +106,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") && p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") && p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") && p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus"))
             {
                 return false;
             }
@@ -130,7 +114,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus"))
             {
                 return false;
             }
@@ -147,7 +131,7 @@ namespace MLRP_Biotech
                 return 0f;
             }
 
-            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus"))
             {
                 return 5f;
             }
@@ -161,7 +145,7 @@ namespace MLRP_Biotech
     public class ThoughtWorker_AntiBronyIsPonyXenotype : ThoughtWorker
     {
 
-        protected override ThoughtState CurrentStateInternal(Pawn p) => (ThoughtState)(p.story.traits.HasTrait(MyDefOf.MLRP_AntiBronyTrait) && p.story.traits.HasTrait(MyDefOf.MLRP_BronyTrait) && p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus || p.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling);
+        protected override ThoughtState CurrentStateInternal(Pawn p) => (ThoughtState)(p.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamed("MLRP_AntiBronyTrait")) && p.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamed("MLRP_BronyTrait")) && p.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") || p.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") || p.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") || p.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus") || p.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"));
 
     }
 
@@ -175,7 +159,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            if (p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"))
             {
                 return false;
             }
@@ -183,7 +167,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") && otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus"))
             {
                 return false;
             }
@@ -200,7 +184,7 @@ namespace MLRP_Biotech
                 return 0f;
             }
 
-            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Alicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_EarthPony || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Unicorn || otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") || otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus"))
             {
                 return 5f;
             }
@@ -218,7 +202,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Alicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_EarthPony && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Unicorn && p.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Pegasus)
+            if (p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Alicorn") && p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_EarthPony") && p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Unicorn") && p.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Pegasus"))
 
             {
                 return false;
@@ -227,7 +211,7 @@ namespace MLRP_Biotech
             {
                 return false;
             }
-            if (otherPawn.genes.Xenotype != MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            if (otherPawn.genes.Xenotype != DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"))
             {
                 return false;
             }
@@ -244,7 +228,7 @@ namespace MLRP_Biotech
                 return 0f;
             }
 
-            if (otherPawn.genes.Xenotype == MLRP_BiotechDefOf.MLRP_Xeno_Changeling)
+            if (otherPawn.genes.Xenotype == DefDatabase<XenotypeDef>.GetNamed("MLRP_Xeno_Changeling"))
             {
                 return 5f;
             }

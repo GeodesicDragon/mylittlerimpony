@@ -1,29 +1,29 @@
 <Defs>
-	<ThingDef ParentName="PonyPlush_Social">
+	<ThingDef ParentName="PonyPlushChildBase">
 		<thingClass>Apparel</thingClass>
-		<defName>PonyPlush_IzzyMoonbow</defName>
-		<label>Izzy Moonbow</label>
-		<description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.\n\n(When equipped, she will apply a hediff to the pawn that will improve their mood by 5, and boost their opinion of other pawns by 50%.)</description>
+		<defName>PonyPlush_IzzyMoonbow_Child</defName>
+		<label>Izzy Moonbow (child-sized)</label>
+		<description>Izzy Moonbow is a lively unicorn who is very keen to make new friends in new places.\n\nCarrying her makes you feel a bit happier, as well as more welcoming towards others.\n\n(When equipped, she will apply a hediff to the child that will improve their mood by 10, and boost their opinion of other pawns by 100%.)</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/IzzyMoonbow</texPath>
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_CauseHediff_Apparel">
-				<hediff>MLRP_IzzyPlush</hediff>
+				<hediff>MLRP_IzzyPlush_Child</hediff>
 				<part>Head</part>
 			</li>
 		</comps>
 	</ThingDef>
   
 	<HediffDef>
-		<defName>MLRP_IzzyPlush</defName>
+		<defName>MLRP_IzzyPlush_Child</defName>
 		<label>Izzy Moonbow plush</label>
 		<description>You feel a lot happier.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<stages>
 			<li>
-				<opinionOfOthersFactor>1.5</opinionOfOthersFactor>
+				<opinionOfOthersFactor>2</opinionOfOthersFactor>
 			</li>
 		</stages>
 		<comps>
@@ -32,15 +32,15 @@
 	</HediffDef>
   
 	<ThoughtDef>
-		<defName>MLRP_IzzyPlush</defName>
+		<defName>MLRP_IzzyPlush_Child</defName>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
-		<hediff>MLRP_IzzyPlush</hediff>
+		<hediff>MLRP_IzzyPlush_Child</hediff>
 		<validWhileDespawned>true</validWhileDespawned>
 		<stages>
 			<li>
 				<label>Izzy Moonbow plush</label>
-				<description>Izzy's smile is infectious.</description>
-				<baseMoodEffect>5</baseMoodEffect>
+				<description>Her smile is really pretty!</description>
+				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
 		<nullifyingTraits>

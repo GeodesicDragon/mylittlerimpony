@@ -108,5 +108,17 @@
 		<discoveredLetterTitle>Magical power efficiency</discoveredLetterTitle>
 		<discoveredLetterText>These buildings now generate more power:\n\n- Screwball: +50%\n- Magic mirror: +25%\n\nThese buildings now use less power:\n\n- Plushie bench: -50%\n- Fabric Exchange: -50%\n- Stone Exchange: -50%\n- Sweetie Bot turret: -25%\n- Nurse Redheart: -25%\n- Super Speedy Cider Squeezy 6000: -25%</discoveredLetterText>
 	</ResearchProjectDef>
+	
+<!--REQUEST ARCHOTECH STUFF-->
+
+	<ResearchProjectDef ParentName="MLRP_TimeConsumingResearchBase">
+		<baseCost>50000</baseCost>
+		<defName>MLRP_ArchotechResearch</defName>
+		<label>Request archotech items</label>
+		<description>Nightmare Moon will allow you to request archotech items from her.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>8</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
 
 </Defs>

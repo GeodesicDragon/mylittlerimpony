@@ -1,0 +1,147 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Ponies of the Rim</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+		
+			<!--WINGS-->
+			<RecipeDef ParentName="NMM_BionicRequestBase">
+				<defName>MLRP_POTR_NMM_BionicWing</defName>
+				<label>request bionic wing</label>
+				<description>Offer silver in exchange for a bionic wing.</description>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Silver</li>
+							</thingDefs>
+						</filter>
+						<count>130</count>
+					</li>
+				</ingredients>
+				<products>
+					<BionicWing>1</BionicWing>
+				</products>
+			</RecipeDef>
+			
+			<RecipeDef>
+				<defName>MLRP_POTR_NMM_ArchotechWing</defName>
+				<label>request archotech wing</label>
+				<description>Offer silver in exchange for an archotech wing.</description>
+				<researchPrerequisite>MLRP_ArchotechResearch</researchPrerequisite>
+				<jobString>Making an offering to Nightmare Moon</jobString>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Cremate</effectWorking>
+				<soundWorking>Recipe_Cremate</soundWorking>
+				<allowMixingIngredients>false</allowMixingIngredients>
+				<workAmount>300</workAmount>
+				<recipeUsers>
+					<li>MLRP_NightmareMoon</li>
+				</recipeUsers>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Silver</li>
+							</thingDefs>
+						</filter>
+						<count>280</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Gold</li>
+							</thingDefs>
+						</filter>
+						<count>50</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>BionicWing</li>
+							</thingDefs>
+						</filter>
+						<count>5</count>
+					</li>
+				</ingredients>
+				<products>
+					<ArchotechWing>1</ArchotechWing>
+				</products>
+			</RecipeDef>
+			
+			<!--HORNS-->
+			
+			<RecipeDef ParentName="NMM_BionicRequestBase">
+				<defName>MLRP_POTR_NMM_BionicHorn</defName>
+				<label>request bionic horn</label>
+				<description>Offer silver in exchange for a bionic horn.</description>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Silver</li>
+							</thingDefs>
+						</filter>
+						<count>130</count>
+					</li>
+				</ingredients>
+				<products>
+					<BionicHorn>1</BionicHorn>
+				</products>
+			</RecipeDef>
+			
+			<RecipeDef>
+				<defName>MLRP_POTR_NMM_ArchotechHorn</defName>
+				<label>request archotech horn</label>
+				<description>Offer silver in exchange for an archotech horn.</description>
+				<researchPrerequisite>MLRP_ArchotechResearch</researchPrerequisite>
+				<jobString>Making an offering to Nightmare Moon</jobString>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Cremate</effectWorking>
+				<soundWorking>Recipe_Cremate</soundWorking>
+				<allowMixingIngredients>false</allowMixingIngredients>
+				<workAmount>300</workAmount>
+				<recipeUsers>
+					<li>MLRP_NightmareMoon</li>
+				</recipeUsers>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Silver</li>
+							</thingDefs>
+						</filter>
+						<count>280</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Gold</li>
+							</thingDefs>
+						</filter>
+						<count>50</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>BionicHorn</li>
+							</thingDefs>
+						</filter>
+						<count>5</count>
+					</li>
+				</ingredients>
+				<products>
+					<ArchotechHorn>1</ArchotechHorn>
+				</products>
+			</RecipeDef>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

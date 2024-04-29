@@ -1,15 +1,5 @@
 <Patch>
 
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Lancers Are 2 Bandwidth Again</li>
-		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="MLRP_SweetieBotMech"]/statBases/BandwidthCost</xpath>
-			<value>
-				<BandwidthCost>2</BandwidthCost>
-			</value>
-		</match>
-	</Operation>
+<!--Redundant file.-->
 
 </Patch>

@@ -8,7 +8,7 @@
 			<texPath>Things/PonyPlush/Cheerilee</texPath>
 		</graphicData>
 		<equippedStatOffsets>
-			<GlobalLearningFactor>0.50</GlobalLearningFactor>
+			<GlobalLearningFactor>0.5</GlobalLearningFactor>
 		</equippedStatOffsets>
 	</ThingDef>
 </Defs>

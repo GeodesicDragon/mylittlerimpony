@@ -1,0 +1,14 @@
+<Defs>
+	<ThingDef ParentName="PonyPlushChildBase">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_PrincessCadence_Child</defName>
+		<label>Princess Cadence (child-sized)</label>
+		<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/PrincessCadence</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.75</PainShockThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

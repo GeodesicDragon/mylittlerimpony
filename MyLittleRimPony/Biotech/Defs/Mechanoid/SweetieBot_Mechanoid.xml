@@ -15,7 +15,7 @@
 		<description>The pinnacle of Equestrian technology, this mechanoid version of Sweetie Bot is just as effective at neutralising enemies as her turret counterpart. She can move very fast, but is vulnerable to blunt attacks and friendly fire.\n\nMany mechanitors use her for hit and run attacks, flanking the enemy from the sides and rear.\n\nShe can also be used as a mount when part of a caravan; rumours that she plots the demise of anyone who does so are completely unfounded.</description>
 		<statBases>
 			<MoveSpeed>8</MoveSpeed>
-			<BandwidthCost>3</BandwidthCost>
+			<BandwidthCost>2</BandwidthCost>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
@@ -38,7 +38,7 @@
 			<thinkTreeMain>Mechanoid</thinkTreeMain>
 			<mechWeightClass>Medium</mechWeightClass>
 			<nameGenerator>NamerBronyFemale</nameGenerator>
-			<baseBodySize>1.0</baseBodySize>
+			<baseBodySize>1</baseBodySize>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -138,6 +138,9 @@
     <defName>MLRP_GestateSweetieBot</defName>
     <label>gestate Sweetie Bot</label>
     <description>Gestate a Sweetie Bot mechanoid.</description>
+    <descriptionHyperlinks>
+      <ThingDef>MLRP_SweetieBotMech</ThingDef>
+    </descriptionHyperlinks>
     <researchPrerequisite>MLRP_SweetieBotMechResearch</researchPrerequisite>
     <ingredients Inherit="False">
       <li>
@@ -159,7 +162,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SubcoreHigh</li>
+            <li>SubcoreRegular</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -173,12 +176,10 @@
         <count>5</count>
       </li>
     </ingredients>
+	<gestationCycles>1</gestationCycles>
     <products>
       <MLRP_SweetieBotMech>1</MLRP_SweetieBotMech>
     </products>
-    <descriptionHyperlinks>
-      <ThingDef>MLRP_SweetieBotMech</ThingDef>
-    </descriptionHyperlinks>
   </RecipeDef>
 	
 </Defs>

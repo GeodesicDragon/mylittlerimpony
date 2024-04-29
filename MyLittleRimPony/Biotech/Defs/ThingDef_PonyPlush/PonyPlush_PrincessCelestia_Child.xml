@@ -1,0 +1,14 @@
+<Defs>
+	<ThingDef ParentName="PonyPlushChildBase">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_PrincessCelestia_Child</defName>
+		<label>Princess Celestia (child-sized)</label>
+		<description>As one of the rulers of Equestria, Celestia has been through a lot; recently, though, she has never been happier.\n\nCarrying her makes you feel more in control of your emotions.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/PrincessCelestia</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.5</MentalBreakThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

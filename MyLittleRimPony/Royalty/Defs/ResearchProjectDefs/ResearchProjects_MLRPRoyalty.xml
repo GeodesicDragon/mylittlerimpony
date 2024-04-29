@@ -49,16 +49,5 @@
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
-	
-<!--REQUEST ARCHOTECH STUFF-->
-
-	<ResearchProjectDef ParentName="MLRP_VeryTimeConsumingResearchBase">
-		<defName>MLRP_ArchotechResearch</defName>
-		<label>Request archotech items</label>
-		<description>Nightmare Moon will allow you to request archotech items from her.</description>
-		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>1</researchViewX>
-		<researchViewY>1</researchViewY>
-	</ResearchProjectDef>
 
 </Defs>

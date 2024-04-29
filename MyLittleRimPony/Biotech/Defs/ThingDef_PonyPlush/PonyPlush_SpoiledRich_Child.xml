@@ -1,0 +1,14 @@
+<Defs>
+	<ThingDef ParentName="PonyPlushChildBase">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_SpoiledRich_Child</defName>
+		<label>Spoiled Rich (child-sized)</label>
+		<description>Ponyville is widely regarded as being home to some of the friendliest ponies in Equestria. Spoiled Rich is not one of them.\n\nCarrying her makes you feel more resistant to toxic environments.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/SpoiledRich</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>-0.5</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

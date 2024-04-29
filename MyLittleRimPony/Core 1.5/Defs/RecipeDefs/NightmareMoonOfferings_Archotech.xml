@@ -1,0 +1,147 @@
+<Defs>
+
+<!--GET ARCHOTECH ARM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ArchotechArm</defName>
+	<label>request archotech arm</label>
+	<description>Offer many expensive items in exchange for an archotech arm.</description>
+	<researchPrerequisite>MLRP_ArchotechResearch</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>280</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>BionicArm</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+	</ingredients>
+	<products>
+		<ArchotechArm>1</ArchotechArm>
+	</products>
+</RecipeDef>
+
+<!--GET ARCHOTECH EYE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ArchotechEye</defName>
+	<label>request archotech eye</label>
+	<description>Offer many expensive items in exchange for an archotech eye.</description>
+	<researchPrerequisite>MLRP_ArchotechResearch</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>280</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>BionicEye</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+	</ingredients>
+	<products>
+		<ArchotechEye>1</ArchotechEye>
+	</products>
+</RecipeDef>
+
+<!--GET ARCHOTECH LEG-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ArchotechLeg</defName>
+	<label>request archotech leg</label>
+	<description>Offer many expensive items in exchange for an archotech leg.</description>
+	<researchPrerequisite>MLRP_ArchotechResearch</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>280</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>BionicLeg</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+	</ingredients>
+	<products>
+		<ArchotechLeg>1</ArchotechLeg>
+	</products>
+</RecipeDef>
+
+</Defs>

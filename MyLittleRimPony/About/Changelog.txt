@@ -1,3 +1,29 @@
+Version 5.26.57 (April 29th 2024)
+
+* Biotech: Added five new child-equippable plushies.
+	* Izzy Moonbow: +10 to mood and opinions of others boosted by 100%.
+	* Princess Cadence: +75% to pain shock threshold.
+	* Princess Celestia: -50% to mental break threshold.
+	* Princess Luna: +100% to rest rate multiplier.
+	* Spoiled Rich: +50% toxic resistance.
+* Ponies of the Rim: Added four new recipes to the Nightmare Moon statue.
+	* Request bionic wing: 1300 silver.
+	* Request bionic horn: 1300 silver.
+	* Request archotech horn: 2800 silver, 500 gold and 5 bionic horns.
+	* Request archotech wing: 2800 silver, 500 gold and 5 bionic wings.
+* Ponies of the Rim: Pawns with the brony trait now have a +20 opinion of pawns added by this mod.
+* Ponies of the Rim: Pawns with the anti-brony trait now have a -120 opinion of pawns added by this mod. They hate MLP, so it stands to reason they would hate actual ponies as well. The opinion is -120 in order to negate the +20 'physically appealing' opinion boost.
+* Core: The ability to request archotech items from Nightmare Moon no longer requires the Royalty DLC, though the research cost remains the same.
+* Core: Reduced the silver cost of requesting archotech items to 2800 (was 5600).
+* Core: Reduced the gold cost of requesting archotech items to 500 (was 1000).
+* Core: Reduced the bionic cost of requesting archotech items to 5 (was 10).
+* Core: Maud Pie now increases drilling speed by 25% on top of her usual bonuses.
+* Biotech: Reduced bandwidth cost of Sweetie Bot mechanoids to 2 (was 3).
+* Biotech: Sweetie Bot mechanoids can now be gestated using a standard subcore instead of a high subcore.
+* Biotech: Sweetie Bot mechanoids now require 1 cycle for gestation (was 2).
+* Harmony: Fixed not having certain DLCs or mods enabled triggering errors when completing research projects.
+* Reinforced Mechanoid 2: Since this mod has been discontinued, all patches and recipes related to it have been removed. This may cause some one-time red errors on load for anyone still using it in version 1.4 of RimWorld.
+
 Version 5.17.45 (April 22nd 2024)
 
 * Core 1.5: Good news, Harmony users, the research tracker is back! And this time, it won't eat up all your TPS!
