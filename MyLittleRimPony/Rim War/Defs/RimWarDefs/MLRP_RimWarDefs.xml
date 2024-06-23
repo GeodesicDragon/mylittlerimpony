@@ -1,0 +1,44 @@
+<Defs>
+
+	<RimWar.RimWarDef Name="RimWarDef_FactionBehavior">
+		<defName>RimWar_MLRP_FactionBehavior</defName>
+		<defDatas>
+			<li Name="RimWar_MLRP_PlayerFaction">
+				<factionDefname>MLRP_BronyFaction</factionDefname>
+				<behavior>Player</behavior>
+				<createsSettlements>false</createsSettlements>
+				<hatesPlayer>false</hatesPlayer>
+				<movesAtNight>false</movesAtNight>
+			</li>
+			<li Name="RimWar_MLRP_NPCFaction">
+				<factionDefname>MLRP_NPC_Faction</factionDefname>
+				<behavior>Cautious</behavior>
+				<createsSettlements>false</createsSettlements>
+				<hatesPlayer>false</hatesPlayer>
+				<movesAtNight>false</movesAtNight>
+			</li>
+			<li Name="RimWar_MLRP_RenegadeAlicornFaction" MayRequire="Ludeon.RimWorld.Biotech">
+				<factionDefname>MLRP_RenegadeAlicornFaction</factionDefname>
+				<behavior>Player</behavior>
+				<createsSettlements>false</createsSettlements>
+				<hatesPlayer>false</hatesPlayer>
+				<movesAtNight>false</movesAtNight>
+			</li>
+			<li Name="RimWar_MLRP_DiamondDogFaction" MayRequire="Ludeon.RimWorld.Biotech">
+				<factionDefname>MLRP_DiamondDog_Faction</factionDefname>
+				<behavior>Aggressive</behavior>
+				<createsSettlements>false</createsSettlements>
+				<hatesPlayer>true</hatesPlayer>
+				<movesAtNight>false</movesAtNight>
+			</li>
+			<li Name="RimWar_MLRP_BatponyFaction" MayRequire="Ludeon.RimWorld.Biotech, sarg.alphagenes">
+				<factionDefname>MLRP_Batpony_Faction</factionDefname>
+				<behavior>Expansionist</behavior>
+				<createsSettlements>true</createsSettlements>
+				<hatesPlayer>false</hatesPlayer>
+				<movesAtNight>true</movesAtNight>
+			</li>
+		</defDatas>
+	</RimWar.RimWarDef>
+
+</Defs>

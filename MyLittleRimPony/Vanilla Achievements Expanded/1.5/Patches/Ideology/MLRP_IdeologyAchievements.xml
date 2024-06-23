@@ -1,0 +1,75 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+			<!--PLUSHIES-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_FlimAndFlam</defName>
+				<label>Warranty Void When Created</label>
+				<description>Craft a Flim and Flam plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_FlimAndFlam</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/WarrantyVoidWhenCreated</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_KingSombra</defName>
+				<label>Crystalsssss</label>
+				<description>Craft a King Sombra plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_KingSombra</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/Crystalsssss</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_QueenChrysalis</defName>
+				<label>Hail To The Queen, Baby</label>
+				<description>Craft a Queen Chrysalis plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_QueenChrysalis</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/HailToTheQueenBaby</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Zecora</defName>
+				<label>Insert Rhyme Here</label>
+				<description>Craft a Zecora plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Zecora</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/InsertRhymeHere</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

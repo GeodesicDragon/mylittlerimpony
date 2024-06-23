@@ -1167,16 +1167,46 @@
 			</caseFalse>
 		</li>
 		
-		<!--RIM WAR SETTINGS-->
+		<!--RIM WAR: NPC FACTION-->
 		<li Class="XmlExtensions.UseSetting" MayRequire="Torann.RimWar">
 			<modId>geodesicdragon.rimpony</modId>
 			<key>MLRP_NPCFactionRimWarBehaviour</key>
 			<defaultValue>Cautious</defaultValue>
 			<apply>
 				<Operation Class="PatchOperationReplace">
-					<xpath>/Defs/RimWar.RimWarDef[defName="RimWar_MLRP_FactionBehavior"]/defDatas/li[2]/behavior</xpath>
+					<xpath>/Defs/RimWar.RimWarDef[defName="RimWar_MLRP_FactionBehavior"]/defDatas/li[@Name="RimWar_MLRP_NPCFaction"]/behavior</xpath>
 					<value>
 						<behavior>{MLRP_NPCFactionRimWarBehaviour}</behavior>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--RIM WAR: DIAMOND DOG FACTION-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Torann.RimWar, Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DiamondDogFactionRimWarBehaviour</key>
+			<defaultValue>Aggressive</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>/Defs/RimWar.RimWarDef[defName="RimWar_MLRP_FactionBehavior"]/defDatas/li[@Name="RimWar_MLRP_DiamondDogFaction"]/behavior</xpath>
+					<value>
+						<behavior>{MLRP_DiamondDogFactionRimWarBehaviour}</behavior>
+					</value>
+				</Operation>
+			</apply>
+		</li>
+		
+		<!--RIM WAR: BATPONY FACTION-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Torann.RimWar, sarg.alphagenes">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_BatponyFactionRimWarBehaviour</key>
+			<defaultValue>Expansionist</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>/Defs/RimWar.RimWarDef[defName="RimWar_MLRP_FactionBehavior"]/defDatas/li[@Name="RimWar_MLRP_BatponyFaction"]/behavior</xpath>
+					<value>
+						<behavior>{MLRP_BatponyFactionRimWarBehaviour}</behavior>
 					</value>
 				</Operation>
 			</apply>
@@ -1376,14 +1406,8 @@
 				<li Class="XmlExtensions.Setting.Gap"/>
 				
 				<li Class="XmlExtensions.Setting.Text">
-					<text>Sweetie Bot Settings</text>
+					<text>Sweetie Bot Turret Settings</text>
 					<font>Medium</font>
-					<anchor>Left</anchor>
-				</li>
-				
-				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
-					<text>IMPORTANT: These settings will only be applied to the turret version.</text>
-					<font>Small</font>
 					<anchor>Left</anchor>
 				</li>
 				
@@ -1602,15 +1626,15 @@
 				
 				<li Class="XmlExtensions.Setting.Slider">
 					<key>MLRP_DaybreakerChemfuel</key>
-					<defaultValue>75</defaultValue>
-					<min>1</min>
+					<defaultValue>50</defaultValue>
+					<min>2</min>
 					<max>150</max>
 					<label>Amount of chemfuel required: {MLRP_DaybreakerChemfuel}</label>
 					<decimals>0</decimals>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Text">
-					<text>This amount will be doubled for the recipes to acquire 10 regular/advanced components.</text>
+					<text>This amount will be halved, doubled, tripled or quintupled where necessary.</text>
 					<font>Small</font>
 					<anchor>Left</anchor>
 				</li>
@@ -1747,6 +1771,82 @@
 						<li Class="XmlExtensions.Setting.RadioButtons" MayRequire="Torann.RimWar">
 							<key>MLRP_NPCFactionRimWarBehaviour</key>
 							<defaultValue>Cautious</defaultValue>
+							<buttons>
+							<li>
+								<value>Aggressive</value>
+								<label>Aggressive</label>
+							</li>
+							<li>
+								<value>Cautious</value>
+								<label>Cautious</label>
+								</li>
+							<li>
+								<value>Expansionist</value>
+								<label>Expansionist</label>
+							</li>
+							<li>
+								<value>Merchant</value>
+								<label>Merchant</label>
+							</li>
+							<li>
+								<value>Warmonger</value>
+								<label>Warmonger</label>
+							</li>
+							</buttons>
+						</li>
+					</rightCol>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.SplitColumn" MayRequire="Torann.RimWar, Ludeon.RimWorld.Biotech">
+					<leftCol>
+						<li Class="XmlExtensions.Setting.Text" MayRequire="Torann.RimWar, Ludeon.RimWorld.Biotech">
+							<text>Diamond Dog Faction Behaviour: </text>
+							<font>Small</font>
+							<anchor>Left</anchor>
+						</li>
+					</leftCol>
+					<rightCol>
+						<li Class="XmlExtensions.Setting.RadioButtons" MayRequire="Torann.RimWar, Ludeon.RimWorld.Biotech">
+							<key>MLRP_DiamondDogFactionRimWarBehaviour</key>
+							<defaultValue>Aggressive</defaultValue>
+							<buttons>
+							<li>
+								<value>Aggressive</value>
+								<label>Aggressive</label>
+							</li>
+							<li>
+								<value>Cautious</value>
+								<label>Cautious</label>
+								</li>
+							<li>
+								<value>Expansionist</value>
+								<label>Expansionist</label>
+							</li>
+							<li>
+								<value>Merchant</value>
+								<label>Merchant</label>
+							</li>
+							<li>
+								<value>Warmonger</value>
+								<label>Warmonger</label>
+							</li>
+							</buttons>
+						</li>
+					</rightCol>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.SplitColumn" MayRequire="Torann.RimWar, sarg.alphagenes">
+					<leftCol>
+						<li Class="XmlExtensions.Setting.Text" MayRequire="Torann.RimWar, sarg.alphagenes">
+							<text>Batpony Faction Behaviour: </text>
+							<font>Small</font>
+							<anchor>Left</anchor>
+						</li>
+					</leftCol>
+					<rightCol>
+						<li Class="XmlExtensions.Setting.RadioButtons" MayRequire="Torann.RimWar, sarg.alphagenes">
+							<key>MLRP_BatponyFactionRimWarBehaviour</key>
+							<defaultValue>Expansionist</defaultValue>
 							<buttons>
 							<li>
 								<value>Aggressive</value>

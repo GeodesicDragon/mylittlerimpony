@@ -3,88 +3,63 @@
 <Patch>
 
 	<!--TRAIT CONFLICTS-->
-
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/TraitDef[defName="DislikesMen"]</xpath>
-	    <value>
-			<conflictingTraits>
-				<li>MLRP_BronyTrait</li>
-			</conflictingTraits>
-	    </value>
-	</Operation>
 	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/TraitDef[defName="DislikesWomen"]</xpath>
-	    <value>
-			<conflictingTraits>
-				<li>MLRP_BronyTrait</li>
-			</conflictingTraits>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/TraitDef[defName="Psychopath"]</xpath>
-	    <value>
-			<conflictingTraits>
-				<li>MLRP_BronyTrait</li>
-			</conflictingTraits>
-	    </value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="DislikesMen" or defName="DislikesWomen" or defName="Psychopath"]/conflictingTraits</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="DislikesMen" or defName="DislikesWomen" or defName="Psychopath"]/conflictingTraits</xpath>
+					<value>
+						<li>MLRP_BronyTrait</li>
+					</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="DislikesMen" or defName="DislikesWomen" or defName="Psychopath"]</xpath>
+					<value>
+						<conflictingTraits>
+							<li>MLRP_BronyTrait</li>
+						</conflictingTraits>
+					</value>
+			</nomatch>
 	</Operation>
 	
 	<!--IGNORE INSULTS-->
 	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThoughtDef[defName="InsultedMood"]</xpath>
-	    <value>
-			<nullifyingTraits>
-				<li>MLRP_BronyTrait</li>
-			</nullifyingTraits>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThoughtDef[defName="Insulted"]</xpath>
-	    <value>
-			<nullifyingTraits>
-				<li>MLRP_BronyTrait</li>
-			</nullifyingTraits>
-	    </value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThoughtDef[defName="InsultedMood" or defName="Insulted"]/nullifyingTraits</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="InsultedMood" or defName="Insulted"]/nullifyingTraits</xpath>
+					<value>
+						<li>MLRP_BronyTrait</li>
+					</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="InsultedMood" or defName="Insulted"]</xpath>
+					<value>
+						<nullifyingTraits>
+							<li>MLRP_BronyTrait</li>
+						</nullifyingTraits>
+					</value>
+			</nomatch>
 	</Operation>
 	
 	<!--DO NOT JUDGE OTHERS-->
 	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThoughtDef[defName="Disfigured"]</xpath>
-	    <value>
-			<nullifyingTraits>
-				<li>MLRP_BronyTrait</li>
-			</nullifyingTraits>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThoughtDef[defName="Ugly"]/nullifyingTraits</xpath>
-	    <value>
-			<li>MLRP_BronyTrait</li>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThoughtDef[defName="AnnoyingVoice"]</xpath>
-	    <value>
-			<nullifyingTraits>
-				<li>MLRP_BronyTrait</li>
-			</nullifyingTraits>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThoughtDef[defName="CreepyBreathing"]</xpath>
-	    <value>
-			<nullifyingTraits>
-				<li>MLRP_BronyTrait</li>
-			</nullifyingTraits>
-	    </value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThoughtDef[defName="Disfigured" or defName="Ugly" or defName="AnnoyingVoice" or defName="CreepyBreathing"]/nullifyingTraits</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="Disfigured" or defName="Ugly" or defName="AnnoyingVoice" or defName="CreepyBreathing"]/nullifyingTraits</xpath>
+					<value>
+						<li>MLRP_BronyTrait</li>
+					</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="Disfigured" or defName="Ugly" or defName="AnnoyingVoice" or defName="CreepyBreathing"]</xpath>
+					<value>
+						<nullifyingTraits>
+							<li>MLRP_BronyTrait</li>
+						</nullifyingTraits>
+					</value>
+			</nomatch>
 	</Operation>
 	
 </Patch>

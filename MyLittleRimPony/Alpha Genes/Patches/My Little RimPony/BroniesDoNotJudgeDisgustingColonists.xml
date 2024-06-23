@@ -1,0 +1,17 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="AG_Disgust"]/nullifyingTraits</xpath>
+		<value>
+			<li>MLRP_BronyTrait</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="AG_UnsettlingAppearance"]/nullifyingTraits</xpath>
+		<value>
+			<li>MLRP_BronyTrait</li>
+		</value>
+	</Operation>
+	
+</Patch>

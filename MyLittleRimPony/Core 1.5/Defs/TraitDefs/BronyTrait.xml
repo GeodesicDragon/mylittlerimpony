@@ -28,7 +28,7 @@
 	<degreeDatas>
 		<li>
 			<label>anti brony</label>
-			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does.\n\n{PAWN_pronoun} gets a mood loss from equipping pony plushies.</description>
+			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does. {PAWN_pronoun} will get a mood loss from equipping pony plushies.</description>
 		</li>
 	</degreeDatas>
 	<conflictingTraits>

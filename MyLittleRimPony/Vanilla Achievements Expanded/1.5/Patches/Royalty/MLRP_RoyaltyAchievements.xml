@@ -1,0 +1,62 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+			<!--HEDIFFS-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_InstallHarmonyChip</defName>
+				<label>This Is Your Brain On Pony</label>
+				<description>Install a Harmony Chip</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.HediffTracker">
+					<def>MLRP_HarmonyChipInstalled</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/ThisIsYourBrainOnPony</texPath>
+				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<!--PLUSHIES-->
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_Trixie</defName>
+				<label>Great And Powerful</label>
+				<description>Craft a Trixie plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_Trixie</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/GreatAndPowerful</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_AloeAndLotus</defName>
+				<label>Twinning At Life</label>
+				<description>Craft an Aloe and Lotus plushie</description>
+				<tab>MLRP_AchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemCraftTracker">
+					<def>PonyPlush_AloeAndLotus</def>
+					<count>1</count>
+				</tracker>
+				
+				<texPath>Achievements/TwinningAtLife</texPath>
+				<points>10</points>
+			</AchievementsExpanded.AchievementDef>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

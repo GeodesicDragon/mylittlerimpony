@@ -16,10 +16,10 @@
 	<biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>peg</symbol></li>
+        <li><symbol>pegasus</symbol></li>
       </prefixSymbols>
       <suffixSymbols>
-        <li><symbol>asus</symbol></li>
+        <li><symbol>wings</symbol></li>
       </suffixSymbols>
     </symbolPack>
 </GeneDef>

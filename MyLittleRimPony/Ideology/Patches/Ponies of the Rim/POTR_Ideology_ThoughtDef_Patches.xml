@@ -1,0 +1,30 @@
+<Patch>
+
+	<!--Bronies and anti bronies have their own likes and dislikes of ponies.-->
+
+	<!--<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ponies of the Rim</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/ThoughtDef[defName="Pony_Everypony_Abhorrent" or defName="Pony_Everypony_Abhorrent_Social" or defName="Pony_Everypony_Horrible_Social" or defName="Pony_Everypony_Respected_Social" or defName="Pony_Everypony_Exalted" or defName="Pony_Everypony_Exalted_Social" or defName="Pony_Pegasus_Abhorrent" or defName="Pony_Pegasus_Abhorrent_Social" or defName="Pony_Pegasus_Horrible_Social" or defName="Pony_Pegasus_Respected_Social" or defName="Pony_Pegasus_Exalted" or defName="Pony_Pegasus_Exalted_Social" or defName="Pony_Earthpony_Abhorrent" or defName="Pony_Earthpony_Abhorrent_Social" or defName="Pony_Earthpony_Horrible_Social" or defName="Pony_Earthpony_Respected_Social" or defName="Pony_Earthpony_Exalted" or defName="Pony_Earthpony_Exalted_Social" or defName="Pony_Unicorn_Abhorrent" or defName="Pony_Unicorn_Abhorrent_Social" or defName="Pony_Unicorn_Horrible_Social" or defName="Pony_Unicorn_Respected_Social" or defName="Pony_Unicorn_Exalted" or defName="Pony_Unicorn_Exalted_Social"]/nullifyingTraits</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="Pony_Everypony_Abhorrent" or defName="Pony_Everypony_Abhorrent_Social" or defName="Pony_Everypony_Horrible_Social" or defName="Pony_Everypony_Respected_Social" or defName="Pony_Everypony_Exalted" or defName="Pony_Everypony_Exalted_Social" or defName="Pony_Pegasus_Abhorrent" or defName="Pony_Pegasus_Abhorrent_Social" or defName="Pony_Pegasus_Horrible_Social" or defName="Pony_Pegasus_Respected_Social" or defName="Pony_Pegasus_Exalted" or defName="Pony_Pegasus_Exalted_Social" or defName="Pony_Earthpony_Abhorrent" or defName="Pony_Earthpony_Abhorrent_Social" or defName="Pony_Earthpony_Horrible_Social" or defName="Pony_Earthpony_Respected_Social" or defName="Pony_Earthpony_Exalted" or defName="Pony_Earthpony_Exalted_Social" or defName="Pony_Unicorn_Abhorrent" or defName="Pony_Unicorn_Abhorrent_Social" or defName="Pony_Unicorn_Horrible_Social" or defName="Pony_Unicorn_Respected_Social" or defName="Pony_Unicorn_Exalted" or defName="Pony_Unicorn_Exalted_Social"]</xpath>
+				<value>
+					<nullifyingTraits>
+						<li>MLRP_BronyTrait</li>
+						<li>MLRP_AntiBronyTrait</li>
+					</nullifyingTraits>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="Pony_Everypony_Abhorrent" or defName="Pony_Everypony_Abhorrent_Social" or defName="Pony_Everypony_Horrible_Social" or defName="Pony_Everypony_Respected_Social" or defName="Pony_Everypony_Exalted" or defName="Pony_Everypony_Exalted_Social" or defName="Pony_Pegasus_Abhorrent" or defName="Pony_Pegasus_Abhorrent_Social" or defName="Pony_Pegasus_Horrible_Social" or defName="Pony_Pegasus_Respected_Social" or defName="Pony_Pegasus_Exalted" or defName="Pony_Pegasus_Exalted_Social" or defName="Pony_Earthpony_Abhorrent" or defName="Pony_Earthpony_Abhorrent_Social" or defName="Pony_Earthpony_Horrible_Social" or defName="Pony_Earthpony_Respected_Social" or defName="Pony_Earthpony_Exalted" or defName="Pony_Earthpony_Exalted_Social" or defName="Pony_Unicorn_Abhorrent" or defName="Pony_Unicorn_Abhorrent_Social" or defName="Pony_Unicorn_Horrible_Social" or defName="Pony_Unicorn_Respected_Social" or defName="Pony_Unicorn_Exalted" or defName="Pony_Unicorn_Exalted_Social"]/nullifyingTraits</xpath>
+				<value>
+					<li>MLRP_BronyTrait</li>
+					<li>MLRP_AntiBronyTrait</li>
+				</value>
+			</match>
+		</match>
+	</Operation>-->
+	
+</Patch>

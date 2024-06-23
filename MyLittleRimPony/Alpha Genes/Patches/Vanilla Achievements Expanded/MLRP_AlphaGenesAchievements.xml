@@ -1,0 +1,49 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Achievements Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+	    <xpath>Defs</xpath>
+	    <value>
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_ArentBatsProtected</defName>
+				<label>Aren't Bats Protected?</label>
+				<description>Kill 100 Batponies</description>
+				<tab>MLRP_DLCAchievementTab</tab>
+				<tracker Class="AchievementsExpanded.KillTracker">
+					<raceDef>Human</raceDef>
+					<count>100</count>
+					<xenotypeDef>MLRP_Xeno_Batpony</xenotypeDef>
+				</tracker>
+				
+				<texPath>Achievements/ArentBatsProtected</texPath>
+				<points>50</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_UtterlyBatty</defName>
+				<label>Utterly Batty</label>
+				<description>Get three colonists from the batpony xenotype</description>
+				<tab>MLRP_DLCAchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.XenotypeDefTracker">
+					<requireAll>true</requireAll>
+					<xenotypeDefs>
+						<li>
+							<key>MLRP_Xeno_Batpony</key>
+							<value>3</value>
+						</li>
+					</xenotypeDefs>
+				</tracker>
+				
+				<texPath>Achievements/UtterlyBatty</texPath>
+				<points>30</points>
+			</AchievementsExpanded.AchievementDef>
+		
+		</value>
+	</match>
+</Operation>
+
+</Patch>

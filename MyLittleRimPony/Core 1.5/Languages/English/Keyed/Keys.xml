@@ -40,11 +40,4 @@
 	<MLRP_AboutSweetieBotMechLetterHeader>Sweetie Bot mechanoids</MLRP_AboutSweetieBotMechLetterHeader>
 	<MLRP_AboutSweetieBotMechLetterText>Sweetie Bot mechanoids are fast moving with decent sharp armour, but they are vulnerable when engaged in melee combat.\n\nThey are best suited for attacking an enemy's flanks, rushing in and laying down fire before retreating to a safe distance.\n\nThey can also be used as mounts when part of caravans.</MLRP_AboutSweetieBotMechLetterText>
 	
-	<!--C# MODS-->
-	
-	<MLRP_XMLExtensionsDetected>[My Little RimPony] XML Extensions has been detected.</MLRP_XMLExtensionsDetected>
-	<MLRP_CEDetected>[My Little RimPony] Combat Extended has been detected.</MLRP_CEDetected>
-	<MLRP_MOPatchesDetected>[My Little RimPony] Medieval Overhaul patches have been applied.</MLRP_MOPatchesDetected>
-	<MLRP_HarmonyDetected>[My Little RimPony] Harmony detected. Research tracker is now active.</MLRP_HarmonyDetected>
-	
 </LanguageData>

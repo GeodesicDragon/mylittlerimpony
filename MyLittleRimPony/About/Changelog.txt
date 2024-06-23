@@ -1,3 +1,43 @@
+Version 5.42.72 (June 23rd 2024)
+
+* Core: Added a recipe to the Nightmare Moon statue to request 1000 units of rice at a cost of 1200 silver.
+* Ponies of the Rim: Added some new compatibility patches, which aren't actually working at the moment because they were built around an updated version of POTR which hasn't been released yet. Once it does, I'll update this mod again.
+	* Core: Made the 'pony lover' and 'pony hater' traits conflict with the brony and anti brony traits.
+	* Ideology: Made the thoughts related to precepts about loving and hating ponies conflict with the brony and anti brony traits.
+	* Biotech: Made the POTR horse voice gene incompatible with the one added by this mod.
+* Alpha Genes: Added a patch which makes the 'disgusting colonist' thought no longer apply to bronies.
+* Vanilla Achievements Expanded: Added six new achievements (RimWorld 1.5 only).
+	* A New Equestria (requires Biotech)
+	* Gift Of The Gab (requires Biotech)
+	* Spay And Neuter (requires Biotech)
+	* As The Void Intended (requires Anomaly)
+	* Aren't Bats Protected? (Requires Alpha Genes)
+	* Utterly Batty (Requires Alpha Genes)
+* Vanilla Recycling Expanded: Added a recipe to the Daybreaker statue to allow for the bulk creation of trashbricks.
+	* Upside: No toxic gas will be released during production.
+	* Downside: The recipe requires the regular amount of chemfuel.
+	* The recipe will be unlocked when you research complex recycling.
+* Rim War: Added behaviour settings for the Diamond Dog faction.
+* Rim War: Added behaviour settings for the batpony faction.
+* XML Extensions/Rim War: Added ability to change behaviour of the Diamond Dog faction.
+* XML Extensions/Rim War: Added ability to change behaviour of the batpony faction.
+* Core: Updated description of the Brony Community scenario to reflect recent changes to the brony trait.
+* Biotech: Updated description of the Brony Xenotypes scenario to reflect recent changes to the brony trait.
+* Biotech: The Renegade Alicorn scenario now includes 250 units of chemfuel, a steel Daybreaker statue and a steel Nightmare Moon statue.
+* Alpha Genes: The imperial faction is no longer permanently hostile to the NPC batpony faction.
+* Alpha Genes: Hopefully reduced the chance of your first batpony raider being an elite mercenary, as it seems kinda unfair, especially on a tribal run.
+* Harmony: Fixed letter not being sent when researching request skilltrainers.
+* Harmony: Fixed error seen when the Bandwidth Enhancer mod wasn't active.
+* Harmony: Fixed incorrect letter being sent when researching certain Royalty technologies.
+* Harmony: Fixed incorrect letter being sent when researching certain Biotech technologies.
+* Harmony/MedPod: Fixed incorrect letter being sent when researching advanced celluar regeneration.
+* Harmony/Replimat: Fixed incorrect letter being sent when researching molecular nutrient resequencing.
+* Harmony/Bandwidth Enhancer: Fixed incorrect letter being sent when researching advanced bandwidth enhancer.
+* XML Extensions: Resetting values to default now correctly sets the chemfuel requirement of Daybreaker recipes to 50 instead of 75.
+* XML Extensions: Increased minimum chemfuel requirement of Daybreaker recipes to 2 (was 1).
+* XML Extensions: Fixed 'Verse.PatchOperationReplace(xpath="/Defs/RimWar.RimWarDef[defName="RimWar_MLRP_FactionBehavior"]/defDatas/li[2]/behavior"): Failed to find a node with the given xpath' error seen when Rim War was enabled.
+	* Thanks to A Kirin's Hoof from the Ponies of the Rim Discord server for bringing the issue to my attention.
+
 Version 5.26.57 (April 29th 2024)
 
 * Biotech: Added five new child-equippable plushies.

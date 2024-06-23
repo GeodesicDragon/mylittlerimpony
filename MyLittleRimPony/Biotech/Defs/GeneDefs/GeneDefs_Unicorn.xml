@@ -18,10 +18,10 @@
 	<biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>uni</symbol></li>
+        <li><symbol>unicorn</symbol></li>
       </prefixSymbols>
       <suffixSymbols>
-        <li><symbol>corn</symbol></li>
+        <li><symbol>horn</symbol></li>
       </suffixSymbols>
     </symbolPack>
 </GeneDef>

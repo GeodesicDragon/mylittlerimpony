@@ -12,7 +12,7 @@
 					<defName>MLRP_Achievement_ThingPone</defName>
 					<label>Avoid Eye Contact</label>
 					<description>Build Thingpone</description>
-					<tab>MLRP_BuildingAchievementTab</tab>
+					<tab>MLRP_DLCAchievementTab</tab>
 					
 					<tracker Class="AchievementsExpanded.BuildingTracker">
 						<def>MLRP_Thingpone</def>
@@ -22,7 +22,23 @@
 					<texPath>Achievements/AvoidEyeContact</texPath>
 					<points>25</points>
 				</AchievementsExpanded.AchievementDef>
-			
+				
+				<AchievementsExpanded.AchievementDef>
+					<defName>MLRP_Achievement_ThingPoneBioferrite</defName>
+					<label>As The Void Intended</label>
+					<description>Build a Thingpone statue using bioferrite</description>
+					<tab>MLRP_DLCAchievementTab</tab>
+					
+					<tracker Class="AchievementsExpanded.BuildingTracker">
+						<def>MLRP_Thingpone</def>
+						<madeFrom>Bioferrite</madeFrom>
+						<count>1</count>
+					</tracker>
+					
+					<texPath>Achievements/AvoidEyeContact</texPath>
+					<points>25</points>
+				</AchievementsExpanded.AchievementDef>
+						
 			</value>
 		</match>
 	</Operation>

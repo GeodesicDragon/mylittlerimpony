@@ -1,0 +1,49 @@
+<Patch>
+
+	<!--<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ponies of the Rim</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/GeneDef[defName="Pony_VoiceHorse"]/exclusionTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/GeneDef[defName="Pony_VoiceHorse"]</xpath>
+				<value>
+					<exclusionTags>
+						<li>MLRP_VoiceHorse</li>
+					</exclusionTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/GeneDef[defName="Pony_VoiceHorse"]/exclusionTags</xpath>
+				<value>
+					<li>MLRP_VoiceHorse</li>
+				</value>
+			</match>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ponies of the Rim</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/GeneDef[defName="MLRP_VoiceHorse"]/exclusionTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/GeneDef[defName="MLRP_VoiceHorse"]</xpath>
+				<value>
+					<exclusionTags>
+						<li>Pony_VoiceHorse</li>
+					</exclusionTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/GeneDef[defName="MLRP_VoiceHorse"]/exclusionTags</xpath>
+				<value>
+					<li>Pony_VoiceHorse</li>
+				</value>
+			</match>
+		</match>
+	</Operation>-->
+
+</Patch>

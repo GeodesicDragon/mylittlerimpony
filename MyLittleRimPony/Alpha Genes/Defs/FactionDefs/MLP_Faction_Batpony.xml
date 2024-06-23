@@ -147,7 +147,7 @@
       </li>
       <li>
         <kindDef>Combat</kindDef> <!--All Elite units for when copious amounts of ass needs to be kicked-->
-        <commonality>100</commonality>
+        <commonality>25</commonality>
         <options>
           <Brony_Mercenary_Elite>40</Brony_Mercenary_Elite>
         </options>

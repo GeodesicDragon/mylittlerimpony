@@ -15,10 +15,10 @@
 	<biostatCpx>1</biostatCpx>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>earth</symbol></li>
+        <li><symbol>earth pony</symbol></li>
       </prefixSymbols>
       <suffixSymbols>
-        <li><symbol>pony</symbol></li>
+        <li><symbol>strength</symbol></li>
       </suffixSymbols>
     </symbolPack>
 </GeneDef>

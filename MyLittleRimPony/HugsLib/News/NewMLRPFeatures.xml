@@ -7,16 +7,22 @@
 		<linkUrl>https://discord.gg/BGKnpza</linkUrl>
 	</HugsLib.UpdateFeatureDef>
 	
+	<!--<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_53871</defName>
+		<assemblyVersion>5.38.71</assemblyVersion>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\nCore: Have you run out of food? Have you already hunted everything on the map? Do you want to put off having to to resort to cannibalism? Do you have 1200 spare silver? If you answered 'Yes' to one or more of these questions, then visit your local Nightmare Moon statue to request 1000 units of raw rice.\n- Ponies of the Rim: Added some additional compatibility patches.\n- Vanilla Achievements Expanded: Six new ones have been added (though they require the Biotech DLC and/or the Alpha Genes mod).\n- Vanilla Recycling Expanded: Daybreaker will now help you make trashbricks. The recipe for it costs chemfuel, but it has 100% less toxic gas release.\n\nPlease refer to the changelog for more info!</content>
+	</HugsLib.UpdateFeatureDef>-->
+	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_51539</defName>
 		<assemblyVersion>5.15.39</assemblyVersion>
-		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: You can now request 50 units of herbal medicine from Nightmare Moon in exchange for 250 units of (vegetarian) food.\n\n- Anomaly: Added Thingpone. This adorable eldritch horror will offer you items from beyond the void in exchange for silver (and, in one case, twisted meat).\n- Anomaly: You can now purchase dread leather from the Fabric Exchange.\n- Anomaly: Added two new recipes to the Daybreaker statue, allowing you to convert silver to bioferrite and vice versa.\n\nPlease refer to the changelog for more info!</content>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: You can now request 50 units of herbal medicine from Nightmare Moon in exchange for 250 units of (vegetarian) food.\n- Anomaly: Added Thingpone. This adorable eldritch horror will offer you items from beyond the void in exchange for silver (and, in one case, twisted meat).\n- Anomaly: You can now purchase dread leather from the Fabric Exchange.\n- Anomaly: Added two new recipes to the Daybreaker statue, allowing you to convert silver to bioferrite and vice versa.\n\nPlease refer to the changelog for more info!</content>
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_445109</defName>
 		<assemblyVersion>4.45.109</assemblyVersion>
-		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Added Miss Harshwhinny, a passive cooler that can freeze a room at twice the fuel cost\n\n- Biotech: Added the Renegade Alicorn scenario\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: Poison joke plants now require 70% soil fertility (was 140%)\n- Core: Doubled the hitpoints of Screwballs\n\nPlease refer to the changelog for more info!</content>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Added Miss Harshwhinny, a passive cooler that can freeze a room at twice the fuel cost\n- Biotech: Added the Renegade Alicorn scenario\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: Poison joke plants now require 70% soil fertility (was 140%)\n- Core: Doubled the hitpoints of Screwballs\n\nPlease refer to the changelog for more info!</content>
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">

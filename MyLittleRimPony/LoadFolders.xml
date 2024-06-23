@@ -7,7 +7,8 @@
 		<li IfModActive="UnlimitedHugs.HugsLib">HugsLib</li> <!--News Updates-->
 		<li IfModActive="Dubwise.DubsBadHygiene">Dubs Bad Hygiene</li>
 		<li IfModActive="sarg.alphagenes">Alpha Genes</li>
-		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>
+		<li IfModActive="Torann.RimWar">Rim War</li>
+		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded/1.4</li>
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
 		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded/1.4</li>
 		<li IfModActive="OskarPotocki.VFE.Deserters">Vanilla Factions Expanded/Deserters</li>
@@ -26,7 +27,8 @@
 		<li IfModActive="UnlimitedHugs.HugsLib">HugsLib</li> <!--News Updates-->
 		<li IfModActive="Dubwise.DubsBadHygiene">Dubs Bad Hygiene</li>
 		<li IfModActive="sarg.alphagenes">Alpha Genes</li>
-		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>
+		<li IfModActive="Torann.RimWar">Rim War</li>
+		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded/1.5</li>
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
 		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded/1.5</li>
 		<li IfModActive="OskarPotocki.VFE.Deserters">Vanilla Factions Expanded/Deserters</li>

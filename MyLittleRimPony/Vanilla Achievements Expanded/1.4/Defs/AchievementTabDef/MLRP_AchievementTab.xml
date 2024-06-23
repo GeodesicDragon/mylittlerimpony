@@ -1,16 +1,25 @@
 <Defs>
 	<AchievementsExpanded.AchievementTabDef>
 		<defName>MLRP_AchievementTab</defName>
-		<label>MLRP - Items</label>
+		<label>RimPony - Items</label>
+		<order>100</order>
 	</AchievementsExpanded.AchievementTabDef>
 	
 	<AchievementsExpanded.AchievementTabDef>
 		<defName>MLRP_BuildingAchievementTab</defName>
-		<label>MLRP - Buildings</label>
+		<label>RimPony - Buildings</label>
+		<order>101</order>
 	</AchievementsExpanded.AchievementTabDef>
 	
 	<AchievementsExpanded.AchievementTabDef>
 		<defName>MLRP_WeaponAchievementTab</defName>
-		<label>MLRP - Weapons</label>
+		<label>RimPony - Weapons</label>
+		<order>102</order>
+	</AchievementsExpanded.AchievementTabDef>
+	
+	<AchievementsExpanded.AchievementTabDef>
+		<defName>MLRP_DLCAchievementTab</defName>
+		<label>RimPony - DLC</label>
+		<order>103</order>
 	</AchievementsExpanded.AchievementTabDef>
 </Defs>

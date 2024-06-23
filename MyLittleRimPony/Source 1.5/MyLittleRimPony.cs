@@ -19,6 +19,8 @@ namespace MyLittleRimPony
     [DefOf]
     public static class MyDefOf
     {
+
+        public static HediffDef MLRP_CutiePox; // Not actually needed, but if I don't have something here the welcome message doesn't appear in the log.
         static MyDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));

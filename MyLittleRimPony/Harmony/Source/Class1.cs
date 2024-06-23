@@ -43,6 +43,16 @@ namespace MLRP_ResearchTracker
                 Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
             }
 
+            // DAYBREAKER: VANILLA RECYCLING EXPANDED MOD
+
+            if (ModsConfig.IsActive("VanillaExpanded.Recycling") && proj == DefDatabase<ResearchProjectDef>.GetNamed("VRecyclingE_ComplexRecycling"))
+            {
+                LetterDef MLRP_NewDBRecipe = LetterDefOf.PositiveEvent;
+                string title = "MLRP_NewRecipeUnlockedTitle".Translate();
+                string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
+            }
+
             // FABRIC EXCHANGE
 
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("Devilstrand"))
@@ -55,7 +65,7 @@ namespace MLRP_ResearchTracker
 
             // NIGHTMARE MOON: CORE
 
-            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("ShipComputerCore") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MedicineProduction") || proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction") || proj == DefDatabase<ResearchProjectDef>.GetNamed("Mortars") || proj == DefDatabase<ResearchProjectDef>.GetNamed("Bionics") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_MagicMirrorResearch") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_ArchotechResearch") || proj == DefDatabase<ResearchProjectDef>.GetNamed("AdvancedBandwidthEnhancer"))
+            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("ShipComputerCore") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MedicineProduction") || proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction") || proj == DefDatabase<ResearchProjectDef>.GetNamed("Mortars") || proj == DefDatabase<ResearchProjectDef>.GetNamed("Bionics") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_MagicMirrorResearch") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_ArchotechResearch")|| proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_GetSkilltrainersFromNMM"))
             {
                 LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();
@@ -67,10 +77,10 @@ namespace MLRP_ResearchTracker
 
             if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("HealingFactors") || proj == DefDatabase<ResearchProjectDef>.GetNamed("NeuralComputation") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MolecularAnalysis") || proj == DefDatabase<ResearchProjectDef>.GetNamed("SkinHardening") || proj == DefDatabase<ResearchProjectDef>.GetNamed("FleshShaping") || proj == DefDatabase<ResearchProjectDef>.GetNamed("ArtificialMetabolism") || proj == DefDatabase<ResearchProjectDef>.GetNamed("CircadianInfluence"))
             {
-                LetterDef MLRP_NewDBRecipe = LetterDefOf.PositiveEvent;
+                LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();
-                string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
-                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
+                string text = "MLRP_NewRecipeUnlockedTextNMM".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewNMMRecipe);
             }
 
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("HospitalBed"))
@@ -92,30 +102,40 @@ namespace MLRP_ResearchTracker
 
             if (ModsConfig.IsActive("Ludeon.RimWorld.Biotech") && proj == DefDatabase<ResearchProjectDef>.GetNamed("StandardMechtech") || proj == DefDatabase<ResearchProjectDef>.GetNamed("HighMechtech") || proj == DefDatabase<ResearchProjectDef>.GetNamed("UltraMechtech") || proj == DefDatabase<ResearchProjectDef>.GetNamed("Deathrest") || proj == DefDatabase<ResearchProjectDef>.GetNamed("ToxFiltration"))
             {
-                LetterDef MLRP_NewDBRecipe = LetterDefOf.PositiveEvent;
+                LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();
-                string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
-                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
+                string text = "MLRP_NewRecipeUnlockedTextNMM".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewNMMRecipe);
             }
 
             // NIGHTMARE MOON: MEDPOD MOD
 
             if (ModsConfig.IsActive("sumghai.medpod") && proj == DefDatabase<ResearchProjectDef>.GetNamed("AcceleratedCellularRegeneration"))
             {
-                LetterDef MLRP_NewDBRecipe = LetterDefOf.PositiveEvent;
+                LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();
-                string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
-                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
+                string text = "MLRP_NewRecipeUnlockedTextNMM".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewNMMRecipe);
             }
 
             // NIGHTMARE MOON: REPLIMAT MOD
 
             if (ModsConfig.IsActive("sumghai.Replimat") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MolecularNutrientResequencing"))
             {
-                LetterDef MLRP_NewDBRecipe = LetterDefOf.PositiveEvent;
+                LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();
-                string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
-                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
+                string text = "MLRP_NewRecipeUnlockedTextNMM".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewNMMRecipe);
+            }
+			
+			// NIGHTMARE MOON: BANDWIDTH ENHANCER MOD
+
+            if (ModsConfig.IsActive("iexist.biotech.morebandwidth") && proj == DefDatabase<ResearchProjectDef>.GetNamed("AdvancedBandwidthEnhancer"))
+            {
+                LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
+                string title = "MLRP_NewRecipeUnlockedTitle".Translate();
+                string text = "MLRP_NewRecipeUnlockedTextNMM".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewNMMRecipe);
             }
 
             // THINGPONE (REQUIRES ANOMALY DLC)
