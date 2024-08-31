@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Health">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_Haywick</defName>
 		<label>Nurse Haywick</label>
 		<description>Did you really think that the guy who made this mod wouldn't find a way to include his OC in it somehow?\n\nCarrying her makes you feel like a better medic.</description>

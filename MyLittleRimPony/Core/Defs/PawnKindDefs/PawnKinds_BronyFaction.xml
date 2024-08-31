@@ -108,8 +108,8 @@
 	<factionLeader>true</factionLeader>
     <initialWillRange>1~3</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
-    <label>leader</label>
-	<labelPlural>leader</labelPlural>
+    <label>mayor</label>
+	<labelPlural>mayors</labelPlural>
     <combatPower>40</combatPower>
     <gearHealthRange>
       <min>1</min>

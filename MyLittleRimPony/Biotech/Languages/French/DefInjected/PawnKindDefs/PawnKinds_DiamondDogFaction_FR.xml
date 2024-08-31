@@ -1,0 +1,21 @@
+<LanguageData>	
+	
+	<!--EN: Diamond dog alpha-->
+	<DiamondDog_Alpha.label>Chien de diamant alpha</DiamondDog_Alpha.label>
+	
+	<!--EN: Diamond dog alphas-->
+	<DiamondDog_Alpha.labelPlural>Chiens de diamant alpha</DiamondDog_Alpha.labelPlural>	
+	
+	<!--EN: Diamond dog soldier-->
+	<DiamondDogSoldier.label>Soldat chien de diamant</DiamondDogSoldier.label>
+	
+	<!--EN: Diamond dog soldiers-->
+	<DiamondDogSoldier.labelPlural>Soldat chiens de diamant</DiamondDogSoldier.labelPlural>	
+	
+	<!--EN: Diamond dog archer-->
+	<DiamondDogArcher.label>Chien d'archer en diamant</DiamondDogArcher.label>
+	
+	<!--EN: Diamond dog archers-->
+	<DiamondDogArcher.labelPlural>Chiens d'archer en diamant</DiamondDogArcher.labelPlural>
+	
+</LanguageData>

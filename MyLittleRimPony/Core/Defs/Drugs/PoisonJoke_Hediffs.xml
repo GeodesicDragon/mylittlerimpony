@@ -300,7 +300,7 @@
     <defName>MLRP_PoisonJokeIncreasedHearing</defName>
     <label>improved hearing</label>
 	<hediffClass>HediffWithComps</hediffClass>
-    <description>Increased hearing ability, one of the possible side effects of smoking poison joke.</description>
+    <description>Increased hearing, one of the possible side effects of smoking poison joke.</description>
 	<comps>
 		<li Class="HediffCompProperties_Disappears">
 			<disappearsAfterTicks>60000</disappearsAfterTicks>

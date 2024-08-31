@@ -1,0 +1,283 @@
+<LanguageData>
+
+	<!--EN: request persona core-->
+	<MLRP_NMM_AIPersonaCore.label>requête noyau IA de personnalité</MLRP_NMM_AIPersonaCore.label>
+	
+	<!--EN: Offer silver in exchange for a persona core.-->
+	<MLRP_NMM_AIPersonaCore.description>Offrir de l'argent en échange d'un noyau IA de personnalité.</MLRP_NMM_AIPersonaCore.description>
+
+	<!--EN: request healer mech serum-->
+	<MLRP_NMM_MechSerumHealer.label>requête mech-sérum guérisseur</MLRP_NMM_MechSerumHealer.label>
+	
+	<!--EN: Offer silver in exchange for a healer mech serum.-->
+	<MLRP_NMM_MechSerumHealer.description>Offrir de l'argent en échange d'un mech-sérum guérisseur.</MLRP_NMM_MechSerumHealer.description>
+
+	<!--EN: request resurrector mech serum-->
+	<MLRP_NMM_MechSerumResurrector.label>requête mech-sérum de résurrection</MLRP_NMM_MechSerumResurrector.label>
+	
+	<!--EN: Offer silver in exchange for a resurrector mech serum.-->
+	<MLRP_NMM_MechSerumResurrector.description>Offrir de l'argent en échange d'un mech-sérum de résurrection.</MLRP_NMM_MechSerumResurrector.description>
+
+	<!--EN: request techprof subpersona core-->
+	<MLRP_NMM_TechprofSubpersonaCore.label>requête noyau IA pédagogique</MLRP_NMM_TechprofSubpersonaCore.label>
+	
+	<!--EN: Offer silver in exchange for a techprof subpersona core.-->
+	<MLRP_NMM_TechprofSubpersonaCore.description>Offrir de l'argent en échange d'un noyau IA pédagogique.</MLRP_NMM_TechprofSubpersonaCore.description>
+
+	<!--EN: request elephant tusk-->
+	<MLRP_NMM_ElephantTusk.label>requête défense d'éléphant</MLRP_NMM_ElephantTusk.label>
+	
+	<!--EN: Offer silver in exchange for an elephant tusk.-->
+	<MLRP_NMM_ElephantTusk.description>Offrir de l'argent en échange d'un défense d'éléphant.</MLRP_NMM_ElephantTusk.description>
+
+	<!--EN: request thrumbo horn-->
+	<MLRP_NMM_ThrumboHorn.label>requête corne de thrumbo</MLRP_NMM_ThrumboHorn.label>
+	
+	<!--EN: Offer silver in exchange for a thrumbo horn.-->
+	<MLRP_NMM_ThrumboHorn.description>Offrir de l'argent en échange d'un corne de thrumbo.</MLRP_NMM_ThrumboHorn.description>
+
+	<!--EN: request luciferium x 5-->
+	<MLRP_NMM_Luciferium.label>requête luciferium x 5</MLRP_NMM_Luciferium.label>
+	
+	<!--EN: Offer silver and drugs in exchange for 5 luciferium pills.-->
+	<MLRP_NMM_Luciferium.description>Offrez de l'argent et des drogues en échange de 5 pilules de luciferium.</MLRP_NMM_Luciferium.description>
+
+	<!--EN: request glitterworld medicine-->
+	<MLRP_NMM_GlitterworldMedicine.label>requête médicament avancé</MLRP_NMM_GlitterworldMedicine.label>
+	
+	<!--EN: Offer silver and industrial medicine in exchange for glitterworld medicine.-->
+	<MLRP_NMM_GlitterworldMedicine.description>Offrir de l'argent et de la médecine industrielle en échange d'une médecine de pointe.</MLRP_NMM_GlitterworldMedicine.description>
+
+	<!--EN: request kibble-->
+	<MLRP_NMM_Kibble.label>requête de croquettes</MLRP_NMM_Kibble.label>
+	
+	<!--EN: Offer silver in exchange for some kibble. Expensive, but can be useful in emergencies.-->
+	<MLRP_NMM_Kibble.description>Offrez de l'argent en échange de croquettes. C'est cher, mais cela peut être utile en cas d'urgence.</MLRP_NMM_Kibble.description>
+
+	<!--EN: request antigrain warhead-->
+	<MLRP_NMM_AntigrainWarhead.label>requête un ogive à antimatière</MLRP_NMM_AntigrainWarhead.label>
+	
+	<!--EN: Offer silver and a large quantity of high explosive shells in exchange for a single antigrain warhead.-->
+	<MLRP_NMM_AntigrainWarhead.description>Offrez de l'argent et une grande quantité d'obus explosifs en échange d'une seule ogive à antimatière.</MLRP_NMM_AntigrainWarhead.description>
+
+	<!--EN: request Sunset Shimmer-->
+	<MLRP_NMM_SunsetShimmer.label>requête Sunset Shimmer</MLRP_NMM_SunsetShimmer.label>
+	
+	<!--EN: Offer silver and cloth in exchange for a Sunset Shimmer plushie.-->
+	<MLRP_NMM_SunsetShimmer.description>Offrez de l'argent et du tissu en échange d'une peluche Sunset Shimmer.</MLRP_NMM_SunsetShimmer.description>
+
+	<!--EN: request 100 neutroamine-->
+	<MLRP_NMM_Neutroamine.label>requête 100 neutroamine</MLRP_NMM_Neutroamine.label>
+	
+	<!--EN: Offer silver in exchange for 100 neutroamine.-->
+	<MLRP_NMM_Neutroamine.description>Offrez de l'argent en échange pour 100 neutroamine.</MLRP_NMM_Neutroamine.description>
+
+	<!--EN: request 50 herbal medicine-->
+	<MLRP_NMM_MedicineHerbal.label>requête 50 herbe médicinale</MLRP_NMM_MedicineHerbal.label>
+	
+	<!--EN: Offer your surplus food in exchange for herbal medicine.-->
+	<MLRP_NMM_MedicineHerbal.description>Offrez vos surplus de nourriture en échange de plantes médicinales.</MLRP_NMM_MedicineHerbal.description>
+	
+	<!--EN: request 1000 rice-->
+	<MLRP_NMM_Rice.label>requête 1000 riz</MLRP_NMM_Rice.label>
+	
+	<!--EN: Offer silver in exchange for 1000 rice.-->
+	<MLRP_NMM_Rice.description>Offrez de l'argent en échange pour 1000 riz.</MLRP_NMM_Rice.description>
+
+	<!--EN: request reinforced barrel-->
+	<MLRP_NMM_ReinforcedBarrel.label>requête canon renforcé</MLRP_NMM_ReinforcedBarrel.label>
+	
+	<!--EN: Offer silver in exchange for a reinforced barrel.-->
+	<MLRP_NMM_ReinforcedBarrel.description>Offrez de l'argent en échange pour un canon renforcé.</MLRP_NMM_ReinforcedBarrel.description>
+	
+	<!--EN: request archotech arm-->
+	<MLRP_NMM_ArchotechArm.label>requête bras archotech</MLRP_NMM_ArchotechArm.label>
+	
+	<!--EN: Offer many expensive items in exchange for an archotech arm.-->
+	<MLRP_NMM_ArchotechArm.description>Offrir de nombreux objets coûteux en échange d'un bras archotech.</MLRP_NMM_ArchotechArm.description>
+
+	<!--EN: request archotech eye-->
+	<MLRP_NMM_ArchotechEye.label>requête œil archotech</MLRP_NMM_ArchotechEye.label>
+	
+	<!--EN: Offer many expensive items in exchange for an archotech eye.-->
+	<MLRP_NMM_ArchotechEye.description>Offrir de nombreux objets coûteux en échange d'un œil archotech.</MLRP_NMM_ArchotechEye.description>
+
+	<!--EN: request archotech leg-->
+	<MLRP_NMM_ArchotechLeg.label>requête jambe archotech</MLRP_NMM_ArchotechLeg.label>
+	
+	<!--EN: Offer many expensive items in exchange for an archotech leg.-->
+	<MLRP_NMM_ArchotechLeg.description>Offrir de nombreux objets coûteux en échange d'un jambe archotech.</MLRP_NMM_ArchotechLeg.description>
+
+	<!--EN: request bionic eye-->
+	<MLRP_NMM_BionicEye.label>requête œil bionique</MLRP_NMM_BionicEye.label>
+	
+	<!--EN: Offer silver in exchange for a bionic eye.-->
+	<MLRP_NMM_BionicEye.description>Offrez de l'argent en échange pour un œil bionique.</MLRP_NMM_BionicEye.description>
+
+	<!--EN: request bionic arm-->
+	<MLRP_NMM_BionicArm.label>requête bras bionique</MLRP_NMM_BionicArm.label>
+	
+	<!--EN: Offer silver in exchange for a bionic arm.-->
+	<MLRP_NMM_BionicArm.description>Offrez de l'argent en échange pour un bras bionique.</MLRP_NMM_BionicArm.description>
+
+	<!--EN: request bionic leg-->
+	<MLRP_NMM_BionicLeg.label>requête jambe bionique</MLRP_NMM_BionicLeg.label>
+	
+	<!--EN: Offer silver in exchange for a bionic leg.-->
+	<MLRP_NMM_BionicLeg.description>Offrez de l'argent en échange pour un jambe bionique.</MLRP_NMM_BionicLeg.description>
+
+	<!--EN: request bionic spine-->
+	<MLRP_NMM_BionicSpine.label>requête colonne vertébrale bionique</MLRP_NMM_BionicSpine.label>
+	
+	<!--EN: Offer silver in exchange for a bionic spine.-->
+	<MLRP_NMM_BionicSpine.description>Offrez de l'argent en échange pour un colonne vertébrale bionique.</MLRP_NMM_BionicSpine.description>
+
+	<!--EN: request bionic heart-->
+	<MLRP_NMM_BionicHeart.label>requête cœur bionique</MLRP_NMM_BionicHeart.label>
+	
+	<!--EN: Offer silver in exchange for a bionic heart.-->
+	<MLRP_NMM_BionicHeart.description>Offrez de l'argent en échange pour un cœur bionique.</MLRP_NMM_BionicHeart.description>
+
+	<!--EN: request bionic stomach-->
+	<MLRP_NMM_BionicStomach.label>requête estomac bionique</MLRP_NMM_BionicStomach.label>
+	
+	<!--EN: Offer silver in exchange for a bionic stomach.-->
+	<MLRP_NMM_BionicStomach.description>Offrez de l'argent en échange pour un estomac bionique.</MLRP_NMM_BionicStomach.description>
+
+	<!--EN: request bionic ear-->
+	<MLRP_NMM_BionicEar.label>requête oreille bionique</MLRP_NMM_BionicEar.label>
+	
+	<!--EN: Offer silver in exchange for a bionic ear.-->
+	<MLRP_NMM_BionicEar.description>Offrez de l'argent en échange pour une oreille bionique.</MLRP_NMM_BionicEar.description>
+
+	<!--EN: request bionic tongue-->
+	<MLRP_NMM_BionicTongue.label>requête langue bionique</MLRP_NMM_BionicTongue.label>
+	
+	<!--EN: Offer silver in exchange for a bionic tongue.-->
+	<MLRP_NMM_BionicTongue.description>Offrez de l'argent en échange pour un langue bionique.</MLRP_NMM_BionicTongue.description>
+
+	<!--EN: request bionic jaw-->
+	<MLRP_NMM_BionicJaw.label>requête mâchoire bionique</MLRP_NMM_BionicJaw.label>
+	
+	<!--EN: Offer silver in exchange for a bionic jaw.-->
+	<MLRP_NMM_BionicJaw.description>Offrez de l'argent en échange pour un mâchoire bionique</MLRP_NMM_BionicJaw.description>
+		
+	<!--I couldn't find the proper translated names for these items.-->
+	<!--Je n'ai pas pu trouver les noms traduits appropriés pour ces articles.-->
+
+	<!--EN: request skilltrainer (shooting)-->
+	<MLRP_NMM_ShootingSkilltrainer.label>requête formateur (armes à feu)</MLRP_NMM_ShootingSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (shooting).-->
+	<MLRP_NMM_ShootingSkilltrainer.description>Offrir de l'argent en échange d'un formateur (armes à feu).</MLRP_NMM_ShootingSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (melee)-->
+	<MLRP_NMM_MeleeSkilltrainer.label>requête formateur (mêlée)</MLRP_NMM_MeleeSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (melee)-->
+	<MLRP_NMM_MeleeSkilltrainer.description>Offrir de l'argent en échange d'un formateur (mêlée).</MLRP_NMM_MeleeSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (construction)-->
+	<MLRP_NMM_ConstructionSkilltrainer.label>requête formateur (construction)</MLRP_NMM_ConstructionSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (construction)-->
+	<MLRP_NMM_ConstructionSkilltrainer.description>Offrir de l'argent en échange d'un formateur (construction).</MLRP_NMM_ConstructionSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (mining)-->
+	<MLRP_NMM_MiningSkilltrainer.label>requête formateur (l'exploitation minière)</MLRP_NMM_MiningSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (mining)-->
+	<MLRP_NMM_MiningSkilltrainer.description>Offrir de l'argent en échange d'un formateur (l'exploitation minière).</MLRP_NMM_MiningSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (cooking)-->
+	<MLRP_NMM_CookingSkilltrainer.label>requête formateur (cuisine)</MLRP_NMM_CookingSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (cooking)-->
+	<MLRP_NMM_CookingSkilltrainer.description>Offrir de l'argent en échange d'un formateur (cuisine).</MLRP_NMM_CookingSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (plants)-->
+	<MLRP_NMM_PlantSkilltrainer.label>requête formateur (plantes)</MLRP_NMM_PlantSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (plants)-->
+	<MLRP_NMM_PlantSkilltrainer.description>Offrir de l'argent en échange d'un formateur (plantes).</MLRP_NMM_PlantSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (animals)-->
+	<MLRP_NMM_AnimalSkilltrainer.label>requête formateur (animaux)</MLRP_NMM_AnimalSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (animals)-->
+	<MLRP_NMM_AnimalSkilltrainer.description>Offrir de l'argent en échange d'un formateur (animaux).</MLRP_NMM_AnimalSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (crafting)-->
+	<MLRP_NMM_CraftingSkilltrainer.label>requête formateur (artisanat)</MLRP_NMM_CraftingSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (crafting)-->
+	<MLRP_NMM_CraftingSkilltrainer.description>Offrir de l'argent en échange d'un formateur (artisanat).</MLRP_NMM_CraftingSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (artistic)-->
+	<MLRP_NMM_ArtisticSkilltrainer.label>requête formateur (artistique)</MLRP_NMM_ArtisticSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (artistic)-->
+	<MLRP_NMM_ArtisticSkilltrainer.description>Offrir de l'argent en échange d'un formateur (artistique).</MLRP_NMM_ArtisticSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (medicine)-->
+	<MLRP_NMM_MedicineSkilltrainer.label>requête formateur (médecine)</MLRP_NMM_MedicineSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (medicine)-->
+	<MLRP_NMM_MedicineSkilltrainer.description>Offrir de l'argent en échange d'un formateur (médecine).</MLRP_NMM_MedicineSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (social)-->
+	<MLRP_NMM_SocialSkilltrainer.label>requête formateur (sociale)</MLRP_NMM_SocialSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (social)-->
+	<MLRP_NMM_SocialSkilltrainer.description>Offrir de l'argent en échange d'un formateur (sociale).</MLRP_NMM_SocialSkilltrainer.description>
+	
+	<!--EN: request skilltrainer (intellectual)-->
+	<MLRP_NMM_IntellectualSkilltrainer.label>requête formateur (intellectuel)</MLRP_NMM_IntellectualSkilltrainer.label>
+	
+	<!--EN: Offer silver in exchange for a skilltrainer (intellectual)-->
+	<MLRP_NMM_IntellectualSkilltrainer.description>Offrir de l'argent en échange d'un formateur (intellectuel).</MLRP_NMM_IntellectualSkilltrainer.description>
+	
+	<!--Cannot translate via a base, must be done per recipe.-->
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_AIPersonaCore.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_AIPersonaCore.jobString>
+	<MLRP_NMM_MechSerumHealer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_MechSerumHealer.jobString>
+	<MLRP_NMM_MechSerumResurrector.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_MechSerumResurrector.jobString>
+	<MLRP_NMM_TechprofSubpersonaCore.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_TechprofSubpersonaCore.jobString>
+	<MLRP_NMM_ElephantTusk.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ElephantTusk.jobString>
+	<MLRP_NMM_ThrumboHorn.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ThrumboHorn.jobString>
+	<MLRP_NMM_Luciferium.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_Luciferium.jobString>
+	<MLRP_NMM_GlitterworldMedicine.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_GlitterworldMedicine.jobString>
+	<MLRP_NMM_Kibble.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_Kibble.jobString>
+	<MLRP_NMM_AntigrainWarhead.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_AntigrainWarhead.jobString>
+	<MLRP_NMM_SunsetShimmer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_SunsetShimmer.jobString>
+	<MLRP_NMM_Neutroamine.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_Neutroamine.jobString>
+	<MLRP_NMM_MedicineHerbal.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_MedicineHerbal.jobString>
+	<MLRP_NMM_Rice.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_Rice.jobString>
+	<MLRP_NMM_ReinforcedBarrel.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ReinforcedBarrel.jobString>
+	
+	<MLRP_NMM_ArchotechArm.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ArchotechArm.jobString>
+	<MLRP_NMM_ArchotechEye.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ArchotechEye.jobString>
+	<MLRP_NMM_ArchotechLeg.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ArchotechLeg.jobString>
+	
+	<MLRP_NMM_BionicEye.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicEye.jobString>
+	<MLRP_NMM_BionicArm.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicArm.jobString>
+	<MLRP_NMM_BionicLeg.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicLeg.jobString>
+	<MLRP_NMM_BionicSpine.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicSpine.jobString>
+	<MLRP_NMM_BionicHeart.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicHeart.jobString>
+	<MLRP_NMM_BionicStomach.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicStomach.jobString>
+	<MLRP_NMM_BionicEar.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicEar.jobString>
+	<MLRP_NMM_BionicJaw.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_BionicJaw.jobString>
+	
+	<MLRP_NMM_ShootingSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ShootingSkilltrainer.jobString>
+	<MLRP_NMM_MeleeSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_MeleeSkilltrainer.jobString>
+	<MLRP_NMM_MiningSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_MiningSkilltrainer.jobString>
+	<MLRP_NMM_CookingSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_CookingSkilltrainer.jobString>
+	<MLRP_NMM_PlantSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_PlantSkilltrainer.jobString>
+	<MLRP_NMM_AnimalSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_AnimalSkilltrainer.jobString>
+	<MLRP_NMM_CraftingSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_CraftingSkilltrainer.jobString>
+	<MLRP_NMM_ArtisticSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ArtisticSkilltrainer.jobString>
+	<MLRP_NMM_MedicineSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_MedicineSkilltrainer.jobString>
+	<MLRP_NMM_SocialSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_SocialSkilltrainer.jobString>
+	<MLRP_NMM_IntellectualSkilltrainer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_IntellectualSkilltrainer.jobString>
+
+</LanguageData>

@@ -1,0 +1,63 @@
+<LanguageData>
+
+	<!--EN: Plushie traders can be requested from most factions via the comms console.-->
+	<MyLittleRimPony_Tips.PlushieTrader>Les marchands de peluches peuvent être demandés à la plupart des factions via la console de communication.</MyLittleRimPony_Tips.PlushieTrader>
+	
+	<!--EN: The Orbital Friendship Cannon can be rearmed using 100 gold.-->
+	<MyLittleRimPony_Tips.OFCWeapon>Le canon d'amitié orbital peut être réarmé avec 100 d'or.</MyLittleRimPony_Tips.OFCWeapon>
+	
+	<!--EN: The wife thrower has slightly better long range accuracy than a pila, and can be thrown twice as fast.-->
+	<MyLittleRimPony_Tips.WifeThrower>Le lanceur d'épouses a une précision à longue distance légèrement supérieure à celle du pila et peut être lancé deux fois plus vite.</MyLittleRimPony_Tips.WifeThrower>
+	
+	<!--EN: The Celestia plush can be used to counteract the effects of the 'nervous' and 'volatile' traits.-->
+	<MyLittleRimPony_Tips.Celestia>La peluche Celestia peut être utilisée pour contrer les effets des traits "nerveux" et "volatile".</MyLittleRimPony_Tips.Celestia>
+	
+	<!--EN: The Cadence plush can be used to counteract the effect of the 'wimp' trait.-->
+	<MyLittleRimPony_Tips.Cadence>La peluche Cadence peut être utilisée pour contrer les effets du trait "mauviette".</MyLittleRimPony_Tips.Cadence>
+	
+	<!--EN: Giving a Luna plush to a pawn with the 'quick sleeper' trait will make them rest twice as fast.-->
+	<MyLittleRimPony_Tips.Luna>Donner une peluche Luna à un pion ayant le trait "dormeur rapide" lui permettra de se reposer deux fois plus vite.</MyLittleRimPony_Tips.Luna>
+	
+	<!--EN: Giving a Cheerilee plush to a pawn with the 'fast learner' trait will help them improve their skills faster.-->
+	<MyLittleRimPony_Tips.Cheerilee>Donner une peluche Cheerilee à un pion ayant le trait "Apprentissage rapide" l'aidera à améliorer ses compétences plus rapidement.</MyLittleRimPony_Tips.Cheerilee>
+	
+	<!--EN: Giving a Starlight Glimmer plush to a pawn with the 'psychically hypersensitive' or 'psychically sensitive' traits will lower - or even eliminate - the mood penalty from psychic drones.-->
+	<MyLittleRimPony_Tips.Starlight>Donner une peluche Starlight Glimmer à un pion ayant les caractéristiques "hypersensible psychique" ou "sensible psychique" diminuera, voire éliminera, la pénalité d'humeur des drones psychiques.</MyLittleRimPony_Tips.Starlight>
+	
+	<!--EN: Giving a Sweetie Belle plush to a pawn with low Cooking skill will slightly reduce the chance of them poisoning meals.-->
+	<MyLittleRimPony_Tips.SweetieBelle>Donner une peluche Sweetie Belle à un pion ayant une faible compétence en cuisine réduira légèrement le risque qu'il empoisonne ses repas.</MyLittleRimPony_Tips.SweetieBelle>
+	
+	<!--EN: Screwball generators can be built from pretty much any material, including wood.-->
+	<MyLittleRimPony_Tips.Screwball>Les générateurs de boules de feu peuvent être construits à partir de n'importe quel matériau, y compris le bois.</MyLittleRimPony_Tips.Screwball>
+	
+	<!--EN: Since Discord lamps don't require power, they are able to continue providing light during solar flares.-->
+	<MyLittleRimPony_Tips.DiscordLamp>Les lampes de la discorde n'ayant pas besoin d'être alimentées en électricité, elles peuvent continuer à fournir de la lumière pendant les éruptions solaires.</MyLittleRimPony_Tips.DiscordLamp>
+	
+	<!--EN: If you have the XML Extensions mod enabled, you can configure many parts of this mod to your liking, such as whether or not bronies can be violent and how many textiles you need to craft plushies.-->
+	<MyLittleRimPony_Tips.XMLExtensions>Si vous avez activé le mod XML Extensions, vous pouvez configurer de nombreuses parties de ce mod à votre convenance, comme le fait de savoir si les bronies peuvent être violents ou non et combien de textiles sont nécessaires pour fabriquer des peluches.</MyLittleRimPony_Tips.XMLExtensions>
+	
+	<!--EN: Nurse Redheart will spawn medicine as long as she has enough power.-->
+	<MyLittleRimPony_Tips.NurseRedheart>L'infirmière Redheart produira des médicaments tant qu'elle aura assez d'énergie.</MyLittleRimPony_Tips.NurseRedheart>
+	
+	<!--EN: The Super Speedy Cider Squeezy 6000 will spawn beer as long as it has enough power.-->
+	<MyLittleRimPony_Tips.SSCS6K>Le Super Speedy Cider Squeezy 6000 produira de la bière tant qu'il aura assez d'énergie.</MyLittleRimPony_Tips.SSCS6K>
+	
+	<!--EN: Mudbriar, Quibble Pants and Zephyr Breeze turrets do no damage, but can help to distract raiders. They are, however, quite expensive to build.-->
+	<MyLittleRimPony_Tips.AggroTurrets>Les tourelles Mudbriar, Quibble Pants et Zephyr Breeze ne font pas de dégâts, mais peuvent aider à distraire les pillards. Elles sont cependant assez chères à construire.</MyLittleRimPony_Tips.AggroTurrets>
+	
+	<!--EN: The Fleur de Lis plush can be used to counter the effects of the 'ugly' traits.-->
+	<MyLittleRimPony_Tips.Fleur>La peluche Fleur de Lis peut être utilisée pour contrer les effets des traits "laids".</MyLittleRimPony_Tips.Fleur>
+	
+	<!--EN: The Nightmare Moon statue allows you to acquire many exotic items using silver, which is handy if your colonists lack the skills, though it does work out to be more expensive than acquiring them normally.-->
+	<MyLittleRimPony_Tips.NightmareMoon>La statue Lune cauchemardesque vous permet d'acquérir de nombreux objets exotiques en utilisant de l'argent, ce qui est pratique si vos colons n'ont pas les compétences nécessaires, bien que cela revienne plus cher que de les acquérir normalement.</MyLittleRimPony_Tips.NightmareMoon>
+	
+	<!--EN: The Daybreaker statue lets you convert 100 steel, plasteel, uranium, jade or gold into the market value equivalent of another. She will also let you create components (regular and advanced) much faster than using a fabrication bench, but bear in mind that chemfuel is required for everything she does.-->
+	<MyLittleRimPony_Tips.Daybreaker>La statue Daybreaker vous permet de convertir 100 pièces d'acier, de plasteel, d'uranium, de jade ou d'or en l'équivalent de la valeur marchande d'une autre pièce. Elle vous permettra également de créer des composants (ordinaires et avancés) beaucoup plus rapidement qu'en utilisant un banc de fabrication, mais gardez à l'esprit que le carburant chimique est nécessaire pour tout ce qu'elle fait.</MyLittleRimPony_Tips.Daybreaker>
+	
+	<!--EN: Poison joke will affect a pawns consciousness, moving, manipulation, talking, eating, sight, hearing or breathing in either a positive or negative way.-->
+	<MyLittleRimPony_Tips.PoisonJokeEffect>La blague empoisonnée affectera la conscience, les mouvements, la manipulation, la parole, l'alimentation, la vue, l'ouïe ou la respiration d'un pion de manière positive ou négative.</MyLittleRimPony_Tips.PoisonJokeEffect>
+	
+	<!--EN: Poison joke has a chance of inflicting a pawn with the Cutie Pox.-->
+	<MyLittleRimPony_Tips.PoisonJokeCutiePox>La blague empoisonnée a une chance d'infliger à un pion la Cutie Pox.</MyLittleRimPony_Tips.PoisonJokeCutiePox>
+
+</LanguageData>

@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Slavery">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_KingSombra</defName>
 		<label>King Sombra</label>
 		<description>If there's one thing King Sombra truly understands, it is fear.\n\nWhen your slaves carry him, they feel less likely to fight back.</description>

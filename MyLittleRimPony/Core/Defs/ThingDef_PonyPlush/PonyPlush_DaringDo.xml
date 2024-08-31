@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Combat">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_DaringDo</defName>
 		<label>Daring Do</label>
 		<description>As a brave treasure hunter, Daring Do has had to deal with more than her fair share of traps.\n\nCarrying her makes you feel as though you can dodge danger a bit easier.</description>

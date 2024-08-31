@@ -3,7 +3,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_NurseRedheart</defName>
     <label>Nurse Redheart</label>
-    <description>As a nurse, Redheart has seen it all; she knows that being prepared for any eventuality is of vital importance.\n\nGenerates 5 Medicine every 10 days.</description>
+    <description>As a nurse, Redheart has seen it all; she knows that being prepared for any eventuality is of vital importance.\n\nThis building will generate medicine after a set period of time.</description>
     <graphicData>
       <texPath>Things/Building/NurseRedheart</texPath>
       <graphicClass>Graphic_Single</graphicClass>

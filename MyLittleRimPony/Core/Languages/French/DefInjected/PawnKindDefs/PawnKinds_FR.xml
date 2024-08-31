@@ -1,0 +1,31 @@
+<LanguageData>
+
+	<!--EN: mayor/mayors-->
+	<Brony_Leader.label>maire</Brony_Leader.label>
+	<Brony_Leader.labelPlural>maires</Brony_Leader.labelPlural>
+
+	<!--EN: villager/villagers-->
+	<Brony_Villager.label>habitant</Brony_Villager.label>
+	<Brony_Villager.labelPlural>habitants</Brony_Villager.labelPlural>
+
+	<!--EN: trader/traders-->
+	<Brony_Trader.label>commerçant</Brony_Trader.label>
+	<Brony_Trader.labelPlural>commerçants</Brony_Trader.labelPlural>
+
+	<!--EN: brony mercenary/brony mercenaries-->
+	<Brony_Mercenary.label>mercenaire brony</Brony_Mercenary.label>
+	<Brony_Mercenary.labelPlural>mercenaires brony</Brony_Mercenary.labelPlural>
+
+	<!--EN: brony mercenary grenadier/brony mercenary grenadiers-->
+	<Brony_Mercenary_Grenadier.label>mercenaire brony grenadier</Brony_Mercenary_Grenadier.label>
+	<Brony_Mercenary_Grenadier.labelPlural>mercenaire brony grenadiers</Brony_Mercenary_Grenadier.labelPlural>
+
+	<!--EN: melee brony mercenary/melee brony mercenaries-->
+	<Brony_Mercenary_Melee.label>mêlée brony mercenaire</Brony_Mercenary_Melee.label>
+	<Brony_Mercenary_Melee.labelPlural>mêlée brony mercenaires</Brony_Mercenary_Melee.labelPlural>
+
+	<!--EN: elite brony mercenary/elite brony mercenaries-->
+	<Brony_Mercenary_Elite.label>mercenaire brony d'élite</Brony_Mercenary_Elite.label>
+	<Brony_Mercenary_Elite.labelPlural>mercenaires brony d'élite</Brony_Mercenary_Elite.labelPlural>
+
+</LanguageData>

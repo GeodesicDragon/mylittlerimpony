@@ -15,8 +15,7 @@
                 <li>name->[MaleLastName] [MaleFirstName]</li>
 				<li>name->[RandomWord] [RandomWord]</li> <!--Will more than likely generate some weird combinations-->
                 <li>name->[MaleSingleName]</li>
-				<!--Use what few male names we DO have where possible-->
-                <li>name->Hitch Trailblazer</li>
+				<!--G4 Stallions-->
                 <li>name->Filthy Rich</li>
                 <li>name->Big Macintosh</li>
                 <li>name->Carrot Cake</li>
@@ -38,9 +37,17 @@
                 <li>name->Quibble Pants</li>
                 <li>name->Sky Stinger</li>
                 <li>name->Snap Shutter</li>
-                <li>name->Sprout Cloverleaf</li>
-                <li>name->Zephyr Breeze</li>
                 <li>name->Mudbriar</li>
+                <li>name->Zephyr Breeze</li>
+				<!--G5 Stallions-->
+				<li>name->Hitch Trailblazer</li>
+                <li>name->Sprout Cloverleaf</li>
+                <li>name->Rocky Riff</li>
+				<li>name->Argyle Starshine</li>
+				<li>name->Skye Silver</li>
+				<li>name->Thunder Flap</li>
+				<li>name->Dapple</li>
+				<li>name->Rufus</li>
 				<!--Use some OC names too; contact me on Discord if you'd like yours added-->
 				<li>name->Doctor Haywick</li>
 				<li>name->Aquilla Hawkmoon</li>
@@ -101,12 +108,26 @@
 				<li>name->Sweetie Belle</li>
 				<li>name->Apple Bloom</li>
 				<li>name->Scootaloo</li>
-				<!--Mane Six (G5)-->
+				<!--G5 Mares-->
 				<li>name->Sunny Starscout</li>
 				<li>name->Izzy Moonbow</li>
 				<li>name->Zipp Storm</li>
 				<li>name->Pipp Petals</li>
 				<li>name->Misty Brightdawn</li>
+				<li>name->Phyllis Cloverleaf</li>
+				<li>name->Elder Flower</li>
+				<li>name->Posey Bloom</li>
+				<li>name->Jazz Hooves</li>
+				<li>name->Queen Haven</li>
+				<li>name->Dazzle Feather</li>
+				<li>name->Zoom Zephyrwing</li>
+				<li>name->Windy</li>
+				<li>name->Onyx</li>
+				<li>name->Glory</li>
+				<li>name->Peach Fizz</li>
+				<li>name->Seashell</li>
+				<li>name->Sugar Moonlight</li>
+				<li>name->Mint Grove</li>
 				<!--Villains too because why not?-->
 				<li>name->Nightmare Moon</li>
 				<li>name->Daybreaker</li>

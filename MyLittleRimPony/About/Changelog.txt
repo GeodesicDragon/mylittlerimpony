@@ -1,3 +1,75 @@
+Version 6.0.0 (August 31st 2024)
+
+* Added French localisation. Ajout de la localisation en français.
+	* Les traductions ont été effectuées via DeepL. Si elles sont incorrectes, merci de me le faire savoir via mon serveur Discord.
+	* Thanks to Thrawn, IL Whisperer from the official RimWorld server for helping me fix some localisation issues.
+* Core: Removed support for version 1.4 of RimWorld.
+* Core: Removed character quotes from the lists of tips.
+* Core: Added ruined plushies.
+	* Made of various materials.
+	* Anti bronies have a chance of having up to two among their possessions.
+	* Can be recycled to recover 75 of whatever material it is made from (once the research is complete).
+	* Can be looted from tribals, outlanders, pirates, imperials (Royalty) and Diamond Dogs (Biotech).
+	* If you have my Hooligans faction mod enabled, they'll drop them as well.
+	* I know the texture is crap; it's just a placeholder until I can find something better.
+* Core: Added a recipe to the Nightmare Moon statue which lets you request reinforced barrels.
+	* Costs 900 silver.
+	* Becomes available once you research mortars.
+* Core: Added a recipe to the Daybreaker statue which lets you bulk manufacture wort.
+	* Makes 25 wort at the cost of 125 hops.
+	* Does not require chemfuel.
+	* Unlocked when brewing is researched.
+* Core: Added some more names to the list for NPC brony faction pawns.
+* Biotech: Added Diamond Dog archers.
+	* Equipped with plate armour, like their melee counterparts.
+	* Armed with a greatbow if Anomaly isn't enabled; if it is, they will use nerve spikers instead.
+* XML Extensions: Added an option to change the texture of the Twilight Sparkle plushie back to the old one.
+* Core: Changed the texture of the Twilight Sparkle plushie.
+* Core: The plushie recycling recipe has been updated to work with ruined plushies; you can no longer use it to recycle intact ones.
+* Core: The research tracker has been moved to the main DLL file; as a result, Harmony is now required to use this mod.
+* Core: Removed Manifest.xml file.
+* Core: Reduced the number of times thought effects from party cannons can be stacked to 1 (was 3).
+* Core: Reduced the pain reduction of plushies to 5% (was 10).
+* Core: Nightmare Moon is no longer accepting item returns.
+* Core: Fixed an issue which could cause a pawn to have both the brony and anti brony traits at once.
+* Core: Fixed the bulk psychite tea recipe at the Daybreaker statue not being unlocked when the relevant research was completed.
+* Core: Fixed incorrect description for the request rice recipe at the Nightmare Moon statue.
+* Core: Fixed incorrect description on the convert uranium to silver recipe.
+* Core: Fixed incorrect label on the purchasing bluefur recipe.
+* Core: The Stone Exchange no longer breaks down.
+* Core: The Fabric Exchange no longer breaks down.
+* Core: Pawns with the psychically dull and psychically deaf traits are no longer immune to the mood-boosting effect of the party cannon.
+* Core: Changed the sound heard when equipping a rainbow laser.
+* Royalty: Increased the length of time pawns you use the improve relations psycast on will wander around for to 10 seconds (was 3).
+* Royalty: Increased the radius that pawns you use the improve relations psycast on will wander around in to 6 (was 9).
+* Anomaly: All Thingpone recipes now require half the amount of twisted meat as they do silver, since I felt it was too easy to get stuff.
+	* Deadlife shell: 30 silver and 15 twisted meat.
+	* Voidsight serum: 90 silver and 45 twisted meat.
+	* Metalblood serum: 300 silver and 150 twisted meat.
+	* Juggernaut serum: 300 silver and 150 twisted meat.
+	* Mind-numb serum: 120 silver and 60 twisted meat.
+	* Ghoul resurrection serum: 90 silver and 45 twisted meat.
+* Anomaly: Increased twisted meat cost of acquiring a shard from Thingpone to 500 (was 250).
+* Addictol: The patch for this mod now only checks for the 1.5 version by Ganjaman.
+* Combat Extended: Updated a few patches.
+	* Aggro turrets: Removed recoil.
+	* Rainbow Laser: Added recoil.
+	* Sweetie Bot mechanoid: Removed duplicate patches.
+	* Sweetie Bot turret: Removed recoil.
+	* Tennis ball launcher: Added recoil.
+	* Tennis ball launcher: Izzy's horn now has poking capabilities.
+	* Wife thrower: Removed recoil.
+* Harmony: Fixed letter not being sent when researching drug production.
+* Harmony: Fixed letter not being sent when researching psychite refining.
+* Harmony: Fixed letter not being sent when researching psychoid brewing.
+* Harmony: Fixed letter not being sent when researching wake-up production.
+* Harmony: Fixed letter not being sent when researching go-juice production.
+* Harmony: Fixed letter not being sent when researching penoxycyline production.
+* Ponies of the Rim: Fixed typo in anti brony trait description.
+* Ponies of the Rim: Ponies added by this mod can no longer spawn as any of the xenotypes added by MLRP, nor with any of the genes. Any pawns that already exist in your colony with either will remain as they are.
+* Vanilla Recycling Expanded: Fixed being able to make trashbricks at Daybreaker before researching complex recycling.
+* Vanilla Recycling Expanded: Buying and selling trashbricks at the Stone Exchange now requires you to research complex recycling.
+
 Version 5.42.72 (June 23rd 2024)
 
 * Core: Added a recipe to the Nightmare Moon statue to request 1000 units of rice at a cost of 1200 silver.

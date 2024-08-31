@@ -1,39 +1,31 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 
 <Operation Class="PatchOperationFindMod">
     <mods>
-        <li>Addictol - Addiction Removal</li>
-        <li>Addictol [≤1.3]</li>
-		<li>Addictol [1.4]</li>
+        <li>Addictol (continued)</li>
     </mods>
-    <match Class="PatchOperationAdd">
-	    <xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader"]/stockGenerators</xpath>
-	    <value>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Addictol</thingDef>
-				<countRange>3</countRange>
+    <match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>Addictol</thingDef>
+						<countRange>3</countRange>
+					</li>
+				</value>
 			</li>
-	    </value>
-    </match>
-</Operation>
-
-<Operation Class="PatchOperationFindMod">
-    <mods>
-        <li>Addictol - Addiction Removal</li>
-		<li>Addictol [≤1.3]</li>
-        <li>Addictol [1.4]</li>
-    </mods>
-    <match Class="PatchOperationAdd">
-	    <xpath>/Defs/TraderKindDef[defName="MLRP_NPCFaction_CombatSupplier"]/stockGenerators</xpath>
-	    <value>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Addictol</thingDef>
-				<countRange>1</countRange>
-			</li>
-	    </value>
-    </match>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="MLRP_NPCFaction_CombatSupplier"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>Addictol</thingDef>
+						<countRange>1</countRange>
+					</li>
+				</value>
+			</li>			
+		</operations>
+	</match>
 </Operation>
 	
 </Patch>

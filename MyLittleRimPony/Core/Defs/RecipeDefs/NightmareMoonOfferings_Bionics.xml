@@ -1,11 +1,8 @@
 <Defs>
 
-<!--BIONIC EYE-->
+<!--BASE-->
 
-<RecipeDef>
-	<defName>MLRP_NMM_BionicEye</defName>
-	<label>request bionic eye</label>
-	<description>Offer silver in exchange for a bionic eye.</description>
+<RecipeDef Name="NMM_BionicRequestBase" Abstract="True">
 	<researchPrerequisite>Bionics</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -17,6 +14,14 @@
 	<recipeUsers>
 		<li>MLRP_NightmareMoon</li>
 	</recipeUsers>
+</RecipeDef>
+
+<!--BIONIC EYE-->
+
+<RecipeDef ParentName="NMM_BionicRequestBase">
+	<defName>MLRP_NMM_BionicEye</defName>
+	<label>request bionic eye</label>
+	<description>Offer silver in exchange for a bionic eye.</description>
     <ingredients>
 		<li>
 			<filter>
@@ -34,21 +39,10 @@
 
 <!--BIONIC ARM-->
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicRequestBase">
 	<defName>MLRP_NMM_BionicArm</defName>
 	<label>request bionic arm</label>
 	<description>Offer silver in exchange for a bionic arm.</description>
-	<researchPrerequisite>Bionics</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -66,21 +60,10 @@
 
 <!--BIONIC LEG-->
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicRequestBase">
 	<defName>MLRP_NMM_BionicLeg</defName>
 	<label>request bionic leg</label>
 	<description>Offer silver in exchange for a bionic leg.</description>
-	<researchPrerequisite>Bionics</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -98,22 +81,11 @@
 
 <!--BIONIC SPINE-->
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicRequestBase">
 	<defName>MLRP_NMM_BionicSpine</defName>
 	<label>request bionic spine</label>
 	<description>Offer silver in exchange for a bionic spine.</description>
-	<researchPrerequisite>Bionics</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
-    <ingredients>
+	<ingredients>
 		<li>
 			<filter>
 				<thingDefs>
@@ -130,22 +102,11 @@
 
 <!--BIONIC HEART-->
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicRequestBase">
 	<defName>MLRP_NMM_BionicHeart</defName>
 	<label>request bionic heart</label>
 	<description>Offer silver in exchange for a bionic heart.</description>
-	<researchPrerequisite>Bionics</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
-    <ingredients>
+	<ingredients>
 		<li>
 			<filter>
 				<thingDefs>
@@ -162,22 +123,11 @@
 
 <!--BIONIC STOMACH-->
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicRequestBase">
 	<defName>MLRP_NMM_BionicStomach</defName>
 	<label>request bionic stomach</label>
 	<description>Offer silver in exchange for a bionic stomach.</description>
-	<researchPrerequisite>Bionics</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
-    <ingredients>
+	<ingredients>
 		<li>
 			<filter>
 				<thingDefs>
@@ -194,21 +144,10 @@
 
 <!--BIONIC EAR-->
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicRequestBase">
 	<defName>MLRP_NMM_BionicEar</defName>
 	<label>request bionic ear</label>
 	<description>Offer silver in exchange for a bionic ear.</description>
-	<researchPrerequisite>Bionics</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -226,21 +165,31 @@
 
 <!--BIONIC TONGUE-->
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicRequestBase">
 	<defName>MLRP_NMM_BionicTongue</defName>
 	<label>request bionic tongue</label>
 	<description>Offer silver in exchange for a bionic tongue.</description>
-	<researchPrerequisite>Bionics</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicTongue>1</BionicTongue>
+	</products>
+</RecipeDef>
+
+<!--BIONIC JAW-->
+
+<RecipeDef ParentName="NMM_BionicRequestBase">
+	<defName>MLRP_NMM_BionicJaw</defName>
+	<label>request bionic jaw</label>
+	<description>Offer silver in exchange for a bionic jaw.</description>
     <ingredients>
 		<li>
 			<filter>
@@ -252,7 +201,7 @@
 		</li>
 	</ingredients>
 	<products>
-		<BionicTongue>1</BionicTongue>
+		<BionicJaw>1</BionicJaw>
 	</products>
 </RecipeDef>
 

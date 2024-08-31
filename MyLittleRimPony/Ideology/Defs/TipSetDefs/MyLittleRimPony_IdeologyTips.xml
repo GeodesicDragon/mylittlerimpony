@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<TipSetDef>
+	<defName>MyLittleRimPony_IdeologyTips</defName>
+	<tips>
+		<li TKey="FlimAndFlam">The Flim and Flam plush increases your pawns conversion power.</li>
+		<li TKey="KingSombra">The King Sombra plush can be given to your slaves to further increase their suppression.</li>
+		<li TKey="QueenChrysalis">The Queen Chrysalis plush can be given to your wardens to make them more effective at suppressing your slaves.</li>
+		<li TKey="HarmonyPrecept">The Harmony precept requires the Individualist meme, and applies powerful bonuses to all of your colonists.</li>
+	</tips>
+</TipSetDef>
+
+</Defs>

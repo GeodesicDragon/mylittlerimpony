@@ -1,0 +1,42 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_DiamondDog_Faction"]/description</xpath>
+					<value>
+						<description>A colony of people who have undergone xenotype implantation to become Diamond Dogs. They have a zero tolerance approach to outsiders, and will attack anyone who is not one of them. In combat, they rely on melee combatants wearing plate armour supported by archers using nerve spikers.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="DiamondDogArcher"]/weaponTags</xpath>
+					<value>
+						<weaponTags>
+							<li>NerveSpiker</li>
+						</weaponTags>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="DiamondDogArcher"]/weaponMoney</xpath>
+					<value>
+						<weaponMoney>
+							<min>300</min>
+							<max>500</max>
+						</weaponMoney>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="DiamondDogArcher"]/combatPower</xpath>
+					<value>
+						<combatPower>60</combatPower>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

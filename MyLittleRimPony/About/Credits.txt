@@ -42,8 +42,9 @@ Starlight Glimmer: zacatron94/BrunoMilan13 (1426211)
 Sunset Shimmer: shizow (2810521)
 Sweetie Belle: sirwarluscake (1184509)*
 Sweetie Bot: weegeestareatyou (1180288)
-Twilight Sparkle (alicorn): andoanimalia (2521465)
-Twilight Sparkle (unicorn): redpandapony (2779548)***
+Alicorn Twilight Sparkle: andoanimalia (2521465)
+Ruler of Equestria Twilight Sparkle: andoanimalia (2280601)
+Unicorn Twilight Sparkle: redpandapony (2779548)***
 Elements of Harmony: spiritofthwwolf (sic) (63922)*
 Cutie Mark Crusaders: parclytaxel (1761090)*
 
@@ -139,6 +140,8 @@ Diamond Dog xenotype icon (Biotech): https://game-icons.net/1x1/lorc/diamond-har
 Diamond Dog faction icon (Biotech): https://game-icons.net/1x1/lorc/cut-diamond.html
 Batpony xenotype icon (Biotech): https://game-icons.net/1x1/lorc/batwing-emblem.html
 Batpony xenotype faction icon (Biotech): https://game-icons.net/1x1/delapouite/bat.html
+
+Destroyed plushie: https://game-icons.net/1x1/delapouite/ball-pyramid.html
 
 SOUNDS
 

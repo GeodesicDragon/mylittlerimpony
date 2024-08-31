@@ -8,11 +8,12 @@
 			<label>brony</label>
 			<description>{PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, {PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.</description>
 			<skillGains>
-				<li>
-					<key>Social</key>
-					<value>6</value>
-				</li>
+				<Social>6</Social>
 			</skillGains>
+			<possessions>
+				<MLRP_ElementsOfHarmony>-3~1</MLRP_ElementsOfHarmony>
+				<MLRP_ElementsOfHarmonyWeaponised>-98~1</MLRP_ElementsOfHarmonyWeaponised> <!--Does this equal a 1% chance, or am I overthinking it?-->
+			</possessions>
 		</li>
 	</degreeDatas>
 	<conflictingTraits>
@@ -27,12 +28,15 @@
 	<degreeDatas>
 		<li>
 			<label>anti brony</label>
-			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does.\n\n{PAWN_pronoun} gets a mood loss from equipping pony plushies.</description>
+			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does. {PAWN_pronoun} will get a mood loss from equipping pony plushies.</description>
+			<possessions>
+				<PonyPlush_Ruined>0~2</PonyPlush_Ruined>
+			</possessions>
 		</li>
 	</degreeDatas>
-	<conflictingTraits>
+	<!--<conflictingTraits>
 		<li>MLRP_BronyTrait</li>
-	</conflictingTraits>
+	</conflictingTraits>-->
 </TraitDef>
   
   <ThoughtDef>

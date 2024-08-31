@@ -123,7 +123,7 @@
 <!--PURCHASE 500 OF EVERY VANILLA BLOCK-->
 
 <RecipeDef ParentName="MLRP_SE_RecipeBase">
-	<defName>MLRP_SE_OneHundredVanillaBlocks</defName>
+	<defName>MLRP_SE_OneHundredVanillaBlocks</defName> <!--I made a mistake here, but I can't change it because it might cause problems.-->
 	<label>purchase 500 of each</label>
 	<description>Purchase 500 each of granite, limestone, marble, sandstone and slate blocks.</description>
     <ingredients>

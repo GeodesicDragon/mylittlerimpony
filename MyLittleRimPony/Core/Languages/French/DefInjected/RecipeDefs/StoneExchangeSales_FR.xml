@@ -1,0 +1,47 @@
+<LanguageData>
+
+	<!--EN: purchase granite blocks-->
+	<MLRP_SE_GraniteBlocks.label>achat de blocs de granit</MLRP_SE_GraniteBlocks.label>
+	
+	<!--EN: Use silver to purchase 100 granite blocks.-->
+	<MLRP_SE_GraniteBlocks.description>Utilisez argent pour acheter 100 blocs de granit.</MLRP_SE_GraniteBlocks.description>
+
+	<!--EN: purchase limestone blocks-->
+	<MLRP_SE_LimestoneBlocks.label>achat de calcaire blocs</MLRP_SE_LimestoneBlocks.label>
+	
+	<!--EN: Use silver to purchase 100 limestone blocks.-->
+	<MLRP_SE_LimestoneBlocks.description>Utilisez argent pour acheter 100 blocs de calcaire.</MLRP_SE_LimestoneBlocks.description>
+
+	<!--EN: purchase marble blocks-->
+	<MLRP_SE_MarbleBlocks.label>achat de blocs de marbre</MLRP_SE_MarbleBlocks.label>
+	
+	<!--EN: Use silver to purchase 100 marble blocks.-->
+	<MLRP_SE_MarbleBlocks.description>Utilisez argent pour acheter 100 blocs de marbre.</MLRP_SE_MarbleBlocks.description>
+
+	<!--EN: purchase sandstone blocks-->
+	<MLRP_SE_SandstoneBlocks.label>achat de blocs de grès</MLRP_SE_SandstoneBlocks.label>
+	
+	<!--EN: Use silver to purchase 100 sandstone blocks.-->
+	<MLRP_SE_SandstoneBlocks.description>Utilisez argent pour acheter 100 blocs de grès.</MLRP_SE_SandstoneBlocks.description>
+
+	<!--EN: purchase slate blocks-->
+	<MLRP_SE_SlateBlocks.label>achat de blocs d'ardoise</MLRP_SE_SlateBlocks.label>
+	
+	<!--EN: Use silver to purchase 100 slate blocks.-->
+	<MLRP_SE_SlateBlocks.description>Utilisez argent pour acheter 100 blocs d'ardoise.</MLRP_SE_SlateBlocks.description>
+
+	<!--EN: purchase 500 of each-->
+	<MLRP_SE_OneHundredVanillaBlocks.label>acheter 500 de chaque</MLRP_SE_OneHundredVanillaBlocks.label>
+	
+	<!--EN: Purchase 500 each of granite, limestone, marble, sandstone and slate blocks.-->
+	<MLRP_SE_OneHundredVanillaBlocks.description>Acheter 500 blocs de granit, de calcaire, de marbre, de grès et d'ardoise.</MLRP_SE_OneHundredVanillaBlocks.description>
+	
+	<!--EN: Purchasing materials-->
+	<MLRP_SE_GraniteBlocks.jobString>Achat de blocs de pierre</MLRP_SE_GraniteBlocks.jobString>
+	<MLRP_SE_LimestoneBlocks.jobString>Achat de blocs de pierre</MLRP_SE_LimestoneBlocks.jobString>
+	<MLRP_SE_MarbleBlocks.jobString>Achat de blocs de pierre</MLRP_SE_MarbleBlocks.jobString>
+	<MLRP_SE_SandstoneBlocks.jobString>Achat de blocs de pierre</MLRP_SE_SandstoneBlocks.jobString>
+	<MLRP_SE_SlateBlocks.jobString>Achat de blocs de pierre</MLRP_SE_SlateBlocks.jobString>
+	<MLRP_SE_OneHundredVanillaBlocks.jobString>Achat de blocs de pierre</MLRP_SE_OneHundredVanillaBlocks.jobString>
+
+</LanguageData>

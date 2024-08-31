@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Work">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_SweetieBelle</defName>
 		<label>Sweetie Belle</label>
 		<description>Sweetie Belle is, as her name implies, very sweet; unfortunately, the same cannot be said for her cooking.\n\nCarrying her reminds you of her culinary disasters, but at least the memories make you more confident in your own cooking ability.</description>

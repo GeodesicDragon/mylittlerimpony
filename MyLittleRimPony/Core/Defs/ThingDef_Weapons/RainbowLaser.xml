@@ -40,7 +40,7 @@
 
     <ThingDef ParentName="MLRP_MakeableWeapon">
     <defName>MLRP_ElementsOfHarmonyWeaponised</defName>
-    <label>Rainbow Laser</label>
+    <label>Rainbow laser</label>
     <description>This version of the Elements of Harmony tends to put more emphasis on the 'harm' part.</description>
 	<descriptionHyperlinks>
 		<ThingDef>MLRP_ElementsOfHarmony</ThingDef>
@@ -51,7 +51,7 @@
 	  <drawSize>(1,1)</drawSize>
     </graphicData>
     <uiIconScale>1</uiIconScale>
-    <soundInteract>Standard_Pickup</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 	<relicChance>0</relicChance>
     <statBases>

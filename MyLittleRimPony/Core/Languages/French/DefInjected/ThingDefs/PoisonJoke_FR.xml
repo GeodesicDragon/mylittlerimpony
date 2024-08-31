@@ -1,0 +1,27 @@
+<LanguageData>
+
+	<!--EN: Herbal cure kit-->
+	<MLRP_PoisonJokeAddictionCureKit.label>kit de cure à base de plantes</MLRP_PoisonJokeAddictionCureKit.label>
+	
+	<!--EN: Originally intended as a way of removing poison joke addiction, it soon became apparent that this Equestrian herbal remedy was also strong enough to cure a range of other afflictions.\n\nCures flu, malaria, food poisoning, poison joke adddiction and poison joke tolerance. It also has a very low chance of curing the Cutie Pox.-->
+	<MLRP_PoisonJokeAddictionCureKit.description>Conçu à l'origine pour soigner l'addiction aux plaisanteries empoisonnées, il est vite apparu que ce remède à base de plantes originaire d'Equestria était également assez puissant pour guérir toute une série d'autres afflictions.\n\nIl guérit la grippe, la malaria, les intoxications alimentaires, la dépendance aux blagues vénéneuses et la tolérance aux blagues vénéneuses. Il a également une très faible chance de guérir la vérole de la mignonne lorsqu'il est utilisé.</MLRP_PoisonJokeAddictionCureKit.description>
+	
+	<!--EN: poison joke plant-->	
+	<MLRP_PoisonJokePlant.label>plante de plaisanterie empoisonnée</MLRP_PoisonJokePlant.label>
+	
+	<!--EN: A genetically engineered plant that can be turned into joints which, when smoked, will affect a person's capacities in either a positive or negative way.-->
+	<MLRP_PoisonJokePlant.description>Une plante génétiquement modifiée qui peut être transformée en joints qui, lorsqu'ils sont fumés, affectent les capacités d'une personne de manière positive ou négative.</MLRP_PoisonJokePlant.description>
+	
+	<!--EN: poison joke leaves-->	
+	<MLRP_PoisonJokeLeaves.label>feuilles de blague empoisonnée</MLRP_PoisonJokeLeaves.label>
+	
+	<!--EN: Raw cut leaves of a poison joke plant. Can be processed into smokeable joints at a crafting spot, drug lab or plushie bench.-->	
+	<MLRP_PoisonJokeLeaves.description>Feuilles brutes récoltées sur la plante "poison joke". Elles peuvent être transformées en joints fumables dans un lieu d'artisanat, un laboratoire de drogue ou un banc de fabrication de peluches.</MLRP_PoisonJokeLeaves.description>
+	
+	<!--EN: poison joke joint-->	
+	<MLRP_PoisonJokeJoint.label>joint de plaisanterie empoisonné</MLRP_PoisonJokeJoint.label>
+	
+	<!--EN: This variant of poison joke was spliced together by yet another MLP fan with too much time on their hands.\n\nWhen smoked, it will provide the imbiber with a random effect, which can be either positive or negative.\n\nReports from other colonies suggest that the effects can range from improved sight or speed to slowness, poor manipulation and even temporary blindness.-->
+	<MLRP_PoisonJokeJoint.description>Cette variante de la blague du poison a été assemblée par un autre fan de My Little Pony ayant trop de temps à perdre.\n\nLorsqu'il est fumé, le poison produit un effet aléatoire, qui peut être positif ou négatif.\n\nDes rapports provenant d'autres colonies suggèrent que les effets peuvent aller d'une amélioration de la vue ou de la vitesse à une lenteur, une mauvaise manipulation et même une cécité temporaire.</MLRP_PoisonJokeJoint.description>
+
+</LanguageData>

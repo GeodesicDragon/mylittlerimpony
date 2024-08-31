@@ -1,0 +1,15 @@
+<LanguageData>
+
+	<!--EN: Brony Community-->
+	<MLRP_BronyFaction.label>Communauté Brony</MLRP_BronyFaction.label>
+	
+	<!--EN: A colony of people who are united by their love of My Little Pony: Friendship is Magic.-->
+	<MLRP_BronyFaction.description>Une colonie de personnes unies par leur amour de mon petit poney: l'amitié est magique.</MLRP_BronyFaction.description>
+	
+	<!--EN: brony community-->
+	<MLRP_NPC_Faction.label>communauté brony</MLRP_NPC_Faction.label>
+	
+	<!--EN: A colony of people who are united by their love of My Little Pony: Friendship is Magic.\n\nThey are willing to trade with just about anybody, but will not hesitate to deploy mercenaries against those who would do them harm.-->
+	<MLRP_NPC_Faction.description>Une colonie de personnes unies par leur amour de mon petit poney : l'amitié est magique.\n\nIls sont prêts à commercer avec à peu près tout le monde, mais n'hésiteront pas à déployer des mercenaires contre ceux qui leur veulent du mal.</MLRP_NPC_Faction.description>
+
+</LanguageData>

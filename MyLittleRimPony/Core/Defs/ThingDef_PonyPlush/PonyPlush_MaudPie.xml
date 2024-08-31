@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Work">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_MaudPie</defName>
 		<label>Maud Pie</label>
 		<description>Maud isn't as talkative as her sister Pinkie, but she knows her stuff when it comes to rocks.\n\nCarrying her makes you feel as though you can exploit mineral deposits much easier.</description>

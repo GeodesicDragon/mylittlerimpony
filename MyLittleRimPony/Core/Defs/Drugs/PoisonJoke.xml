@@ -38,7 +38,7 @@
   <ThingDef ParentName="RoughPlantBase">
     <defName>MLRP_PoisonJokeLeaves</defName>
     <label>poison joke leaves</label>
-    <description>Raw cut leaves of a poison joke plant. Can be processed into smokeable joints at a crafting spot or drug lab.</description>
+    <description>Raw cut leaves of a poison joke plant. Can be processed into smokeable joints at a crafting spot, drug lab or plushie bench.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/PoisonJokeLeaves</texPath>
     </graphicData>
@@ -186,27 +186,13 @@
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
-	<!--<stages>
-	<li>
-		<capMods>
-			<li>
-				<capacity>Manipulation</capacity>
-				<offset>0.25</offset>
-			</li>
-			<li>
-				<capacity>Moving</capacity>
-				<offset>0.25</offset>
-			</li>
-		</capMods>
-	</li>
-	</stages>-->
   </HediffDef>
   
   <!-- Poison Joke addiction -->
 
   <ChemicalDef>
     <defName>MLRP_PoisonJoke</defName>
-    <label>Poison joke</label>
+    <label>poison joke</label>
     <addictionHediff>MLRP_PoisonJokeAddiction</addictionHediff>
     <toleranceHediff>MLRP_PoisonJokeTolerance</toleranceHediff>
     <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
@@ -280,9 +266,6 @@
     <hediff>MLRP_PoisonJokeAddiction</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
-      <li>
-        <visible>false</visible>
-      </li>
       <li>
         <label>poison joke withdrawal</label>
         <description>I don't care what it does to me, I just need my fix!</description>

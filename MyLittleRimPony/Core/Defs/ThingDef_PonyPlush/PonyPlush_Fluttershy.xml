@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Work">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_Fluttershy</defName>
 		<label>Fluttershy</label>
 		<description>Fluttershy is the kindest pony around, though she's not used to all the attention.\n\nCarrying her makes you feel as though you can understand animals much better.</description>

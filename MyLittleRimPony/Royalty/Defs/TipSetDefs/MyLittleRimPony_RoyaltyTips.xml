@@ -1,0 +1,13 @@
+<Defs>
+
+<TipSetDef>
+	<defName>MyLittleRimPony_RoyaltyTips</defName>
+	<tips>
+		<li TKey="ImproveRelations">The improve relations ability increases faction relations by 10, but disorients the target for a while.</li>
+		<li TKey="HarmonyChipBonus">The harmony chip grants the bonuses of nearly every available plushie to the colonist it is installed in. You can still use a plushie to further increase a certain bonus.</li>
+		<li TKey="HarmonyChipBrony">Colonists with the brony trait will appreciate having a harmony chip installed more than those without.</li>
+		<li TKey="HarmonyChipAntiBrony">Colonists with the anti brony trait will detest having a harmony chip installed.</li>
+	</tips>
+</TipSetDef>
+
+</Defs>

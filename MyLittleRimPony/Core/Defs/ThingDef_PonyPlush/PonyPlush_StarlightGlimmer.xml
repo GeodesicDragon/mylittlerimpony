@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Utility">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_StarlightGlimmer</defName>
 		<label>Starlight Glimmer</label>
 		<description>In her role as guidance councillor at the School of Friendship, Starlight Glimmer spent a lot of time talking to the students and helping them with their problems.\n\nCarrying her makes you feel more in control of your thoughts.</description>

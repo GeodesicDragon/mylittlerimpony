@@ -1,0 +1,136 @@
+<LanguageData>
+
+	<!--EN: Cutie Pox-->
+	<MLRP_CutiePox.label>vérole mignonne</MLRP_CutiePox.label>
+	
+	<!--EN: An infection of Equestrian origin which improves a person's skills, but causes pain and requires a lot of time and medicine to treat.\n\nPawns who smoke poison joke have a chance of being afflicted with the disease.-->
+	<MLRP_CutiePox.description>Une infection d'origine équestre qui améliore les compétences d'une personne, mais qui provoque des douleurs et nécessite beaucoup de temps et de médicaments pour être soignée.\n\nLes pions qui fument de la blague empoisonnée ont une chance d'être atteints par la maladie.</MLRP_CutiePox.description>
+	
+	<!--EN: pony plushie-->
+	<MLRP_PonyPlushEquipped.label>peluche poney</MLRP_PonyPlushEquipped.label>
+	
+	<!--EN: Holding the plushie makes pain a little more bearable.-->
+	<MLRP_PonyPlushEquipped.description>Tenir la peluche rend la douleur un peu plus supportable.</MLRP_PonyPlushEquipped.description>
+	
+<!--EN: increased consciousness-->	
+	<MLRP_PoisonJokeIncreasedConsciousness.label>amélioration de la conscience</MLRP_PoisonJokeIncreasedConsciousness.label>
+	
+	<!--EN: Increased consciousness, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeIncreasedConsciousness.description>L'augmentation de la conscience, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeIncreasedConsciousness.description>
+	
+	<!--EN: reduced consciousness-->
+	<MLRP_PoisonJokeReducedConsciousness.label>diminution de l'état de conscience</MLRP_PoisonJokeReducedConsciousness.label>
+	
+	<!--EN: Reduced consciousness, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeReducedConsciousness.description>Reduction de la conscience, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeReducedConsciousness.description>
+	
+	<!--EN: super speedy-->
+	<MLRP_PoisonJokeSuperSpeedy.label>super rapide</MLRP_PoisonJokeSuperSpeedy.label>
+	
+	<!--EN: Increased movement speed, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeSuperSpeedy.description>Augmentation de la vitesse de déplacement, l'un des effets secondaires possibles de la consommation de poison.</MLRP_PoisonJokeSuperSpeedy.description>
+	
+	<!--EN: slow and sluggish-->
+	<MLRP_PoisonJokeSlowAndSluggish.label>lent et léthargique</MLRP_PoisonJokeSlowAndSluggish.label>
+	
+	<!--EN: Reduced movement speed, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeSlowAndSluggish.description>Reduction de la vitesse de déplacement, l'un des effets secondaires possibles de la consommation de poison.</MLRP_PoisonJokeSlowAndSluggish.description>
+	
+	<!--EN: good manipulation-->
+	<MLRP_PoisonJokeGoodManipulation.label>bonne manipulation</MLRP_PoisonJokeGoodManipulation.label>
+	
+	<!--EN: Increased ability to manipulate objects, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeGoodManipulation.description>Augmentation de la capacité à manipuler des objets, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeGoodManipulation.description>
+	
+	<!--EN: poor manipulation-->
+	<MLRP_PoisonJokePoorManipulation.label>mauvaise manipulation</MLRP_PoisonJokePoorManipulation.label>
+	
+	<!--EN: Reduced ability to manipulate objects, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokePoorManipulation.description>Reduction de la capacité à manipuler des objets, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokePoorManipulation.description>
+
+	<!--EN: gift of the gab-->
+	<MLRP_PoisonJokeIncreasedTalking.label>le don de la parole</MLRP_PoisonJokeIncreasedTalking.label>
+	
+	<!--EN: Increased speaking ability, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeIncreasedTalking.description>Augmentation de la capacité d'expression orale, un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeIncreasedTalking.description>
+	
+	<!--EN: total silence-->
+	<MLRP_PoisonJokeReducedTalking.label>incapacité à parler</MLRP_PoisonJokeReducedTalking.label>
+	
+	<!--EN: A complete inability to speak, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeReducedTalking.description>Reduction de la capacité d'expression orale, un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeReducedTalking.description>
+	
+	<!--EN: quick eater-->
+	<MLRP_PoisonJokeIncreasedEating.label>mangeur rapide</MLRP_PoisonJokeIncreasedEating.label>
+	
+	<!--EN: Increased eating ability, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeIncreasedEating.description>Augmentation de la capacité à manger, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeIncreasedEating.description>
+	
+	<!--EN: slow eater-->
+	<MLRP_PoisonJokeReducedEating.label>mangeur lent</MLRP_PoisonJokeReducedEating.label>
+	
+	<!--EN: Reduced eating ability, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeReducedEating.description>Reduction de la capacité à manger, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeReducedEating.description>
+	
+	<!--EN: sight beyond sight-->
+	<MLRP_PoisonJokeSightBeyondSight.label>amélioration de la vision</MLRP_PoisonJokeSightBeyondSight.label>
+	
+	<!--EN: Improved sight for 24 hours, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeSightBeyondSight.description>Amélioration de la vision pendant 24 heures, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeSightBeyondSight.description>
+	
+	<!--EN: blindness-->
+	<MLRP_PoisonJokeBlindness.label>cécité</MLRP_PoisonJokeBlindness.label>
+	
+	<!--EN: A complete inability to see, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeBlindness.description>Cécité pendant 24 heures, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeBlindness.description>
+	
+	<!--EN: improved hearing-->
+	<MLRP_PoisonJokeIncreasedHearing.label>amélioration de l'audition</MLRP_PoisonJokeIncreasedHearing.label>
+	
+	<!--EN: Increased hearing, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeIncreasedHearing.description>L'augmentation de l'audition, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeIncreasedHearing.description>
+	
+	<!--EN: deafness-->
+	<MLRP_PoisonJokeReducedHearing.label>surdité</MLRP_PoisonJokeReducedHearing.label>
+	
+	<!--EN: A complete inability to hear, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeReducedHearing.description>Une incapacité totale à entendre, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeReducedHearing.description>
+	
+	<!--EN: improved breathing-->
+	<MLRP_PoisonJokeIncreasedBreathing.label>amélioration de la respiration</MLRP_PoisonJokeIncreasedBreathing.label>
+	
+	<!--EN: Increased breathing ability, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeIncreasedBreathing.description>L'augmentation de la capacité respiratoire, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeIncreasedBreathing.description>
+	
+	<!--EN: struggling for breath-->
+	<MLRP_PoisonJokeReducedBreathing.label>lutter pour respirer</MLRP_PoisonJokeReducedBreathing.label>
+	
+	<!--EN: Reduced breathing ability, one of the possible side effects of smoking poison joke.-->
+	<MLRP_PoisonJokeReducedBreathing.description>La réduction de la capacité respiratoire, l'un des effets secondaires possibles de la consommation de poison joke.</MLRP_PoisonJokeReducedBreathing.description>
+	
+	<!--EN: high on poison joke-->
+	<MLRP_PoisonJokeHigh.label>effet de la plaisanterie sur le poison</MLRP_PoisonJokeHigh.label>
+	<MLRP_PoisonJokeHigh.labelNoun>effet de la plaisanterie sur le poison</MLRP_PoisonJokeHigh.labelNoun>
+	
+	<!--EN: Poison joke in the bloodstream.-->
+	<MLRP_PoisonJokeHigh.description>Une blague empoisonnée se trouve dans la circulation sanguine de cette personne et affecte l'une de ses capacités.</MLRP_PoisonJokeHigh.description>
+	
+	<!--EN: poison joke tolerance-->
+	<MLRP_PoisonJokeTolerance.label>tolérance à la blague sur le poison</MLRP_PoisonJokeTolerance.label>
+	
+	<!--EN: A built-up tolerance to poison joke. The more severe this tolerance is, the more poison joke it takes to get the same effect.-->
+	<MLRP_PoisonJokeTolerance.description>Tolérance accumulée à l'égard des blagues vénéneuses. Plus cette tolérance est élevée, plus il faut de blagues vénéneuses pour obtenir le même effet.</MLRP_PoisonJokeTolerance.description>
+	
+	<!--EN: poison joke dependence-->
+	<MLRP_PoisonJokeAddiction.label>dépendance à la blague sur le poison</MLRP_PoisonJokeAddiction.label>
+	
+	<!--EN:A chemical addiction to poison joke. Long-term use of poison joke has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.\n\nWithout regular doses of poison joke, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.\n\nAlternatively, you can buy or make a solution that will immediately cure the addiction.-->
+	<MLRP_PoisonJokeAddiction.description>Une dépendance chimique au plaisanterie empoisonné. La consommation à long terme de plaisanterie empoisonné a provoqué des adaptations neurologiques au niveau cellulaire, de sorte que le cerveau ne peut plus fonctionner correctement sans la drogue.\n\nEn l'absence de doses régulières de plaisanterie empoisonné, des symptômes de sevrage apparaissent. Cependant, une abstinence prolongée forcera le cerveau à s'adapter à nouveau à son état normal, ce qui mettra fin à la dépendance.\n\nIl est également possible d'acheter ou de fabriquer une solution qui guérit immédiatement la dépendance.</MLRP_PoisonJokeAddiction.description>
+	
+	<!--EN: Izzy Moonbow plush-->
+	<MLRP_IzzyPlush.label>peluche de Izzy Moonbow</MLRP_IzzyPlush.label>
+	
+	<!--EN: You feel a lot happier.-->
+	<MLRP_IzzyPlush.description>Vous vous sentez beaucoup plus heureux.</MLRP_IzzyPlush.description>
+
+</LanguageData>

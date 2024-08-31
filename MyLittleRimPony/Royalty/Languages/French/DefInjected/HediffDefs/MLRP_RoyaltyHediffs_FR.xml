@@ -1,0 +1,18 @@
+<LanguageData>	
+	
+	<!--EN: harmony chip-->
+	<MLRP_HarmonyChipInstalled.label>puce d'harmonie</MLRP_HarmonyChipInstalled.label>
+	
+	<!--EN: a harmony chip-->
+	<MLRP_HarmonyChipInstalled.labelNoun>une puce d'harmonie</MLRP_HarmonyChipInstalled.labelNoun>
+	
+	<!--EN: An installed harmony chip.-->
+	<MLRP_HarmonyChipInstalled.description>Une puce d'harmonie installée.</MLRP_HarmonyChipInstalled.description>
+	
+	<!--EN: dazed and confused-->
+	<MLRP_GIPsycastUsed.label>hébétée et confuse</MLRP_GIPsycastUsed.label>
+	
+	<!--EN: This person is wandering in a state of mild confusion, a common side effect of the improve relations psycast.-->
+	<MLRP_GIPsycastUsed.description>Cette personne erre dans un état de confusion légère, un effet secondaire courant de l'amélioration des relations psycast.</MLRP_GIPsycastUsed.description>
+	
+</LanguageData>

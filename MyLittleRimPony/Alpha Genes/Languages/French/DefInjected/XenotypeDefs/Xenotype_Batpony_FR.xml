@@ -1,0 +1,12 @@
+<LanguageData>
+
+	<!--EN: batpony-->
+	<MLRP_Xeno_Batpony.label>poney chauve-souris</MLRP_Xeno_Batpony.label>
+	
+	<!--EN: This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nBatponies are a race who, for the most part, are 'jacks of all trades,' not really excelling at one skill or another unlike their other pony counterparts. They are entirely nocturnal, to the point where they cannot handle any exposure to UV radiation. Because of their unwillingness to co-operate with non-batponies, their social skills are somewhat lacking, though they are good doctors because they've had to look after themselves for so long.\n\nA side effect of the xenogerm implantation process makes them more fertile during the night.-->
+	<MLRP_Xeno_Batpony.description>Ce xénotype est l'un des nombreux créés par un groupe se faisant appeler la 'Société d'intégration équestre.' Leur objectif était de créer des xénotypes basés sur les nombreuses races qui peuplent Equestria, mais le résultat final s'est avéré bien différent de ce qu'ils avaient prévu.\n\nLes poneys chauves-souris sont une race qui, pour la plupart, sont des 'touche-à-tout,' n'excellant pas vraiment dans une compétence ou une autre, contrairement à leurs homologues poneys. Ils sont entièrement nocturnes, au point qu'ils ne supportent pas l'exposition aux rayons UV. En raison de leur refus de coopérer avec ceux qui ne sont pas des poneys chauves-souris, leurs compétences sociales sont quelque peu déficientes, bien qu'ils soient de bons médecins parce qu'ils ont dû s'occuper d'eux-mêmes pendant si longtemps.\n\nUn effet secondaire du processus d'implantation du xénogerme les rend plus fertiles pendant la nuit.</MLRP_Xeno_Batpony.description>
+	
+	<!--EN: Batponies are nocturnal creatures who cannot tolerate the light and have poor social skills, but make for excellent doctors. They are more fertile during nighttime hours, can see in the dark, and are night owls by nature.-->
+	<MLRP_Xeno_Batpony.descriptionShort>Les poneys chauves-souris sont des créatures nocturnes qui ne supportent pas la lumière et ont peu de compétences sociales, mais font d'excellents médecins. Ils sont plus fertiles pendant les heures nocturnes, peuvent voir dans l'obscurité et sont des noctambules par nature.</MLRP_Xeno_Batpony.descriptionShort>
+
+</LanguageData>

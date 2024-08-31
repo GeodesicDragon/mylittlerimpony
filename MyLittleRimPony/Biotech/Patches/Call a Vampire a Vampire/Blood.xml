@@ -19,14 +19,7 @@
 						<description>Offer silver in exchange for five blood packs.\n\nShould only be done as a last resort, as the cost is quite steep...</description>
 					</value>
 				</li>
-				
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips/li[@Name="NightmareMoonHemogenPack"]</xpath>
-					<value>
-						<li Name="NightmareMoonHemogenPack">Requesting blood packs from Nightmare Moon should only be done as a last resort, as her price for this service is quite high.</li>
-					</value>
-				</li>
-				
+							
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/RecipeDef[defName="MLRP_NMM_DeathrestCapacitySerum"]/description</xpath>
 					<value>

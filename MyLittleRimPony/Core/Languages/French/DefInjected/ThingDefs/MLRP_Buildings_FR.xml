@@ -1,0 +1,111 @@
+<LanguageData>
+
+	<!--EN: weaponised annoyance-->
+	<MLRP_Weaponless.label>l'arrogance armée</MLRP_Weaponless.label>
+	
+	<!--EN: You can't help but want to punch the guy.-->
+	<MLRP_Weaponless.description>On ne peut s'empêcher de vouloir frapper cet étalon.</MLRP_Weaponless.description>
+
+	<!--EN: Statue of Daybreaker-->
+	<MLRP_Daybreaker.label>Statue de Daybreaker</MLRP_Daybreaker.label>
+	
+	<!--EN: Celestia's evil alter ego only ever manifested herself as part of Starlight Glimmer's nightmare, but even then her power was something to behold.\n\nAt least all of the heat she is emanating can be put to some use...-->
+	<MLRP_Daybreaker.description>L'alter ego maléfique de la princesse Celestia ne s'est jamais manifesté que dans le cadre du cauchemar de Starlight Glimmer, mais même là, sa puissance était impressionnante.\n\nAu moins, toute la chaleur qu'elle dégage peut servir à quelque chose...</MLRP_Daybreaker.description>
+
+	<!--EN: Derpy Hooves-->
+	<MLRP_DerpyHooves.label>Derpy Hooves</MLRP_DerpyHooves.label>
+	
+	<!--EN: Ponyville's number one mail delivery mare, Derpy will do whatever she can to get things to where they need to be.\n\nThere may be the odd accident, but her strong determination means she never falters.\n\n(Functions like a normal transport pod, but has more capacity.)-->
+	<MLRP_DerpyHooves.description>Derpy, la jument numéro un de Ponyville pour la distribution du courrier, fera tout ce qu'elle peut pour que les choses arrivent à bon port.\n\nIl peut arriver qu'elle ait un accident, mais sa détermination est telle qu'elle ne faiblit jamais.\n\n(Fonctionne comme un module de transport normal, mais a une plus grande capacité).</MLRP_DerpyHooves.description>
+
+	<!--EN: Magic mirror-->
+	<MLRP_MagicMirrorGenerator.label>Miroir magique</MLRP_MagicMirrorGenerator.label>
+	
+	<!--EN: Equestrian magic once flowed through this mirror into a whole other world, causing all sorts of weird and wonderful things to happen to some of the individuals on the other side.\n\nMirrors on the rim can't be used due to the object blocking any attempt to pass through it, but the magic still flows through regardless.\n\nConsequently, researchers were quick to figure out a way of turning the magic into electric power that can be used to fulfil a colony's every need.-->
+	<MLRP_MagicMirrorGenerator.description>Il fut un temps où la magie équestre passait à travers ce miroir dans un tout autre monde, provoquant toutes sortes de choses étranges et merveilleuses chez certains des individus se trouvant de l'autre côté.\n\nLes miroirs sur le rim ne peuvent pas être utilisés car l'objet bloque toute tentative de passage, mais la magie passe quand même à travers.\n\nLes chercheurs ont donc rapidement trouvé un moyen de transformer la magie en énergie électrique qui peut être utilisée pour répondre à tous les besoins d'une colonie.</MLRP_MagicMirrorGenerator.description>
+
+	<!--EN: Stone Exchange-->
+	<MLRP_MarblePieStoneExchange.label>Échange de pierres</MLRP_MarblePieStoneExchange.label>
+	
+	<!--EN: Marble will sell you 100 stone bricks in exchange for silver.\n\nJust don't expect any kind of conversation.-->
+	<MLRP_MarblePieStoneExchange.description>Marble vous vendra 100 briques de pierre en échange d'argent.\n\nNe vous attendez pas à une conversation.</MLRP_MarblePieStoneExchange.description>
+
+	<!--EN: Miss Harshwhinny-->
+	<MLRP_MissHarshwhinny.label>Mlle Harshwinny</MLRP_MissHarshwhinny.label>
+	
+	<!--EN: Miss Harshwhinny's demeanour has been described by many as 'cold enough to freeze a room.'\n\nOut here on the rim, that's probably a good thing.-->
+	<MLRP_MissHarshwhinny.description>Le comportement de Mlle Harshwhinny a été décrit par beaucoup comme 'assez froid pour geler une pièce.'\n\nIci, sur le rim, c'est probablement une bonne chose.</MLRP_MissHarshwhinny.description>
+
+	<!--EN: Fabric Exchange-->
+	<MLRP_MissPommel.label>Échange de tissus</MLRP_MissPommel.label>
+	
+	<!--EN: Miss Pommel will gladly sell you 100 of any material, provided she has it in stock.-->
+	<MLRP_MissPommel.description>Mlle Pommel vous vendra volontiers 100 exemplaires de n'importe quel matériau, à condition qu'elle l'ait en stock.</MLRP_MissPommel.description>
+
+	<!--EN: Discord lamp-->
+	<MLRP_DiscordLamp.label>Lampe de discorde</MLRP_DiscordLamp.label>
+	
+	<!--EN: It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.-->
+	<MLRP_DiscordLamp.description>C'est une lampe qui ressemble à Discord, que dire d'autre?\n\nElle ne fournit pas beaucoup de lumière, mais elle n'a pas besoin d'énergie et continue à fonctionner pendant les éruptions solaires.</MLRP_DiscordLamp.description>
+
+	<!--EN: Mudbriar-->
+	<MLRP_Mudbriar.label>Mudbriar</MLRP_Mudbriar.label>
+	
+	<!--EN: Mudbriar is a stick pony through and through, but out here on the rim he's nothing more than target practice for any raiders coming your way.-->
+	<MLRP_Mudbriar.description>Mudbriar est un poney de bâton à part entière, mais ici, sur le bord, il n'est rien de plus qu'un exercice de tir pour tous les pilleurs qui viennent à votre rencontre.</MLRP_Mudbriar.description>
+
+	<!--EN: Statue of Nightmare Moon-->
+	<MLRP_NightmareMoon.label>Statue de Nightmare Moon</MLRP_NightmareMoon.label>
+	
+	<!--EN: Nightmare Moon was once Equestria's greatest threat, feared by many and respected by few.\n\nOut here on the rimworlds, however, she's perfectly happy to accept offers of silver - and sometimes other stuff - in exchange for powerful items that will benefit your colony.-->
+	<MLRP_NightmareMoon.description>Nightmare Moon était autrefois la plus grande menace d'Equestria, crainte par beaucoup et respectée par peu.\n\nIci, sur le rim, elle est parfaitement heureuse d'accepter des offres d'argent - et parfois d'autres choses - en échange d'objets puissants qui profiteront à votre colonie.</MLRP_NightmareMoon.description>
+
+	<!--EN: Nurse Redheart-->
+	<MLRP_NurseRedheart.label>Nurse Redheart</MLRP_NurseRedheart.label>
+	
+	<!--EN: As a nurse, Redheart has seen it all; she knows that being prepared for any eventuality is of vital importance.\n\nThis building will generate medicine after a set period of time.-->
+	<MLRP_NurseRedheart.description>En tant qu'infirmière, Redheart a tout vu ; elle sait qu'il est vital d'être prêt à toute éventualité.\n\nCe bâtiment produira des médicaments après un certain temps.</MLRP_NurseRedheart.description>
+
+	<!--EN: Plushie bench-->
+	<PlushieBench.label>Établi pour peluche de poney</PlushieBench.label>
+	
+	<!--EN: A workbench with a sewing machine; while mostly dedicated to the creation of pony plushies, it can create other pony-themed items as well.\n\nCan work without electricity at 50% of its normal speed.-->
+	<PlushieBench.description>Un établi avec une machine à coudre; bien qu'il soit principalement dédié à la création de peluches poneys, il peut également créer d'autres objets sur le thème des poneys.\n\nPeut fonctionner sans électricité à 50 % de sa vitesse normale.</PlushieBench.description>
+
+	<!--EN: Quibble Pants-->
+	<MLRP_QuibblePants.label>Quibble Pants</MLRP_QuibblePants.label>
+	
+	<!--EN: Quibble Pants thinks he is the ultimate fan, and will go out of his way to prove he knows more than anypony else. Good thing his constant blabbering can be put to use.-->
+	<MLRP_QuibblePants.description>Quibble Pants se prend pour le fan ultime et fait tout pour prouver qu'il en sait plus que n'importe qui d'autre. C'est une bonne chose que son blabla constant puisse être mis à profit.</MLRP_QuibblePants.description>
+
+	<!--EN: Screwball-->
+	<MLRP_ScrewballGenerator.label>Screwball</MLRP_ScrewballGenerator.label>
+	
+	<!--EN: A strange power emanates from this pony; there are those who say she was cursed by Discord - something he has always vehemently denied - but at least this power can be put to use.-->
+	<MLRP_ScrewballGenerator.description>Un étrange pouvoir émane de cette ponette ; certains disent qu'elle a été maudite par Discord - ce que ce dernier a toujours nié avec véhémence - mais au moins ce pouvoir peut être utilisé.</MLRP_ScrewballGenerator.description>
+
+	<!--EN: Super Speedy Cider Squeezy 6000-->
+	<MLRP_SSCS6K.label>Super Speedy Cider Squeezy 6000</MLRP_SSCS6K.label>
+	
+	<!--EN: Unlike when Flim and Flam were using it, the Super Speedy Cider Squeezy 6000 will produce something that can actually be enjoyed, provided it has enough power.\n\nThis building will generate beer after a set period of time.-->
+	<MLRP_SSCS6K.description>Contrairement à ce qui se passait lorsque Flim et Flam l'utilisaient, le Super Speedy Cider Squeezy 6000 produira quelque chose qui peut être apprécié, à condition qu'il ait suffisamment de puissance.\n\nCe bâtiment produira de la bière après une période de temps déterminée.</MLRP_SSCS6K.description>
+
+	<!--EN: Sweetie Bot turret-->
+	<MLRP_Turret_SweetieBot.label>Tourelle Sweetie Bot</MLRP_Turret_SweetieBot.label>
+	
+	<!--EN: Fires rainbow lasers that are accurate at medium to long range. Will not explode if damaged.-->
+	<MLRP_Turret_SweetieBot.description>Tire des lasers arc-en-ciel précis à moyenne et longue portée. N'explose pas s'il est endommagé.</MLRP_Turret_SweetieBot.description>
+
+	<!--EN: Sweetie Bot turret-->
+	<MLRP_SweetieBotTurret.label>Tourelle Sweetie Bot</MLRP_SweetieBotTurret.label>
+	
+	<!--EN: Sweetie Bot *is* the turret.-->
+	<MLRP_SweetieBotTurret.description>Sweetie Bot *est* la tourelle.</MLRP_SweetieBotTurret.description>
+
+	<!--EN: Zephyr Breeze-->
+	<MLRP_ZephyrBreeze.label>Zephyr Breeze</MLRP_ZephyrBreeze.label>
+	
+	<!--EN: Although Zephyr Breeze reckons he is Celestia's gift to mares, he is yet to find one who agrees with him. Thankfully, though, his pig-headed arrogance can actually be useful.\n\nFuthermore, his thick skull - which has absorbed countless rejections from Rainbow Dash alone - makes him surprisingly durable.\n\nGood thing, too, because a lot of people seem to want to hit him.-->
+	<MLRP_ZephyrBreeze.description>Bien que Zephyr Breeze considère qu'il est le cadeau de Celestia pour les juments, il n'en a encore trouvé aucune qui soit d'accord avec lui. Heureusement, son arrogance de tête de cochon peut s'avérer utile.\n\nDe plus, son crâne épais - qui a absorbé d'innombrables refus de la part de Rainbow Dash - le rend étonnamment résistant.\n\nC'est une bonne chose, car beaucoup de gens semblent vouloir le frapper.</MLRP_ZephyrBreeze.description>
+
+</LanguageData>

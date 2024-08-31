@@ -1,0 +1,39 @@
+<Defs>
+
+	<RulePackDef>
+		<defName>Namer_MLP_Fanfiction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>title->That Nagging Feeling by GeodesicDragon</li>
+				<li>title->Past Sins by Pen Stroke</li>
+				<li>title->My Little Dashie by ROBCakeran53</li>
+				<li>title->A Taste of the Good Life by Eakin</li>
+				<li>title->Bros in Equestria by Mandroid</li>
+				<li>title->Anthropology by JasonTheHuman</li>
+				<li>title->Sunny Skies All Day Long by PhantomFox</li>
+				<li>title->The Wonder Years by Seether00</li>
+				<li>title->The Enchanted Library by Monochromatic</li>
+				<li>title->Reading Rainbow by Corejo</li>
+				<li>title->Princess Celestia Gets Mugged by BronyWriter</li>
+				<li>title->Letters From A Disgruntled Friendship Student by milesprower06</li>
+				<li>title->Fire and Rain by Ruirik</li>
+				<li>title->Erasure by 6-D Pegasus</li>
+				<li>title->My Little Pony Figure by Buck Swisher</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>Description_MLP_Fanfiction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>desc->This work of pony fanfiction was written over three thousand years ago ago[book_quality]</li>
+				
+				<li>book_quality(quality[greater_than]5)->, and is in superior condition for its age.</li>
+				<li>book_quality(quality[less_than]2)->, and is barely readable due to extensive damage.</li>
+				<li>book_quality->.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

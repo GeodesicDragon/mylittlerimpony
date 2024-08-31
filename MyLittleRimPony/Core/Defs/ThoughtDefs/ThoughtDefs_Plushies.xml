@@ -8,7 +8,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>Brony has pony plush</label>
+        <label>brony has pony plush</label>
         <description>It's so cuddly!</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
@@ -25,7 +25,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>Anti-brony has pony plush</label>
+        <label>anti brony has pony plush</label>
         <description>Why the hell am I carrying this stupid thing around? Do I look like a child?</description>
         <baseMoodEffect>-10</baseMoodEffect>
       </li>

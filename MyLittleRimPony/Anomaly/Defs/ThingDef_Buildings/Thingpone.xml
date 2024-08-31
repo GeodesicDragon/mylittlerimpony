@@ -3,7 +3,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_Thingpone</defName>
     <label>Thingpone</label>
-    <description>At first glance, you'd be forgiven for thinking this was just a regular pony. However, the many eyes, the enormous maw and the tentacles quickly convince you otherwise.\n\nDespite her appearance, though, she seems quite willing to help you acquire items from beyond the void.</description>
+    <description>At first glance, you'd be forgiven for thinking this was just a regular pony. However, the many eyes, the enormous maw and the tentacles quickly convince you otherwise.\n\nShe seems quite friendly, however, even going so far as to offer you items from beyond the void... for a price.</description>
     <thingClass>Building_WorkTable</thingClass>
 	<designationHotKey>Misc8</designationHotKey>
     <graphicData>

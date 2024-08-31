@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Combat">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_ShiningArmour</defName>
 		<label>Shining Armour</label>
 		<description>As Captain of the Equestrian Royal Guard, Shining Armour knows a thing or two about combat; shields in particular are his speciality.\n\nCarrying him makes you feel better protected.</description>

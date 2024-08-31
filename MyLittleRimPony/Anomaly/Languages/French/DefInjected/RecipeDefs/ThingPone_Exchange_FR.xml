@@ -1,0 +1,45 @@
+<LanguageData>
+
+	<!--EN: purchase deadlife shell-->
+	<MLRP_Thingpone_Shell_Deadlife.label>acheter obus de résurrection</MLRP_Thingpone_Shell_Deadlife.label>
+	
+	<!--EN: Use silver and twisted meat to purchase a deadlife shell.-->
+	<MLRP_Thingpone_Shell_Deadlife.description>Utilisez de l'argent et viande difforme pour acheter un obus de résurrection.</MLRP_Thingpone_Shell_Deadlife.description>
+
+	<!--EN: purchase voidsight serum-->
+	<MLRP_Thingpone_VoidsightSerum.label>acheter sérum de vision du néant</MLRP_Thingpone_VoidsightSerum.label>
+	
+	<!--EN: Use silver and twisted meat to purchase a voidsight serum.-->
+	<MLRP_Thingpone_VoidsightSerum.description>Utilisez de l'argent et viande difforme pour acheter un sérum de vision du néant.</MLRP_Thingpone_VoidsightSerum.description>
+
+	<!--EN: purchase metalblood serum-->
+	<MLRP_Thingpone_MetalbloodSerum.label>acheter sérum de ferrosang</MLRP_Thingpone_MetalbloodSerum.label>
+	
+	<!--EN: Use silver and twisted meat to purchase a metalblood serum.-->
+	<MLRP_Thingpone_MetalbloodSerum.description>Utilisez de l'argent et viande difforme pour acheter un sérum de ferrosang.</MLRP_Thingpone_MetalbloodSerum.description>
+
+	<!--EN: purchase juggernaut serum-->
+	<MLRP_Thingpone_JuggernautSerum.label>acheter sérum surhumain</MLRP_Thingpone_JuggernautSerum.label>
+	
+	<!--EN: Use silver and twisted meat and twisted meat to purchase a juggernaut serum.-->
+	<MLRP_Thingpone_JuggernautSerum.description>Utilisez de l'argent et viande difforme pour acheter un sérum surhumain.</MLRP_Thingpone_JuggernautSerum.description>
+
+	<!--EN: purchase mind-numb serum-->
+	<MLRP_Thingpone_MindNumbSerum.label>acheter sérum désensibilisateur</MLRP_Thingpone_MindNumbSerum.label>
+	
+	<!--EN: Use silver and twisted meat to purchase a mind-numb serum.-->
+	<MLRP_Thingpone_MindNumbSerum.description>Utilisez de l'argent et viande difforme pour acheter un sérum désensibilisateur</MLRP_Thingpone_MindNumbSerum.description>
+
+	<!--EN: purchase ghoul resurrection serum-->
+	<MLRP_Thingpone_GhoulResurrectionSerum.label>acheter sérum de résurrection de goule</MLRP_Thingpone_GhoulResurrectionSerum.label>
+	
+	<!--EN: Use silver and twisted meat to purchase a ghoul resurrection serum.-->
+	<MLRP_Thingpone_GhoulResurrectionSerum.description>Utilisez de l'argent et viande difforme pour acheter un sérum de résurrection de goule.</MLRP_Thingpone_GhoulResurrectionSerum.description>
+
+	<!--EN: purchase shard-->
+	<MLRP_Thingpone_Shard.label>acheter fragment</MLRP_Thingpone_Shard.label>
+	
+	<!--EN: Use silver and twisted meat to purchase a shard.-->
+	<MLRP_Thingpone_Shard.description>Utilisez de l'argent et viande difforme pour acheter un fragment.</MLRP_Thingpone_Shard.description>
+
+</LanguageData>

@@ -4,11 +4,9 @@
 <ScenarioDef>
     <defName>MLRP_Scenario_RenegadeAlicorn</defName>
     <label>Renegade Alicorn</label>
-    <description>You are an alicorn, the most graceful of the pony races, but you're not like the others. Peace, friendship and harmony are meaningless; as far as you are concerned, the true path to greatness is paved with blood, bones and fear.
-
-You managed to convince a few people to follow you and now, with nothing but their help, a large bag of silver, and the materials needed to convert it into things you'll need, you will find a way off this godforsaken rock. Once you manage that, you will travel the universe, teaching your lessons to those who will listen... and crushing those who don't.</description>
+    <description>You are an alicorn, the most graceful of the pony races, but you're not like the others. Peace, friendship and harmony are meaningless; as far as you are concerned, the true path to greatness is paved with blood, bones and fear.\n\nYou managed to convince a few people to follow you and now, with nothing but their help, a large bag of silver, and the materials needed to convert it into things you'll need, you will find a way off this godforsaken rock. Once you manage that, you will travel the universe, teaching your lessons to those who will listen... and crushing those who don't.</description>
     <scenario>
-		<summary>A single alicorn, three followers, a large amount of silver, and statues of two evil alicorns.</summary>
+		<summary>A single alicorn, three followers, a large amount of silver, some fuel, and statues of two evil alicorns.</summary>
 		<playerFaction>
 			<def>PlayerFaction</def>
 			<factionDef>MLRP_RenegadeAlicornFaction</factionDef>

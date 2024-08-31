@@ -3,7 +3,7 @@
 <HediffDef ParentName="InfectionBase">
 	<defName>MLRP_CutiePox</defName>
 	<label>Cutie Pox</label>
-	<description>An infection of Equestrian origin which improves a person's skills, but causes pain and requires a lot of time and medicine in order to be treated.\n\nPawns who smoke poison joke have a chance of being afflicted with the disease.</description>
+	<description>An infection of Equestrian origin which improves a person's skills, but causes pain and requires a lot of time and medicine to treat.\n\nPawns who smoke poison joke have a chance of being afflicted with the disease.</description>
 	<hediffClass>HediffWithComps</hediffClass>
 	<makesSickThought>false</makesSickThought>
 	<scenarioCanAdd>true</scenarioCanAdd>

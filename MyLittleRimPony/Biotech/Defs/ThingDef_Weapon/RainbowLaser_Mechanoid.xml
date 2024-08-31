@@ -3,7 +3,7 @@
     <ThingDef ParentName="BaseGun">
     <defName>MLRP_ElementsOfHarmonyWeaponised_Mechanoid</defName>
     <label>Rainbow Laser (mechanoid)</label>
-    <description>This rainbow laser has been designed for use with Sweetie Bot combat mechs.</description>
+    <description>This rainbow laser has been designed for use with Sweetie Bot mechanoids.</description>
     <tradeability>None</tradeability>
     <destroyOnDrop>true</destroyOnDrop>
     <graphicData>

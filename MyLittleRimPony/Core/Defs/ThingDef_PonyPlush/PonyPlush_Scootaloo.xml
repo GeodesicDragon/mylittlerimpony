@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Health">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_Scootaloo</defName>
 		<label>Scootaloo</label>
 		<description>Scootaloo has had plenty of experience riding her scooter, but she's also had plenty of accidents.\n\nCarrying her makes you feel as though your injuries are healing faster.</description>

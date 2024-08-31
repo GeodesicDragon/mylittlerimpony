@@ -1,0 +1,15 @@
+<LanguageData>
+
+	<!--EN: Brony Community-->
+	<MLRP_Scenario.label>Communauté Brony</MLRP_Scenario.label>
+	
+	<!--EN: Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you all love a show about cartoon ponies, and have taken its lessons to heart.\n\nYou'll need to work fast in order to secure your new home, though; your starting weapons are very basic and you are in posession of a lot of valuable items, thus making you tempting targets for raiders.-->
+	<MLRP_Scenario.description>Votre groupe erre sur ces terres depuis un certain temps déjà, et vous avez finalement décidé de vous installer et de construire une colonie.\n\nVous venez tous d'horizons différents, mais vous avez une chose en commun : vous aimez tous une série sur les poneys de dessins animés, et vous avez pris ses leçons à cœur.\n\nEn effet, vos armes de départ sont très rudimentaires et vous possédez de nombreux objets de valeur, ce qui fait de vous des cibles tentantes pour les pillards.</MLRP_Scenario.description>
+	
+	<!--EN: A group of bronies attempt to carve out a new existence for themselves. Difficult.-->
+	<MLRP_Scenario.scenario.summary>Un groupe de bronies tente de se forger une nouvelle existence. Difficile.</MLRP_Scenario.scenario.summary>
+	
+	<!--EN: You're finally done wandering the planet, and it is time for you to build a new home where you can live in peace.\n\nIt's not going to be easy - the fact that you've got all this stuff will make you tempting targets for those with the presence of mind to consider you a viable threat - but you have belief in yourselves that you can make this work.-->
+	<MLRP_Scenario.scenario.parts.GameStartDialog.text>Vous avez enfin fini d'errer sur la planète et il est temps pour vous de construire une nouvelle colonie où vous pourrez vivre en paix.\n\nCe ne sera pas facile - le fait que vous ayez tout ce matériel fera de vous des cibles tentantes pour ceux qui ont la présence d'esprit de vous considérer comme une menace viable - mais vous croyez en vous-mêmes que vous pouvez y arriver.</MLRP_Scenario.scenario.parts.GameStartDialog.text>
+
+</LanguageData>

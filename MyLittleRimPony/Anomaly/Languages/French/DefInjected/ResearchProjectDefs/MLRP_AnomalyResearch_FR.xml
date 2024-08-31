@@ -1,0 +1,9 @@
+<LanguageData>
+
+	<!--EN: thingpone-->
+	<MLRP_ThingponeResearch.label>thingpone</MLRP_ThingponeResearch.label>
+	
+	<!--EN: Allows you to build a statue of Thingpone, where you can request items from beyond the void.-->
+	<MLRP_ThingponeResearch.description>Permet de construire une statue de Thingpone, où vous pouvez demander des objets de vide.</MLRP_ThingponeResearch.description>
+
+</LanguageData>

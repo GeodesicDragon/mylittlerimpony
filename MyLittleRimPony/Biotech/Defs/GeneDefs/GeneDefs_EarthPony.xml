@@ -2,8 +2,8 @@
 
 <GeneDef>
 	<defName>MLRP_EarthPonyGene</defName>
-	<label>earth pony</label> 
-	<labelShortAdj>earth pony strength</labelShortAdj> 
+	<label>earth pony strength</label> 
+	<labelShortAdj>strength</labelShortAdj> 
 	<description>Carriers of this gene can carry additional weight.</description>
 	<iconPath>UI/Icons/Genes/EarthPony</iconPath>
 	<displayCategory>MLRP_GeneCategory</displayCategory>

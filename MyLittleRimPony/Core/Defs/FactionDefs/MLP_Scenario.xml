@@ -4,7 +4,7 @@
 <ScenarioDef>
     <defName>MLRP_Scenario</defName>
     <label>Brony Community</label>
-    <description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you all love a show about cartoon ponies, and have taken its lessons to heart.\n\nYou'll need to work fast in order to secure your new home, though; your starting equipment is quite basic and you own a lot of valuable items, making you tempting targets for raiders.</description>
+    <description>Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you all love a show about cartoon ponies, and have taken its lessons to heart.\n\nYou'll need to work fast in order to secure your new home, though; your starting weapons are very basic and you are in posession of a lot of valuable items, thus making you tempting targets for raiders.</description>
     <scenario>
 		<summary>A group of bronies attempt to carve out a new existence for themselves. Difficult.</summary>
 		<playerFaction>

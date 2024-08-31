@@ -1,0 +1,21 @@
+<LanguageData>
+
+	<!--EN: MLP fanfiction-->
+	<MLRP_Fanfiction.label>fanfiction de mon petit poney</MLRP_Fanfiction.label>
+	
+	<!--EN: A book containing a fan-made story set in the My Little Pony universe.\n\nIt is clearly thousands of years old; the fact it has somehow survived this long is nothing short of a miracle.-->
+	<MLRP_Fanfiction.description>Un livre contenant une histoire créée par des fans et se déroulant dans l'univers de My Little Pony.\n\nIl est manifestement vieux de plusieurs milliers d'années; le fait qu'il ait survécu aussi longtemps relève du miracle.</MLRP_Fanfiction.description>
+	
+	<Description_MLP_Fanfiction.rulePack.rulesStrings>
+		<!--EN: This work of pony fanfiction was written over three thousand years ago ago[book_quality]-->
+		<li>desc->Cette fanfiction sur les poneys a été écrite il y a plus de trois mille ans[book_quality]</li>
+		
+		<!--EN: Despite its age, its condition is very impressive.-->
+		<li>book_quality(quality[greater_than]5)->. Malgré son âge, son état est très impressionnant.</li>
+
+		<!--EN: It is barely legible due to the damage it has sustained.-->
+		<li>book_quality(quality[less_than]2)->. Il est à peine lisible en raison des dommages qu'il a subis.</li>
+		<li>book_quality->.</li>
+	</Description_MLP_Fanfiction.rulePack.rulesStrings>
+
+</LanguageData>

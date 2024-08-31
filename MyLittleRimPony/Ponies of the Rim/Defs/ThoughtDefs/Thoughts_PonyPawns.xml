@@ -1,0 +1,33 @@
+<Defs>
+
+	<ThoughtDef>
+	<defName>MLRP_BronyLovesPony</defName>
+	<thoughtClass>MyLittleRimPony.Thought_BronyLovesPony</thoughtClass>
+	<workerClass>MyLittleRimPony.ThoughtWorker_BronyLovesPony</workerClass>
+	<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>brony loves ponies</label>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>MLRP_BronyTrait</li>
+		</requiredTraits>
+	</ThoughtDef>
+  
+	<ThoughtDef>
+	<defName>MLRP_AntiBronyHatesPony</defName>
+	<thoughtClass>MyLittleRimPony.Thought_AntiBronyHatesPony</thoughtClass>
+	<workerClass>MyLittleRimPony.ThoughtWorker_AntiBronyHatesPony</workerClass>
+	<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>anti brony hates ponies</label>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>MLRP_AntiBronyTrait</li>
+		</requiredTraits>
+	</ThoughtDef>
+  
+</Defs>

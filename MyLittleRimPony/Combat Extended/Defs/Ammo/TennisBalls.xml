@@ -46,7 +46,7 @@
 
 	<RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_TennisBalls</defName>
-		<label>make Tennis balls x50</label>
+		<label>make tennis balls x50</label>
 		<description>Craft 50 tennis balls.</description>
 		<jobString>Making tennis balls.</jobString>
 		<workAmount>60</workAmount>

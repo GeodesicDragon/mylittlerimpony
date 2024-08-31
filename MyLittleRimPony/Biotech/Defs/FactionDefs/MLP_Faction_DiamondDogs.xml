@@ -5,7 +5,7 @@
     <defName>MLRP_DiamondDog_Faction</defName>
     <label>diamond dog clan</label>
     <categoryTag>Outlander</categoryTag>
-    <description>A colony of people who have undergone xenotype implantation to become Diamond Dogs. They have a zero tolerance approach to outsiders, and will attack anyone who is not one of them. In combat, they rely solely on large numbers of melee combatants wearing plate armour.</description>
+    <description>A colony of people who have undergone xenotype implantation to become Diamond Dogs. They have a zero tolerance approach to outsiders, and will attack anyone who is not one of them. In combat, they rely on melee combatants wearing plate armour supported by archers using greatbows.</description>
 	<permanentEnemy>true</permanentEnemy>
     <pawnSingular>Diamond Dog</pawnSingular>
     <pawnsPlural>Diamond Dogs</pawnsPlural>
@@ -98,13 +98,15 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <DiamondDogSoldier>40</DiamondDogSoldier>
+          <DiamondDogSoldier>30</DiamondDogSoldier>
+          <DiamondDogArcher>10</DiamondDogArcher>
         </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <DiamondDogSoldier>60</DiamondDogSoldier>
+          <DiamondDogSoldier>40</DiamondDogSoldier>
+          <DiamondDogArcher>20</DiamondDogArcher>
 		</options>
       </li>
     </pawnGroupMakers>
@@ -122,6 +124,7 @@
 			<li>Silver</li>
 			<li>Steel</li>
 			<li>Uranium</li>
+			<li>PonyPlush_Ruined</li>
           </thingDefs>
         </filter>
       </fixedParams>

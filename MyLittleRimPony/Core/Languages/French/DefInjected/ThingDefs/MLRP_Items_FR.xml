@@ -1,0 +1,21 @@
+<LanguageData>
+
+	<!--EN: party cannon-->
+	<MLRP_PartyCannonArtifact.label>canon de fête</MLRP_PartyCannonArtifact.label>
+	
+	<!--EN: This artifact was created by persons unknown in order to bring the fun of a Pinkie Pie party to the masses.\n\nWhen fired, it improves the mood of all colonists in the area, though bronies will feel a stronger effect. The cannon is even powerful enough to improve the mood of anti bronies, but not by much.\n\nUnlike Pinkie's own Party Cannon, this one can only be used once.-->
+	<MLRP_PartyCannonArtifact.description>Cet artefact a été créé par des personnes inconnues dans le but d'apporter le plaisir d'une fête de Pinkie Pie aux masses.\n\nLorsqu'il est tiré, il améliore l'humeur de tous les colons de la zone, mais les bronies ressentent un effet plus fort. Le canon est même assez puissant pour améliorer l'humeur des anti-bronys, mais pas de beaucoup.\n\nContrairement au canon de Pinkie, celui-ci ne peut être utilisé qu'une seule fois.</MLRP_PartyCannonArtifact.description>
+
+	<!--EN: ruined pony plushie-->
+	<PonyPlush_Ruined.label>peluche poney en ruine</PonyPlush_Ruined.label>
+	
+	<!--EN: This plushie has somehow been destroyed, and is truly a sad sight to behold.\n\nIt can be recycled at the plushie bench to recover some useful materials.-->
+	<PonyPlush_Ruined.description>Cette peluche de poney a été détruite d'une manière ou d'une autre, et c'est vraiment un spectacle désolant.\n\nIl peut être recyclé au banc des peluches pour récupérer des matériaux utiles.</PonyPlush_Ruined.description>
+
+	<!--EN: Sunset Shimmer-->
+	<PonyPlush_SunsetShimmer.label>Sunset Shimmer</PonyPlush_SunsetShimmer.label>
+	
+	<!--EN: Once the student of Princess Celestia, Sunset let the thought of power and glory get to her head, leading to her making a mistake. But with new friends by her side, she is putting her past behind her and moving towards a brighter future.-->
+	<PonyPlush_SunsetShimmer.description>Autrefois élève de la princesse Celestia, Sunset a laissé le pouvoir et la gloire lui monter à la tête, ce qui l'a conduite à commettre une erreur. Mais avec de nouveaux amis à ses côtés, elle tire un trait sur son passé et se dirige vers un avenir plus radieux.</PonyPlush_SunsetShimmer.description>	
+
+</LanguageData>

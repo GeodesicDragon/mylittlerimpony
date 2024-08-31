@@ -1,0 +1,12 @@
+<LanguageData>
+
+	<!--EN: recycle destroyed plushie-->
+	<MLRP_RecyclePlushies.label>recycler la peluche de poney détruite</MLRP_RecyclePlushies.label>
+	
+	<!--EN: Recycle a destroyed plushie, reclaiming some of the material originally used to make it.-->
+	<MLRP_RecyclePlushies.description>Recyclez une peluche de poney détruite, en récupérant une partie des matériaux utilisés à l'origine pour la fabriquer.</MLRP_RecyclePlushies.description>
+	
+	<!--EN: Recycling destroyed plushies-->
+	<MLRP_RecyclePlushies.jobString>Recyclage des peluches de poney détruites</MLRP_RecyclePlushies.jobString>
+
+</LanguageData>

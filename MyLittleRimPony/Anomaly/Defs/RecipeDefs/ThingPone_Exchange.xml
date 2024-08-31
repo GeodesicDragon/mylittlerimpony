@@ -20,7 +20,7 @@
 <RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
 	<defName>MLRP_Thingpone_Shell_Deadlife</defName>
 	<label>purchase deadlife shell</label>
-	<description>Use silver to purchase a deadlife shell.</description>
+	<description>Use silver and twisted meat to purchase a deadlife shell.</description>
 	<researchPrerequisite>DeadlifeDust</researchPrerequisite>
     <ingredients>
 		<li>
@@ -30,6 +30,14 @@
 				</thingDefs>
 			</filter>
 			<count>3</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
 		</li>
 	</ingredients>
 	<products>
@@ -42,7 +50,7 @@
 <RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
 	<defName>MLRP_Thingpone_VoidsightSerum</defName>
 	<label>purchase voidsight serum</label>
-	<description>Use silver to purchase a voidsight serum.</description>
+	<description>Use silver and twisted meat to purchase a voidsight serum.</description>
 	<researchPrerequisite>SerumSynthesis</researchPrerequisite>
     <ingredients>
 		<li>
@@ -52,6 +60,14 @@
 				</thingDefs>
 			</filter>
 			<count>9</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>45</count>
 		</li>
 	</ingredients>
 	<products>
@@ -64,7 +80,7 @@
 <RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
 	<defName>MLRP_Thingpone_MetalbloodSerum</defName>
 	<label>purchase metalblood serum</label>
-	<description>Use silver to purchase a metalblood serum.</description>
+	<description>Use silver and twisted meat to purchase a metalblood serum.</description>
 	<researchPrerequisite>MetalbloodSerum</researchPrerequisite>
     <ingredients>
 		<li>
@@ -74,6 +90,14 @@
 				</thingDefs>
 			</filter>
 			<count>30</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>150</count>
 		</li>
 	</ingredients>
 	<products>
@@ -86,7 +110,7 @@
 <RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
 	<defName>MLRP_Thingpone_JuggernautSerum</defName>
 	<label>purchase juggernaut serum</label>
-	<description>Use silver to purchase a juggernaut serum.</description>
+	<description>Use silver and twisted meat to purchase a juggernaut serum.</description>
 	<researchPrerequisite>JuggernautSerum</researchPrerequisite>
     <ingredients>
 		<li>
@@ -96,6 +120,14 @@
 				</thingDefs>
 			</filter>
 			<count>30</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>150</count>
 		</li>
 	</ingredients>
 	<products>
@@ -108,7 +140,7 @@
 <RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
 	<defName>MLRP_Thingpone_MindNumbSerum</defName>
 	<label>purchase mind-numb serum</label>
-	<description>Use silver to purchase a mind-numb serum.</description>
+	<description>Use silver and twisted meat to purchase a mind-numb serum.</description>
 	<researchPrerequisite>MindNumbSerum</researchPrerequisite>
     <ingredients>
 		<li>
@@ -118,6 +150,14 @@
 				</thingDefs>
 			</filter>
 			<count>12</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>60</count>
 		</li>
 	</ingredients>
 	<products>
@@ -130,7 +170,7 @@
 <RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
 	<defName>MLRP_Thingpone_GhoulResurrectionSerum</defName>
 	<label>purchase ghoul resurrection serum</label>
-	<description>Use silver to purchase a ghoul resurrection serum.</description>
+	<description>Use silver and twisted meat to purchase a ghoul resurrection serum.</description>
 	<researchPrerequisite>GhoulResurrection</researchPrerequisite>
     <ingredients>
 		<li>
@@ -140,6 +180,14 @@
 				</thingDefs>
 			</filter>
 			<count>9</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>45</count>
 		</li>
 	</ingredients>
 	<products>
@@ -168,7 +216,7 @@
 					<li>Meat_Twisted</li>
 				</thingDefs>
 			</filter>
-			<count>250</count>
+			<count>500</count>
 		</li>
 	</ingredients>
 	<products>

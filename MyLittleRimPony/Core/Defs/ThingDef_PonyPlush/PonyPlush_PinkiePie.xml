@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Social">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_PinkiePie</defName>
 		<label>Pinkie Pie</label>
 		<description>Pinkie Pie never fails to liven up somepony's day, and yours will be no exception.\n\nCarrying her makes you feel more talkative.</description>

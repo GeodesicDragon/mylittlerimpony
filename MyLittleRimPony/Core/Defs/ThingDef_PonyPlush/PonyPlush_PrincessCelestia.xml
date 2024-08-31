@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Utility">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_PrincessCelestia</defName>
 		<label>Princess Celestia</label>
 		<description>As one of the rulers of Equestria, Celestia has been through a lot; recently, though, she has never been happier.\n\nCarrying her makes you feel more in control of your emotions.</description>

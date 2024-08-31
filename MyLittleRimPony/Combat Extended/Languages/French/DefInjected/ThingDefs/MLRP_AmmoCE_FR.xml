@@ -1,0 +1,69 @@
+<LanguageData>	
+	
+	<!--EN: Cadence javelins-->
+	<Ammo_CadenceJavelins.label>Javelots de Cadence</Ammo_CadenceJavelins.label>
+	
+	<!--EN: Ammo for the wife thrower.\n\nNo alicorns were harmed in the making of this item.-->
+	<Ammo_CadenceJavelins.description>Munitions pour le lanceur de épouse.\n\nAucune alicorne n'a été blessée lors de la fabrication de cet article.</Ammo_CadenceJavelins.description>	
+	
+	<!--EN: make Cadence javelins x100-->
+	<MakeAmmo_CadenceJavelin.label>créer des javelots de Cadence x100</MakeAmmo_CadenceJavelin.label>
+	
+	<!--EN: Craft 100 Cadence javelins.-->
+	<MakeAmmo_CadenceJavelin.description>Fabriquer 100 javelots de Cadence.</MakeAmmo_CadenceJavelin.description>	
+	
+	<!--EN: Making Cadence javelins.-->
+	<MakeAmmo_CadenceJavelin.jobString>Fabrication de javelots Cadence.</MakeAmmo_CadenceJavelin.jobString>	
+	
+	<!--EN: Harmony lasers-->
+	<Ammo_HarmonyLaser.label>Lasers Harmony</Ammo_HarmonyLaser.label>
+	
+	<!--EN: Ammo for the Rainbow Laser and Sweetie Bot turret.\n\nVery bright and colourful.-->
+	<Ammo_HarmonyLaser.description>Munitions pour le laser arc-en-ciel et la tourelle Sweetie Bot.\n\nTrès lumineux et coloré.</Ammo_HarmonyLaser.description>
+	
+	<!--EN: make Harmony lasers x500-->
+	<MakeAmmo_HarmonyLaser.label>créer des lasers Harmony x500</MakeAmmo_HarmonyLaser.label>
+	
+	<!--EN: Craft 500 shots' worth of Harmony lasers.-->
+	<MakeAmmo_HarmonyLaser.description>Fabriquez des lasers Harmony d'une valeur de 500 tirs.</MakeAmmo_HarmonyLaser.description>
+	
+	<!--EN: Making harmony lasers.-->
+	<MakeAmmo_HarmonyLaser.jobString>Fabriquer des lasers d'harmonie.</MakeAmmo_HarmonyLaser.jobString>
+	
+	<!--EN: Tennis balls-->
+	<Ammo_TennisBalls.label>Balles de tennis</Ammo_TennisBalls.label>
+	
+	<!--EN: Ammo for the tennis ball launcher.\n\nVery creative, apparently.-->
+	<Ammo_TennisBalls.description>Munitions pour le lanceur de balles de tennis.\n\nTrès créatif, apparemment.</Ammo_TennisBalls.description>
+	
+	<!--EN: make tennis balls x50-->
+	<MakeAmmo_TennisBalls.label>faire des balles de tennis x50</MakeAmmo_TennisBalls.label>
+	
+	<!--EN: Craft 50 tennis balls.-->
+	<MakeAmmo_TennisBalls.description>Fabriquez 50 balles de tennis.</MakeAmmo_TennisBalls.description>
+	
+	<!--EN: Making tennis balls.-->
+	<MakeAmmo_TennisBalls.jobString>Fabrication de balles de tennis.</MakeAmmo_TennisBalls.jobString>
+	
+	<!--EN: wooden bullet-->
+	<MLRP_WoodenBullet.label>balle en bois</MLRP_WoodenBullet.label>
+	
+	<!--EN: Bullets made of wood that inflict no damage, but irritate people hit by one to the point they'll want to destroy whatever happens to be firing them.-->
+	<MLRP_WoodenBullet.description>Des balles en bois qui n'infligent aucun dommage, mais qui irritent les personnes touchées au point qu'elles veulent détruire ce qui les tire.</MLRP_WoodenBullet.description>	
+	
+	<!--EN: wooden bullets-->
+	<Ammo_WoodenBullets.label>balles en bois</Ammo_WoodenBullets.label>
+	
+	<!--EN: Ammo for the Mudbriar, Quibble Pants and Zephyr Breeze turrets.-->
+	<Ammo_WoodenBullets.description>Munitions pour les tourelles Mudbriar, Quibble Pants et Zephyr Breeze.</Ammo_WoodenBullets.description>	
+	
+	<!--EN: make wooden bullets x300-->
+	<MakeAmmo_WoodenBullets.label>fabriquer des balles en bois x300</MakeAmmo_WoodenBullets.label>
+	
+	<!--EN: Craft 300 wooden bullets.-->
+	<MakeAmmo_WoodenBullets.description>Fabriquer 300 balles en bois.</MakeAmmo_WoodenBullets.description>
+	
+	<!--EN: Making wooden bullets.-->
+	<MakeAmmo_WoodenBullets.jobString>Fabrication de balles en bois.</MakeAmmo_WoodenBullets.jobString>
+	
+</LanguageData>

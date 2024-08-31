@@ -2,16 +2,18 @@
 
 <RecipeDef>
 	<defName>MLRP_RecyclePlushies</defName>
-	<label>Recycle plushies</label>
-	<description>Recycle a plushie, reclaiming some of the material used to make it.</description>
+	<label>recycle destroyed plushie</label>
+	<description>Recycle a destroyed plushie, reclaiming some of the material originally used to make it.</description>
 	<researchPrerequisite>MLRP_PlushieRecycling</researchPrerequisite>
-    <jobString>Recycling plushies</jobString>
+    <jobString>Recycling destroyed plushies</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Tailor</effectWorking>
     <soundWorking>Recipe_Tailor</soundWorking>
     <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>1500</workAmount>
+	<requiredGiverWorkType>Tailoring</requiredGiverWorkType>
+	<workerClass>MyLittleRimPony.Recipe_RecyclePlushie</workerClass>
+    <workAmount>600</workAmount>
 	<recipeUsers>
 		<li>PlushieBench</li>
 	</recipeUsers>
@@ -19,20 +21,17 @@
       <li>
         <filter>
           <categories>
-            <li>Pony_Plushies</li>
+           <li>Pony_Plushie_Ruined</li>
           </categories>
         </filter>
         <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <categories>
-        <li>Pony_Plushies</li>
-      </categories>
+		<categories>
+			<li>Pony_Plushie_Ruined</li>
+		</categories>
     </fixedIngredientFilter>
-    <specialProducts>
-		<li>Smelted</li>
-    </specialProducts>
 </RecipeDef>
 
 </Defs>

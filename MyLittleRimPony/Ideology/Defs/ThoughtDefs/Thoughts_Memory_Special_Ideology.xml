@@ -9,7 +9,7 @@
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>
-				<label>party cannon effect (slave)</label>
+				<label>party cannon effect</label>
 				<description>I feel a bit better, but it doesn't change the fact that I'm a slave.</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>

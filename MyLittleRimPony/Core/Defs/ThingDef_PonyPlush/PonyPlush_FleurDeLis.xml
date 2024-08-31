@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Misc">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_FleurDeLis</defName>
 		<label>Fleur de Lis</label>
 		<description>Fleur is a supermodel whose beauty is known throughout Equestria and beyond.\n\nCarrying her makes you feel more confident in your own looks.</description>

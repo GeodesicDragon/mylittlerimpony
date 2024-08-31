@@ -1,0 +1,9 @@
+<LanguageData>
+
+	<!--EN: purchase dread leather-->
+	<MLRP_FE_Leather_Dread.label>acheter peau d'effroi</MLRP_FE_Leather_Dread.label>
+	
+	<!--EN: Use silver to buy 100 dread leather.-->
+	<MLRP_FE_Leather_Dread.description>Utilisez de l'argent pour acheter 100 peau d'effroi.</MLRP_FE_Leather_Dread.description>
+
+</LanguageData>

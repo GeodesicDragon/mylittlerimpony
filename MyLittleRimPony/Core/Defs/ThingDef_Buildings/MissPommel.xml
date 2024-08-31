@@ -64,7 +64,6 @@
         </powerUpgrades>
       </li>
       <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
   </ThingDef>
 

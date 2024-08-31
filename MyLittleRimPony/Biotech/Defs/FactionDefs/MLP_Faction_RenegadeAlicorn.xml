@@ -2,7 +2,7 @@
 
 <FactionDef ParentName="MLRP_PlayerFactionBase">
     <defName>MLRP_RenegadeAlicornFaction</defName>
-	<label>Renegade Alicorn</label>
+	<label>renegade alicorn</label>
     <description>A colony of people led by a renegade alicorn.</description>
 	<allowedCultures>
 		<li>Astropolitan</li>

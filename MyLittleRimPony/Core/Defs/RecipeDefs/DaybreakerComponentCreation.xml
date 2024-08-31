@@ -35,7 +35,7 @@
 <RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
 	<defName>MLRP_DB_CreateComponentIndustrialTen</defName>
 	<label>create component x 10</label>
-	<description>Create 10 components, using a lot of chemfuel to accelerate the process.</description>
+	<description>Create 10 components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>Fabrication</researchPrerequisite>
     <jobString>Making 10 components.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -121,7 +121,7 @@
 <RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
 	<defName>MLRP_DB_CreateComponentSpacerTen</defName>
 	<label>create advanced component x 10</label>
-	<description>Create 10 advanced components, using a lot of chemfuel to accelerate the process.</description>
+	<description>Create 10 advanced components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
     <jobString>Making 10 advanced components.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

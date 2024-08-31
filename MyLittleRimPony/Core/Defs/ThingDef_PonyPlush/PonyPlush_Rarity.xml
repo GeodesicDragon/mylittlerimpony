@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Utility">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_Rarity</defName>
 		<label>Rarity</label>
 		<description>As well as her generosity and beauty, Rarity is also known for running a very successful business.\n\nCarrying her makes you feel as though you can get a better deal.</description>

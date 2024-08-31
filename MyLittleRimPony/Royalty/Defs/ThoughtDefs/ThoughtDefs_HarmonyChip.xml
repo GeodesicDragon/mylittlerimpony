@@ -10,7 +10,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>Brony has harmony chip</label>
+        <label>brony has harmony chip</label>
         <description>My wildest dream has finally come true!</description>
         <baseMoodEffect>10</baseMoodEffect>
       </li>
@@ -29,7 +29,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>Anti-brony has harmony chip</label>
+        <label>anti brony has harmony chip</label>
         <description>Get it out, get it out, get it out, get it out, GET IT OUT!</description>
         <baseMoodEffect>-10</baseMoodEffect>
       </li>
@@ -48,7 +48,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>Harmony chip installed</label>
+        <label>harmony chip installed</label>
         <description>I feel really good, though I do have an urge to break into song for some reason.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>

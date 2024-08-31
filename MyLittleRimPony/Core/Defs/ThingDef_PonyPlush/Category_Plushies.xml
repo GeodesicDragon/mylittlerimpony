@@ -7,4 +7,12 @@
 		<resourceReadoutRoot>false</resourceReadoutRoot>
 		<iconPath>Things/EquestrianFlag</iconPath>
 	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Pony_Plushie_Ruined</defName>
+		<label>ruined plushies</label>
+		<parent>Pony_Plushies</parent>
+		<resourceReadoutRoot>false</resourceReadoutRoot>
+		<iconPath>Things/EquestrianFlag</iconPath>
+	</ThingCategoryDef>
 </Defs>

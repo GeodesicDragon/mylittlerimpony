@@ -1,0 +1,16 @@
+<LanguageData>	
+	
+	<!--EN: diamond dog clan-->
+	<MLRP_DiamondDog_Faction.label>clan du chien de diamant</MLRP_DiamondDog_Faction.label>
+	
+	<!--EN: A colony of people who have undergone xenotype implantation to become Diamond Dogs. They have a zero tolerance approach to outsiders, and will attack anyone who is not one of them. In combat, they rely on melee combatants wearing plate armour supported by archers using greatbows.-->
+	<!--Also includes a note about how the Anomaly DLC changes the archer unit to change their weapon, since I can't translate the patch.-->
+	<MLRP_DiamondDog_Faction.description>Colonie de personnes ayant subi une implantation xénotypique pour devenir des chiens de diamant. Ils ne tolèrent aucun étranger et attaquent quiconque n'est pas l'un d'entre eux. Au combat, ils s'appuient sur des combattants de mêlée portant des armures de plaques, soutenus par des archers utilisant de grands arcs.\n\nSi le DLC d'anomalie est activée, les archers seront équipés de piqueurs de nerfs au lieu de grands arcs.</MLRP_DiamondDog_Faction.description>
+	
+	<!--EN: renegade alicorn-->
+	<MLRP_RenegadeAlicornFaction.label>alicorne renégat</MLRP_RenegadeAlicornFaction.label>
+	
+	<!--EN: A colony of people led by a renegade alicorn.-->
+	<MLRP_RenegadeAlicornFaction.description>Une colonie de personnes dirigée par une alicorne renégate.</MLRP_RenegadeAlicornFaction.description>
+	
+</LanguageData>

@@ -1,0 +1,18 @@
+<LanguageData>
+
+	<!--EN: plushie trader-->
+	<MLRP_PlushieTrader.label>marchand de peluches</MLRP_PlushieTrader.label>
+	
+	<!--EN: bulk goods trader-->
+	<MLRP_NPCFaction_BulkGoods.label>négociant en marchandises en vrac</MLRP_NPCFaction_BulkGoods.label>
+	
+	<!--EN: weapon trader-->
+	<MLRP_NPCFaction_CombatSupplier.label>marchand d'armes</MLRP_NPCFaction_CombatSupplier.label>
+	
+	<!--EN: exotic goods trader-->
+	<MLRP_NPCFaction_ExoticGoodsTrader.label>négociant en produits exotiques</MLRP_NPCFaction_ExoticGoodsTrader.label>
+	
+	<!--EN: stonemason-->
+	<MLRP_NPCFaction_Stonemason.label>tailleur de pierre</MLRP_NPCFaction_Stonemason.label>
+
+</LanguageData>

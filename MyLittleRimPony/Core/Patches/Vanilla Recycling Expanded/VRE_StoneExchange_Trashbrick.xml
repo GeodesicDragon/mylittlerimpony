@@ -11,6 +11,7 @@
 					<defName>MLRP_SE_BuyTrashbricks</defName>
 					<label>purchase trashbricks</label>
 					<description>Use silver to purchase 100 trashbricks.</description>
+					<researchPrerequisite>VRecyclingE_ComplexRecycling</researchPrerequisite>
 					<ingredients>
 						<li>
 							<filter>
@@ -30,6 +31,7 @@
 					<defName>MLRP_SE_SellTrashbricks</defName>
 					<label>sell trashbricks</label>
 					<description>Sell 100 trashbricks in exchange for silver.</description>
+					<researchPrerequisite>VRecyclingE_ComplexRecycling</researchPrerequisite>
 					<jobString>Selling trashbricks</jobString>
 					<ingredients>
 						<li>

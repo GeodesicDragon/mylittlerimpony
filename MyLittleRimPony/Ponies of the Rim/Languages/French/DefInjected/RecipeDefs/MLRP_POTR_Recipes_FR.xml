@@ -1,0 +1,48 @@
+<LanguageData>	
+	
+	<!--EN: exchange pony fur-->
+	<MLRP_POTR_FE_PonyFur.label>échange fourrure de poney</MLRP_POTR_FE_PonyFur.label>
+	
+	<!--EN: Convert 100 pony fur into the market value equivalent of cloth.-->
+	<MLRP_POTR_FE_PonyFur.description>Convertissez 100 fourrures de poney en équivalent de valeur marchande en tissu.</MLRP_POTR_FE_PonyFur.description>
+	
+	<!--EN: Exchanging materials-->
+	<MLRP_POTR_FE_PonyFur.jobString>Échange de matériel</MLRP_POTR_FE_PonyFur.jobString>	
+	
+	<!--EN: request bionic wing-->
+	<MLRP_POTR_NMM_BionicWing.label>demande aile bionique</MLRP_POTR_NMM_BionicWing.label>
+	
+	<!--EN: Offer silver in exchange for a bionic wing.-->
+	<MLRP_POTR_NMM_BionicWing.description>Offrez de l'argent en échange d'une aile bionique.</MLRP_POTR_NMM_BionicWing.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_POTR_NMM_BionicWing.jobString>Faire une offrande à Nightmare Moon</MLRP_POTR_NMM_BionicWing.jobString>	
+	
+	<!--EN: request archotech wing-->
+	<MLRP_POTR_NMM_ArchotechWing.label>demande aile archotech</MLRP_POTR_NMM_ArchotechWing.label>
+	
+	<!--EN: Offer silver in exchange for an archotech wing.-->
+	<MLRP_POTR_NMM_ArchotechWing.description>Offrez de l'argent en échange d'une aile archotech.</MLRP_POTR_NMM_ArchotechWing.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_POTR_NMM_ArchotechWing.jobString>Faire une offrande à Nightmare Moon</MLRP_POTR_NMM_ArchotechWing.jobString>	
+	
+	<!--EN: request bionic horn-->
+	<MLRP_POTR_NMM_BionicHorn.label>demande corne bionique</MLRP_POTR_NMM_BionicHorn.label>
+	
+	<!--EN: Offer silver in exchange for a bionic horn.-->
+	<MLRP_POTR_NMM_BionicHorn.description>Offrir de l'argent en échange d'une corne bionique.</MLRP_POTR_NMM_BionicHorn.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_POTR_NMM_BionicHorn.jobString>Faire une offrande à Nightmare Moon</MLRP_POTR_NMM_BionicHorn.jobString>	
+	
+	<!--EN: request archotech horn-->
+	<MLRP_POTR_NMM_ArchotechHorn.label>demande corne archotech</MLRP_POTR_NMM_ArchotechHorn.label>
+	
+	<!--EN: Offer silver in exchange for an archotech horn.-->
+	<MLRP_POTR_NMM_ArchotechHorn.description>Offrir de l'argent en échange d'une corne archotech.</MLRP_POTR_NMM_ArchotechHorn.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_POTR_NMM_ArchotechHorn.jobString>Faire une offrande à Nightmare Moon</MLRP_POTR_NMM_ArchotechHorn.jobString>
+	
+</LanguageData>

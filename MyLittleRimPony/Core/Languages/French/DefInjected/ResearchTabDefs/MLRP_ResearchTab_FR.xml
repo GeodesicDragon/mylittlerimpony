@@ -1,0 +1,12 @@
+<LanguageData>
+
+	<!--EN: My Little RimPony-->
+	<MLRP_ResearchTab.label>Mon Petit RimPony</MLRP_ResearchTab.label>
+		
+	<!--EN: Pony-themed research projects-->
+	<MLRP_ResearchTab.generalTitle>Projets de recherche sur le thème du poney</MLRP_ResearchTab.generalTitle>
+	
+	<!--EN: Unlock magical new technologies to improve your colony.-->
+	<MLRP_ResearchTab.generalDescription>Débloquez de nouvelles technologies magiques pour améliorer votre colonie.</MLRP_ResearchTab.generalDescription>
+	
+</LanguageData>

@@ -64,6 +64,7 @@
 		<WoodLog>75</WoodLog>
 	</costList>
 	<Properties>
+		<recoilAmount>0</recoilAmount>	
 		<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 		<hasStandardCommand>true</hasStandardCommand>
 		<defaultProjectile>LovePrincess</defaultProjectile>

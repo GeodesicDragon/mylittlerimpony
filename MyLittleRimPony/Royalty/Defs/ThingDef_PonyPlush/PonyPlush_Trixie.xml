@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Psycaster">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_Trixie</defName>
 		<label>Trixie</label>
 		<description>Trixie's ego may be big, but her grasp of illusion magic is bigger; it takes a lot of concentration to pull off the kinds of tricks she can perform.\n\nCarrying her makes you feel as though she is helping you with your own concentration, particularly when it comes to using psychic abilities.</description>

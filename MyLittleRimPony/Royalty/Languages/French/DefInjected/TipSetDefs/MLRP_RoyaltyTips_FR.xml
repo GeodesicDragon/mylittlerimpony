@@ -1,0 +1,15 @@
+<LanguageData>	
+	
+	<!--EN: The improve relations ability increases faction relations by 10, but disorients the target for a while.-->
+	<MyLittleRimPony_RoyaltyTips.tips.0>La capacité d'amélioration des relations augmente les relations entre les factions de 10, mais désoriente la cible pendant un certain temps.</MyLittleRimPony_RoyaltyTips.tips.0>	
+	
+	<!--EN: The harmony chip grants the bonuses of nearly every available plushie to the colonist it is installed in. You can still use a plushie to further increase a certain bonus.-->
+	<MyLittleRimPony_RoyaltyTips.tips.1>La puce d'harmonie accorde les bonus de presque toutes les peluches disponibles au colon dans lequel elle est installée. Il est toujours possible d'utiliser une peluche pour augmenter un certain bonus.</MyLittleRimPony_RoyaltyTips.tips.1>	
+	
+	<!--EN: Colonists with the brony trait will appreciate having a harmony chip installed more than those without.-->
+	<MyLittleRimPony_RoyaltyTips.tips.2>Les colons avec le trait brony apprécieront davantage l'installation d'une puce d'harmonie que ceux qui n'en ont pas.</MyLittleRimPony_RoyaltyTips.tips.2>	
+	
+	<!--EN: Colonists with the anti brony trait will detest having a harmony chip installed.-->
+	<MyLittleRimPony_RoyaltyTips.tips.3>Les colons anti-bronys détesteront l'installation d'une puce d'harmonie.</MyLittleRimPony_RoyaltyTips.tips.3>
+	
+</LanguageData>

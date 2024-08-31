@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Combat">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_RainbowDash</defName>
 		<label>Rainbow Dash</label>
 		<description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel fast, as well as more confident in your combat abilities.</description>

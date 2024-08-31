@@ -1,0 +1,33 @@
+<LanguageData>	
+	
+	<!--EN: Disciples of Harmony-->
+	<Cult_Of_Harmony.label>Disciples de l'harmonie</Cult_Of_Harmony.label>
+	
+	<!--EN: Blessed are those who follow the teachings of the Alicorn Goddesses.
+
+Celestia, who told us to let the light of life shine from within us.
+Luna, who told us not to let your mistakes define who you are.
+Cadence, who told us that love conquers all.
+Twilight, who told us that friendship is eternal.
+
+We are their disciples, and we will not falter in our efforts to spread their lessons across the land.-->
+	<Cult_Of_Harmony.description>Heureux ceux qui suivent les enseignements des déesses alicornes.
+
+Celestia, qui nous a dit de laisser la lumière de la vie briller en nous.
+Luna, qui nous a dit de ne pas laisser nos erreurs définir qui nous sommes.
+Cadence, qui nous a dit que l'amour triomphe de tout.
+Twilight, qui nous a dit que l'amitié est éternelle.
+
+Nous sommes leurs disciples, et nous ne faiblirons pas dans nos efforts pour répandre leurs leçons à travers le pays.</Cult_Of_Harmony.description>
+	
+	<!--EN: Cult of Chaos-->
+	<MLRP_Cult_Of_Chaos.label>Le culte du chaos</MLRP_Cult_Of_Chaos.label>
+	
+	<!--EN: Harmony is for the weak; the Lord of Chaos is the one whose lessons we should be spreading.
+		
+(Please note: Howling at the moon and sleeping in the middle of a summer afternoon are optional.)-->
+	<MLRP_Cult_Of_Chaos.description>L'harmonie est pour les faibles ; le Seigneur du Chaos est celui dont nous devrions répandre les leçons.
+		
+(Remarque : hurler à la lune et dormir au milieu d'un après-midi d'été sont facultatifs).</MLRP_Cult_Of_Chaos.description>
+	
+</LanguageData>

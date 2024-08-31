@@ -1,0 +1,73 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony"]/alienRace/raceRestriction/blackXenotypeList</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony"]/alienRace/raceRestriction</xpath>
+				<value>
+					<blackXenotypeList>
+						<li>MLRP_Xeno_Alicorn</li>
+						<li>MLRP_Xeno_EarthPony</li>
+						<li>MLRP_Xeno_Unicorn</li>
+						<li>MLRP_Xeno_Pegasus</li>
+						<li>MLRP_Xeno_Changeling</li>
+						<li>MLRP_Xeno_DiamondDog</li>
+						<li MayRequire="sarg.alphagenes">MLRP_Xeno_Batpony</li>
+					</blackXenotypeList>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony"]/alienRace/raceRestriction/blackXenotypeList</xpath>
+				<value>
+					<li>MLRP_Xeno_Alicorn</li>
+					<li>MLRP_Xeno_EarthPony</li>
+					<li>MLRP_Xeno_Unicorn</li>
+					<li>MLRP_Xeno_Pegasus</li>
+					<li>MLRP_Xeno_Changeling</li>
+					<li>MLRP_Xeno_DiamondDog</li>
+					<li MayRequire="sarg.alphagenes">MLRP_Xeno_Batpony</li>
+				</value>
+			</match>
+		</match>
+	</Operation>
+		
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony"]/alienRace/raceRestriction/blackGeneList</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony"]/alienRace/raceRestriction</xpath>
+				<value>
+					<blackGeneList>
+						<li>MLRP_AlicornGene</li>
+						<li>MLRP_BronyGene</li>
+						<li>MLRP_EarthPonyGene</li>
+						<li>MLRP_InsectVoice</li>
+						<li>MLRP_PegasusGene</li>
+						<li>MLRP_UnicornGene</li>
+						<li>MLRP_VoiceHorse</li>
+					</blackGeneList>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="BasePony"]/alienRace/raceRestriction/blackGeneList</xpath>
+				<value>
+					<li>MLRP_AlicornGene</li>
+					<li>MLRP_BronyGene</li>
+					<li>MLRP_EarthPonyGene</li>
+					<li>MLRP_InsectVoice</li>
+					<li>MLRP_PegasusGene</li>
+					<li>MLRP_UnicornGene</li>
+					<li>MLRP_VoiceHorse</li>
+				</value>
+			</match>
+		</match>
+	</Operation>
+
+</Patch>

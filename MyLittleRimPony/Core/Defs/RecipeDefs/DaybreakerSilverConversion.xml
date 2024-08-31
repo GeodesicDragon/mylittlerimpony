@@ -253,7 +253,7 @@
 <RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
 	<defName>MLRP_DB_ConvertUraniumIntoSilver</defName>
 	<label>convert uranium to silver</label>
-	<description>Convert 167 jade into 1000 silver.</description>
+	<description>Convert 167 uranium into 1000 silver.</description>
     <jobString>Converting materials</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

@@ -1,0 +1,21 @@
+<LanguageData>	
+	
+	<!--EN: brony has harmony chip-->
+	<MLRP_HarmonyChipInstalledBrony.stages.brony_has_harmony_chip.label>brony a une puce d'harmonie</MLRP_HarmonyChipInstalledBrony.stages.brony_has_harmony_chip.label>
+	
+	<!--EN: My wildest dream has finally come true!-->
+	<MLRP_HarmonyChipInstalledBrony.stages.brony_has_harmony_chip.description>Mon rêve le plus fou est enfin devenu réalité!</MLRP_HarmonyChipInstalledBrony.stages.brony_has_harmony_chip.description>
+	
+	<!--EN: anti brony has harmony chip-->
+	<MLRP_HarmonyChipInstalledAntiBrony.stages.anti_brony_has_harmony_chip.label>anti brony a une puce d'harmonie</MLRP_HarmonyChipInstalledAntiBrony.stages.anti_brony_has_harmony_chip.label>
+	
+	<!--EN: Get it out, get it out, get it out, get it out, GET IT OUT!-->
+	<MLRP_HarmonyChipInstalledAntiBrony.stages.anti_brony_has_harmony_chip.description>Sortez-le, sortez-le, sortez-le, sortez-le, SORTEZ-LE!</MLRP_HarmonyChipInstalledAntiBrony.stages.anti_brony_has_harmony_chip.description>
+	
+	<!--EN: harmony chip installed-->
+	<MLRP_HarmonyChipInstalledRegular.stages.harmony_chip_installed.label>anti brony a une puce d'harmonie</MLRP_HarmonyChipInstalledRegular.stages.harmony_chip_installed.label>
+	
+	<!--EN: I feel really good, though I do have an urge to break into song for some reason.-->
+	<MLRP_HarmonyChipInstalledRegular.stages.harmony_chip_installed.description>Je me sens vraiment bien, même si j'ai envie de me mettre à chanter pour une raison ou une autre.</MLRP_HarmonyChipInstalledRegular.stages.harmony_chip_installed.description>
+	
+</LanguageData>

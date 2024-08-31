@@ -479,28 +479,6 @@
 			</apply>
 		</li>
 		
-		<!--NURSE REDHEART: REPLACE TIP-->
-		<li Class="XmlExtensions.UseSettings">
-			<modId>geodesicdragon.rimpony</modId>
-			<keys>
-				<li>MLRP_NurseRedheartMedicineSpawnAmount</li>
-				<li>MLRP_NurseRedheartMedicineSpawnTime</li>
-			</keys>
-			<defaultValues>
-				<li>5</li>
-				<li>10</li>
-			</defaultValues>
-			<brackets>{}</brackets>    
-			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="NurseRedheart"]</xpath>
-					<value>
-						<li Name="NurseRedheart">Nurse Redheart is a rare reward from quests; she will grant you {MLRP_NurseRedheartMedicineSpawnAmount} Medicine every {MLRP_NurseRedheartMedicineSpawnTime} days as long as she has enough power.</li>
-					</value>
-				</Operation>
-			</apply>
-		</li>
-		
 		<!--AGGRO TURRETS: RANGE-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
@@ -735,28 +713,6 @@
 			</apply>
 		</li>
 		
-		<!--SSCS6K: REPLACE TIP-->
-		<li Class="XmlExtensions.UseSettings">
-			<modId>geodesicdragon.rimpony</modId>
-			<keys>
-				<li>MLRP_SSCS6KBeerSpawnAmount</li>
-				<li>MLRP_SSCS6KBeerSpawnTime</li>
-			</keys>
-			<defaultValues>
-				<li>30</li>
-				<li>30</li>
-			</defaultValues>
-			<brackets>{}</brackets>    
-			<apply>
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips/li[@Name="SSCS6K"]</xpath>
-					<value>
-						<li Name="SSCS6K">The Super Speedy Cider Squeezy 6000 is a rare reward from quests; it will grant you {MLRP_SSCS6KBeerSpawnAmount} Beer every {MLRP_SSCS6KBeerSpawnTime} days as long as it has enough power.</li>
-					</value>
-				</Operation>
-			</apply>
-		</li>
-		
 		<!--DAYBREAKER STATUE: REGULAR CHEMFUEL REQUIRED-->
 		<li Class="XmlExtensions.UseSetting">
 			<modId>geodesicdragon.rimpony</modId>
@@ -914,13 +870,6 @@
 						<description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel fast, as well as more confident in your combat abilities.</description>
 					</value>
 				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/li[@Name="ChildRainbowDash"]</xpath>
-					<value>
-						<li Name="ChildRainbowDash">The child-equippable Rainbow Dash plushie grants the same bonuses as the adult version.</li>
-					</value>
-				</Operation>
 			</caseTrue>
 			<caseFalse>
 				<Operation Class="PatchOperationReplace">
@@ -936,13 +885,6 @@
 					<xpath>Defs/ThingDef[defName="PonyPlush_RainbowDash_Child"]/description</xpath>
 					<value>
 						<description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel faster on your feet.</description>
-					</value>
-				</Operation>
-				
-				<Operation Class="PatchOperationReplace">
-					<xpath>Defs/TipSetDef[defName="MyLittleRimPony_BiotechTips"]/tips/li[@Name="ChildRainbowDash"]</xpath>
-					<value>
-						<li Name="ChildRainbowDash">The child-equippable Rainbow Dash plushie only affects a child's movement speed and not their combat prowess.</li>
 					</value>
 				</Operation>
 			</caseFalse>
@@ -1257,6 +1199,43 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--TWILIGHT SPARKLE: USE OLD TEXTURE-->
+		<li Class="XmlExtensions.OptionalPatch">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_UseOldTwilightTexture</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_TwilightSparkle"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/PonyPlush/TwilightSparkle_OLD</texPath>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="vanillaexpanded.achievements">
+					<xpath>Defs/AchievementsExpanded.AchievementDef[defName="MLRP_Achievement_TwilightSparkle"]/texPath</xpath>
+					<value>
+						<texPath>Achievements/BookHorse_OLD</texPath>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_TwilightSparkle"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/PonyPlush/TwilightSparkle</texPath>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="vanillaexpanded.achievements">
+					<xpath>Defs/AchievementsExpanded.AchievementDef[defName="MLRP_Achievement_TwilightSparkle"]/texPath</xpath>
+					<value>
+						<texPath>Achievements/BookHorse</texPath>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -1317,6 +1296,11 @@
 				<li Class="XmlExtensions.Setting.Checkbox">
 					<key>MLRP_PlushiesTaintedOnDeath</key>
 					<label>Plushies become tainted if worn by a corpse</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox">
+					<key>MLRP_UseOldTwilightTexture</key>
+					<label>Use old Twilight Sparkle texture</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Dubwise.DubsBadHygiene">

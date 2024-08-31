@@ -42,6 +42,7 @@
 			<li Class="CombatExtended.ToolCE">
 				<label>horn</label>
 				<capacities>
+					<li>Poke</li>
 					<li>Stab</li>
 				</capacities>
 				<power>9</power>
@@ -70,6 +71,7 @@
 		<PonyPlush_IzzyMoonbow>1</PonyPlush_IzzyMoonbow>
 	</costList>
 	<Properties>
+		<recoilAmount>3</recoilAmount>
 		<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 		<hasStandardCommand>true</hasStandardCommand>
 		<defaultProjectile>MLRP_TennisBall</defaultProjectile>

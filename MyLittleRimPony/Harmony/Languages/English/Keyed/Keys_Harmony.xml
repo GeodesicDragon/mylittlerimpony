@@ -1,9 +1,0 @@
-<LanguageData>
-
-	<MLRP_NewRecipeUnlockedTitle>New recipe(s) unlocked</MLRP_NewRecipeUnlockedTitle>
-	<MLRP_NewRecipeUnlockedTextDB>New recipe(s) available at the Daybreaker statue.</MLRP_NewRecipeUnlockedTextDB>
-	<MLRP_NewRecipeUnlockedTextFE>New recipe(s) available at the Fabric Exchange.</MLRP_NewRecipeUnlockedTextFE>
-	<MLRP_NewRecipeUnlockedTextNMM>New recipe(s) available at the Nightmare Moon statue.</MLRP_NewRecipeUnlockedTextNMM>
-	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">New recipe(s) available from Thingpone.</MLRP_NewRecipeUnlockedTextTP>
-
-</LanguageData>

@@ -6,24 +6,12 @@
 		<descriptionHyperlinks>
 			<ThingDef>MLRP_ElementsOfHarmonyWeaponised</ThingDef>
 		</descriptionHyperlinks>
-		<useHitPoints>True</useHitPoints>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<category>Item</category>
-		<selectable>True</selectable>
 		<graphicData>
 			<texPath>Things/ElementsOfHarmony</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>1.0</Mass>
-			<Flammability>1</Flammability>
-			<EquipDelay>0.5</EquipDelay>
 		</statBases>
-		<altitudeLayer>Item</altitudeLayer>
-		<alwaysHaulable>True</alwaysHaulable>
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.25</PlantWorkSpeed>
 			<PlantHarvestYield>0.25</PlantHarvestYield>

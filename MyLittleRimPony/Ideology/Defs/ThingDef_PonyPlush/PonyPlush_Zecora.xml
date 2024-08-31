@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Utility">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_Zecora</defName>
 		<label>Zecora</label>
 		<description>Zecora has spent enough time in the Everfree Forest to know a thing or two about trees.\n\nCarrying her makes you feel as though you can cut leaves faster.</description>

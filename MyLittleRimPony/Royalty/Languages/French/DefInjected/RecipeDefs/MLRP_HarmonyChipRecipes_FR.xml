@@ -1,0 +1,15 @@
+<LanguageData>
+
+	<!--EN: install harmony chip-->
+	<MLRP_InstallHarmonyChip.label>installer un puce harmony</MLRP_InstallHarmonyChip.label>
+	
+	<!--EN: Install a harmony chip.-->
+	<MLRP_InstallHarmonyChip.description>Installer une puce d'harmonie.</MLRP_InstallHarmonyChip.description>
+	
+	<!--EN: remove harmony chip-->
+	<MLRP_RemoveHarmonyChip.label>retirer un puce harmony</MLRP_RemoveHarmonyChip.label>
+	
+	<!--EN: Remove a harmony chip.-->
+	<MLRP_RemoveHarmonyChip.description>Retirer une puce d'harmonie.</MLRP_RemoveHarmonyChip.description>
+
+</LanguageData>

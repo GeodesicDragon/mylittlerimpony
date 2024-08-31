@@ -1,0 +1,69 @@
+<LanguageData>
+
+	<!--EN: Screwball generator-->
+	<MLRP_ScrewballResearch.label>Générateur de Screwball</MLRP_ScrewballResearch.label>
+	
+	<!--EN: Harness the power of a pony supposedly cursed by the Lord of Chaos for your own needs.-->
+	<MLRP_ScrewballResearch.description>Exploitez les pouvoirs d'un poney prétendument maudit par le Seigneur du Chaos pour vos propres besoins.</MLRP_ScrewballResearch.description>
+
+	<!--EN: Plushie recycling-->
+	<MLRP_PlushieRecycling.label>Recyclage des peluches de poney</MLRP_PlushieRecycling.label>
+	
+	<!--EN: Unlocks the ability to recycle ruined plushies at the plushie bench.-->
+	<MLRP_PlushieRecycling.description>Débloque la possibilité de recycler les peluches de poney en ruine à l'établi des peluches de poney.</MLRP_PlushieRecycling.description>
+
+	<!--EN: Herbal cure kit-->
+	<MLRP_CurePoisonJokeAddictionResearch.label>Kit de soins à base de plantes</MLRP_CurePoisonJokeAddictionResearch.label>
+	
+	<!--EN: Learn how to make a herbal remedy which will cure a person of a variety of afflictions.-->
+	<MLRP_CurePoisonJokeAddictionResearch.description>Apprenez à préparer un remède à base de plantes qui guérira une personne de diverses afflictions.</MLRP_CurePoisonJokeAddictionResearch.description>
+
+	<!--EN: Rainbow Laser-->
+	<MLRP_WeaponisedElementsResearch.label>Laser arc-en-ciel</MLRP_WeaponisedElementsResearch.label>
+	
+	<!--EN: Create weapons that smite your enemies with the power of rainbows.-->
+	<MLRP_WeaponisedElementsResearch.description>Créez des armes qui anéantissent vos ennemis grâce au pouvoir des arcs-en-ciel.</MLRP_WeaponisedElementsResearch.description>
+
+	<!--EN: Statues of the Evil Sisters-->
+	<MLRP_NightmareMoonResearch.label>Statues des sœurs maléfiques</MLRP_NightmareMoonResearch.label>
+	
+	<!--EN: Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for silver, as well as a statue of Daybreaker, who will allow you to convert metals using chemfuel.-->
+	<MLRP_NightmareMoonResearch.description>Permet de construire une statue de Nightmare Moon, qui vous accordera des objets exotiques en échange d'argent, ainsi qu'une statue de Daybreaker, qui vous permettra de convertir des métaux à l'aide de chemfuel.</MLRP_NightmareMoonResearch.description>
+	
+	<!--EN: About Nightmare Moon and Daybreaker-->
+	<MLRP_NightmareMoonResearch.discoveredLetterTitle>À propos de Nightmare Moon et Daybreaker</MLRP_NightmareMoonResearch.discoveredLetterTitle>
+	
+	<!--EN: Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally, while Daybreaker lets you convert materials using chemfuel.\n\nMany recipes at these buildings are locked behind research; you will receive a letter when new items become available.-->
+	<MLRP_NightmareMoonResearch.discoveredLetterText>Nightmare Moon vous permet de demander de nombreux objets exotiques en utilisant de l'argent, bien que cela soit plus cher que de les acquérir normalement, tandis que Daybreaker vous permet de convertir des matériaux en utilisant du chemfuel.\n\nLa plupart des recettes de ces bâtiments nécessitent des recherches avant d'être débloquées; vous recevrez une lettre lorsque de nouveaux objets seront disponibles.</MLRP_NightmareMoonResearch.discoveredLetterText>
+
+	<!--EN: Request skilltrainers-->
+	<MLRP_GetSkilltrainersFromNMM.label>Demande de formateurs de compétences</MLRP_GetSkilltrainersFromNMM.label>
+	
+	<!--EN: Nightmare Moon will grant you the ability to request skilltrainers from her.-->
+	<MLRP_GetSkilltrainersFromNMM.description>Nightmare Moon vous donnera la possibilité de lui demander des entraîneurs de compétences.</MLRP_GetSkilltrainersFromNMM.description>
+
+	<!--EN: Magic mirror-->
+	<MLRP_MagicMirrorResearch.label>Miroir magique</MLRP_MagicMirrorResearch.label>
+	
+	<!--EN: Unlock the secrets of the magic mirror which once connected Equestria to a whole other world.-->
+	<MLRP_MagicMirrorResearch.description>Percez les secrets du miroir magique qui reliait autrefois Equestria à un tout autre monde.</MLRP_MagicMirrorResearch.description>
+
+	<!--EN: Magical power efficiency-->
+	<MLRP_MagicMirrorExtraPowerResearch.label>Une efficacité énergétique magique</MLRP_MagicMirrorExtraPowerResearch.label>
+	
+	<!--EN: Improves the electricity generated or used by pony-themed buildings.-->
+	<MLRP_MagicMirrorExtraPowerResearch.description>Améliore l'électricité générée ou utilisée par les bâtiments sur le thème du poney.</MLRP_MagicMirrorExtraPowerResearch.description>
+	
+	<!--EN: Magical power efficiency-->
+	<MLRP_MagicMirrorExtraPowerResearch.discoveredLetterTitle>Une efficacité énergétique magique</MLRP_MagicMirrorExtraPowerResearch.discoveredLetterTitle>
+	
+	<!--EN: These buildings now generate more power:\n\n- Screwball: +50%\n- Magic mirror: +25%\n\nThese buildings now use less power:\n\n- Plushie bench: -50%\n- Fabric Exchange: -50%\n- Stone Exchange: -50%\n- Sweetie Bot turret: -25%\n- Nurse Redheart: -25%\n- Super Speedy Cider Squeezy 6000: -25%\n- Thingpone: -25%-->
+	<MLRP_MagicMirrorExtraPowerResearch.discoveredLetterText>Ces bâtiments produisent désormais plus d'électricité:\n\n- Screwball: +50%\n- Miroir magique: +25%\n\nCes bâtiments consomment désormais moins d'énergie:\n\n- Établi pour les peluches de poney: -50%\n- Échange de tissus: -50%- Échange de pierres: -50%\n- Tourelle Sweetie Bot: -25%\n- Infirmière Redheart : -25%\n- Super Speedy Cider Squeezy 6000: -25%\n- Thingpone: -25%</MLRP_MagicMirrorExtraPowerResearch.discoveredLetterText>
+
+	<!--EN: Request archotech items-->
+	<MLRP_ArchotechResearch.label>Demande d'articles archotech</MLRP_ArchotechResearch.label>
+	
+	<!--EN: Nightmare Moon will allow you to request archotech items from her.-->
+	<MLRP_ArchotechResearch.description>Nightmare Moon vous permettra de demander des objets d'archotech.</MLRP_ArchotechResearch.description>
+
+</LanguageData>

@@ -1,0 +1,27 @@
+<LanguageData>	
+	
+	<!--EN: Brony Xenotypes-->
+	<MLRP_Scenario_Xenos.label>xénotypes des brony</MLRP_Scenario_Xenos.label>
+	
+	<!--EN: Your group has been wandering these lands for a while now, and you've finally decided to settle down and build a home.\n\nYou are all from different walks of life, but you have one thing in common: you are so passionate about My Little Pony, you each underwent xenotype implentation to transform yourselves into your favourite pony race.\n\nYou'll need to work fast in order to secure your new home, though; your starting equipment is quite basic and you own a lot of valuable items, making you tempting targets for raiders.-->
+	<MLRP_Scenario_Xenos.description>Cela fait maintenant un moment que votre groupe erre sur ces terres, et vous avez finalement décidé de vous installer et de construire un foyer.\n\nVous venez tous d'horizons différents, mais vous avez une chose en commun : vous êtes tellement passionnés par My Little Pony que vous avez tous subi une implentation xénotypique pour vous transformer en votre race de poney préférée.\n\nEn effet, votre équipement de départ est assez basique et vous possédez de nombreux objets de valeur, ce qui fait de vous des cibles tentantes pour les pilleurs.</MLRP_Scenario_Xenos.description>
+	
+	<!--EN: A group comprised of one of each pony xenotype attempts to carve out a new existence. Difficult.-->
+	<MLRP_Scenario_Xenos.scenario.summary>Un groupe composé d'une personne de chaque xénotype de poney tente de se forger une nouvelle existence. Difficile.</MLRP_Scenario_Xenos.scenario.summary>
+	
+	<!--EN: We underwent these procedures in order to better ourselves; it is now time to better everyone else, by spreading the light of friendship across the planet. There may be some who will attempt to stop us, but we will be ready.\n\nMay the Alicorn goddesses watch over us.-->
+	<MLRP_Scenario_Xenos.scenario.parts.GameStartDialog.text>Nous avons subi ces procédures afin de nous améliorer nous-mêmes ; il est maintenant temps d'améliorer tout le monde, en répandant la lumière de l'amitié sur la planète. Certains tenteront peut-être de nous arrêter, mais nous serons prêts.\n\nQue les déesses alicornes veillent sur nous.</MLRP_Scenario_Xenos.scenario.parts.GameStartDialog.text>	
+	
+	<!--EN: Renegade Alicorn-->
+	<MLRP_Scenario_RenegadeAlicorn.label>alicorne renégat</MLRP_Scenario_RenegadeAlicorn.label>
+	
+	<!--EN: You are an alicorn, the most graceful of the pony races, but you're not like the others. Peace, friendship and harmony are meaningless; as far as you are concerned, the true path to greatness is paved with blood, bones and fear.\n\nYou managed to convince a few people to follow you and now, with nothing but their help, a large bag of silver, and the materials needed to convert it into things you'll need, you will find a way off this godforsaken rock. Once you manage that, you will travel the universe, teaching your lessons to those who will listen... and crushing those who don't.-->
+	<MLRP_Scenario_RenegadeAlicorn.description>Tu es une alicorne, la plus gracieuse des races de poneys, mais tu n'es pas comme les autres. La paix, l'amitié et l'harmonie n'ont pas de sens; pour toi, le vrai chemin de la grandeur est pavé de sang, d'os et de peur.\n\nVous avez réussi à convaincre quelques personnes de vous suivre et maintenant, avec seulement leur aide, un gros sac d'argent et les matériaux nécessaires pour le convertir en choses dont vous aurez besoin, vous allez trouver un moyen de quitter ce rocher maudit. Une fois que vous y serez parvenu, vous parcourrez l'univers, enseignant vos leçons à ceux qui veulent bien vous écouter... et écrasant ceux qui ne le veulent pas.</MLRP_Scenario_RenegadeAlicorn.description>
+	
+	<!--EN: A single alicorn, three followers, a large amount of silver, some fuel, and statues of two evil alicorns.-->
+	<MLRP_Scenario_RenegadeAlicorn.scenario.summary>Une seule alicorne, trois disciples, une grande quantité d'argent, du carburant et des statues de deux alicornes maléfiques.</MLRP_Scenario_RenegadeAlicorn.scenario.summary>
+	
+	<!--EN: My will is iron, and my heart is stone. Come hell or high water, I will find a way off this planet and spread my teachings across the cosmos!-->
+	<MLRP_Scenario_RenegadeAlicorn.scenario.parts.GameStartDialog.text>Ma volonté est de fer et mon cœur est de pierre. Que ce soit en enfer ou dans l'eau, je trouverai le moyen de quitter cette planète et de répandre mes enseignements dans le cosmos !</MLRP_Scenario_RenegadeAlicorn.scenario.parts.GameStartDialog.text>
+	
+</LanguageData>

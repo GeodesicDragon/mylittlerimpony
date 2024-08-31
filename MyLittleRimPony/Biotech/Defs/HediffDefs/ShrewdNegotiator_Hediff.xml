@@ -3,7 +3,7 @@
   <HediffDef>
     <defName>MLRP_ShrewdNegotiatorHediff</defName>
     <label>shrewd negotiator</label>
-    <description>This pawn has tapped into their alicorn genes, vastly improving their social and negotiation skills for a while.</description>
+    <description>This person has tapped into their alicorn genes, vastly improving their social and negotiation skills for a while.</description>
 	<hediffClass>HediffWithComps</hediffClass>
 	<stages>
 		<li>

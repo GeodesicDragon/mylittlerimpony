@@ -1,0 +1,10 @@
+<LanguageData>
+
+	<!--EN: Sunny Starscout-->
+	<MLRP_Storyteller_Sunny.label>Sunny Starscout</MLRP_Storyteller_Sunny.label>
+	
+	<!--EN: Sunny prefers to make friends instead of enemies, so she will send you more quests, traders and visitors instead.\n\nRaids will occur, but only once a certain number of threat points are reached, and with more time between them in order to help you thrive and build up your relationships with other factions.\n\nAs a downside, however, disease outbreaks will happen much more frequently.-->
+	<MLRP_Storyteller_Sunny.description>Sunny Starscout préfère se faire des amis plutôt que des ennemis, elle vous enverra donc plus de quêtes, de marchands et de visiteurs.\n\nDes raids auront lieu, mais seulement après avoir atteint un certain nombre de points de menace, et avec plus de temps entre eux afin de vous aider à prospérer et à construire vos relations avec les autres factions.\n\nEn revanche, les épidémies seront beaucoup plus fréquentes.</MLRP_Storyteller_Sunny.description>
+	
+
+</LanguageData>

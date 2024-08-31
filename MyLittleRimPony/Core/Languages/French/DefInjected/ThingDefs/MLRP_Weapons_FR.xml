@@ -1,0 +1,33 @@
+<LanguageData>
+
+	<!--EN: wife thrower-->
+	<MLRP_WifeThrower.label>lanceur de épouse</MLRP_WifeThrower.label>
+	
+	<!--EN: This weapon is similar to a pila, but with a couple of major differences; it can be thrown twice as fast, and is more accurate at longer ranges.\n\nDespite what many people may think about the design, they can all agree on one thing: that you really haven't lived until you've killed someone with a pretty pink pony princess.-->
+	<MLRP_WifeThrower.description>Cette arme est similaire à la pila, mais avec quelques différences majeures; elle peut être lancée deux fois plus vite et est plus précise à plus longue distance.\n\nMalgré ce que beaucoup de gens pensent de son design, ils sont tous d'accord sur une chose: on n'a pas vécu tant qu'on n'a pas tué quelqu'un avec un joli poney rose de princesse.</MLRP_WifeThrower.description>
+
+	<!--EN: tennis ball smoke grenade-->
+	<MLRP_TennisBall.label>grenade fumigène à balles de tennis</MLRP_TennisBall.label>
+	
+	<!--EN: Tennis ball launcher-->
+	<Izzy_SmokeLauncher.label>Lanceur de balles de tennis</Izzy_SmokeLauncher.label>
+	
+	<!--EN: As a pony who wants to make friends, Izzy doesn't really like the idea of violence.\n\nHaving said that, she also knows when to retreat, and has learned a variety of spells to help in that regard.-->
+	<Izzy_SmokeLauncher.description>En tant que poney désireux de se faire des amis, Izzy n'aime pas vraiment l'idée de la violence.\n\nCela dit, elle sait aussi quand il faut battre en retraite, et elle a appris divers sorts qui l'y aident.</Izzy_SmokeLauncher.description>
+
+	<!--EN: Orbital friendship cannon-->
+	<MLRP_OFC_Weapon.label>Canon orbital de l'amitié</MLRP_OFC_Weapon.label>
+	
+	<!--EN: Defeat your enemies with the power of friendship, by which I mean 'high-explosive ordinance.'-->
+	<MLRP_OFC_Weapon.description>Vainquez vos ennemis grâce au pouvoir de l'amitié, c'est-à-dire grâce à des munitions explosives.</MLRP_OFC_Weapon.description>
+
+	<!--EN: rainbow laser-->
+	<Projectile_HarmonyRainbow.label>laser arc-en-ciel</Projectile_HarmonyRainbow.label>
+
+	<!--EN: Rainbow laser-->
+	<MLRP_ElementsOfHarmonyWeaponised.label>Laser arc-en-ciel</MLRP_ElementsOfHarmonyWeaponised.label>
+	
+	<!--EN: This version of the Elements of Harmony tends to put more emphasis on the 'harm' part.-->
+	<MLRP_ElementsOfHarmonyWeaponised.description>Cette version des Éléments d'harmonie tend à mettre davantage l'accent sur la partie 'préjudice.'</MLRP_ElementsOfHarmonyWeaponised.description>
+
+</LanguageData>

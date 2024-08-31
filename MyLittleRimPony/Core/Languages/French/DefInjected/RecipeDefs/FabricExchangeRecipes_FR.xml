@@ -1,0 +1,177 @@
+<LanguageData>
+
+	<!--EN: purchase alpaca wool-->
+	<MLRP_FE_WoolAlpaca.label>acheter de la laine d'alpaga</MLRP_FE_WoolAlpaca.label>
+	
+	<!--EN: Use silver to purchase 100 alpaca wool.-->
+	<MLRP_FE_WoolAlpaca.description>Utilisez l'argent pour acheter 100 de laine d'alpaga.</MLRP_FE_WoolAlpaca.description>
+
+	<!--EN: purchase bearskin-->
+	<MLRP_FE_Leather_Bear.label>acheter de la fourrure d'ours</MLRP_FE_Leather_Bear.label>
+	
+	<!--EN: Use silver to purchase 100 bearskin.-->
+	<MLRP_FE_Leather_Bear.description>Utilisez argent pour acheter 100 fourrure d'ours.</MLRP_FE_Leather_Bear.description>
+
+	<!--EN: purchase birdskin-->
+	<MLRP_FE_Leather_Bird.label>acheter de la cuir d'oiseau</MLRP_FE_Leather_Bird.label>
+	
+	<!--EN: Use silver to purchase 100 birdskin.-->
+	<MLRP_FE_Leather_Bird.description>Utilisez argent pour acheter 100 cuir d'oiseau.</MLRP_FE_Leather_Bird.description>
+
+	<!--EN: purchase bison wool-->
+	<MLRP_FE_WoolBison.label>acheter laine de bison</MLRP_FE_WoolBison.label>
+	
+	<!--EN: Use silver to purchase 100 bison wool.-->
+	<MLRP_FE_WoolBison.description>Utilisez argent pour acheter 100 laines de bison.</MLRP_FE_WoolBison.description>
+
+	<!--EN: purchase bluefur-->
+	<MLRP_FE_Leather_Bluefur.label>acheter de fourrure bleue</MLRP_FE_Leather_Bluefur.label>
+	
+	<!--EN: Use silver to purchase 100 bluefur.-->
+	<MLRP_FE_Leather_Bluefur.description>Utilisez argent pour acheter 100 de fourrure bleue.</MLRP_FE_Leather_Bluefur.description>
+
+	<!--EN: purchase camelhide-->
+	<MLRP_FE_Leather_Camel.label>acheter cuir de dromadaire</MLRP_FE_Leather_Camel.label>
+	
+	<!--EN: Use silver to purchase 100 camelhide.-->
+	<MLRP_FE_Leather_Camel.description>Utilisez argent pour acheter 100 cuir de dromadaire.</MLRP_FE_Leather_Camel.description>
+
+	<!--EN: purchase chinchilla fur-->
+	<MLRP_FE_Leather_Chinchilla.label>acheter fourrure de chinchilla</MLRP_FE_Leather_Chinchilla.label>
+	
+	<!--EN: Use silver to purchase 100 chincilla fur.-->
+	<MLRP_FE_Leather_Chinchilla.description>Utilisez argent pour acheter 100 fourrure de chinchilla.</MLRP_FE_Leather_Chinchilla.description>
+
+	<!--EN: purchase cloth-->
+	<MLRP_FE_Cloth.label>acheter tissu</MLRP_FE_Cloth.label>
+	
+	<!--EN: Use silver to purchase 100 cloth.-->
+	<MLRP_FE_Cloth.description>Utilisez argent pour acheter 100 tissu.</MLRP_FE_Cloth.description>
+
+	<!--EN: purchase devilstrand-->
+	<MLRP_FE_DevilstrandCloth.label>acheter diabétoffe</MLRP_FE_DevilstrandCloth.label>
+	
+	<!--EN: Use silver to purchase 100 devilstrand.-->
+	<MLRP_FE_DevilstrandCloth.description>Utilisez argent pour acheter 100 diabétoffe.</MLRP_FE_DevilstrandCloth.description>
+
+	<!--EN: purchase dog leather-->
+	<MLRP_FE_Leather_Dog.label>acheter fourrure de chien</MLRP_FE_Leather_Dog.label>
+	
+	<!--EN: Use silver to purchase 100 dog leather.-->
+	<MLRP_FE_Leather_Dog.description>Utilisez argent pour acheter 100 fourrure de chien.</MLRP_FE_Leather_Dog.description>
+
+	<!--EN: purchase elephant leather-->
+	<MLRP_FE_Leather_Elephant.label>acheter cuir d'éléphant</MLRP_FE_Leather_Elephant.label>
+	
+	<!--EN: Use silver to purchase 100 elephant leather.-->
+	<MLRP_FE_Leather_Elephant.description>Utilisez argent pour acheter 100 cuir d'éléphant.</MLRP_FE_Leather_Elephant.description>
+
+	<!--EN: purchase foxfur-->
+	<MLRP_FE_Leather_Fox.label>acheter fourrure de renard</MLRP_FE_Leather_Fox.label>
+	
+	<!--EN: Use silver to purchase 100 foxfur.-->
+	<MLRP_FE_Leather_Fox.description>Utilisez argent pour acheter 100 fourrure de renard.</MLRP_FE_Leather_Fox.description>
+
+	<!--EN: purchase guinea pig fur-->
+	<MLRP_FE_Leather_GuineaPig.label>acheter fourrure de cobaye</MLRP_FE_Leather_GuineaPig.label>
+	
+	<!--EN: Use silver to purchase 100 guinea pig fur.-->
+	<MLRP_FE_Leather_GuineaPig.description>Utilisez argent pour acheter 100 fourrure de cobaye.</MLRP_FE_Leather_GuineaPig.description>
+
+	<!--EN: purchase heavy fur-->
+	<MLRP_FE_Leather_Heavy.label>acheter fourrure épaisse</MLRP_FE_Leather_Heavy.label>
+	
+	<!--EN: Use silver to purchase 100 heavy fur.-->
+	<MLRP_FE_Leather_Heavy.description>Utilisez argent pour acheter 100 fourrure épaisse.</MLRP_FE_Leather_Heavy.description>
+
+	<!--EN: exchange human leather-->
+	<MLRP_FE_Leather_Human.label>echange peau humaine</MLRP_FE_Leather_Human.label>
+	
+	<!--EN: Convert 100 human leather into the market value equivalent of cloth.-->
+	<MLRP_FE_Leather_Human.description>Convertir 100 peau humains en équivalent de valeur marchande en tissu.</MLRP_FE_Leather_Human.description>
+
+	<!--EN: purchase hyperweave-->
+	<MLRP_FE_Hyperweave.label>acheter hyperfibre</MLRP_FE_Hyperweave.label>
+	
+	<!--EN: Use silver to purchase 100 hyperweave.-->
+	<MLRP_FE_Hyperweave.description>Utilisez argent pour acheter 100 hyperfibre.</MLRP_FE_Hyperweave.description>
+
+	<!--EN: purchase light leather-->
+	<MLRP_FE_Leather_Light.label>acheter cuir fin</MLRP_FE_Leather_Light.label>
+	
+	<!--EN: Use silver to purchase 100 light leather.-->
+	<MLRP_FE_Leather_Light.description>Utilisez argent pour acheter 100 cuir fin.</MLRP_FE_Leather_Light.description>
+
+	<!--EN: purchase lizardskin-->
+	<MLRP_FE_Leather_Lizard.label>acheter cuir de lézard</MLRP_FE_Leather_Lizard.label>
+	
+	<!--EN: Use silver to purchase 100 lizardskin.-->
+	<MLRP_FE_Leather_Lizard.description>Utilisez argent pour acheter 100 cuir de lézard.</MLRP_FE_Leather_Lizard.description>
+
+	<!--EN: purchase megasloth wool-->
+	<MLRP_FE_WoolMegasloth.label>acheter laine de mégathérium</MLRP_FE_WoolMegasloth.label>
+	
+	<!--EN: Use silver to purchase 100 megasloth wool.-->
+	<MLRP_FE_WoolMegasloth.description>Utilisez argent pour acheter 100 laine de mégathérium.</MLRP_FE_WoolMegasloth.description>
+
+	<!--EN: purchase muffalo wool-->
+	<MLRP_FE_WoolMuffalo.label>acheter laine de muffalo</MLRP_FE_WoolMuffalo.label>
+	
+	<!--EN: Use silver to purchase 100 muffalo wool.-->
+	<MLRP_FE_WoolMuffalo.description>Utilisez argent pour acheter 100 laine de muffalo.</MLRP_FE_WoolMuffalo.description>
+
+	<!--EN: purchase panthera fur-->
+	<MLRP_FE_Leather_Panthera.label>acheter fourrure de panthère</MLRP_FE_Leather_Panthera.label>
+	
+	<!--EN: Use silver to purchase 100 panthera fur.-->
+	<MLRP_FE_Leather_Panthera.description>Utilisez argent pour acheter 100 fourrure de panthère.</MLRP_FE_Leather_Panthera.description>
+
+	<!--EN: purchase patchleather-->
+	<MLRP_FE_Leather_Patch.label>acheter patchwork</MLRP_FE_Leather_Patch.label>
+	
+	<!--EN: Use silver to purchase 100 patchleather.-->
+	<MLRP_FE_Leather_Patch.description>Utilisez argent pour acheter 100 patchwork.</MLRP_FE_Leather_Patch.description>
+
+	<!--EN: purchase pigskin-->
+	<MLRP_FE_Leather_Pig.label>acheter cuir de cochon</MLRP_FE_Leather_Pig.label>
+	
+	<!--EN: Use silver to purchase 100 pigskin.-->
+	<MLRP_FE_Leather_Pig.description>Utilisez argent pour acheter 100 cuir de cochon.</MLRP_FE_Leather_Pig.description>
+
+	<!--EN: purchase plainleather-->
+	<MLRP_FE_Leather_Plain.label>acheter cuir</MLRP_FE_Leather_Plain.label>
+	
+	<!--EN: Use silver to purchase 100 plainleather.-->
+	<MLRP_FE_Leather_Plain.description>Utilisez argent pour acheter 100 cuir.</MLRP_FE_Leather_Plain.description>
+
+	<!--EN: purchase rhinoceros leather-->
+	<MLRP_FE_Leather_Rhinoceros.label>acheter cuir de rhinocéros</MLRP_FE_Leather_Rhinoceros.label>
+	
+	<!--EN: Use silver to purchase 100 rhinoceros leather.-->
+	<MLRP_FE_Leather_Rhinoceros.description>Utilisez argent pour acheter 100 cuir de rhinocéros.</MLRP_FE_Leather_Rhinoceros.description>
+
+	<!--EN: purchase sheep wool-->
+	<MLRP_FE_WoolSheep.label>acheter laine de mouton</MLRP_FE_WoolSheep.label>
+	
+	<!--EN: Use silver to purchase 100 sheep wool.-->
+	<MLRP_FE_WoolSheep.description>Utilisez argent pour acheter 100 laine de mouton.</MLRP_FE_WoolSheep.description>
+
+	<!--EN: purchase synthread-->
+	<MLRP_FE_Synthread.label>acheter synthé</MLRP_FE_Synthread.label>
+	
+	<!--EN: Use silver to purchase 100 synthread.-->
+	<MLRP_FE_Synthread.description>Utilisez argent pour acheter 100 synthé.</MLRP_FE_Synthread.description>
+
+	<!--EN: purchase thrumbofur-->
+	<MLRP_FE_Leather_Thrumbo.label>acheter fourrure de thrumbo</MLRP_FE_Leather_Thrumbo.label>
+	
+	<!--EN: Use silver to purchase 100 thrumbofur.-->
+	<MLRP_FE_Leather_Thrumbo.description>Utilisez argent pour acheter 100 fourrure de thrumbo.</MLRP_FE_Leather_Thrumbo.description>
+
+	<!--EN: purchase wolfskin-->
+	<MLRP_FE_Leather_Wolf.label>acheter fourrure de loup</MLRP_FE_Leather_Wolf.label>
+	
+	<!--EN: Use silver to purchase 100 wolfskin.-->
+	<MLRP_FE_Leather_Wolf.description>Utilisez argent pour acheter 100 fourrure de loup.</MLRP_FE_Leather_Wolf.description>
+	
+</LanguageData>

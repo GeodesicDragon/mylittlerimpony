@@ -4,14 +4,14 @@
 	<MLRP_WelcomeMessage>[My Little RimPony] v{0} loaded. Remember, friendship is magic!</MLRP_WelcomeMessage><!--Shown in the log when the game loads to the main menu. {0} is the current version, and is obtained automatically.-->
 	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the herbal cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
 	<MLRP_CureFailed>Failed to cure {0} of {1}.</MLRP_CureFailed> <!--Shown at the top of the screen when an attempt to cure a pawn using the herbal cure kit fails. Only applies to attempts to cure the Cutie Pox.-->
-	<MLRP_NothingToCure>[My Little RimPony] Warning: Attempted to cure non-existent hediff(s).</MLRP_NothingToCure> <!--Shown in log when poison joke cure kit is used on a pawn not suffering from a poison joke and/or magical cake addiction.-->
-	<MLRP_AntiBronyHasPlushieAlert>Anti brony using plushie</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
+	<MLRP_NothingToCure>[My Little RimPony] Warning: Attempted to cure non-existent hediff(s) on {0}.</MLRP_NothingToCure> <!--Shown in log when a poison joke cure kit is used by a pawn not suffering from an affliction it can cure. {0} is the pawn's name.-->
+	<MLRP_AntiBronyHasPlushieAlert>Anti brony using plushie</MLRP_AntiBronyHasPlushieAlert> <!--Shown at the side of the screen when a pawn with the anti brony trait has a plushie equipped.-->
 	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
-	<MLRP_PoisonJokeLetterTitle>Poison joke affliction</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
-	
-	<!--POISON JOKE LETTER TEXT-->
+		
+	<!--POISON JOKE-->
 	<!--{0} is the pawn's name.-->
 	
+	<MLRP_PoisonJokeLetterTitle>Poison joke affliction</MLRP_PoisonJokeLetterTitle> <!--Title of letter.-->
 	<MLRP_PoisonJokeGoodConsciousness>Smoking poison joke has increased {0}'s consciousness.</MLRP_PoisonJokeGoodConsciousness>
 	<MLRP_PoisonJokeBadConsciousness>Smoking poison joke has reduced {0}'s consciousness.</MLRP_PoisonJokeBadConsciousness>
 	<MLRP_PoisonJokeGoodSpeed>Smoking poison joke has increased {0}'s movement speed.</MLRP_PoisonJokeGoodSpeed>
@@ -32,18 +32,16 @@
 	
 	<!--C# ROYALTY-->
 	
-	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti brony has harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
-	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">A pawn with the anti brony trait has a harmony chip installed. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	<MLRP_AntiBronyHasHarmonyChipAlert>Anti brony has harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipExplanation>A pawn with the anti brony trait has a harmony chip installed. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipExplanation>
+		
+	<!--RESEARCH TRACKER-->
 	
-	<!--C# BIOTECH-->
-	
-	<MLRP_AboutSweetieBotMechLetterHeader MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot mechanoids</MLRP_AboutSweetieBotMechLetterHeader>
-	<MLRP_AboutSweetieBotMechLetterText MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot mechanoids are fast moving with decent sharp armour, but they are vulnerable when engaged in melee combat.\n\nThey are best suited for attacking an enemy's flanks, rushing in and laying down fire before retreating to a safe distance.\n\nThey can also be used as mounts when part of caravans.</MLRP_AboutSweetieBotMechLetterText>
-	
-	<!--C# MODS-->
-	
-	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[My Little RimPony] XML Extensions has been detected.</MLRP_XMLExtensionsDetected>
-	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[My Little RimPony] Combat Extended has been detected.</MLRP_CEDetected>
-	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Medieval Overhaul patches have been applied.</MLRP_MOPatchesDetected>
+	<MLRP_NewRecipeUnlockedTitle>New recipe(s) unlocked</MLRP_NewRecipeUnlockedTitle>
+	<MLRP_NewRecipeUnlockedTextDB>New recipe(s) available at the Daybreaker statue.</MLRP_NewRecipeUnlockedTextDB>
+	<MLRP_NewRecipeUnlockedTextFE>New recipe(s) available at the Fabric Exchange.</MLRP_NewRecipeUnlockedTextFE>
+	<MLRP_NewRecipeUnlockedTextSE>New recipe(s) available at the Stone Exchange.</MLRP_NewRecipeUnlockedTextSE>
+	<MLRP_NewRecipeUnlockedTextNMM>New recipe(s) available at the Nightmare Moon statue.</MLRP_NewRecipeUnlockedTextNMM>
+	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">New recipe(s) available from Thingpone.</MLRP_NewRecipeUnlockedTextTP>
 	
 </LanguageData>

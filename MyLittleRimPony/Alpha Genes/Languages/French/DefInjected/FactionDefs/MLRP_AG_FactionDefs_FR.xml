@@ -1,0 +1,19 @@
+<LanguageData>
+
+	<!--EN: batpony tribe-->
+	<MLRP_Batpony_Faction.label>tribu des poneys chauves-souris</MLRP_Batpony_Faction.label>
+	
+	<!--EN: A colony of people who have undergone xenotype implantation to become batponies. Given that they have spent a lot of time by themselves, they are initially hostile towards outsiders, but they are willing to get over this if shown enough respect.\n\nIn combat, they employ the same mercenaries use by the other pony-themed faction which exists in the world, though the two don't get along.-->
+	<MLRP_Batpony_Faction.description>Une colonie de personnes ayant subi une implantation xénotypique pour devenir des poneys chauves-souris. Comme ils ont passé beaucoup de temps seuls, ils sont d'abord hostiles aux étrangers, mais ils sont prêts à passer outre si on leur montre suffisamment de respect.\n\nAu combat, ils emploient les mêmes mercenaires que l'autre faction de poneys qui existe dans le monde, bien que les deux ne s'entendent pas.</MLRP_Batpony_Faction.description>
+	
+	<!--EN: batpony-->
+	<MLRP_Batpony_Faction.pawnSingular>poney chauve-souris</MLRP_Batpony_Faction.pawnSingular>
+	
+	<!--EN: batponies-->
+	<MLRP_Batpony_Faction.pawnsPlural>poneys chauves-souris</MLRP_Batpony_Faction.pawnsPlural>
+	
+	<!--EN: top bat-->
+	<MLRP_Batpony_Faction.leaderTitle>poney chauve-souris supérieure</MLRP_Batpony_Faction.leaderTitle>
+
+
+</LanguageData>

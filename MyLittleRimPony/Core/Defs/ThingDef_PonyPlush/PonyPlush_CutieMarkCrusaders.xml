@@ -1,40 +1,24 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-    <ThingDef ParentName="PonyPlush_Special">
-    <defName>PonyPlush_CutieMarkCrusaders</defName>
-    <label>Cutie Mark Crusaders</label>
-    <description>Otherwise known as 'The Three Filly Wrecking Crew Of Ponyville.'\n\nCarrying them makes you feel as though they are supporting and guiding you, even though you can't get a cutie mark of your own.</description>
-    <useHitPoints>True</useHitPoints>
-    <drawGUIOverlay>true</drawGUIOverlay>
-	<category>Item</category>
-	<selectable>True</selectable>
-    <graphicData>
-      <texPath>Things/PonyPlush/CutieMarkCrusaders</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <statBases>
-      <MarketValue>600</MarketValue>
-      <WorkToMake>9000</WorkToMake>
-      <MaxHitPoints>150</MaxHitPoints>
-      <Mass>1.0</Mass>
-      <Flammability>1</Flammability>
-      <EquipDelay>0.5</EquipDelay>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <equippedStatOffsets>
-		<ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
-		<InjuryHealingFactor>0.5</InjuryHealingFactor>
-		<CookSpeed>20</CookSpeed>
-		<FoodPoisonChance>-0.25</FoodPoisonChance>
-    </equippedStatOffsets>
-    <costStuffCount>900</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-  </ThingDef>
-
+	<ThingDef ParentName="PonyPlush_Special">
+		<defName>PonyPlush_CutieMarkCrusaders</defName>
+		<label>Cutie Mark Crusaders</label>
+		<description>Otherwise known as 'The Three Filly Wrecking Crew Of Ponyville.'\n\nCarrying them makes you feel as though they are supporting and guiding you, even though you can't get a cutie mark of your own.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/CutieMarkCrusaders</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
+			<InjuryHealingFactor>0.5</InjuryHealingFactor>
+			<CookSpeed>20</CookSpeed>
+			<FoodPoisonChance>-0.25</FoodPoisonChance>
+		</equippedStatOffsets>
+		<costStuffCount>900</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+		</statBases>
+	</ThingDef>
 </Defs>

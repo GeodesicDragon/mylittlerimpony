@@ -1,4 +1,0 @@
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Biotech\Assemblies\MLRP_Biotech.dll
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Biotech\Source\obj\Debug\MLRP_Biotech.csproj.AssemblyReference.cache
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Biotech\Source\obj\Debug\MLRP_Biotech.csproj.CoreCompileInputs.cache
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\MyLittleRimPony\Biotech\Source\obj\Debug\MLRP_Biotech.dll

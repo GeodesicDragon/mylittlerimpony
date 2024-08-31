@@ -1,0 +1,9 @@
+<LanguageData>
+
+	<!--EN: poison joke-->
+	<MLRP_PoisonJokeNeed.label>plaisanterie empoisonné</MLRP_PoisonJokeNeed.label>
+	
+	<!--EN: Because of a poison joke dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.-->
+	<MLRP_PoisonJokeNeed.description>En raison d'une dépendance à la blague à poison, cette personne a besoin de consommer régulièrement la drogue pour éviter les symptômes de sevrage.</MLRP_PoisonJokeNeed.description>
+
+</LanguageData>

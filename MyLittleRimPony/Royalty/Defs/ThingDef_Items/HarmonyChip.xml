@@ -41,7 +41,7 @@
 <!--Hediff-->
 <HediffDef ParentName="ImplantHediffBase">
 	<defName>MLRP_HarmonyChipInstalled</defName>
-	<label>Harmony chip</label>
+	<label>harmony chip</label>
 	<labelNoun>a harmony chip</labelNoun>
 	<description>An installed harmony chip.</description>
 	<descriptionHyperlinks><ThingDef>MLRP_HarmonyChip</ThingDef></descriptionHyperlinks>
@@ -94,7 +94,7 @@
 <ThingDef ParentName="MLRP_BionicImplantBase">
     <defName>MLRP_HarmonyChip</defName>
     <label>harmony chip</label>
-    <description>When implanted in the brain, this powerful item will grant the bonuses of nearly every available pony plushie at once. It is expensive, but many people agree that it's worth it for the bonuses it provides to their stats and abilities.\n\nHaving one installed will make people happy - some more so than others - but others will hate it if this item is implanted into them.</description>
+    <description>When implanted in the brain, this powerful item will grant the bonuses of nearly every available pony plushie at once. It is expensive, but many people agree that it's worth it for the bonuses it provides to their stats and abilities.\n\nHaving one installed will make people happy - some more so than others - but others will hate having this item implanted into them.</description>
     <thingSetMakerTags>
 		<li>RewardStandardLowFreq</li>
 	</thingSetMakerTags>

@@ -40,7 +40,7 @@
 	
 	<ResearchProjectDef ParentName="MLRP_VeryHardResearchBase">
 		<defName>MLRP_HarmonyChipResearch</defName>
-		<label>Harmony chip</label>
+		<label>harmony chip</label>
 		<description>Allows you to create harmony chips, which grant the bonuses of nearly all plushies when installed in the brain.</description>
 		<prerequisites>
 			<li>AdvancedFabrication</li>

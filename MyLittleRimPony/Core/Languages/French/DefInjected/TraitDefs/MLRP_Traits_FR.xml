@@ -1,0 +1,16 @@
+<LanguageData>
+
+	<!--EN: brony-->
+	<MLRP_BronyTrait.degreeDatas.brony.label>brony</MLRP_BronyTrait.degreeDatas.brony.label>
+	
+	<!--EN: {PAWN_nameDef} has taken the lessons of My Little Pony: Friendship is Magic to heart; {PAWN_possessive} social skills have improved, {PAWN_pronoun} will never judge others based on their appearance, voice or breathing, and insults have no effect on {PAWN_objective} whatsoever.\n\n{PAWN_pronoun} gets a mood bonus from equipping pony plushies, and has a positive attitude towards other bronies.-->
+	<MLRP_BronyTrait.degreeDatas.brony.description>{PAWN_nameDef} a pris à cœur les leçons de My Little Pony : Friendship is Magic ; {PAWN_possessive} a amélioré {PAWN_possessive} compétences sociales, {PAWN_pronoun} ne jugera jamais les autres en fonction de leur apparence, de leur voix ou de leur respiration, et les insultes n'ont aucun effet sur {PAWN_objective}.\n\n{PAWN_pronoun} obtient un bonus d'humeur en équipant des peluches de poney, et a une attitude positive envers les autres bronies.</MLRP_BronyTrait.degreeDatas.brony.description>
+	
+	<!--EN: brony-->
+	<MLRP_AntiBronyTrait.degreeDatas.anti_brony.label>anti brony</MLRP_AntiBronyTrait.degreeDatas.anti_brony.label>
+	
+	<!--Since I can't translate patches, I have to use the one seen if the user has both Biotech and Ponies of the Rim enabled.-->
+	<!--EN: {PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does. {PAWN_pronoun} will get a mood loss from equipping pony plushies.\n\n{PAWN_pronoun} also dislikes pony xenotypes, and will find it abhorrent if turned into one.\n\nAdditionally, {PAWN_pronoun} has a lot of hatred for the three pony races.-->
+	<MLRP_AntiBronyTrait.degreeDatas.anti_brony.description>{PAWN_nameDef} ne comprend pas pourquoi un adulte sain d'esprit apprécie My Little Pony, et a tendance à détester tous ceux qui l'apprécient. {PAWN_pronoun} subira une perte d'humeur en équipant des peluches de poney.\n\n{PAWN_pronoun} n'aime pas non plus les xénotypes de poneys, et trouvera odieux d'être transformé en l'un d'entre eux.\n\nDe plus, {PAWN_pronoun} a beaucoup de haine pour les trois races de poneys.</MLRP_AntiBronyTrait.degreeDatas.anti_brony.description>
+	
+</LanguageData>

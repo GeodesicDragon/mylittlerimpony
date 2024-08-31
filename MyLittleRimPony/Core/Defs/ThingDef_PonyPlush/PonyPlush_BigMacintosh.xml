@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Utility">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_BigMacintosh</defName>
 		<label>Big Macintosh</label>
 		<description>What he lacks in words, he makes up for in strength.\n\nCarrying him makes you feel stronger.</description>

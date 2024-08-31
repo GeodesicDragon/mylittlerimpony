@@ -1,0 +1,32 @@
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>PonyPlush_Ruined</defName>
+		<label>ruined pony plushie</label>
+		<description>This plushie has somehow been destroyed, and is truly a sad sight to behold.\n\nIt can be recycled at the plushie bench to recover some useful materials.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/Ruined</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.08</Mass>
+		</statBases>
+		<intricate>false</intricate>
+		<smeltable>true</smeltable>
+		<costStuffCount>300</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Pony_Plushie_Ruined</li>
+		</thingCategories>
+	</ThingDef>
+	
+</Defs>

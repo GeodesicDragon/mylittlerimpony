@@ -4,8 +4,7 @@
 	<ThoughtDef>
 		<defName>MLRP_PartyCannonBoostBrony</defName>
 		<durationDays>1</durationDays>
-		<stackLimit>3</stackLimit>
-		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+		<stackLimit>1</stackLimit>
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>
@@ -22,8 +21,7 @@
 	<ThoughtDef>
 		<defName>MLRP_PartyCannonBoostRegularPawn</defName>
 		<durationDays>1</durationDays>
-		<stackLimit>3</stackLimit>
-		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+		<stackLimit>1</stackLimit>
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>
@@ -41,8 +39,7 @@
 	<ThoughtDef>
 		<defName>MLRP_PartyCannonBoostAntiBrony</defName>
 		<durationDays>1</durationDays>
-		<stackLimit>3</stackLimit>
-		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+		<stackLimit>1</stackLimit>
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>
@@ -60,7 +57,6 @@
 		<defName>MLRP_PartyCannonBoostPrisoner</defName>
 		<durationDays>1</durationDays>
 		<stackLimit>1</stackLimit>
-		<effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
 		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<stages>
 			<li>

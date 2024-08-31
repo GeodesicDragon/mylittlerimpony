@@ -13,7 +13,7 @@
 	<match Class="PatchOperationReplace">
 		<xpath>/Defs/TraitDef[defName="MLRP_AntiBronyTrait"]/degreeDatas/li/description</xpath>
 		<value>
-			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does. {PAWN_pronoun} will get a mood loss from equipping pony plushies.\n\n{PAWN_pronoun} also dislikes pony xenotypes, and will find it abhorrent if turned into one.\n\Additionally, {PAWN_pronoun} has a lot of hatred for the three pony races.</description>
+			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does. {PAWN_pronoun} will get a mood loss from equipping pony plushies.\n\n{PAWN_pronoun} also dislikes pony xenotypes, and will find it abhorrent if turned into one.\n\nAdditionally, {PAWN_pronoun} has a lot of hatred for the three pony races.</description>
 		</value>
 	</match>
 </Operation>

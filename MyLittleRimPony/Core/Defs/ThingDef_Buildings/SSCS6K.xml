@@ -3,7 +3,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_SSCS6K</defName>
     <label>Super Speedy Cider Squeezy 6000</label>
-    <description>Unlike when Flim and Flam were using it, the Super Speedy Cider Squeezy 6000 will produce something that can actually be enjoyed, provided it has enough power.\n\nGenerates 30 Beer every 30 days.</description>
+    <description>Unlike when Flim and Flam were using it, the Super Speedy Cider Squeezy 6000 will produce something that can actually be enjoyed, provided it has enough power.\n\nThis building will generate beer after a set period of time.</description>
     <graphicData>
       <texPath>Things/Building/SSCS6K</texPath>
       <graphicClass>Graphic_Single</graphicClass>

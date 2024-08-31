@@ -103,7 +103,7 @@
 
 <RecipeDef ParentName="MLRP_FE_RecipeBase">
 	<defName>MLRP_FE_Leather_Bluefur</defName>
-	<label>purchase bison wool</label>
+	<label>purchase bluefur</label>
 	<description>Use silver to purchase 100 bluefur.</description>
     <ingredients>
 		<li>
@@ -226,7 +226,7 @@
 	</products>	
 </RecipeDef>
 
-<!--PURCHASE DOG LEATHER-->
+<!--PURCHASE ELEPHANT LEATHER-->
 
 <RecipeDef ParentName="MLRP_FE_RecipeBase">
 	<defName>MLRP_FE_Leather_Elephant</defName>

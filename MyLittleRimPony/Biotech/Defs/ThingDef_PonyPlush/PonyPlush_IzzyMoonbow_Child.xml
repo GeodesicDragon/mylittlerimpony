@@ -32,7 +32,7 @@
 	</HediffDef>
   
 	<ThoughtDef>
-		<defName>MLRP_IzzyPlush_Child</defName>
+		<defName>MLRP_IzzyPlush_Child_Thought</defName>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
 		<hediff>MLRP_IzzyPlush_Child</hediff>
 		<validWhileDespawned>true</validWhileDespawned>

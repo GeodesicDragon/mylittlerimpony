@@ -1,0 +1,156 @@
+<LanguageData>	
+	
+	<!--EN: request psylink neuroformer-->
+	<MLRP_NMM_PsylinkNeuroformer.label>demande lien psychique</MLRP_NMM_PsylinkNeuroformer.label>
+	
+	<!--EN: Offer silver in exchange for a psylink neuroformer.-->
+	<MLRP_NMM_PsylinkNeuroformer.description>Offrir de l'argent en échange d'un lien psychique.</MLRP_NMM_PsylinkNeuroformer.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_PsylinkNeuroformer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_PsylinkNeuroformer.jobString>	
+	
+	<!--EN: request neurocalculator-->
+	<MLRP_NMM_Neurocalculator.label>demande neurocalculateur</MLRP_NMM_Neurocalculator.label>
+	
+	<!--EN: Offer silver in exchange for a neurocalculator.-->
+	<MLRP_NMM_Neurocalculator.description>Offrir de l'argent en échange d'un neurocalculateur.</MLRP_NMM_Neurocalculator.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_Neurocalculator.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_Neurocalculator.jobString>	
+	
+	<!--EN: request learning assistant-->
+	<MLRP_NMM_LearningAssistant.label>demande assistant d'apprentissage</MLRP_NMM_LearningAssistant.label>
+	
+	<!--EN: Offer silver in exchange for a learning assistant.-->
+	<MLRP_NMM_LearningAssistant.description>Offrir de l'argent en échange d'un assistant d'apprentissage.</MLRP_NMM_LearningAssistant.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_LearningAssistant.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_LearningAssistant.jobString>	
+	
+	<!--EN: request immunoenhancer-->
+	<MLRP_NMM_Immunoenhancer.label>demande activateur d'immunité</MLRP_NMM_Immunoenhancer.label>
+	
+	<!--EN: Offer silver in exchange for an immunoenhancer.-->
+	<MLRP_NMM_Immunoenhancer.description>Offrir de l'argent en échange d'un activateur d'immunité.</MLRP_NMM_Immunoenhancer.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_Immunoenhancer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_Immunoenhancer.jobString>	
+	
+	<!--EN: request coagulator-->
+	<MLRP_NMM_Coagulator.label>demande coagulateur</MLRP_NMM_Coagulator.label>
+	
+	<!--EN: Offer silver in exchange for a coagulator.-->
+	<MLRP_NMM_Coagulator.description>Offrir de l'argent en échange d'un coagulateur.</MLRP_NMM_Coagulator.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_Coagulator.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_Coagulator.jobString>	
+	
+	<!--EN: request healing enhancer-->
+	<MLRP_NMM_HealingEnhancer.label>demande activateur de guérison</MLRP_NMM_HealingEnhancer.label>
+	
+	<!--EN: Offer silver in exchange for a healing enhancer.-->
+	<MLRP_NMM_HealingEnhancer.description>Offrir de l'argent en échange d'un activateur de guérison.</MLRP_NMM_HealingEnhancer.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_HealingEnhancer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_HealingEnhancer.jobString>	
+	
+	<!--EN: request toughskin gland-->
+	<MLRP_NMM_ToughskinGland.label>demande glande durcissante</MLRP_NMM_ToughskinGland.label>
+	
+	<!--EN: Offer silver in exchange for a toughskin gland.-->
+	<MLRP_NMM_ToughskinGland.description>Offrir de l'argent en échange d'un glande durcissante.</MLRP_NMM_ToughskinGland.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_ToughskinGland.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ToughskinGland.jobString>	
+	
+	<!--EN: request armorskin gland-->
+	<MLRP_NMM_ArmorskinGland.label>demande glande d'armure</MLRP_NMM_ArmorskinGland.label>
+	
+	<!--EN: Offer silver in exchange for an armorskin gland.-->
+	<MLRP_NMM_ArmorskinGland.description>Offrir de l'argent en échange d'un glande d'armure.</MLRP_NMM_ArmorskinGland.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_ArmorskinGland.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ArmorskinGland.jobString>	
+	
+	<!--EN: request stoneskin gland-->
+	<MLRP_NMM_StoneskinGland.label>demande glande blindante</MLRP_NMM_StoneskinGland.label>
+	
+	<!--EN: Offer silver in exchange for a stoneskin gland.-->
+	<MLRP_NMM_StoneskinGland.description>Offrir de l'argent en échange d'un glande blindante.</MLRP_NMM_StoneskinGland.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_StoneskinGland.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_StoneskinGland.jobString>	
+	
+	<!--EN: request aesthetic shaper-->
+	<MLRP_NMM_AestheticShaper.label>demande modificateur corporel</MLRP_NMM_AestheticShaper.label>
+	
+	<!--EN: Offer silver in exchange for an aesthetic shaper.-->
+	<MLRP_NMM_AestheticShaper.description>Offrir de l'argent en échange d'un modificateur corporel.</MLRP_NMM_AestheticShaper.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_AestheticShaper.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_AestheticShaper.jobString>	
+	
+	<!--EN: request aesthetic nose-->
+	<MLRP_NMM_AestheticNose.label>demande nez esthétique</MLRP_NMM_AestheticNose.label>
+	
+	<!--EN: Offer silver in exchange for an aesthetic nose.-->
+	<MLRP_NMM_AestheticNose.description>Offrir de l'argent en échange d'un nez esthétique.</MLRP_NMM_AestheticNose.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_AestheticNose.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_AestheticNose.jobString>	
+	
+	<!--EN: request love enhancer-->
+	<MLRP_NMM_LoveEnhancer.label>demande exhausteur d'amour</MLRP_NMM_LoveEnhancer.label>
+	
+	<!--EN: Offer silver in exchange for a love enhancer.-->
+	<MLRP_NMM_LoveEnhancer.description>Offrir de l'argent en échange d'un exhausteur d'amour.</MLRP_NMM_LoveEnhancer.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_LoveEnhancer.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_LoveEnhancer.jobString>	
+	
+	<!--EN: request sterilising stomach-->
+	<MLRP_NMM_DetoxifierStomach.label>demande estomac stérilisant</MLRP_NMM_DetoxifierStomach.label>
+	
+	<!--EN: Offer silver in exchange for a sterilising stomach.-->
+	<MLRP_NMM_DetoxifierStomach.description>Offrir de l'argent en échange d'un estomac stérilisant.</MLRP_NMM_DetoxifierStomach.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_DetoxifierStomach.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_DetoxifierStomach.jobString>	
+	
+	<!--EN: request reprocessor stomach-->
+	<MLRP_NMM_ReprocessorStomach.label>demande estomac amélioré</MLRP_NMM_ReprocessorStomach.label>
+	
+	<!--EN: Offer silver in exchange for a reprocessor stomach.-->
+	<MLRP_NMM_ReprocessorStomach.description>Offrir de l'argent en échange d'un estomac amélioré.</MLRP_NMM_ReprocessorStomach.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_ReprocessorStomach.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_ReprocessorStomach.jobString>	
+	
+	<!--EN: request nuclear stomach-->
+	<MLRP_NMM_NuclearStomach.label>demande estomac nucléaire</MLRP_NMM_NuclearStomach.label>
+	
+	<!--EN: Offer silver in exchange for a nuclear stomach-->
+	<MLRP_NMM_NuclearStomach.description>Offrir de l'argent en échange d'un estomac nucléaire.</MLRP_NMM_NuclearStomach.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_NuclearStomach.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_NuclearStomach.jobString>	
+	
+	<!--EN: request circadian assistant-->
+	<MLRP_NMM_CircadianAssistant.label>demande assistant circadien</MLRP_NMM_CircadianAssistant.label>
+	
+	<!--EN: Offer silver in exchange for a circadian assistant.-->
+	<MLRP_NMM_CircadianAssistant.description>Offrir de l'argent en échange d'un assistant circadien.</MLRP_NMM_CircadianAssistant.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_CircadianAssistant.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_CircadianAssistant.jobString>	
+	
+	<!--EN: request circadian half-cycler-->
+	<MLRP_NMM_CircadianHalfCycler.label>demande alternateur de cycle circadien</MLRP_NMM_CircadianHalfCycler.label>
+	
+	<!--EN: Offer silver in exchange for a circadian half-cycler.-->
+	<MLRP_NMM_CircadianHalfCycler.description>Offrir de l'argent en échange d'un alternateur de cycle circadien.</MLRP_NMM_CircadianHalfCycler.description>
+	
+	<!--EN: Making an offering to Nightmare Moon-->
+	<MLRP_NMM_CircadianHalfCycler.jobString>Faire une offrande à Nightmare Moon</MLRP_NMM_CircadianHalfCycler.jobString>	
+	
+</LanguageData>

@@ -3,7 +3,7 @@
 	<GeneDef ParentName="GeneVoiceBase">
 		<defName>MLRP_VoiceHorse</defName>
 		<label>horse voice</label>
-		<description>Carriers have a voice which makes them sound like a horse.</description>
+		<description>Carriers of this gene have a voice which makes them sound like a horse.</description>
 		<iconPath>UI/Icons/Genes/Gene_VoiceHorse</iconPath>
 		<displayOrderInCategory>125</displayOrderInCategory>
 		<soundCall>Pawn_Horse_Call</soundCall>
@@ -35,7 +35,7 @@
 	<GeneDef ParentName="GeneVoiceBase">
 		<defName>MLRP_InsectVoice</defName>
 		<label>insect voice</label>
-		<description>Carriers have a voice which makes them sound like a giant insect.</description>
+		<description>Carriers of this gene have a voice which makes them sound like a giant insect.</description>
 		<iconPath>UI/Icons/Genes/Changeling</iconPath>
 		<displayOrderInCategory>125</displayOrderInCategory>
 		<soundCall>Pawn_Megascarab_Call</soundCall>

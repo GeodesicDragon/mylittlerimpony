@@ -1,0 +1,93 @@
+<LanguageData>	
+	
+	<!--EN: request hemogen packs-->
+	<MLRP_NMM_HemogenPack.label>demander des poches d'hémoglobine</MLRP_NMM_HemogenPack.label>
+	
+	<!--EN: Offer silver in exchange for five hemogen packs.\n\nShould only be done as a last resort, as the cost is quite steep...-->
+	<MLRP_NMM_HemogenPack.description>Offrez de l'argent en échange de cinq packs d'hémogène.\n\nA ne faire qu'en dernier recours, car le coût est assez élevé...</MLRP_NMM_HemogenPack.description>
+	
+	<!--EN: request control sublink (standard)-->
+	<MLRP_NMM_ControlSublinkStandard.label>demander sous-lien (standard)</MLRP_NMM_ControlSublinkStandard.label>
+	
+	<!--EN: Offer silver and other items in exchange for a control sublink (standard).\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_ControlSublinkStandard.description>Offrir de l'argent et d'autres articles en échange pour un sous-lien (standard).\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_ControlSublinkStandard.description>
+	
+	<!--EN: request control sublink (high)-->
+	<MLRP_NMM_ControlSublinkHigh.label>demander sous-lien (élevé)</MLRP_NMM_ControlSublinkHigh.label>
+	
+	<!--EN: Offer silver and other items in exchange for a control sublink (high).\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_ControlSublinkHigh.description>Offrir de l'argent et d'autres articles en échange pour un sous-lien (élevé).\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_ControlSublinkHigh.description>
+	
+	<!--EN: request remote repairer-->
+	<MLRP_NMM_RemoteRepairer.label>demande réparateur à distance</MLRP_NMM_RemoteRepairer.label>
+	
+	<!--EN: Offer silver and other items in exchange for a remote repairer.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_RemoteRepairer.description>Offrir de l'argent et d'autres articles en échange pour un réparateur à distance.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_RemoteRepairer.description>
+	
+	<!--EN: request mech gestation processor-->
+	<MLRP_NMM_MechGestationProcessor.label>demande processeur de gestation mech</MLRP_NMM_MechGestationProcessor.label>
+	
+	<!--EN: Offer silver and other items in exchange for a mech gestation processor.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_MechGestationProcessor.description>Offrir de l'argent et d'autres articles en échange pour un processeur de gestation mech.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_MechGestationProcessor.description>
+	
+	<!--EN: request remote shielder-->
+	<MLRP_NMM_RemoteShielder.label>demande bouclier à distance</MLRP_NMM_RemoteShielder.label>
+	
+	<!--EN: Offer silver and other items in exchange for a remote shielder.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_RemoteShielder.description>Offrir de l'argent et d'autres articles en échange pour un bouclier à distance.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_RemoteShielder.description>
+	
+	<!--EN: request repair probe-->
+	<MLRP_NMM_RepairProbe.label>demande sonde de réparation</MLRP_NMM_RepairProbe.label>
+	
+	<!--EN: Offer silver and other items in exchange for a repair probe.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_RepairProbe.description>Offrir de l'argent et d'autres articles en échange pour un sonde de réparation.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_RepairProbe.description>
+	
+	<!--EN: request high subcore-->
+	<MLRP_NMM_HighSubcore.label>demande sous-noyau supérieur</MLRP_NMM_HighSubcore.label>
+	
+	<!--EN: Offer silver and other items in exchange for a high subcore. This recipe is expensive, but the upside is that it doesn't require anyone to die first.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_HighSubcore.description>Offrir de l'argent et d'autres articles en échange pour un sous-noyau supérieur.\n\nCette recette est coûteuse, mais elle a l'avantage de ne nécessiter la mort de personne.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_HighSubcore.description>
+	
+	<!--EN: request signal chip-->
+	<MLRP_NMM_SignalChip.label>demande puce de signal</MLRP_NMM_SignalChip.label>
+	
+	<!--EN: Offer silver in exchange for a signal chip.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_SignalChip.description>Offrir de l'argent en échange pour un puce de signal.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_SignalChip.description>
+	
+	<!--EN: request powerfocus chip-->
+	<MLRP_NMM_PowerfocusChip.label>demande puce de focalisation</MLRP_NMM_PowerfocusChip.label>
+	
+	<!--EN: Offer silver in exchange for a powerfocus chip.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_PowerfocusChip.description>Offrir de l'argent en échange pour un puce de focalisation.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_PowerfocusChip.description>
+	
+	<!--EN: request nanostructuring chip-->
+	<MLRP_NMM_NanostructuringChip.label>demande nanopuce structurante</MLRP_NMM_NanostructuringChip.label>
+	
+	<!--EN: Offer silver in exchange for a nanostructuring chip.\n\nThis recipe can only be performed by a mechanitor.-->
+	<MLRP_NMM_NanostructuringChip.description>Offrir de l'argent en échange pour un nanopuce structurante.\n\nCette recette ne peut être réalisée que par un méchanitor.</MLRP_NMM_NanostructuringChip.description>
+	
+	<!--EN: request deathrest capacity serum-->
+	<MLRP_NMM_DeathrestCapacitySerum.label>demande sérum du repos de la mort</MLRP_NMM_DeathrestCapacitySerum.label>
+	
+	<!--EN: Offer silver and hemogen in exchange for a deathrest capacity serum.-->
+	<MLRP_NMM_DeathrestCapacitySerum.description>Offrir de l'argent et pack d'hémogène en échange pour un sérum du repos de la mort.</MLRP_NMM_DeathrestCapacitySerum.description>
+	
+	<!--EN: request detoxifier lung-->
+	<MLRP_NMM_DetoxifierLung.label>demande poumon détoxifiant</MLRP_NMM_DetoxifierLung.label>
+	
+	<!--EN: Offer silver in exchange for a detoxifier lung.-->
+	<MLRP_NMM_DetoxifierLung.description>Offrir de l'argent en échange pour un poumon détoxifiant.</MLRP_NMM_DetoxifierLung.description>
+	
+	<!--EN: request detoxifier kidney-->
+	<MLRP_NMM_DetoxifierKidney.label>demande rein détoxifiant</MLRP_NMM_DetoxifierKidney.label>
+	
+	<!--EN: Offer silver in exchange for a detoxifier kidney.-->
+	<MLRP_NMM_DetoxifierKidney.description>Offrir de l'argent en échange pour un rein détoxifiant.</MLRP_NMM_DetoxifierKidney.description>
+	
+	<!--EN: gestate Sweetie Bot-->
+	<MLRP_GestateSweetieBot.label>créer Sweetie Bot</MLRP_GestateSweetieBot.label>
+	
+	<!--EN: Gestate a Sweetie Bot mechanoid.-->
+	<MLRP_GestateSweetieBot.description>Créer un mécanoïde Sweetie Bot.</MLRP_GestateSweetieBot.description>
+	
+</LanguageData>

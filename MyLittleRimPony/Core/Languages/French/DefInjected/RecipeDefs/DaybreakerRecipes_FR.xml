@@ -1,0 +1,183 @@
+<LanguageData>
+
+	<!--EN: create wort x 25-->
+	<MLRP_DB_CreateTwentyFiveWort.label>créer 25 moûts</MLRP_DB_CreateTwentyFiveWort.label>
+	
+	<!--EN: Create 25 wort, using Daybreaker's residual heat to accelerate the process.-->
+	<MLRP_DB_CreateTwentyFiveWort.description>Créer 25 moûts, en utilisant la chaleur résiduelle Daybreaker's pour accélérer le processus.</MLRP_DB_CreateTwentyFiveWort.description>
+
+	<!--EN: create beer x 250-->
+	<MLRP_DB_CreateTwoHundredFiftyBeer.label>créer 250 bières</MLRP_DB_CreateTwoHundredFiftyBeer.label>
+	
+	<!--EN: Create 250 bottles of beer, using chemfuel to accelerate the process.-->
+	<MLRP_DB_CreateTwoHundredFiftyBeer.description>Créer 250 bouteilles de bière, en utilisant chemfuel pour accélérer le processus.</MLRP_DB_CreateTwoHundredFiftyBeer.description>
+
+	<!--EN: create component x 5-->
+	<MLRP_DB_CreateComponentIndustrial.label>créer 5 composants</MLRP_DB_CreateComponentIndustrial.label>
+	
+	<!--EN: Create 5 components, using chemfuel to accelerate the process.-->
+	<MLRP_DB_CreateComponentIndustrial.description>Créer 5 composants, en utilisant chemfuel pour accélérer le processus.</MLRP_DB_CreateComponentIndustrial.description>
+
+	<!--EN: create component x 10-->
+	<MLRP_DB_CreateComponentIndustrialTen.label>créer 10 composants</MLRP_DB_CreateComponentIndustrialTen.label>
+	
+	<!--EN: Create 10 components, using chemfuel to accelerate the process.-->
+	<MLRP_DB_CreateComponentIndustrialTen.description>Créer 10 composants, en utilisant chemfuel pour accélérer le processus.</MLRP_DB_CreateComponentIndustrialTen.description>
+
+	<!--EN: create advanced component x 5-->
+	<MLRP_DB_CreateComponentSpacer.label>créer 5 composants avancés</MLRP_DB_CreateComponentSpacer.label>
+	
+	<!--EN: Create 5 advanced components, using chemfuel to accelerate the process.-->
+	<MLRP_DB_CreateComponentSpacer.description>Créer 5 composants avancés, en utilisant chemfuel pour accélérer le processus.</MLRP_DB_CreateComponentSpacer.description>
+
+	<!--EN: create advanced component x 10-->
+	<MLRP_DB_CreateComponentSpacerTen.label>créer 10 composants avancés</MLRP_DB_CreateComponentSpacerTen.label>
+	
+	<!--EN: Create 10 advanced components, using chemfuel to accelerate the process.-->
+	<MLRP_DB_CreateComponentSpacerTen.description>Créer 10 composants avancés, en utilisant chemfuel pour accélérer le processus.</MLRP_DB_CreateComponentSpacerTen.description>
+
+	<!--EN: make 100 flake-->
+	<MLRP_DB_MakeFlake.label>faire 100 flake</MLRP_DB_MakeFlake.label>
+	
+	<!--EN: Convert 400 psychoid leaves into 100 flake, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakeFlake.description>Convertir 400 feuilles psychoïdes en 100 flake, en utilisant chemfuel pour accélérer le processus.</MLRP_DB_MakeFlake.description>
+
+	<!--EN: make 100 go-juice-->
+	<MLRP_DB_MakeGoJuice.label>faire 100 go-juice</MLRP_DB_MakeGoJuice.label>
+	
+	<!--EN: Convert 200 neutroamine and 100 yayo into 100 go-juice, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakeGoJuice.description>Convertir 200 neutroamine et 100 yayo en 100 go-juice, en utilisant du chemfuel pour accélérer le processus.</MLRP_DB_MakeGoJuice.description>
+
+	<!--EN: make 100 penoxycyline-->
+	<MLRP_DB_MakePenoxycyline.label>faire 100 penoxycyline</MLRP_DB_MakePenoxycyline.label>
+	
+	<!--EN: Convert 200 neutroamine into 100 penoxycyline, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakePenoxycyline.description>Convertir 200 neutroamine en 100 pénoxycyline, en utilisant du chemfuel pour accélérer le processus.</MLRP_DB_MakePenoxycyline.description>
+
+	<!--EN: Make 100 poison joke joints-->
+	<MLRP_DB_MakePoisonJokeJoint.label>fabriquer 100 joints de blagues empoisonnées</MLRP_DB_MakePoisonJokeJoint.label>
+	
+	<!--EN: Convert 800 poison joke leaves into 100 poison joke joints, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakePoisonJokeJoint.description>Convertir 800 feuilles de blagues vénéneuses en 100 joints de blagues vénéneuses, en utilisant du chemfuel pour accélérer le processus.</MLRP_DB_MakePoisonJokeJoint.description>
+
+	<!--EN: make 100 psychite tea-->
+	<MLRP_DB_MakePsychiteTea.label>préparer 100 tisanes de psychite</MLRP_DB_MakePsychiteTea.label>
+	
+	<!--EN: Convert 400 psychoid leaves into 100 psychite tea, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakePsychiteTea.description>Convertir 400 feuilles de psychoïde en 100 tisanes de psychite, en utilisant du chemfuel pour accélérer le processus.</MLRP_DB_MakePsychiteTea.description>
+
+	<!--EN: make 100 smokeleaf joints-->
+	<MLRP_DB_MakeSmokeleafJoints.label>faire 100 joints de smokeleaf</MLRP_DB_MakeSmokeleafJoints.label>
+	
+	<!--EN: Convert 400 smokeleaf leaves into 100 smokeleaf joints, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakeSmokeleafJoints.description>Convertir 400 feuilles de smokeleaf en 100 joints de smokeleaf, en utilisant du chemfuel pour accélérer le processus.</MLRP_DB_MakeSmokeleafJoints.description>
+
+	<!--EN: make 100 wake-up-->
+	<MLRP_DB_MakeWakeUp.label>faire 100 wake-up</MLRP_DB_MakeWakeUp.label>
+	
+	<!--EN: Convert 200 neutroamine into 100 wake-up, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakeWakeUp.description>Convertir 200 neutroamine en 100 wake-up, en utilisant du chemfuel pour accélérer le processus.</MLRP_DB_MakeWakeUp.description>
+
+	<!--EN: make 100 yayo-->
+	<MLRP_DB_MakeYayo.label>faire 100 yayo</MLRP_DB_MakeYayo.label>
+	
+	<!--EN: Convert 800 psychoid leaves into 100 yayo, using chemfuel to accelerate the process.-->
+	<MLRP_DB_MakeYayo.description>Convertir 800 feuilles psychoïdes en 100 yayo, en utilisant du chemfuel pour accélérer le processus.</MLRP_DB_MakeYayo.description>
+	
+	<!--EN: convert gold to jade-->
+	<MLRP_DB_ConvertGoldIntoJade.label>conversion de l'or en jade</MLRP_DB_ConvertGoldIntoJade.label>
+	
+	<!--EN: Convert 100 gold into the market value equivalent of jade.-->
+	<MLRP_DB_ConvertGoldIntoJade.description>Convertissez 100 or en équivalent de jade en valeur marchande.</MLRP_DB_ConvertGoldIntoJade.description>
+	
+	<!--EN: convert gold to steel-->
+	<MLRP_DB_ConvertGoldIntoSteel.label>convertir l'or en acier</MLRP_DB_ConvertGoldIntoSteel.label>
+	
+	<!--EN: Convert 100 gold into the market value equivalent of steel.-->
+	<MLRP_DB_ConvertGoldIntoSteel.description>Convertir 100 or en équivalent d'acier à la valeur du marché.</MLRP_DB_ConvertGoldIntoSteel.description>
+	
+	<!--EN: convert gold to plasteel-->
+	<MLRP_DB_ConvertGoldIntoPlasteel.label>conversion de l'or en plastacier</MLRP_DB_ConvertGoldIntoPlasteel.label>
+	
+	<!--EN: Convert 100 gold into the market value equivalent of plasteel.-->
+	<MLRP_DB_ConvertGoldIntoPlasteel.description>Convertir 100 or en équivalent plastacier à la valeur du marché.</MLRP_DB_ConvertGoldIntoPlasteel.description>
+	
+	<!--EN: convert gold to uranium-->
+	<MLRP_DB_ConvertGoldIntoUranium.label>conversion de l'or en uranium</MLRP_DB_ConvertGoldIntoUranium.label>
+	
+	<!--EN: Convert 100 gold into the market value equivalent of uranium.-->
+	<MLRP_DB_ConvertGoldIntoUranium.description>Convertir 100 or en équivalent uranium à la valeur du marché.</MLRP_DB_ConvertGoldIntoUranium.description>
+	
+	<!--EN: convert silver to jade-->
+	<MLRP_DB_ConvertSilverIntoJade.label>convertir l'argent en jade</MLRP_DB_ConvertSilverIntoJade.label>
+	
+	<!--EN: Convert 1000 silver into the market value equivalent of jade.-->
+	<MLRP_DB_ConvertSilverIntoJade.description>Convertissez 1000 argent en équivalent de valeur marchande de jade.</MLRP_DB_ConvertSilverIntoJade.description>
+	
+	<!--EN: convert silver to steel-->
+	<MLRP_DB_ConvertSilverIntoSteel.label>convertir l'argent en acier</MLRP_DB_ConvertSilverIntoSteel.label>
+	
+	<!--EN: Convert 1000 silver into the market value equivalent of steel.-->
+	<MLRP_DB_ConvertSilverIntoSteel.description>Convertissez 1000 argent en équivalent de valeur marchande de acier.</MLRP_DB_ConvertSilverIntoSteel.description>
+	
+	<!--EN: convert silver to plasteel-->
+	<MLRP_DB_ConvertSilverIntoPlasteel.label>convertir l'argent en plastacier</MLRP_DB_ConvertSilverIntoPlasteel.label>
+	
+	<!--EN: Convert 1000 silver into the market value equivalent of plasteel.-->
+	<MLRP_DB_ConvertSilverIntoPlasteel.description>Convertissez 1000 argent en équivalent de valeur marchande de plastacier.</MLRP_DB_ConvertSilverIntoPlasteel.description>
+	
+	<!--EN: convert silver to uranium-->
+	<MLRP_DB_ConvertSilverIntoUranium.label>convertir l'argent en uranium</MLRP_DB_ConvertSilverIntoUranium.label>
+	
+	<!--EN: Convert 1000 silver into the market value equivalent of uranium.-->
+	<MLRP_DB_ConvertSilverIntoUranium.description>Convertissez 1000 argent en équivalent de valeur marchande de uranium.</MLRP_DB_ConvertSilverIntoUranium.description>
+	
+	<!--EN: convert silver to gold-->
+	<MLRP_DB_ConvertSilverIntoGold.label>convertir l'argent en or</MLRP_DB_ConvertSilverIntoGold.label>
+	
+	<!--EN: Convert 1000 silver into the market value equivalent of gold.-->
+	<MLRP_DB_ConvertSilverIntoGold.description>Convertissez 1000 argent en équivalent de valeur marchande de l'or.</MLRP_DB_ConvertSilverIntoGold.description>
+	
+	<!--EN: convert jade to silver-->
+	<MLRP_DB_ConvertJadeIntoSilver.label>convertir l'argent en jade</MLRP_DB_ConvertJadeIntoSilver.label>
+	
+	<!--EN: Convert 200 jade into 1000 silver.-->
+	<MLRP_DB_ConvertJadeIntoSilver.description>Convertir 200 jade en 1000 argent.</MLRP_DB_ConvertJadeIntoSilver.description>
+	
+	<!--EN: convert steel to silver-->
+	<MLRP_DB_ConvertSteelIntoSilver.label>convertir acier en l'argent</MLRP_DB_ConvertSteelIntoSilver.label>
+	
+	<!--EN: Convert 526 steel into 1000 silver.-->
+	<MLRP_DB_ConvertSteelIntoSilver.description>Convertir 526 d'acier en 1000 d'argent.</MLRP_DB_ConvertSteelIntoSilver.description>
+	
+	<!--EN: convert plasteel to silver-->
+	<MLRP_DB_ConvertPlasteelIntoSilver.label>convertir plastacier en l'argent</MLRP_DB_ConvertPlasteelIntoSilver.label>
+	
+	<!--EN: Convert 111 plasteel into 1000 silver.-->
+	<MLRP_DB_ConvertPlasteelIntoSilver.description>Convertir 111 plastacier en 1000 d'argent.</MLRP_DB_ConvertPlasteelIntoSilver.description>
+	
+	<!--EN: convert uranium to silver-->
+	<MLRP_DB_ConvertUraniumIntoSilver.label>convertir uranium en l'argent</MLRP_DB_ConvertUraniumIntoSilver.label>
+	
+	<!--EN: Convert 167 uranium into 1000 silver.-->
+	<MLRP_DB_ConvertUraniumIntoSilver.description>Convertir 167 uranium en 1000 d'argent.</MLRP_DB_ConvertUraniumIntoSilver.description>
+	
+	<!--EN: convert gold to silver-->
+	<MLRP_DB_ConvertGoldIntoSilver.label>convertir l'or en l'argent</MLRP_DB_ConvertGoldIntoSilver.label>
+	
+	<!--EN: Convert 100 gold into 1000 silver.-->
+	<MLRP_DB_ConvertGoldIntoSilver.description>Convertir 100 l'or en 1000 d'argent.</MLRP_DB_ConvertGoldIntoSilver.description>
+	
+	<!--EN: convert silver to wood-->
+	<MLRP_DB_ConvertSilverIntoWood.label>convertir argent en bois</MLRP_DB_ConvertSilverIntoWood.label>
+	
+	<!--EN: Convert 1000 silver into 833 wood.-->
+	<MLRP_DB_ConvertSilverIntoWood.description>Convertir 1000 l'argent en 833 bois.</MLRP_DB_ConvertSilverIntoWood.description>
+	
+	<!--EN: convert wood to silver-->
+	<MLRP_DB_ConvertWoodIntoSilver.label>convertir bois en l'argent</MLRP_DB_ConvertWoodIntoSilver.label>
+	
+	<!--EN: Convert 833 wood into 1000 silver.-->
+	<MLRP_DB_ConvertWoodIntoSilver.description>Convertir 833 bois en 1000 l'argent.</MLRP_DB_ConvertWoodIntoSilver.description>
+
+</LanguageData>

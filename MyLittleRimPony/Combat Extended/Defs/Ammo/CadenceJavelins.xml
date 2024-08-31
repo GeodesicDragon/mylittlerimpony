@@ -11,7 +11,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="NeolithicAmmoBase">
 		<defName>Ammo_CadenceJavelins</defName>
-		<label>Cadence Javelins</label>
+		<label>Cadence javelins</label>
 		<description>Ammo for the wife thrower.\n\nNo alicorns were harmed in the making of this item.</description>
 		<statBases>
 			<Mass>0.01</Mass>
@@ -34,8 +34,8 @@
 
 	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
 		<defName>MakeAmmo_CadenceJavelin</defName>
-		<label>make Cadence Javelins x100</label>
-		<description>Craft 100 Cadence Javelins.</description>
+		<label>make Cadence javelins x100</label>
+		<description>Craft 100 Cadence javelins.</description>
 		<jobString>Making Cadence javelins.</jobString>
 		<workAmount>60</workAmount>
 		<recipeUsers>

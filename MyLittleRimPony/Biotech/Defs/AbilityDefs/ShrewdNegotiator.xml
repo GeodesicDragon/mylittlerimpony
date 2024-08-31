@@ -6,7 +6,7 @@
 	
 	<AbilityDef>
 		<defName>MLRP_ShrewdNegotiator</defName>
-		<label>Shrewd Negotiator</label>
+		<label>shrewd negotiator</label>
 		<description>Improves your social skills by a substantial amount for 60 seconds.</description>
 		<jobDef>CastAbilityOnThingMelee</jobDef>
 		<iconPath>UI/Abilities/ShrewdNegotiator</iconPath>

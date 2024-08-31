@@ -257,7 +257,7 @@
 <RecipeDef>
 	<defName>MLRP_NMM_GlitterworldMedicine</defName>
 	<label>request glitterworld medicine x 5</label>
-	<description>Offer silver and 10 units of industrial medicine in exchange for 5 units of glitterworld medicine.</description>
+	<description>Offer silver and industrial medicine in exchange for glitterworld medicine.</description>
 	<researchPrerequisite>MedicineProduction</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -452,7 +452,6 @@
     <ingredients>
 		<li>
 			<filter>
-			  <customSummary>pony-friendly foodstuffs</customSummary>
 			  <categories>
 				<li>PlantFoodRaw</li>
 			  </categories>
@@ -498,6 +497,38 @@
 	</ingredients>
 	<products>
 		<RawRice>1000</RawRice>
+	</products>
+</RecipeDef>
+
+<!--REQUEST REINFORCED BARREL-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ReinforcedBarrel</defName>
+	<label>request reinforced barrel</label>
+	<description>Offer silver in exchange for a reinforced barrel.</description>
+	<researchPrerequisite>Mortars</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>90</count>
+		</li>
+	</ingredients>
+	<products>
+		<ReinforcedBarrel>1</ReinforcedBarrel>
 	</products>
 </RecipeDef>
 

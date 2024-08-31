@@ -1,0 +1,15 @@
+<LanguageData>
+
+	<!--EN: convert silver to bioferrite-->
+	<MLRP_DB_ConvertSilverIntoBioferrite.label>convertir l'argent en bioferrite</MLRP_DB_ConvertSilverIntoBioferrite.label>
+	
+	<!--EN: Convert 1000 silver into the market value equivalent of bioferrite.-->
+	<MLRP_DB_ConvertSilverIntoBioferrite.description>Convertissez 1000 pièces d'argent en équivalent de valeur marchande de bioferrite.</MLRP_DB_ConvertSilverIntoBioferrite.description>
+	
+	<!--EN: convert bioferrite to silver-->
+	<MLRP_DB_ConvertBioferriteIntoSilver.label>convertir bioferrite en l'argent</MLRP_DB_ConvertBioferriteIntoSilver.label>
+	
+	<!--EN: Convert 1333 bioferrite into 1000 silver.-->
+	<MLRP_DB_ConvertBioferriteIntoSilver.description>Convertir 1333 bioferrite en 1000 argent.</MLRP_DB_ConvertBioferriteIntoSilver.description>
+
+</LanguageData>

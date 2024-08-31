@@ -1,0 +1,69 @@
+<LanguageData>
+
+	<!--EN: has the cutie pox-->
+	<MLRP_CutiePoxThoughtBrony.stages.has_the_cutie_pox.label>atteint de la vérole de la cutie</MLRP_CutiePoxThoughtBrony.stages.has_the_cutie_pox.label>
+	
+	<!--EN: Now I know how Apple Bloom must have felt!-->
+	<MLRP_CutiePoxThoughtBrony.stages.has_the_cutie_pox.description>Je sais maintenant ce qu'Apple Bloom a dû ressentir !</MLRP_CutiePoxThoughtBrony.stages.has_the_cutie_pox.description>
+	
+	<!--EN: has the cutie pox-->
+	<MLRP_CutiePoxThoughtAntiBrony.stages.has_the_cutie_pox.label>atteint de la vérole de la cutie</MLRP_CutiePoxThoughtAntiBrony.stages.has_the_cutie_pox.label>
+	
+	<!--EN: Seriously? I'd rather have the plague.-->
+	<MLRP_CutiePoxThoughtAntiBrony.stages.has_the_cutie_pox.description>Sérieusement? Je préférerais avoir la peste.</MLRP_CutiePoxThoughtAntiBrony.stages.has_the_cutie_pox.description>
+	
+	<!--EN: brony has pony plush-->
+	<MLRP_PonyPlushEquipped.stages.brony_has_pony_plush.label>brony porte une peluche de poney</MLRP_PonyPlushEquipped.stages.brony_has_pony_plush.label>
+	
+	<!--EN: It's so cuddly!-->
+	<MLRP_PonyPlushEquipped.stages.brony_has_pony_plush.description>Il est si doux!</MLRP_PonyPlushEquipped.stages.brony_has_pony_plush.description>	
+	
+	<!--EN: anti brony has pony plush-->
+	<MLRP_PonyPlushEquippedAntiBrony.stages.anti_brony_has_pony_plush.label>anti brony porte une peluche de poney</MLRP_PonyPlushEquippedAntiBrony.stages.anti_brony_has_pony_plush.label>
+	
+	<!--EN: Why the hell am I carrying this stupid thing around? Do I look like a child?-->
+	<MLRP_PonyPlushEquippedAntiBrony.stages.anti_brony_has_pony_plush.description>Pourquoi diable est-ce que je me trimballe avec ce truc stupide? Est-ce que j'ai l'air d'un enfant?</MLRP_PonyPlushEquippedAntiBrony.stages.anti_brony_has_pony_plush.description>
+	
+	<!--EN: party cannon effect-->
+	<MLRP_PartyCannonBoostBrony.stages.party_cannon_effect.label>effet du canon de la fête</MLRP_PartyCannonBoostBrony.stages.party_cannon_effect.label>
+	
+	<!--EN: Pinkie Pie parties are the best!-->
+	<MLRP_PartyCannonBoostBrony.stages.party_cannon_effect.description>Les fêtes de Pinkie Pie sont les meilleures!</MLRP_PartyCannonBoostBrony.stages.party_cannon_effect.description>
+	
+	<!--EN: party cannon effect-->
+	<MLRP_PartyCannonBoostRegularPawn.stages.party_cannon_effect.label>effet du canon de la fête</MLRP_PartyCannonBoostRegularPawn.stages.party_cannon_effect.label>
+	
+	<!--EN: I don't remember going to any parties lately, but I still feel great!-->
+	<MLRP_PartyCannonBoostRegularPawn.stages.party_cannon_effect.description>Je ne me souviens pas d'avoir participé à des fêtes ces derniers temps, mais je me sens toujours aussi bien!</MLRP_PartyCannonBoostRegularPawn.stages.party_cannon_effect.description>
+	
+	<!--EN: party cannon effect-->
+	<MLRP_PartyCannonBoostAntiBrony.stages.party_cannon_effect.label>effet du canon de la fête</MLRP_PartyCannonBoostAntiBrony.stages.party_cannon_effect.label>
+	
+	<!--EN: As much as I hate this pony stuff, even I have to admit that this is a good feeling.-->
+	<MLRP_PartyCannonBoostAntiBrony.stages.party_cannon_effect.description>Même si je déteste les poneys, je dois admettre que c'est un sentiment agréable.</MLRP_PartyCannonBoostAntiBrony.stages.party_cannon_effect.description>
+	
+	<!--EN: party cannon effect-->
+	<MLRP_PartyCannonBoostPrisoner.stages.party_cannon_effect.label>effet du canon de la fête</MLRP_PartyCannonBoostPrisoner.stages.party_cannon_effect.label>
+	
+	<!--EN: I feel a bit better, but it doesn't change the fact that I'm being held captive.-->
+	<MLRP_PartyCannonBoostPrisoner.stages.party_cannon_effect.description>Je me sens un peu mieux, mais cela ne change rien au fait que je suis retenu en captivité.</MLRP_PartyCannonBoostPrisoner.stages.party_cannon_effect.description>
+	
+	<!--EN: poison joke withdrawal-->
+	<MLRP_PoisonJokeWithdrawalThought.stages.poison_joke_withdrawal.label>retrait de la blague sur le poison</MLRP_PoisonJokeWithdrawalThought.stages.poison_joke_withdrawal.label>
+	
+	<!--EN: I don't care what it does to me, I just need my fix!-->
+	<MLRP_PoisonJokeWithdrawalThought.stages.poison_joke_withdrawal.description>Je me fiche de ce que cette chose pourrait me faire, j'ai juste besoin de ma dose!</MLRP_PoisonJokeWithdrawalThought.stages.poison_joke_withdrawal.description>
+	
+	<!--EN: Izzy Moonbow plush-->
+	<MLRP_IzzyThought.stages.Izzy_Moonbow_plush.label>peluche de Izzy Moonbow</MLRP_IzzyThought.stages.Izzy_Moonbow_plush.label>
+	
+	<!--EN: Izzy's smile is infectious.-->
+	<MLRP_IzzyThought.stages.Izzy_Moonbow_plush.description>Le sourire d'Izzy est contagieux.</MLRP_IzzyThought.stages.Izzy_Moonbow_plush.description>
+	
+	<!--EN: anti brony dislikes bronies-->
+	<AntiBronyVsBrony.stages.anti_brony_dislikes_bronies.label>anti brony n'aime pas les bronies</AntiBronyVsBrony.stages.anti_brony_dislikes_bronies.label>
+	
+	<!--EN: fellow brony-->
+	<BronyLikesBrony.stages.fellow_brony.label>est aussi un brony</BronyLikesBrony.stages.fellow_brony.label>
+
+</LanguageData>

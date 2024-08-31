@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Combat">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_PrincessCadence</defName>
 		<label>Princess Cadence</label>
 		<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken.</description>

@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Ideology">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_FlimAndFlam</defName>
 		<label>Flim and Flam</label>
 		<description>It goes without saying that these brothers certainly have a knack for getting ponies to buy whatever it is they are selling... at least until Applejack comes along.\n\nCarrying them makes you feel as though it is easier to get people to see your point of view.</description>

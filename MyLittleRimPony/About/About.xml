@@ -3,11 +3,17 @@
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rimpony</packageId>
 	<url>https://discord.gg/BGKnpza</url>
-	<modVersion>5.42.72</modVersion>
+	<modVersion>6.0.0</modVersion>
 	<supportedVersions>
-		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
 	<loadBefore>
 		<li>WheatyTail.MyLittleRimPonyRus</li>
 	</loadBefore>

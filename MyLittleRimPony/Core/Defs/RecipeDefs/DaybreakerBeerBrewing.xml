@@ -1,5 +1,37 @@
 <Defs>
 
+<!--25 WORT-->
+
+<RecipeDef>
+	<defName>MLRP_DB_CreateTwentyFiveWort</defName>
+	<label>create wort x 25</label>
+	<description>Create 25 wort, using Daybreaker's residual heat to accelerate the process.</description>
+	<researchPrerequisite>Brewing</researchPrerequisite>
+    <jobString>Making wort.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>600</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>RawHops</li>
+				</thingDefs>
+			</filter>
+			<count>125</count>
+		</li>
+	</ingredients>
+	<products>
+		<Wort>25</Wort>
+	</products>
+</RecipeDef>
+
 <!--250 BEER-->
 
 <RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">

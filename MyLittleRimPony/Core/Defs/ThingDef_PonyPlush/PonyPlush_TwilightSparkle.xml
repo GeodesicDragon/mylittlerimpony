@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Work">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_TwilightSparkle</defName>
 		<label>Twilight Sparkle</label>
 		<description>Element of Magic, Princess of Friendship, and now ruler of Equestria; Twilight Sparkle has accomplished so much in her lifetime, but she still can't escape being called an egghead.\n\nCarrying her makes you feel smarter.</description>

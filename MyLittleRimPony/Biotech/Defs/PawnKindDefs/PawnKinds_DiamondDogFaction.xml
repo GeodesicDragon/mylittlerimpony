@@ -92,13 +92,39 @@
     </skills>
   </PawnKindDef>
   
+  <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_DogKinds_ArcherBase" Abstract="True">
+	<itemQuality>Good</itemQuality>
+	<skills>
+      <li>
+        <skill>Melee</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Medicine</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Crafting</skill>
+        <range>0</range>
+      </li>
+	  <li>
+        <skill>Shooting</skill>
+        <range>6~15</range>
+      </li>
+	  <li>
+        <skill>Mining</skill>
+        <range>6~15</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+  
 <PawnKindDef ParentName="MLRP_DogKinds_LeaderBase">
     <defName>DiamondDog_Alpha</defName>
 	<factionLeader>true</factionLeader>
     <initialWillRange>1~3</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
-    <label>Diamond Dog alpha</label>
-	<labelPlural>Diamond Dog alphas</labelPlural>
+    <label>Diamond dog alpha</label>
+	<labelPlural>Diamond dog alphas</labelPlural>
     <combatPower>60</combatPower>
     <gearHealthRange>
       <min>1</min>
@@ -164,6 +190,44 @@
 	  <li>MedievalMeleeDecent</li>
 	  <li>MedievalMeleeAdvanced</li>
 	  <li>LongSword</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+	<acceptArrestChanceFactor>0</acceptArrestChanceFactor>
+</PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_DogKinds_ArcherBase">
+    <defName>DiamondDogArcher</defName>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>3~5</initialResistanceRange>
+    <label>Diamond Dog archer</label>
+	<labelPlural>Diamond Dog archer</labelPlural>
+    <combatPower>40</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+   <apparelRequired>
+		<li>Apparel_PlateArmor</li>
+		<li>Apparel_AdvancedHelmet</li>
+		<li>Apparel_BasicShirt</li>
+		<li>Apparel_Pants</li>
+    </apparelRequired>
+    <disallowedTraits>
+		<li>Brawler</li>
+    </disallowedTraits>	
+    <apparelMoney>
+      <min>2000</min>
+      <max>3500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>250</min>
+      <max>500</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>NeolithicRangedHeavy</li> <!--If the Anomaly DLC is enabled, they'll use nerve spikers instead.-->
     </weaponTags>
 	<isFighter>true</isFighter>
 	<acceptArrestChanceFactor>0</acceptArrestChanceFactor>

@@ -1,0 +1,61 @@
+<LanguageData>	
+	
+	<!--EN: shrewd negotiator-->
+	<MLRP_AlicornGene.label>négociateur avisé</MLRP_AlicornGene.label>
+	
+	<!--EN: negotiator-->
+	<MLRP_AlicornGene.labelShortAdj>négociateur</MLRP_AlicornGene.labelShortAdj>
+	
+	<!--EN: Carriers of this gene have the ability to vastly improve their social skills once per quadrum.-->
+	<!--A 'quadrum' is 15 in-game days.-->
+	<MLRP_AlicornGene.description>Les porteurs de ce gène ont la capacité d'améliorer considérablement leurs compétences sociales une fois tous les 15 jours.</MLRP_AlicornGene.description>
+	
+	<!--EN: brony-->
+	<MLRP_BronyGene.label>brony</MLRP_BronyGene.label>
+	
+	<!--EN: brony-->
+	<MLRP_BronyGene.labelShortAdj>brony</MLRP_BronyGene.labelShortAdj>
+	
+	<!--EN: Carriers of this gene are bronies.-->
+	<MLRP_BronyGene.description>Les porteurs de ce gène sont des bronies.</MLRP_BronyGene.description>
+	
+	<!--EN: earth pony strength-->
+	<MLRP_EarthPonyGene.label>force du poney de terre</MLRP_EarthPonyGene.label>
+	
+	<!--EN: strength-->
+	<MLRP_EarthPonyGene.labelShortAdj>force</MLRP_EarthPonyGene.labelShortAdj>
+	
+	<!--EN: Carriers of this gene can carry additional weight.-->
+	<MLRP_EarthPonyGene.description>Les porteurs de ce gène peuvent avoir un poids supplémentaire.</MLRP_EarthPonyGene.description>
+	
+	<!--EN: pegasus agility-->
+	<MLRP_PegasusGene.label>pegasus agility</MLRP_PegasusGene.label>
+	
+	<!--EN: pegasus-->
+	<MLRP_PegasusGene.labelShortAdj>pegasus</MLRP_PegasusGene.labelShortAdj>
+	
+	<!--EN: Carriers of this gene have an improved chance of dodging melee attacks and traps.-->
+	<MLRP_PegasusGene.description>Les porteurs de ce gène ont une meilleure chance d'esquiver les attaques de mêlée et les pièges.</MLRP_PegasusGene.description>
+	
+	<!--EN: unicorn manipulation-->
+	<MLRP_UnicornGene.label>une meilleure capacité de manipulation</MLRP_UnicornGene.label>
+	
+	<!--EN: unicorn-->
+	<MLRP_UnicornGene.labelShortAdj>licorne</MLRP_UnicornGene.labelShortAdj>
+	
+	<!--EN: Carriers of this gene have increased manipulation, allowing them to perform certain tasks better.-->
+	<MLRP_UnicornGene.description>Les porteurs de ce gène ont une manipulation accrue, ce qui leur permet de mieux accomplir certaines tâches.</MLRP_UnicornGene.description>
+	
+	<!--EN: horse voice-->
+	<MLRP_VoiceHorse.label>voix de cheval</MLRP_VoiceHorse.label>
+	
+	<!--EN: Carriers of this gene have a voice which makes them sound like a horse.-->
+	<MLRP_VoiceHorse.description>Les porteurs de ce gène ont une voix qui les fait ressembler à un cheval.</MLRP_VoiceHorse.description>
+	
+	<!--EN: insect voice-->
+	<MLRP_InsectVoice.label>voix d'insecte</MLRP_InsectVoice.label>
+	
+	<!--EN: Carriers of this gene have a voice which makes them sound like a giant insect.-->
+	<MLRP_InsectVoice.description>Les porteurs de ce gène ont une voix qui les fait ressembler à un insecte géant.</MLRP_InsectVoice.description>
+	
+</LanguageData>

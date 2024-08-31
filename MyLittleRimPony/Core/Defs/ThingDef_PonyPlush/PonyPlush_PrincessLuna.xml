@@ -1,6 +1,5 @@
 <Defs>
 	<ThingDef ParentName="PonyPlush_Utility">
-		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_PrincessLuna</defName>
 		<label>Princess Luna</label>
 		<description>As Princess of the night, Luna is responsible for keeping an eye on the dreams of slumbering ponies.\n\nCarrying her makes you feel as though she is watching over your dreams as well.</description>

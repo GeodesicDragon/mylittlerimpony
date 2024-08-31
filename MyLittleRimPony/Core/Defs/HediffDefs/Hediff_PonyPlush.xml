@@ -3,14 +3,14 @@
 	<HediffDef>
 		<defName>MLRP_PonyPlushEquipped</defName>
 		<label>pony plushie</label>
-		<description>A pony plushie is equipped; holding it is helping you to feel less pain.</description>
+		<description>Holding the plushie makes pain a little more bearable.</description>
 		<hediffClass>HediffWithComps</hediffClass>
         <initialSeverity>1</initialSeverity>
         <maxSeverity>1</maxSeverity>
 		<stages>
             <li>
                 <minSeverity>1</minSeverity>
-				<painOffset>-0.1</painOffset>
+				<painOffset>-0.05</painOffset>
             </li>
 		</stages>
 		<comps>
