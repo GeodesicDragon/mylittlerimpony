@@ -7,8 +7,8 @@
 		<label>magical ammunition</label>
 		<description>Unlocks the ability to craft pony-themed ammunition.</description>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>4</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 	
 </Defs>

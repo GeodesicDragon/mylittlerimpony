@@ -1236,6 +1236,21 @@
 				</Operation>
 			</caseFalse>
 		</li>
+		
+		<!--PLUSHIE RECYCLING: STUFF GAINED-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_PlushieRecyclingStuffGain</key>
+			<defaultValue>75</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MLRP_RecyclePlushies"]/modExtensions/li/reclaimedAmount</xpath>
+					<value>
+						<reclaimedAmount>{MLRP_PlushieRecyclingStuffGain}</reclaimedAmount>
+					</value>
+				</Operation>
+			</apply>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -1301,6 +1316,15 @@
 				<li Class="XmlExtensions.Setting.Checkbox">
 					<key>MLRP_UseOldTwilightTexture</key>
 					<label>Use old Twilight Sparkle texture</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_PlushieRecyclingStuffGain</key>
+					<defaultValue>75</defaultValue>
+					<min>75</min>
+					<max>150</max>
+					<label>Recycling plushies will recover {MLRP_PlushieRecyclingStuffGain} materials</label>
+					<decimals>0</decimals>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Dubwise.DubsBadHygiene">

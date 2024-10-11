@@ -32,6 +32,11 @@
 			<li>Pony_Plushie_Ruined</li>
 		</categories>
     </fixedIngredientFilter>
+	<modExtensions>
+		<li Class="MyLittleRimPony.RecyclePlushieExtension">
+			<reclaimedAmount>75</reclaimedAmount>
+		</li>
+	</modExtensions>
 </RecipeDef>
 
 </Defs>

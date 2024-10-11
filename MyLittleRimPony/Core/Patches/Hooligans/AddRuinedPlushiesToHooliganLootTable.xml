@@ -1,6 +1,6 @@
 <Patch>
 
-	<Operation Class="PatchOperationFindMod">
+	<!--<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Hooligan Faction</li>
 		</mods>	
@@ -10,6 +10,6 @@
 				<li>PonyPlush_Ruined</li>
 			</value>
 		</match>
-	</Operation>
+	</Operation>-->
 
 </Patch>

@@ -27,7 +27,7 @@
 		<defName>Description_MLP_Fanfiction</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>desc->This work of pony fanfiction was written over three thousand years ago ago[book_quality]</li>
+				<li>desc->This work of pony fanfiction was written over three thousand years ago[book_quality]</li>
 				
 				<li>book_quality(quality[greater_than]5)->, and is in superior condition for its age.</li>
 				<li>book_quality(quality[less_than]2)->, and is barely readable due to extensive damage.</li>

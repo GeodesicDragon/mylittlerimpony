@@ -1,5 +1,6 @@
 <Patch>
 
+	<!--CORE SCENARIO-->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts/li[@Name="MLRP_CoreScenario_Helmets"]</xpath>
 		<value>
@@ -11,6 +12,7 @@
 		</value>
 	</Operation>
 	
+	<!--BIOTECH SCENARIO-->
 	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
 		<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts/li[@Name="MLRP_BiotechScenario_Helmets"]</xpath>
 		<value>

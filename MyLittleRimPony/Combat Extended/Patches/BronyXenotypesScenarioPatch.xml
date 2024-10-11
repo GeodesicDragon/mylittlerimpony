@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
 		<xpath>/Defs/ScenarioDef[defName="MLRP_Scenario_Xenos"]/scenario/parts</xpath>
@@ -8,6 +6,12 @@
 				<def>StartingThing_Defined</def>
 				<thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
 				<count>300</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Bullet_45ACP_FMJ</thingDef>
+				<count>105</count>
 			</li>
 		</value>
 	</Operation>

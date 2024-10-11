@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThingDef[defName="MLRP_PoisonJokeAddictionCureKit"]/statBases</xpath>
+	    <value>
+			<Bulk>0.1</Bulk>
+	    </value>
+	</Operation>
+
+</Patch>

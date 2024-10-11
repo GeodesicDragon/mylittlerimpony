@@ -1,3 +1,37 @@
+Version 6.5.23 (October 11th 2024)
+
+* Higher Power: Added a patch which will increase the power output of Screwballs by an additional 10% once advanced power is researched.
+* Combat Extended: Added a recipe to the Nightmare Moon statue which lets you request 100 units of FSX in exchange for 1130 silver.
+* Combat Extended: Added a recipe to the Nightmare Moon statue which lets you request 100 units of prometheum in exchange for 900 silver.
+* Vanilla Backstories Expanded: Added French localisation.
+* XML Extensions: Added the ability to configure how many materials are given when recycling destroyed plushies.
+	* Minimum: 75
+	* Maximum: 150
+	* Default: 75
+* Core: Fixed some C# keys not being localised into German properly.
+* Core: Plushie traders now carry up to 3 ruined plushies.
+* Core: Ruined plushies are now flammable.
+* Core: Researching the ability to request archotech items from Nightmare Moon now requires you to have researched bionic replacements first.
+* Core: Fixed duplicate word in fanfiction quality description.
+* Core: The texture for the Daybreaker statue now remains the same regardless of which direction it is rotated.
+* Core: The texture for the Nightmare Moon statue now remains the same regardless of which direction it is rotated.
+* Core: The texture for the Fabric Exchange now remains the same regardless of which direction it is rotated.
+* Core: The texture for the Stone Exchange now remains the same regardless of which direction it is rotated.
+* Biotech: Fixed ruined plushies not being dropped by Diamond Dogs.
+* Biotech: Ruined plushies are now exclusively dropped by Diamond Dogs.
+* Biotech: Diamond Dogs no longer drop jade, plasteel, steel and uranium.
+* Combat Extended: Fixed Sweetie Bot turrets not firing properly.
+* Combat Extended: Fixed a rare bug which would prevent you from building or reinstalling Sweetie Bot turrets.
+* Combat Extended: Fixed missing ammo in the Brony Community scenario.
+* Combat Extended: Patched the request antigrain warhead recipe at the Nightmare Moon statue to use mod-relevant terminology.
+* Combat Extended: Increased the amount of blunt/sharp/heat protection provided by the Shining Armour plushie to 5/5/0.3 (was 1/1/0.15).
+* Combat Extended: The Shining Armour plushie now provides protection to the torso as well as the waist.
+* Combat Extended: Fixed wooden bullets showing as not being patched. They have a base damage of 1, and a sharp AP rating of 3.
+* Combat Extended/Biotech: Increased the amount of blunt/sharp/heat protection provided by the child Shining Armour plushie to 10/10/0.6 (was 2/2/0.3).
+* Combat Extended/Biotech: The child Shining Armour plushie now provides protection to the torso as well as the waist.
+* Combat Extended/Biotech: Fixed missing ammo in the Brony Xenotypes scenario.
+* Vanilla Factions Expanded - Deserters: Reduced the amount of standard intel given by the request intel recipe to 10 (was 25). The cost is unchanged.
+
 Version 6.0.0 (August 31st 2024)
 
 * Added French localisation. Ajout de la localisation en français.

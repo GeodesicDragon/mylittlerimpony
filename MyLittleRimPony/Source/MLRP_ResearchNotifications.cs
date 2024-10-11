@@ -52,6 +52,26 @@ namespace MLRP_ResearchTracker
                 string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
                 Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
             }
+			
+			// PLUSHIE BENCH: CORE
+			
+            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_PlushieRecycling") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CurePoisonJokeAddictionResearch"))
+            {
+                LetterDef MLRP_NewPBRecipe = LetterDefOf.PositiveEvent;
+                string title = "MLRP_NewRecipeUnlockedTitle".Translate();
+                string text = "MLRP_NewRecipeUnlockedTextPB".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewPBRecipe);
+            }
+
+            // PLUSHIE BENCH: COMBAT EXTENDED MOD
+
+            if (ModsConfig.IsActive("CETeam.CombatExtended") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CE_AmmoResearch"))
+            {
+                LetterDef MLRP_NewPBRecipe = LetterDefOf.PositiveEvent;
+                string title = "MLRP_NewRecipeUnlockedTitle".Translate();
+                string text = "MLRP_NewRecipeUnlockedTextPB".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewPBRecipe);
+            }
 
             // FABRIC EXCHANGE
 
@@ -156,6 +176,16 @@ namespace MLRP_ResearchTracker
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();
                 string text = "MLRP_NewRecipeUnlockedTextTP".Translate();
                 Find.LetterStack.ReceiveLetter(title, text, MLRP_NewTPRecipe);
+            }
+
+            // SCREWBALL: HIGHER POWER MOD
+
+            if (ModsConfig.IsActive("leion247612.HigherHPower") && proj == DefDatabase<ResearchProjectDef>.GetNamed("HP_AdvancedPower"))
+            {
+                LetterDef MLRP_ExtraScrewballOutput = LetterDefOf.PositiveEvent;
+                string title = "MLRP_ExtraScrewballOutputTitle".Translate();
+                string text = "MLRP_ExtraScrewballOutputText".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_ExtraScrewballOutput);
             }
         }
     }

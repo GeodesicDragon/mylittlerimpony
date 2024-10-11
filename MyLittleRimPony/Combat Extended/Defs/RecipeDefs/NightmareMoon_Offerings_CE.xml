@@ -1,0 +1,65 @@
+<Defs>
+
+<!--REQUEST 100 FSX-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_CE_FSX</defName>
+	<label>request 100 FSX</label>
+	<description>Offer silver in exchange for 100 units of FSX.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>113</count>
+		</li>
+	</ingredients>
+	<products>
+		<FSX>100</FSX>
+	</products>
+</RecipeDef>
+
+<!--REQUEST 100 PROMETHEUM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_CE_Prometheum</defName>
+	<label>request 100 prometheum</label>
+	<description>Offer silver in exchange for 100 units of prometheum.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>90</count>
+		</li>
+	</ingredients>
+	<products>
+		<Prometheum>100</Prometheum>
+	</products>
+</RecipeDef>
+
+</Defs>

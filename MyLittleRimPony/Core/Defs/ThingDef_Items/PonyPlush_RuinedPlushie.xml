@@ -3,6 +3,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>PonyPlush_Ruined</defName>
 		<label>ruined pony plushie</label>
+		<thingClass>ThingWithComps</thingClass>
 		<description>This plushie has somehow been destroyed, and is truly a sad sight to behold.\n\nIt can be recycled at the plushie bench to recover some useful materials.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/Ruined</texPath>
@@ -12,13 +13,15 @@
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
+		<drawGUIOverlay>true</drawGUIOverlay>
 		<stackLimit>10</stackLimit>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>0.08</Mass>
+			<MarketValue>300</MarketValue>
+			<Flammability>1</Flammability>
 		</statBases>
 		<intricate>false</intricate>
-		<smeltable>true</smeltable>
 		<costStuffCount>300</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -27,6 +30,9 @@
 		<thingCategories>
 			<li>Pony_Plushie_Ruined</li>
 		</thingCategories>
+		<tradeTags>
+			<li>MLRP_Ruined_Plushie</li>
+		</tradeTags>
 	</ThingDef>
 	
 </Defs>

@@ -1,0 +1,17 @@
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MLRP_NMM_AntigrainWarhead"]/label</xpath>
+		<value>
+			<label>request 81mm mortar shell (Anti)</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MLRP_NMM_AntigrainWarhead"]/description</xpath>
+		<value>
+			<description>Offer silver and a large quantity of high explosive shells in exchange for a single 81mm mortar shell (Anti).</description>
+		</value>
+	</Operation>
+
+</Patch>

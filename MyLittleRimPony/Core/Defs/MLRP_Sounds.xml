@@ -29,7 +29,7 @@
 		<priorityMode>PrioritizeNearest</priorityMode>
 		<subSounds>
 			<li>
-				<tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>
+				<tempoAffectedByGameSpeed>False</tempoAffectedByGameSpeed>
 				<muteWhenPaused>True</muteWhenPaused>
 				<grains>
 					<li Class="AudioGrain_Clip">
@@ -37,6 +37,8 @@
 					</li>
 				</grains>
 				<volumeRange>100</volumeRange>
+				<distRange>10~100</distRange>
+				<pitchRange>1</pitchRange>
 			</li>
 		</subSounds>
 	</SoundDef>

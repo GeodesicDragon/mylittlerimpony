@@ -36,15 +36,16 @@
 	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti Brony hat einen Harmonie-Chip</MLRP_AntiBronyHasHarmonyChipAlert>
 	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipExplanation>
 
-	<!--C# BIOTECH-->
-
-	<MLRP_AboutSweetieBotMechLetterHeader MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot Mechanoiden</MLRP_AboutSweetieBotMechLetterHeader>
-	<MLRP_AboutSweetieBotMechLetterText MayRequire="Ludeon.RimWorld.Biotech">Sweetie Bot-Mechanoiden bewegen sich schnell und verfügen über eine anständige, scharfe Panzerung, sind aber im Nahkampf verwundbar.\n\nSie eignen sich am besten zum Angriff auf die Flanken eines Feindes, zum Vorstürmen und Legen Feuer ab, bevor sie sich in eine sichere Entfernung zurückziehen.\n\nSie können auch als Reittiere verwendet werden, wenn sie Teil von Karawanen sind.</MLRP_AboutSweetieBotMechLetterText>
-
-	<!--C# MODS-->
-
-	<MLRP_XMLExtensionsDetected MayRequire="imranfish.xmlextensions">[My Little RimPony] XML-Erweiterungen wurden erkannt.</MLRP_XMLExtensionsDetected>
-	<MLRP_CEDetected MayRequire="CETeam.CombatExtended">[My Little RimPony] Combat Extended wurde erkannt.</MLRP_CEDetected>
-	<MLRP_MOPatchesDetected MayRequire="geodesicdragon.rimpony.medieval">[My Little RimPony] Patches für die mittelalterliche Überholung wurden angewendet.</MLRP_MOPatchesDetected>
+	<!--RESEARCH TRACKER-->
+	
+	<MLRP_NewRecipeUnlockedTitle>Neue(s) Rezept(e) verfügbar</MLRP_NewRecipeUnlockedTitle>
+	<MLRP_NewRecipeUnlockedTextDB>Neue(s) Rezept(e) erhältlich bei der Daybreaker-Statue.</MLRP_NewRecipeUnlockedTextDB>
+	<MLRP_NewRecipeUnlockedTextPB>Neue(s) Rezept(e) an der Plüschbank erhältlich.</MLRP_NewRecipeUnlockedTextPB>
+	<MLRP_NewRecipeUnlockedTextFE>Neue(s) Rezept(e) in der Stoffbörse erhältlich.</MLRP_NewRecipeUnlockedTextFE>
+	<MLRP_NewRecipeUnlockedTextSE>Neue(s) Rezept(e) in der Steinbörse erhältlich.</MLRP_NewRecipeUnlockedTextSE>
+	<MLRP_NewRecipeUnlockedTextNMM>Neue(s) Rezept(e) bei der Alptraum-Mond-Statue erhältlich.</MLRP_NewRecipeUnlockedTextNMM>
+	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">Neue(s) Rezept(e) von Thingpone verfügbar.</MLRP_NewRecipeUnlockedTextTP>
+	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Fortschrittliche Leistung erforscht</MLRP_ExtraScrewballOutputTitle>
+	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+10% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
 
 </LanguageData>

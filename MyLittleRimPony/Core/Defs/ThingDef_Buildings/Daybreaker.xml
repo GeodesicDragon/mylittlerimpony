@@ -8,7 +8,7 @@
 	<designationHotKey>Misc8</designationHotKey>
     <graphicData>
       <texPath>Things/Building/Daybreaker</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
     </graphicData>
 	<minifiedDef>MinifiedThing</minifiedDef>

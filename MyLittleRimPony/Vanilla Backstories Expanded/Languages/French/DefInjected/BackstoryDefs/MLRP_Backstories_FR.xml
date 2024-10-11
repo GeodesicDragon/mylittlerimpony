@@ -1,0 +1,12 @@
+<LanguageData>
+
+	<!--EN: MLP Obsessive-->
+	<MLRP_VBE_MLPFanBackstory.title>Obsédé par les poneys</MLRP_VBE_MLPFanBackstory.title>
+
+	<!--EN: MLP Obsessive-->
+	<MLRP_VBE_MLPFanBackstory.titleShort>Obsédé par les poneys</MLRP_VBE_MLPFanBackstory.titleShort>
+	
+	<!--EN: [PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art, fanfiction and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about making friends and creating things, but is completely incapable of any other skills.-->
+	<MLRP_VBE_MLPFanBackstory.baseDesc>[PAWN_nameDef] est totalement obsédé par Mon Petite Poney et a passé la majeure partie de sa vie d'adulte à regarder tous les épisodes et les films en boucle, ainsi qu'à créer ses propres œuvres d'art, fanfictions et peluches.\n\nIl est donc passionné par l'idée de se faire des amis et de créer des choses, mais il est totalement incapable de maîtriser d'autres compétences.</MLRP_VBE_MLPFanBackstory.baseDesc>
+
+</LanguageData>

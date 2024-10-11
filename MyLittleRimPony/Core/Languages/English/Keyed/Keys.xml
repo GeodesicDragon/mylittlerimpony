@@ -39,9 +39,13 @@
 	
 	<MLRP_NewRecipeUnlockedTitle>New recipe(s) unlocked</MLRP_NewRecipeUnlockedTitle>
 	<MLRP_NewRecipeUnlockedTextDB>New recipe(s) available at the Daybreaker statue.</MLRP_NewRecipeUnlockedTextDB>
+	<MLRP_NewRecipeUnlockedTextPB>New recipe(s) available at the plushie bench.</MLRP_NewRecipeUnlockedTextPB>
 	<MLRP_NewRecipeUnlockedTextFE>New recipe(s) available at the Fabric Exchange.</MLRP_NewRecipeUnlockedTextFE>
 	<MLRP_NewRecipeUnlockedTextSE>New recipe(s) available at the Stone Exchange.</MLRP_NewRecipeUnlockedTextSE>
 	<MLRP_NewRecipeUnlockedTextNMM>New recipe(s) available at the Nightmare Moon statue.</MLRP_NewRecipeUnlockedTextNMM>
 	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">New recipe(s) available from Thingpone.</MLRP_NewRecipeUnlockedTextTP>
+	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>
+	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+10% to Screwball power output.</MLRP_ExtraScrewballOutputText>
+	
 	
 </LanguageData>

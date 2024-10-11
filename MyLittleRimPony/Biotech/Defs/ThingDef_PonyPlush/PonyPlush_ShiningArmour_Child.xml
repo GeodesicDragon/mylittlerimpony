@@ -12,5 +12,10 @@
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.3</ArmorRating_Heat>
 		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+		</apparel>
 	</ThingDef>
 </Defs>

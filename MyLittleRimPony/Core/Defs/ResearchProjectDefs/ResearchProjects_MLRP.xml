@@ -115,6 +115,9 @@
 		<defName>MLRP_ArchotechResearch</defName>
 		<label>Request archotech items</label>
 		<description>Nightmare Moon will allow you to request archotech items from her.</description>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>8</researchViewX>
 		<researchViewY>0</researchViewY>

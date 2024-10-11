@@ -39,9 +39,12 @@
 	
 	<MLRP_NewRecipeUnlockedTitle>Nouvelle recette(s) débloquée</MLRP_NewRecipeUnlockedTitle>
 	<MLRP_NewRecipeUnlockedTextDB>Nouvelle recette(s) disponible à la statue Daybreaker.</MLRP_NewRecipeUnlockedTextDB>
+	<MLRP_NewRecipeUnlockedTextPB>Nouvelle recette(s) disponible à la établi pour peluche de poney.</MLRP_NewRecipeUnlockedTextPB>
 	<MLRP_NewRecipeUnlockedTextFE>Nouvelle recette(s) disponible à la échange de tissus.</MLRP_NewRecipeUnlockedTextFE>
 	<MLRP_NewRecipeUnlockedTextSE>Nouvelle recette(s) disponible à la échange de pierres.</MLRP_NewRecipeUnlockedTextSE>
 	<MLRP_NewRecipeUnlockedTextNMM>Nouvelle recette(s) disponible à la statue Nightmare Moon.</MLRP_NewRecipeUnlockedTextNMM>
 	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">Nouvelle recette(s) disponible à la Thingpone.</MLRP_NewRecipeUnlockedTextTP>
+	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Recherche avancée de puissance</MLRP_ExtraScrewballOutputTitle>
+	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+10% à la puissance de sortie de la boule de vis.</MLRP_ExtraScrewballOutputText>
 	
 </LanguageData>

@@ -45,7 +45,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>MLRP_WeaponisedArrogance</defName>
-		<label>invisible</label>
+		<label>wooden bullet</label>
 		<graphicData>
 			<texPath>Things/PonyPlush/PlushEquipped</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

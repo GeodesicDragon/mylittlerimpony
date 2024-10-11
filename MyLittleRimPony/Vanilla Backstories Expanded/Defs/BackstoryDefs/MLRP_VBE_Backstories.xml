@@ -1,10 +1,10 @@
 <Defs>
 	<BackstoryDef>
-		<slot>Adulthood</slot>
-		<title>MLP Obsessive</title>
 		<defName>MLRP_VBE_MLPFanBackstory</defName>
+		<title>MLP Obsessive</title>
 		<titleShort>MLP Obsessive</titleShort>
 		<baseDesc>[PAWN_nameDef] is utterly obsessed with My Little Pony, and has spent most of [PAWN_possessive] adult life watching every episode and movie on repeat, as well as making [PAWN_possessive] own art, fanfiction and plushies.\n\nAs a result, [PAWN_pronoun] is very passionate about making friends and creating things, but is completely incapable of any other skills.</baseDesc>
+		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Outlander</li>

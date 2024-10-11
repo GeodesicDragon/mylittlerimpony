@@ -460,6 +460,11 @@ namespace MyLittleRimPony
     }
 
     // PLUSHIE RECYCLING
+	
+	public class RecyclePlushieExtension : DefModExtension
+	{
+		public int reclaimedAmount = 75; // Default value if not specified
+	}
 
     public class Recipe_RecyclePlushie : RecipeWorker
     {
@@ -470,7 +475,12 @@ namespace MyLittleRimPony
 
             if (stuff != null)
             {
-                int amount = 75;
+                // Try to get the mod extension that contains the 'reclaimedAmount' value
+                var extension = recipe.GetModExtension<RecyclePlushieExtension>();
+
+                // Use the value from the extension, default to 75 if not found
+                int amount = extension?.reclaimedAmount ?? 75;
+
                 Thing reclaimedMaterial = ThingMaker.MakeThing(stuff);
                 reclaimedMaterial.stackCount = amount;
                 GenPlace.TryPlaceThing(reclaimedMaterial, ingredient.Position, map, ThingPlaceMode.Near);

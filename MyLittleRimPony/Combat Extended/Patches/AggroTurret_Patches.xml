@@ -1,5 +1,27 @@
 <Patch>
 
+<!--PATCH THE AMMO-->
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[@Name="MLRP_WeaponisedArrogance"]</xpath>
+	<value>
+		<thingClass>CombatExtended.BulletCE</thingClass>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="MLRP_WeaponisedArrogance"]/projectile</xpath>
+	<value>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>1</damageAmountBase>
+			<armorPenetrationSharp>3</armorPenetrationSharp> <!--Because of splinters.-->
+			<armorPenetrationBlunt>1</armorPenetrationBlunt>
+		</projectile>
+	</value>
+</Operation>
+
+<!--PATCH EVERYTHING ELSE-->
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="MLRP_Mudbriar" or defName="MLRP_QuibblePants" or defName="MLRP_ZephyrBreeze"]/thingClass</xpath>
 		<value>

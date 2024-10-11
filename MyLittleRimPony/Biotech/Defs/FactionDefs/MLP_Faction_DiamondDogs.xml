@@ -112,22 +112,27 @@
     </pawnGroupMakers>
   </FactionDef>
 
-  <ThingSetMakerDef>
-    <defName>MLRP_DiamondDogLoot</defName>
-    <root Class="ThingSetMaker_MarketValue">
-      <fixedParams>
-        <filter>
-          <thingDefs>
-            <li>Gold</li>
-            <li>Jade</li>
-			<li>Plasteel</li>
-			<li>Silver</li>
-			<li>Steel</li>
-			<li>Uranium</li>
-			<li>PonyPlush_Ruined</li>
-          </thingDefs>
-        </filter>
-      </fixedParams>
-    </root>
-  </ThingSetMakerDef>
+	<ThingSetMakerDef>
+		<defName>MLRP_DiamondDogLoot</defName>
+		<root Class="ThingSetMaker_Count">
+			<fixedParams>
+				<countRange>
+					<min>3</min>
+					<max>10</max>
+				</countRange>
+				<totalMarketValueRange>
+					<min>250</min>
+					<max>1000</max>
+				</totalMarketValueRange>
+				<filter>
+					<thingDefs>
+						<li>PonyPlush_Ruined</li>
+						<li>Gold</li>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+
 </Defs>

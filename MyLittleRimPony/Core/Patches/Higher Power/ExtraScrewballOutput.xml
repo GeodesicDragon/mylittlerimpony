@@ -1,0 +1,18 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Higher Power</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="MLRP_ScrewballGenerator"]/comps/li[@Class="CompProperties_Power"]/powerUpgrades</xpath>
+			<value>
+				<li>
+					<researchProject>HP_AdvancedPower</researchProject>
+					<factor>1.1</factor>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

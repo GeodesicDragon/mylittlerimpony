@@ -38,7 +38,7 @@
       <warmupTime>0</warmupTime>
       <range>40</range>
       <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-      <burstShotCount>3</burstShotCount>
+      <burstShotCount>4</burstShotCount>
       <soundCast>MLRP_EOH_Fire</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
       <muzzleFlashScale>9</muzzleFlashScale>
@@ -55,4 +55,31 @@
       <noSingleShot>true</noSingleShot>
     </FireModes>
   </Operation>
+  
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MLRP_SweetieBotTurret"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<recoilAmount>1.5</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<hasStandardCommand>true</hasStandardCommand>
+					<requireLineOfSight>false</requireLineOfSight>
+					<defaultProjectile>Projectile_HarmonyRainbow</defaultProjectile>
+					<warmupTime>0</warmupTime>
+					<range>46</range>
+					<burstShotCount>3</burstShotCount>
+					<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+					<soundCast>MLRP_EOH_Fire</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>false</canTargetLocations>
+					</targetParams>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
 </Patch>
