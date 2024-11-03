@@ -1,0 +1,63 @@
+<Defs>
+
+<RecipeDef>
+	<defName>MLRP_NMM_BionicBladder</defName>
+	<label>request bionic bladder</label>
+	<description>Offer silver in exchange for a bionic bladder.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+	</ingredients>
+	<products>
+		<BionicBladder>1</BionicBladder>
+	</products>
+	<researchPrerequisite>HygieneBionics</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>MLRP_NMM_HygieneEnhancer</defName>
+	<label>request hygiene enhancer</label>
+	<description>Offer silver in exchange for a hygiene enhancer.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+	</ingredients>
+	<products>
+		<HygieneEnhancer>1</HygieneEnhancer>
+	</products>
+	<researchPrerequisite>HygieneBionics</researchPrerequisite>
+</RecipeDef>
+
+</Defs>

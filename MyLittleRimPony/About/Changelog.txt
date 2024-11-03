@@ -1,3 +1,49 @@
+Version 6.9.56 (November 3rd 2024)
+
+* Combat Extended: Added harmony lasers (Sabot) as a new ammo type for the rainbow laser and Sweetie bot turrets/mechs.
+	* 15 base damage, 180 speed, 64 sharp armour penetration and 114 blunt armour penetration.
+	* Crafted in batches of 500 using 40 steel and 20 uranium.
+	* Recipe is unlocked after magical ammunition is researched.
+* Dubs Bad Hygiene: Added two new recipes to the Nightmare Moon statue to request bionic bladders and hygiene enhancers for 2000 silver each.
+* Vanilla Achievements Expanded: Added an achievement to stockpile 10,000 rounds of Sabot harmony lasers.
+* Core: Herbal cure kits now have a 10% chance of curing the plague.
+* Core: Split the Daybreaker tip into two separate entries, as the original was too long to be displayed properly.
+* Core: Fixed being able to make poison joke joints before researching drug production.
+* Core: Increased the number of herbal cure kits produced at a time to 2 (was 1).
+* Core: Increased combat power of elite brony mercenaries to 100 (was 50).
+* Biotech: Researching how to gestate Sweetie Bot mechanoids now requires standard mechtech (was high). This is a change I forgot to make when I changed their gestation recipe to use standard subcores instead of high subcores.
+* Biotech: Requesting deathrest capacity serums from Nightmare Moon no longer requires hemogen, but the silver cost is now 2000 (was 1250).
+* Anomaly: The texture for Thingpone now remains the same regardless of which direction it is rotated.
+* Combat Extended: Rainbow Dash now reduces suppressability by 5% on top of her other bonuses.
+* Combat Extended: Fixed 'Config error in MLRP_WeaponisedArrogance: is a bullet but has no damageDef' error.
+* Combat Extended: Increased sharp piercing of AP harmony lasers to 32 (was 25). (1)
+* Combat Extended: Increased blunt piercing of AP harmony lasers to 58 (was 35). (1)
+* Combat Extended: AP harmony lasers now have a speed rating of 151. (1)
+* Combat Extended: Fixed NPC faction settlements, bulk goods traders and combat suppliers not stocking Cadence javelins. (2)
+* Combat Extended: Fixed NPC faction settlements, bulk goods traders and combat suppliers not stocking harmony lasers. (2)
+* Combat Extended: Fixed NPC faction settlements, bulk goods traders and combat suppliers not stocking tennis balls. (2)
+* Combat Extended: Fixed NPC faction settlements, bulk goods traders and combat suppliers not stocking wooden bullets. (2)
+* Combat Extended: Fixed Sweetie Bot mechanoids being unable to see in the dark.
+* Combat Extended/Vanilla Achievements Expanded: Updated the texture of the 'A Whole Lotta Love' achievement to be less blurry.
+* Combat Extended/Vanilla Achievements Expanded: Updated the texture of the 'Wimbledon This Ain't' achievement to be less blurry.
+* Combat Extended/Vanilla Achievements Expanded: Updated the texture of the 'Hazardous Harmonious Materials' achievement to be less blurry.
+* Combat Extended/Vanilla Achievements Expanded: Updated the texture of the 'Splinters, Splinters Everywhere' achievement to be less blurry.
+* Combat Extended/Vanilla Achievements Expanded: Reduced the points value of the 'A Whole Lotta Love' achievement to 10 (was 50).
+* Combat Extended/Vanilla Achievements Expanded: Reduced the points value of the 'Wimbledon This Ain't' achievement to 20 (was 50).
+* Combat Extended/Vanilla Achievements Expanded: Reduced the points value of the 'Hazardous Harmonious Materials' achievement to 25 (was 50).
+* Combat Extended/Vanilla Achievements Expanded: Reduced the points value of the 'Splinters, Splinters Everywhere' achievement to 10 (was 50).
+* Combat Extended/Vanilla Achievements Expanded: Moved ammo related achievements to the 'MLRP - Weapons' tab.
+* Vanilla Achievements Expanded: Changed the texture of the 'Special Delivery!' achievement.
+* Vanilla Factions Expanded - Deserters: The texture for Spitfire now remains the same regardless of which direction it is rotated.
+* Vanilla Recycling Expanded: Fixed incorrect job string for the make trashbrick recipe at the Daybreaker statue.
+* XML Extensions: Removed the ability to change the range of aggro turrets. (3)
+* XML Extensions: Removed the ability to change the accuracy of aggro turrets. (3)
+* XML Extensions: Removed the ability to change the shots fired per burst of aggro turrets. (3)
+
+1. This change should put AP harmony lasers on par with AP charged rifle ammo.
+2. You may need to wait for a restock or a fresh trade caravan.
+3. This was causing some weird things to happen with Combat Extended. You'll have a ton of unused variables to get rid of.
+
 Version 6.5.23 (October 11th 2024)
 
 * Higher Power: Added a patch which will increase the power output of Screwballs by an additional 10% once advanced power is researched.

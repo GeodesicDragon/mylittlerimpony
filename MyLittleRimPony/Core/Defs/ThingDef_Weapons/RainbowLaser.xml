@@ -24,7 +24,7 @@
 
 <ThingDef ParentName="BaseProjectileHarmony">
 	<defName>Projectile_HarmonyRainbow</defName>
-	<label>rainbow laser</label>
+	<label>harmony laser</label>
 	<graphicData>
 		<texPath>Things/Projectiles/RainbowLaser</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

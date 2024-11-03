@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+		<defName>Ammo_HarmonyLaser_Sabot</defName>
+		<label>Harmony lasers (Sabot)</label>
+		<description>Ammo for the Rainbow Laser and Sweetie Bot turret.\n\nVery bright and colourful, but also quite deadly.</description>
+		<statBases>
+			<Mass>0.025</Mass>
+			<Bulk>0.02</Bulk>
+			<MarketValue>0.3</MarketValue>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+		</tradeTags>
+		<thingCategories>
+			<li>MLRP_Ammo</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/AmmoBox/Ammo_HarmonyLaserSabot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ammoClass>Sabot</ammoClass>
+		<tradeability>Sellable</tradeability>
+		<destroyOnDrop>False</destroyOnDrop>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseProjectileHarmony">
+		<defName>Projectile_HarmonyRainbow_Sabot</defName>
+		<label>Harmony laser (Sabot)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationSharp>64</armorPenetrationSharp>
+			<armorPenetrationBlunt>116</armorPenetrationBlunt>
+			<speed>180</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectiles/RainbowLaser</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<!-- Recipes -->
+
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+		<defName>MakeAmmo_HarmonyLaser_Sabot</defName>
+		<label>make Harmony lasers (Sabot) x500</label>
+		<description>Craft 500 Harmony lasers (sabot).</description>
+		<jobString>Making harmony lasers (Sabot).</jobString>
+		<workAmount>60</workAmount>
+		<recipeUsers>
+			<li>PlushieBench</li>
+			<li>AmmoBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Ammo_HarmonyLaser_Sabot>500</Ammo_HarmonyLaser_Sabot>
+		</products>
+		<researchPrerequisite>MLRP_CE_AmmoResearch</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

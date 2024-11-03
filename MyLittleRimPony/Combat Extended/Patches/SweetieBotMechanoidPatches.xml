@@ -204,6 +204,15 @@
 						<ArmorRating_Sharp>15</ArmorRating_Sharp>
 					</value>
 				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="MLRP_SweetieBotMech"]/statBases</xpath>
+					<value>
+						<NightVisionEfficiency>0.8</NightVisionEfficiency>
+					</value>
+				</li>
+				
+
 			</operations>
 		</match>
 	</Operation>

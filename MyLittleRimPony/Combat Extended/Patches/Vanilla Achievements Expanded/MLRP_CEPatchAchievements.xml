@@ -13,60 +13,75 @@
 				<defName>MLRP_Achievement_CadenceJavelins</defName>
 				<label>A Whole Lotta Love</label>
 				<description>Stockpile 1,000 rounds of wife thrower ammo</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_WeaponAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemTracker">
 					<def>Ammo_CadenceJavelins</def>
 					<count>1000</count>
 				</tracker>
 				
-				<texPath>Things/AmmoBox/Ammo_CadenceJavelins</texPath>
-				<points>50</points>
+				<texPath>Achievements/AWholeLottaLove</texPath>
+				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_Ammo_TennisBalls</defName>
 				<label>Wimbledon This Ain't</label>
 				<description>Stockpile 1,000 rounds of tennis ball launcher ammo</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_WeaponAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemTracker">
 					<def>Ammo_TennisBalls</def>
 					<count>1000</count>
 				</tracker>
 				
-				<texPath>Things/AmmoBox/Ammo_TennisBalls</texPath>
-				<points>50</points>
+				<texPath>Achievements/WimbledonThisAint</texPath>
+				<points>20</points>
 			</AchievementsExpanded.AchievementDef>
 			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_RainbowLasers</defName>
 				<label>Hazardous Harmonious Materials</label>
-				<description>Stockpile 10,000 rounds of Rainbow Laser ammo</description>
-				<tab>MLRP_AchievementTab</tab>
+				<description>Stockpile 10,000 rounds of Rainbow Laser (AP) ammo</description>
+				<tab>MLRP_WeaponAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemTracker">
 					<def>Ammo_HarmonyLaser</def>
 					<count>10000</count>
 				</tracker>
 				
-				<texPath>Things/AmmoBox/Ammo_HarmonyLaser</texPath>
-				<points>50</points>
+				<texPath>Achievements/HazardousHarmoniousMaterials</texPath>
+				<points>25</points>
+			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_RainbowLasers_Sabot</defName>
+				<label>More Hazardous Harmonious Materials</label>
+				<description>Stockpile 10,000 rounds of Rainbow Laser (Sabot) ammo</description>
+				<tab>MLRP_WeaponAchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.ItemTracker">
+					<def>Ammo_HarmonyLaser_Sabot</def>
+					<count>10000</count>
+				</tracker>
+				
+				<texPath>Achievements/MoreHazardousHarmoniousMaterials</texPath>
+				<points>25</points>
 			</AchievementsExpanded.AchievementDef>
 			
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_WoodenBullets</defName>
 				<label>Splinters, Splinters Everywhere</label>
 				<description>Stockpile 3,000 rounds of aggro turret ammo</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_WeaponAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemTracker">
 					<def>Ammo_WoodenBullets</def>
 					<count>3000</count>
 				</tracker>
 				
-				<texPath>Things/AmmoBox/Ammo_WoodenBullets</texPath>
-				<points>50</points>
+				<texPath>Achievements/SplintersSplintersEverywhere</texPath>
+				<points>10</points>
 			</AchievementsExpanded.AchievementDef>
 		</value>
 	</match>

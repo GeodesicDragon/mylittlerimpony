@@ -41,6 +41,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<ammoClass>Smoke</ammoClass>
+		<tradeability>Sellable</tradeability>
+		<destroyOnDrop>False</destroyOnDrop>
 	</ThingDef>
 
 

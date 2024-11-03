@@ -6,7 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MLRP_Assemblies||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mylittlerimpony\\source\\mylittlerimpony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\mylittlerimpony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|solutionrelative:mylittlerimpony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,10 +50,9 @@
               "RelativeDocumentMoniker": "MyLittleRimPony.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\MyLittleRimPony.cs",
               "RelativeToolTip": "MyLittleRimPony.cs",
-              "ViewState": "AQIAAL0BAAAAAAAAAAAYwB8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T18:35:21.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T18:35:21.326Z"
             },
             {
               "$type": "Document",
@@ -63,7 +62,7 @@
               "RelativeDocumentMoniker": "MLRP_Biotech.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\MLRP_Biotech.cs",
               "RelativeToolTip": "MLRP_Biotech.cs",
-              "ViewState": "AQIAAMwAAAAAAAAAAAAowOsAAAAFAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAiwOsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T15:20:51.722Z"
             },
@@ -75,7 +74,7 @@
               "RelativeDocumentMoniker": "MLRP_ResearchNotifications.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\MLRP_ResearchNotifications.cs",
               "RelativeToolTip": "MLRP_ResearchNotifications.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAYwLYAAACIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T18:35:23.95Z"
             }

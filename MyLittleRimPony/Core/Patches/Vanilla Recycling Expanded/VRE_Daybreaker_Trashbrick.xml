@@ -12,7 +12,7 @@
 					<label>create trashbricks</label>
 					<description>Create 1000 trashbricks, using chemfuel to accelerate the process.\n\nEven Daybreaker can't stand the smell of tox gas, so she will use her magic to prevent it from being released.</description>
 					<researchPrerequisite>VRecyclingE_ComplexRecycling</researchPrerequisite>
-					<jobString>Making dark iron bars.</jobString>
+					<jobString>Making trashbricks.</jobString>
 					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 					<workSkill>Crafting</workSkill>
 					<effectWorking>Cremate</effectWorking>

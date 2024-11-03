@@ -153,6 +153,9 @@
       </recipeUsers>
       <workSpeedStat>DrugCookingSpeed</workSpeedStat>
       <workSkill>Cooking</workSkill>
+		<researchPrerequisites>
+			<li>DrugProduction</li>
+		</researchPrerequisites>
     </recipeMaker>
     <costList>
       <MLRP_PoisonJokeLeaves>8</MLRP_PoisonJokeLeaves>

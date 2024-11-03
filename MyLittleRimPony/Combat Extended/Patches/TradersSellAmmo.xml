@@ -36,11 +36,15 @@
 					<max>6</max>
 				</thingDefCountRange>
 			</li>
-			<li Class="StockGenerator_Category">
-				<categoryDef>Ammo</categoryDef>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>MLRP_Ammo</tradeTag>
+				<countRange>
+					<min>50</min>
+					<max>250</max>
+				</countRange>
 				<thingDefCountRange>
-					<min>0</min>
-					<max>0</max>
+					<min>5</min>
+					<max>5</max>
 				</thingDefCountRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
@@ -57,6 +61,34 @@
 					<max>100</max>
 				</countRange>
 			</li>
+			<!--<li Class="StockGenerator_SingleDef">
+				<thingDef>Ammo_CadenceJavelins</thingDef>
+				<countRange>
+					<min>5</min>
+					<max>25</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ammo_HarmonyLaser</thingDef>
+				<countRange>
+					<min>30</min>
+					<max>120</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ammo_TennisBalls</thingDef>
+				<countRange>
+					<min>1</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ammo_WoodenBullets</thingDef>
+				<countRange>
+					<min>100</min>
+					<max>500</max>
+				</countRange>
+			</li>-->
 		</value>
 	</Operation>
 

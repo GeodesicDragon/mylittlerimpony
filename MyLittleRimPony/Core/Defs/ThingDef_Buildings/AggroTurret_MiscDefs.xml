@@ -52,13 +52,24 @@
 		</graphicData>
 		<projectile>
 			<damageDef>MLRP_Harmless</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageAmountBase>0.1</damageAmountBase>
 			<speed>125</speed>
 		</projectile>
 	</ThingDef>
   
-	<DamageDef>
+	<DamageDef Name="MLRP_Harmless">
 		<defName>MLRP_Harmless</defName>
+		<label>wooden bullet</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has died from a rather nasty splinter.</deathMessage>
+		<hediff>Gunshot</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
 	</DamageDef>
 	
 </Defs>

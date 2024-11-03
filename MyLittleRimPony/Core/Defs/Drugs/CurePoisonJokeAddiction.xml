@@ -3,7 +3,7 @@
 	<ThingDef ParentName="DrugPillBase">
 		<defName>MLRP_PoisonJokeAddictionCureKit</defName>
 		<label>herbal cure kit</label>
-		<description>Originally intended as a way of removing poison joke addiction, it soon became apparent that this Equestrian herbal remedy was also strong enough to cure a range of other afflictions.\n\nCures flu, malaria, food poisoning, poison joke adddiction and poison joke tolerance. It also has a very low chance of curing the Cutie Pox.</description>
+		<description>Originally intended as a way of removing poison joke addiction, it soon became apparent that this Equestrian herbal remedy was also strong enough to cure a range of other afflictions.\n\nCures flu, malaria, food poisoning, poison joke adddiction and poison joke tolerance. It also has a very low chance of curing the Cutie Pox and the plague.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Flu</HediffDef>
 			<HediffDef>Malaria</HediffDef>
@@ -11,6 +11,7 @@
 			<HediffDef>MLRP_PoisonJokeAddiction</HediffDef>
 			<HediffDef>MLRP_PoisonJokeTolerance</HediffDef>
 			<HediffDef>MLRP_CutiePox</HediffDef>
+			<HediffDef>Plague</HediffDef>
 			<HediffDef MayRequire="SovietRabotyaga.RimPonkOld">MagicalCakeAddiction</HediffDef>
 			<HediffDef MayRequire="SovietRabotyaga.RimPonkOld">MagicalCakeTolerance</HediffDef>
 		</descriptionHyperlinks>
@@ -35,20 +36,6 @@
 				<li Class="MyLittleRimPony.PoisonJokeAddictionCure"/>
 			</outcomeDoers>
 		</ingestible>
-		<recipeMaker>
-			<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
-			<recipeUsers>
-				<li>DrugLab</li>
-				<li>PlushieBench</li>
-			</recipeUsers>
-			<skillRequirements>
-				<Crafting>6</Crafting>
-				<Intellectual>6</Intellectual>
-			</skillRequirements>
-		</recipeMaker>
-		<costList>
-			<MedicineHerbal>25</MedicineHerbal>
-		</costList>
 		<comps>
 			<li Class="CompProperties_Drug">
 				<listOrder>1011</listOrder>

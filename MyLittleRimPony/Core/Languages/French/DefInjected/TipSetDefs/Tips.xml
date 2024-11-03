@@ -51,8 +51,11 @@
 	<!--EN: The Nightmare Moon statue allows you to acquire many exotic items using silver, which is handy if your colonists lack the skills, though it does work out to be more expensive than acquiring them normally.-->
 	<MyLittleRimPony_Tips.NightmareMoon>La statue Lune cauchemardesque vous permet d'acquérir de nombreux objets exotiques en utilisant de l'argent, ce qui est pratique si vos colons n'ont pas les compétences nécessaires, bien que cela revienne plus cher que de les acquérir normalement.</MyLittleRimPony_Tips.NightmareMoon>
 	
-	<!--EN: The Daybreaker statue lets you convert 100 steel, plasteel, uranium, jade or gold into the market value equivalent of another. She will also let you create components (regular and advanced) much faster than using a fabrication bench, but bear in mind that chemfuel is required for everything she does.-->
-	<MyLittleRimPony_Tips.Daybreaker>La statue Daybreaker vous permet de convertir 100 pièces d'acier, de plasteel, d'uranium, de jade ou d'or en l'équivalent de la valeur marchande d'une autre pièce. Elle vous permettra également de créer des composants (ordinaires et avancés) beaucoup plus rapidement qu'en utilisant un banc de fabrication, mais gardez à l'esprit que le carburant chimique est nécessaire pour tout ce qu'elle fait.</MyLittleRimPony_Tips.Daybreaker>
+	<!--EN: The Daybreaker statue allows you to convert steel, plasteel, uranium, jade and gold into silver, and vice versa.-->
+	<MyLittleRimPony_Tips.DaybreakerOne>La statue Daybreaker vous permet de convertir l'acier, le plasteel, l'uranium, le jade et l'or en argent, et vice versa.</MyLittleRimPony_Tips.DaybreakerOne>
+	
+	<!--EN: The Daybreaker statue allows you to create regular and advanced components much faster than using a fabrication bench, once the relevant research has been completed.-->
+	<MyLittleRimPony_Tips.DaybreakerTwo>La statue Daybreaker vous permet de créer des composants ordinaires et avancés beaucoup plus rapidement qu'en utilisant un banc de fabrication, une fois que les recherches nécessaires ont été effectuées.</MyLittleRimPony_Tips.DaybreakerTwo>
 	
 	<!--EN: Poison joke will affect a pawns consciousness, moving, manipulation, talking, eating, sight, hearing or breathing in either a positive or negative way.-->
 	<MyLittleRimPony_Tips.PoisonJokeEffect>La blague empoisonnée affectera la conscience, les mouvements, la manipulation, la parole, l'alimentation, la vue, l'ouïe ou la respiration d'un pion de manière positive ou négative.</MyLittleRimPony_Tips.PoisonJokeEffect>

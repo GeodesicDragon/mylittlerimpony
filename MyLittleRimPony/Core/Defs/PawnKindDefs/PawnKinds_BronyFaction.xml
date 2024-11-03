@@ -337,7 +337,7 @@
     <initialResistanceRange>9~12</initialResistanceRange>
     <label>elite brony mercenary</label>
 	<labelPlural>elite brony mercenaries</labelPlural>
-    <combatPower>50</combatPower>
+    <combatPower>100</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>

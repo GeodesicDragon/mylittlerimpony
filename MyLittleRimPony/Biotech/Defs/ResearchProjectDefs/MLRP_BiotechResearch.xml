@@ -5,7 +5,7 @@
 		<label>Sweetie Bot mechanoids</label>
 		<description>Unlocks the ability to gestate Sweetie Bot mechanoids at a large mech gestator.</description>
 		<prerequisites>
-			<li>HighMechtech</li>
+			<li>StandardMechtech</li>
 			<li>MLRP_WeaponisedElementsResearch</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>

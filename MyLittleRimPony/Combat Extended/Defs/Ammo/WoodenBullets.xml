@@ -35,6 +35,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<ammoClass>MLRP_WoodenBullet</ammoClass>
+		<tradeability>Sellable</tradeability>
+		<destroyOnDrop>False</destroyOnDrop>
 	</ThingDef>
 
 

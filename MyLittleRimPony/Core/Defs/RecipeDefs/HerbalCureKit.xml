@@ -1,0 +1,38 @@
+<Defs>
+
+	<RecipeDef>
+		<defName>MLRP_MakeHerbalCureKit</defName>
+		<label>make herbal cure kit x 2</label>
+		<description>Prepare a remedy for many an affliction using herbal medicine.</description>
+		<jobString>making herbal cure kit</jobString>
+		<researchPrerequisite>MLRP_CurePoisonJokeAddictionResearch</researchPrerequisite>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>DrugLab</li>
+			<li>PlushieBench</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+			<Intellectual>6</Intellectual>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<MLRP_PoisonJokeAddictionCureKit>2</MLRP_PoisonJokeAddictionCureKit>
+		</products>	
+	</RecipeDef>
+
+</Defs>

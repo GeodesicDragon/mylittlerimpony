@@ -24,15 +24,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>125</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>HemogenPack</li>
-				</thingDefs>
-			</filter>
-			<count>5</count>
+			<count>200</count>
 		</li>
 	</ingredients>
 	<products>

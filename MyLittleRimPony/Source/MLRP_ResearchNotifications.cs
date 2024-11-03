@@ -55,7 +55,7 @@ namespace MLRP_ResearchTracker
 			
 			// PLUSHIE BENCH: CORE
 			
-            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_PlushieRecycling") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CurePoisonJokeAddictionResearch"))
+            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_PlushieRecycling") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CurePoisonJokeAddictionResearch") || proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"))
             {
                 LetterDef MLRP_NewPBRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();
@@ -161,6 +161,16 @@ namespace MLRP_ResearchTracker
 			// NIGHTMARE MOON: BANDWIDTH ENHANCER MOD
 
             if (ModsConfig.IsActive("iexist.biotech.morebandwidth") && proj == DefDatabase<ResearchProjectDef>.GetNamed("AdvancedBandwidthEnhancer"))
+            {
+                LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
+                string title = "MLRP_NewRecipeUnlockedTitle".Translate();
+                string text = "MLRP_NewRecipeUnlockedTextNMM".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewNMMRecipe);
+            }
+
+            // NIGHTMARE MOON: DUBS BAD HYGIENE MOD
+
+            if (ModsConfig.IsActive("Dubwise.DubsBadHygiene") && proj == DefDatabase<ResearchProjectDef>.GetNamed("HygieneBionics"))
             {
                 LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();

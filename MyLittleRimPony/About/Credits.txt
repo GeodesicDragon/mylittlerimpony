@@ -1,4 +1,4 @@
-All art was sourced from Derpibooru (https://www.derpibooru.org), unless otherwise specified, and is used under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License; artist credit is followed by the Derpibooru image ID.
+Unless otherwise specified, all art was sourced from Derpibooru (https://www.derpibooru.org), and is used under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License; artist credit is followed by the Derpibooru image ID.
 
 If you are one of the artists listed below and want me to stop using your work, get in touch with me via my Discord server. Please be aware that you will need to prove that you are who you say you are before I will respond to your request.
 
@@ -17,21 +17,21 @@ Cheerilee: juniberries (2527617)
 Daring Do: sketchmcreations (1215272)
 Daybreaker: drakizora (1442272)
 Discord (plush): chrzanek97 (2584926)
-Discord (lamp): cloudyglow (1372861)**
+Discord (lamp): cloudyglow (1372861) **
 Fleur de Lis: darkoverlords (2768057)
 Fluttershy: RainbowCrab (2508169)
 Maud Pie: thebosscamacho (2819795)
-Nightmare Moon: Unknown Artist (2773794)*
+Nightmare Moon: Unknown Artist (2773794) *
 Nurse Haywick: GraphiteSketch AKA Timsplosion (1852562)
-Nurse Redheart: drfatalchunk (1464636)*
+Nurse Redheart: drfatalchunk (1464636) *
 Izzy Moonbow (plush): inaactive (2561243)
 Izzy Moonbow (smoke launcher): ejlightning007arts (2718787)
 Pinkie Pie: flizzick (2490254)
-Pipp Petals: ejlightning007arts (2762024)***
+Pipp Petals: ejlightning007arts (2762024) ***
 Princess Cadence: princesscaramelo (2115510)
 Princess Celestia: killagouge (2058026)
 Princess Luna: chrzanek97 (2124813)
-Rainbow Dash: TheMightyShizam (2501021)*
+Rainbow Dash: TheMightyShizam (2501021) *
 Rarity: MoongazePonies (2734969)
 Screwball: vexorb (32017)
 Scootaloo: sketchmcreations (1551560)
@@ -40,13 +40,13 @@ Shining Armour (wife thrower): keanno (148650)
 Shining Armour (plush): 90sigma (626430)
 Starlight Glimmer: zacatron94/BrunoMilan13 (1426211)
 Sunset Shimmer: shizow (2810521)
-Sweetie Belle: sirwarluscake (1184509)*
+Sweetie Belle: sirwarluscake (1184509) *
 Sweetie Bot: weegeestareatyou (1180288)
 Alicorn Twilight Sparkle: andoanimalia (2521465)
 Ruler of Equestria Twilight Sparkle: andoanimalia (2280601)
-Unicorn Twilight Sparkle: redpandapony (2779548)***
-Elements of Harmony: spiritofthwwolf (sic) (63922)*
-Cutie Mark Crusaders: parclytaxel (1761090)*
+Unicorn Twilight Sparkle: redpandapony (2779548) ***
+Elements of Harmony: spiritofthwwolf (sic) (63922) *
+Cutie Mark Crusaders: parclytaxel (1761090) *
 
 Aloe and Lotus: jennieoo (773287)
 Trixie: chrzanek97 (2584896)
@@ -59,7 +59,7 @@ Villain Statue: prixy05 (2999547)
 
 Button Mash: luckreza8 (1004070)
 
-Thingpone: dvixie (2640948)** - Image flipped horizontally
+Thingpone: dvixie (2640948) ** - Image flipped horizontally
 
 Equestrian Flag: grabusz (1589868)
 Rainbow Laser: Vector-Brony (2493108 - attributed to someone else; original link in description)
@@ -74,13 +74,13 @@ Magic Mirror: nano23823 (2462765)
 Miss Pommel: chainchomp2 (964470)
 Derpy Hooves: starryshineviolet (2944310)
 Party Cannon: benpictures1 (2756837)
-Marble Pie: littlejurnalina (2824560)**
-Spitfire: fikrieka (2094942)***
+Marble Pie: littlejurnalina (2824560) **
+Spitfire: fikrieka (2094942) ***
 Miss Harshwhinny: brony-works (1416923)
 Herbal Cure Kit: the smiling pony (3064108)
-Fanfiction (closed): Unknown Artist (280765)*** - 1.5 only
-Fanfiction (open): Unknown Artist (280756)*** - 1.5 only
-Fanfiction (shelved): Me, making full use of my -20 art skill*** - 1.5 only
+Fanfiction (closed): Unknown Artist (280765)
+Fanfiction (open): Unknown Artist (280756)
+Fanfiction (shelved): Me, making full use of my -20 art skill
 
 MAIN MENU BACKGROUNDS (Requires Vanilla Backgrounds Expanded)
 
@@ -98,7 +98,7 @@ Obligatory OC Background: GeodesicDragon AKA me (not on Derpibooru)
 
 ACHIEVEMENTS
 
-Since most achievements are earned by making or building things, they'll use the same image as the texture for that building or item; these are the exceptions, as they are for making something using a specific material.
+Since most achievements are earned by making or building things, they'll use the same image as the texture for that building or item; these are the exceptions, as I wanted to use a more fitting image for them.
 
 Soylent Sparkle - orschmann (2558210)
 Why, Darling?! - slb94 (1870978)
@@ -106,6 +106,7 @@ Why, Darling?! - slb94 (1870978)
 What In Tarnation - tardifice (1662705)
 That Wasn't Very Kind Of You - wissle (2719109)
 Did Somebody Say 'Cupcakes?' - mrkat7214 (1986994)
+Special Delivery! - anarchemitis (390978) **
 
 Tombstone Icon: https://game-icons.net/1x1/sbed/tombstone.html **
 Talking Icon: https://game-icons.net/1x1/skoll/talk.html
@@ -125,7 +126,7 @@ OTHER IMAGES
 
 Star image (used in some achievements): http://clipart-library.com/clipart/216.htm
 Harmony Chip: https://www.kindpng.com/imgv/wbxRhx_clip-art-clip-art-chips-computer-chip-clipart/
-MLP Logo (used in preview image): Artist Unknown (1411173)**
+MLP Logo (used in preview image): Artist Unknown (1411173) **
 
 Alicorn icon (Biotech): https://www.flaticon.com/free-icon/unicorn-horse-head-with-a-horn-and-wings_32717 **
 Earth Pony icon (Biotech): https://game-icons.net/1x1/delapouite/horse-head.html

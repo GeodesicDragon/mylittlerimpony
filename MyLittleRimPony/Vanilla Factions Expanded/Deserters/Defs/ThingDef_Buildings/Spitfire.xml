@@ -7,7 +7,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Building/Spitfire</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
 	<minifiedDef>MinifiedThing</minifiedDef>

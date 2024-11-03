@@ -7,10 +7,12 @@
 // Contact me via my Discord server and we'll talk! (Invite Code: BGKnpza)
 
 using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Verse;
+using Verse.AI;
 
 namespace MyLittleRimPony
 {
@@ -264,14 +266,27 @@ namespace MyLittleRimPony
                         Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         break;
                     case "MLRP_CutiePox":
-                        System.Random cureChance = new System.Random();
-                        int luckyNumber = cureChance.Next(1, 11);
-                        if (luckyNumber == 7)
+                        System.Random CutiePoxCureChance = new System.Random();
+                        int LuckyCutiePoxNumber = CutiePoxCureChance.Next(1, 11);
+                        if (LuckyCutiePoxNumber == 7)
                         {
                             pawn.health.RemoveHediff(hediff);
                             Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
-                        if (luckyNumber != 7)
+                        if (LuckyCutiePoxNumber != 7)
+                        {
+                            Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        }
+                        break;
+                    case "Plague":
+                        System.Random PlagueCureChance = new System.Random();
+                        int LuckyPlagueNumber = PlagueCureChance.Next(1, 11);
+                        if (LuckyPlagueNumber == 7)
+                        {
+                            pawn.health.RemoveHediff(hediff);
+                            Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        }
+                        if (LuckyPlagueNumber != 7)
                         {
                             Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }

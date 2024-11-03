@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
+
 <!--PATCH THE AMMO-->
 
 <Operation Class="PatchOperationReplace">
@@ -15,9 +14,17 @@
 	<value>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>20</damageAmountBase>
-			<armorPenetrationSharp>25</armorPenetrationSharp>
-			<armorPenetrationBlunt>35</armorPenetrationBlunt>
+			<armorPenetrationSharp>32</armorPenetrationSharp>
+			<armorPenetrationBlunt>58</armorPenetrationBlunt>
+			<speed>151</speed>
 		</projectile>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="Projectile_HarmonyRainbow"]/label</xpath>
+	<value>
+		<label>harmony laser (AP)</label>
 	</value>
 </Operation>
 
@@ -82,5 +89,7 @@
 		<li>Rainbow_Laser</li>
 	</weaponTags>
 	<researchPrerequisite>MLRP_WeaponisedElementsResearch</researchPrerequisite>
+	<AllowWithRunAndGun>false</AllowWithRunAndGun>
 </Operation>
+
 </Patch>

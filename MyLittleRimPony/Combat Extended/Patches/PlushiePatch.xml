@@ -41,6 +41,7 @@
 			<!--The child version is only affected if the appropriate setting is configured in XML Extensions.-->
 			<NightVisionEfficiency_Apparel>0.1</NightVisionEfficiency_Apparel>
 			<ReloadSpeed>0.05</ReloadSpeed>
+			<Suppressability>-0.05</Suppressability>
 	    </value>
 	</Operation>
 	
@@ -50,6 +51,7 @@
 			<!--The child version is only affected if the appropriate setting is configured in XML Extensions.-->
 			<NightVisionEfficiency_Apparel>0.1</NightVisionEfficiency_Apparel>
 			<ReloadSpeed>0.05</ReloadSpeed>
+			<Suppressability>-0.05</Suppressability>
 	    </value>
 	</Operation>
 	
@@ -109,6 +111,7 @@
 			<ReloadSpeed>0.05</ReloadSpeed>
 			<NightVisionEfficiency>0.1</NightVisionEfficiency>
 			<SmokeSensitivity>-0.25</SmokeSensitivity>
+			<Suppressability>-0.05</Suppressability>
 	    </value>
 	</Operation>
 	
