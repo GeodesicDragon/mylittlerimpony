@@ -52,9 +52,19 @@ namespace MLRP_ResearchTracker
                 string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
                 Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
             }
-			
-			// PLUSHIE BENCH: CORE
-			
+
+            // DAYBREAKER: DUBS BAD HYGIENE MOD
+
+            if (ModsConfig.IsActive("Dubwise.DubsBadHygiene") && proj == DefDatabase<ResearchProjectDef>.GetNamed("SepticTanks"))
+            {
+                LetterDef MLRP_NewDBRecipe = LetterDefOf.PositiveEvent;
+                string title = "MLRP_NewRecipeUnlockedTitle".Translate();
+                string text = "MLRP_NewRecipeUnlockedTextDB".Translate();
+                Find.LetterStack.ReceiveLetter(title, text, MLRP_NewDBRecipe);
+            }
+
+            // PLUSHIE BENCH: CORE
+
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_PlushieRecycling") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CurePoisonJokeAddictionResearch") || proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"))
             {
                 LetterDef MLRP_NewPBRecipe = LetterDefOf.PositiveEvent;
@@ -105,7 +115,7 @@ namespace MLRP_ResearchTracker
 
             // NIGHTMARE MOON: ROYALTY DLC
 
-            if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("HealingFactors") || proj == DefDatabase<ResearchProjectDef>.GetNamed("NeuralComputation") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MolecularAnalysis") || proj == DefDatabase<ResearchProjectDef>.GetNamed("SkinHardening") || proj == DefDatabase<ResearchProjectDef>.GetNamed("FleshShaping") || proj == DefDatabase<ResearchProjectDef>.GetNamed("ArtificialMetabolism") || proj == DefDatabase<ResearchProjectDef>.GetNamed("CircadianInfluence"))
+            if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("HealingFactors") || proj == DefDatabase<ResearchProjectDef>.GetNamed("NeuralComputation") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MolecularAnalysis") || proj == DefDatabase<ResearchProjectDef>.GetNamed("SkinHardening") || proj == DefDatabase<ResearchProjectDef>.GetNamed("FleshShaping") || proj == DefDatabase<ResearchProjectDef>.GetNamed("ArtificialMetabolism") || proj == DefDatabase<ResearchProjectDef>.GetNamed("CircadianInfluence") || proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_PsychicItemsResearch"))
             {
                 LetterDef MLRP_NewNMMRecipe = LetterDefOf.PositiveEvent;
                 string title = "MLRP_NewRecipeUnlockedTitle".Translate();

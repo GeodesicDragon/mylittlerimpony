@@ -125,7 +125,7 @@
     <initialResistanceRange>10~17</initialResistanceRange>
     <label>Diamond dog alpha</label>
 	<labelPlural>Diamond dog alphas</labelPlural>
-    <combatPower>60</combatPower>
+    <combatPower>90</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>
@@ -163,7 +163,7 @@
     <initialResistanceRange>3~5</initialResistanceRange>
     <label>Diamond Dog soldier</label>
 	<labelPlural>Diamond Dog soldiers</labelPlural>
-    <combatPower>40</combatPower>
+    <combatPower>75</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>
@@ -201,7 +201,7 @@
     <initialResistanceRange>3~5</initialResistanceRange>
     <label>Diamond Dog archer</label>
 	<labelPlural>Diamond Dog archer</labelPlural>
-    <combatPower>40</combatPower>
+    <combatPower>75</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>

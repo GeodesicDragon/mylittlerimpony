@@ -1,0 +1,11 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips</xpath>
+		<value>
+			<li>Pawns with the brony trait will gain a mood penalty if they consume pony meat or wear pony fur apparel.</li>
+			<li>Pawns with the anti brony trait will gain a mood bonus if they consume pony meat or wear pony fur apparel.</li>
+		</value>
+	</Operation>
+	
+</Patch>

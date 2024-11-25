@@ -2,8 +2,8 @@
 	<name>[MLP] My Little RimPony</name>
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rimpony</packageId>
-	<url>https://discord.gg/BGKnpza</url>
-	<modVersion>6.9.56</modVersion>
+	<url>https://github.com/GeodesicDragon/mylittlerimpony/wiki</url>
+	<modVersion>6.33.82</modVersion>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
@@ -16,9 +16,11 @@
 	</modDependencies>
 	<loadBefore>
 		<li>WheatyTail.MyLittleRimPonyRus</li>
+		<li>ferny.ProgressionStorytellers</li>
 	</loadBefore>
 	<loadAfter>
 		<li>brrainz.harmony</li>
+		<li>vanillaexpanded.achievements</li>
 		<li>imranfish.xmlextensions</li>
 		<li>CETeam.CombatExtended</li>
 	</loadAfter>

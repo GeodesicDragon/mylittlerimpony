@@ -13,6 +13,7 @@
 		<li IfModActive="Dubwise.DubsBadHygiene">Dubs Bad Hygiene</li>
 		<li IfModActive="Pony.PoniesOfTheRim.Core">Ponies of the Rim</li>
 		<li IfModActive="Torann.RimWar">Rim War</li>
+		<li IfModActive="phil42.allergies">Allergies</li>
 		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>
 		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
 		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded</li>

@@ -210,7 +210,7 @@
 		</tracker>
 		
 		<texPath>Achievements/TenPinkiePies</texPath>
-		<points>100</points>
+		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -482,7 +482,22 @@
 		</tracker>
 		
 		<texPath>Achievements/FeelinHotHotHot</texPath>
-		<points>50</points>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_Daybreaker_Wood</defName>
+		<label>Fire Hazard</label>
+		<description>Build a wooden Daybreaker statue</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_Daybreaker</def>
+			<madeFrom>WoodLog</madeFrom>
+		</tracker>
+		
+		<texPath>Achievements/FireHazard</texPath>
+		<points>5</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -497,7 +512,22 @@
 		</tracker>
 		
 		<texPath>Achievements/GiveUsSomethingSweetToBite</texPath>
-		<points>50</points>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_NightmareMoon_Wood</defName>
+		<label>You're Kidding, Right?</label>
+		<description>Build a wooden Nightmare Moon statue</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_NightmareMoon</def>
+			<madeFrom>WoodLog</madeFrom>
+		</tracker>
+		
+		<texPath>Achievements/YoureKiddingRight</texPath>
+		<points>5</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -512,7 +542,7 @@
 		</tracker>
 		
 		<texPath>Achievements/TheOtherFashionMare</texPath>
-		<points>25</points>
+		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -533,7 +563,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_DerpyHoovesGold</defName>
 		<label>Special Delivery!</label>
-		<description>Build a Derpy Hooves transport pod using gold</description>
+		<description>Build a golden Derpy Hooves</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -558,13 +588,13 @@
 		</tracker>
 		
 		<texPath>Achievements/MmHmm</texPath>
-		<points>25</points>
+		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_MarblePie_MarbleBlocks</defName>
 		<label>Namesake</label>
-		<description>Build a Stone Exchange using marble blocks</description>
+		<description>Build a marble Stone Exchange</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -573,7 +603,7 @@
 		</tracker>
 		
 		<texPath>Achievements/Namesake</texPath>
-		<points>25</points>
+		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<!--DECOYS-->
@@ -635,7 +665,7 @@
 		</tracker>
 		
 		<texPath>Achievements/MissHarshwinter</texPath>
-		<points>25</points>
+		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<!--WEAPONS-->
@@ -745,7 +775,7 @@
 		</tracker>
 		
 		<texPath>Achievements/FriendshipIsFirepower</texPath>
-		<points>50</points>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
@@ -760,7 +790,7 @@
 		</tracker>
 		
 		<texPath>Achievements/PartyHard</texPath>
-		<points>50</points>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<!--SPECIAL ACHIEVEMENTS-->
@@ -825,12 +855,27 @@
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_PoisonJokeBlindness</defName>
+		<label>This Isn't Funny Any More</label>
+		<description>Have a pawn go blind from smoking poison joke</description>
+		<tab>MLRP_AchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.HediffTracker">
+			<def>MLRP_PoisonJokeBlindness</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/ThisIsntFunnyAnyMore</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--HUMAN LEATHER MANE SIX PLUSHIES-->
 	
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_HumanLeatherTwilight</defName>
 		<label>Soylent Sparkle</label>
-		<description>Craft a Twilight Sparkle plushie using human leather</description>
+		<description>Craft a human leather Twilight Sparkle plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
@@ -846,7 +891,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_HumanLeatherRarity</defName>
 		<label>Why, Darling?!</label>
-		<description>Craft a Rarity plushie using human leather</description>
+		<description>Craft a human leather Rarity plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
@@ -862,7 +907,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_HumanLeatherRainbowDash</defName>
 		<label>20% Grosser</label>
-		<description>Craft a Rainbow Dash plushie using human leather</description>
+		<description>Craft a human leather Rainbow Dash plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
@@ -878,7 +923,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_HumanLeatherApplejack</defName>
 		<label>What In Tarnation?</label>
-		<description>Craft an Applejack plushie using human leather</description>
+		<description>Craft a human leather Applejack plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
@@ -894,7 +939,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_HumanLeatherFluttershy</defName>
 		<label>That Wasn't Very Kind Of You</label>
-		<description>Craft a Fluttershy plushie using human leather</description>
+		<description>Craft a human leather Fluttershy plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
@@ -910,7 +955,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_HumanLeatherPinkiePie</defName>
 		<label>Rimcakes</label>
-		<description>Craft a Pinkie Pie plushie using human leather</description>
+		<description>Craft a human leather Pinkie Pie plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
@@ -928,7 +973,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_ThrumbofurFleurDeLis</defName>
 		<label>Putting The 'Super' In 'Supermodel'</label>
-		<description>Craft a Fleur de Lis plushie using thrumbofur</description>
+		<description>Craft a thrumbofur Fleur de Lis plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
@@ -944,7 +989,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_BirdskinScootaloo</defName>
 		<label>Cluck Off!</label>
-		<description>Craft a Scootaloo plushie using birdskin</description>
+		<description>Craft a birdskin Scootaloo plushie</description>
 		<tab>MLRP_AchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">

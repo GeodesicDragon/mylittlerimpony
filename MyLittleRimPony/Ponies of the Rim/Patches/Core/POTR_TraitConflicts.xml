@@ -1,19 +1,19 @@
 <Patch>
 
-	<!--<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/TraitDef[defName="MLRP_BronyTrait" or defName="MLRP_AntiBronyTrait"]/conflictingTraits</xpath>
 		<value>
-			<li>Pony_RelationsForEarth</li>
-			<li>Pony_RelationsForPegasus</li>
 			<li>Pony_RelationsForPony</li>
+			<li>Pony_RelationsForEarth</li>
 			<li>Pony_RelationsForUnicorn</li>
+			<li>Pony_RelationsForPegasus</li>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThoughtDef[defName="Pony_OpinionForPony" or defName="Pony_OpinionForEarth" or defName="Pony_OpinionForPegasus" or defName="Pony_OpinionForUnicorn"]/nullifyingTraits</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThoughtDef[defName="Pony_OpinionForPony" or defName="Pony_OpinionForEarth" or defName="Pony_OpinionForPegasus" or defName="Pony_OpinionForUnicorn"]</xpath>
+			<xpath>Defs/ThoughtDef[defName="Pony_OpinionForPony" or defName="Pony_OpinionForEarth" or defName="Pony_OpinionForUnicorn" or defName="Pony_OpinionForPegasus"]</xpath>
 			<value>
 				<nullifyingTraits>
 					<li>MLRP_BronyTrait</li>
@@ -22,12 +22,12 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThoughtDef[defName="Pony_OpinionForPony" or defName="Pony_OpinionForEarth" or defName="Pony_OpinionForPegasus" or defName="Pony_OpinionForUnicorn"]/nullifyingTraits</xpath>
+			<xpath>Defs/ThoughtDef[defName="Pony_OpinionForPony" or defName="Pony_OpinionForEarth" or defName="Pony_OpinionForUnicorn" or defName="Pony_OpinionForPegasus"]/nullifyingTraits</xpath>
 			<value>
 				<li>MLRP_BronyTrait</li>
 				<li>MLRP_AntiBronyTrait</li>
 			</value>
 		</match>
-	</Operation>-->
+	</Operation>
 		
 </Patch>

@@ -1,0 +1,80 @@
+<Patch>
+
+	<!--Bronies agree with the love and tolerance and harmonism memes-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/MemeDef[defName="Pony_Friendship" or defName="Pony_Harmonism"]/agreeableTraits</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="Pony_Friendship" or defName="Pony_Harmonism"]/agreeableTraits</xpath>
+				<value>
+					<li>MLRP_BronyTrait</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="Pony_Friendship" or defName="Pony_Harmonism"]</xpath>
+				<value>
+					<agreeableTraits>
+						<li>MLRP_BronyTrait</li>
+					</agreeableTraits>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+	
+	<!--Bronies and anti bronies disagree with supremacy memes-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/MemeDef[defName="Pony_EarthponySupremacist" or defName="Pony_UnicornSupremacist" or defName="Pony_PegasusSupremacist"]/disagreeableTraits</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="Pony_EarthponySupremacist" or defName="Pony_UnicornSupremacist" or defName="Pony_PegasusSupremacist"]/disagreeableTraits</xpath>
+				<value>
+					<li>MLRP_BronyTrait</li>
+					<li>MLRP_AntiBronyTrait</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="Pony_EarthponySupremacist" or defName="Pony_UnicornSupremacist" or defName="Pony_PegasusSupremacist"]</xpath>
+				<value>
+					<disagreeableTraits>
+						<li>MLRP_BronyTrait</li>
+						<li>MLRP_AntiBronyTrait</li>
+					</disagreeableTraits>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+	
+	<!--Anti bronies disagree with friendship and tolerance memes-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/MemeDef[defName="Pony_Friendship" or defName="Pony_Harmonism"]/disagreeableTraits</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="Pony_Friendship" or defName="Pony_Harmonism"]/disagreeableTraits</xpath>
+				<value>
+					<li>MLRP_AntiBronyTrait</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="Pony_Friendship" or defName="Pony_Harmonism"]</xpath>
+				<value>
+					<disagreeableTraits>
+						<li>MLRP_AntiBronyTrait</li>
+					</disagreeableTraits>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+
+</Patch>

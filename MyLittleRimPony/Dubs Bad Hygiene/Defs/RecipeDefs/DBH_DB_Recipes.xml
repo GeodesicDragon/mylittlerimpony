@@ -1,0 +1,35 @@
+<Defs>
+
+<!--CONVERT FECAL SLUDGE TO CHEMFUEL-->
+
+<RecipeDef>
+	<defName>MLRP_DB_FecalSludge</defName>
+	<label>make chemfuel from fecal sludge in bulk</label>
+	<description>Convert 1500 fecal sludge into 700 chemfuel.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>FecalSludge</li>
+				</thingDefs>
+			</filter>
+			<count>1500</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chemfuel>700</Chemfuel>
+	</products>
+	<researchPrerequisite>SepticTanks</researchPrerequisite>
+</RecipeDef>
+
+</Defs>

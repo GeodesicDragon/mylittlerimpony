@@ -1,0 +1,65 @@
+<Defs>
+
+<ThoughtDef>
+    <defName>MLRP_PonyFurApparelSad</defName>
+    <workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_PonyLeatherApparel</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>pony fur {0}</label>
+        <description>It's bad enough that the pony had to die in the first place.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>pony fur {0} (+1)</label>
+        <description>Is there really nothing else to wear?</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>pony fur {0} (+2)</label>
+        <description>I hate myself.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>pony fur {0} etc</label>
+        <description>Strike me down, almighty Princesses, for I don't deserve to live any longer.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>MLRP_PonyFurApparelHappy</defName>
+    <workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_PonyLeatherApparel</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>pony fur {0}</label>
+        <description>Hmm, looks like those things are useful after all.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>pony fur {0} (+1)</label>
+        <description>This is good, but there has to be more I can wear.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>pony fur {0} (+2)</label>
+        <description>Oh, yeah, I'm definitely 'feeling the magic' now!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>pony fur {0} etc</label>
+        <description>Cower before me, you disgusting little quadrupeds!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>MLRP_AntiBronyTrait</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+</Defs>

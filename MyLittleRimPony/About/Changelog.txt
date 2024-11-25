@@ -1,3 +1,69 @@
+Version 6.33.82 (November 25th 2024)
+
+IMPORTANT: Non-Steam users are advised to perform a fresh install, as some files have been moved to different folders.
+
+* Core: Added a new plushie slot exclusively for Starlight Glimmer plushies.
+	* I don't know about you, but I often kept forgetting to tell my colonists to unequip the Starlight plushie they were wearing during the last psychic drone and re-equip whatever they had before.
+	* Any Starlight plushies your colonists already have equipped should automatically unequip when you load a saved game.
+	* Remember, make sure that your psycasters have an apparel policy set which forbids them from using the Starlight plush.
+	* The child equippable Starlight plushie is also affected by this change.
+* Royalty: Added a new recipe to the Nightmare Moon statue which lets you request psychic sensitizers.
+	* Cost is 1500 silver (1.5x the market value of 1000, as specified on the RimWorld wiki).
+	* Recipe is unlocked once you complete some research at a high-tech research bench.
+* Royalty: Added a new research project which, when completed, will unlock the ability to request psychic items from Nightmare Moon.
+* Allergies: Added Mage Meadowbrook (-25% allergic sensitivity).
+* Dubs Bad Hygiene: Added a new recipe to the Daybreaker statue which will allow you to create chemfuel from fecal sludge in bulk.
+	* Unlocked once you have researched septic tanks.
+	* Makes 700 chemfuel from 1500 sludge.
+	* Does not require any chemfuel, but requires 1500 work (five times more than other Daybreaker recipes, but half the amount it normally takes).
+* Ponies of The Rim: Added 15 new compatibility patches.
+	* Bronies agree with the love and tolerance meme.
+	* Bronies agree with the harmonism meme.
+	* Bronies disagree with the earthpony supremacist meme.
+	* Bronies disagree with the unicorn supremacist meme.
+	* Bronies disagree with the pegasus supremacist meme.
+	* Anti bronies disagree with the love and tolerance meme.
+	* Anti bronies disagree with the harmonism meme.
+	* Anti bronies disagree with the earthpony supremacist meme.
+	* Anti bronies disagree with the unicorn supremacist meme.
+	* Anti bronies disagree with the pegasus supremacist meme.
+	* Anti bronies don't care about the outcome of the oracle ritual.
+	* Bronies love ponyx as much as they love regular ponies.
+	* Anti bronies hate ponyx as much as they hate regular ponies.
+	* Updated the description of pony fur.
+	* Updated the description of pony meat.
+* Vanilla Achievements Expanded: Added four new achievements.
+	* Fire Hazard
+	* The Healer Is In (requires Allergies mod)
+	* This Isn't Funny Any More
+	* You're Kidding, Right?
+* Core: If you are using the Progression: Storytellers mod, Sunny Starscout will be classified as a 'Slow-paced' storyteller.
+* Core: Updated the ruined plushie texture. I made it myself, so it still sucks, but at least it makes sense (unlike the old one).
+* Core: Raiders will no longer target Discord lamps.
+* Royalty: Requesting psychic neuroformers is now locked behind the new research.
+* Biotech: Increased combat power of Diamond Dog soldiers to 75 (was 40).
+* Biotech: Increased combat power of Diamond Dog archers to 75 (was 40).
+* Biotech: Increased combat power of Diamond Dog alphas (leader pawn) to 90 (was 60).
+* Dubs Bad Hygiene: Herbal cure kits now cure diarrhea.
+* Ponies of the Rim: Bronies now get a mood debuff from wearing apparel made from pony leather, from -2 to -8 depending on the number of pieces. This mood debuff occurs regardless of pro-cannibalism traits and ideologies.
+* Ponies of the Rim: Anti bronies now get a mood buff from wearing apparel made from pony leather, from +2 to +8 depending on the number of pieces. This mood debuff occurs regardless of anti-cannibalism traits and ideologies.
+* Ponies of the Rim: Bronies now get -10 to mood for 1 day after eating pony meat. Occurs regardless of pro-cannibalism traits and ideologies.
+* Ponies of the Rim: Anti bronies now get +10 to mood for 6 hours after eating pony meat. Occurs regardless of anti-cannibalism traits and ideologies.
+* Ponies of the Rim: Uncommented the patches I added in Version 5.42.72 so that they now work.
+* Vanilla Achievements Expanded: Changed the texture of the 'Fun, Fun, Fun, Fun, Fun!' achievement.
+* Vanilla Achievements Expanded: Reduced the points value of the 'Feelin' Hot, Hot, Hot' achievement to 10 (was 50).
+* Vanilla Achievements Expanded: Reduced the points value of the 'Give Us Something Sweet To Bite' achievement to 10 (was 50).
+* Vanilla Achievements Expanded: Reduced the points value of the 'The Other Fashion Mare' achievement to 10 (was 25).
+* Vanilla Achievements Expanded: Reduced the points value of the 'Mm-Hmm' achievement to 10 (was 25).
+* Vanilla Achievements Expanded: Reduced the points value of the 'Namesake' achievement to 10 (was 25).
+* Vanilla Achievements Expanded: Reduced the points value of the 'Miss Harshwinter' achievement to 10 (was 25).
+* Vanilla Achievements Expanded: Reduced the points value of the 'Friendship Is Firepower' achievement to 25 (was 50).
+* Vanilla Achievements Expanded: Reduced the points value of the 'Party Hard' achievement to 25 (was 50).
+* Vanilla Achievements Expanded: Reduced the points value of the 'Fun, Fun, Fun, Fun, Fun!' achievement to 50 (was 100).
+* Vanilla Outposts Expanded: Fixed 'Could not resolve cross-reference to KCSG.StructureLayoutDef named Outpost_Struct_Production (wanter=chooseFromlayouts)' error.
+* Vanilla Outposts Expanded: Plushie factories now generate silver every 7 days (was 5).
+* Vanilla Outposts Expanded: Weapon factories now generate weapons every 15 days (was 7.5).
+
 Version 6.9.56 (November 3rd 2024)
 
 * Combat Extended: Added harmony lasers (Sabot) as a new ammo type for the rainbow laser and Sweetie bot turrets/mechs.

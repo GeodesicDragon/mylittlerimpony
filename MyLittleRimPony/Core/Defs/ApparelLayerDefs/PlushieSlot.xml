@@ -2,8 +2,14 @@
 
     <ApparelLayerDef>
         <defName>MLRP_PlushieSlot</defName>
-        <label>plushie</label>
+        <label>pony plushie</label>
         <drawOrder>600</drawOrder>
+    </ApparelLayerDef>
+	
+    <ApparelLayerDef>
+        <defName>MLRP_PlushieSlotStarlight</defName>
+        <label>Starlight Glimmer plushie</label>
+        <drawOrder>700</drawOrder>
     </ApparelLayerDef>
 
 </Defs>

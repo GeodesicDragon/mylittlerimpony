@@ -14,6 +14,13 @@
 						<costStuffCount>{MLRP_PlushiesCloth}</costStuffCount>
 					</value>
 				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>{MLRP_PlushiesCloth}</costStuffCount>
+					</value>
+				</Operation>
 			</apply>
 		</li>
 		
@@ -61,8 +68,16 @@
 										<costStuffCount>{MLRP_DB_ChildPlushStuffValueRounded}</costStuffCount>
 									</value>
 								</Operation>
+								
+								<Operation Class="PatchOperationReplace">
+									<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer_Child"]/costStuffCount</xpath>
+									<value>
+										<costStuffCount>{MLRP_DB_ChildPlushStuffValueRounded}</costStuffCount>
+									</value>
+								</Operation>
 							</apply>
 						</Operation>
+		
 					</apply>
 				</Operation>
 			</apply>
@@ -102,6 +117,20 @@
 						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
 					</value>
 				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer"]/recipeMaker/skillRequirements/Crafting</xpath>
+					<value>
+						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer_Child"]/recipeMaker/skillRequirements/Crafting</xpath>
+					<value>
+						<Crafting>{MLRP_PlushieCraftingSkill}</Crafting>
+					</value>
+				</Operation>
 			</apply>
 		</li>
 
@@ -117,10 +146,38 @@
 						<careIfWornByCorpse>true</careIfWornByCorpse>
 					</value>
 				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer"]/apparel/careIfWornByCorpse</xpath>
+					<value>
+						<careIfWornByCorpse>true</careIfWornByCorpse>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer_Child"]/apparel/careIfWornByCorpse</xpath>
+					<value>
+						<careIfWornByCorpse>true</careIfWornByCorpse>
+					</value>
+				</Operation>
 			</caseTrue>
 			<caseFalse>
 				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[@Name="PonyPlushBase"]/apparel/careIfWornByCorpse</xpath>
+					<value>
+						<careIfWornByCorpse>false</careIfWornByCorpse>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer"]/apparel/careIfWornByCorpse</xpath>
+					<value>
+						<careIfWornByCorpse>false</careIfWornByCorpse>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+					<xpath>Defs/ThingDef[defName="PonyPlush_StarlightGlimmer_Child"]/apparel/careIfWornByCorpse</xpath>
 					<value>
 						<careIfWornByCorpse>false</careIfWornByCorpse>
 					</value>

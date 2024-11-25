@@ -1,0 +1,17 @@
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Meat_Pony"]/description</xpath>
+		<value>
+			<description>Raw buthered flesh of a member of the pony race. Can be used as food, but most individuals will not take this idea well. Considered cannibal food for both ponies and other races.\n\nBronies will be horrified if they eat this or any meal containing it, while anti bronies will be happy about it.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PonyFur"]/description</xpath>
+		<value>
+			<description>Soft fluffy skin taken from one of the pony races. Many consider the use of this material to be unethical due to the mere thought of butchering such a creature. Its pink color is somewhat reminiscent of cupcakes.\n\nBronies detest the idea of wearing apparel made of this material, while anti bronies seem to get a kick out of it.</description>
+		</value>
+	</Operation>
+
+</Patch>

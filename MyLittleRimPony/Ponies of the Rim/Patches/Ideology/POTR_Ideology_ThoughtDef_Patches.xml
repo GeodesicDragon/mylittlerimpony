@@ -2,7 +2,7 @@
 
 	<!--Bronies and anti bronies have their own likes and dislikes of ponies.-->
 
-	<!--<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Ideology</li>
 		</mods>
@@ -25,6 +25,31 @@
 				</value>
 			</match>
 		</match>
-	</Operation>-->
+	</Operation>
+	
+	<!--Anti bronies don't care what the Oracle says-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/ThoughtDef[defName="TerribleFortune" or defName="BadFortune" or defName="GoodFortune" or defName="WonderfulFortune"]/nullifyingTraits</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="TerribleFortune" or defName="BadFortune" or defName="GoodFortune" or defName="WonderfulFortune"]</xpath>
+				<value>
+					<nullifyingTraits>
+						<li>MLRP_AntiBronyTrait</li>
+					</nullifyingTraits>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="TerribleFortune" or defName="BadFortune" or defName="GoodFortune" or defName="WonderfulFortune"]/nullifyingTraits</xpath>
+				<value>
+					<li>MLRP_AntiBronyTrait</li>
+				</value>
+			</match>
+		</match>
+	</Operation>
 	
 </Patch>

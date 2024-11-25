@@ -10,7 +10,7 @@
 			<RequiredSkills>
 				<Crafting>5</Crafting>
 			</RequiredSkills>
-			<TicksPerProduction>300000</TicksPerProduction>
+			<TicksPerProduction>420000</TicksPerProduction>
 			<TicksToSetUp>60000</TicksToSetUp>
 			<ProvidedFood>MealFine</ProvidedFood>
 			<ResultOptions>
@@ -23,13 +23,13 @@
 				</li>
 			</ResultOptions>
 		</li>
-		<li Class="KCSG.CustomGenOption">
+		<!--<li Class="KCSG.CustomGenOption">
 			<preventBridgeable>true</preventBridgeable>
 			<chooseFromlayouts>
 				<li>Outpost_Struct_Production</li>
 			</chooseFromlayouts>
 			<fullClear>true</fullClear>
-		</li>
+		</li>-->
 	</modExtensions>
 	</WorldObjectDef>
 				

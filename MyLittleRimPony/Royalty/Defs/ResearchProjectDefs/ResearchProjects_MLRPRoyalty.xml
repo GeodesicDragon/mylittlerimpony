@@ -36,7 +36,7 @@
 		</heldByFactionCategoryTags>
 	</ResearchProjectDef>
 	
-<!--HARMONY CHIP-->
+	<!--HARMONY CHIP-->
 	
 	<ResearchProjectDef ParentName="MLRP_VeryHardResearchBase">
 		<defName>MLRP_HarmonyChipResearch</defName>
@@ -47,6 +47,17 @@
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--REQUEST PSYCHIC ITEMS-->
+	
+	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+		<defName>MLRP_PsychicItemsResearch</defName>
+		<label>psychic items</label>
+		<description>Nightmare Moon will allow you to request various psychic items from her.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>1</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 

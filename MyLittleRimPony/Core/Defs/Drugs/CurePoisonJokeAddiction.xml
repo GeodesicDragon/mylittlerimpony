@@ -14,6 +14,7 @@
 			<HediffDef>Plague</HediffDef>
 			<HediffDef MayRequire="SovietRabotyaga.RimPonkOld">MagicalCakeAddiction</HediffDef>
 			<HediffDef MayRequire="SovietRabotyaga.RimPonkOld">MagicalCakeTolerance</HediffDef>
+			<HediffDef MayRequire="Dubwise.DubsBadHygiene">Diarrhea</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Drug/PoisonJokeCureKit</texPath>

@@ -1,0 +1,14 @@
+<Defs>
+	<ThingDef ParentName="PonyPlush_Utility">
+		<defName>PonyPlush_Meadowbrook</defName>
+		<label>Meadowbrook</label>
+		<description>Meadowbrook has many a cure for many an illness.\n\nCarrying her makes you feel less susceptible to allergens.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/Meadowbrook</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedStatOffsets>
+			<P42_AllergicSensitivity>-0.25</P42_AllergicSensitivity>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

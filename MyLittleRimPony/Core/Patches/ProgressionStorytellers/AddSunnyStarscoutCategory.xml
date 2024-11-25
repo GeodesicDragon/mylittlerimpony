@@ -1,0 +1,17 @@
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Progression: Storytellers</li>
+		</mods>
+		<match Class="PatchOperationAddModExtension">
+			<xpath>/Defs/StorytellerDef[defName="MLRP_Storyteller_Sunny"]</xpath>
+			<value>
+				<li Class="ProgressionStorytellers.StorytellerExtension">
+					<category>SlowPaced</category>
+				</li>
+		   </value>
+		</match>
+	</Operation>
+
+</Patch>

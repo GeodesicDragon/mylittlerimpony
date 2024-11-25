@@ -2,7 +2,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Achievements Expanded</li>
+			<li>Vanilla Factions Expanded - Deserters</li>
 		</mods>
 		<match Class="PatchOperationAdd">
 			<xpath>Defs</xpath>

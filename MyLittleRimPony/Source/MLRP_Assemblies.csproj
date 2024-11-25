@@ -56,6 +56,7 @@
     <Compile Include="MLRP_Biotech.cs" />
     <Compile Include="MLRP_ResearchNotifications.cs" />
     <Compile Include="MyLittleRimPony.cs" />
+    <Compile Include="POTR_Compatibility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -72,7 +72,7 @@
   <ThingDef ParentName="DiscordLampBase" >
     <defName>MLRP_DiscordLamp</defName>
     <label>Discord lamp</label>
-    <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.</description>
+    <description>It's a lamp that looks like Discord, what else is there to say? While it doesn't provide much in the way of light, it doesn't require any power and will continue operating even during a solar flare.\n\nIts unique design appeals even to your enemies, who will not target it during raids.</description>
     <comps>
 		<li Class="CompProperties_Glower">
 			<glowColor>(255,255,255,0)</glowColor>
@@ -80,6 +80,9 @@
 			<darklightToggle>true</darklightToggle>
 		</li>
     </comps>
+    <building>
+		<ai_neverTrashThis>true</ai_neverTrashThis>
+    </building>
   </ThingDef>
   
 </Defs>

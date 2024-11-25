@@ -2,32 +2,64 @@
 
 	<ThoughtDef>
 	<defName>MLRP_BronyLovesPony</defName>
-	<thoughtClass>MyLittleRimPony.Thought_BronyLovesPony</thoughtClass>
-	<workerClass>MyLittleRimPony.ThoughtWorker_BronyLovesPony</workerClass>
+	<thoughtClass>MLRP_PoniesOfTheRim.Thought_BronyLovesPony</thoughtClass>
+	<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_BronyLovesPony</workerClass>
 	<validWhileDespawned>true</validWhileDespawned>
-		<stages>
-			<li>
-				<label>brony loves ponies</label>
-			</li>
-		</stages>
-		<requiredTraits>
-			<li>MLRP_BronyTrait</li>
-		</requiredTraits>
+	<stages>
+		<li>
+			<label>brony loves ponies</label>
+		</li>
+	</stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
 	</ThoughtDef>
   
 	<ThoughtDef>
 	<defName>MLRP_AntiBronyHatesPony</defName>
-	<thoughtClass>MyLittleRimPony.Thought_AntiBronyHatesPony</thoughtClass>
-	<workerClass>MyLittleRimPony.ThoughtWorker_AntiBronyHatesPony</workerClass>
+	<thoughtClass>MLRP_PoniesOfTheRim.Thought_AntiBronyHatesPony</thoughtClass>
+	<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_AntiBronyHatesPony</workerClass>
 	<validWhileDespawned>true</validWhileDespawned>
-		<stages>
-			<li>
-				<label>anti brony hates ponies</label>
-			</li>
-		</stages>
-		<requiredTraits>
-			<li>MLRP_AntiBronyTrait</li>
-		</requiredTraits>
+	<stages>
+		<li>
+			<label>anti brony hates ponies</label>
+		</li>
+	</stages>
+	<requiredTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</requiredTraits>
+	</ThoughtDef>
+	
+	<!--PONYX-->
+	
+	<ThoughtDef>
+	<defName>MLRP_BronyLovesPonyx</defName>
+	<thoughtClass>MLRP_PoniesOfTheRim.Thought_BronyLovesPonyx</thoughtClass>
+	<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_BronyLovesPonyx</workerClass>
+	<validWhileDespawned>true</validWhileDespawned>
+	<stages>
+		<li>
+			<label>brony loves ponies</label>
+		</li>
+	</stages>
+	<requiredTraits>
+		<li>MLRP_BronyTrait</li>
+	</requiredTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+	<defName>MLRP_AntiBronyHatesPonyx</defName>
+	<thoughtClass>MLRP_PoniesOfTheRim.Thought_AntiBronyHatesPonyx</thoughtClass>
+	<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_AntiBronyHatesPonyx</workerClass>
+	<validWhileDespawned>true</validWhileDespawned>
+	<stages>
+		<li>
+			<label>anti brony hates ponyx</label>
+		</li>
+	</stages>
+	<requiredTraits>
+		<li>MLRP_AntiBronyTrait</li>
+	</requiredTraits>
 	</ThoughtDef>
   
 </Defs>

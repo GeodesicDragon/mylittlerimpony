@@ -8,6 +8,12 @@
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_63382</defName>
+		<assemblyVersion>6.33.82</assemblyVersion>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Starlight Glimmer plushies can now be equipped in their very own apparel slot.\n- Royalty: You can now request psychic harmonizers from Nightmare Moon (once you complete the newly added research project).\n- Allergies: Added Meadowbrook (-25% allergic sensitivity).\n- Dubs Bad Hygiene: You can now create 700 chemfuel using 1500 fecal sludge at the Daybreaker statue (once you research septic tanks).\n- Ponies of the Rim: Bronies now suffer mood penalties if they wear pony fur apparel or eat pony meat.\n- Ponies of the Rim: Anti bronies now gain mood bonuses if they wear pony fur apparel or eat pony meat.\n- Ponies of the Rim: More compatibility patches have been added.\n- Vanilla Achievements Expanded: Four new achievements have been added (one is for making the new plush added with the Allergies mod).\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: Raiders will no longer target your Discord lamps.\n- Royalty: Requesting psychic neuroformers from Nightmare Moon now requires you to complete the aforementioned newly added research.\n- Vanilla Achievements Expanded: Some achievements have had their points value nerfed.\n\nPlease refer to the changelog for more info!</content>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_6956</defName>
 		<assemblyVersion>6.9.56</assemblyVersion>
 		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Herbal cure kits are now made in batches of 2, and have a 10% chance of curing the plague.\n- Combat Extended: Harmony lasers now come in Sabot form.\n- Dubs Bad Hygiene: You can now request bionic bladders and hygiene enhancers from Nightmare Moon once you complete the hygiene bionics research.\n- Combat Extended: Rainbow Dash now reduces suppressability by 5%.\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Biotech: Requesting deathrest capacity serums from Nightmare Moon no longer requires hemogen, but the silver cost has gone up to compensate.\n- Combat Extended: Armour piercing harmony lasers have had their sharp and blunt piercing damage increased.\n\nPlease refer to the changelog for more info!</content>

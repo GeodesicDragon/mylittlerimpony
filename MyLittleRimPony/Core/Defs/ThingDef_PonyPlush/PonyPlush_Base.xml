@@ -140,4 +140,12 @@
 			</tags>
 		</apparel>
 	</ThingDef>
+	
+	<ThingDef Name="PonyPlush_Starlight" ParentName="PonyPlushBase" Abstract="True">
+		<apparel>
+			<tags>
+				<li>PonyPlush_Starlight</li>
+			</tags>
+		</apparel>
+	</ThingDef>
 </Defs>

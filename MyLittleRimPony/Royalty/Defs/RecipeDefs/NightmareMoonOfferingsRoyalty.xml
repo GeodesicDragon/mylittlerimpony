@@ -29,6 +29,7 @@
 	<products>
 		<PsychicAmplifier>1</PsychicAmplifier>
 	</products>
+	<researchPrerequisite>MLRP_PsychicItemsResearch</researchPrerequisite>
 </RecipeDef>
 
 <!--GET NEUROCALCULATOR-->
@@ -541,6 +542,38 @@
 		<CircadianHalfCycler>1</CircadianHalfCycler>
 	</products>
 	<researchPrerequisite>CircadianInfluence</researchPrerequisite>
+</RecipeDef>
+
+<!--GET PSYCHIC SENSITIZER-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_PsychicSensitizer</defName>
+	<label>request psychic sensitizer</label>
+	<description>Offer silver in exchange for a psychic sensitizer.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>150</count>
+		</li>
+	</ingredients>
+	<products>
+		<PsychicSensitizer>1</PsychicSensitizer>
+	</products>
+	<researchPrerequisite>MLRP_PsychicItemsResearch</researchPrerequisite>
 </RecipeDef>
 
 </Defs>
