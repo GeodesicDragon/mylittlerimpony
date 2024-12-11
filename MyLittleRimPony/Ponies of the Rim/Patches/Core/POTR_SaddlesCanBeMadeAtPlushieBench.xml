@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Pony_SaddleBag" or defName="Pony_BattleSaddle"]/recipeMaker/recipeUsers</xpath>
+		<value>
+			<li>PlushieBench</li>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,90 @@
+<Patch>
+
+	<!--Core NPC Faction-->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction"]/disallowedMemes</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction"]/disallowedMemes</xpath>
+				<value>
+					<li>Pony_EarthponySupremacist</li>
+					<li>Pony_UnicornSupremacist</li>
+					<li>Pony_PegasusSupremacist</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction"]</xpath>
+				<value>
+					<disallowedMemes>
+						<li>Pony_EarthponySupremacist</li>
+						<li>Pony_UnicornSupremacist</li>
+						<li>Pony_PegasusSupremacist</li>
+					</disallowedMemes>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+	
+	<!--Diamond Dog clan (Biotech)-->
+	
+	<Operation Class="PatchOperationFindMod" MayRequire="Ludeon.RimWorld.Biotech">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/FactionDef[defName="MLRP_DiamondDog_Faction"]/disallowedMemes</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="MLRP_DiamondDog_Faction"]/disallowedMemes</xpath>
+				<value>
+					<li>Pony_EarthponySupremacist</li>
+					<li>Pony_UnicornSupremacist</li>
+					<li>Pony_PegasusSupremacist</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="MLRP_DiamondDog_Faction"]</xpath>
+				<value>
+					<disallowedMemes>
+						<li>Pony_EarthponySupremacist</li>
+						<li>Pony_UnicornSupremacist</li>
+						<li>Pony_PegasusSupremacist</li>
+					</disallowedMemes>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+	
+	<!--Batpony tribe (Alpha Genes)-->
+	
+	<Operation Class="PatchOperationFindMod" MayRequire="Ludeon.RimWorld.Biotech, sarg.alphagenes">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/FactionDef[defName="MLRP_Batpony_Faction"]/disallowedMemes</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="MLRP_Batpony_Faction"]/disallowedMemes</xpath>
+				<value>
+					<li>Pony_EarthponySupremacist</li>
+					<li>Pony_UnicornSupremacist</li>
+					<li>Pony_PegasusSupremacist</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="MLRP_Batpony_Faction"]</xpath>
+				<value>
+					<disallowedMemes>
+						<li>Pony_EarthponySupremacist</li>
+						<li>Pony_UnicornSupremacist</li>
+						<li>Pony_PegasusSupremacist</li>
+					</disallowedMemes>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+
+</Patch>

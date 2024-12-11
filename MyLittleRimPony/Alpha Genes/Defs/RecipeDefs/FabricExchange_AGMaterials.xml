@@ -1,0 +1,22 @@
+<Defs>
+		
+	<RecipeDef ParentName="MLRP_FE_RecipeBase">
+		<defName>MLRP_FE_AG_Ultima</defName>
+		<label>purchase ultima fabric</label>
+		<description>Use silver to purchase 100 ultima fabric.\n\nAnyone can purchase this, but only colonists with the Forsaken Knowledge gene can actually do anything with it.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<AG_Ultima>100</AG_Ultima>
+		</products>	
+	</RecipeDef>
+
+</Defs>

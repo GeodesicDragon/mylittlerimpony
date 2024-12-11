@@ -1,0 +1,41 @@
+<Defs>
+
+	<RecipeDef ParentName="DaybreakerRecipes_QuintupleChemfuel">
+		<defName>MLRP_DB_ToxicWasteRemoval</defName>
+		<label>dispose of toxic waste</label>
+		<description>Allows you to safely dispose of toxic waste, although Daybreaker expects a lot of silver for the privilege.\n\nThe process is completed without any pollution being released, but it also requires a lot of chemfuel.</description>
+		<researchPrerequisite>WastepackAtomizer</researchPrerequisite>
+		<jobString>Making an offering to Nightmare Moon</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_Daybreaker</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wastepack</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+		</ingredients>
+		<products>
+			<!--None-->
+		</products>
+	</RecipeDef>
+
+</Defs>

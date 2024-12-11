@@ -1,16 +1,5 @@
 <Defs>
 
-	<RecipeDef Name="DaybreakerRecipes_QuintupleChemfuel" Abstract="True">
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chemfuel</li>
-					</thingDefs>
-				</filter>
-				<count>250</count>
-			</li>
-		</ingredients>
-	</RecipeDef>
+	<!--Moved to Core for ease of access.-->
 	
 </Defs>

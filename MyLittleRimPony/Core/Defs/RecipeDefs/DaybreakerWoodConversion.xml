@@ -62,4 +62,35 @@
 	</products>
 </RecipeDef>
 
+<!--CONVERT GOLD TO WOOD-->
+
+<RecipeDef>
+	<defName>MLRP_DB_ConvertGoldIntoWood</defName>
+	<label>convert gold to wood</label>
+	<description>Convert 100 gold into 833 wood.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<WoodLog>833</WoodLog>
+	</products>
+</RecipeDef>
+
 </Defs>

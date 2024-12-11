@@ -36,16 +36,17 @@
 	<MLRP_AntiBronyHasHarmonyChipExplanation>A pawn with the anti brony trait has a harmony chip installed. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipExplanation>
 		
 	<!--RESEARCH TRACKER-->
+	<!--{0} is the recipe(s) that ha(s/ve) been unlocked.-->
 	
 	<MLRP_NewRecipeUnlockedTitle>New recipe(s) unlocked</MLRP_NewRecipeUnlockedTitle>
-	<MLRP_NewRecipeUnlockedTextDB>New recipe(s) available at the Daybreaker statue.</MLRP_NewRecipeUnlockedTextDB>
-	<MLRP_NewRecipeUnlockedTextPB>New recipe(s) available at the plushie bench.</MLRP_NewRecipeUnlockedTextPB>
-	<MLRP_NewRecipeUnlockedTextFE>New recipe(s) available at the Fabric Exchange.</MLRP_NewRecipeUnlockedTextFE>
-	<MLRP_NewRecipeUnlockedTextSE>New recipe(s) available at the Stone Exchange.</MLRP_NewRecipeUnlockedTextSE>
-	<MLRP_NewRecipeUnlockedTextNMM>New recipe(s) available at the Nightmare Moon statue.</MLRP_NewRecipeUnlockedTextNMM>
-	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">New recipe(s) available from Thingpone.</MLRP_NewRecipeUnlockedTextTP>
-	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>
-	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+10% to Screwball power output.</MLRP_ExtraScrewballOutputText>
+		
+	<MLRP_DBLetterText>Now available at the Daybreaker statue:\n\n{0}</MLRP_DBLetterText>
+	<MLRP_NMMLetterText>Now available at the Nightmare Moon statue:\n\n{0}</MLRP_NMMLetterText>
+	<MLRP_PBLetterText>Now available at the pony workbench:\n\n{0}</MLRP_PBLetterText>
+	<MLRP_FELetterText>Now available at the Fabric Exchange:\n\n{0}</MLRP_FELetterText>
+	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Now available at Thingpone:\n\n{0}</MLRP_TPLetterText>
 	
+	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>
+	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% to Screwball power output.</MLRP_ExtraScrewballOutputText>
 	
 </LanguageData>

@@ -45,8 +45,8 @@
 	<!--EN: Discord lamp-->
 	<MLRP_DiscordLamp.label>Lampe de discorde</MLRP_DiscordLamp.label>
 	
-	<!--EN: It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't provide much in the way of light, but it doesn't require any power and will continue operating during solar flares.-->
-	<MLRP_DiscordLamp.description>C'est une lampe qui ressemble à Discord, que dire d'autre?\n\nElle ne fournit pas beaucoup de lumière, mais elle n'a pas besoin d'énergie et continue à fonctionner pendant les éruptions solaires.</MLRP_DiscordLamp.description>
+	<!--EN: It's a lamp that looks like Discord, what else is there to say? While it doesn't provide much in the way of light, it doesn't require any power and will continue operating even during a solar flare.\n\nIts unique design appeals even to your enemies, who will not target it during raids.-->
+	<MLRP_DiscordLamp.description>C'est une lampe qui ressemble à Discord, que dire d'autre ? Bien qu'elle ne fournisse pas beaucoup de lumière, elle n'a pas besoin d'énergie et continuera à fonctionner même en cas d'éruption solaire.\n\nSon design unique plaît même à vos ennemis, qui ne la prendront pas pour cible lors de leurs raids.</MLRP_DiscordLamp.description>
 
 	<!--EN: Mudbriar-->
 	<MLRP_Mudbriar.label>Mudbriar</MLRP_Mudbriar.label>
@@ -67,10 +67,10 @@
 	<MLRP_NurseRedheart.description>En tant qu'infirmière, Redheart a tout vu ; elle sait qu'il est vital d'être prêt à toute éventualité.\n\nCe bâtiment produira des médicaments après un certain temps.</MLRP_NurseRedheart.description>
 
 	<!--EN: Plushie bench-->
-	<PlushieBench.label>Établi pour peluche de poney</PlushieBench.label>
+	<PlushieBench.label>Etabli poney</PlushieBench.label>
 	
-	<!--EN: A workbench with a sewing machine; while mostly dedicated to the creation of pony plushies, it can create other pony-themed items as well.\n\nCan work without electricity at 50% of its normal speed.-->
-	<PlushieBench.description>Un établi avec une machine à coudre; bien qu'il soit principalement dédié à la création de peluches poneys, il peut également créer d'autres objets sur le thème des poneys.\n\nPeut fonctionner sans électricité à 50 % de sa vitesse normale.</PlushieBench.description>
+	<!--EN: A workbench dedicated to the creation of plushies and other pony-themed items.\n\nCan work without electricity at 50% of its normal speed.-->
+	<PlushieBench.description>Un établi dédié à la création de peluches et d'autres objets sur le thème des poneys.\n\nPeut travailler sans électricité à 50 % de sa vitesse normale.</PlushieBench.description>
 
 	<!--EN: Quibble Pants-->
 	<MLRP_QuibblePants.label>Quibble Pants</MLRP_QuibblePants.label>

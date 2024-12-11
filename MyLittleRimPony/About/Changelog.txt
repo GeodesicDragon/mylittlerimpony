@@ -1,3 +1,28 @@
+Version 6.39.93 (December 11th 2024)
+
+* Core: Letters sent by the research tracker now tell you what recipes have been unlocked.
+* Core: Added a new recipe to the Daybreaker statue which lets you convert 100 gold into 833 wood.
+* Royalty: Added two new recipes to the Nightmare Moon statue which let you request psychic readers and psychic harmonisers.
+	* Psychic harmonizer: 1550 silver (1.5x the market value of 1030, as specified on the RimWorld wiki).
+	* Psychic reader: 1500 silver (1.5x the market value of 1000, as specified on the RimWorld wiki).
+	* Both recipes are unlocked once you complete the 'psychic items' research.
+* Biotech: Added a new recipe to the Daybreaker statue which allows you to safely dispose of toxic waste, 250 at a time.
+	* Recipe is unlocked after researching the wastepack atomizer.
+	* Requires 250 chemfuel (or five times whatever you set your default to in XML Extensions).
+	* Also costs 2500 silver, as Daybreaker isn't exactly going to do this sort of thing for free.
+* Alpha Genes: Added a new recipe to the Fabric Exchange which allows you to purchase 100 ultima fabric for 500 silver.
+* Core: Renamed the 'plushie workbench' to the 'pony workbench.'
+* Biotech: The Princess Cadence plushie now increases fertility by 25% on top of her usual bonus. ;)
+* Dubs Bad Hygiene: The recipe to make chemfuel from fecal sludge is now unlocked after researching biofuel refining.
+* Higher Power: Increased the power output bonus given to Screwballs after researching advanced power to 50% (was 10%).
+* Ponies of the Rim/Core: Saddle bags and battle saddles can now be made at the pony workbench.
+* Ponies of the Rim/Ideology: Fixed bronies and anti bronies being affected by some pony supremacy related thoughts when they shouldn't.
+* Ponies of the Rim/Ideology: The NPC faction can no longer use any pony supremacy memes. (Only applies when starting a new game.)
+* Ponies of the Rim/Biotech: The diamond dog faction can no longer use any pony supremacy memes. (Only applies when starting a new game.)
+* Ponies of the Rim/Alpha Genes: The batpony faction can no longer use any pony supremacy memes. (Only applies when starting a new game.)
+* Vanilla Expanded Framework: When starting a new colony, the Core NPC faction will now start as allied if you begin the Brony Community, Brony Xenotypes or Equestrian Expedition (Ponies of the Rim) scenarios, and hostile if you begin the Renegade Alicorn scenario.
+* XML Extensions: Removed the ability to edit the behaviour of factions in Rim War.
+
 Version 6.33.82 (November 25th 2024)
 
 IMPORTANT: Non-Steam users are advised to perform a fresh install, as some files have been moved to different folders.

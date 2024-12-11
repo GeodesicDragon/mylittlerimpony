@@ -4,7 +4,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_PlushieBench</defName>
 		<label>It All Starts Here</label>
-		<description>Build a plushie bench</description>
+		<description>Build a pony workbench</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">

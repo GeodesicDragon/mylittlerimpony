@@ -29,7 +29,7 @@
 	<products>
 		<Chemfuel>700</Chemfuel>
 	</products>
-	<researchPrerequisite>SepticTanks</researchPrerequisite>
+	<researchPrerequisite>BiofuelRefining</researchPrerequisite>
 </RecipeDef>
 
 </Defs>

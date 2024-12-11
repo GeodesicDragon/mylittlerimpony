@@ -1,0 +1,24 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PonyPlush_PrincessCadence"]/equippedStatOffsets</xpath>
+		<value>
+			<Fertility>0.25</Fertility>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PonyPlush_PrincessCadence"]/description</xpath>
+		<value>
+			<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken, but it also makes you feel a bit... frisky.</description>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
+		<value>
+			<Fertility>0.25</Fertility>
+		</value>
+	</Operation>
+	
+</Patch>

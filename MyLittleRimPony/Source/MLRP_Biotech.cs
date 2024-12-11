@@ -1,5 +1,4 @@
-﻿using MyLittleRimPony;
-using RimWorld;
+﻿using RimWorld;
 using System.Collections.Generic;
 using Verse;
 
@@ -234,5 +233,4 @@ namespace MLRP_Biotech
             return 0f;
         }
     }
-
 }

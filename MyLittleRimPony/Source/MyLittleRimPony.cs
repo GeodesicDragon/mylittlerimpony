@@ -6,14 +6,11 @@
 // I am always happy to accept updates to this code, especially if you have a better way of doing something I've done.
 // Contact me via my Discord server and we'll talk! (Invite Code: BGKnpza)
 
-using HarmonyLib;
 using RimWorld;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Verse;
-using Verse.AI;
 
 namespace MyLittleRimPony
 {

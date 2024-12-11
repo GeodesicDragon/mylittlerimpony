@@ -45,6 +45,6 @@
 	<MLRP_NewRecipeUnlockedTextNMM>Nouvelle recette(s) disponible à la statue Nightmare Moon.</MLRP_NewRecipeUnlockedTextNMM>
 	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">Nouvelle recette(s) disponible à la Thingpone.</MLRP_NewRecipeUnlockedTextTP>
 	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Recherche avancée de puissance</MLRP_ExtraScrewballOutputTitle>
-	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+10% à la puissance de sortie de la boule de vis.</MLRP_ExtraScrewballOutputText>
+	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% à la puissance de sortie de la boule de vis.</MLRP_ExtraScrewballOutputText>
 	
 </LanguageData>

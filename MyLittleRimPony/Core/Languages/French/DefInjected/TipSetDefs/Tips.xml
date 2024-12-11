@@ -33,8 +33,8 @@
 	<!--EN: Since Discord lamps don't require power, they are able to continue providing light during solar flares.-->
 	<MyLittleRimPony_Tips.DiscordLamp>Les lampes de la discorde n'ayant pas besoin d'être alimentées en électricité, elles peuvent continuer à fournir de la lumière pendant les éruptions solaires.</MyLittleRimPony_Tips.DiscordLamp>
 	
-	<!--EN: If you have the XML Extensions mod enabled, you can configure many parts of this mod to your liking, such as whether or not bronies can be violent and how many textiles you need to craft plushies.-->
-	<MyLittleRimPony_Tips.XMLExtensions>Si vous avez activé le mod XML Extensions, vous pouvez configurer de nombreuses parties de ce mod à votre convenance, comme le fait de savoir si les bronies peuvent être violents ou non et combien de textiles sont nécessaires pour fabriquer des peluches.</MyLittleRimPony_Tips.XMLExtensions>
+	<!--EN: If you have the XML Extensions mod enabled, you can configure many parts of this mod to your liking, such as how many textiles you need to craft plushies.-->
+	<MyLittleRimPony_Tips.XMLExtensions>Si vous avez activé le mod XML Extensions, vous pouvez configurer de nombreuses parties de ce mod à votre guise, comme le nombre de textiles nécessaires pour fabriquer des peluche de poneys.</MyLittleRimPony_Tips.XMLExtensions>
 	
 	<!--EN: Nurse Redheart will spawn medicine as long as she has enough power.-->
 	<MyLittleRimPony_Tips.NurseRedheart>L'infirmière Redheart produira des médicaments tant qu'elle aura assez d'énergie.</MyLittleRimPony_Tips.NurseRedheart>

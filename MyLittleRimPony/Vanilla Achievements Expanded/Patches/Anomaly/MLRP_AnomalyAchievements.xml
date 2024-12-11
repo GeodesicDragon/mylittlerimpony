@@ -26,7 +26,7 @@
 				<AchievementsExpanded.AchievementDef>
 					<defName>MLRP_Achievement_ThingPoneBioferrite</defName>
 					<label>As The Void Intended</label>
-					<description>Build a Thingpone statue using bioferrite</description>
+					<description>Build a bioferrite Thingpone</description>
 					<tab>MLRP_DLCAchievementTab</tab>
 					
 					<tracker Class="AchievementsExpanded.BuildingTracker">
