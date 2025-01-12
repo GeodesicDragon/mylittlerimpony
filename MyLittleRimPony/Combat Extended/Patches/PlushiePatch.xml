@@ -104,17 +104,6 @@
 	
 	<!--Harmony Chip (Requires Royalty DLC)-->
 	
-	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
-	    <xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
-	    <value>
-			<CarryBulk>15</CarryBulk>
-			<ReloadSpeed>0.05</ReloadSpeed>
-			<NightVisionEfficiency>0.1</NightVisionEfficiency>
-			<SmokeSensitivity>-0.25</SmokeSensitivity>
-			<Suppressability>-0.05</Suppressability>
-	    </value>
-	</Operation>
-	
 	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
 		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Blunt</xpath>
 		<value>

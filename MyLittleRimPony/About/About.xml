@@ -3,7 +3,7 @@
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rimpony</packageId>
 	<url>https://github.com/GeodesicDragon/mylittlerimpony/wiki</url>
-	<modVersion>6.39.93</modVersion>
+	<modVersion>6.44.110</modVersion>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
@@ -30,7 +30,7 @@
 	<modIconPath IgnoreIfNoMatchingField="True">Things/PonyPlush/NurseHaywick</modIconPath>
 	<description><![CDATA[<b>ABOUT</b>
 	
-(More details can be found in the About.txt and Credits.txt files, located in the About folder.)
+(More details can be found on the wiki (Advanced > Website). For art sources, refer to Credits.txt, located in the About folder.)
 
 It has been thousands of years since <i>My Little Pony: Friendship is Magic</i> last aired, but the show is once again enjoying a resurgence; how it came to the rim, though, remains a mystery. Regardless of the hows and whys, many colonists have embraced the show, as the colourful characters and messages of peace, hope and friendship help them to escape the struggles of trying to survive daily life in their colonies.
 
@@ -40,5 +40,5 @@ Some people have even gone so far as to undergo xenotype implementation in order
 
 <b>I HAVE A QUESTION/COMMENT/BUG/SUGGESTION</b>
 
-Please use my Discord server for all enquiries; I am on Discord a lot, so I will reply to you much faster there than I will anywhere else.]]></description>
+Please use the mod's dedicated Discord server - https://discord.gg/DAd2EHeJWk - for all enquiries; I am on Discord a lot, so I will reply to you much faster there than I will anywhere else.]]></description>
 </ModMetaData>

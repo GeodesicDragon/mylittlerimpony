@@ -70,7 +70,7 @@
 		</match>
 	</Operation>
 	
-	<!--<Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Biotech</li>
 		</mods>
@@ -114,6 +114,6 @@
 				</value>
 			</match>
 		</match>
-	</Operation>-->
+	</Operation>
 
 </Patch>

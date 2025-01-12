@@ -162,5 +162,12 @@
 		</options>
       </li>
     </pawnGroupMakers>
+	<modExtensions>
+		<li Class="VFECore.FactionDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">			
+			<startingGoodwillByFactionDefs>
+				<Pony_PlayerThestralKingdom MayRequire="Pony.PoniesOfTheRim.Batponies">0</Pony_PlayerThestralKingdom>
+			</startingGoodwillByFactionDefs>
+		</li>
+	</modExtensions>
   </FactionDef>
 </Defs>

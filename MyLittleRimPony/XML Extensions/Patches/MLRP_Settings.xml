@@ -1105,6 +1105,75 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--NPC FACTION IS ALWAYS PRESENT IN NEW GAME-->
+		<li Class="XmlExtensions.OptionalPatch">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_NPCFactionIsPresentInNewGame</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction"]/startingCountAtWorldCreation</xpath>
+					<value>
+						<startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction"]/startingCountAtWorldCreation</xpath>
+					<value>
+						<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
+		<!--DIAMOND DOG FACTION IS ALWAYS PRESENT IN NEW GAME-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DiamondDogFactionIsPresentInNewGame</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_DiamondDog_Faction"]/startingCountAtWorldCreation</xpath>
+					<value>
+						<startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_DiamondDog_Faction"]/startingCountAtWorldCreation</xpath>
+					<value>
+						<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
+		<!--BATPONY FACTION IS ALWAYS PRESENT IN NEW GAME-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="sarg.alphagenes">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_BatponyFactionIsPresentInNewGame</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_Batpony_Faction"]/startingCountAtWorldCreation</xpath>
+					<value>
+						<startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_Batpony_Faction"]/startingCountAtWorldCreation</xpath>
+					<value>
+						<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -1184,6 +1253,29 @@
 				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Dubwise.DubsBadHygiene">
 					<key>MLRP_DubsBadHygiene_PippIsShort</key>
 					<label>[Dubs Bad Hygiene] Pipp is short</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
+					<text>Faction Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox">
+					<key>MLRP_NPCFactionIsPresentInNewGame</key>
+					<label>NPC faction is always present when starting a new colony</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
+					<key>MLRP_DiamondDogFactionIsPresentInNewGame</key>
+					<label>Diamond Dog faction is always present when starting a new colony</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Checkbox" MayRequire="sarg.alphagenes">
+					<key>MLRP_BatponyFactionIsPresentInNewGame</key>
+					<label>Batpony faction is always present when starting a new colony</label>
 				</li>
 				
 				<li Class="XmlExtensions.Setting.Gap"/>
@@ -1526,6 +1618,8 @@
 					<label>Mute Sweetie Bot mechanoid call sound</label>
 				</li>
 				
+
+				
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Anomaly"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Anomaly">
@@ -1542,7 +1636,7 @@
 					<label>Building Thingpone requires {MLRP_ThingponeStuffRequired} stuff.</label>
 					<decimals>0</decimals>
 				</li>
-							
+										
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="sumghai.medpod"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="sumghai.medpod">

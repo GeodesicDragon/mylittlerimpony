@@ -3,7 +3,7 @@
 <StorytellerDef ParentName="BaseStoryteller">
     <defName>MLRP_Storyteller_Sunny</defName>
     <label>Sunny Starscout</label>
-    <description>Sunny prefers to make friends instead of enemies, so she will send you more quests, traders and visitors instead.\n\nRaids will occur, but only once a certain number of threat points are reached, and with more time between them in order to help you thrive and build up your relationships with other factions.\n\nAs a downside, however, disease outbreaks will happen much more frequently.</description>
+    <description>Sunny prefers to make friends instead of enemies, so she will send you more quests, traders and visitors instead.\n\nRaids will occur, but only once a certain number of threat points are reached, and with more time between them in order to help you thrive and build up your relationships with other factions.</description>
     <portraitLarge>UI/HeroArt/Storytellers/SunnyStarscout</portraitLarge>
     <portraitTiny>UI/HeroArt/Storytellers/SunnyStarscout_Tiny</portraitTiny>
     <listOrder>50</listOrder>
@@ -59,14 +59,6 @@
         <mtbDays>7</mtbDays>
       </li>
       <li Class="StorytellerCompProperties_ShipChunkDrop"/>
-      <li Class="StorytellerCompProperties_Disease">
-        <category>DiseaseHuman</category>
-        <minDaysPassed>15</minDaysPassed>
-      </li>
-      <li Class="StorytellerCompProperties_Disease">
-        <category>DiseaseAnimal</category>
-        <minDaysPassed>15</minDaysPassed>
-      </li>
       <!-- Ally/neutral interaction -->
       <li Class="StorytellerCompProperties_FactionInteraction">
         <incident>RaidFriendly</incident>

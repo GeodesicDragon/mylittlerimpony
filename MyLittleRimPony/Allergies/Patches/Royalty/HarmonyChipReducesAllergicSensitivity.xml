@@ -1,15 +1,3 @@
 <Patch>
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Royalty</li>
-	</mods>
-	<match Class="PatchOperationAdd">
-		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
-		<value>
-			<P42_AllergicSensitivity>-0.25</P42_AllergicSensitivity>
-		</value>
-	</match>
-</Operation>
-
 </Patch>

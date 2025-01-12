@@ -8,27 +8,27 @@
 	<MLRP_AntiBronyHasPlushieAlert>Anti brony utilisant la peluche</MLRP_AntiBronyHasPlushieAlert> <!--Shown at side of screen when a pawn with the anti brony trait has a plushie equipped.-->
 	<MLRP_AntiBronyHasPlushieExplanation>Un pion avec le trait anti brony a une peluche de poney équipée, ce qui causera une pénalité d'humeur jusqu'à ce qu'elle soit abandonnée. Il pourrait être intéressant d'attribuer aux anti-bronys une tenue distincte afin d'éviter cela.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Affliction de la blague du poison</MLRP_PoisonJokeLetterTitle> <!--Title of letter received after a pawn smokes poison joke.-->
-	<MLRP_PoisonJokeLetterText>Fumer une blague du poison a donné à {0} ce qui suit: {1}</MLRP_PoisonJokeLetterText> <!--Texte de la lettre reçue après qu'un pion a fumé une blague empoisonnée. {0} est le nom du pion et {1} ce dont il a été affligé ; les traductions des afflictions sont ci-dessous.-->
+	<MLRP_PoisonJokeLetterText>Fumer une blague du poison a donné à {0} ce qui suit : {1}</MLRP_PoisonJokeLetterText> <!--Texte de la lettre reçue après qu'un pion a fumé une blague empoisonnée. {0} est le nom du pion et {1} ce dont il a été affligé ; les traductions des afflictions sont ci-dessous.-->
 	
 	<!--POISON JOKE AFFLICTIONS-->
 	
-	<MLRP_PoisonJokeGoodConsciousness>Fumer une blague du poison a donné à {0} ce qui suit: accrue de l'état de conscience</MLRP_PoisonJokeGoodConsciousness>
-	<MLRP_PoisonJokeBadConsciousness>Fumer une blague du poison a donné à {0} ce qui suit: diminution de l'état de conscience</MLRP_PoisonJokeBadConsciousness>
-	<MLRP_PoisonJokeGoodSpeed>Fumer une blague du poison a donné à {0} ce qui suit: vitesse de déplacement accrue</MLRP_PoisonJokeGoodSpeed>
-	<MLRP_PoisonJokeBadSpeed>Fumer une blague du poison a donné à {0} ce qui suit: vitesse de déplacement réduite</MLRP_PoisonJokeBadSpeed>
-	<MLRP_PoisonJokeGoodManipulation>Fumer une blague du poison a donné à {0} ce qui suit: une meilleure manipulation</MLRP_PoisonJokeGoodManipulation>
-	<MLRP_PoisonJokeBadManipulation>Fumer une blague du poison a donné à {0} ce qui suit: réduction de la manipulation</MLRP_PoisonJokeBadManipulation>
-	<MLRP_PoisonJokeGoodTalking>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de la capacité d'expression orale</MLRP_PoisonJokeGoodTalking>
-	<MLRP_PoisonJokeBadTalking>Fumer une blague du poison a donné à {0} ce qui suit: incapacité à parler</MLRP_PoisonJokeBadTalking>
-	<MLRP_PoisonJokeGoodEating>Fumer une blague du poison a donné à {0} ce qui suit: Amélioration de la vitesse de consommation</MLRP_PoisonJokeGoodEating>
-	<MLRP_PoisonJokeBadEating>Fumer une blague du poison a donné à {0} ce qui suit: réduction de la vitesse d'ingestion des aliments</MLRP_PoisonJokeBadEating>
-	<MLRP_PoisonJokeGoodSight>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de la vue</MLRP_PoisonJokeGoodSight>
-	<MLRP_PoisonJokeBadSight>Fumer une blague du poison a donné à {0} ce qui suit: cécité</MLRP_PoisonJokeBadSight>
-	<MLRP_PoisonJokeGoodHearing>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de l'audition</MLRP_PoisonJokeGoodHearing>
-	<MLRP_PoisonJokeBadHearing>Fumer une blague du poison a donné à {0} ce qui suit: surdité</MLRP_PoisonJokeBadHearing>
-	<MLRP_PoisonJokeGoodBreathing>Fumer une blague du poison a donné à {0} ce qui suit: amélioration de la capacité respiratoire</MLRP_PoisonJokeGoodBreathing>
-	<MLRP_PoisonJokeBadBreathing>Fumer une blague du poison a donné à {0} ce qui suit: une diminution de la capacité respiratoire</MLRP_PoisonJokeBadBreathing>
-	<MLRP_PoisonJokeCutiePox>Fumer une blague du poison a donné à {0} ce qui suit: la Cutie Pox</MLRP_PoisonJokeCutiePox>
+	<MLRP_PoisonJokeGoodConsciousness>Fumer une blague du poison a donné à {0} ce qui suit : accrue de l'état de conscience</MLRP_PoisonJokeGoodConsciousness>
+	<MLRP_PoisonJokeBadConsciousness>Fumer une blague du poison a donné à {0} ce qui suit : diminution de l'état de conscience</MLRP_PoisonJokeBadConsciousness>
+	<MLRP_PoisonJokeGoodSpeed>Fumer une blague du poison a donné à {0} ce qui suit : vitesse de déplacement accrue</MLRP_PoisonJokeGoodSpeed>
+	<MLRP_PoisonJokeBadSpeed>Fumer une blague du poison a donné à {0} ce qui suit : vitesse de déplacement réduite</MLRP_PoisonJokeBadSpeed>
+	<MLRP_PoisonJokeGoodManipulation>Fumer une blague du poison a donné à {0} ce qui suit : une meilleure manipulation</MLRP_PoisonJokeGoodManipulation>
+	<MLRP_PoisonJokeBadManipulation>Fumer une blague du poison a donné à {0} ce qui suit : réduction de la manipulation</MLRP_PoisonJokeBadManipulation>
+	<MLRP_PoisonJokeGoodTalking>Fumer une blague du poison a donné à {0} ce qui suit : amélioration de la capacité d'expression orale</MLRP_PoisonJokeGoodTalking>
+	<MLRP_PoisonJokeBadTalking>Fumer une blague du poison a donné à {0} ce qui suit : incapacité à parler</MLRP_PoisonJokeBadTalking>
+	<MLRP_PoisonJokeGoodEating>Fumer une blague du poison a donné à {0} ce qui suit : Amélioration de la vitesse de consommation</MLRP_PoisonJokeGoodEating>
+	<MLRP_PoisonJokeBadEating>Fumer une blague du poison a donné à {0} ce qui suit : réduction de la vitesse d'ingestion des aliments</MLRP_PoisonJokeBadEating>
+	<MLRP_PoisonJokeGoodSight>Fumer une blague du poison a donné à {0} ce qui suit : amélioration de la vue</MLRP_PoisonJokeGoodSight>
+	<MLRP_PoisonJokeBadSight>Fumer une blague du poison a donné à {0} ce qui suit : cécité</MLRP_PoisonJokeBadSight>
+	<MLRP_PoisonJokeGoodHearing>Fumer une blague du poison a donné à {0} ce qui suit : amélioration de l'audition</MLRP_PoisonJokeGoodHearing>
+	<MLRP_PoisonJokeBadHearing>Fumer une blague du poison a donné à {0} ce qui suit : surdité</MLRP_PoisonJokeBadHearing>
+	<MLRP_PoisonJokeGoodBreathing>Fumer une blague du poison a donné à {0} ce qui suit : amélioration de la capacité respiratoire</MLRP_PoisonJokeGoodBreathing>
+	<MLRP_PoisonJokeBadBreathing>Fumer une blague du poison a donné à {0} ce qui suit : une diminution de la capacité respiratoire</MLRP_PoisonJokeBadBreathing>
+	<MLRP_PoisonJokeCutiePox>Fumer une blague du poison a donné à {0} ce qui suit : la Cutie Pox</MLRP_PoisonJokeCutiePox>
 	
 	<!--C# ROYALTY-->
 	
@@ -36,15 +36,19 @@
 	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Un pion ayant le trait anti-brony a une puce d'harmonie installée. Cette puce inflige une pénalité de -10 à son humeur jusqu'à ce qu'elle soit retirée.</MLRP_AntiBronyHasHarmonyChipExplanation>
 	
 	<!--RESEARCH TRACKER-->
+	<!--{0} correspond aux recipe qui ont été débloquées.-->
 	
-	<MLRP_NewRecipeUnlockedTitle>Nouvelle recette(s) débloquée</MLRP_NewRecipeUnlockedTitle>
-	<MLRP_NewRecipeUnlockedTextDB>Nouvelle recette(s) disponible à la statue Daybreaker.</MLRP_NewRecipeUnlockedTextDB>
-	<MLRP_NewRecipeUnlockedTextPB>Nouvelle recette(s) disponible à la établi pour peluche de poney.</MLRP_NewRecipeUnlockedTextPB>
-	<MLRP_NewRecipeUnlockedTextFE>Nouvelle recette(s) disponible à la échange de tissus.</MLRP_NewRecipeUnlockedTextFE>
-	<MLRP_NewRecipeUnlockedTextSE>Nouvelle recette(s) disponible à la échange de pierres.</MLRP_NewRecipeUnlockedTextSE>
-	<MLRP_NewRecipeUnlockedTextNMM>Nouvelle recette(s) disponible à la statue Nightmare Moon.</MLRP_NewRecipeUnlockedTextNMM>
-	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">Nouvelle recette(s) disponible à la Thingpone.</MLRP_NewRecipeUnlockedTextTP>
-	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Recherche avancée de puissance</MLRP_ExtraScrewballOutputTitle>
-	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% à la puissance de sortie de la boule de vis.</MLRP_ExtraScrewballOutputText>
+	<MLRP_NewRecipeUnlockedTitle>New recipe(s) unlocked</MLRP_NewRecipeUnlockedTitle>
+		
+	<MLRP_DBLetterText>Disponible à la statue de Daybreaker :\n\n{0}</MLRP_DBLetterText>
+	<MLRP_NMMLetterText>Disponible à la statue de Nightmare Moon :\n\n{0}</MLRP_NMMLetterText>
+	<MLRP_PBLetterText>Maintenant disponible à l'établi du poney :\n\n{0}</MLRP_PBLetterText>
+	<MLRP_FELetterText>Désormais disponible à la Bourse aux tissus :\n\n{0}</MLRP_FELetterText>
+	<MLRP_SELetterText>Disponible dès à présent au Stone Exchange :\n\n{0}</MLRP_SELetterText>
+	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Disponible à la Thingpone :\n\n{0}</MLRP_TPLetterText>
+	
+	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>
+	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% to Screwball power output.</MLRP_ExtraScrewballOutputText>
+	
 	
 </LanguageData>

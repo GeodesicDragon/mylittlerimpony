@@ -32,14 +32,14 @@
 	
 	<!--PONYX-->
 	
-	<ThoughtDef>
+	<ThoughtDef MayRequire="Ludeon.RimWorld.Biotech">
 	<defName>MLRP_BronyLovesPonyx</defName>
 	<thoughtClass>MLRP_PoniesOfTheRim.Thought_BronyLovesPonyx</thoughtClass>
 	<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_BronyLovesPonyx</workerClass>
 	<validWhileDespawned>true</validWhileDespawned>
 	<stages>
 		<li>
-			<label>brony loves ponies</label>
+			<label>brony loves ponyx</label>
 		</li>
 	</stages>
 	<requiredTraits>
@@ -47,7 +47,7 @@
 	</requiredTraits>
 	</ThoughtDef>
 	
-	<ThoughtDef>
+	<ThoughtDef MayRequire="Ludeon.RimWorld.Biotech">
 	<defName>MLRP_AntiBronyHatesPonyx</defName>
 	<thoughtClass>MLRP_PoniesOfTheRim.Thought_AntiBronyHatesPonyx</thoughtClass>
 	<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_AntiBronyHatesPonyx</workerClass>

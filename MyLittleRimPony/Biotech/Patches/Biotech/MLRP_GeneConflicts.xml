@@ -1,0 +1,21 @@
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/GeneDef[defName="Beauty_VeryUgly" or defName="Beauty_Ugly"]/exclusionTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/GeneDef[defName="Beauty_VeryUgly" or defName="Beauty_Ugly"]</xpath>
+			<value>
+				<exclusionTags>
+					<li>MLRP_BronyGene</li>
+				</exclusionTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/GeneDef[defName="Beauty_VeryUgly" or defName="Beauty_Ugly"]/exclusionTags</xpath>
+			<value>
+				<li>MLRP_BronyGene</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

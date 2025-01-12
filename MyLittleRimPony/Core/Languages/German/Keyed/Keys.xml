@@ -1,4 +1,4 @@
-<!--Übersetzungen zur Verfügung gestellt von Google. Zögern Sie nicht, mir Ihre Korrekturen mitzuteilen!-->
+<!--Übersetzungen zur Verfügung gestellt von Google und DeepL. Zögern Sie nicht, mir Ihre Korrekturen mitzuteilen!-->
 
 <LanguageData>
 
@@ -37,15 +37,18 @@
 	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipExplanation>
 
 	<!--RESEARCH TRACKER-->
+	<!--{0} is the recipe(s) that ha(s/ve) been unlocked.-->
 	
 	<MLRP_NewRecipeUnlockedTitle>Neue(s) Rezept(e) verfügbar</MLRP_NewRecipeUnlockedTitle>
-	<MLRP_NewRecipeUnlockedTextDB>Neue(s) Rezept(e) erhältlich bei der Daybreaker-Statue.</MLRP_NewRecipeUnlockedTextDB>
-	<MLRP_NewRecipeUnlockedTextPB>Neue(s) Rezept(e) an der Plüschbank erhältlich.</MLRP_NewRecipeUnlockedTextPB>
-	<MLRP_NewRecipeUnlockedTextFE>Neue(s) Rezept(e) in der Stoffbörse erhältlich.</MLRP_NewRecipeUnlockedTextFE>
-	<MLRP_NewRecipeUnlockedTextSE>Neue(s) Rezept(e) in der Steinbörse erhältlich.</MLRP_NewRecipeUnlockedTextSE>
-	<MLRP_NewRecipeUnlockedTextNMM>Neue(s) Rezept(e) bei der Alptraum-Mond-Statue erhältlich.</MLRP_NewRecipeUnlockedTextNMM>
-	<MLRP_NewRecipeUnlockedTextTP MayRequire="Ludeon.RimWorld.Anomaly">Neue(s) Rezept(e) von Thingpone verfügbar.</MLRP_NewRecipeUnlockedTextTP>
+		
+	<MLRP_DBLetterText>Jetzt erhältlich bei der Daybreaker-Statue:\n\n{0}</MLRP_DBLetterText>
+	<MLRP_NMMLetterText>Jetzt erhältlich bei der Nightmare Moon Statue:\n\n{0}</MLRP_NMMLetterText>
+	<MLRP_PBLetterText>Jetzt erhältlich an der Ponywerkbank:\n\n{0}</MLRP_PBLetterText>
+	<MLRP_FELetterText>Jetzt in der Stoffbörse erhältlich:\n\n{0}</MLRP_FELetterText>
+	<MLRP_SELetterText>Jetzt in der Steinbörse erhältlich:\n\n{0}</MLRP_SELetterText>
+	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Jetzt erhältlich bei Thingpone:\n\n{0}</MLRP_TPLetterText>
+	
 	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Fortschrittliche Leistung erforscht</MLRP_ExtraScrewballOutputTitle>
-	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+10% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
+	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
 
 </LanguageData>

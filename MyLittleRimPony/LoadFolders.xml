@@ -11,7 +11,8 @@
 		<li IfModActive="UnlimitedHugs.HugsLib">HugsLib</li> <!--News Updates-->
 		<li IfModActive="sarg.alphagenes">Alpha Genes</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">Dubs Bad Hygiene</li>
-		<li IfModActive="Pony.PoniesOfTheRim.Core">Ponies of the Rim</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Core">Ponies of the Rim/Core</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Ponies of the Rim/Batponies</li>
 		<li IfModActive="Torann.RimWar">Rim War</li>
 		<li IfModActive="phil42.allergies">Allergies</li>
 		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>

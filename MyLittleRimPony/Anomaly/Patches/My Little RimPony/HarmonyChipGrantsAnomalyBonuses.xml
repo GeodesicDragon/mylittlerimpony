@@ -1,15 +1,3 @@
 <Patch>
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Royalty</li>
-	</mods>
-	<match Class="PatchOperationAdd">
-		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
-		<value>
-			<EntityStudyRate>0.1</EntityStudyRate>
-		</value>
-	</match>
-</Operation>
-
 </Patch>

@@ -10,12 +10,10 @@
 			<li>Outlander</li>
 			<li>Outsider</li>
 		</spawnCategories>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
-			<Artistic>10</Artistic>
-			<Crafting>10</Crafting>
-			<Social>10</Social>
+			<Artistic>20</Artistic>
+			<Crafting>20</Crafting>
+			<Social>20</Social>
 		</skillGains>
 		<workDisables>
 			<li>Animals</li>
@@ -33,7 +31,6 @@
 			<Social>2</Social>
 		</passions>-->
 		<disallowedTraits>
-			<DrugDesire />
 			<Psychopath />
 			<MLRP_AntiBronyTrait />
 		</disallowedTraits>

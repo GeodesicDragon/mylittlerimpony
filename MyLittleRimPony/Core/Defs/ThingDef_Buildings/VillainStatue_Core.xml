@@ -1,0 +1,51 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_VillainStatue</defName>
+    <label>Statue of the Three Villains</label>
+    <description>A replica of a statue depicting three villains who tried to conquer Equestria but failed, thanks to the combined efforts of many creatures.\n\nA truly glorious sight to behold, this reminder of the power of friendship is a beautiful addition to any room.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Building/VillainStatue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,3)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <uiIconPath>Things/Building/VillainStatue</uiIconPath>
+    <passability>PassThroughOnly</passability>
+    <pathCost>30</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>1600</WorkToBuild>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Beauty>300</Beauty>
+      <Mass>15</Mass>
+    </statBases>
+    <size>(2,3)</size>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <uiOrder>3000</uiOrder>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <rotatable>false</rotatable>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <destroySound>BuildingDestroyed_Stone_Small</destroySound>
+      <haulToContainerDuration>500</haulToContainerDuration>
+      <paintable>false</paintable>
+    </building>
+    <stuffCategories>
+		<li>Metallic</li>
+		<li>Stony</li>
+		<li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>300</costStuffCount>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+  </ThingDef>
+  
+</Defs>

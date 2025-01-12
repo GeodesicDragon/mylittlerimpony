@@ -6,6 +6,7 @@
 				<factionDef>MLRP_DiamondDog_Faction</factionDef>
 				<pawnKinds>
 					<li>DiamondDogSoldier</li>
+					<li>DiamondDogArcher</li>
 				</pawnKinds>
 			</li>  
 		</value>

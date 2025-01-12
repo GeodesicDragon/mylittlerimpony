@@ -1,3 +1,34 @@
+Version 6.44.110 (January 12th 2025)
+
+IMPORTANT: Non-Steam users MUST reinstall the mod, as some files have been moved and/or renamed.
+
+* Ponies of the Rim: Added 1 new compatibility patch for the upcoming Batponies extension mod.
+	* The thestral kingdom player faction starts off at neutral with the batpony faction added by this mod (requires Alpha Genes).
+* XML Extensions: Added a new setting to configure whether or not the NPC faction is always present when starting a new colony. (1)
+* XML Extensions/Biotech: Added a new setting to configure whether or not the Diamond Dog faction is always present when starting a new colony. (1)
+* XML Extensions/Alpha Genes: Added a new setting to configure whether or not the batpony faction is always present when starting a new colony. (1)
+* Vanilla Achievements Expanded: Added an achievement to build the Statue of the Three Villains.
+* Core: Fixed new research tracker keys not being translated into German properly.
+* Core: Fixed new research tracker keys not being translated into French properly.
+* Core: Fixed Sunny Starscout's details not being translated into French properly.
+* Core: Sunny Starscout no longer causes frequent disease outbreaks.
+* Core: The Statue of the Three Villains has been moved to the Core directory.
+* Core: The Statue of the Three Villains is no longer a terror structure. It never actually caused terror, and I couldn't figure out why, or how to fix it, so I decided to make it into a glorified art piece. It is still constructed via the RimPony section of the Architect menu.
+* Core: The Statue of the Three Villains can now be built using metal.
+* Core: The Statue of the Three Villains can now be built using wood.
+* Core: Increased the beauty of the Statue of the Three Villains to 300 (was 0).
+* Biotech: Fixed the harmony chip not improving fertility.
+* Biotech: The Empire now uses Diamond Dog archers as well as soldiers as mercenaries for offered quests.
+* Biotech: Fixed the brony gene not cancelling the negative opinion given by the unattractive and very unattractive genes.
+* Vanilla Backstories Expanded: Increased the Artistic skill gain of the 'MLP Obsessive' backstory to +20 (was +10). (2)
+* Vanilla Backstories Expanded: Increased the Crafting skill gain of the 'MLP Obsessive' backstory to +20 (was +10). (2)
+* Vanilla Backstories Expanded: Increased the Social skill gain of the 'MLP Obsessive' backstory to +20 (was +10). (2)
+* Vanilla Backstories Expanded: Pawns with the 'MLP Obsessive' backstory may now spawn with drug desire traits.
+* Vanilla Recycling Expanded: Fixed the same letter being sent twice when researching complex recycling.
+
+1. Setting these to true means you won't need to manually add the faction to the world when starting a new game. They are all set to false by default.
+2. Since pawns with this backstory are incapable of many things, I wanted to make them more worthwhile to keep around.
+
 Version 6.39.93 (December 11th 2024)
 
 * Core: Letters sent by the research tracker now tell you what recipes have been unlocked.

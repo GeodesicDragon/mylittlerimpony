@@ -107,5 +107,11 @@
 	
 	<!--EN: Although Zephyr Breeze reckons he is Celestia's gift to mares, he is yet to find one who agrees with him. Thankfully, though, his pig-headed arrogance can actually be useful.\n\nFuthermore, his thick skull - which has absorbed countless rejections from Rainbow Dash alone - makes him surprisingly durable.\n\nGood thing, too, because a lot of people seem to want to hit him.-->
 	<MLRP_ZephyrBreeze.description>Bien que Zephyr Breeze considère qu'il est le cadeau de Celestia pour les juments, il n'en a encore trouvé aucune qui soit d'accord avec lui. Heureusement, son arrogance de tête de cochon peut s'avérer utile.\n\nDe plus, son crâne épais - qui a absorbé d'innombrables refus de la part de Rainbow Dash - le rend étonnamment résistant.\n\nC'est une bonne chose, car beaucoup de gens semblent vouloir le frapper.</MLRP_ZephyrBreeze.description>
+	
+	<!--EN: Statue of the Three Villains-->
+	<MLRP_VillainStatue.label>Statue des trois méchants</MLRP_VillainStatue.label>
+	
+	<!--EN: A replica of a statue depicting three villains who tried to conquer Equestria but failed, thanks to the combined efforts of many creatures.\n\nA truly glorious sight to behold, this reminder of the power of friendship is a beautiful addition to any room.-->
+	<MLRP_VillainStatue.description>Réplique d'une statue représentant trois méchants qui ont tenté de conquérir Equestria mais qui ont échoué, grâce aux efforts combinés de nombreuses créatures.\n\nCe rappel de la puissance de l'amitié est un bel ajout à n'importe quelle pièce.</MLRP_VillainStatue.description>
 
 </LanguageData>

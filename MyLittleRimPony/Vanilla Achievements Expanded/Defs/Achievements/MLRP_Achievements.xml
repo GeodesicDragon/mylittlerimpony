@@ -606,6 +606,21 @@
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_VillainStatue</defName>
+		<label>F*** Around, Find Out</label>
+		<description>Build the Statue of the Three Villains</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_VillainStatue</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Things/Building/VillainStatue</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--DECOYS-->
 	
 	<AchievementsExpanded.AchievementDef>

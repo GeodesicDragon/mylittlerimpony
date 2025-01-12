@@ -19,7 +19,7 @@ namespace MLRP_ResearchTracker
     // Should only send letters if the corresponding DLC/mod is enabled.
 
     [HarmonyPatch(typeof(ResearchManager), "FinishProject")]
-        public static class MLRP_ResearchTracker
+    public static class MLRP_ResearchTracker
     {
         private static void Postfix(ResearchProjectDef proj)
         {
@@ -34,15 +34,15 @@ namespace MLRP_ResearchTracker
             string FERecipeUnlocked = "";
             string TPRecipeUnlocked = "";
             string SERecipeUnlocked = "";
-          
+
             // DAYBREAKER: CORE
 
-			if (proj == DefDatabase<ResearchProjectDef>.GetNamed("Brewing"))
-			{
-				DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_CreateTwentyFiveWort").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_CreateTwoHundredFiftyBeer").label;
+            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("Brewing"))
+            {
+                DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_CreateTwentyFiveWort").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_CreateTwoHundredFiftyBeer").label;
                 string DBLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, DBLetterText, MLRP_NewRecipeUnlocked);
-			}
+            }
 
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("Fabrication"))
             {
@@ -128,7 +128,7 @@ namespace MLRP_ResearchTracker
                 DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_VAE_BulkCreateTrashbrick").label;
                 SERecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_SE_BuyTrashbricks").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_SE_SellTrashbricks").label;
                 string DBLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked);
-                string SELetterText = "MLRP_DBLetterText".Translate(SERecipeUnlocked);
+                string SELetterText = "MLRP_SELetterText".Translate(SERecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, DBLetterText, MLRP_NewRecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, SELetterText, MLRP_NewRecipeUnlocked);
             }
