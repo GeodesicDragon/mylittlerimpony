@@ -1,0 +1,70 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>MLRP_TreeHugger</defName>
+    <label>Tree Hugger</label>
+    <description>Tree Hugger will exchange drugs for silver, and vice versa.\n\nYou're not with the Guard, right?</description>
+    <thingClass>Building_WorkTable</thingClass>
+	<!--<designationHotKey>Misc4</designationHotKey>-->
+    <graphicData>
+      <texPath>Things/Building/TreeHugger</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+		<li>BuildingsProduction</li>
+    </thingCategories>
+	<costStuffCount>200</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>7200</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>25</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>MLRP_Buildings</designationCategory>
+	<uiOrder>40</uiOrder>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MLRP_TreeHuggerResearch</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>150</basePowerConsumption>
+        <powerUpgrades>
+          <li>
+            <researchProject>MLRP_MagicMirrorExtraPowerResearch</researchProject>
+            <factor>0.5</factor>
+          </li>
+        </powerUpgrades>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+  </ThingDef>
+
+</Defs>  

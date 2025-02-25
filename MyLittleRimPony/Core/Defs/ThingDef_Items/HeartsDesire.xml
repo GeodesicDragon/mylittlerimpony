@@ -1,0 +1,44 @@
+<Defs>
+
+	<ThingDef ParentName="DrugPillBase">
+		<defName>MLRP_HeartsDesire</defName>
+		<label>Heart's Desire</label>
+		<description>When ingested, this rare flower is an instant cure for the Cutie Pox. However, it is extremely hard to find, and traders who do stock it charge a hefty price before they will part with it.</description>
+		<descriptionHyperlinks>
+			<HediffDef>MLRP_CutiePox</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/HeartsDesire</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<MarketValue>15000</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+		<WorkToMake>1000</WorkToMake>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="MyLittleRimPony.CutiePoxCure"/>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1012</listOrder>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+</ThingDef>
+	
+</Defs>

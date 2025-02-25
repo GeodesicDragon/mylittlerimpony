@@ -3,7 +3,7 @@
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rimpony</packageId>
 	<url>https://github.com/GeodesicDragon/mylittlerimpony/wiki</url>
-	<modVersion>6.44.110</modVersion>
+	<modVersion>6.67.119</modVersion>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
@@ -12,6 +12,7 @@
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadBefore>

@@ -10,16 +10,16 @@
       "RelativeMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|solutionrelative:mlrp_researchnotifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\mlrp_biotech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|solutionrelative:mlrp_biotech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\potr_compatibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|solutionrelative:potr_compatibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\mylittlerimpony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|solutionrelative:mylittlerimpony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\mlrp_biotech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|solutionrelative:mlrp_biotech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D8E10F8-B54B-496B-B134-B150B410CC74}|MLRP_Assemblies.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mylittlerimpony\\source\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
@@ -52,19 +52,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MyLittleRimPony.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\MyLittleRimPony.cs",
               "RelativeDocumentMoniker": "MyLittleRimPony.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\MyLittleRimPony.cs",
               "RelativeToolTip": "MyLittleRimPony.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAgwLkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T18:35:21.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MLRP_Biotech.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\MLRP_Biotech.cs",
               "RelativeDocumentMoniker": "MLRP_Biotech.cs",
@@ -82,19 +82,19 @@
               "RelativeDocumentMoniker": "MLRP_ResearchNotifications.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\MLRP_ResearchNotifications.cs",
               "RelativeToolTip": "MLRP_ResearchNotifications.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAwNEBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALEBAAAAAAAAAAAAAFcAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T18:35:23.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "POTR_Compatibility.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\POTR_Compatibility.cs",
               "RelativeDocumentMoniker": "POTR_Compatibility.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MyLittleRimPony\\Source\\POTR_Compatibility.cs",
               "RelativeToolTip": "POTR_Compatibility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwAMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T19:49:45.805Z"
             }

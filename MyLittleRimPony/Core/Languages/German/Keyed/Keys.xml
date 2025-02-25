@@ -37,7 +37,7 @@
 	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipExplanation>
 
 	<!--RESEARCH TRACKER-->
-	<!--{0} is the recipe(s) that ha(s/ve) been unlocked.-->
+	<!--{0} ist das/die Rezept(e), das/die freigeschaltet wurde(n).-->
 	
 	<MLRP_NewRecipeUnlockedTitle>Neue(s) Rezept(e) verfügbar</MLRP_NewRecipeUnlockedTitle>
 		
@@ -46,6 +46,7 @@
 	<MLRP_PBLetterText>Jetzt erhältlich an der Ponywerkbank:\n\n{0}</MLRP_PBLetterText>
 	<MLRP_FELetterText>Jetzt in der Stoffbörse erhältlich:\n\n{0}</MLRP_FELetterText>
 	<MLRP_SELetterText>Jetzt in der Steinbörse erhältlich:\n\n{0}</MLRP_SELetterText>
+	<MLRP_THLetterText>Jetzt erhältlich bei Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Jetzt erhältlich bei Thingpone:\n\n{0}</MLRP_TPLetterText>
 	
 	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Fortschrittliche Leistung erforscht</MLRP_ExtraScrewballOutputTitle>

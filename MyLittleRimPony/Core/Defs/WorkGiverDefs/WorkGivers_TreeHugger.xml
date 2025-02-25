@@ -1,0 +1,19 @@
+<Defs>
+
+  <WorkGiverDef>
+    <defName>MLRP_DoStuffWithTreeHugger</defName>
+    <label>speak to</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>BasicWorker</workType>
+    <priorityInType>300</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MLRP_TreeHugger</li>
+    </fixedBillGiverDefs>
+    <verb>speak to</verb>
+    <gerund>speaking to</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+</Defs>

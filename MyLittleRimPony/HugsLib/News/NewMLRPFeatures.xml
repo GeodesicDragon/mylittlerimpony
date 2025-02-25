@@ -8,6 +8,12 @@
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_667119</defName>
+		<assemblyVersion>6.67.119</assemblyVersion>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Heart's desire has been added. It's rare, but it is guaranteed to cure the Cutie Pox when ingested.\n- Tree Hugger is now available to convert drugs into silver (or back again, should you wish).\n- Added twenty new recipes, all of which are available at Tree Hugger.\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: Herbal cure kits no longer attempt to cure the Cutie Pox.\n- Core: Herbal cure kits now cure animal flu, and also have a chance to cure animal plague.\n- Core: Requests for luciferium and neutoramine are now handled by Tree Hugger instead of Nightmare Moon.\n- Magic mirrors now have 2000 hitpoints (was 500).\n\nPlease refer to the changelog for more info!</content>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_644110</defName>
 		<assemblyVersion>6.44.110</assemblyVersion>
 		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: The Statue of the Three Villains has been moved from the Ideology DLC to the base game. Instead of acting as a terror structure, it now serves as an art piece, with a base beauty rating of 300.\n- XML Extensions: Added a new setting to configure whether or not the NPC faction is always present when starting a new colony.\n- XML Extensions/Biotech: Added a new setting to configure whether or not the Diamond Dog faction is always present when starting a new colony.\n- XML Extensions/Alpha Genes: Added a new setting to configure whether or not the batpony faction is always present when starting a new colony.\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: The Statue of the Three Villains can now be built using metal.\n- The Statue of the Three Villains can now be built using wood.\n- Vanilla Backstories Expanded: Increased the Artistic skill gain of the 'MLP Obsessive' backstory to +20 (was +10).\n- Vanilla Backstories Expanded: Increased the Crafting skill gain of the 'MLP Obsessive' backstory to +20 (was +10).\n- Vanilla Backstories Expanded: Increased the Social skill gain of the 'MLP Obsessive' backstory to +20 (was +10).\n- Vanilla Backstories Expanded: Pawns with the 'MLP Obsessive' backstory may now spawn with drug desire traits.\n\nPlease refer to the changelog for more info!</content>

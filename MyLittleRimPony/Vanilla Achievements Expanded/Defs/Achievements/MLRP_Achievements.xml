@@ -621,6 +621,21 @@
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_TreeHugger</defName>
+		<label>Righteous!</label>
+		<description>Build Tree Hugger</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_TreeHugger</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/Righteous</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
 	<!--DECOYS-->
 	
 	<AchievementsExpanded.AchievementDef>

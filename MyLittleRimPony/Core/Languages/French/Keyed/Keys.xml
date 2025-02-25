@@ -45,6 +45,7 @@
 	<MLRP_PBLetterText>Maintenant disponible à l'établi du poney :\n\n{0}</MLRP_PBLetterText>
 	<MLRP_FELetterText>Désormais disponible à la Bourse aux tissus :\n\n{0}</MLRP_FELetterText>
 	<MLRP_SELetterText>Disponible dès à présent au Stone Exchange :\n\n{0}</MLRP_SELetterText>
+	<MLRP_THLetterText>Disponible dès à présent au Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Disponible à la Thingpone :\n\n{0}</MLRP_TPLetterText>
 	
 	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>

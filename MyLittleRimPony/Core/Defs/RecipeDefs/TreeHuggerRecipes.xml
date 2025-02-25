@@ -1,0 +1,719 @@
+<Defs>
+
+<!--REQUEST LUCIFERIUM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_Luciferium</defName> <!--Originally available at the Nightmare Moon statue. Cannot be changed or it'll cause errors.-->
+	<label>request luciferium x 5</label>
+	<description>Exchange silver and other drugs for 5 luciferium pills.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>45</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>SmokeleafJoint</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>GoJuice</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>WakeUp</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Yayo</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<Luciferium>5</Luciferium>
+	</products>
+</RecipeDef>
+
+<!--REQUEST 100 NEUTROAMINE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_Neutroamine</defName>
+	<label>request 100 neutroamine</label>
+	<description>Offer silver in exchange for 100 neutroamine.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>240</count>
+		</li>
+	</ingredients>
+	<products>
+		<Neutroamine>100</Neutroamine>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO POISON JOKE-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoPoisonJoke</defName>
+	<label>purchase 10 poison joke joints</label>
+	<description>Purchase poison joke joints using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>11</count>
+		</li>
+	</ingredients>
+	<products>
+		<MLRP_PoisonJokeJoint>10</MLRP_PoisonJokeJoint>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO SMOKELEAF-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoSmokeleaf</defName>
+	<label>purchase 10 smokeleaf joints</label>
+	<description>Purchase smokeleaf joints using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>11</count>
+		</li>
+	</ingredients>
+	<products>
+		<SmokeleafJoint>10</SmokeleafJoint>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO FLAKE-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoFlake</defName>
+	<label>purchase 10 flake</label>
+	<description>Purchase flake using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>14</count>
+		</li>
+	</ingredients>
+	<products>
+		<Flake>10</Flake>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO YAYO-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoYayo</defName>
+	<label>purchase 10 yayo</label>
+	<description>Purchase yayo using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>21</count>
+		</li>
+	</ingredients>
+	<products>
+		<Yayo>10</Yayo>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO WAKE-UP-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoWakeUp</defName>
+	<label>purchase 10 wake-up</label>
+	<description>Purchase wake-up using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>35</count>
+		</li>
+	</ingredients>
+	<products>
+		<WakeUp>10</WakeUp>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO PENOXYCYLINE-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoPenoxycyline</defName>
+	<label>purchase 10 penoxycyline</label>
+	<description>Purchase penoxycyline using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>18</count>
+		</li>
+	</ingredients>
+	<products>
+		<Penoxycyline>10</Penoxycyline>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO GO-JUICE-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoGoJuice</defName>
+	<label>purchase 10 go-juice</label>
+	<description>Purchase go-juice using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>53</count>
+		</li>
+	</ingredients>
+	<products>
+		<GoJuice>10</GoJuice>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO PSYCHITE TEA-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoPsychiteTea</defName>
+	<label>purchase 10 psychite tea</label>
+	<description>Purchase psychite tea using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<PsychiteTea>10</PsychiteTea>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO AMBROSIA-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoAmbrosia</defName>
+	<label>purchase 10 ambrosia</label>
+	<description>Purchase ambrosia using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<products>
+		<Ambrosia>10</Ambrosia>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SILVER TO BEER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoBeer</defName>
+	<label>purchase 10 beer</label>
+	<description>Purchase beer using silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>12</count>
+		</li>
+	</ingredients>
+	<products>
+		<Beer>10</Beer>
+	</products>
+</RecipeDef>
+
+<!--CONVERT POISON JOKE TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertPoisonJokeIntoSilver</defName>
+	<label>sell 100 poison joke joints</label>
+	<description>Convert poison joke joints into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MLRP_PoisonJokeJoint</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1100</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT SMOKELEAF TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSmokeleafIntoSilver</defName>
+	<label>sell 100 smokeleaf joints</label>
+	<description>Convert smokeleaf joints into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>SmokeleafJoint</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1100</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT FLAKE TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertFlakeIntoSilver</defName>
+	<label>sell 100 flake</label>
+	<description>Convert flake into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Flake</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1400</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT YAYO TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertYayoIntoSilver</defName>
+	<label>sell 100 yayo</label>
+	<description>Convert yayo into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Yayo</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>2100</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT WAKE-UP TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertWakeUpIntoSilver</defName>
+	<label>sell 100 wake-up</label>
+	<description>Convert wake-up into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>WakeUp</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>3500</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT PENOXYCYLINE TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertPenoxycylineIntoSilver</defName>
+	<label>sell 100 penoxycyline</label>
+	<description>Convert penoxycyline into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Penoxycyline</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1800</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT GO-JUICE TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertGoJuiceIntoSilver</defName>
+	<label>sell 100 go-juice</label>
+	<description>Convert go-juice into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>GoJuice</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>5300</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT PSYCHITE TEA TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertPsychiteTeaIntoSilver</defName>
+	<label>sell 100 psychite tea</label>
+	<description>Convert psychite tea into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PsychiteTea</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT AMBROSIA TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertAmbrosiaIntoSilver</defName>
+	<label>sell 100 ambrosia</label>
+	<description>Convert ambrosia into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Ambrosia</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1500</Silver>
+	</products>
+</RecipeDef>
+
+<!--CONVERT BEER TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertBeerIntoSilver</defName>
+	<label>sell 100 beer</label>
+	<description>Convert beer into silver.</description>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Beer</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1200</Silver>
+	</products>
+</RecipeDef>
+
+</Defs>

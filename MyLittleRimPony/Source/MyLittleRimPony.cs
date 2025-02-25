@@ -138,7 +138,7 @@ namespace MyLittleRimPony
         }
     }
 
-    // CURE POISON JOKE ADDICTION
+    // HERBAL CURE KIT
 
     public class PoisonJokeAddictionCure : IngestionOutcomeDoer
     {
@@ -150,6 +150,10 @@ namespace MyLittleRimPony
                 switch (hediff.def.defName)
                 {
                     case "Flu":
+                        pawn.health.RemoveHediff(hediff);
+                        Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        break;
+                    case "Animal_Flu":
                         pawn.health.RemoveHediff(hediff);
                         Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         break;
@@ -169,19 +173,6 @@ namespace MyLittleRimPony
                         pawn.health.RemoveHediff(hediff);
                         Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         break;
-                    case "MLRP_CutiePox":
-                        System.Random CutiePoxCureChance = new System.Random();
-                        int LuckyCutiePoxNumber = CutiePoxCureChance.Next(1, 11);
-                        if (LuckyCutiePoxNumber == 7)
-                        {
-                            pawn.health.RemoveHediff(hediff);
-                            Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
-                        }
-                        if (LuckyCutiePoxNumber != 7)
-                        {
-                            Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
-                        }
-                        break;
                     case "Plague":
                         System.Random PlagueCureChance = new System.Random();
                         int LuckyPlagueNumber = PlagueCureChance.Next(1, 11);
@@ -191,6 +182,19 @@ namespace MyLittleRimPony
                             Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
                         if (LuckyPlagueNumber != 7)
+                        {
+                            Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        }
+                        break;
+                    case "Animal_Plague":
+                        System.Random AnimalPlagueCureChance = new System.Random();
+                        int LuckyAnimalPlagueNumber = AnimalPlagueCureChance.Next(1, 11);
+                        if (LuckyAnimalPlagueNumber == 7)
+                        {
+                            pawn.health.RemoveHediff(hediff);
+                            Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        }
+                        if (LuckyAnimalPlagueNumber != 7)
                         {
                             Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
@@ -407,6 +411,29 @@ namespace MyLittleRimPony
                 Thing reclaimedMaterial = ThingMaker.MakeThing(stuff);
                 reclaimedMaterial.stackCount = amount;
                 GenPlace.TryPlaceThing(reclaimedMaterial, ingredient.Position, map, ThingPlaceMode.Near);
+            }
+        }
+    }
+
+    // CUTIE POX CURE
+
+    public class CutiePoxCure : IngestionOutcomeDoer
+    {
+        protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested, int ingestedCount)
+        {
+            List<Hediff> MLRP_HediffsToCheck = pawn.health.hediffSet.hediffs.ToList();
+            foreach (Hediff hediff in MLRP_HediffsToCheck)
+            {
+                switch (hediff.def.defName)
+                {
+                    case "MLRP_CutiePox":
+                        pawn.health.RemoveHediff(hediff);
+                        Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
+                        break;
+                    default:
+                        Log.Warning("MLRP_NothingToCure".Translate(pawn));
+                        break;
+                }
             }
         }
     }

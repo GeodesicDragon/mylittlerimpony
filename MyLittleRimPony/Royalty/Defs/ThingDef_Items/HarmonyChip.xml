@@ -51,7 +51,7 @@
 			<painOffset>-0.1</painOffset>
 			<opinionOfOthersFactor>1.5</opinionOfOthersFactor>
 			<statOffsets>
-				<!--Core and Royalty Stats-->
+				<!--CORE/ROYALTY-->
 				<PlantWorkSpeed>0.25</PlantWorkSpeed>
 				<PlantHarvestYield>0.25</PlantHarvestYield>
 				<TameAnimalChance>0.25</TameAnimalChance>
@@ -85,16 +85,18 @@
 				<ArmorRating_Heat>0.15</ArmorRating_Heat>
 				<MeleeDodgeChance>10</MeleeDodgeChance>
 				<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>
-				<!--Other DLC Stats-->
+				<!--IDEOLOGY-->
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</ConversionPower>
 				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</SuppressionPower>
 				<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</SlaveSuppressionOffset>
 				<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">5</PruningSpeed>
 				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.25</HackingSpeed>
+				<!--BIOTECH-->
 				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
 				<Fertility MayRequire="Ludeon.RimWorld.Biotech">0.25</Fertility>
+				<!--ANOMALY-->
 				<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.1</EntityStudyRate>
-				<!--Modded Stats-->
+				<!--MODS-->
 				<HygieneRateMultiplier MayRequire="Dubwise.DubsBadHygiene">-0.1</HygieneRateMultiplier>
 				<P42_AllergicSensitivity MayRequire="phil42.allergies">-0.25</P42_AllergicSensitivity>
 				<CarryBulk MayRequire="CETeam.CombatExtended">15</CarryBulk>

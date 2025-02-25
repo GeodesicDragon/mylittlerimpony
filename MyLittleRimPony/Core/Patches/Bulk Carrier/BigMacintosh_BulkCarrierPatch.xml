@@ -1,16 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 
 <Operation Class="PatchOperationFindMod">
     <mods>
         <li>Bulk Carrier</li>
     </mods>
-    <match Class="PatchOperationReplace">
-	    <xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets/CarryingCapacity</xpath>
-	    <value>
-			<CarryingCapacity>75</CarryingCapacity>
-	    </value>
+    <match Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Expanded Framework</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets/CarryingCapacity</xpath>
+			<value>
+				<VEF_MassCarryCapacity>75</VEF_MassCarryCapacity>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets/CarryingCapacity</xpath>
+			<value>
+				<CarryingCapacity>75</CarryingCapacity>
+			</value>
+		</nomatch>
     </match>
 </Operation>
 	

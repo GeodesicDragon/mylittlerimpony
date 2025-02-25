@@ -188,70 +188,6 @@
 	</products>
 </RecipeDef>
 
-<!--REQUEST LUCIFERIUM-->
-
-<RecipeDef>
-	<defName>MLRP_NMM_Luciferium</defName>
-	<label>request luciferium x 5</label>
-	<description>Offer silver and drugs in exchange for 5 luciferium pills.</description>
-	<researchPrerequisite>DrugProduction</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
-    <ingredients>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Silver</li>
-				</thingDefs>
-			</filter>
-			<count>45</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>SmokeleafJoint</li>
-				</thingDefs>
-			</filter>
-			<count>10</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>GoJuice</li>
-				</thingDefs>
-			</filter>
-			<count>10</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>WakeUp</li>
-				</thingDefs>
-			</filter>
-			<count>10</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Yayo</li>
-				</thingDefs>
-			</filter>
-			<count>10</count>
-		</li>
-	</ingredients>
-	<products>
-		<Luciferium>5</Luciferium>
-	</products>
-</RecipeDef>
-
 <!--REQUEST GLITTERWORLD MEDICINE-->
 
 <RecipeDef>
@@ -400,38 +336,6 @@
 	</ingredients>
 	<products>
 		<PonyPlush_SunsetShimmer>1</PonyPlush_SunsetShimmer>
-	</products>
-</RecipeDef>
-
-<!--REQUEST 100 NEUTROAMINE-->
-
-<RecipeDef>
-	<defName>MLRP_NMM_Neutroamine</defName>
-	<label>request 100 neutroamine</label>
-	<description>Offer silver in exchange for 100 neutroamine.</description>
-	<researchPrerequisite>DrugProduction</researchPrerequisite>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
-    <ingredients>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>Silver</li>
-				</thingDefs>
-			</filter>
-			<count>240</count>
-		</li>
-	</ingredients>
-	<products>
-		<Neutroamine>100</Neutroamine>
 	</products>
 </RecipeDef>
 

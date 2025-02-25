@@ -45,6 +45,7 @@
 	<MLRP_PBLetterText>Now available at the pony workbench:\n\n{0}</MLRP_PBLetterText>
 	<MLRP_FELetterText>Now available at the Fabric Exchange:\n\n{0}</MLRP_FELetterText>
 	<MLRP_SELetterText>Now available at the Stone Exchange:\n\n{0}</MLRP_SELetterText>
+	<MLRP_THLetterText>Now available at Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Now available at Thingpone:\n\n{0}</MLRP_TPLetterText>
 	
 	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>

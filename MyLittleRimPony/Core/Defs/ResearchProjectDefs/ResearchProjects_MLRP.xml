@@ -50,6 +50,25 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
+<!--TREE HUGGER-->
+
+	<ResearchProjectDef ParentName="MLRP_QuickResearchBase">
+		<defName>MLRP_TreeHuggerResearch</defName>
+		<label>Tree Hugger</label>
+		<description>Unlocks Tree Hugger, who will exchange drugs for silver, and vice versa.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<prerequisites>
+			<li>DrugProduction</li>
+			<li>GoJuiceProduction</li>
+			<li>PenoxycylineProduction</li>
+			<li>PsychiteRefining</li>
+			<li>PsychoidBrewing</li>
+			<li>WakeUpProduction</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
 <!--NIGHTMARE MOON AND DAYBREAKER-->
 
 	<ResearchProjectDef ParentName="MLRP_EasyResearchBase">
@@ -60,7 +79,7 @@
 		<prerequisites>
 			<li>BiofuelRefining</li>
 		</prerequisites>
-		<researchViewX>4</researchViewX>
+		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>About Nightmare Moon and Daybreaker</discoveredLetterTitle>
 		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally, while Daybreaker lets you convert materials using chemfuel.\n\nMany recipes at these buildings are locked behind research; you will receive a letter when new items become available.</discoveredLetterText>
@@ -76,7 +95,7 @@
 			<li>MLRP_NightmareMoonResearch</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>5</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
@@ -87,7 +106,7 @@
 		<label>Magic mirror</label>
 		<description>Unlock the secrets of the magic mirror which once connected Equestria to a whole other world.</description>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>6</researchViewX>
+		<researchViewX>7</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
@@ -102,10 +121,10 @@
 			<li>MLRP_ScrewballResearch</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>7</researchViewX>
+		<researchViewX>8</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>Magical power efficiency</discoveredLetterTitle>
-		<discoveredLetterText>These buildings now generate more power:\n\n- Screwball: +50%\n- Magic mirror: +25%\n\nThese buildings now use less power:\n\n- Plushie bench: -50%\n- Fabric Exchange: -50%\n- Stone Exchange: -50%\n- Sweetie Bot turret: -25%\n- Nurse Redheart: -25%\n- Super Speedy Cider Squeezy 6000: -25%\n- Thingpone: -25%</discoveredLetterText>
+		<discoveredLetterText>These buildings now generate more power:\n\n- Screwball: +50%\n- Magic mirror: +25%\n\nThese buildings now use less power:\n\n- Plushie bench: -50%\n- Fabric Exchange: -50%\n- Stone Exchange: -50%\n- Tree Hugger: -50%\n- Sweetie Bot turret: -25%\n- Nurse Redheart: -25%\n- Super Speedy Cider Squeezy 6000: -25%\n- Thingpone: -25%</discoveredLetterText>
 	</ResearchProjectDef>
 	
 <!--REQUEST ARCHOTECH STUFF-->
@@ -119,7 +138,7 @@
 			<li>Bionics</li>
 		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>8</researchViewX>
+		<researchViewX>9</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 

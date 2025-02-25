@@ -3,7 +3,10 @@
 <HediffDef ParentName="InfectionBase">
 	<defName>MLRP_CutiePox</defName>
 	<label>Cutie Pox</label>
-	<description>An infection of Equestrian origin which improves a person's skills, but causes pain and requires a lot of time and medicine to treat.\n\nPawns who smoke poison joke have a chance of being afflicted with the disease.</description>
+	<description>An infection of Equestrian origin which improves a person's skills, but causes pain and requires a lot of time and medicine to treat.\n\nPawns who smoke poison joke have a chance of being afflicted with the disease.\n\nIt can be cured with a lot of medicine, or by eating a Heart's Desire flower.</description>
+	<descriptionHyperlinks>
+		<ThingDef>MLRP_HeartsDesire</ThingDef>
+	</descriptionHyperlinks>
 	<hediffClass>HediffWithComps</hediffClass>
 	<makesSickThought>false</makesSickThought>
 	<scenarioCanAdd>true</scenarioCanAdd>
@@ -28,6 +31,12 @@
 				<MiningYield>0.05</MiningYield>
 				<CookSpeed>5</CookSpeed>
 				<FoodPoisonChance>-0.05</FoodPoisonChance>
+				<MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">0.05</MeditationFocusGain>
+				<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.02</PsychicEntropyRecoveryRate>
+				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.05</ConversionPower>
+				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.05</SuppressionPower>
+				<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.1</EntityStudyRate>
+				<ReloadSpeed MayRequire="CETeam.CombatExtended">0.02</ReloadSpeed>
 			</statOffsets>
 		</li>
 	</stages>

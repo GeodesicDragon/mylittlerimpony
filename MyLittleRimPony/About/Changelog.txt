@@ -1,3 +1,43 @@
+Version 6.67.119 (February 25th 2025)
+
+* Core: Added Heart's Desire.
+	* This flower is very hard to find, usually only being offered by exotic goods traders.
+	* However, when ingested, it is a guaranteed cure for the Cutie Pox.
+	* As a result, it is very expensive to acquire, costing 15,000 silver.
+* Core: Added Tree Hugger.
+	* Allows you to convert drugs into silver, and vice versa.
+	* Unlocked after completing some quick research, once you finish researching all of the drug production techs.
+	* Built using 200 stuff.
+	* Requires 150W of power (reduced once magical power efficiency is researched).
+	* Recipes can be performed by any colonist, as they count as Basic tasks.
+	* Depending on difficulty and storyteller, converting drugs to silver may actually be profitable.
+	* Drugs are sold to Tree Hugger in batches of 100.
+	* Drugs are bought from Tree Hugger in batches of 10.
+* Added 20 new recipes, all available at Tree Hugger.
+	* Convert poison joke to silver and back again.
+	* Convert smokeleaf to silver and back again.
+	* Convert flake to silver and back again.
+	* Convert yayo to silver and back again.
+	* Convert wake-up to silver and back again.
+	* Convert penoxycyline to silver and back again.
+	* Convert go-juice to silver and back again.
+	* Convert psychite tea to silver and back again.
+	* Convert ambrosia to silver and back again.
+	* Convert beer to silver and back again.
+* Vanilla Achievements Expanded: Added achievement to build Tree Hugger.
+* Core: Herbal cure kits no longer attempt to cure the Cutie Pox.
+* Core: Herbal cure kits now cure animal flu, and also have a chance to cure animal plague.
+* Core: Since Vanilla Expanded Framework apparently makes changes to carrying capacity, the Big Macintosh plushie has been patched accordingly.
+* Core: Fixed the research tracker not informing you that the Daybreaker recipe to make 100 smokeleaf joints had been unlocked.
+* Core: The following recipes are now performed at Tree Hugger instead of the Nightmare Moon statue.
+	* Request luciferium
+	* Request 100 neutroamine
+* Core: Fixed pawns who appreciate darklight thinking that darklight Discord lamps are giving off indoor light.
+* Core: Increased max hitpoints of the magic mirror to 2000 (was 500). Any that you've already built will need to be repaired. (1)
+* Combat Extended: Cutie Pox now improves reloading speed by 2%.
+
+1. I felt that 500HP was far too low, especially given the amount of materials needed to build them.
+
 Version 6.44.110 (January 12th 2025)
 
 IMPORTANT: Non-Steam users MUST reinstall the mod, as some files have been moved and/or renamed.

@@ -34,6 +34,7 @@ namespace MLRP_ResearchTracker
             string FERecipeUnlocked = "";
             string TPRecipeUnlocked = "";
             string SERecipeUnlocked = "";
+            string THRecipeUnlocked = "";
 
             // DAYBREAKER: CORE
 
@@ -60,7 +61,7 @@ namespace MLRP_ResearchTracker
 
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"))
             {
-                DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakePoisonJokeJoint").label;
+                DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakePoisonJokeJoint").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeSmokeleafJoints").label;
                 PBRecipeUnlocked = DefDatabase<ThingDef>.GetNamed("MLRP_PoisonJokeJoint").label;
                 string DBLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked);
                 string PBLetterText = "MLRP_PBLetterText".Translate(PBRecipeUnlocked);
@@ -188,13 +189,6 @@ namespace MLRP_ResearchTracker
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("MedicineProduction"))
             {
                 NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_GlitterworldMedicine").label;
-                string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
-                Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
-            }
-
-            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"))
-            {
-                NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label;
                 string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
             }
@@ -459,6 +453,15 @@ namespace MLRP_ResearchTracker
                 string title = "MLRP_ExtraScrewballOutputTitle".Translate();
                 string text = "MLRP_ExtraScrewballOutputText".Translate();
                 Find.LetterStack.ReceiveLetter(title, text, MLRP_ExtraScrewballOutput);
+            }
+
+            // TREE HUGGER: CORE
+
+            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"))
+            {
+                THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label;
+                string THLetterText = "MLRP_NMMLetterText".Translate(THRecipeUnlocked);
+                Find.LetterStack.ReceiveLetter(LetterTitle, THLetterText, MLRP_NewRecipeUnlocked);
             }
         }
     }

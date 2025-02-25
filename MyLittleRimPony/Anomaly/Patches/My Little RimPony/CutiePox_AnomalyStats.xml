@@ -1,10 +1,5 @@
 <Patch>
 
-<Operation Class="PatchOperationAdd">
-	<xpath>/Defs/HediffDef[defName="MLRP_CutiePox"]/stages/li/statOffsets</xpath>
-	<value>
-		<EntityStudyRate>0.1</EntityStudyRate>
-	</value>
-</Operation>
+<!--Moved to Core/Defs/HediffDefs/Hediff_CutiePox.xml-->
 
 </Patch>

@@ -2,7 +2,6 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Callouts</li>
-			<li>Callouts 1.4</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -16,6 +15,15 @@
 								<li>MLRP_BronyTrait</li>
 							</traits>
 							<name>BRONY</name>
+							<value>true</value>
+						</CM_Callouts.CalloutConstantByTraitDef>
+						
+						<CM_Callouts.CalloutConstantByTraitDef>
+							<defName>CM_Callout_AntiBronyTraits</defName>
+							<traits>
+								<li>MLRP_AntiBronyTrait</li>
+							</traits>
+							<name>ANTIBRONY</name>
 							<value>true</value>
 						</CM_Callouts.CalloutConstantByTraitDef>
 						
@@ -62,7 +70,6 @@
 					</value>
 				</li>
 	  
-				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.-->
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Attack_Common" or defName="CM_Callouts_RulePack_Melee_Attack"]/rulePack/rulesStrings</xpath>
 					<value>
@@ -73,18 +80,21 @@
 						<li>rule(BRONY==true)->[callout_princess] preserve you, because I sure as hell won't!</li>
 						<li>rule(BRONY==true)->By Discord's left nut, I will end you!</li>
 						<li>rule(BRONY==true)->By Discord's right nut, I will end you!</li>
+						<li>rule(BRONY==true)->By Discord's third nut, I will end you!</li>
 						<li>rule(BRONY==true)->By Discord's nutsack, I will end you!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you so bad, even [callout_villain] will think it was too harsh!</li>
 						<li>rule(BRONY==true)->I'm gonna beat you like they shoulda beat Cozy Glow!</li>
-						<li>rule(BRONY==true)->I will defeat you with the power of [callout_pony], and this weapon I found.</li>
+						<li>rule(BRONY==true)->I will defeat you with the power of [callout_pony], and this [INITIATOR_WEAPON_label] I found.</li>
 						<li>rule(BRONY==true)->You're going to be in a FULL-BODY ARMS AND LEGS CAST, DRINKIN' THROUGH A STRAW!</li>
+						<li>rule(BRONY==true)->Yippee Ki Neigh, motherbucker!</li>
 						<li>rule(SWEETIEBOT==true)->Attack in progress.</li>
 						<li>rule(SWEETIEBOT==true)->Engaging hostiles.</li>
 						<li>rule(SWEETIEBOT==true)->Targeting systems online.</li>
+						<li>rule(SWEETIEBOT==true)->Combat parameters updated.</li>
+						<li>rule(SWEETIEBOT==true)->Alert: hostile detected. Lethal force authorised for all units.</li>
 					</value>
 				</li>
 	  
-				<!--You'll only see these if you use XML Extensions and allow bronies to be violent.-->
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Attack_Landed_Common"]/rulePack/rulesStrings</xpath>
 					<value>
@@ -103,9 +113,9 @@
 						<li>rule(BRONY==true)->[callout_princess] preserve me, getting shot hurts!</li>
 						<li>rule(BRONY==true)->The friendship lessons never prepared me for this!</li>
 						<li>rule(BRONY==true)->Leave me alone! [callout_princess], tell them!</li>
-						<li>rule(SWEETIEBOT==true)->Damage sustained. Continuing combat operations.</li>
-						<li>rule(SWEETIEBOT==true)->Unit damaged. Repairs advised.</li>
+						<li>rule(SWEETIEBOT==true)->Damage sustained. Continuing combat operations. Repairs advised.</li>
 						<li>rule(SWEETIEBOT==true)->Combat efficiency at *kzzt* percent.</li>
+						<li>rule(SWEETIEBOT==true)->Status report: yellow and falling. Perimeter security can no longer be guaranteed.</li>
 					</value>
 				</li>
 	  
@@ -117,6 +127,7 @@
 						<li>rule(BRONY==true)->Leave me alone! [callout_princess], tell them!</li>
 						<li>rule(SWEETIEBOT==true)->Damage sustained. Continuing combat operations.</li>
 						<li>rule(SWEETIEBOT==true)->Unit damaged. Repairs advised.</li>
+						<li>rule(SWEETIEBOT==true)->Do not interfere with security operations.</li>
 					</value>
 				</li>
 				
@@ -138,6 +149,9 @@
 						<li>rule(BRONY==true,p=2)->For [callout_princess]'s sake, I was about to eat!</li>
 						<li>rule(BRONY==true,p=2)->For [callout_princess]'s sake, I was about to take a nap!</li>
 						<li>rule(BRONY==true,p=2)->It's about to get twenty percent cooler!</li>
+						<li>rule(ANTIBRONY==true)->Stick your [callout_pony] where the [callout_celestialbody] don't shine!</li>
+						<li>rule(ANTIBRONY==true)->Get stuffed, you wannabe [callout_princess]!</li>
+						<li>rule(ANTIBRONY==true)->[callout_villain] isn't real and can't hurt you, but I am and I will!</li>
 						<li>rule(SWEETIEBOT==true)->Unit ready.</li>
 						<li>rule(SWEETIEBOT==true)->Acknowledged.</li>
 						<li>rule(SWEETIEBOT==true)->All systems nominal.</li>
@@ -148,9 +162,9 @@
 					<xpath>/Defs/RulePackDef[defName="CM_Callouts_RulePack_Lethal_Hediff_Progression"]/rulePack/rulesStrings</xpath>
 					<value>
 						<li>rule(CULPRITHEDIFF_stage==extreme,BRONY==true)->Looks like I'll be seeing you real soon, [callout_princess].</li>
-						<li>rule(BRONY==true)->[callout_pony] be with me, it's nearly over...</li>
-						<li>rule(BRONY==true)->[callout_princess], let not this affliction claim me!</li>
-						<li>rule(BRONY==true)->Is... is that [callout_villain] I can see?</li>
+						<li>rule(CULPRITHEDIFF_stage==extreme,BRONY==true)->[callout_pony] be with me, it's nearly over...</li>
+						<li>rule(CULPRITHEDIFF_stage==extreme,BRONY==true)->[callout_princess], let not this affliction claim me!</li>
+						<li>rule(CULPRITHEDIFF_stage==extreme,BRONY==true)->Is... is that [callout_villain] I can see?</li>
 					</value>
 				</li>
 			</operations>
