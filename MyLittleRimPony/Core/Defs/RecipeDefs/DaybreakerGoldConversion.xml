@@ -123,5 +123,36 @@
 		<Uranium>167</Uranium>
 	</products>
 </RecipeDef>
+
+<!--CONVERT 1000 GOLD TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_QuintupleChemfuel">
+	<defName>MLRP_DB_ConvertOneThousandGoldIntoSilver</defName>
+	<label>convert a lot of gold to a lot of silver</label>
+	<description>Convert 1000 gold into silver.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>10000</Silver>
+	</products>
+</RecipeDef>
   
 </Defs>

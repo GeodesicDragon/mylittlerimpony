@@ -62,6 +62,7 @@
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<layers>
 				<li>MLRP_PlushieSlot</li>
 			</layers>

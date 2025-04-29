@@ -119,14 +119,13 @@
 		<li>RewardStandardLowFreq</li>
 	</thingSetMakerTags>
     <costList>
-		<Steel>350</Steel>
-		<Plasteel>350</Plasteel>
-		<Uranium>350</Uranium>
+		<Steel>500</Steel>
+		<Plasteel>500</Plasteel>
+		<Uranium>500</Uranium>
 		<Gold>15</Gold>
 		<ComponentSpacer>10</ComponentSpacer>
     </costList>
 	<statBases>
-		<MarketValue>10000</MarketValue>
 		<MaxHitPoints>100</MaxHitPoints>
 		<Mass>1</Mass>
 	</statBases>

@@ -155,6 +155,37 @@
 	</products>
 </RecipeDef>
 
+<!--CONVERT 10000 SILVER TO GOLD-->
+
+<RecipeDef ParentName="DaybreakerRecipes_QuintupleChemfuel">
+	<defName>MLRP_DB_ConvertTenThousandSilverIntoGold</defName>
+	<label>convert a lot of silver to a lot of gold</label>
+	<description>Convert 10000 silver into the market value equivalent of gold.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>1000</count>
+		</li>
+	</ingredients>
+	<products>
+		<Gold>1000</Gold>
+	</products>
+</RecipeDef>
+
 <!--CONVERT JADE TO SILVER-->
 
 <RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">

@@ -51,11 +51,12 @@
         <heatPushMinTemperature>0</heatPushMinTemperature>
       </li>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>20.0</fuelConsumptionRate>
+        <fuelConsumptionRate>20</fuelConsumptionRate>
         <fuelCapacity>50.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>WoodLog</li>
+            <li>Chemfuel</li>
           </thingDefs>
         </fuelFilter>
         <initialFuelPercent>1</initialFuelPercent>

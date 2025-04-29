@@ -1,3 +1,16 @@
+Version 6.69.125 (April 29th 2025)
+
+* Core: Added two new recipe to the Daybreaker statue.
+	* Convert 10000 silver into 1000 gold
+	* Convert 1000 gold into 10000 silver
+	* Both of these recipes use five times the regular amount of chemfuel.
+* Core: Miss Harshwhinny can now be refueled using chemfuel.
+* Royalty: The market value of the harmony chip is now calculated by the game.
+* Royalty: Increased the steel cost of making a harmony chip to 500 (was 350).
+* Royalty: Increased the plasteel cost of making a harmony chip to 500 (was 350).
+* Royalty: Increased the uranium cost of making a harmony chip to 500 (was 350).
+* A RimWorld of Magic: Removed brony trait conflict patches.
+
 Version 6.67.119 (February 25th 2025)
 
 * Core: Added Heart's Desire.

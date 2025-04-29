@@ -125,8 +125,16 @@
 <RecipeDef ParentName="MLRP_SE_RecipeBase">
 	<defName>MLRP_SE_OneHundredVanillaBlocks</defName> <!--I made a mistake here, but I can't change it because it might cause problems.-->
 	<label>purchase 500 of each</label>
-	<description>Purchase 500 each of granite, limestone, marble, sandstone and slate blocks.</description>
+	<description>Purchase 500 of everything offered for sale.</description>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>PonyPlush_BigMacintosh</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -139,14 +147,6 @@
 			<filter>
 				<thingDefs>
 					<li>PonyPlush_PinkiePie</li>
-				</thingDefs>
-			</filter>
-			<count>1</count>
-		</li>
-		<li>
-			<filter>
-				<thingDefs>
-					<li>PonyPlush_BigMacintosh</li>
 				</thingDefs>
 			</filter>
 			<count>1</count>

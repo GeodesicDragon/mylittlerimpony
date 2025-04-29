@@ -64,9 +64,11 @@
 						<li>callout_villain->Grogar</li>
 						<li>callout_villain->The Shadow Pony</li>
 						<li>callout_villain->Opaline Arcana</li>
+						<li>callout_villain->Allura</li>
 						<li>callout_celestialbody->sun</li>
 						<li>callout_celestialbody->moon</li>
 						<li>callout_celestialbody->Crystal Heart</li>
+						<li>callout_celestialbody->Nova Charm</li>
 					</value>
 				</li>
 	  
@@ -101,6 +103,8 @@
 						<li>rule(BRONY==true)->Got you! [callout_princess] is on my side today!</li>
 						<li>rule(BRONY==true)->By the [callout_celestialbody], I hope that hurt!</li>
 						<li>rule(BRONY==true)->[callout_villain] take you!</li>
+						<li>rule(ANTIBRONY==true)->[callout_princess] isn't real and can't hurt you, but I am and I will!</li>
+						<li>rule(ANTIBRONY==true)->[callout_villain] isn't real and can't hurt you, but I am and I will!</li>
 						<li>rule(SWEETIEBOT==true)->Enemy unit has been damaged. Continuing attack.</li>
 						<li>rule(SWEETIEBOT==true)->Hostiles will be terminated.</li>
 						<li>rule(SWEETIEBOT==true)->Die, meatbag!</li>
@@ -149,9 +153,6 @@
 						<li>rule(BRONY==true,p=2)->For [callout_princess]'s sake, I was about to eat!</li>
 						<li>rule(BRONY==true,p=2)->For [callout_princess]'s sake, I was about to take a nap!</li>
 						<li>rule(BRONY==true,p=2)->It's about to get twenty percent cooler!</li>
-						<li>rule(ANTIBRONY==true)->Stick your [callout_pony] where the [callout_celestialbody] don't shine!</li>
-						<li>rule(ANTIBRONY==true)->Get stuffed, you wannabe [callout_princess]!</li>
-						<li>rule(ANTIBRONY==true)->[callout_villain] isn't real and can't hurt you, but I am and I will!</li>
 						<li>rule(SWEETIEBOT==true)->Unit ready.</li>
 						<li>rule(SWEETIEBOT==true)->Acknowledged.</li>
 						<li>rule(SWEETIEBOT==true)->All systems nominal.</li>

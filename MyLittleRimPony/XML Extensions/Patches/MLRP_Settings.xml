@@ -721,6 +721,28 @@
 			</apply>
 		</li>
 		
+		<!--DAYBREAKER STATUE: QUADRUPLE CHEMFUEL AMOUNT-->
+		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Anomaly">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_DaybreakerChemfuel</key>
+			<apply>
+				<Operation Class="XmlExtensions.CreateVariable">
+					<value>{MLRP_DaybreakerChemfuel}</value>
+					<value2>4</value2>
+					<operation>*</operation>
+					<storeIn>MLRP_DB_QuadrupleChemfuelValue</storeIn>
+					<apply>
+						<Operation Class="PatchOperationReplace">
+							<xpath>Defs/RecipeDef[@Name="DaybreakerRecipes_QuadrupleChemfuel"]/ingredients/li/count</xpath>
+							<value>
+								<count>{MLRP_DB_QuadrupleChemfuelValue}</count>
+							</value>
+						</Operation>
+					</apply>
+				</Operation>
+			</apply>
+		</li>
+		
 		<!--DAYBREAKER STATUE: QUINTUPLE CHEMFUEL AMOUNT-->
 		<li Class="XmlExtensions.UseSetting" MayRequire="Ludeon.RimWorld.Anomaly">
 			<modId>geodesicdragon.rimpony</modId>
@@ -1542,6 +1564,12 @@
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ryflamer.Rimcraft.Metals">
 					<text>[Ry]Rimcraft Metals: Recipes to bulk create bars from ore will use triple this amount.</text>
+					<font>Small</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="DankPyon.Medieval.Overhaul">
+					<text>Medieval Overhaul: These values do not apply to coal usage.</text>
 					<font>Small</font>
 					<anchor>Left</anchor>
 				</li>

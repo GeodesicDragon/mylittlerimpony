@@ -1,5 +1,5 @@
 <Defs>
-	<ThingDef ParentName="PonyPlush_Utility">
+	<ThingDef ParentName="PonyPlushBase">
 		<defName>PonyPlush_ButtonMash</defName>
 		<label>Button Mash</label>
 		<description>Nopony can deny that Button Mash loves gaming, though they can all agree that he seems to find it hard to focus on anything else.\n\nCarrying him makes you feel as though you have a stronger connection.</description>

@@ -24,6 +24,11 @@ namespace MyLittleRimPony
         {
             var MLRP_Version = Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
             Log.Message("MLRP_WelcomeMessage".Translate(MLRP_Version));
+
+            if (ModsConfig.IsActive("geodesicdragon.rimpony.medieval"))
+            {
+                Log.Message("MLRP_MedievalOverhaul".Translate());
+            }
         }
     }
 

@@ -1,8 +1,17 @@
 ﻿<Defs>
-
-<!--VERY HARD RESEARCH BASE-->
-
-	<ResearchProjectDef Name="MLRP_VeryHardResearchBase" Abstract="True">
+	
+	<!--HARMONY CHIP-->
+	
+	<ResearchProjectDef>
+		<defName>MLRP_HarmonyChipResearch</defName>
+		<label>harmony chip</label>
+		<description>Allows you to create harmony chips, which grant the bonuses of nearly all plushies when installed in the brain.</description>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
 		<baseCost>6000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -18,47 +27,21 @@
 		</heldByFactionCategoryTags>
 	</ResearchProjectDef>
 	
-<!--VERY TIME CONSUMING RESEARCH BASE-->
-
-	<ResearchProjectDef Name="MLRP_VeryTimeConsumingResearchBase" Abstract="True">
-		<baseCost>50000</baseCost>
-		<techLevel>Ultra</techLevel>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-		<techprintCount>3</techprintCount>
-		<techprintCommonality>0.5</techprintCommonality>
-		<techprintMarketValue>5000</techprintMarketValue>
-		<heldByFactionCategoryTags>
-			<li>Empire</li>
-			<li>Outlander</li>
-		</heldByFactionCategoryTags>
-	</ResearchProjectDef>
-	
-	<!--HARMONY CHIP-->
-	
-	<ResearchProjectDef ParentName="MLRP_VeryHardResearchBase">
-		<defName>MLRP_HarmonyChipResearch</defName>
-		<label>harmony chip</label>
-		<description>Allows you to create harmony chips, which grant the bonuses of nearly all plushies when installed in the brain.</description>
-		<prerequisites>
-			<li>AdvancedFabrication</li>
-		</prerequisites>
-		<tab>MLRP_ResearchTab</tab>
-		<researchViewX>0</researchViewX>
-		<researchViewY>1</researchViewY>
-	</ResearchProjectDef>
-	
 	<!--REQUEST PSYCHIC ITEMS-->
 	
-	<ResearchProjectDef ParentName="MLRP_HardResearchBase">
+	<ResearchProjectDef>
 		<defName>MLRP_PsychicItemsResearch</defName>
 		<label>psychic items</label>
 		<description>Nightmare Moon will allow you to request various psychic items from her.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>1</researchViewX>
 		<researchViewY>1</researchViewY>
+		<baseCost>4500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
 	</ResearchProjectDef>
 
 </Defs>
