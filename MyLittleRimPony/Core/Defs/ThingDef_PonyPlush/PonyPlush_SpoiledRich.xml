@@ -7,7 +7,7 @@
 			<texPath>Things/PonyPlush/SpoiledRich</texPath>
 		</graphicData>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 </Defs>

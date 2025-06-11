@@ -1,0 +1,187 @@
+<Defs>
+
+	<RecipeDef Name="MLRP_Littlepip_RecipeBase" Abstract="True">
+		<jobString>Purchasing items</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_Rimatomics_Littlepip</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_TurbineBlades</defName>
+		<label>purchase turbine blades</label>
+		<description>Use silver to purchase 250 turbine blades.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>71</count>
+			</li>
+		</ingredients>
+		<products>
+			<turbineBlade>100</turbineBlade>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_UraniumPellets</defName>
+		<label>purchase uranium pellets</label>
+		<description>Use silver to purchase 100 uranium pellets.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<UraniumPellets>100</UraniumPellets>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_Plutonium</defName>
+		<label>purchase plutonium</label>
+		<description>Use silver to purchase 10 plutonium.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+		</ingredients>
+		<products>
+			<Plutonium>10</Plutonium>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_DepletedUraniumPellets</defName>
+		<label>purchase depleted uranium pellets</label>
+		<description>Use silver to purchase 100 depleted uranium pellets.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>160</count>
+			</li>
+		</ingredients>
+		<products>
+			<DepletedUraniumPellets>100</DepletedUraniumPellets>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_FuelRods</defName>
+		<label>purchase fuel rods</label>
+		<description>Use silver to purchase a single bunch of fuel rods. Good for emergencies, but expensive.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<products>
+			<FuelRods>1</FuelRods>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_FuelRodsMOX</defName>
+		<label>purchase fuel rod MOX</label>
+		<description>Use silver to purchase a single bunch of fuel rods MOX. Good for emergencies, but VERY expensive.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>400</count>
+			</li>
+		</ingredients>
+		<products>
+			<FuelRodsMOX>1</FuelRodsMOX>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_RocketEngine</defName>
+		<label>purchase rocket engine</label>
+		<description>Use silver to purchase a single rocket engine.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<products>
+			<RocketEngine>1</RocketEngine>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_MissileFuselage</defName>
+		<label>purchase missile fuselage</label>
+		<description>Use silver to purchase a single missile fuselage.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<products>
+			<MissileFuselage>1</MissileFuselage>
+		</products>	
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MLRP_Littlepip_RecipeBase">
+		<defName>MLRP_Littlepip_FissionWarhead</defName>
+		<label>purchase fission warhead</label>
+		<description>Use silver to purchase a single fission warhead.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>2880</count>
+			</li>
+		</ingredients>
+		<products>
+			<FissionWarhead>1</FissionWarhead>
+		</products>	
+	</RecipeDef>
+
+</Defs>

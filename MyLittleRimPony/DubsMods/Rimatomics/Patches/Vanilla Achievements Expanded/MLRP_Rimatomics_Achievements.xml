@@ -1,0 +1,28 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<AchievementsExpanded.AchievementDef>
+					<defName>MLRP_Achievement_Littlepip</defName>
+					<label>Fresh Out The Stable</label>
+					<description>Build Littlepip</description>
+					<tab>MLRP_BuildingAchievementTab</tab>
+					
+					<tracker Class="AchievementsExpanded.BuildingTracker">
+						<def>MLRP_Rimatomics_Littlepip</def>
+						<count>1</count>
+					</tracker>
+					
+					<texPath>Achievements/FreshOutTheStable</texPath>
+					<points>10</points>
+				</AchievementsExpanded.AchievementDef>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

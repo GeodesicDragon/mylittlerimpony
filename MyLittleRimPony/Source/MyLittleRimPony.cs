@@ -41,7 +41,7 @@ namespace MyLittleRimPony
         public Alert_AntiBronyHasPlushie()
         {
             this.defaultLabel = "MLRP_AntiBronyHasPlushieAlert".Translate();
-            this.explanationKey = "MLRP_AntiBronyHasPlushieExplanation".Translate();
+            this.explanationKey = "MLRP_AntiBronyHasPlushieExplanation";
         }
     }
 
@@ -49,12 +49,36 @@ namespace MyLittleRimPony
 
     public class Alert_AntiBronyHasHarmonyChip : Alert_Thought
     {
-        protected override ThoughtDef Thought => DefDatabase<ThoughtDef>.GetNamed("MLRP_HarmonyChipInstalledAntiBrony");
+        private bool royaltyActive;
+
+        protected override ThoughtDef Thought
+        {
+            get
+            {
+                if (!royaltyActive)
+                    return null;
+
+                return DefDatabase<ThoughtDef>.GetNamed("MLRP_HarmonyChipInstalledAntiBrony", errorOnFail: false);
+            }
+        }
 
         public Alert_AntiBronyHasHarmonyChip()
         {
-            this.defaultLabel = "MLRP_AntiBronyHasHarmonyChipAlert".Translate();
-            this.explanationKey = "MLRP_AntiBronyHasHarmonyChipExplanation".Translate();
+            royaltyActive = ModsConfig.IsActive("Ludeon.RimWorld.Royalty");
+
+            if (royaltyActive)
+            {
+                this.defaultLabel = "MLRP_AntiBronyHasHarmonyChipAlert".Translate();
+                this.explanationKey = "MLRP_AntiBronyHasHarmonyChipAlertText";
+            }
+        }
+
+        public override AlertReport GetReport()
+        {
+            if (!royaltyActive)
+                return false;
+
+            return base.GetReport();
         }
     }
 

@@ -1,0 +1,36 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Hooligan Faction</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/TraderKindDef[defName="Hooligan_DrugDealer"]/stockGenerators</xpath>
+			<value>
+				<stockGenerators>
+				
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>Silver</thingDef>
+						<countRange>800~3000</countRange>
+					</li>
+
+					<li Class="StockGenerator_Category">
+						<categoryDef>Drugs</categoryDef>
+						<thingDefCountRange>3~30</thingDefCountRange>
+						<countRange>10~25</countRange>
+						<excludedThingDefs>
+							<li>MLRP_HeartsDesire</li>
+						</excludedThingDefs>
+					</li>
+					
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>MLRP_HeartsDesire</thingDef>
+						<countRange>0~1</countRange>
+					</li>
+				
+				</stockGenerators>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

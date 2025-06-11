@@ -1,0 +1,86 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario</xpath>
+				<value>
+					<surfaceLayer>
+						<def>SurfaceLayerFixed</def>
+						<tag>Surface</tag>
+						<layer>Surface</layer>
+						<settingsDef>Surface</settingsDef>
+						<hide>true</hide>
+						<connections>
+							<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+								<zoomMode>ZoomOut</zoomMode>
+							</Orbit>
+							</connections>
+					</surfaceLayer>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts</xpath>
+				<value>
+					<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
+						<def>PlanetLayer</def>
+						<tag>Orbit</tag>
+						<layer>Orbit</layer>
+						<settingsDef>Orbit</settingsDef>
+						<hide>true</hide>
+						<connections>
+							<Surface>
+								<zoomMode>ZoomIn</zoomMode>
+							</Surface>
+						</connections>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos" or defName="MLRP_Scenario_RenegadeAlicorn"]/scenario</xpath>
+					<value>
+						<surfaceLayer>
+							<def>SurfaceLayerFixed</def>
+							<tag>Surface</tag>
+							<layer>Surface</layer>
+							<settingsDef>Surface</settingsDef>
+							<hide>true</hide>
+							<connections>
+								<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+									<zoomMode>ZoomOut</zoomMode>
+								</Orbit>
+								</connections>
+						</surfaceLayer>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos" or defName="MLRP_Scenario_RenegadeAlicorn"]/scenario/parts</xpath>
+					<value>
+						<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
+							<def>PlanetLayer</def>
+							<tag>Orbit</tag>
+							<layer>Orbit</layer>
+							<settingsDef>Orbit</settingsDef>
+							<hide>true</hide>
+							<connections>
+								<Surface>
+									<zoomMode>ZoomIn</zoomMode>
+								</Surface>
+							</connections>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

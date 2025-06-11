@@ -4,7 +4,13 @@
 		<defName>MLRP_UpdateNews</defName>
 		<modNameReadable>[MLP] My Little RimPony</modNameReadable>
 		<modIdentifier>geodesicdragon.rimpony</modIdentifier>
-		<linkUrl>https://discord.gg/BGKnpza</linkUrl>
+		<linkUrl>https://discord.gg/DAd2EHeJWk</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_685147</defName>
+		<assemblyVersion>6.85.147</assemblyVersion>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Rimatomics: Littlepip is here, with nine new recipes.\n- Rimefeller: Added 2 new synthylene recipes to the Daybreaker statue.\n- XML Extensions: You can now configure how much stuff is needed to build Tree Hugger.\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: The Stone Exchange no longer requires power.\n- Core: The Fabric Exchange no longer requires power.- Rim War: The Diamond Dog faction now creates new settlements.\n\nPlease refer to the changelog for more info!</content>
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">

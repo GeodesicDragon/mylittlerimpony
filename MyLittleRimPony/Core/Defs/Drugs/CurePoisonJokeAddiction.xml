@@ -3,7 +3,7 @@
 	<ThingDef ParentName="DrugPillBase">
 		<defName>MLRP_PoisonJokeAddictionCureKit</defName>
 		<label>herbal cure kit</label>
-		<description>Originally intended as a way of removing poison joke addiction, it soon became apparent that this Equestrian herbal remedy was also strong enough to cure a range of other afflictions.\n\nCures flu, animal flu, malaria, food poisoning, poison joke adddiction and poison joke tolerance. It also has a very low chance of curing the plague on colonists and animals.</description>
+		<description>Originally intended as a way of removing poison joke addiction, it soon became apparent that this Equestrian herbal remedy was also strong enough to cure a range of other afflictions.\n\nCures flu, animal flu, malaria, food poisoning, poison joke addiction and poison joke tolerance. It also has a very low chance of curing the plague on colonists and animals.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Flu</HediffDef>
 			<HediffDef>Animal_Flu</HediffDef>

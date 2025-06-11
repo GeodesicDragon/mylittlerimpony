@@ -84,7 +84,7 @@
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 				<ArmorRating_Heat>0.15</ArmorRating_Heat>
 				<MeleeDodgeChance>10</MeleeDodgeChance>
-				<ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>
+				<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 				<!--IDEOLOGY-->
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</ConversionPower>
 				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</SuppressionPower>

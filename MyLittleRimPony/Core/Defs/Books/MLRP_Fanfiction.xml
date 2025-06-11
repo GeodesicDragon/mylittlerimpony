@@ -17,7 +17,7 @@
 		<li Class="CompProperties_Book">
 			<nameMaker>Namer_MLP_Fanfiction</nameMaker>
 			<descriptionMaker>Description_MLP_Fanfiction</descriptionMaker>
-			<ageYearsRange>3476~3488</ageYearsRange> <!--Should make books have years ranging between 2012 and 2024-->
+			<ageYearsRange>3476~3489</ageYearsRange> <!--Should make books have years ranging between 2012 and 2025-->
 			<openGraphic>
 				<texPath>Things/Item/Book/Fanfiction_Open</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>

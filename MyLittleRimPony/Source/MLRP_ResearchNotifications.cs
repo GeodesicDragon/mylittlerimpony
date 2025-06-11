@@ -159,6 +159,20 @@ namespace MLRP_ResearchTracker
                 Find.LetterStack.ReceiveLetter(LetterTitle, PBLetterText, MLRP_NewRecipeUnlocked);
             }
 
+            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("Gunsmithing"))
+            {
+                PBRecipeUnlocked = DefDatabase<ThingDef>.GetNamed("Izzy_SmokeLauncher").label;
+                string PBLetterText = "MLRP_PBLetterText".Translate(PBRecipeUnlocked);
+                Find.LetterStack.ReceiveLetter(LetterTitle, PBLetterText, MLRP_NewRecipeUnlocked);
+            }
+
+            if (proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_WeaponisedElementsResearch"))
+            {
+                PBRecipeUnlocked = DefDatabase<ThingDef>.GetNamed("MLRP_ElementsOfHarmonyWeaponised").label;
+                string PBLetterText = "MLRP_PBLetterText".Translate(PBRecipeUnlocked);
+                Find.LetterStack.ReceiveLetter(LetterTitle, PBLetterText, MLRP_NewRecipeUnlocked);
+            }
+
             // PONY WORKBENCH: COMBAT EXTENDED MOD
 
             if (ModsConfig.IsActive("CETeam.CombatExtended") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CE_AmmoResearch"))
@@ -462,6 +476,24 @@ namespace MLRP_ResearchTracker
                 THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label;
                 string THLetterText = "MLRP_NMMLetterText".Translate(THRecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, THLetterText, MLRP_NewRecipeUnlocked);
+            }
+			
+            // DAYBREAKER: RIMEFELLER MOD
+
+            if (ModsConfig.IsActive("Dubwise.Rimefeller") && proj == DefDatabase<ResearchProjectDef>.GetNamed("SynthyleneProduction"))
+            {
+                DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_ConvertSilverIntoSynthylene").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_ConvertSynthyleneIntoSilver").label;
+                string DBLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked);
+                Find.LetterStack.ReceiveLetter(LetterTitle, DBLetterText, MLRP_NewRecipeUnlocked);
+            }
+			
+            // FABRIC EXCHANGE: RIMEFELLER MOD
+
+            if (ModsConfig.IsActive("Dubwise.Rimefeller") && proj == DefDatabase<ResearchProjectDef>.GetNamed("SynthamideProduction"))
+            {
+                FERecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_FE_Rimefeller_Synthamide").label;
+                string FELetterText = "MLRP_FELetterText".Translate(FERecipeUnlocked);
+                Find.LetterStack.ReceiveLetter(LetterTitle, FELetterText, MLRP_NewRecipeUnlocked);
             }
         }
     }

@@ -1,3 +1,53 @@
+Version 6.85.147 (June 12th 2025)
+
+* Core: Added minor support for the upcoming RimWorld 1.6 update.
+	* Please be advised that not all of the mod patches have been tested, so things *might* explode.
+	* If anything does happen to explode, please contact me via the MLRP Discord server.
+* Rimatomics: Added Littlepip.
+* Rimatomics: Added 9 new recipes, all of which are accessed at Littlepip.
+	* Due to how Rimatomics handles research, all of these recipes will be available from the start of a new game.
+	* Items purchased at this building are twice as expensive than acquiring them normally.
+	* Purchase 250 turbine blades (710 silver)
+	* Purchase 100 uranium pellets (400 silver)
+	* Purchase 10 plutonium (1200 silver)
+	* Purchase 100 depleted uranium pellets (1600 silver)
+	* Purchase 1 fuel rods (2000 silver)
+	* Purchase 1 fuel rods MOX (4000 silver)
+	* Purchase 1 rocket engine (80 silver)
+	* Purchase 1 missile fuselage (80 silver)
+	* Purchase 1 fission warhead (28800 silver)
+* Rimefeller: Added 2 new recipes to the Daybreaker statue.
+	* Convert 1000 silver to 500 synthylene
+	* Convert 500 synthylene to 1000 silver
+* Rimefeller: Added a new recipe to the Fabric Exchange which allows you to purchase 100 synthamide for 1000 silver (25% above market value).
+* Vanilla Achievements Expanded: Added an achievement to build Littlepip.
+* XML Extensions: Added the ability to configure how much stuff is needed to build Tree Hugger.
+	* Minimum is 100.
+	* Maximum is 1000.
+	* Default is 200.
+* Core: Fixed 'Failed to find RimWorld.ThoughtDef named MLRP_HarmonyChipInstalledAntiBrony. There are (x) defs of this type loaded.' error seen when Royalty wasn't enabled. Thanks to Shizuka_Na_Ikaku from the MLRP Discord for bringing this to my attention.
+* Core: Fixed fanfiction clipping through bookshelves. Thanks to Siveen from the MLRP Discord for bringing this to my attention.
+* Core: Fixed 'Exception while recalculating thought state for pawn <pawn name>: System.NullReferenceException: Object reference not set to an instance of an object' error spam seen when the Royalty DLC wasn't enabled. Thanks again to Shizuka_Na_Ikaku for bringing this to my attention.
+* Core: Fixed a typo in the herbal cure kit description.
+* Core: Fixed letter not being sent when researching gunsmithing.
+* Core: Fixed letter not being sent when researching rainbow laser.
+* Core: Fixed Spoiled Rich decreasing toxic environment resistance instead of increasing it.
+* Core: The Stone Exchange no longer requires electricity to function, to make things fairer for early game tribal colonies.
+* Core: The Fabric Exchange no longer requires electricity to function, to make things fairer for early game tribal colonies.
+* Core: Building the Fabric Exchange no longer requires you to research complex clothing first.
+* Royalty: Fixed the patch which allowed the Empire to use NPC faction pawns as mercenaries not working properly.
+* Royalty: Fixed the alert for an anti brony with a harmony chip displaying incorrectly. Thanks to Aelanna from the RimWorld Discord for helping.
+* Royalty: Fixed the harmony chip decreasing toxic environment resistance instead of increasing it.
+* Biotech: Fixed a patch which was trying to give two fertility bonuses to the harmony chip.
+* Biotech: Fixed the patch which allowed the Empire to use Diamond Dog faction pawns as mercenaries not working properly.
+* Biotech: Converted the Sweetie Bot mechanoid call sound to .ogg format.
+* Biotech: Converted the Sweetie Bot mechanoid wound sound to .ogg format.
+* Biotech: Converted the Sweetie Bot mechanoid death sound to .ogg format.
+* Biotech: Fixed 'Patch operation Verse.PatchOperationAdd(Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets) failed' error seen when you didn't have the Royalty DLC enabled. Thanks again to Shizuka_Na_Ikaku for bringing this to my attention.
+* Hooligan Faction: Drug dealers no longer have abundant stocks of the Heart's Desire flower.
+* Rim War: The Diamond Dog faction now creates new settlements.
+* XML Extensions: Fixed 'Patch operation Verse.PatchOperationSequence(count=45, lastFailedOperation=XmlExtensions.OptionalPatch) failed' error seen when you didn't have Vanilla Achievements Expanded enabled. Thanks again to Siveen for bringing this to my attention.
+
 Version 6.69.125 (April 29th 2025)
 
 * Core: Added two new recipe to the Daybreaker statue.

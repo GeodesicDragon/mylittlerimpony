@@ -33,7 +33,7 @@
 	<!--C# ROYALTY-->
 	
 	<MLRP_AntiBronyHasHarmonyChipAlert>Anti brony has harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
-	<MLRP_AntiBronyHasHarmonyChipExplanation>A pawn with the anti brony trait has a harmony chip installed. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	<MLRP_AntiBronyHasHarmonyChipAlertText>A pawn with the anti brony trait has a harmony chip installed. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipAlertText>
 		
 	<!--RESEARCH TRACKER-->
 	<!--{0} is the recipe(s) that ha(s/ve) been unlocked.-->

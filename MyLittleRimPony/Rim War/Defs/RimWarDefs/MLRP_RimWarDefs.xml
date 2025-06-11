@@ -1,6 +1,6 @@
 <Defs>
 
-	<RimWar.RimWarDef Name="RimWarDef_FactionBehavior">
+	<RimWar.RimWarDef Name="RimWarDef_MLRP_FactionBehavior">
 		<defName>RimWar_MLRP_FactionBehavior</defName>
 		<defDatas>
 			<li Name="RimWar_MLRP_PlayerFaction">
@@ -27,7 +27,7 @@
 			<li Name="RimWar_MLRP_DiamondDogFaction" MayRequire="Ludeon.RimWorld.Biotech">
 				<factionDefname>MLRP_DiamondDog_Faction</factionDefname>
 				<behavior>Aggressive</behavior>
-				<createsSettlements>false</createsSettlements>
+				<createsSettlements>true</createsSettlements>
 				<hatesPlayer>true</hatesPlayer>
 				<movesAtNight>false</movesAtNight>
 			</li>

@@ -1089,11 +1089,16 @@
 					</value>
 				</Operation>
 				
-				<Operation Class="PatchOperationReplace" MayRequire="vanillaexpanded.achievements">
-					<xpath>Defs/AchievementsExpanded.AchievementDef[defName="MLRP_Achievement_TwilightSparkle"]/texPath</xpath>
-					<value>
-						<texPath>Achievements/BookHorse_OLD</texPath>
-					</value>
+				<Operation Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Achievements Expanded</li>
+					</mods>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/AchievementsExpanded.AchievementDef[defName="MLRP_Achievement_TwilightSparkle"]/texPath</xpath>
+						<value>
+							<texPath>Achievements/BookHorse_OLD</texPath>
+						</value>
+					</match>
 				</Operation>
 			</caseTrue>
 			<caseFalse>
@@ -1104,11 +1109,16 @@
 					</value>
 				</Operation>
 				
-				<Operation Class="PatchOperationReplace" MayRequire="vanillaexpanded.achievements">
-					<xpath>Defs/AchievementsExpanded.AchievementDef[defName="MLRP_Achievement_TwilightSparkle"]/texPath</xpath>
-					<value>
-						<texPath>Achievements/BookHorse</texPath>
-					</value>
+				<Operation Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Achievements Expanded</li>
+					</mods>
+					<match Class="PatchOperationReplace" MayRequire="vanillaexpanded.achievements">
+						<xpath>Defs/AchievementsExpanded.AchievementDef[defName="MLRP_Achievement_TwilightSparkle"]/texPath</xpath>
+						<value>
+							<texPath>Achievements/BookHorse</texPath>
+						</value>
+					</match>
 				</Operation>
 			</caseFalse>
 		</li>
@@ -1196,6 +1206,21 @@
 				</Operation>
 			</caseFalse>
 		</li>
+		
+		<!--TREE HUGGER: STUFF REQUIRED-->
+		<li Class="XmlExtensions.UseSetting">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_TreeHuggerStuffRequired</key>
+			<defaultValue>200</defaultValue>
+			<apply>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MLRP_TreeHugger"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>{MLRP_TreeHuggerStuffRequired}</costStuffCount>
+					</value>
+				</Operation>
+			</apply>
+		</li>
 
 		<!--SETTINGS WINDOW-->
 		<li Class="XmlExtensions.CreateSettings">
@@ -1208,6 +1233,14 @@
 					<anchor>Middle</anchor>
 				</li>
 		
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
+					<text>WIKI: https://github.com/GeodesicDragon/mylittlerimpony/wiki</text>
+					<font>Small</font>
+					<anchor>Middle</anchor>
+				</li>
+				
 				<li Class="XmlExtensions.Setting.Gap"/>
 				
 				<li Class="XmlExtensions.Setting.SplitColumn">
@@ -1376,6 +1409,23 @@
 					<min>100</min>
 					<max>1000</max>
 					<label>Building Screwballs requires {MLRP_ScrewballStuffRequired} stuff</label>
+					<decimals>0</decimals>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Text">
+					<text>Tree Hugger Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Slider">
+					<key>MLRP_TreeHuggerStuffRequired</key>
+					<defaultValue>200</defaultValue>
+					<min>100</min>
+					<max>1000</max>
+					<label>Building Tree Hugger requires {MLRP_TreeHuggerStuffRequired} stuff</label>
 					<decimals>0</decimals>
 				</li>
 				
@@ -1646,8 +1696,6 @@
 					<label>Mute Sweetie Bot mechanoid call sound</label>
 				</li>
 				
-
-				
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Anomaly"/>
 				
 				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Anomaly">
@@ -1661,7 +1709,7 @@
 					<defaultValue>250</defaultValue>
 					<min>100</min>
 					<max>750</max>
-					<label>Building Thingpone requires {MLRP_ThingponeStuffRequired} stuff.</label>
+					<label>Building Thingpone requires {MLRP_ThingponeStuffRequired} stuff</label>
 					<decimals>0</decimals>
 				</li>
 										

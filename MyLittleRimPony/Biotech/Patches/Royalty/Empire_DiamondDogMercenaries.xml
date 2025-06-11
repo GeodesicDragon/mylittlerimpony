@@ -1,6 +1,6 @@
 <Patch>
     <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
-		<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+		<xpath>/Defs/QuestScriptDef[defName="Util_ChooseRandomQuestHelperKind"]/root/nodes/li[1]/choices</xpath>
 		<value>
 			<li>
 				<factionDef>MLRP_DiamondDog_Faction</factionDef>

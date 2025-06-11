@@ -1,0 +1,23 @@
+<Defs>
+
+	<RecipeDef ParentName="MLRP_FE_RecipeBase">
+		<defName>MLRP_FE_Rimefeller_Synthamide</defName>
+		<label>purchase synthamide</label>
+		<description>Use silver to purchase 100 synthamide.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<FiberComposite>100</FiberComposite>
+		</products>
+		<researchPrerequisite>SynthamideProduction</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,63 @@
+<Defs>
+
+	<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+		<defName>MLRP_DB_ConvertSilverIntoSynthylene</defName>
+		<label>convert silver to synthylene</label>
+		<description>Convert 1000 silver into the market value equivalent of synthylene.</description>
+		<jobString>Converting materials</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_Daybreaker</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<Synthylene>500</Synthylene>
+		</products>
+		<researchPrerequisite>SynthyleneProduction</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+		<defName>MLRP_DB_ConvertSynthyleneIntoSilver</defName>
+		<label>convert synthylene to silver</label>
+		<description>Convert 500 synthylene into the market value equivalent of silver.</description>
+		<jobString>Converting materials</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_Daybreaker</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Synthylene</li>
+					</thingDefs>
+				</filter>
+				<count>500</count>
+			</li>
+		</ingredients>
+		<products>
+			<Silver>1000</Silver>
+		</products>
+		<researchPrerequisite>SynthyleneProduction</researchPrerequisite>
+	</RecipeDef>
+				
+</Defs>
