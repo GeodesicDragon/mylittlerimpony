@@ -102,6 +102,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoPoisonJoke</defName>
 	<label>purchase 10 poison joke joints</label>
 	<description>Purchase poison joke joints using silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -133,6 +134,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoSmokeleaf</defName>
 	<label>purchase 10 smokeleaf joints</label>
 	<description>Purchase smokeleaf joints using silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -164,6 +166,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoFlake</defName>
 	<label>purchase 10 flake</label>
 	<description>Purchase flake using silver.</description>
+	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -195,6 +198,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoYayo</defName>
 	<label>purchase 10 yayo</label>
 	<description>Purchase yayo using silver.</description>
+	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -226,6 +230,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoWakeUp</defName>
 	<label>purchase 10 wake-up</label>
 	<description>Purchase wake-up using silver.</description>
+	<researchPrerequisite>WakeUpProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -257,6 +262,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoPenoxycyline</defName>
 	<label>purchase 10 penoxycyline</label>
 	<description>Purchase penoxycyline using silver.</description>
+	<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -288,6 +294,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoGoJuice</defName>
 	<label>purchase 10 go-juice</label>
 	<description>Purchase go-juice using silver.</description>
+	<researchPrerequisite>GoJuiceProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -319,6 +326,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoPsychiteTea</defName>
 	<label>purchase 10 psychite tea</label>
 	<description>Purchase psychite tea using silver.</description>
+	<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -350,6 +358,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoAmbrosia</defName>
 	<label>purchase 10 ambrosia</label>
 	<description>Purchase ambrosia using silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -381,6 +390,7 @@
 	<defName>MLRP_TH_ConvertSilverIntoBeer</defName>
 	<label>purchase 10 beer</label>
 	<description>Purchase beer using silver.</description>
+	<researchPrerequisite>Brewing</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -412,6 +422,7 @@
 	<defName>MLRP_TH_ConvertPoisonJokeIntoSilver</defName>
 	<label>sell 100 poison joke joints</label>
 	<description>Convert poison joke joints into silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -443,6 +454,7 @@
 	<defName>MLRP_TH_ConvertSmokeleafIntoSilver</defName>
 	<label>sell 100 smokeleaf joints</label>
 	<description>Convert smokeleaf joints into silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -474,6 +486,7 @@
 	<defName>MLRP_TH_ConvertFlakeIntoSilver</defName>
 	<label>sell 100 flake</label>
 	<description>Convert flake into silver.</description>
+	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -505,6 +518,7 @@
 	<defName>MLRP_TH_ConvertYayoIntoSilver</defName>
 	<label>sell 100 yayo</label>
 	<description>Convert yayo into silver.</description>
+	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -536,6 +550,7 @@
 	<defName>MLRP_TH_ConvertWakeUpIntoSilver</defName>
 	<label>sell 100 wake-up</label>
 	<description>Convert wake-up into silver.</description>
+	<researchPrerequisite>WakeUpProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -567,6 +582,7 @@
 	<defName>MLRP_TH_ConvertPenoxycylineIntoSilver</defName>
 	<label>sell 100 penoxycyline</label>
 	<description>Convert penoxycyline into silver.</description>
+	<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -598,6 +614,7 @@
 	<defName>MLRP_TH_ConvertGoJuiceIntoSilver</defName>
 	<label>sell 100 go-juice</label>
 	<description>Convert go-juice into silver.</description>
+	<researchPrerequisite>GoJuiceProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -629,6 +646,7 @@
 	<defName>MLRP_TH_ConvertPsychiteTeaIntoSilver</defName>
 	<label>sell 100 psychite tea</label>
 	<description>Convert psychite tea into silver.</description>
+	<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -660,6 +678,7 @@
 	<defName>MLRP_TH_ConvertAmbrosiaIntoSilver</defName>
 	<label>sell 100 ambrosia</label>
 	<description>Convert ambrosia into silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -691,6 +710,7 @@
 	<defName>MLRP_TH_ConvertBeerIntoSilver</defName>
 	<label>sell 100 beer</label>
 	<description>Convert beer into silver.</description>
+	<researchPrerequisite>Brewing</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

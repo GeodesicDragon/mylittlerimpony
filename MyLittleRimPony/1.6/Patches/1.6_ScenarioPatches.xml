@@ -15,7 +15,7 @@
 							<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
 								<zoomMode>ZoomOut</zoomMode>
 							</Orbit>
-							</connections>
+						</connections>
 					</surfaceLayer>
 				</value>
 			</li>

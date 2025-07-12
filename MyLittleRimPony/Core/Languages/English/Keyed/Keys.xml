@@ -13,7 +13,7 @@
 	
 	<MLRP_PoisonJokeLetterTitle>Poison joke affliction</MLRP_PoisonJokeLetterTitle> <!--Title of letter.-->
 	<MLRP_PoisonJokeGoodConsciousness>Smoking poison joke has increased {0}'s consciousness.</MLRP_PoisonJokeGoodConsciousness>
-	<MLRP_PoisonJokeBadConsciousness>Smoking poison joke has reduced {0}'s consciousness.</MLRP_PoisonJokeBadConsciousness>
+	<MLRP_PoisonJokeBadConsciousness>Smoking poison joke has rendered {0} unconscious.</MLRP_PoisonJokeBadConsciousness>
 	<MLRP_PoisonJokeGoodSpeed>Smoking poison joke has increased {0}'s movement speed.</MLRP_PoisonJokeGoodSpeed>
 	<MLRP_PoisonJokeBadSpeed>Smoking poison joke has reduced {0}'s movement speed.</MLRP_PoisonJokeBadSpeed>
 	<MLRP_PoisonJokeGoodManipulation>Smoking poison joke has improved {0}'s manipulation.</MLRP_PoisonJokeGoodManipulation>
@@ -47,6 +47,7 @@
 	<MLRP_SELetterText>Now available at the Stone Exchange:\n\n{0}</MLRP_SELetterText>
 	<MLRP_THLetterText>Now available at Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText>Now available at Thingpone:\n\n{0}</MLRP_TPLetterText>
+	<MLRP_NVLetterText>Now available at Nebula Veil's Space Shop:\n\n{0}</MLRP_NVLetterText>
 	
 	<!--MODS-->	
 	

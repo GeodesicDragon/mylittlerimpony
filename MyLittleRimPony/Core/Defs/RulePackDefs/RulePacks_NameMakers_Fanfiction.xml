@@ -23,7 +23,6 @@
 				<li>title->Princess Celestia Gets Mugged by BronyWriter</li>
 				<li>title->Letters From A Disgruntled Friendship Student by milesprower06</li>
 				<li>title->Fire and Rain by Ruirik</li>
-				<li>title->Fallout: Equestria by Kkat</li>
 				<li>title->Equestria but it's Brainrot by Art Inspired</li>
 				<li>title->Pipp's First Downvote by Estee</li>
 				<li>title->Izzy, Pass Me the Brain Cell by RunicTreetops</li>
@@ -31,6 +30,10 @@
 				<!--Stories written by people I know-->
 				<li>title->Erasure by 6-D Pegasus</li>
 				<li>title->My Little Pony Figure by Buck Swisher</li>
+				<!--Stories I haven't actually read but included because other people might like to see them-->
+				<li>title->Fallout: Equestria by Kkat</li>
+				<li>title->Why am I Pinkie Pie?! by Hoopy McGee</li>
+				<li>title->Rainbooms and Royalty by Trinary</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
@@ -39,11 +42,17 @@
 		<defName>Description_MLP_Fanfiction</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>desc->This work of pony fanfiction was written over three thousand years ago[book_quality]</li>
+				<li>desc->This work of pony fanfiction was written thousands of years ago[book_quality]</li>
 				
-				<li>book_quality(quality[greater_than]5)->, and is in superior condition for its age.</li>
-				<li>book_quality(quality[less_than]2)->, and is barely readable due to extensive damage.</li>
-				<li>book_quality->.</li>
+				<li>book_quality(quality==6)->, and is shockingly well preserved. The spine is in fantastic condition with no cracks, the pages show no signs of damage or wear, and the cover art is a masterpiece in its own right.</li> <!--Legendary-->
+				<li>book_quality(quality==5)->, and is in superior condition for its age. The spine has a few cracks, the pages are a little creased, and the cover art is slightly faded.</li> <!--Masterwork-->
+				<li>book_quality(quality==4)->, and is in superior condition for its age. The spine has a few cracks, the pages are a little creased, and the cover art is slightly faded.</li> <!--Excellent-->
+				<li>book_quality(quality==3)->, and is in good condition for its age. The spine has some cracks, some of the pages have been torn, and the cover art is barely visible.</li> <!--Good-->
+				<li>book_quality(quality==2)->, and is in good condition for its age. The spine has some cracks, some of the pages have been torn, and the cover art is barely visible.</li> <!--Normal-->
+				<li>book_quality(quality==1)->, and is barely readable due to extensive damage. The spine has more cracks than a colonist after a social fight, a lot of the pages are missing, and someone has done a poor reproduction of the cover art.</li> <!--Poor-->
+				<li>book_quality(quality==0)->, and is barely readable due to extensive damage. The spine has more cracks than a colonist after a social fight, a lot of the pages are missing, and someone has done a poor reproduction of the cover art.</li> <!--Awful-->
+				<li>book_quality->.</li> <!--Generic-->	
+				
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

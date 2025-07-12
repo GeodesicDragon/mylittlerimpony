@@ -14,16 +14,4 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Royalty</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
-			<value>
-				<Fertility>0.25</Fertility>
-			</value>
-		</match>
-	</Operation>
-	
 </Patch>

@@ -25,7 +25,7 @@
 			<AchievementsExpanded.AchievementDef>
 				<defName>MLRP_Achievement_UtterlyBatty</defName>
 				<label>Utterly Batty</label>
-				<description>Get three colonists from the batpony xenotype</description>
+				<description>Have three colonists of the batpony xenotype</description>
 				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.XenotypeDefTracker">

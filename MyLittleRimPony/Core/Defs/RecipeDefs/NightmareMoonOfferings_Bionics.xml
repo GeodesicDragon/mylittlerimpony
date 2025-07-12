@@ -1,6 +1,6 @@
 <Defs>
 
-<!--BASE-->
+<!--BASES-->
 
 <RecipeDef Name="NMM_BionicRequestBase" Abstract="True">
 	<researchPrerequisite>Bionics</researchPrerequisite>
@@ -16,9 +16,72 @@
 	</recipeUsers>
 </RecipeDef>
 
+<RecipeDef Name="NMM_BionicMatsOne" ParentName="NMM_BionicRequestBase" Abstract="True">
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+	</ingredients>
+</RecipeDef>
+
+<RecipeDef Name="NMM_BionicMatsTwo" ParentName="NMM_BionicRequestBase" Abstract="True">
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+	</ingredients>
+</RecipeDef>
+
+<RecipeDef Name="NMM_BionicMatsThree" ParentName="NMM_BionicRequestBase" Abstract="True">
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+	</ingredients>
+</RecipeDef>
+
 <!--BIONIC EYE-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsOne">
 	<defName>MLRP_NMM_BionicEye</defName>
 	<label>request bionic eye</label>
 	<description>Offer silver in exchange for a bionic eye.</description>
@@ -29,7 +92,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>130</count>
+			<count>155</count>
 		</li>
 	</ingredients>
 	<products>
@@ -39,7 +102,7 @@
 
 <!--BIONIC ARM-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsOne">
 	<defName>MLRP_NMM_BionicArm</defName>
 	<label>request bionic arm</label>
 	<description>Offer silver in exchange for a bionic arm.</description>
@@ -50,7 +113,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>130</count>
+			<count>155</count>
 		</li>
 	</ingredients>
 	<products>
@@ -60,7 +123,7 @@
 
 <!--BIONIC LEG-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsOne">
 	<defName>MLRP_NMM_BionicLeg</defName>
 	<label>request bionic leg</label>
 	<description>Offer silver in exchange for a bionic leg.</description>
@@ -71,7 +134,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>130</count>
+			<count>155</count>
 		</li>
 	</ingredients>
 	<products>
@@ -81,7 +144,7 @@
 
 <!--BIONIC SPINE-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsOne">
 	<defName>MLRP_NMM_BionicSpine</defName>
 	<label>request bionic spine</label>
 	<description>Offer silver in exchange for a bionic spine.</description>
@@ -92,7 +155,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>130</count>
+			<count>155</count>
 		</li>
 	</ingredients>
 	<products>
@@ -102,7 +165,7 @@
 
 <!--BIONIC HEART-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsOne">
 	<defName>MLRP_NMM_BionicHeart</defName>
 	<label>request bionic heart</label>
 	<description>Offer silver in exchange for a bionic heart.</description>
@@ -113,7 +176,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>130</count>
+			<count>155</count>
 		</li>
 	</ingredients>
 	<products>
@@ -123,7 +186,7 @@
 
 <!--BIONIC STOMACH-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsTwo">
 	<defName>MLRP_NMM_BionicStomach</defName>
 	<label>request bionic stomach</label>
 	<description>Offer silver in exchange for a bionic stomach.</description>
@@ -134,7 +197,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>100</count>
+			<count>118</count>
 		</li>
 	</ingredients>
 	<products>
@@ -144,7 +207,7 @@
 
 <!--BIONIC EAR-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsTwo">
 	<defName>MLRP_NMM_BionicEar</defName>
 	<label>request bionic ear</label>
 	<description>Offer silver in exchange for a bionic ear.</description>
@@ -155,7 +218,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>100</count>
+			<count>118</count>
 		</li>
 	</ingredients>
 	<products>
@@ -165,7 +228,7 @@
 
 <!--BIONIC TONGUE-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsThree">
 	<defName>MLRP_NMM_BionicTongue</defName>
 	<label>request bionic tongue</label>
 	<description>Offer silver in exchange for a bionic tongue.</description>
@@ -176,7 +239,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>100</count>
+			<count>118</count>
 		</li>
 	</ingredients>
 	<products>
@@ -186,7 +249,7 @@
 
 <!--BIONIC JAW-->
 
-<RecipeDef ParentName="NMM_BionicRequestBase">
+<RecipeDef ParentName="NMM_BionicMatsTwo">
 	<defName>MLRP_NMM_BionicJaw</defName>
 	<label>request bionic jaw</label>
 	<description>Offer silver in exchange for a bionic jaw.</description>
@@ -197,7 +260,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>75</count>
+			<count>155</count>
 		</li>
 	</ingredients>
 	<products>

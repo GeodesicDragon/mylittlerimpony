@@ -1,0 +1,44 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Expanded Framework</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction"]/modExtensions</xpath>
+					<value>
+						<modExtensions>
+							<li Class="VEF.Factions.FactionDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">			
+								<startingGoodwillByFactionDefs>
+									<MLRP_BronyFaction>100</MLRP_BronyFaction>
+									<MLRP_RenegadeAlicornFaction MayRequire="Ludeon.RimWorld.Biotech">-75</MLRP_RenegadeAlicornFaction>
+									<Pony_PlayerExpedition MayRequire="Pony.PoniesOfTheRim.Core">100</Pony_PlayerExpedition>
+								</startingGoodwillByFactionDefs>			
+							</li>
+						</modExtensions>
+					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Alpha Genes</li>
+					</mods>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/FactionDef[defName="MLRP_Batpony_Faction"]/modExtensions</xpath>
+						<value>
+							<modExtensions>
+								<li Class="VEF.Factions.FactionDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+									<startingGoodwillByFactionDefs>
+										<Pony_PlayerThestralKingdom MayRequire="Pony.PoniesOfTheRim.Batponies">0</Pony_PlayerThestralKingdom>
+									</startingGoodwillByFactionDefs>
+								</li>
+							</modExtensions>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

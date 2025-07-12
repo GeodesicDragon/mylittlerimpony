@@ -1,0 +1,16 @@
+<Defs>
+
+	<RecipeDef Name="MLRP_NebulaVeilBase" Abstract="True">
+		<jobString>Speaking to Nebula Veil</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_NebulaVeil</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs>

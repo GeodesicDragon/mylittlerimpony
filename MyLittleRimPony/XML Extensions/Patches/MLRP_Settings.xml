@@ -1712,6 +1712,14 @@
 					<label>Building Thingpone requires {MLRP_ThingponeStuffRequired} stuff</label>
 					<decimals>0</decimals>
 				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Odyssey"/>
+				
+				<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Odyssey">
+					<text>Odyssey DLC Settings</text>
+					<font>Medium</font>
+					<anchor>Left</anchor>
+				</li>
 										
 				<li Class="XmlExtensions.Setting.Gap" MayRequire="sumghai.medpod"/>
 				
@@ -1733,6 +1741,17 @@
 				<li Class="XmlExtensions.Setting.GapLine"/>
 				
 				<li Class="XmlExtensions.Setting.ResetSettings"/>
+				
+				<li Class="XmlExtensions.Setting.Gap">
+					<spacing>8</spacing>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.ApplyActions">
+					<label>Restart Game</label>
+					<actions>
+						<li Class="XmlExtensions.Action.RestartGame"/>
+					</actions>
+				</li>
 			</settings>
 		</li>
 	</operations>

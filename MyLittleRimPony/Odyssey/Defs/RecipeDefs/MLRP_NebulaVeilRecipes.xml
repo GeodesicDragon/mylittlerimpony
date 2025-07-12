@@ -1,0 +1,74 @@
+<Defs>
+
+	<!--PURCHASE GRAVLITE PANELS-->
+
+	<RecipeDef ParentName="MLRP_NebulaVeilBase">
+		<defName>MLRP_NV_GravlitePanels</defName>
+		<label>purchase gravlite panels</label>
+		<description>Offer silver in exchange for 50 gravlite panels.\n\nThe price includes the cost of the materials you'd normally use to make them.</description>
+		<researchPrerequisite>AdvancedGravtech</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>82</count>
+			</li>
+		</ingredients>
+		<products>
+			<GravlitePanel>50</GravlitePanel>
+		</products>
+	</RecipeDef>
+	
+	<!--PURCHASE SHUTTLE ENGINE-->
+	
+	<RecipeDef ParentName="MLRP_NebulaVeilBase">
+		<defName>MLRP_NV_ShuttleEngine</defName>
+		<label>purchase shuttle engine</label>
+		<description>Offer silver in exchange for a shuttle engine.\n\nDue to the scarcity of this item, Nebula will only sell it to someone who can explain how it works.</description>
+		<researchPrerequisite>Shuttles</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>350</count>
+			</li>
+		</ingredients>
+		<products>
+			<ShuttleEngine>1</ShuttleEngine>
+		</products>
+		<skillRequirements>
+			<Intellectual>12</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<!--PURCHASE SENTIENCE CATALYST-->
+	
+	<RecipeDef ParentName="MLRP_NebulaVeilBase">
+		<defName>MLRP_NV_SentienceCatalyst</defName>
+		<label>purchase sentience catalyst</label>
+		<description>Offer silver in exchange for a sentience catalyst.\n\nDue to how easy this item is to acquire, Nebula insists on having a quick chat before she'll sell it to you.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<SentienceCatalyst>1</SentienceCatalyst>
+		</products>
+		<skillRequirements>
+			<Social>5</Social>
+		</skillRequirements>
+	</RecipeDef>
+	
+</Defs>

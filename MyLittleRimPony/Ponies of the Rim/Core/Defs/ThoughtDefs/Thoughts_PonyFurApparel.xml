@@ -38,7 +38,7 @@
     <stages>
       <li>
         <label>pony fur {0}</label>
-        <description>Hmm, looks like those things are useful after all.</description>
+        <description>I guess those things can be useful after all.</description>
         <baseMoodEffect>2</baseMoodEffect>
       </li>
       <li>

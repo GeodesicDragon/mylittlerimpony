@@ -115,5 +115,45 @@
 			</match>
 		</match>
 	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<ThoughtDef>
+					<defName>MLRP_BronyLovesPonyx</defName>
+					<thoughtClass>MLRP_PoniesOfTheRim.Thought_BronyLovesPonyx</thoughtClass>
+					<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_BronyLovesPonyx</workerClass>
+					<validWhileDespawned>true</validWhileDespawned>
+					<stages>
+						<li>
+							<label>brony loves ponyx</label>
+						</li>
+					</stages>
+					<requiredTraits>
+						<li>MLRP_BronyTrait</li>
+					</requiredTraits>
+				</ThoughtDef>
+				
+				<ThoughtDef>
+					<defName>MLRP_AntiBronyHatesPonyx</defName>
+					<thoughtClass>MLRP_PoniesOfTheRim.Thought_AntiBronyHatesPonyx</thoughtClass>
+					<workerClass>MLRP_PoniesOfTheRim.ThoughtWorker_AntiBronyHatesPonyx</workerClass>
+					<validWhileDespawned>true</validWhileDespawned>
+					<stages>
+						<li>
+							<label>anti brony hates ponyx</label>
+						</li>
+					</stages>
+					<requiredTraits>
+						<li>MLRP_AntiBronyTrait</li>
+					</requiredTraits>
+				</ThoughtDef>
+			</value>
+		</match>
+	</Operation>
 
 </Patch>

@@ -1,0 +1,129 @@
+<Defs>
+
+<!--PURCHASE MASTODON LEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Mastodon</defName>
+	<label>purchase mastodon leather</label>
+	<description>Use silver to purchase 100 mastodon leather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>32</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Mastodon>100</Leather_Mastodon>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE SEALSKIN-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Sealskin</defName>
+	<label>purchase sealskin</label>
+	<description>Use silver to purchase 100 sealskin.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>42</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Sealskin>100</Leather_Sealskin>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE THRUMBOMANE-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_AlphaThrumbo</defName>
+	<label>purchase thrumbomane</label>
+	<description>Use silver to purchase 100 thrumbomane.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>210</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_AlphaThrumbo>100</Leather_AlphaThrumbo>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE MINK FUR-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Mink</defName>
+	<label>purchase mink fur</label>
+	<description>Use silver to purchase 100 mink fur.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>55</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Mink>100</Leather_Mink>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE HIPPO LEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Hippo</defName>
+	<label>purchase hippo leather</label>
+	<description>Use silver to purchase 100 hippo leather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>39</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Hippo>100</Leather_Hippo>
+	</products>	
+</RecipeDef>
+
+<!--PURCHASE ARMADILLO LEATHER-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Armadillo</defName>
+	<label>purchase armadillo leather</label>
+	<description>Use silver to purchase 100 armadillo leather.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>34</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Armadillo>100</Leather_Armadillo>
+	</products>	
+</RecipeDef>
+  
+</Defs>

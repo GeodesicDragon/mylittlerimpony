@@ -1,0 +1,77 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="MLRP_CutiePoxThoughtBrony" or defName="MLRP_CutiePoxThoughtAntiBrony" or defName="MLRP_PonyPlushEquipped" or defName="MLRP_PonyPlushEquippedAntiBrony" or defName="MLRP_PartyCannonBoostBrony" or defName="MLRP_PartyCannonBoostRegularPawn" or defName="MLRP_PartyCannonBoostAntiBrony" or defName="MLRP_PartyCannonBoostPrisoner" or defName="MLRP_IzzyThought"]</xpath>
+		<value>
+			<nullifyingHediffs>
+				<li>Inhumanized</li>
+			</nullifyingHediffs>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThoughtDef[defName="MLRP_HarmonyChipInstalledBrony" or defName="MLRP_HarmonyChipInstalledAntiBrony" or defName="MLRP_HarmonyChipInstalledRegular"]</xpath>
+			<value>
+				<nullifyingHediffs>
+					<li>Inhumanized</li>
+				</nullifyingHediffs>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThoughtDef[defName="MLRP_PartyCannonBoostSlave"]</xpath>
+			<value>
+				<nullifyingHediffs>
+					<li>Inhumanized</li>
+				</nullifyingHediffs>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThoughtDef[defName="MLRP_AntiBronyIsPonyXenotype" or defName="ChangelingsHateMLPXenotype" or defName="MLPXenotypesHateChangelings" or defName="BronyLovesMLPXenotype" or defName="AntiBronyVsMLPXenotype" or defName="MLPXenotypeAppreciation"]</xpath>
+			<value>
+				<nullifyingHediffs>
+					<li>Inhumanized</li>
+				</nullifyingHediffs>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ponies of the Rim</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/ThoughtDef[defName="MLRP_PonyFurApparelSad" or defName="MLRP_PonyFurApparelHappy" or defName="MLRP_BronyAtePonyMeat" or defName="MLRP_AntiBronyAtePonyMeat" or defName="MLRP_BronyLovesPony" or defName="MLRP_AntiBronyHatesPony"]/nullifyingHediffs</xpath>
+			<match Class="PatchOperationAdd">
+			<xpath>Defs/ThoughtDef[defName="MLRP_PonyFurApparelSad" or defName="MLRP_PonyFurApparelHappy" or defName="MLRP_BronyAtePonyMeat" or defName="MLRP_AntiBronyAtePonyMeat" or defName="MLRP_BronyLovesPony" or defName="MLRP_AntiBronyHatesPony"]/nullifyingHediffs</xpath>
+				<value>
+					<li>Inhumanized</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThoughtDef[defName="MLRP_PonyFurApparelSad" or defName="MLRP_PonyFurApparelHappy" or defName="MLRP_BronyAtePonyMeat" or defName="MLRP_AntiBronyAtePonyMeat" or defName="MLRP_BronyLovesPony" or defName="MLRP_AntiBronyHatesPony"]</xpath>
+				<value>
+					<nullifyingHediffs>
+						<li>Inhumanized</li>
+					</nullifyingHediffs>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+
+</Patch>

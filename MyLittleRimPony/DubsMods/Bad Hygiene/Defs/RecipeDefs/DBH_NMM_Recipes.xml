@@ -1,6 +1,6 @@
 <Defs>
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicMatsTwo">
 	<defName>MLRP_NMM_BionicBladder</defName>
 	<label>request bionic bladder</label>
 	<description>Offer silver in exchange for a bionic bladder.</description>
@@ -30,7 +30,7 @@
 	<researchPrerequisite>HygieneBionics</researchPrerequisite>
 </RecipeDef>
 
-<RecipeDef>
+<RecipeDef ParentName="NMM_BionicMatsTwo">
 	<defName>MLRP_NMM_HygieneEnhancer</defName>
 	<label>request hygiene enhancer</label>
 	<description>Offer silver in exchange for a hygiene enhancer.</description>

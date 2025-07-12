@@ -7,4 +7,11 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/equippedStatOffsets</xpath>
+	<value>
+		<PruningSpeed>1</PruningSpeed>
+	</value>
+</Operation>
+
 </Patch>

@@ -19,4 +19,23 @@
 		</products>	
 	</RecipeDef>
 
+	<RecipeDef ParentName="MLRP_FE_RecipeBase">
+		<defName>MLRP_FE_Exchange_Leather_Dread</defName>
+		<label>exchange dread leather</label>
+		<description>Exchange 100 dread leather for cloth.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Dread</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<Cloth>233</Cloth>
+		</products>	
+	</RecipeDef>
+
 </Defs>

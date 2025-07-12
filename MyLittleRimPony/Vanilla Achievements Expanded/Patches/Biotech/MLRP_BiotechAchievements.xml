@@ -93,6 +93,26 @@
 				<texPath>Achievements/GiftOfTheGab</texPath>
 				<points>25</points>
 			</AchievementsExpanded.AchievementDef>
+			
+			<AchievementsExpanded.AchievementDef>
+				<defName>MLRP_Achievement_DogHouse</defName>
+				<label>Dog House</label>
+				<description>Have three colonists of the diamond dog xenotype</description>
+				<tab>MLRP_DLCAchievementTab</tab>
+				
+				<tracker Class="AchievementsExpanded.XenotypeDefTracker">
+					<requireAll>true</requireAll>
+					<xenotypeDefs>
+						<li>
+							<key>MLRP_Xeno_DiamondDog</key>
+							<value>3</value>
+						</li>
+					</xenotypeDefs>
+				</tracker>
+				
+				<texPath>Achievements/DogHouse</texPath>
+				<points>30</points>
+			</AchievementsExpanded.AchievementDef>
 		
 		</value>
 	</match>

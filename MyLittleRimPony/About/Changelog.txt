@@ -1,3 +1,78 @@
+Version 6.106.185 (July 12th 2025)
+
+* Core: Added five new recipes to the Stone Exchange which allow you to sell excess stone blocks.
+* Ideology: Added a recipe to the Nightmare Moon statue to request 1000 units of raw fungus at a cost of 1200 silver.
+* Anomaly: Added a new recipe to the Fabric Exchange which will allow you to convert 100 dread leather into 233 cloth.
+* Anomaly: Added a new recipe to Thingpone which allows you to purchase a revenant vertebrae.
+	* Unlocked once you research revenant invisibility.
+	* Costs 2850 silver and 1425 twisted meat.
+* Odyssey: Added Nebula Veil's Space Shop.
+	* Sells some DLC items in exchange for silver.
+	* Requires 500 metals, 6 components, and 12 Construction to build.
+	* Can be researched after completing basic gravtech.
+	* Purchasing some items at this building will require your pawns to make use of their skills.
+	* As always, purchasing items at this building is more expensive than acquiring them normally.
+	* Nebula Veil is an original character, owned by me.
+	* Nebula Veil artwork by Sweetpea-and-Friends: https://sweetpea-and-friends.carrd.co
+* Odyssey: Added 3 new recipes, all accessed via Nebula's shop.
+	* Purchase 100 gravlite panels (820 silver and standard gravtech research).
+	* Purchase shuttle engine (3500 silver, shuttles research and 12 Intellectual).
+	* Purchase sentience catalyst (500 silver and 5 Social).
+* Odyssey: Added 6 new recipes to the Fabric Exchange.
+	* Purchase mastodon leather (320 silver)
+	* Purchase sealskin (420 silver)
+	* Purchase thrumbomane (2100 silver)
+	* Purchase mink fur (550 silver)
+	* Purchase hippo leather (390 silver)
+	* Purchase armadillo leather (340 silver)
+* Odyssey: Added the chance to find a unique Rainbow Laser.
+* Vanilla Achievements Expanded/Biotech: Added a new achievement.
+* Vanilla Achievements Expanded/Odyssey: Added a new achievement.
+* Core: Fixed the stonemason not buying stone blocks.
+* Core: Increased the silver cost of requesting some items from the Nightmare Moon statue.
+	* Bionic eye: 1550 silver (was 1300)
+	* Bionic arm: 1550 silver (was 1300)
+	* Bionic leg: 1550 silver (was 1300)
+	* Bionic spine: 1550 silver (was 1300)
+	* Bionic heart: 1550 silver (was 1300)
+	* Bionic stomach: 1180 silver (was 1000)
+	* Bionic ear: 1180 silver (was 1000)
+	* Bionic tongue: 1180 silver (was 1000)
+	* Bionic jaw: 1550 silver (was 750)
+* Core: Requesting bionics from Nightmare Moon now requires you to provide the plasteel and advanced components normally used to make them. (1)
+* Core: Reduced the amount of gold needed for requesting archotech limbs to 250 (was 500). (2)
+* Core: Requesting archotech limbs from Nightmare Moon now requires you to provide plasteel and advanced components instead of bionic limbs. (2)
+* Core: Reduced the cost of researching plushie recycling to 500 (was 3000).
+* Core: Reduced the tech level of the plushie recycling research to Neolithic (was Medieval).
+* Core: Researching how to build Tree Hugger now only requires you to research drug production.
+* Core: Reduced the amount of work needed to build the Stone Exchange to 720 (was 7200).
+* Core: Fixed letters related to new Tree Hugger recipes incorrectly mentioning the Nightmare Moon statue.
+* Core: Making beer at the Daybreaker statue now uses half the regular amount of chemfuel (25, unless you've changed it in XML Extensions).
+* Core: The texture for Screwball now remains the same regardless of which direction it is rotated.
+* Ideology: Fixed the Elements of Harmony not increasing pruning speed.
+* Biotech: Fixed 'XML error: Duplicate XML node name Fertility in this XML block: (massive wall of text)' error.
+* Biotech: Fixed being unable to request a control sublink (standard) from the Nightmare Moon statue after researching standard mechtech.
+* Anomaly: Inhumanised pawns no longer care about friendship and magic.
+	* Thoughts related to the cutie pox, plushies and the party cannon no longer give mood buffs to inhumanised pawns.
+	* Inhumanised anti bronies no longer complain about carrying plushies.
+	* Inhumanised anti bronies no longer complain about having a harmony chip installed.
+	* Inhumanised anti bronies no longer complain about being a pony xenotype.
+* Dubs Bad Hygiene: Requesting bionics from Nightmare Moon now requires you to provide the plasteel and advanced components normally used to make them.
+* Ponies of the Rim: Anti bronies now have a -40 opinion of ponies (was -120). (3)
+* Ponies of the Rim: Anti bronies now have a -40 opinion of ponyx (was -120). (3)
+* Ponies of the Rim: Anti bronies no longer consider ponies and ponyx to be physically appealing.
+* Ponies of the Rim: Fixed anti bronies not having a negative opinion of ponyx.
+* Ponies of the Rim: Fixed bronies not having a positive opinion of ponyx.
+* Ponies of the Rim: Requesting bionics from Nightmare Moon now requires you to provide the plasteel and advanced components normally used to make them.
+* Ponies of the Rim: Thoughts related to eating pony meat no longer apply to inhumanised pawns.
+* Ponies of the Rim: Thoughts related to wearing pony fur apparel no longer apply to inhumanised pawns.
+* Ponies of the Rim: Thoughts related to ponies no longer apply to inhumanised pawns. (Yes, that includes anti bronies hating them.)
+* Vanilla Expanded Framework: Fixed 'Exception loading def from file MLP_Faction_NPC.xml: System.ArgumentException: Could not find type named VFECore.FactionDefExtension... etc' error (only appeared in 1.6).
+
+1. This change was made to bring bionic limb requests in line with mechanitor items, which you also need to provide the other materials for.
+2. This change makes it much faster to request archotech limbs, as you only need to provide the materials needed to make the bionic limbs you would normally have offered before. For example, requesting an archotech leg now costs 2800 silver, 75 plasteel, 20 advanced components, and 250 gold.
+3. It was far too easy to make anti bronies happy by killing ponies, so this change should nerf their mood bonuses.
+
 Version 6.85.147 (June 12th 2025)
 
 * Core: Added minor support for the upcoming RimWorld 1.6 update.

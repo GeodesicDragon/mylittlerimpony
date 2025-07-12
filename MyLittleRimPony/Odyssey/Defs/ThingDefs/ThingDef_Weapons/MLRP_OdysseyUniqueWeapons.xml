@@ -1,0 +1,63 @@
+<Defs>
+
+<ThingDef ParentName="MLRP_RainbowLaserWeapon">
+    <defName>MLRP_ElementsOfHarmonyWeaponised_Unique</defName>
+    <label>unique rainbow laser</label>
+    <description>A rainbow laser with customized parts.</description>
+    <graphicData>
+      <texPath>Things/Weapons/RainbowLaser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <!-- Can't inherit comps because we need to override CompEquippable with CompEquippableAbility -->
+    <!-- If changes are made to the comps of BaseHumanMakeableGun or parents then they will need to be replicated here -->
+    <comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable" /> <!-- Props are populated by traits -->
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li Class="CompProperties_UniqueWeapon">
+        <weaponCategories>
+          <li>Ranged</li>
+          <li>BulletFiring</li>
+          <li>Gun</li>
+          <li>Sighted</li>
+          <li>Rifle</li>
+          <li>BurstFire</li>
+          <li>LowStoppingPower</li>
+          <li>Attachable</li>
+		  <li>PulseCharge</li>
+        </weaponCategories>
+        <namerLabels>
+          <li>rainbow laser</li>
+          <li>power of friendship</li>
+          <li>energy weapon</li>
+          <li>problem solver</li>
+        </namerLabels>
+      </li>
+    </comps>
+    <generateAllowChance>0</generateAllowChance>
+    <possessionCount>0</possessionCount>
+    <tradeability>Sellable</tradeability>
+    <thingSetMakerTags Inherit="False" >
+      <li>RewardStandardLowFreq</li>
+      <li>UniqueWeapon</li>
+    </thingSetMakerTags>
+    <recipeMaker Inherit="False" IsNull="True" />
+    <thingCategories Inherit="False">
+      <li>WeaponsUnique</li>
+    </thingCategories>
+    <descriptionHyperlinks>
+      <ThingDef>MLRP_ElementsOfHarmonyWeaponised</ThingDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

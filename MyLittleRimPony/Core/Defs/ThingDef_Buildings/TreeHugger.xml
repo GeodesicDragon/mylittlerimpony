@@ -49,7 +49,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>MLRP_TreeHuggerResearch</li>
+		<li>MLRP_TreeHuggerResearch</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Power">

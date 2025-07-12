@@ -21,6 +21,10 @@ Unless otherwise specified, all art was sourced from Derpibooru (https://www.der
 
 If you are one of the artists listed below and want me to stop using your work, get in touch with me via the MLRP Discord server. Please be aware that you will need to prove that you are who you say you are before I will respond to your request.
 
+Nurse Haywick and Nebula Veil are both original characters owned by me.
+
+Nebula Veil artwork by Sweetpea-and-Friends: https://sweetpea-and-friends.carrd.co
+
 |---KEY TO SYMBOLS---|
 
 * Source provided on Derpibooru was either missing or invalid.
@@ -120,6 +124,10 @@ Batpony xenotype faction icon: https://game-icons.net/1x1/delapouite/bat.html
 
 Thingpone: dvixie (2640948) ** - Image flipped horizontally
 
+|---ODYSSEY---|
+
+Nebula Veil: Sweetpea-and-Friends (not on Derpibooru)
+
 |---MOD SPECIFIC---|
 
 Unicorn Twilight Sparkle (A RimWorld of Magic): redpandapony (2779548)
@@ -173,6 +181,7 @@ Fun, Fun, Fun, Fun, Fun! - cloudy glow (3453577)
 Tombstone Icon: https://game-icons.net/1x1/sbed/tombstone.html **
 Talking Icon: https://game-icons.net/1x1/skoll/talk.html
 Bat Icon: https://game-icons.net/1x1/skoll/bat.html
+Dog House Icon: https://game-icons.net/1x1/delapouite/dog-house.html
 
 |-----------------------|
 |      PROJECTILES      |

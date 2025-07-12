@@ -25,7 +25,7 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
-      <WorkToBuild>7200</WorkToBuild>
+      <WorkToBuild>720</WorkToBuild>
       <MaxHitPoints>250</MaxHitPoints>
       <Flammability>0</Flammability>
       <Mass>25</Mass>

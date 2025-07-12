@@ -1,0 +1,51 @@
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>MLRP_NebulaVeil</defName>
+		<label>Nebula Veil's Space Shop</label>
+		<description>Nebula Veil will sell you space-themed items in exchange for silver.\n\nDue to her quirky nature, she will expect you to pay using your intellect or your social skills as well as money.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+		  <texPath>Things/Building/NebulaVeil</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>(1,1)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<Steel>500</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+		  <WorkToBuild>7200</WorkToBuild>
+		  <MaxHitPoints>250</MaxHitPoints>
+		  <Flammability>0</Flammability>
+		  <Mass>25</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>MLRP_Buildings</designationCategory>
+		<uiOrder>40</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+		  <li>ITab_Bills</li>
+		</inspectorTabs>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<building>
+		  <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<placeWorkers>
+		  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+		  <li>MLRP_NebulaVeilResearch</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>

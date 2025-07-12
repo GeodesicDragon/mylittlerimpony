@@ -33,7 +33,7 @@
 	<!--C# ROYALTY-->
 	
 	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti brony utilisant harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
-	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Un pion ayant le trait anti-brony a une puce d'harmonie installée. Cette puce inflige une pénalité de -10 à son humeur jusqu'à ce qu'elle soit retirée.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	<MLRP_AntiBronyHasHarmonyChipAlertText MayRequire="Ludeon.RimWorld.Royalty">Un pion ayant le trait anti-brony a une puce d'harmonie installée. Cette puce inflige une pénalité de -10 à son humeur jusqu'à ce qu'elle soit retirée.</MLRP_AntiBronyHasHarmonyChipAlertText>
 	
 	<!--RESEARCH TRACKER-->
 	<!--{0} correspond aux recipe qui ont été débloquées.-->
@@ -46,7 +46,8 @@
 	<MLRP_FELetterText>Désormais disponible à la Bourse aux tissus :\n\n{0}</MLRP_FELetterText>
 	<MLRP_SELetterText>Disponible dès à présent au Stone Exchange :\n\n{0}</MLRP_SELetterText>
 	<MLRP_THLetterText>Disponible dès à présent au Tree Hugger:\n\n{0}</MLRP_THLetterText>
-	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Disponible à la Thingpone :\n\n{0}</MLRP_TPLetterText>
+	<MLRP_TPLetterText>Disponible à la Thingpone :\n\n{0}</MLRP_TPLetterText>
+	<MLRP_NVLetterText>Disponible à la Le magasin spatial de Nebula Veil:\n\n{0}</MLRP_NVLetterText>
 	
 	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>
 	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% to Screwball power output.</MLRP_ExtraScrewballOutputText>

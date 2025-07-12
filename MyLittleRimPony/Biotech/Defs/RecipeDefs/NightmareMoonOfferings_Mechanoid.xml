@@ -3,7 +3,17 @@
 <!--BASES-->
 
 	<RecipeDef Name="NMM_MechanitorOnlyRecipe" Abstract="True">
-		<mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>	
+		<mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
+		<jobString>Making an offering to Nightmare Moon</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_NightmareMoon</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef ParentName="NMM_MechanitorOnlyRecipe" Name="NMM_SignalChipRecipeBase" Abstract="True">
@@ -54,17 +64,7 @@
 	<defName>MLRP_NMM_ControlSublinkStandard</defName>
 	<label>request control sublink (standard)</label>
 	<description>Offer silver and other items in exchange for a control sublink (standard).\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>StandardMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -86,17 +86,7 @@
 	<defName>MLRP_NMM_ControlSublinkHigh</defName>
 	<label>request control sublink (high)</label>
 	<description>Offer silver and other items in exchange for a control sublink (high).\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
     <ingredients>
 		<li>
 			<filter>
@@ -126,17 +116,7 @@
 	<defName>MLRP_NMM_RemoteRepairer</defName>
 	<label>request remote repairer</label>
 	<description>Offer silver and other items in exchange for a remote repairer.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -158,17 +138,7 @@
 	<defName>MLRP_NMM_MechGestationProcessor</defName>
 	<label>request mech gestation processor</label>
 	<description>Offer silver and other items in exchange for a mech gestation processor.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>StandardMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -190,17 +160,7 @@
 	<defName>MLRP_NMM_RemoteShielder</defName>
 	<label>request remote shielder</label>
 	<description>Offer silver and other items in exchange for a remote shielder.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -222,17 +182,7 @@
 	<defName>MLRP_NMM_RepairProbe</defName>
 	<label>request repair probe</label>
 	<description>Offer silver and other items in exchange for a repair probe.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>UltraMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -254,17 +204,7 @@
 	<defName>MLRP_NMM_HighSubcore</defName>
 	<label>request high subcore</label>
 	<description>Offer silver and other items in exchange for a high subcore. This recipe is expensive, but the upside is that it doesn't require anyone to die first.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -286,17 +226,7 @@
 	<defName>MLRP_NMM_SignalChip</defName>
 	<label>request signal chip</label>
 	<description>Offer silver in exchange for a signal chip.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>StandardMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -318,17 +248,7 @@
 	<defName>MLRP_NMM_PowerfocusChip</defName>
 	<label>request powerfocus chip</label>
 	<description>Offer silver in exchange for a powerfocus chip.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -350,17 +270,7 @@
 	<defName>MLRP_NMM_NanostructuringChip</defName>
 	<label>request nanostructuring chip</label>
 	<description>Offer silver in exchange for a nanostructuring chip.\n\nThis recipe can only be performed by a mechanitor.</description>
-    <jobString>Making an offering to Nightmare Moon</jobString>
 	<researchPrerequisite>UltraMechtech</researchPrerequisite>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_NightmareMoon</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>

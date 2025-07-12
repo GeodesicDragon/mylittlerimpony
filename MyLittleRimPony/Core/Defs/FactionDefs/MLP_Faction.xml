@@ -4,7 +4,7 @@
   <FactionDef Abstract="True" Name="MLRP_PlayerFactionBase">
 	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
-	  <!--<li>(255, 192, 203)</li>-->
+	  <li>(0.1, 0.1, 0.1)</li>
 	  <li>(0.5, 0.5, 0.5)</li>
     </colorSpectrum>
     <raidLootValueFromPointsCurve>

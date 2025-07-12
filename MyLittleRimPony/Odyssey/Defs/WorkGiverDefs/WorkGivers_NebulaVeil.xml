@@ -1,0 +1,19 @@
+<Defs>
+
+  <WorkGiverDef>
+    <defName>MLRP_DoStuffWithNebulaVeil</defName>
+    <label>purchase parts</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>BasicWorker</workType>
+    <priorityInType>300</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MLRP_NebulaVeil</li>
+    </fixedBillGiverDefs>
+    <verb>purchase parts at</verb>
+    <gerund>purchasing parts at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+</Defs>

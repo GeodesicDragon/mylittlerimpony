@@ -1,0 +1,34 @@
+<Defs>
+
+<!--REQUEST 1000 RAW FUNGUS-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_RawFungus</defName>
+	<label>request 1000 raw fungus</label>
+	<description>Offer silver in exchange for 1000 raw fungus.</description>
+    <jobString>Making an offering to Nightmare Moon</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>120</count>
+		</li>
+	</ingredients>
+	<products>
+		<RawFungus>1000</RawFungus>
+	</products>
+</RecipeDef>
+
+</Defs>

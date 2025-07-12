@@ -224,4 +224,34 @@
 	</products>	
 </RecipeDef>
 
+<!--PURCHASE REVENANT VERTEBRAE-->
+
+<RecipeDef ParentName="MLRP_Thingpone_RecipeBase">
+	<defName>MLRP_Thingpone_RevenantVertebrae</defName>
+	<label>purchase revenant vertebrae</label>
+	<description>Use silver and twisted meat to purchase a revenant vertebrae.</description>
+	<researchPrerequisite>RevenantInvisibility</researchPrerequisite>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>285</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_Twisted</li>
+				</thingDefs>
+			</filter>
+			<count>1425</count>
+		</li>
+	</ingredients>
+	<products>
+		<RevenantVertebrae>1</RevenantVertebrae>
+	</products>	
+</RecipeDef>
+
 </Defs>

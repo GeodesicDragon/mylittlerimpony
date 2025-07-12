@@ -34,7 +34,7 @@
 
 <!--250 BEER-->
 
-<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
 	<defName>MLRP_DB_CreateTwoHundredFiftyBeer</defName>
 	<label>create beer x 250</label>
 	<description>Create 250 bottles of beer, using chemfuel to accelerate the process.</description>

@@ -34,7 +34,7 @@
 	<!--C# ROYALTY-->
 
 	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti Brony hat einen Harmonie-Chip</MLRP_AntiBronyHasHarmonyChipAlert>
-	<MLRP_AntiBronyHasHarmonyChipExplanation MayRequire="Ludeon.RimWorld.Royalty">Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipExplanation>
+	<MLRP_AntiBronyHasHarmonyChipAlertText MayRequire="Ludeon.RimWorld.Royalty">Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipAlertText>
 
 	<!--RESEARCH TRACKER-->
 	<!--{0} ist das/die Rezept(e), das/die freigeschaltet wurde(n).-->
@@ -47,7 +47,8 @@
 	<MLRP_FELetterText>Jetzt in der Stoffbörse erhältlich:\n\n{0}</MLRP_FELetterText>
 	<MLRP_SELetterText>Jetzt in der Steinbörse erhältlich:\n\n{0}</MLRP_SELetterText>
 	<MLRP_THLetterText>Jetzt erhältlich bei Tree Hugger:\n\n{0}</MLRP_THLetterText>
-	<MLRP_TPLetterText MayRequire="Ludeon.RimWorld.Anomaly">Jetzt erhältlich bei Thingpone:\n\n{0}</MLRP_TPLetterText>
+	<MLRP_TPLetterText>Jetzt erhältlich bei Thingpone:\n\n{0}</MLRP_TPLetterText>
+	<MLRP_NVLetterText>Jetzt erhältlich bei Nebula Veils Weltraumladen:\n\n{0}</MLRP_NVLetterText>
 	
 	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Fortschrittliche Leistung erforscht</MLRP_ExtraScrewballOutputTitle>
 	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
