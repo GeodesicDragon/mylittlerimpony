@@ -553,6 +553,11 @@ namespace MLRP_ResearchTracker
                 NVRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NV_GravlitePanels").label;
                 string NVLetterText = "MLRP_NVLetterText".Translate(NVRecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, NVLetterText, MLRP_NewRecipeUnlocked);
+				
+				// STONE EXCHANGE
+				SERecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_SE_VacstoneBlocks").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_SE_SellVacstoneBlocks").label;
+                string SELetterText = "MLRP_SELetterText".Translate(SERecipeUnlocked);
+                Find.LetterStack.ReceiveLetter(LetterTitle, SELetterText, MLRP_NewRecipeUnlocked);
             }
 			
             if (ModsConfig.IsActive("Ludeon.RimWorld.Odyssey") && proj == DefDatabase<ResearchProjectDef>.GetNamed("Shuttles"))

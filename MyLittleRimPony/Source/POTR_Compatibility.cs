@@ -18,7 +18,7 @@ namespace MLRP_PoniesOfTheRim
 				{
 					return false;
 				}
-				if (otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pegasus") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Unicorn"))
+				if (otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony_PegasusBody") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony_EarthponyBody") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony_UnicornBody"))
 				{
 					return false;
 				}
@@ -43,7 +43,7 @@ namespace MLRP_PoniesOfTheRim
 				}
 				if (pawn.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamed("MLRP_BronyTrait")))
 				{
-					if (otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pegasus") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Unicorn"))
+					if (otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony_PegasusBody") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony_EarthponyBody") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony_UnicornBody"))
 					{
 						return 20f;
 					}
@@ -65,7 +65,7 @@ namespace MLRP_PoniesOfTheRim
 				{
 					return false;
 				}
-				if (otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pegasus") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Unicorn"))
+				if (otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony_PegasusBody") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony_EarthponyBody") && otherPawn.def.race.body != DefDatabase<BodyDef>.GetNamed("Pony_UnicornBody"))
 				{
 					return false;
 				}
@@ -90,7 +90,7 @@ namespace MLRP_PoniesOfTheRim
 				}
 				if (pawn.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamed("MLRP_AntiBronyTrait")))
 				{
-					if (otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pegasus") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Unicorn"))
+					if (otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony_PegasusBody") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony_EarthponyBody") || otherPawn.def.race.body == DefDatabase<BodyDef>.GetNamed("Pony_UnicornBody"))
 					{
 						return -40f;
 					}
@@ -282,9 +282,9 @@ namespace MLRP_PoniesOfTheRim
             XenotypeDef xenotype = other.genes.Xenotype;
 
             bool isPonyRace =
-                body == DefDatabase<BodyDef>.GetNamed("Pegasus") ||
-                body == DefDatabase<BodyDef>.GetNamed("Pony") ||
-                body == DefDatabase<BodyDef>.GetNamed("Unicorn") ||
+                body == DefDatabase<BodyDef>.GetNamed("Pony_PegasusBody") ||
+                body == DefDatabase<BodyDef>.GetNamed("Pony_EarthponyBody") ||
+                body == DefDatabase<BodyDef>.GetNamed("Pony_UnicornBody") ||
                 xenotype == DefDatabase<XenotypeDef>.GetNamed("Ponyx");
 
             if (isPonyRace)

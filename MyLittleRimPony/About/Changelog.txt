@@ -1,3 +1,20 @@
+Version 6.108.193 (July 14th 2025)
+
+* Odyssey: Added two new recipes to the Stone Exchange which allow you to buy and sell vacstone.
+	* Vacstone has a market value of 2 silver, so 100 blocks will cost or gain you 200 silver.
+	* Unlocked once you research advanced gravtech.
+* Ideology: Fixed 'Could not load Texture2D at 'Things/Plant/TreeAnima_Immature' in any active mod or in base resources' error.
+* Odyssey: Increased the price of 50 gravlite panels at Nebula's shop to 1320 silver (was 820). This includes the price of the 250 vacstone blocks you would normally have used to make them.
+* MendAndRecycle: Pony plushies can no longer be recycled using the 'recycle apparel' recipe. (1)
+* Ponies of the Rim: Fixed a bug which would cause your game to crash to desktop if encountered.
+* Ponies of the Rim: Fixed 'No RimWorld.FactionDef named Pony_PlayerExpedition found to give to VEF.Factions.StartingGoodwillByFaction (null with starting goodwill of 100)' error.
+* XML Extensions: Fixed 'MatFrom with null sourceTex' error. (2)
+* XML Extensions: Fixed 'EmitModSubclass called with null ModContentPack' error. (2)
+* XML Extensions: Fixed harmony tree patch incorrectly requiring the Ideology DLC.
+
+1. I noticed that plushies were being recycled the moment they were made, so this change aims to fix that issue.
+2. Thanks to Imranfish (XML Extensions dev) for pointing me towards fixing these issues.
+
 Version 6.106.185 (July 12th 2025)
 
 * Core: Added five new recipes to the Stone Exchange which allow you to sell excess stone blocks.

@@ -1,0 +1,26 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MendAndRecycle</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/RecipeDef[defName="RecycleApparel"]/fixedIngredientFilter/disallowedCategories</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="RecycleApparel"]/fixedIngredientFilter</xpath>
+				<value>
+					<disallowedCategories>
+						<li>Pony_Plushies</li>
+					</disallowedCategories>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="RecycleApparel"]/fixedIngredientFilter/disallowedCategories</xpath>
+				<value>
+					<li>Pony_Plushies</li>
+				</value>
+			</match>
+		</match>
+	</Operation>
+
+</Patch>

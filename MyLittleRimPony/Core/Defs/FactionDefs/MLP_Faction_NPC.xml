@@ -158,7 +158,8 @@
 			<startingGoodwillByFactionDefs>
 				<MLRP_BronyFaction>100</MLRP_BronyFaction>
 				<MLRP_RenegadeAlicornFaction MayRequire="Ludeon.RimWorld.Biotech">-75</MLRP_RenegadeAlicornFaction>
-				<Pony_PlayerExpedition MayRequire="Pony.PoniesOfTheRim.Core">100</Pony_PlayerExpedition>
+				<PonyColony MayRequire="Pony.PoniesOfTheRim.Core">100</PonyColony>
+				<PonyTribe MayRequire="Pony.PoniesOfTheRim.Core">100</PonyTribe>
 			</startingGoodwillByFactionDefs>			
 		</li>
 	</modExtensions>
