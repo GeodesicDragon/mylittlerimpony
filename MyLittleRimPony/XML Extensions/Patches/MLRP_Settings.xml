@@ -1230,6 +1230,232 @@
 				</Operation>
 			</apply>
 		</li>
+		
+		<!--BIOTECH: XENOTYPES HAVE DRUG DEPENDENCIES-->
+		<li Class="XmlExtensions.OptionalPatch" MayRequire="Ludeon.RimWorld.Biotech">
+			<modId>geodesicdragon.rimpony</modId>
+			<key>MLRP_BiotechXenotypesNeedDrugs</key>
+			<defaultValue>false</defaultValue>
+			<caseTrue>
+				
+				<!--UNICORN-->
+				
+				<Operation Class="XmlExtensions.HybridPatch">
+					<xpath>Defs/XenotypeDef[defName="MLRP_Xeno_Unicorn"]</xpath>
+					<value>
+						<description Operation="Replace">This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.\n\nFurthermore, a side effect of the xenogerm creation process has left them dependent on wake-up to keep going.</description>
+						<descriptionShort Operation="Replace">Unicorns excel at research and medicine, but struggle with more manual skills. They are calm, fast learners with a dependence on wake-up.</descriptionShort>
+						<genes Operation="Replace">
+							<li>Superclotting</li>
+							<li>Headbone_CenterHorn</li>
+							<li>Aggression_DeadCalm</li>
+							<li>Learning_Fast</li>
+							<li>AptitudeTerrible_Construction</li>
+							<li>AptitudeTerrible_Mining</li>
+							<li>AptitudeTerrible_Plants</li>
+							<li>AptitudeTerrible_Animals</li>
+							<li>AptitudeRemarkable_Intellectual</li>
+							<li>AptitudeRemarkable_Medicine</li>
+							<li>ChemicalDependency_WakeUp</li>
+							<li>Jaw_Baseline</li>
+							<li>Ears_Human</li>
+							<li>Nose_Human</li>
+							<li>MLRP_VoiceHorse</li>
+							<li>Hands_Human</li>
+							<li>Body_Thin</li>
+							<li>Hair_LightBlue</li>
+							<li>Hair_LightTeal</li>
+							<li>Hair_LightGreen</li>
+							<li>Hair_Pink</li>
+							<li>Hair_LightPurple</li>
+							<li>Hair_BrightRed</li>
+							<li>MLRP_BronyGene</li>
+						</genes>
+					</value>
+				</Operation>
+				
+				<!--PEGASUS-->
+				
+				<Operation Class="XmlExtensions.HybridPatch">
+					<xpath>Defs/XenotypeDef[defName="MLRP_Xeno_Pegasus"]</xpath>
+					<value>
+						<description Operation="Replace">This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities, as well as leaving them dependent on regular doses of go-juice.</description>
+						<descriptionShort Operation="Replace">Pegasi excel at combat, but struggle with everything else. They are aggressive, fast movers and can see in the dark. They are also dependent on go-juice.</descriptionShort>
+						<genes Operation="Replace">
+							<li>MoveSpeed_VeryQuick</li>
+							<li>Aggression_HyperAggressive</li>
+							<li>MeleeDamage_Strong</li>
+							<li>DarkVision</li>
+							<li>AptitudeRemarkable_Shooting</li>
+							<li>AptitudeRemarkable_Melee</li>
+							<li>AptitudePoor_Construction</li>
+							<li>AptitudePoor_Mining</li>
+							<li>AptitudePoor_Cooking</li>
+							<li>AptitudePoor_Plants</li>
+							<li>AptitudePoor_Animals</li>
+							<li>AptitudePoor_Crafting</li>
+							<li>AptitudePoor_Artistic</li>
+							<li>AptitudeRemarkable_Medicine</li>
+							<li>AptitudeTerrible_Social</li>
+							<li>AptitudePoor_Intellectual</li>
+							<li>ChemicalDependency_GoJuice</li>
+							<li>Jaw_Baseline</li>
+							<li>Ears_Human</li>
+							<li>Nose_Human</li>
+							<li>MLRP_VoiceHorse</li>
+							<li>Hands_Human</li>
+							<li>Body_Thin</li>
+							<li>Hair_LightBlue</li>
+							<li>Hair_LightTeal</li>
+							<li>Hair_LightGreen</li>
+							<li>Hair_Pink</li>
+							<li>Hair_LightPurple</li>
+							<li>Hair_BrightRed</li>
+							<li>MLRP_BronyGene</li>
+						</genes>
+					</value>
+				</Operation>
+				
+				<!--DIAMOND DOG-->
+				
+				<Operation Class="XmlExtensions.HybridPatch">
+					<xpath>Defs/XenotypeDef[defName="MLRP_Xeno_DiamondDog"]</xpath>
+					<value>
+						<description Operation="Replace">This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nDiamond Dogs are exceptional miners who thrive in the underground parts of the world, where they have developed strong stomachs, super strong immunity, a complete disregard for psychic phenomena, and a lowered need to sleep. A lifetime spent underground has built up their resistances to varying levels of cold and heat, though side effects of the xenogerm implantation process include a heightened level of aggression, as well as a poison joke dependency.</description>
+						<descriptionShort Operation="Replace">Diamond Dogs are exceptional miners with strong stomachs and immune systems, total immunity to psychic phenomena, and a less frequent need for rest. They are also resistant to cold and heat, but highly aggressive and dependent on regular doses of poison joke.</descriptionShort>
+						<genes Operation="Replace">
+							<li>StrongStomach</li>
+							<li>Immunity_SuperStrong</li>
+							<li>PsychicAbility_Deaf</li>
+							<li>MinTemp_LargeDecrease</li>
+							<li>MaxTemp_LargeIncrease</li>
+							<li>Aggression_HyperAggressive</li>
+							<li>LowSleep</li>
+							<li>Tail_Furry</li>
+							<li>Ears_Floppy</li>
+							<li>VoiceRoar</li>
+							<li>Body_Standard</li>
+							<li>Body_Hulk</li>
+							<li>DarkVision</li>
+							<li>Furskin</li>
+							<li>AptitudeTerrible_Shooting</li>
+							<li>AptitudeRemarkable_Mining</li>
+							<li>AptitudeTerrible_Crafting</li>
+							<li>AptitudeTerrible_Medicine</li>
+							<li>ChemicalDependency_MLRP_PoisonJoke</li>
+						</genes>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+			
+				<!--UNICORN-->
+				
+				<Operation Class="XmlExtensions.HybridPatch">
+					<xpath>Defs/XenotypeDef[defName="MLRP_Xeno_Unicorn"]</xpath>
+					<value>
+						<description Operation="Replace">This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.</description>
+						<descriptionShort Operation="Replace">Unicorns are calm, fast learners who excel at research and medicine, but struggle with more manual skills.</descriptionShort>
+						<genes Operation="Replace">
+							<li>Superclotting</li>
+							<li>Headbone_CenterHorn</li>
+							<li>Aggression_DeadCalm</li>
+							<li>Learning_Fast</li>
+							<li>AptitudeTerrible_Construction</li>
+							<li>AptitudeTerrible_Mining</li>
+							<li>AptitudeTerrible_Plants</li>
+							<li>AptitudeTerrible_Animals</li>
+							<li>AptitudeRemarkable_Intellectual</li>
+							<li>AptitudeRemarkable_Medicine</li>
+							<li>Jaw_Baseline</li>
+							<li>Ears_Human</li>
+							<li>Nose_Human</li>
+							<li>MLRP_VoiceHorse</li>
+							<li>Hands_Human</li>
+							<li>Body_Thin</li>
+							<li>Hair_LightBlue</li>
+							<li>Hair_LightTeal</li>
+							<li>Hair_LightGreen</li>
+							<li>Hair_Pink</li>
+							<li>Hair_LightPurple</li>
+							<li>Hair_BrightRed</li>
+							<li>MLRP_BronyGene</li>
+						</genes>
+					</value>
+				</Operation>
+				
+				<!--PEGASUS-->
+				
+				<Operation Class="XmlExtensions.HybridPatch">
+					<xpath>Defs/XenotypeDef[defName="MLRP_Xeno_Pegasus"]</xpath>
+					<value>
+						<description Operation="Replace">This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities.</description>
+						<descriptionShort Operation="Replace">Pegasi excel at combat, but struggle with everything else. They are aggressive, fast movers who perform well in melee and can see in the dark.</descriptionShort>
+						<genes Operation="Replace">
+							<li>MoveSpeed_VeryQuick</li>
+							<li>Aggression_HyperAggressive</li>
+							<li>MeleeDamage_Strong</li>
+							<li>DarkVision</li>
+							<li>AptitudeRemarkable_Shooting</li>
+							<li>AptitudeRemarkable_Melee</li>
+							<li>AptitudePoor_Construction</li>
+							<li>AptitudePoor_Mining</li>
+							<li>AptitudePoor_Cooking</li>
+							<li>AptitudePoor_Plants</li>
+							<li>AptitudePoor_Animals</li>
+							<li>AptitudePoor_Crafting</li>
+							<li>AptitudePoor_Artistic</li>
+							<li>AptitudeRemarkable_Medicine</li>
+							<li>AptitudeTerrible_Social</li>
+							<li>AptitudePoor_Intellectual</li>
+							<li>Jaw_Baseline</li>
+							<li>Ears_Human</li>
+							<li>Nose_Human</li>
+							<li>MLRP_VoiceHorse</li>
+							<li>Hands_Human</li>
+							<li>Body_Thin</li>
+							<li>Hair_LightBlue</li>
+							<li>Hair_LightTeal</li>
+							<li>Hair_LightGreen</li>
+							<li>Hair_Pink</li>
+							<li>Hair_LightPurple</li>
+							<li>Hair_BrightRed</li>
+							<li>MLRP_BronyGene</li>
+						</genes>
+					</value>
+				</Operation>
+				
+				<!--DIAMOND DOG-->
+				
+				<Operation Class="XmlExtensions.HybridPatch">
+					<xpath>Defs/XenotypeDef[defName="MLRP_Xeno_DiamondDog"]</xpath>
+					<value>
+						<description Operation="Replace">This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nDiamond Dogs are exceptional miners who thrive in the underground parts of the world, where they have developed strong stomachs, super strong immunity, a complete disregard for psychic phenomena, and a lowered need to sleep. A lifetime spent underground has built up their resistances to varying levels of cold and heat, though a side effect of the xenogerm implantation process has resulted in a heightened level of aggression.</description>
+						<descriptionShort Operation="Replace">Diamond Dogs are exceptional miners with strong stomachs and immune systems, total immunity to psychic phenomena, and a less frequent need for rest. They are also resistant to cold and heat, but highly aggressive.</descriptionShort>
+						<genes Operation="Replace">
+							<li>StrongStomach</li>
+							<li>Immunity_SuperStrong</li>
+							<li>PsychicAbility_Deaf</li>
+							<li>MinTemp_LargeDecrease</li>
+							<li>MaxTemp_LargeIncrease</li>
+							<li>Aggression_HyperAggressive</li>
+							<li>LowSleep</li>
+							<li>Tail_Furry</li>
+							<li>Ears_Floppy</li>
+							<li>VoiceRoar</li>
+							<li>Body_Standard</li>
+							<li>Body_Hulk</li>
+							<li>DarkVision</li>
+							<li>Furskin</li>
+							<li>AptitudeTerrible_Shooting</li>
+							<li>AptitudeRemarkable_Mining</li>
+							<li>AptitudeTerrible_Crafting</li>
+							<li>AptitudeTerrible_Medicine</li>
+						</genes>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
 	</operations>
 </Operation>
 

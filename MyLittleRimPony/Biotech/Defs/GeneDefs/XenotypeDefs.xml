@@ -84,8 +84,8 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Unicorn</defName>
     <label>unicorn</label>
-    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.\n\nFurthermore, a side effect of the xenogerm creation process has left them dependent on wake-up to keep going.</description>
-    <descriptionShort>Unicorns excel at research and medicine, but struggle with more manual skills. They are calm, fast learners with a dependence on wake-up.</descriptionShort>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nUnicorns are very smart, exceptionally calm, and stop bleeding quickly. They are fast learners, but terrible at manual labour tasks such as mining.</description>
+    <descriptionShort>Unicorns are calm, fast learners who excel at research and medicine, but struggle with more manual skills.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Unicorn</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
     <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
@@ -102,7 +102,6 @@
 		<li>AptitudeTerrible_Animals</li>
 		<li>AptitudeRemarkable_Intellectual</li>
 		<li>AptitudeRemarkable_Medicine</li>
-		<li>ChemicalDependency_WakeUp</li>
 		<li>Jaw_Baseline</li>
 		<li>Ears_Human</li>
 		<li>Nose_Human</li>
@@ -122,8 +121,8 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_Pegasus</defName>
     <label>pegasus</label>
-    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities, as well as leaving them dependent on regular doses of go-juice.</description>
-    <descriptionShort>Pegasi excel at combat, but struggle with everything else. They are aggressive, fast movers and can see in the dark. They are also dependent on go-juice.</descriptionShort>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nPegasi excel at combat, but have poor skills in pretty much everything else. They can see in the dark, move very fast, and don't consume any more or less food than baseliners.\n\nHowever, a side effect of the xenogerm implantation process has heightened their aggression levels, which seriously hampers their social abilities.</description>
+    <descriptionShort>Pegasi excel at combat, but struggle with everything else. They are aggressive, fast movers who perform well in melee and can see in the dark.</descriptionShort>
 	<iconPath>UI/Icons/Genes/Pegasus</iconPath>
 	<nameMaker>NamerBrony</nameMaker>
     <nameMakerFemale>NamerBronyFemale</nameMakerFemale>
@@ -146,7 +145,6 @@
 		<li>AptitudeRemarkable_Medicine</li>
 		<li>AptitudeTerrible_Social</li>
 		<li>AptitudePoor_Intellectual</li>
-		<li>ChemicalDependency_GoJuice</li>
 		<li>Jaw_Baseline</li>
 		<li>Ears_Human</li>
 		<li>Nose_Human</li>
@@ -220,8 +218,8 @@
 <XenotypeDef>
     <defName>MLRP_Xeno_DiamondDog</defName>
     <label>diamond dog</label>
-    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nDiamond Dogs are exceptional miners who thrive in the underground parts of the world, where they have developed strong stomachs, super strong immunity, a complete disregard for psychic phenomena, and a lowered need to sleep. A lifetime spent underground has built up their resistances to varying levels of cold and heat, though side effects of the xenogerm implantation process include a heightened level of aggression, as well as a poison joke dependency.</description>
-    <descriptionShort>Diamond Dogs are exceptional miners with strong stomachs and immune systems, total immunity to psychic phenomena, and a less frequent need for rest. They are also resistant to cold and heat, but highly aggressive and dependent on regular doses of poison joke.</descriptionShort>
+    <description>This xenotype is one of several that was created by a group calling itself the 'Equestrian Integration Society.' Their goal was to create xenotypes based on the many races that inhabit Equestria, but the end results turned out to be much different than they expected.\n\nDiamond Dogs are exceptional miners who thrive in the underground parts of the world, where they have developed strong stomachs, super strong immunity, a complete disregard for psychic phenomena, and a lowered need to sleep. A lifetime spent underground has built up their resistances to varying levels of cold and heat, though a side effect of the xenogerm implantation process has resulted in a heightened level of aggression.</description>
+    <descriptionShort>Diamond Dogs are exceptional miners with strong stomachs and immune systems, total immunity to psychic phenomena, and a less frequent need for rest. They are also resistant to cold and heat, but highly aggressive.</descriptionShort>
 	<iconPath>UI/Icons/Genes/DiamondDog</iconPath>
 	<nameMaker>NamerDog</nameMaker>
 	<nameMakerFemale>NamerDogFemale</nameMakerFemale>
@@ -246,7 +244,6 @@
 			<li>AptitudeRemarkable_Mining</li>
 			<li>AptitudeTerrible_Crafting</li>
 			<li>AptitudeTerrible_Medicine</li>
-			<li>ChemicalDependency_MLRP_PoisonJoke</li>
 	</genes>
 </XenotypeDef>
 

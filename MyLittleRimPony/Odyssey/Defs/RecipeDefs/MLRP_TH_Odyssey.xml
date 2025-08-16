@@ -1,0 +1,67 @@
+<Defs>
+
+<!--CONVERT SILVER TO POISON JOKE-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertSilverIntoPsilocap</defName>
+	<label>purchase 10 psilocap</label>
+	<description>Purchase psilocap mushrooms using silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<products>
+		<Drug_Psilocap>10</Drug_Psilocap>
+	</products>
+</RecipeDef>
+
+<!--CONVERT POISON JOKE TO SILVER-->
+
+<RecipeDef>
+	<defName>MLRP_TH_ConvertPsilocapIntoSilver</defName>
+	<label>sell 100 psilocap</label>
+	<description>Convert psilocap mushrooms into silver.</description>
+	<researchPrerequisite>DrugProduction</researchPrerequisite>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Ingest_Smoke</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Drug_Psilocap</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+
+</Defs>

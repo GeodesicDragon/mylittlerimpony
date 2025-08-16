@@ -71,4 +71,29 @@
 		</skillRequirements>
 	</RecipeDef>
 	
+	<!--PURCHASE PILOT ASSISTANT-->
+	
+	<RecipeDef ParentName="MLRP_NebulaVeilBase">
+		<defName>MLRP_NV_PilotAssistant</defName>
+		<label>purchase pilot assistant</label>
+		<description>Offer silver in exchange for a pilot assistant.\n\nNebula will expect you to show some knowledge of piloting before she will sell it to you.</description>
+		<researchPrerequisite>AdvancedGravtech</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		<products>
+			<PilotAssistant>1</PilotAssistant>
+		</products>
+		<skillRequirements>
+			<Intellectual>8</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
 </Defs>

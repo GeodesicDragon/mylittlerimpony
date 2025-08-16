@@ -1,0 +1,22 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PonyPlush_SpoiledRich"]/equippedStatOffsets</xpath>
+		<value>
+			<VacuumResistance>0.1</VacuumResistance>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PonyPlush_SpoiledRich_Child"]/equippedStatOffsets</xpath>
+			<value>
+				<VacuumResistance>0.2</VacuumResistance>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

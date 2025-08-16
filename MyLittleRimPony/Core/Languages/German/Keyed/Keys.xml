@@ -1,11 +1,10 @@
-<!--Übersetzungen zur Verfügung gestellt von Google und DeepL. Zögern Sie nicht, mir Ihre Korrekturen mitzuteilen!-->
-
 <LanguageData>
 
 	<!--C# CORE-->
 	<MLRP_WelcomeMessage>[My Little RimPony] v{0} geladen. Denken Sie daran, Freundschaft ist Magie!</MLRP_WelcomeMessage><!--Wird im Protokoll angezeigt, wenn das Spiel in das Hauptmenü geladen wird. {0} ist die aktuelle Version und wird automatisch abgerufen.-->
 	<MLRP_PawnCured>{0} wurde von {1} geheilt.</MLRP_PawnCured> <!--Wird oben auf dem Bildschirm angezeigt, wenn ein Bauer mit dem Giftwitz-Heilungsset geheilt wird. {0} ist der Name des Bauern und {1} ist das, wovon sie geheilt wurden.-->
-	<MLRP_NothingToCure>[My Little RimPony] Warnung: Es wurde versucht, nicht existierende Hediff(s) zu heilen.</MLRP_NothingToCure> <!--Wird im Protokoll angezeigt, wenn das Giftwitz-Heilungsset für einen Bauern verwendet wird, der nicht an einem Giftwitz und/oder einer magischen Kuchensucht leidet.-->
+	<MLRP_CureFailed>[My Little RimPony] Warnung: Es wurde versucht, nicht existierende Hediff(s) zu heilen.</MLRP_CureFailed> <!--Wird im Protokoll angezeigt, wenn das Giftwitz-Heilungsset für einen Bauern verwendet wird, der nicht an einem Giftwitz und/oder einer magischen Kuchensucht leidet.-->
+	<MLRP_NothingToCure>[My Little RimPony] Warnung: Versuch, nicht vorhandene hediff(s) auf {0} zu beheben.</MLRP_NothingToCure> <!--Wird im Protokoll angezeigt, wenn ein Kolonist, der nicht an einer Krankheit leidet, die damit geheilt werden kann, ein Gift-Joke-Heilmittel verwendet. {0} ist der Name des Kolonisten.-->
 	<MLRP_AntiBronyHasPlushieAlert>Anti-Brony mit Plüschtier</MLRP_AntiBronyHasPlushieAlert> <!--Wird an der Seite des Bildschirms angezeigt, wenn eine Figur mit der Anti-Brony-Eigenschaft ein Plüschtier ausgerüstet hat.-->
 	<MLRP_AntiBronyHasPlushieExplanation>Eine Figur mit der Anti-Brony-Eigenschaft ist mit einem Pony-Plüschtier ausgestattet, das eine Stimmungsstrafe verursacht, bis es fallen gelassen wird. Um dies zu verhindern, könnte es sich lohnen, Anti-Bronies ein eigenes Outfit zuzuweisen.</MLRP_AntiBronyHasPlushieExplanation>
 	<MLRP_PoisonJokeLetterTitle>Giftwitz-Betroffenheit</MLRP_PoisonJokeLetterTitle> <!--Titel des Briefes, der erhalten wurde, nachdem ein Bauer einen Giftwitz geraucht hat.-->
@@ -33,8 +32,8 @@
 
 	<!--C# ROYALTY-->
 
-	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti Brony hat einen Harmonie-Chip</MLRP_AntiBronyHasHarmonyChipAlert>
-	<MLRP_AntiBronyHasHarmonyChipAlertText MayRequire="Ludeon.RimWorld.Royalty">Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipAlertText>
+	<MLRP_AntiBronyHasHarmonyChipAlert>Anti Brony hat einen Harmonie-Chip</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipAlertText>Auf einem Bauern mit der Anti-Brony-Eigenschaft ist ein Harmonie-Chip installiert. Dies führt zu einem Abzug von -10 auf ihre Stimmung, bis dieser entfernt wird.</MLRP_AntiBronyHasHarmonyChipAlertText>
 
 	<!--RESEARCH TRACKER-->
 	<!--{0} ist das/die Rezept(e), das/die freigeschaltet wurde(n).-->
@@ -50,7 +49,10 @@
 	<MLRP_TPLetterText>Jetzt erhältlich bei Thingpone:\n\n{0}</MLRP_TPLetterText>
 	<MLRP_NVLetterText>Jetzt erhältlich bei Nebula Veils Weltraumladen:\n\n{0}</MLRP_NVLetterText>
 	
-	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Fortschrittliche Leistung erforscht</MLRP_ExtraScrewballOutputTitle>
-	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
+	<!--MODS-->
+	
+	<MLRP_ExtraScrewballOutputTitle>Fortschrittliche Leistung erforscht</MLRP_ExtraScrewballOutputTitle>
+	<MLRP_ExtraScrewballOutputText>+50% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
+	<MLRP_MedievalOverhaul>[My Little RimPony] Mittelalterliche Überarbeitungspatches wurden angewendet.</MLRP_MedievalOverhaul>
 
 </LanguageData>

@@ -1,6 +1,19 @@
 <Defs>
 
-	<RecipeDef Name="DaybreakerRecipes_HalfChemfuel" Abstract="True">
+	<RecipeDef Name="DaybreakerRecipeBase" Abstract="True">
+		<jobString>Converting materials</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_Daybreaker</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="DaybreakerRecipes_HalfChemfuel" ParentName="DaybreakerRecipeBase" Abstract="True">
 		<ingredients>
 			<li>
 				<filter>
@@ -13,7 +26,7 @@
 		</ingredients>
 	</RecipeDef>
 
-	<RecipeDef Name="DaybreakerRecipes_RegularChemfuel" Abstract="True">
+	<RecipeDef Name="DaybreakerRecipes_RegularChemfuel" ParentName="DaybreakerRecipeBase" Abstract="True">
 		<ingredients>
 			<li>
 				<filter>
@@ -26,7 +39,7 @@
 		</ingredients>
 	</RecipeDef>
 	
-	<RecipeDef Name="DaybreakerRecipes_DoubleChemfuel" Abstract="True">
+	<RecipeDef Name="DaybreakerRecipes_DoubleChemfuel" ParentName="DaybreakerRecipeBase" Abstract="True">
 		<ingredients>
 			<li>
 				<filter>
@@ -39,7 +52,7 @@
 		</ingredients>
 	</RecipeDef>
 	
-	<RecipeDef Name="DaybreakerRecipes_TripleChemfuel" Abstract="True">
+	<RecipeDef Name="DaybreakerRecipes_TripleChemfuel" ParentName="DaybreakerRecipeBase" Abstract="True">
 		<ingredients>
 			<li>
 				<filter>
@@ -52,7 +65,7 @@
 		</ingredients>
 	</RecipeDef>
 	
-	<RecipeDef Name="DaybreakerRecipes_QuadrupleChemfuel" Abstract="True">
+	<RecipeDef Name="DaybreakerRecipes_QuadrupleChemfuel" ParentName="DaybreakerRecipeBase" Abstract="True">
 		<ingredients>
 			<li>
 				<filter>
@@ -65,7 +78,7 @@
 		</ingredients>
 	</RecipeDef>
 	
-	<RecipeDef Name="DaybreakerRecipes_QuintupleChemfuel" Abstract="True">
+	<RecipeDef Name="DaybreakerRecipes_QuintupleChemfuel" ParentName="DaybreakerRecipeBase" Abstract="True">
 		<ingredients>
 			<li>
 				<filter>

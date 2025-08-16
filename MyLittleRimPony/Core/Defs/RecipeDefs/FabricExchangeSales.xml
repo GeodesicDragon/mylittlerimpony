@@ -625,5 +625,26 @@
 		<Leather_Wolf>100</Leather_Wolf>
 	</products>	
 </RecipeDef>
+
+<!--PURCHASE DYE-->
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Dye</defName>
+	<label>purchase dye</label>
+	<description>Use silver to purchase 10 dye.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+	</ingredients>
+	<products>
+		<Dye>10</Dye>
+	</products>	
+</RecipeDef>
   
 </Defs>

@@ -82,7 +82,7 @@
 			<tags>
 				<li>PonyPlushie</li>
 			</tags>
-			<developmentalStageFilter>Child</developmentalStageFilter>
+			<developmentalStageFilter>Baby, Child</developmentalStageFilter>
 		</apparel>
 	</ThingDef>
 </Defs>

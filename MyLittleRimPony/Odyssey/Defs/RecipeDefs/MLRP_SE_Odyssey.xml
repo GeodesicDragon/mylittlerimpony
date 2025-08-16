@@ -28,6 +28,7 @@
 	<defName>MLRP_SE_SellVacstoneBlocks</defName>
 	<label>sell vacstone blocks</label>
 	<description>Sell 100 vacstone blocks in exchange for silver.</description>
+	<jobString>Selling materials</jobString>
 	<researchPrerequisite>AdvancedGravtech</researchPrerequisite>
     <ingredients>
 		<li>

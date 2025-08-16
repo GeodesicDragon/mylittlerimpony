@@ -1,6 +1,8 @@
 ﻿using HarmonyLib;
 using RimWorld;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Verse;
 
@@ -141,43 +143,43 @@ namespace MLRP_PoniesOfTheRim
 		}
 	}
 
-	// PONY MEAT CONSUMPTION
+    // PONY MEAT CONSUMPTION
 
-	[HarmonyPatch(typeof(JobDriver_Ingest), "MakeNewToils")]
-	public static class JobDriver_Ingest_MakeNewToils_Patch
-	{
-		static void Postfix(JobDriver_Ingest __instance)
-		{
-			Pawn pawn = __instance.pawn;
-			Thing food = __instance.job.targetA.Thing;
+    [HarmonyPatch(typeof(JobDriver_Ingest), "MakeNewToils")]
+    public static class JobDriver_Ingest_MakeNewToils_Patch
+    {
+        static void Postfix(JobDriver_Ingest __instance)
+        {
+            Pawn pawn = __instance.pawn;
+            Thing food = __instance.job.targetA.Thing;
 
-			if (food != null && pawn.story?.traits?.HasTrait(TraitDef.Named("MLRP_BronyTrait")) == true)
-			{
-				if (food.def == DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony") ||
-					food.TryGetComp<CompIngredients>()?.ingredients?.Contains(DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony")) == true)
-				{
-					// Add memory thought
-					pawn.needs.mood.thoughts.memories.TryGainMemory(DefDatabase<ThoughtDef>.GetNamed("MLRP_BronyAtePonyMeat"));
-					//Log.Message($"[DEBUG] Thought applied to {pawn.Name}");
-				}
-			}
+            if (food != null && pawn.story?.traits?.HasTrait(TraitDef.Named("MLRP_BronyTrait")) == true)
+            {
+                if (food.def == DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony") ||
+                    food.TryGetComp<CompIngredients>()?.ingredients?.Contains(DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony")) == true)
+                {
+                    // Add memory thought
+                    pawn.needs.mood.thoughts.memories.TryGainMemory(DefDatabase<ThoughtDef>.GetNamed("MLRP_BronyAtePonyMeat"));
+                    //Log.Message($"[DEBUG] Thought applied to {pawn.Name}");
+                }
+            }
 
-			if (food != null && pawn.story?.traits?.HasTrait(TraitDef.Named("MLRP_AntiBronyTrait")) == true)
-			{
-				if (food.def == DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony") ||
-					food.TryGetComp<CompIngredients>()?.ingredients?.Contains(DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony")) == true)
-				{
-					// Add memory thought
-					pawn.needs.mood.thoughts.memories.TryGainMemory(DefDatabase<ThoughtDef>.GetNamed("MLRP_AntiBronyAtePonyMeat"));
-					//Log.Message($"[DEBUG] Thought applied to {pawn.Name}");
-				}
-			}
-		}
-	}
-		
-	// BRONIES LOVE PONYX
+            if (food != null && pawn.story?.traits?.HasTrait(TraitDef.Named("MLRP_AntiBronyTrait")) == true)
+            {
+                if (food.def == DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony") ||
+                    food.TryGetComp<CompIngredients>()?.ingredients?.Contains(DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Pony")) == true)
+                {
+                    // Add memory thought
+                    pawn.needs.mood.thoughts.memories.TryGainMemory(DefDatabase<ThoughtDef>.GetNamed("MLRP_AntiBronyAtePonyMeat"));
+                    //Log.Message($"[DEBUG] Thought applied to {pawn.Name}");
+                }
+            }
+        }
+    }
 
-	public class ThoughtWorker_BronyLovesPonyx : ThoughtWorker
+    // BRONIES LOVE PONYX
+
+    public class ThoughtWorker_BronyLovesPonyx : ThoughtWorker
 	{
 		protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
 		{

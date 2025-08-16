@@ -42,7 +42,7 @@
 			<li>Biotech</li>
 		</mods>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThoughtDef[defName="MLRP_AntiBronyIsPonyXenotype" or defName="ChangelingsHateMLPXenotype" or defName="MLPXenotypesHateChangelings" or defName="BronyLovesMLPXenotype" or defName="AntiBronyVsMLPXenotype" or defName="MLPXenotypeAppreciation"]</xpath>
+			<xpath>Defs/ThoughtDef[defName="MLRP_AntiBronyIsPonyXenotype" or defName="ChangelingsHateMLPXenotype" or defName="MLPXenotypesHateChangelings" or defName="BronyLovesMLPXenotype" or defName="AntiBronyVsMLPXenotype" or defName="MLPXenotypeAppreciation" or defName="MLRP_IzzyPlush_Child_Thought"]</xpath>
 			<value>
 				<nullifyingHediffs>
 					<li>Inhumanized</li>

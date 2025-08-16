@@ -72,8 +72,8 @@
 				<GlobalLearningFactor>0.50</GlobalLearningFactor>
 				<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
 				<MedicalTendSpeed>0.25</MedicalTendSpeed>
-				<MedicalTendQualityOffset>0.25</MedicalTendQualityOffset>
-				<SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>
+				<MedicalTendQuality>0.25</MedicalTendQuality>
+				<MedicalSurgerySuccessChance>0.25</MedicalSurgerySuccessChance>
 				<MiningSpeed>0.25</MiningSpeed>
 				<MiningYield>0.25</MiningYield>
 				<DeepDrillingSpeed>0.25</DeepDrillingSpeed>
@@ -96,6 +96,8 @@
 				<Fertility MayRequire="Ludeon.RimWorld.Biotech">0.25</Fertility>
 				<!--ANOMALY-->
 				<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.1</EntityStudyRate>
+				<!--ODYSSEY-->
+				<VacuumResistance MAyRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
 				<!--MODS-->
 				<HygieneRateMultiplier MayRequire="Dubwise.DubsBadHygiene">-0.1</HygieneRateMultiplier>
 				<P42_AllergicSensitivity MayRequire="phil42.allergies">-0.25</P42_AllergicSensitivity>

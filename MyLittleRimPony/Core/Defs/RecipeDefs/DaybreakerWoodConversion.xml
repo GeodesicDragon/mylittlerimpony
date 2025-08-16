@@ -6,16 +6,6 @@
 	<defName>MLRP_DB_ConvertSilverIntoWood</defName>
 	<label>convert silver to wood</label>
 	<description>Convert 1000 silver into 833 wood.</description>
-    <jobString>Converting materials</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -29,6 +19,7 @@
 	<products>
 		<WoodLog>833</WoodLog>
 	</products>
+	<displayPriority>120</displayPriority>
 </RecipeDef>
 
 <!--CONVERT WOOD TO SILVER-->
@@ -37,16 +28,6 @@
 	<defName>MLRP_DB_ConvertWoodIntoSilver</defName>
 	<label>convert wood to silver</label>
 	<description>Convert 833 wood into 1000 silver.</description>
-    <jobString>Converting materials</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -60,6 +41,7 @@
 	<products>
 		<Silver>1000</Silver>
 	</products>
+	<displayPriority>120</displayPriority>
 </RecipeDef>
 
 <!--CONVERT GOLD TO WOOD-->
@@ -68,16 +50,6 @@
 	<defName>MLRP_DB_ConvertGoldIntoWood</defName>
 	<label>convert gold to wood</label>
 	<description>Convert 100 gold into 833 wood.</description>
-    <jobString>Converting materials</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>300</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -91,6 +63,7 @@
 	<products>
 		<WoodLog>833</WoodLog>
 	</products>
+	<displayPriority>120</displayPriority>
 </RecipeDef>
 
 </Defs>

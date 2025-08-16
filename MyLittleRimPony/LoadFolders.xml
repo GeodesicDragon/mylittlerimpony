@@ -41,7 +41,7 @@
 		<li IfModActive="sarg.alphagenes">Alpha Genes</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">DubsMods/Bad Hygiene</li>
 		<li IfModActive="Dubwise.Rimefeller">DubsMods/Rimefeller</li>
-		<!--<li IfModActive="Dubwise.Rimatomics">DubsMods/Rimatomics</li>-->
+		<li IfModActive="Dubwise.Rimatomics">DubsMods/Rimatomics</li>
 		<li IfModActive="Pony.PoniesOfTheRim.Core">Ponies of the Rim/Core</li>
 		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Ponies of the Rim/Batponies</li>
 		<li IfModActive="Torann.RimWar">Rim War</li>

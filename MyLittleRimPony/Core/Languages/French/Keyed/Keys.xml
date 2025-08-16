@@ -32,8 +32,8 @@
 	
 	<!--C# ROYALTY-->
 	
-	<MLRP_AntiBronyHasHarmonyChipAlert MayRequire="Ludeon.RimWorld.Royalty">Anti brony utilisant harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
-	<MLRP_AntiBronyHasHarmonyChipAlertText MayRequire="Ludeon.RimWorld.Royalty">Un pion ayant le trait anti-brony a une puce d'harmonie installée. Cette puce inflige une pénalité de -10 à son humeur jusqu'à ce qu'elle soit retirée.</MLRP_AntiBronyHasHarmonyChipAlertText>
+	<MLRP_AntiBronyHasHarmonyChipAlert>Anti brony utilisant harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
+	<MLRP_AntiBronyHasHarmonyChipAlertText>Un pion ayant le trait anti-brony a une puce d'harmonie installée. Cette puce inflige une pénalité de -10 à son humeur jusqu'à ce qu'elle soit retirée.</MLRP_AntiBronyHasHarmonyChipAlertText>
 	
 	<!--RESEARCH TRACKER-->
 	<!--{0} correspond aux recipe qui ont été débloquées.-->
@@ -49,8 +49,10 @@
 	<MLRP_TPLetterText>Disponible à la Thingpone :\n\n{0}</MLRP_TPLetterText>
 	<MLRP_NVLetterText>Disponible à la Le magasin spatial de Nebula Veil:\n\n{0}</MLRP_NVLetterText>
 	
-	<MLRP_ExtraScrewballOutputTitle MayRequire="leion247612.HigherHPower">Advanced power researched</MLRP_ExtraScrewballOutputTitle>
-	<MLRP_ExtraScrewballOutputText MayRequire="leion247612.HigherHPower">+50% to Screwball power output.</MLRP_ExtraScrewballOutputText>
+	<!--MODS-->
 	
+	<MLRP_ExtraScrewballOutputTitle>Advanced power researched</MLRP_ExtraScrewballOutputTitle>
+	<MLRP_ExtraScrewballOutputText>+50% to Screwball power output.</MLRP_ExtraScrewballOutputText>
+	<MLRP_MedievalOverhaul>[My Little RimPony] Les correctifs Medieval Overhaul ont été appliqués.</MLRP_MedievalOverhaul>
 	
 </LanguageData>

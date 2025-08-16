@@ -8,8 +8,8 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<MedicalTendSpeed>0.25</MedicalTendSpeed>
-			<MedicalTendQualityOffset>0.25</MedicalTendQualityOffset>
-			<SurgerySuccessChanceFactor>0.25</SurgerySuccessChanceFactor>
+			<MedicalTendQuality>0.25</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.25</MedicalSurgerySuccessChance>
 		</equippedStatOffsets>
 	</ThingDef>
 </Defs>

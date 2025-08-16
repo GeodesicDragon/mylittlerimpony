@@ -7,10 +7,10 @@
 	<designationHotKey>Misc2</designationHotKey>
     <drawerType>MapMeshAndRealTime</drawerType>
 	<minifiedDef>MinifiedThing</minifiedDef>
-	<rotatable>false</rotatable>
+	<rotatable>true</rotatable>
     <graphicData>
       <texPath>Things/Building/MagicMirror</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,4)</drawSize>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>

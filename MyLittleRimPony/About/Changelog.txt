@@ -1,3 +1,32 @@
+Version 6.115.209 (August 16th 2025)
+
+* Core: Added a new recipe to the Fabric Exchange which will allow you to buy 10 dye for 30 silver.
+* Odyssey: Added two new recipes to Tree Hugger which allow you to buy and sell psilocaps. Available once drug production is researched.
+* Odyssey: Added two new recipes to Daybreaker which allow you to convert silver to obsidian and back again.
+* Odyssey: Added a new recipe to Nebula Veil's Space shop lets you buy pilot assistants.
+	* Unlocked once you research advanced gravtech.
+	* Requires 8 Intellectual to acquire.
+	* Costs 750 silver.
+* XML Extensions: Added a new setting which will give diamond dog, pegasus and unicorn xenotypes their drug dependencies back. Disabled by default.
+* Core: Fixed being unable to uninstall and move Miss Harshwhinny.
+* Core: Fixed selling recipes at the Stone Exchange showing as 'purchasing materials' while being performed.
+* Core: Fixed being unable to use Derpy Hooves transport pods.
+* Core: You can now add additional things to Derpy Hooves transport pods once loading has begun.
+* Core: Fixed Nurse Haywick not increasing medical tend quality and surgery success chance.
+* Core: You can now rotate the magic mirror.
+* Core: Reordered some recipes at the Daybreaker statue.
+* Biotech: Child-sized Starlight Glimmer plushies can now be equipped on babies.
+* Royalty: The harmony chip now provides +10% to vacuum resistance if the Odyssey DLC is enabled.
+* Biotech: The diamond dog xenotype is no longer genetically dependent on poison joke. (1)
+* Biotech: The pegasus xenotype is no longer genetically dependent on go-juice. (1)
+* Biotech: The unicorn xenotype is no longer genetically dependent on wake-up. (1)
+* Biotech: The child-sized Spoiled Rich plushie now provides +20% to vacuum resistance on top of her usual bonus.
+* Oddysey: The texture for Nebula Veil's Space Shop now remains the same regardless of which direction it is rotated.
+* Oddysey: The Spoiled Rich plushie now provides +10% to vacuum resistance on top of her usual bonus.
+* Dubs Rimatomics: Fixed content for this mod not being loaded in version 1.6 of the game.
+
+1. This change will only apply to newly spawned pawns of these xenotypes; you will need to use dev mode to reset any existing pawns you may have.
+
 Version 6.108.193 (July 14th 2025)
 
 * Odyssey: Added two new recipes to the Stone Exchange which allow you to buy and sell vacstone.

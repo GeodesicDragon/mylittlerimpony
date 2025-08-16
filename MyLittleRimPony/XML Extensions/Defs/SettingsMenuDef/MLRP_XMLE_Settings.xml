@@ -27,6 +27,16 @@
 			
 			<li Class="XmlExtensions.Setting.Gap"/>
 			
+			<li Class="XmlExtensions.Setting.Searchbox">
+				<searchLabels>true</searchLabels>
+				<searchToolTips>true</searchToolTips>
+				<searchTexts>true</searchTexts>
+				<showCount>true</showCount>
+				<highlightColor>(255, 255, 255)</highlightColor>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"/>
+			
 			<li Class="XmlExtensions.Setting.Text">
 				<text>Plushie Settings</text>
 				<font>Medium</font>
@@ -36,7 +46,7 @@
 			<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Biotech">
 				<text>These settings will also be applied to child-sized plushies where appropriate.</text>
 				<font>Small</font>
-				<anchor>Right</anchor>
+				<anchor>Left</anchor>
 			</li>	
 			
 			<li Class="XmlExtensions.Setting.Slider">
@@ -475,6 +485,11 @@
 				<label>Mute Sweetie Bot mechanoid call sound</label>
 			</li>
 			
+			<li Class="XmlExtensions.Setting.Checkbox" MayRequire="Ludeon.RimWorld.Biotech">
+				<key>MLRP_BiotechXenotypesNeedDrugs</key>
+				<label>Enable drug dependencies for Diamond Dog/Pegasus/Unicorn xenotypes</label>
+			</li>
+			
 			<li Class="XmlExtensions.Setting.Gap" MayRequire="Ludeon.RimWorld.Anomaly"/>
 			
 			<li Class="XmlExtensions.Setting.Text" MayRequire="Ludeon.RimWorld.Anomaly">
@@ -524,19 +539,28 @@
 			</li>
 									
 			<li Class="XmlExtensions.Setting.GapLine"/>
-			
+
 			<li Class="XmlExtensions.Setting.ResetSettings"/>
 			
 			<li Class="XmlExtensions.Setting.Gap">
 				<spacing>8</spacing>
 			</li>
 			
-			<li Class="XmlExtensions.Setting.ApplyActions">
+			<li Class="XmlExtensions.Setting.Button">
 				<label>Restart Game</label>
+				<height>30</height>
+				<confirm>true</confirm>
 				<actions>
 					<li Class="XmlExtensions.Action.RestartGame"/>
 				</actions>
 			</li>
+			
+			<!--<li Class="XmlExtensions.Setting.ApplyActions">
+				<label>Restart Game</label>
+				<actions>
+					<li Class="XmlExtensions.Action.RestartGame"/>
+				</actions>
+			</li>-->
 		</settings>
 	</XmlExtensions.SettingsMenuDef>
 

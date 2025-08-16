@@ -481,7 +481,14 @@ namespace MLRP_ResearchTracker
 
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"))
             {
-                THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoPoisonJoke").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertPoisonJokeIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoSmokeleaf").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSmokeleafIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoAmbrosia").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertAmbrosiaIntoSilver").label;
+                if (!ModsConfig.IsActive("Ludeon.RimWorld.Odyssey"))
+                {
+                    THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoPoisonJoke").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertPoisonJokeIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoSmokeleaf").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSmokeleafIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoAmbrosia").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertAmbrosiaIntoSilver").label;
+                }
+                else if (ModsConfig.IsActive("Ludeon.RimWorld.Odyssey"))
+                {
+                    THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoPoisonJoke").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertPoisonJokeIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoSmokeleaf").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSmokeleafIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoAmbrosia").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertAmbrosiaIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoPsilocap").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertPsilocapIntoSilver").label;
+                }
                 string THLetterText = "MLRP_THLetterText".Translate(THRecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, THLetterText, MLRP_NewRecipeUnlocked);
             }
@@ -550,11 +557,11 @@ namespace MLRP_ResearchTracker
 			
             if (ModsConfig.IsActive("Ludeon.RimWorld.Odyssey") && proj == DefDatabase<ResearchProjectDef>.GetNamed("AdvancedGravtech"))
             {
-                NVRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NV_GravlitePanels").label;
+                NVRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NV_GravlitePanels").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NV_PilotAssistant").label;
                 string NVLetterText = "MLRP_NVLetterText".Translate(NVRecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, NVLetterText, MLRP_NewRecipeUnlocked);
 				
-				// STONE EXCHANGE
+			// STONE EXCHANGE
 				SERecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_SE_VacstoneBlocks").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_SE_SellVacstoneBlocks").label;
                 string SELetterText = "MLRP_SELetterText".Translate(SERecipeUnlocked);
                 Find.LetterStack.ReceiveLetter(LetterTitle, SELetterText, MLRP_NewRecipeUnlocked);

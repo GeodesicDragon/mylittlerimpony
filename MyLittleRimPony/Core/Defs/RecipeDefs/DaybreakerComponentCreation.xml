@@ -7,16 +7,7 @@
 	<label>create component x 5</label>
 	<description>Create 5 components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>Fabrication</researchPrerequisite>
-    <jobString>Making 5 components.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>600</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
+    <jobString>Making 5 components</jobString>
     <ingredients>
 		<li>
 			<filter>
@@ -37,16 +28,7 @@
 	<label>create component x 10</label>
 	<description>Create 10 components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>Fabrication</researchPrerequisite>
-    <jobString>Making 10 components.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>600</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
+    <jobString>Making 10 components</jobString>
     <ingredients>
 		<li>
 			<filter>
@@ -69,16 +51,7 @@
 	<label>create advanced component x 5</label>
 	<description>Create 5 advanced components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
-    <jobString>Making 5 advanced components.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>600</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
+    <jobString>Making 5 advanced components</jobString>
     <ingredients>
 		<li>
 			<filter>
@@ -123,16 +96,7 @@
 	<label>create advanced component x 10</label>
 	<description>Create 10 advanced components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
-    <jobString>Making 10 advanced components.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>600</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
+    <jobString>Making 10 advanced components</jobString>
     <ingredients>
 		<li>
 			<filter>

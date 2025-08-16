@@ -5,6 +5,10 @@
     <label>Miss Harshwhinny</label>
     <description>Miss Harshwhinny's demeanour has been described by many as 'cold enough to freeze a room.'\n\nOut here on the rim, that's probably a good thing.</description>
     <category>Building</category>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+		<li>BuildingsMisc</li>
+    </thingCategories>
     <graphicData>
       <texPath>Things/Building/MissHarshwhinny</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -29,6 +33,7 @@
       <MaxHitPoints>80</MaxHitPoints>
       <WorkToBuild>200</WorkToBuild>
       <Flammability>1</Flammability>
+	  <Mass>5</Mass>
     </statBases>
     <selectable>true</selectable>
     <costList>

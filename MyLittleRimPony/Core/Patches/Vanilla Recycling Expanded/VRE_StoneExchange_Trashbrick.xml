@@ -32,7 +32,7 @@
 					<label>sell trashbricks</label>
 					<description>Sell 100 trashbricks in exchange for silver.</description>
 					<researchPrerequisite>VRecyclingE_ComplexRecycling</researchPrerequisite>
-					<jobString>Selling trashbricks</jobString>
+					<jobString>Selling materials</jobString>
 					<ingredients>
 						<li>
 							<filter>

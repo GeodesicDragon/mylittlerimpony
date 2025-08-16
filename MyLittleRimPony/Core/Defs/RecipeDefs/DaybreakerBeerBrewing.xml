@@ -8,15 +8,6 @@
 	<description>Create 25 wort, using Daybreaker's residual heat to accelerate the process.</description>
 	<researchPrerequisite>Brewing</researchPrerequisite>
     <jobString>Making wort.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>600</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>
@@ -40,15 +31,6 @@
 	<description>Create 250 bottles of beer, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>Brewing</researchPrerequisite>
     <jobString>Making beer.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <allowMixingIngredients>false</allowMixingIngredients>
-    <workAmount>600</workAmount>
-	<recipeUsers>
-		<li>MLRP_Daybreaker</li>
-	</recipeUsers>
     <ingredients>
 		<li>
 			<filter>

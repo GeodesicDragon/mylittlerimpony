@@ -1,0 +1,45 @@
+<Defs>
+
+<!--CONVERT SILVER TO OBSIDIAN-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertSilverIntoObsidian</defName>
+	<label>convert silver to obsidian</label>
+	<description>Convert 1000 silver into the market value equivalent of obsidian.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+	</ingredients>
+	<products>
+		<Obsidian>200</Obsidian>
+	</products>
+</RecipeDef>
+
+<!--CONVERT OBSIDIAN TO SILVER-->
+
+<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<defName>MLRP_DB_ConvertObsidianIntoSilver</defName>
+	<label>convert obsidian to silver</label>
+	<description>Convert 200 obsidian into 1000 silver.</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Obsidian</li>
+				</thingDefs>
+			</filter>
+			<count>200</count>
+		</li>
+	</ingredients>
+	<products>
+		<Silver>1000</Silver>
+	</products>
+</RecipeDef>
+  
+</Defs>

@@ -167,6 +167,7 @@
 	<defName>MLRP_SE_SellGraniteBlocks</defName>
 	<label>sell granite blocks</label>
 	<description>Sell 100 granite blocks in exchange for silver.</description>
+	<jobString>Selling materials</jobString>
     <ingredients>
 		<li>
 			<filter>
@@ -188,6 +189,7 @@
 	<defName>MLRP_SE_SellLimestoneBlocks</defName>
 	<label>sell limestone blocks</label>
 	<description>Sell 100 limestone blocks in exchange for silver.</description>
+	<jobString>Selling materials</jobString>
     <ingredients>
 		<li>
 			<filter>
@@ -209,6 +211,7 @@
 	<defName>MLRP_SE_SellMarbleBlocks</defName>
 	<label>sell marble blocks</label>
 	<description>Sell 100 marble blocks in exchange for silver.</description>
+	<jobString>Selling materials</jobString>
     <ingredients>
 		<li>
 			<filter>
@@ -230,6 +233,7 @@
 	<defName>MLRP_SE_SellSandstoneBlocks</defName>
 	<label>sell sandstone blocks</label>
 	<description>Sell 100 sandstone blocks in exchange for silver.</description>
+	<jobString>Selling materials</jobString>
     <ingredients>
 		<li>
 			<filter>
@@ -251,6 +255,7 @@
 	<defName>MLRP_SE_SellSlateBlocks</defName>
 	<label>sell slate blocks</label>
 	<description>Sell 100 slate blocks in exchange for silver.</description>
+	<jobString>Selling materials</jobString>
     <ingredients>
 		<li>
 			<filter>
