@@ -9,5 +9,18 @@
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>300</costStuffCount>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 	</ThingDef>
 </Defs>

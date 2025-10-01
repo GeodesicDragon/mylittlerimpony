@@ -2,13 +2,21 @@
 
 <!--INDUSTRIAL COMPONENTS-->
 
-<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_CreateComponentIndustrial</defName>
 	<label>create component x 5</label>
 	<description>Create 5 components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>Fabrication</researchPrerequisite>
     <jobString>Making 5 components</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -23,13 +31,22 @@
 	</products>
 </RecipeDef>
 
-<RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_CreateComponentIndustrialTen</defName>
 	<label>create component x 10</label>
 	<description>Create 10 components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>Fabrication</researchPrerequisite>
     <jobString>Making 10 components</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
+
 		<li>
 			<filter>
 				<thingDefs>
@@ -46,13 +63,21 @@
 
 <!--ADVANCED COMPONENTS-->
 
-<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_CreateComponentSpacer</defName>
 	<label>create advanced component x 5</label>
 	<description>Create 5 advanced components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
     <jobString>Making 5 advanced components</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -91,13 +116,21 @@
 	</products>
 </RecipeDef>
 
-<RecipeDef ParentName="DaybreakerRecipes_DoubleChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_CreateComponentSpacerTen</defName>
 	<label>create advanced component x 10</label>
 	<description>Create 10 advanced components, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
     <jobString>Making 10 advanced components</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>100</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>

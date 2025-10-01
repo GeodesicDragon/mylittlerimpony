@@ -1,0 +1,10 @@
+<Patch>
+
+	<!--WARNING: This PatchOperation is designed to work ONLY with this defName.
+	Do not attempt to use it for any others, as it WILL cause problems!-->
+
+	<Operation Class="MyLittleRimPony.PatchOperationTSTexture">
+		<defName>PonyPlush_TwilightSparkle</defName>
+	</Operation>
+
+</Patch>

@@ -120,7 +120,7 @@
 	</products>	
 </RecipeDef>
 
-<!--PURCHASE 500 OF EVERY VANILLA BLOCK-->
+<!--PURCHASE 500 OF EVERY BLOCK-->
 
 <RecipeDef ParentName="MLRP_SE_RecipeBase">
 	<defName>MLRP_SE_OneHundredVanillaBlocks</defName> <!--I made a mistake here, but I can't change it because it might cause problems.-->

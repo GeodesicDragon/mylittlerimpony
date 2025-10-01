@@ -9,23 +9,25 @@
 		<li IfModActive="Ludeon.RimWorld.Anomaly">Anomaly</li>
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Odyssey</li>
 		<!--OTHER MODS-->
-		<li IfModActive="UnlimitedHugs.HugsLib">HugsLib</li> <!--News Updates-->
-		<li IfModActive="sarg.alphagenes">Alpha Genes</li>
-		<li IfModActive="Dubwise.DubsBadHygiene">DubsMods/Bad Hygiene</li>
-		<li IfModActive="Dubwise.Rimefeller">DubsMods/Rimefeller</li>
-		<li IfModActive="Dubwise.Rimatomics">DubsMods/Rimatomics</li>
-		<li IfModActive="Pony.PoniesOfTheRim.Core">Ponies of the Rim/Core</li>
-		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Ponies of the Rim/Batponies</li>
-		<li IfModActive="Torann.RimWar">Rim War</li>
-		<li IfModActive="phil42.allergies">Allergies</li>
-		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>
-		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
-		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded</li>
-		<li IfModActive="OskarPotocki.VFE.Deserters">Vanilla Factions Expanded/Deserters</li>
-		<li IfModActive="OskarPotocki.VFE.Vikings">Vanilla Factions Expanded/Vikings</li>
-		<li IfModActive="vanillaexpanded.outposts">Vanilla Outposts Expanded</li>
-		<li IfModActive="imranfish.xmlextensions">XML Extensions</li>
-		<li IfModActive="CETeam.CombatExtended">Combat Extended</li>
+		<li IfModActive="UnlimitedHugs.HugsLib">Mods/HugsLib</li> <!--News Updates-->
+		<li IfModActive="sarg.alphagenes">Mods/Alpha Genes</li>
+		<li IfModActive="Dubwise.DubsBadHygiene">Mods/DubsMods/Bad Hygiene</li>
+		<li IfModActive="Dubwise.Rimefeller">Mods/DubsMods/Rimefeller</li>
+		<li IfModActive="Dubwise.Rimatomics">Mods/DubsMods/Rimatomics</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Core">Mods/Ponies of the Rim/Core</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Mods/Ponies of the Rim/Batponies</li>
+		<li IfModActive="Torann.RimWar">Mods/Rim War</li>
+		<li IfModActive="phil42.allergies">Mods/Allergies</li>
+		<li IfModActive="sumghai.medpod">Mods/MedPod</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/Vanilla Expanded/Framework</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/Vanilla Expanded/Achievements</li>
+		<li IfModActive="vanillaexpanded.backgrounds">Mods/Vanilla Expanded/Backgrounds</li>
+		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Mods/Vanilla Expanded/Backstories</li>
+		<li IfModActive="VanillaExpanded.VFEProduction">Mods/Vanilla Expanded/Furniture/Production</li>
+		<li IfModActive="VanillaExpanded.Recycling">Mods/Vanilla Expanded/Recycling</li>
+		<li IfModActive="OskarPotocki.VFE.Deserters">Mods/Vanilla Expanded/Factions/Deserters</li>
+		<li IfModActive="OskarPotocki.VFE.Vikings">Mods/Vanilla Expanded/Factions/Vikings</li>
+		<li IfModActive="vanillaexpanded.outposts">Mods/Vanilla Expanded/Outposts</li>
 	</v1.5>
 	<v1.6>
 		<!--MAIN CONTENT-->
@@ -36,24 +38,27 @@
 		<li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
 		<li IfModActive="Ludeon.RimWorld.Anomaly">Anomaly</li>
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Odyssey</li>
-		<!--OTHER MODS-->
-		<li IfModActive="UnlimitedHugs.HugsLib">HugsLib</li> <!--News Updates-->
-		<li IfModActive="sarg.alphagenes">Alpha Genes</li>
-		<li IfModActive="Dubwise.DubsBadHygiene">DubsMods/Bad Hygiene</li>
-		<li IfModActive="Dubwise.Rimefeller">DubsMods/Rimefeller</li>
-		<li IfModActive="Dubwise.Rimatomics">DubsMods/Rimatomics</li>
-		<li IfModActive="Pony.PoniesOfTheRim.Core">Ponies of the Rim/Core</li>
-		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Ponies of the Rim/Batponies</li>
-		<li IfModActive="Torann.RimWar">Rim War</li>
-		<li IfModActive="phil42.allergies">Allergies</li>
-		<li IfModActive="vanillaexpanded.achievements">Vanilla Achievements Expanded</li>
-		<li IfModActive="vanillaexpanded.backgrounds">Vanilla Backgrounds Expanded</li>
-		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Vanilla Backstories Expanded</li>
-		<li IfModActive="OskarPotocki.VFE.Deserters">Vanilla Factions Expanded/Deserters</li>
-		<li IfModActive="OskarPotocki.VFE.Vikings">Vanilla Factions Expanded/Vikings</li>
-		<li IfModActive="vanillaexpanded.outposts">Vanilla Outposts Expanded</li>
-		<li IfModActive="imranfish.xmlextensions">XML Extensions</li>
-		<li IfModActive="CETeam.CombatExtended">Combat Extended</li>
-		<li>1.6</li> <!--Does putting this at the bottom mean it gets loaded last? I honestly don't know.-->
+		<!--MODS-->
+		<li IfModActive="UnlimitedHugs.HugsLib">Mods/HugsLib</li> <!--News Updates-->
+		<li IfModActive="sarg.alphagenes">Mods/Alpha Genes</li>
+		<li IfModActive="Dubwise.DubsBadHygiene">Mods/DubsMods/Bad Hygiene</li>
+		<li IfModActive="Dubwise.Rimefeller">Mods/DubsMods/Rimefeller</li>
+		<li IfModActive="Dubwise.Rimatomics">Mods/DubsMods/Rimatomics</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Core">Mods/Ponies of the Rim/Core</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Mods/Ponies of the Rim/Batponies</li>
+		<li IfModActive="Torann.RimWar">Mods/Rim War</li>
+		<li IfModActive="phil42.allergies">Mods/Allergies</li>
+		<li IfModActive="sumghai.medpod">Mods/MedPod</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/Vanilla Expanded/Framework</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/Vanilla Expanded/Achievements</li>
+		<li IfModActive="vanillaexpanded.backgrounds">Mods/Vanilla Expanded/Backgrounds</li>
+		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Mods/Vanilla Expanded/Backstories</li>
+		<li IfModActive="VanillaExpanded.VFEProduction">Mods/Vanilla Expanded/Furniture/Production</li>
+		<li IfModActive="VanillaExpanded.Recycling">Mods/Vanilla Expanded/Recycling</li>
+		<li IfModActive="OskarPotocki.VFE.Deserters">Mods/Vanilla Expanded/Factions/Deserters</li>
+		<li IfModActive="OskarPotocki.VFE.Vikings">Mods/Vanilla Expanded/Factions/Vikings</li>
+		<li IfModActive="vanillaexpanded.outposts">Mods/Vanilla Expanded/Outposts</li>
+		<li IfModActive="CETeam.CombatExtended">Mods/Combat Extended</li>
+		<li>1.6</li>
 	</v1.6>
 </loadFolders>

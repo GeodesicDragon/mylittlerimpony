@@ -11,5 +11,18 @@
 		<equippedStatOffsets>
 			<ConversionPower>0.25</ConversionPower>
 		</equippedStatOffsets>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>300</costStuffCount>	
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 	</ThingDef>
 </Defs>

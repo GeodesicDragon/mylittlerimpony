@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="PlushieBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+			<li>VFE_TailorCabinet</li>
+		</value>
+	</Operation>
+	
+</Patch>

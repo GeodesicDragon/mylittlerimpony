@@ -1,0 +1,32 @@
+<Defs>
+	<ThingDef ParentName="PonyPlushChildBase">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_CombatRainbowDash</defName>
+		<label>Combat Rainbow Dash (child-sized)</label>
+		<description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nThis version applies similar combat bonuses to the adult version, making it ideal for child soldiers (you monster).</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/CombatDash</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<MoveSpeed>2</MoveSpeed>
+			<MeleeHitChance>10</MeleeHitChance>
+			<ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+			<NightVisionEfficiency_Apparel MayRequire="CETeam.CombatExtended">0.2</NightVisionEfficiency_Apparel>
+			<ReloadSpeed MayRequire="CETeam.CombatExtended">0.1</ReloadSpeed>
+			<Suppressability MayRequire="CETeam.CombatExtended">-0.1</Suppressability>
+		</equippedStatOffsets>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>150</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+	</ThingDef>
+</Defs>

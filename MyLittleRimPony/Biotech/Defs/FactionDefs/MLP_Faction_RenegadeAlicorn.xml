@@ -21,7 +21,7 @@
         </categories>
       </li>
     </backstoryFilters>
-    <factionIconPath>Things/EquestrianFlag</factionIconPath> <!--I'm only using this because I couldn't find anything else.-->
+    <factionIconPath>Things/ElementsOfHarmony</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
     <factionNameMaker>MLRP_BronyNames</factionNameMaker>
     <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>

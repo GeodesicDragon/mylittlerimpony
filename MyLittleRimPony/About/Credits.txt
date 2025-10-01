@@ -2,7 +2,7 @@
 |      SOUNDS      |
 |------------------|
 
-All sounds, unless otherwise specified below, are taken from the My Little Pony: Friendship is Magic TV series, and are used under Fair Use legislation. Sounds remain bound by the copyright of the owner; they are included in this mod for entertainment purposes only, and no profit is made from them.
+All sounds are used under Fair Use legislation and remain bound by the copyright of the owner; they are included in this mod for entertainment purposes only, and no profit is made from them.
 
 |---WEAPONS---|
 
@@ -12,6 +12,10 @@ Party Cannon: https://www.myinstants.com/en/instant/pinkie-pie-party-cannon-5256
 |---PAWNS---|
 
 Sweetie Bot (mechanoid): https://mixkit.co and https://elements.envato.com
+
+|---ITEMS---|
+
+Party Cannon (firing): Taken from the My Little Pony: Friendship is Magic TV series.
 
 |---------------|
 |      ART      |
@@ -121,6 +125,7 @@ Diamond Dog xenotype icon: https://game-icons.net/1x1/lorc/diamond-hard.html
 Diamond Dog faction icon: https://game-icons.net/1x1/lorc/cut-diamond.html
 Batpony xenotype icon: https://game-icons.net/1x1/lorc/batwing-emblem.html
 Batpony xenotype faction icon: https://game-icons.net/1x1/delapouite/bat.html
+Combat Rainbow Dash: cloudy glow (3455855)
 
 |---ANOMALY---|
 
@@ -158,7 +163,7 @@ Rainbow Dash In Cherry Blossom: discordthege (1663049)
 Applejack On The Farm: huussii (993609)
 Fluttershy And Her Animals: huussii (267391)
 Pinkie Pie At The Mirror Pool: huussii (411047)
-Sunny And Her Friends: silentwulv (2906225)
+The Mane Six (G5): luminousdazzle (3142939)
 Celestia The Watcher: yakovlev-vad (2129187)
 Luna In The Forest: plainoasis (2469257)
 Obligatory OC Background: GeodesicDragon AKA me (not on Derpibooru)
@@ -179,6 +184,7 @@ Special Delivery! - anarchemitis (390978) **
 Fire Hazard - andoanimalia (3238790)
 You're Kidding, Right? - pianocube and warpout (2177043)
 Fun, Fun, Fun, Fun, Fun! - cloudy glow (3453577)
+Book Horse - dashiesparkle (1936351)
 
 Tombstone Icon: https://game-icons.net/1x1/sbed/tombstone.html **
 Talking Icon: https://game-icons.net/1x1/skoll/talk.html

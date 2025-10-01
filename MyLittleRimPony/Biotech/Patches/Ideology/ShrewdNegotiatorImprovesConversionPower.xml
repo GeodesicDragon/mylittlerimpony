@@ -5,7 +5,7 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/HediffDef[defName="MLRP_ShrewdNegotiatorHediff"]/stages/li/statFactors</xpath>
+			<xpath>/Defs/HediffDef[defName="MLRP_ShrewdNegotiatorHediff"]/stages/li/statOffsets</xpath>
 			<value>
 				<ConversionPower>5</ConversionPower>
 			</value>

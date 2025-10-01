@@ -1,0 +1,54 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="MLRP_NPCFaction_ExoticGoodsTrader"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>IsolinearProcessor</thingDef>
+				<countRange>1</countRange>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TipSetDef[defName="MyLittleRimPony_Tips"]/tips</xpath>
+		<value>
+			<li>You cannot use MedPods to cure the Cutie Pox.</li>
+			<li>The negative side effects of poison joke can be cured by a MedPod.</li>
+			<li>MedPods will never remove the positive side effects of poison joke.</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/alwaysTreatableHediffs</xpath>
+		<value>
+			<li>MLRP_PoisonJokeBlindness</li>
+			<li>MLRP_PoisonJokeReducedEating</li>
+			<li>MLRP_PoisonJokeReducedTalking</li>
+			<li>MLRP_PoisonJokeReducedHearing</li>
+			<li>MLRP_PoisonJokeSlowAndSluggish</li>
+			<li>MLRP_PoisonJokePoorManipulation</li>
+			<li>MLRP_PoisonJokeReducedBreathing</li>
+			<li>MLRP_PoisonJokeReducedConsciousness</li>
+		</value>
+	</Operation>
+	
+	<OperationClass="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name="MedPodBedBase"]/comps/li[@Class="MedPod.CompProperties_TreatmentRestrictions"]/neverTreatableHediffs</xpath>
+		<value>
+			<li>MLRP_CutiePox</li>
+			<li>MLRP_IzzyPlush</li>
+			<li>MLRP_PonyPlushEquipped</li>
+			<li>MLRP_PoisonJokeSuperSpeedy</li>
+			<li>MLRP_PoisonJokeIncreasedEating</li>
+			<li>MLRP_PoisonJokeGoodManipulation</li>
+			<li>MLRP_PoisonJokeIncreasedTalking</li>
+			<li>MLRP_PoisonJokeSightBeyondSight</li>
+			<li>MLRP_PoisonJokeIncreasedHearing</li>
+			<li>MLRP_PoisonJokeIncreasedBreathing</li>
+			<li>MLRP_PoisonJokeIncreasedConsciousness</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">MLRP_IzzyPlush_Child</li>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -62,6 +62,11 @@
 			<heatPushMaxTemperature>25</heatPushMaxTemperature>
 		</li>
 	</comps>
+	<recipes>
+		<li>BurnApparel</li>
+		<li>BurnDrugs</li>
+		<li>BurnWeapon</li>
+	</recipes>
   </ThingDef>
   
 </Defs>

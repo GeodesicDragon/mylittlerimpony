@@ -6,12 +6,13 @@
 // I am always happy to accept updates to this code, especially if you have a better way of doing something I've done.
 // Contact me via my Discord server and we'll talk! (Invite Code: BGKnpza)
 
+using MLRP_ModSettings;
 using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Xml;
 using Verse;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace MyLittleRimPony
 {
@@ -23,12 +24,27 @@ namespace MyLittleRimPony
     {
         static MLRP_Startup()
         {
+            // DISPLAY WELCOME MESSAGE
+
             var MLRP_Version = Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
             Log.Message("MLRP_WelcomeMessage".Translate(MLRP_Version));
 
             if (ModsConfig.IsActive("geodesicdragon.rimpony.medieval"))
             {
                 Log.Message("MLRP_MedievalOverhaul".Translate());
+            }
+
+            // APPLY MOD SETTINGS
+
+            var MLRPOptions = LoadedModManager.GetMod<MLRP_SettingsWindow>();
+            if (MLRPOptions != null)
+            {
+                // Access saved settings
+                var settings = MLRP_SettingsWindow.settings;
+                if (settings != null)
+                {
+                    MLRP_SettingsWindow.MLRP_ApplySettings();
+                }
             }
         }
     }
@@ -211,7 +227,7 @@ namespace MyLittleRimPony
                             pawn.health.RemoveHediff(hediff);
                             Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
-                        if (LuckyPlagueNumber != 7)
+                        else if (LuckyPlagueNumber != 7)
                         {
                             Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
@@ -224,7 +240,7 @@ namespace MyLittleRimPony
                             pawn.health.RemoveHediff(hediff);
                             Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
-                        if (LuckyAnimalPlagueNumber != 7)
+                        else if (LuckyAnimalPlagueNumber != 7)
                         {
                             Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
@@ -465,6 +481,287 @@ namespace MyLittleRimPony
                         break;
                 }
             }
+        }
+    }
+
+    // CHANGE STANDARD PLUSHIE STUFF COST
+
+    public class PatchOperationDynamicPlushieCost : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            // Pull the current setting
+            int newCost = MLRP_SettingsWindow.settings.ingredientCount;
+
+            // Build the xpath dynamically
+            string xpath = $"Defs/ThingDef[defName=\"{defName}\"]/costStuffCount";
+
+            XmlNode node = xml.SelectSingleNode(xpath);
+            if (node != null)
+            {
+                node.InnerText = newCost.ToString();
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    // CHANGE ELEMENTS OF HARMONY COST
+
+    public class PatchOperationDynamicEOHCost : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            // Pull the current setting
+
+            int baseCost = MLRP_SettingsWindow.settings.ingredientCount;
+            int newCost = baseCost * 6;
+
+            // Build the xpath dynamically
+            string xpath = $"Defs/ThingDef[defName=\"{defName}\"]/costStuffCount";
+
+            XmlNode node = xml.SelectSingleNode(xpath);
+            if (node != null)
+            {
+                node.InnerText = newCost.ToString();
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    // CHANGE CUTIE MARK CRUSADERS COST
+
+    public class PatchOperationDynamicCMCCost : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            // Pull the current setting
+
+            int baseCost = MLRP_SettingsWindow.settings.ingredientCount;
+            int newCost = baseCost * 3;
+
+            // Build the xpath dynamically
+            string xpath = $"Defs/ThingDef[defName=\"{defName}\"]/costStuffCount";
+
+            XmlNode node = xml.SelectSingleNode(xpath);
+            if (node != null)
+            {
+                node.InnerText = newCost.ToString();
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    // CHANGE CHILD PLUSHIE COST
+
+    public class PatchOperationDynamicChildCost : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            // Pull the current setting
+
+            int baseCost = MLRP_SettingsWindow.settings.ingredientCount;
+            int newCost = baseCost / 2;
+
+            // Build the xpath dynamically
+            string xpath = $"Defs/ThingDef[defName=\"{defName}\"]/costStuffCount";
+
+            XmlNode node = xml.SelectSingleNode(xpath);
+            if (node != null)
+            {
+                node.InnerText = newCost.ToString();
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    // CHANGE CHILD CMC COST
+
+    public class PatchOperationDynamicChildCMCCost : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            // Pull the current setting
+
+            int baseCost = MLRP_SettingsWindow.settings.ingredientCount;
+            int newCost = ((baseCost * 3) / 2);
+
+            // Build the xpath dynamically
+            string xpath = $"Defs/ThingDef[defName=\"{defName}\"]/costStuffCount";
+
+            XmlNode node = xml.SelectSingleNode(xpath);
+            if (node != null)
+            {
+                node.InnerText = newCost.ToString();
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    // SET TEXTURE OF TWILIGHT SPARKLE PLUSHIE
+
+    public class PatchOperationTSTexture : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            // Pull the current setting
+
+            string oldPath = "Things/PonyPlush/TwilightSparkle_OLD";
+            string newPath = "Things/PonyPlush/TwilightSparkle";
+
+            // Build the xpath dynamically
+            string xpath = $"Defs/ThingDef[defName=\"{defName}\"]/graphicData/texPath";
+
+            XmlNode node = xml.SelectSingleNode(xpath);
+            if (node != null)
+            {
+                if (MLRP_SettingsWindow.settings.useOldTSTex == true)
+                {
+                    node.InnerText = oldPath;
+                }
+                else if (MLRP_SettingsWindow.settings.useOldTSTex == false)
+                {
+                    node.InnerText = newPath;
+                }
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    // PATCH THE ANIMA TREE INTO THE TREE OF HARMONY
+
+    public class PatchOperationDynamicAnimaTree : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            string thingXpath = $"Defs/ThingDef[defName=\"{defName}\"]";
+            XmlNode thingNode = xml.SelectSingleNode(thingXpath);
+            if (thingNode == null)
+            {
+                return false;
+            }
+
+            // helper to set or create a node
+            void SetNode(string relativeXpath, string value)
+            {
+                XmlNode node = thingNode.SelectSingleNode(relativeXpath);
+                if (node == null)
+                {
+                    string[] parts = relativeXpath.Split('/');
+                    XmlNode parent = thingNode;
+                    foreach (var part in parts)
+                    {
+                        XmlNode child = parent.SelectSingleNode(part);
+                        if (child == null)
+                        {
+                            child = xml.CreateElement(part);
+                            parent.AppendChild(child);
+                        }
+                        parent = child;
+                    }
+                    node = parent;
+                }
+                node.InnerText = value;
+            }
+
+            // Apply changes
+            if (MLRP_SettingsWindow.settings.TreeOfHarmony == true)
+            {
+                SetNode("label", "Tree of Harmony");
+                SetNode("description", "The Tree of Harmony is a magical tree that once held the Elements of Harmony. Nobody knows how it ended up on the rim, but many people suspect that science was involved.\n\nIf a person (psycaster or not) meditates near the tree, it will grow harmony grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from the Tree of Harmony while meditating at it.\n\nThe tree's psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that these trees are not simply trees, but are rather the physical extremities of a single world spirit, while bronies believe them to be a physical extension of their beliefs.");
+                SetNode("comps/li[4]/enoughPlantsLetterLabel", "About: Linking with the Tree of Harmony");
+                SetNode("comps/li[4]/enoughPlantsLetterText", "The Tree of Harmony now has {0} harmony grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires 20 grass.\n\nThe harmony grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with the Tree of Harmony. You can see a person's focus types by looking at their info card with the 'i' button.");
+                SetNode("graphicData/texPath", "Things/Plant/TreeOfHarmony");
+                SetNode("plant/immatureGraphicPath", "Things/Plant/TreeOfHarmony_Immature");
+                SetNode("plant/snowOverlayGraphicPath", "Things/Plant/TreeOfHarmony_Snowy");
+                SetNode("plant/immatureSnowOverlayGraphicPath", "Things/Plant/TreeOfHarmony_ImmatureSnowy");
+                SetNode("graphicData/graphicClass", "Graphic_Single");
+                SetNode("graphicData/drawSize", "(2,2)");
+                SetNode("comps/li[5]/message", "The Tree of Harmony has died and emitted a disturbing psychic scream.");
+
+                return true;
+            }
+
+            return true;
+
+        }
+    }
+
+    // PATCH ANIMA GRASS INTO HARMONY GRASS
+
+    public class PatchOperationDynamicAnimaGrass : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+                string thingXpath = $"Defs/ThingDef[defName=\"{defName}\"]";
+                XmlNode thingNode = xml.SelectSingleNode(thingXpath);
+                if (thingNode == null)
+                {
+                    return false;
+                }
+
+                // helper to set or create a node
+                void SetNode(string relativeXpath, string value)
+                {
+                    XmlNode node = thingNode.SelectSingleNode(relativeXpath);
+                    if (node == null)
+                    {
+                        string[] parts = relativeXpath.Split('/');
+                        XmlNode parent = thingNode;
+                        foreach (var part in parts)
+                        {
+                            XmlNode child = parent.SelectSingleNode(part);
+                            if (child == null)
+                            {
+                                child = xml.CreateElement(part);
+                                parent.AppendChild(child);
+                            }
+                            parent = child;
+                        }
+                        node = parent;
+                    }
+                    node.InnerText = value;
+                }
+
+            // Apply changes
+
+            if (MLRP_SettingsWindow.settings.TreeOfHarmony == true)
+            {
+                SetNode("label", "harmony grass");
+                SetNode("description", "A grass infused with luminous microorganisms. Tribal peoples find that this grass grows around the base of the Tree of Harmony as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nAnimals refuse to eat anima grass, which tribal stories say is done out of respect.\n\nBronies believe that the grass is a physical extension of the tree's power, and that it holds the key to opening a link to Equestria, but the grass degenerates into normal plant matter when observed too closely.");
+
+                return true;
+            }
+
+            return true;
+            
         }
     }
 }

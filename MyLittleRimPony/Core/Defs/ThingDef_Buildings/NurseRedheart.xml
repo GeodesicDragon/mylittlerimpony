@@ -20,6 +20,14 @@
       <destroySound>BuildingDestroyed_Soft_Small</destroySound>
     </building>
     <comps>
+      <li Class="CompProperties_Spawner">
+        <requiresPower>true</requiresPower>
+        <thingToSpawn>MedicineIndustrial</thingToSpawn>
+        <spawnCount>5</spawnCount>
+        <spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <showMessageIfOwned>true</showMessageIfOwned>
+      </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>350</basePowerConsumption>
@@ -31,14 +39,6 @@
         </powerUpgrades>
       </li>
       <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Spawner">
-        <requiresPower>true</requiresPower>
-        <thingToSpawn>MedicineIndustrial</thingToSpawn>
-        <spawnCount>5</spawnCount>
-        <spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange>
-        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-        <showMessageIfOwned>true</showMessageIfOwned>
-      </li>
     </comps>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>

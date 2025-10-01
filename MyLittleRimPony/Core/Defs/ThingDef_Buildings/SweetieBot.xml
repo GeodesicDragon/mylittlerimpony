@@ -27,8 +27,11 @@
       <Flammability>0.7</Flammability>
       <WorkToBuild>2400</WorkToBuild>
       <Mass>35</Mass>
-      <Beauty>-10</Beauty>
       <ShootingAccuracyTurret>0.80</ShootingAccuracyTurret>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
     </statBases>
     <tickerType>Normal</tickerType>
     <comps>

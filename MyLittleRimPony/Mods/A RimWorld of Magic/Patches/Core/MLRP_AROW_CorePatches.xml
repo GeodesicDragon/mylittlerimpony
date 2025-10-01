@@ -1,0 +1,28 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MLRP_MakeTwilightSparkle"]/label</xpath>
+				<value>
+					<label>make Twilight Sparkle (alicorn)</label>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MLRP_MakeTwilightSparkle"]/description</xpath>
+				<value>
+					<description>Make an alicorn Twilight Sparkle plushie.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PonyPlush_TwilightSparkle"]/label</xpath>
+				<value>
+					<description>Twilight Sparkle (alicorn)</description>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

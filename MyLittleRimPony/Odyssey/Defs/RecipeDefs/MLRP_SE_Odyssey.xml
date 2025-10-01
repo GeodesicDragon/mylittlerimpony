@@ -5,7 +5,7 @@
 <RecipeDef ParentName="MLRP_SE_RecipeBase">
 	<defName>MLRP_SE_VacstoneBlocks</defName>
 	<label>purchase vacstone blocks</label>
-	<description>Use silver to purchase 100 vacstone blocks.</description>
+	<description>Use silver to purchase 100 vacstone blocks.\n\nA convenience fee of 800 silver will be applied to this transaction.</description>
 	<researchPrerequisite>AdvancedGravtech</researchPrerequisite>
     <ingredients>
 		<li>
@@ -14,7 +14,7 @@
 					<li>Silver</li>
 				</thingDefs>
 			</filter>
-			<count>20</count>
+			<count>100</count>
 		</li>
 	</ingredients>
 	<products>
@@ -27,8 +27,8 @@
 <RecipeDef ParentName="MLRP_SE_RecipeBase">
 	<defName>MLRP_SE_SellVacstoneBlocks</defName>
 	<label>sell vacstone blocks</label>
-	<description>Sell 100 vacstone blocks in exchange for silver.</description>
-	<jobString>Selling materials</jobString>
+	<description>Sell 100 vacstone blocks in exchange for silver.\n\nAny convenience fee previously paid will not be refunded.</description>
+	<jobString>Selling vacstone blocks</jobString>
 	<researchPrerequisite>AdvancedGravtech</researchPrerequisite>
     <ingredients>
 		<li>

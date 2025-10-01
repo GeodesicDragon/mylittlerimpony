@@ -1,0 +1,16 @@
+<Patch>
+
+	<!--Needs to be a PatchOperation to ensure it applies on game start.-->
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_AloeAndLotus</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Trixie</defName>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

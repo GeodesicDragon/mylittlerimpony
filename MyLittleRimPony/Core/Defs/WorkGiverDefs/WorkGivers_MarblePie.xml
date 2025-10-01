@@ -2,15 +2,15 @@
 
   <WorkGiverDef>
     <defName>MLRP_DoStuffWithMarblePie</defName>
-    <label>make purchase</label>
+    <label>make exchange</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>BasicWorker</workType>
     <priorityInType>300</priorityInType>
     <fixedBillGiverDefs>
       <li>MLRP_MarblePieStoneExchange</li>
     </fixedBillGiverDefs>
-    <verb>purchase stone blocks</verb>
-    <gerund>purchasing stone blocks at</gerund>
+    <verb>exchange stone blocks</verb>
+    <gerund>exchanging stone blocks at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>

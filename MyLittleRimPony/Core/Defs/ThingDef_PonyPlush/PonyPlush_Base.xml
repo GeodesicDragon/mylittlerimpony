@@ -9,9 +9,6 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
 			<recipeUsers>
 				<li>PlushieBench</li>
 			</recipeUsers>
@@ -39,11 +36,6 @@
 		<thingCategories>
 			<li>Pony_Plushies</li>
 		</thingCategories>
-		<costStuffCount>300</costStuffCount>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
 		<tradeTags>
 			<li>MLRP_Plushie</li>
 		</tradeTags>
@@ -58,7 +50,6 @@
 			</li>
 		</comps>
 		<apparel>
-			<careIfWornByCorpse>true</careIfWornByCorpse>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<wornGraphicPath>Things/PonyPlush/PlushEquipped</wornGraphicPath>

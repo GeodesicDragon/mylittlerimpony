@@ -10,3 +10,4 @@ Regiment
 Squad
 Unit
 League
+Alliance

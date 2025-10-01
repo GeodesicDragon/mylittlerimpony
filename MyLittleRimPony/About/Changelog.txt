@@ -1,3 +1,57 @@
+Version 7.0.0 (October 1st 2025)
+
+* Core: Added a proper options window.
+	* Changing the amount of stuff needed to make plushies, toggling the texture of the Twilight Sparkle plushie, and toggling the Tree of Harmony setting all require a game restart in order to take effect. This is due to me having to use custom PatchOperations to make the actual changes.
+	* With those few exceptions, the remaining settings are applied when you close the options window.
+	* Some settings from XML Extensions have been removed or replaced with something else.
+	* Thanks to Aelanna from the RimWorld Discord for putting me on the right track.
+* Core: Added the ability to configure whether or not the research tracker is enabled.
+	* Letters are enabled by default.
+	* Thanks to Siveen from the MLRP Discord for suggesting this change.
+* Core: Added the ability to configure the number of points you need to get to before Sunny Starscout will start sending raids.
+	* Minimum is 1000.
+	* Maximum is 10000.
+	* Default is 5000.
+	* Thanks again to Siveen for suggesting this change.
+* Biotech: Added child-equippable Cutie Mark Crusaders.
+* Biotech: Added a separate Rainbow Dash plushie that you can give to your fighting children. (1)
+* Core: Updated the list of names for NPC faction settlements with 101 new entries.
+	* This brings the total number of potential settlement names to 154.
+	* All names were taken from the MLP Wiki: <https://mlp.fandom.com/wiki/Locations>
+* Core: The cutie pox has evolved, and is now infecting people entirely at random, though the chance appears to be higher in warmer biomes.
+* Core: You can now burn apparel at the Daybreaker statue.
+* Core: You can now burn drugs at the Daybreaker statue.
+* Core: You can now burn weapons at the Daybreaker statue.
+* Core: The research tracker no longer sends multiple letters whenever research unlocks recipes at more than one building.
+* Core: Changed the world map icon used by the player brony community and brony xenotype factions.
+* Core: Removed recipes for [Ry]Rimcraft Metals, as this mod has not been updated for 1.5 and above.
+* Core: Sweetie Bot turrets no longer have a negative beauty rating.
+* Core: Removed the ability to set the hit points of aggro turrets. (2)
+* Core: Making a rainbow laser now requires three advanced components instead of the Elements of Harmony. (3)
+* Core: Changed the description of the anti brony trait.
+* Royalty: Fixed 'Could not load Texture2D at 'Things/Plant/TreeAnima_Snowy' in any active mod or in base resources' error.
+* Royalty: Fixed 'Could not load Texture2D at 'Things/Plant/TreeAnima_ImmatureSnowy' in any active mod or in base resources' error.
+* Biotech: The shrewd negotiator ability should now work as intended. I observed a 17% reduction in prices during testing where I didn't before.
+* Anomaly: Converting bioferrite to silver and vice versa now uses three times the regular amount of chemfuel (was 5x).
+* Odyssey: Fixed purchasing 500 of each block from the Stone Exchange not giving you vacstone blocks.
+* Odyssey: The price of purchasing 100 vacstone blocks at the Stone Exchange has been increased to 1000 silver.
+	* Marble has realised that it was much easier for people to buy the blocks from her instead of going into space for them.
+	* Selling blocks back to her will still earn you the standard 200 silver.
+* Combat Extended: Patches for this mod will no longer be loaded in version 1.5 of RimWorld.
+* Combat Extended: Fixed 'Verse.PatchOperationReplace(xpath="/Defs/ThingDef[defName="PonyPlush_ShiningArmour"]/statBases"): Failed to find a node with the given xpath' error.
+* Combat Extended: Fixed 'Verse.PatchOperationAdd(xpath="/Defs/ThingDef[defName="PonyPlush_ShiningArmour"]/apparel/bodyPartGroups"): Failed to find a node with the given xpath' error.
+* Combat Extended/Biotech: Fixed 'Verse.PatchOperationAdd(xpath="/Defs/ThingDef[defName="PonyPlush_ShiningArmour_Child"]/apparel/bodyPartGroups"): Failed to find a node with the given xpath' error.
+* Combat Extended/Odyssey: Fixed magical ammunition obstructing Nebula Veil in the research window.
+* MedPod: MedPods are now prevented from curing the Cutie Pox.
+* MedPod: Fixed MedPods attempting to cure the hediff given by the Izzy Moonbow plushie.
+* Vanilla Achievements Expanded: Changed the texture of the 'Book Horse' achievement.
+* Vanilla Backgrounds Expanded: Changed the image used for the 'Sunny And Her Friends' background to one that includes Misty.
+* Vanilla Backgrounds Expanded: Changed the title of the 'Sunny And Her Friends' background to 'The Mane Six (G5)' to reflect the new image.
+
+1. This replaces the option which allowed you to configure whether or not the child Rainbow Dash plush had the same stats as the adult one.
+2. This made them a bit too overpowered, as you could give them thousands of hit points quite easily, making them hard for raiders to destroy.
+3. This replaces the option which allowed you to configure whether or not making the weapon required the Elements of Harmony.
+
 Version 6.115.209 (August 16th 2025)
 
 * Core: Added a new recipe to the Fabric Exchange which will allow you to buy 10 dye for 30 silver.
@@ -32,7 +86,7 @@ Version 6.108.193 (July 14th 2025)
 * Odyssey: Added two new recipes to the Stone Exchange which allow you to buy and sell vacstone.
 	* Vacstone has a market value of 2 silver, so 100 blocks will cost or gain you 200 silver.
 	* Unlocked once you research advanced gravtech.
-* Ideology: Fixed 'Could not load Texture2D at 'Things/Plant/TreeAnima_Immature' in any active mod or in base resources' error.
+* Royalty: Fixed 'Could not load Texture2D at 'Things/Plant/TreeAnima_Immature' in any active mod or in base resources' error.
 * Odyssey: Increased the price of 50 gravlite panels at Nebula's shop to 1320 silver (was 820). This includes the price of the 250 vacstone blocks you would normally have used to make them.
 * MendAndRecycle: Pony plushies can no longer be recycled using the 'recycle apparel' recipe. (1)
 * Ponies of the Rim: Fixed a bug which would cause your game to crash to desktop if encountered.

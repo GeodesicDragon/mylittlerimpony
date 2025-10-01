@@ -13,9 +13,20 @@
 			<ArmorRating_Heat>0.3</ArmorRating_Heat>
 		</statBases>
 		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
 			<bodyPartGroups>
 				<li>Waist</li>
 			</bodyPartGroups>
 		</apparel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>150</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 	</ThingDef>
 </Defs>

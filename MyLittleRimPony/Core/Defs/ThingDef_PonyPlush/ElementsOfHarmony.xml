@@ -25,8 +25,16 @@
 			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
 			<TradePriceImprovement>0.25</TradePriceImprovement>
 			<ResearchSpeed>0.25</ResearchSpeed>
-		</equippedStatOffsets>
+		</equippedStatOffsets>	
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<costStuffCount>1800</costStuffCount>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>

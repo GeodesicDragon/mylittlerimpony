@@ -1,0 +1,85 @@
+<Patch>
+
+	<!--Needs to be a PatchOperation to ensure it applies on game start.-->
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="MyLittleRimPony.PatchOperationDynamicEOHCost">
+				<defName>MLRP_ElementsOfHarmony</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicCMCCost">
+				<defName>PonyPlush_CutieMarkCrusaders</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_AppleBloom</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Applejack</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_BigMacintosh</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Cheerilee</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_DaringDo</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Discord</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_FleurDeLis</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Fluttershy</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Haywick</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_IzzyMoonbow</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_MaudPie</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_PinkiePie</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_PrincessCadence</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_PrincessCelestia</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_PrincessLuna</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_RainbowDash</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Rarity</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Scootaloo</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_ShiningArmour</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_SpoiledRich</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_StarlightGlimmer</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_SweetieBelle</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_TwilightSparkle</defName>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -1,5 +1,7 @@
 <LanguageData>
 
+	<!--Übersetzung von deepl.com. Wenn Sie Unstimmigkeiten feststellen, kontaktieren Sie mich bitte!-->
+
 	<!--C# CORE-->
 	<MLRP_WelcomeMessage>[My Little RimPony] v{0} geladen. Denken Sie daran, Freundschaft ist Magie!</MLRP_WelcomeMessage><!--Wird im Protokoll angezeigt, wenn das Spiel in das Hauptmenü geladen wird. {0} ist die aktuelle Version und wird automatisch abgerufen.-->
 	<MLRP_PawnCured>{0} wurde von {1} geheilt.</MLRP_PawnCured> <!--Wird oben auf dem Bildschirm angezeigt, wenn ein Bauer mit dem Giftwitz-Heilungsset geheilt wird. {0} ist der Name des Bauern und {1} ist das, wovon sie geheilt wurden.-->
@@ -48,6 +50,12 @@
 	<MLRP_THLetterText>Jetzt erhältlich bei Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText>Jetzt erhältlich bei Thingpone:\n\n{0}</MLRP_TPLetterText>
 	<MLRP_NVLetterText>Jetzt erhältlich bei Nebula Veils Weltraumladen:\n\n{0}</MLRP_NVLetterText>
+	
+	<!--MOD SETTINGS-->
+	
+	<MLRP_ModName>Mein kleines RimPony</MLRP_ModName>
+	<enableResearchLettersExplanation>Forschungsbriefe aktivieren</enableResearchLettersExplanation>
+	<enableResearchLettersToolTip>Sendet einen Brief, sobald Sie eine Forschung abgeschlossen haben, die neue Rezepte freischaltet.</enableResearchLettersToolTip>
 	
 	<!--MODS-->
 	

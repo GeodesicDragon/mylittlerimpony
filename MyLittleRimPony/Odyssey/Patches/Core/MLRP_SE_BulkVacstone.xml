@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MLRP_SE_OneHundredVanillaBlocks"]/products</xpath>
+		<value>
+			<BlocksVacstone>500</BlocksVacstone>
+		</value>
+	</Operation>
+
+</Patch>

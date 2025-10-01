@@ -1,0 +1,35 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd"> <!--Cold biomes-->
+				<xpath>Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="ColdBog" or defName="IceSheet" or defName="SeaIce"]/diseases</xpath>
+				<value>
+					<li>
+						<diseaseInc>MLRP_Disease_CutiePox</diseaseInc>
+						<commonality>25</commonality>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!--Warm biomes-->
+				<xpath>Defs/BiomeDef[defName="Underground" or defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp"]/diseases</xpath>
+				<value>
+					<li>
+						<diseaseInc>MLRP_Disease_CutiePox</diseaseInc>
+						<commonality>75</commonality>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!--Hot biomes-->
+				<xpath>Defs/BiomeDef[defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert"]/diseases</xpath>
+				<value>
+					<li>
+						<diseaseInc>MLRP_Disease_CutiePox</diseaseInc>
+						<commonality>50</commonality>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

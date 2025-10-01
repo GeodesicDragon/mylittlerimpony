@@ -2,7 +2,7 @@
 
 <!--CONVERT SILVER TO WOOD-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertSilverIntoWood</defName>
 	<label>convert silver to wood</label>
 	<description>Convert 1000 silver into 833 wood.</description>
@@ -24,7 +24,7 @@
 
 <!--CONVERT WOOD TO SILVER-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertWoodIntoSilver</defName>
 	<label>convert wood to silver</label>
 	<description>Convert 833 wood into 1000 silver.</description>
@@ -46,7 +46,7 @@
 
 <!--CONVERT GOLD TO WOOD-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertGoldIntoWood</defName>
 	<label>convert gold to wood</label>
 	<description>Convert 100 gold into 833 wood.</description>

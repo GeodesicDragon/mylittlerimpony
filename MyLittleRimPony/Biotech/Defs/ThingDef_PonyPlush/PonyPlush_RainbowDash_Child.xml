@@ -2,7 +2,7 @@
 	<ThingDef ParentName="PonyPlushChildBase">
 		<thingClass>Apparel</thingClass>
 		<defName>PonyPlush_RainbowDash_Child</defName>
-		<label>Rainbow Dash (child-sized)</label>
+		<label>Speedy Rainbow Dash (child-sized)</label>
 		<description>It goes without saying that Rainbow 'Danger' Dash is the very ponification of speed.\n\nCarrying her makes you feel faster on your feet.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/RainbowDash</texPath>
@@ -10,5 +10,18 @@
 		<equippedStatOffsets>
 			<MoveSpeed>2</MoveSpeed>
 		</equippedStatOffsets>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>150</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 	</ThingDef>
 </Defs>

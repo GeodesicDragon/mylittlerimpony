@@ -2,7 +2,7 @@
 
 <!--25 WORT-->
 
-<RecipeDef>
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_CreateTwentyFiveWort</defName>
 	<label>create wort x 25</label>
 	<description>Create 25 wort, using Daybreaker's residual heat to accelerate the process.</description>
@@ -25,13 +25,21 @@
 
 <!--250 BEER-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_CreateTwoHundredFiftyBeer</defName>
 	<label>create beer x 250</label>
 	<description>Create 250 bottles of beer, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>Brewing</researchPrerequisite>
     <jobString>Making beer.</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>

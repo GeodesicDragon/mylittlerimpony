@@ -11,5 +11,18 @@
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>300</costStuffCount>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 	</ThingDef>
 </Defs>

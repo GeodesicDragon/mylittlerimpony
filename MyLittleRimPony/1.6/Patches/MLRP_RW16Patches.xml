@@ -1,0 +1,175 @@
+<Patch>
+
+	<!--UPDATE SCENARIOS-->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario</xpath>
+				<value>
+					<surfaceLayer>
+						<def>SurfaceLayerFixed</def>
+						<tag>Surface</tag>
+						<layer>Surface</layer>
+						<settingsDef>Surface</settingsDef>
+						<hide>true</hide>
+						<connections>
+							<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+								<zoomMode>ZoomOut</zoomMode>
+							</Orbit>
+						</connections>
+					</surfaceLayer>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts</xpath>
+				<value>
+					<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
+						<def>PlanetLayer</def>
+						<tag>Orbit</tag>
+						<layer>Orbit</layer>
+						<settingsDef>Orbit</settingsDef>
+						<hide>true</hide>
+						<connections>
+							<Surface>
+								<zoomMode>ZoomIn</zoomMode>
+							</Surface>
+						</connections>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos" or defName="MLRP_Scenario_RenegadeAlicorn"]/scenario</xpath>
+					<value>
+						<surfaceLayer>
+							<def>SurfaceLayerFixed</def>
+							<tag>Surface</tag>
+							<layer>Surface</layer>
+							<settingsDef>Surface</settingsDef>
+							<hide>true</hide>
+							<connections>
+								<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+									<zoomMode>ZoomOut</zoomMode>
+								</Orbit>
+								</connections>
+						</surfaceLayer>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ScenarioDef[defName="MLRP_Scenario_Xenos" or defName="MLRP_Scenario_RenegadeAlicorn"]/scenario/parts</xpath>
+					<value>
+						<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
+							<def>PlanetLayer</def>
+							<tag>Orbit</tag>
+							<layer>Orbit</layer>
+							<settingsDef>Orbit</settingsDef>
+							<hide>true</hide>
+							<connections>
+								<Surface>
+									<zoomMode>ZoomIn</zoomMode>
+								</Surface>
+							</connections>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!--UPDATE MODEXTENSIONS FOR VANILLA EXPANDED FRAMEWORK-->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Expanded Framework</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[defName="MLRP_NPC_Faction"]/modExtensions</xpath>
+					<value>
+						<modExtensions>
+							<li Class="VEF.Factions.FactionDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">			
+								<startingGoodwillByFactionDefs>
+									<MLRP_BronyFaction>100</MLRP_BronyFaction>
+									<MLRP_RenegadeAlicornFaction MayRequire="Ludeon.RimWorld.Biotech">-75</MLRP_RenegadeAlicornFaction>
+									<PonyColony MayRequire="Pony.PoniesOfTheRim.Core">100</PonyColony>
+									<PonyTribe MayRequire="Pony.PoniesOfTheRim.Core">100</PonyTribe>
+								</startingGoodwillByFactionDefs>			
+							</li>
+						</modExtensions>
+					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Alpha Genes</li>
+					</mods>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/FactionDef[defName="MLRP_Batpony_Faction"]/modExtensions</xpath>
+						<value>
+							<modExtensions>
+								<li Class="VEF.Factions.FactionDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+									<startingGoodwillByFactionDefs>
+										<Pony_PlayerThestralKingdom MayRequire="Pony.PoniesOfTheRim.Batponies">0</Pony_PlayerThestralKingdom>
+									</startingGoodwillByFactionDefs>
+								</li>
+							</modExtensions>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!--UPDATE DERPY HOOVES TRANSPORT POD-->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MLRP_DerpyHooves"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_Transporter">
+					<restEffectiveness>0.3</restEffectiveness>
+					<massCapacity>300</massCapacity>
+					<canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
+				</li>
+				<li Class="CompProperties_Launchable_TransportPod">
+					<skyfallerLeaving>DropPodLeaving</skyfallerLeaving>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	
+	<!--UPDATE POISON JOKE-->
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName="MLRP_PoisonJokeAddiction"]/causesNeed</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/HediffDef[defName="MLRP_PoisonJokeAddiction"]</xpath>
+				<value>
+					<chemicalNeed>MLRP_PoisonJokeNeed</chemicalNeed>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--UPDATE MISS HARSHWHINNY TO ALLOW THE EJECTING OF FUEL-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MLRP_MissHarshwhinny"]/comps/li[2]</xpath>
+		<value>
+			<canEjectFuel>true</canEjectFuel>
+		</value>
+	</Operation>
+
+</Patch>

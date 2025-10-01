@@ -1,0 +1,13 @@
+<Patch>
+
+	<!--Needs to be a PatchOperation to ensure it applies on game start.-->
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_UnicornTwilight</defName>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

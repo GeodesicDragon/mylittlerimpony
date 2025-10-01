@@ -21,10 +21,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <AccuracyTouch>0.3</AccuracyTouch>
-      <AccuracyShort>0.4</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.8</AccuracyLong>
       <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>5</Mass>

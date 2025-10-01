@@ -1,0 +1,44 @@
+<Defs>
+
+	<RecipeDef ParentName="MLRP_SE_RecipeBase">
+		<defName>MLRP_SE_BuyTrashbricks</defName>
+		<label>purchase trashbricks</label>
+		<description>Use silver to purchase 100 trashbricks.</description>
+		<researchPrerequisite>VRecyclingE_ComplexRecycling</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<VRecyclingE_TrashBrick>100</VRecyclingE_TrashBrick>
+		</products>	
+	</RecipeDef>
+
+	<RecipeDef ParentName="MLRP_SE_RecipeBase">
+		<defName>MLRP_SE_SellTrashbricks</defName>
+		<label>sell trashbricks</label>
+		<description>Sell 100 trashbricks in exchange for silver.</description>
+		<researchPrerequisite>VRecyclingE_ComplexRecycling</researchPrerequisite>
+		<jobString>Selling materials</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VRecyclingE_TrashBrick</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<Silver>20</Silver>
+		</products>	
+	</RecipeDef>
+
+</Defs>

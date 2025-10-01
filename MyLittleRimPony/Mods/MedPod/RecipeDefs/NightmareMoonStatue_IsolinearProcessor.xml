@@ -1,0 +1,33 @@
+<Defs>
+
+	<RecipeDef>
+		<defName>MLRP_NMM_IsolinearProcessor</defName>
+		<label>request isolinear processor</label>
+		<description>Offer silver in exchange for an isolinear processor. It's expensive, but it's marginally better than waiting for a trader or quest reward.</description>
+		<researchPrerequisite>AcceleratedCellularRegeneration</researchPrerequisite>
+		<jobString>Making an offering to Nightmare Moon</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>MLRP_NightmareMoon</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>900</count>
+			</li>
+		</ingredients>
+		<products>
+			<IsolinearProcessor>1</IsolinearProcessor>
+		</products>
+	</RecipeDef>
+				
+</Defs>

@@ -1,0 +1,61 @@
+<Patch>
+
+	<!--Needs to be a PatchOperation to ensure it applies on game start.-->
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_ButtonMash</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCMCCost">
+				<defName>PonyPlush_CutieMarkCrusaders_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_AppleBloom_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_BigMacintosh_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_Cheerilee_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_CombatRainbowDash</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_Discord_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_IzzyMoonbow_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_PrincessCadence_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_PrincessCelestia_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_PrincessLuna_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_RainbowDash_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_Scootaloo_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_ShiningArmour_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_SpoiledRich_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_StarlightGlimmer_Child</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicChildCost">
+				<defName>PonyPlush_SweetieBelle_Child</defName>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -4,8 +4,7 @@
   <FactionDef Abstract="True" Name="MLRP_PlayerFactionBase">
 	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
-	  <li>(0.1, 0.1, 0.1)</li>
-	  <li>(0.5, 0.5, 0.5)</li>
+	  <li>(1, 1, 1)</li>
     </colorSpectrum>
     <raidLootValueFromPointsCurve>
       <points>
@@ -39,7 +38,7 @@
         </categories>
       </li>
     </backstoryFilters>
-    <factionIconPath>Things/EquestrianFlag</factionIconPath>
+    <factionIconPath>Things/ElementsOfHarmony</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
     <factionNameMaker>MLRP_BronyNames</factionNameMaker>
     <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>

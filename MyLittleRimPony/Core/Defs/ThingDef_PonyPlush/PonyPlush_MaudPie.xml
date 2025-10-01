@@ -11,5 +11,18 @@
 			<MiningYield>0.25</MiningYield>
 			<DeepDrillingSpeed>0.25</DeepDrillingSpeed>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>300</costStuffCount>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 	</ThingDef>
 </Defs>

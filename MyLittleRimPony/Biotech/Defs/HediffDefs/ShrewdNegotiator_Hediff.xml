@@ -7,11 +7,11 @@
 	<hediffClass>HediffWithComps</hediffClass>
 	<stages>
 		<li>
-			<statFactors>
+			<statOffsets>
 				<NegotiationAbility>5</NegotiationAbility>
 				<TradePriceImprovement>5</TradePriceImprovement>
 				<SocialImpact>5</SocialImpact>
-			</statFactors>
+			</statOffsets>
 		</li>
 	</stages>
 	<comps>

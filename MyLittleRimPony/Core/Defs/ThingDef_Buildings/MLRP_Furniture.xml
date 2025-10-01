@@ -50,7 +50,6 @@
       <texPath>Things/Building/DiscordLamp</texPath>
 	  <drawSize>(1,1)</drawSize>
     </graphicData>
-    <costStuffCount>300</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -61,21 +60,16 @@
     <statBases>
       <Mass>4</Mass>
     </statBases>
-    <comps>
-      <li Class="CompProperties_Glower">
-        <glowRadius>8</glowRadius>
-      </li>
-    </comps>
-	<specialDisplayRadius>8</specialDisplayRadius>
   </ThingDef>
   
   <ThingDef ParentName="DiscordLampBase" >
     <defName>MLRP_DiscordLamp</defName>
     <label>Discord lamp</label>
-    <description>It's a lamp that looks like Discord, what else is there to say? While it doesn't provide much in the way of light, it doesn't require any power and will continue operating even during a solar flare.\n\nIts unique design appeals even to your enemies, who will not target it during raids.</description>
+    <description>It's a lamp that looks like Discord, what else is there to say?\n\nIt doesn't require any power and will continue operating even during a solar flare. Furthermore, its unique design appeals even to your enemies, who will not target it during raids.</description>
+	<costStuffCount>300</costStuffCount>
     <comps>
 		<li Class="CompProperties_Glower">
-			<!--<glowColor>(255,255,255,0)</glowColor>-->
+			<glowRadius>8</glowRadius>
 			<glowColor>(214,148,94,0)</glowColor>
 			<colorPickerEnabled>true</colorPickerEnabled>
 			<darklightToggle>true</darklightToggle>
@@ -84,6 +78,7 @@
     <building>
 		<ai_neverTrashThis>true</ai_neverTrashThis>
     </building>
+	<specialDisplayRadius>8</specialDisplayRadius>
   </ThingDef>
   
 </Defs>

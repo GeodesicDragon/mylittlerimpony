@@ -1,0 +1,38 @@
+<Defs>
+
+	<ThingDef ParentName="PonyPlushBase">
+		<thingClass>Apparel</thingClass>
+		<defName>PonyPlush_UnicornTwilight</defName>
+		<label>Twilight Sparkle (unicorn)</label>
+		<description>Before she became the Princess of Friendship, Twilight Sparkle was one of the most powerful unicorns in Equestria; there are many who say she was almost as powerful as Princess Celestia herself.\n\nCarrying her makes you feel as though you have more control over your own magical abilities.\n\nMax Energy: +15%\nEnergy Regen: +15%\nAbility Cooldown: -10%</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Things/PonyPlush/UnicornTwilight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
+				<hasEnchantment>true</hasEnchantment>		
+				<maxMP>0.15</maxMP>
+				<maxMPTier>Major</maxMPTier>
+				<mpRegenRate>0.15</mpRegenRate>
+				<mpRegenRateTier>Crafted</mpRegenRateTier>
+				<coolDown>-0.10</coolDown>
+				<coolDownTier>Crafted</coolDownTier>
+			</li>
+		</comps>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>300</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>	
+	  </ThingDef>
+
+	
+</Defs>

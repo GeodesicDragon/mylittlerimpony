@@ -1,0 +1,22 @@
+<Patch>
+
+	<!--Needs to be a PatchOperation to ensure it applies on game start.-->
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_FlimAndFlam</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_KingSombra</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_QueenChrysalis</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicPlushieCost">
+				<defName>PonyPlush_Zecora</defName>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

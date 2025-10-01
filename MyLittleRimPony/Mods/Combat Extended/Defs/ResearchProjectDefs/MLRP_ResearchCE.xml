@@ -1,0 +1,16 @@
+<Defs>
+
+<!--SCREWBALL-->
+
+	<ResearchProjectDef>
+		<defName>MLRP_CE_AmmoResearch</defName>
+		<label>magical ammunition</label>
+		<description>Unlocks the ability to craft pony-themed ammunition.</description>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>6</researchViewY>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+	</ResearchProjectDef>
+	
+</Defs>

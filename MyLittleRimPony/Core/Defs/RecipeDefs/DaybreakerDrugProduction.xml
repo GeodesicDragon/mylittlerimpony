@@ -2,13 +2,21 @@
 
 <!--MAKE 100 FLAKE-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakeFlake</defName>
 	<label>make 100 flake</label>
 	<description>Convert 400 psychoid leaves into 100 flake, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
     <jobString>Making flake</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -25,13 +33,21 @@
 
 <!--MAKE 100 GO-JUICE-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakeGoJuice</defName>
 	<label>make 100 go-juice</label>
 	<description>Convert 200 neutroamine and 100 yayo into 100 go-juice, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>GoJuiceProduction</researchPrerequisite>
     <jobString>Making go-juice</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -56,13 +72,21 @@
 
 <!--MAKE 100 PENOXYCYLINE-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakePenoxycyline</defName>
 	<label>make 100 penoxycyline</label>
 	<description>Convert 200 neutroamine into 100 penoxycyline, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
     <jobString>Making penoxycyline</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -79,13 +103,21 @@
 
 <!--MAKE 100 POISON JOKE JOINTS-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakePoisonJokeJoint</defName>
 	<label>make 100 poison joke joints</label>
 	<description>Convert 800 poison joke leaves into 100 poison joke joints, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>Making poison joke joints</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -102,13 +134,21 @@
 
 <!--MAKE 100 PSYCHITE TEA-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakePsychiteTea</defName>
 	<label>make 100 psychite tea</label>
 	<description>Convert 400 psychoid leaves into 100 psychite tea, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
     <jobString>Making psychite tea</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -125,13 +165,21 @@
 
 <!--MAKE 100 SMOKELEAF JOINTS-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakeSmokeleafJoints</defName>
 	<label>make 100 smokeleaf joints</label>
 	<description>Convert 400 smokeleaf leaves into 100 smokeleaf joints, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>Making smokeleaf joints</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -148,13 +196,21 @@
 
 <!--MAKE 100 WAKE-UP-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakeWakeUp</defName>
 	<label>make 100 wake-up</label>
 	<description>Convert 200 neutroamine into 100 wake-up, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>WakeUpProduction</researchPrerequisite>
     <jobString>Making wake-up</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -171,13 +227,21 @@
 
 <!--MAKE 100 YAYO-->
 
-<RecipeDef ParentName="DaybreakerRecipes_HalfChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_MakeYayo</defName>
 	<label>make 100 yayo</label>
 	<description>Convert 800 psychoid leaves into 100 yayo, using chemfuel to accelerate the process.</description>
 	<researchPrerequisite>PsychiteRefining</researchPrerequisite>
     <jobString>Making yayo</jobString>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>

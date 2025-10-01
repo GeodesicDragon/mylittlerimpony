@@ -2,7 +2,6 @@
 
 <TraitDef>
 	<defName>MLRP_BronyTrait</defName>
-	<commonality>0.1</commonality>
 	<degreeDatas>
 		<li>
 			<label>brony</label>
@@ -14,6 +13,7 @@
 				<MLRP_ElementsOfHarmony>-3~1</MLRP_ElementsOfHarmony>
 				<MLRP_ElementsOfHarmonyWeaponised>-98~1</MLRP_ElementsOfHarmonyWeaponised> <!--Does this equal a 1% chance, or am I overthinking it?-->
 			</possessions>
+			<commonality>0.1</commonality>
 		</li>
 	</degreeDatas>
 	<conflictingTraits>
@@ -28,10 +28,11 @@
 	<degreeDatas>
 		<li>
 			<label>anti brony</label>
-			<description>{PAWN_nameDef} can't understand why any sane adult would enjoy My Little Pony, and tends to dislike anyone who does. {PAWN_pronoun} will get a mood loss from equipping pony plushies.</description>
+			<description>{PAWN_nameDef} dislikes anything related to My Little Pony, as well as anyone who actually enjoys it. {PAWN_pronoun} hates being made to equip pony plushies, and has a negative opinion of pony races and xenotypes.\n\nHowever, these attitudes will disappear should {PAWN_pronoun} become inhumanised.</description>
 			<possessions>
 				<PonyPlush_Ruined>0~2</PonyPlush_Ruined>
 			</possessions>
+			<commonality>0.2</commonality>
 		</li>
 	</degreeDatas>
 	<!--<conflictingTraits>

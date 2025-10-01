@@ -2,11 +2,19 @@
 
 <!--CONVERT GOLD TO JADE-->
 
-<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertGoldIntoJade</defName>
 	<label>convert gold to jade</label>
 	<description>Convert 100 gold into 200 jade.</description>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -24,11 +32,19 @@
 
 <!--CONVERT GOLD TO STEEL-->
 
-<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertGoldIntoSteel</defName>
 	<label>convert gold to steel</label>
 	<description>Convert 100 gold into 526 steel.</description>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -46,11 +62,19 @@
 
 <!--CONVERT GOLD TO PLASTEEL-->
 
-<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertGoldIntoPlasteel</defName>
 	<label>convert gold to plasteel</label>
 	<description>Convert 100 gold into 111 plasteel.</description>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -68,11 +92,19 @@
 
 <!--CONVERT GOLD TO URANIUM-->
 
-<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertGoldIntoUranium</defName>
 	<label>convert gold to uranium</label>
 	<description>Convert 100 gold into 167 uranium.</description>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>
@@ -90,11 +122,19 @@
 
 <!--CONVERT 1000 GOLD TO SILVER-->
 
-<RecipeDef ParentName="DaybreakerRecipes_QuintupleChemfuel">
+<RecipeDef ParentName="DaybreakerRecipeBase">
 	<defName>MLRP_DB_ConvertOneThousandGoldIntoSilver</defName>
 	<label>convert a lot of gold to a lot of silver</label>
 	<description>Convert 1000 gold into 10000 silver.</description>
     <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>250</count>
+		</li>
 		<li>
 			<filter>
 				<thingDefs>

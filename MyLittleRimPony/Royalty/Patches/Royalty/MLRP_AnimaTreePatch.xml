@@ -1,0 +1,17 @@
+<Patch>
+
+	<!--WARNING: These PatchOperations are designed to work ONLY with these defNames.
+	Do not attempt to use them for any others, as it WILL cause problems!-->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="MyLittleRimPony.PatchOperationDynamicAnimaTree">
+				<defName>Plant_TreeAnima</defName>
+			</li>
+			<li Class="MyLittleRimPony.PatchOperationDynamicAnimaGrass">
+				<defName>Plant_GrassAnima</defName>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

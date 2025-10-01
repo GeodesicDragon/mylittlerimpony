@@ -1,5 +1,7 @@
 <LanguageData>
 
+	<!--Traduction par deepl.com. Si vous remarquez des errurs, veuillez me contacter !-->
+
 	<!--C# CORE-->
 	<MLRP_WelcomeMessage>[Mon petit RimPony] v{0} chargé. N'oubliez pas que l'amitié est magique!</MLRP_WelcomeMessage><!--Afficher dans le journal lorsque le jeu se charge dans le menu principal. {0} est la version actuelle et est obtenue automatiquement.-->
 	<MLRP_PawnCured>{0} a été guéri de {1}.</MLRP_PawnCured> <!--S'affiche en haut de l'écran lorsqu'un pion est soigné à l'aide du kit de guérison des blagues sur le poison. {0} est le nom du pion et {1} ce dont il a été guéri.-->
@@ -48,6 +50,12 @@
 	<MLRP_THLetterText>Disponible dès à présent au Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText>Disponible à la Thingpone :\n\n{0}</MLRP_TPLetterText>
 	<MLRP_NVLetterText>Disponible à la Le magasin spatial de Nebula Veil:\n\n{0}</MLRP_NVLetterText>
+	
+	<!--MOD SETTINGS-->
+	
+	<MLRP_ModName>Mon petit RimPony</MLRP_ModName>
+	<enableResearchLettersExplanation>Activer les lettres de recherche</enableResearchLettersExplanation>
+	<enableResearchLettersToolTip>Envoie une lettre chaque fois que vous terminez une recherche qui débloque de nouvelles recettes.</enableResearchLettersToolTip>
 	
 	<!--MODS-->
 	

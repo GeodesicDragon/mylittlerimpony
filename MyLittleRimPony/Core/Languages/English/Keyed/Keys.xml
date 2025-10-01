@@ -3,8 +3,8 @@
 	<!--C# CORE-->
 	<MLRP_WelcomeMessage>[My Little RimPony] v{0} loaded. Remember, friendship is magic!</MLRP_WelcomeMessage><!--Shown in the log when the game loads to the main menu. {0} is the current version, and is obtained automatically.-->
 	<MLRP_PawnCured>{0} has been cured of {1}.</MLRP_PawnCured> <!--Shown at the top of the screen when a pawn is cured using the herbal cure kit. {0} is the pawn's name and {1} is what they were cured of.-->
-	<MLRP_CureFailed>Failed to cure {0} of {1}.</MLRP_CureFailed> <!--Shown at the top of the screen when an attempt to cure a pawn using the herbal cure kit fails. Only applies to attempts to cure the Cutie Pox.-->
-	<MLRP_NothingToCure>[My Little RimPony] Warning: Attempted to cure non-existent hediff(s) on {0}.</MLRP_NothingToCure> <!--Shown in log when a poison joke cure kit is used by a pawn not suffering from an affliction it can cure. {0} is the pawn's name.-->
+	<MLRP_CureFailed>Failed to cure {0} of {1}.</MLRP_CureFailed> <!--Shown at the top of the screen when an attempt to cure a pawn using the herbal cure kit fails. Only applies to attempts to cure the plague on pawns and animals.-->
+	<MLRP_NothingToCure>[My Little RimPony] Error: Attempted to cure non-existent hediff(s) on {0}.</MLRP_NothingToCure> <!--Shown in log when a herbal cure kit is used by a pawn not suffering from an affliction it can cure. {0} is the pawn's name.-->
 	<MLRP_AntiBronyHasPlushieAlert>Anti brony using plushie</MLRP_AntiBronyHasPlushieAlert> <!--Shown at the side of the screen when a pawn with the anti brony trait has a plushie equipped.-->
 	<MLRP_AntiBronyHasPlushieExplanation>A pawn with the anti brony trait has a pony plushie equipped, which will cause a mood penalty until it is dropped. It might be worth assigning anti bronies a separate outfit in order to prevent this.</MLRP_AntiBronyHasPlushieExplanation>
 		
@@ -48,6 +48,83 @@
 	<MLRP_THLetterText>Now available at Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText>Now available at Thingpone:\n\n{0}</MLRP_TPLetterText>
 	<MLRP_NVLetterText>Now available at Nebula Veil's Space Shop:\n\n{0}</MLRP_NVLetterText>
+	
+	<!--MOD SETTINGS-->
+	
+	<MLRP_ModName>My Little RimPony</MLRP_ModName>
+	<MLRP_SettingsApplied>[My Little RimPony] Your changes have been applied.</MLRP_SettingsApplied>
+	<MLRP_SettingsApplyOnClose>With some exceptions, all settings will be applied when this window is closed.</MLRP_SettingsApplyOnClose>
+	<MLRP_GeneralHeader>General Settings</MLRP_GeneralHeader>
+	<MLRP_BuildingHeader>Building Settings</MLRP_BuildingHeader>
+	<MLRP_PlushieHeader>Plushie Settings</MLRP_PlushieHeader>
+	<MLRP_PlushieStuffNeeded>Making plushies requires {0} stuff</MLRP_PlushieStuffNeeded>
+	<MLRP_ChangeNeedsRestart>Changing this setting will require a restart in order to apply updated patches.</MLRP_ChangeNeedsRestart>
+	<MLRP_SunnyMinRaidThreat>Sunny will start sending raids once {0} threat points are reached</MLRP_SunnyMinRaidThreat>
+	<MLRP_PlushieSkillNeeded>Crafting plushies requires a skill level of {0}</MLRP_PlushieSkillNeeded>
+	<MLRP_PlushiesTaintedOnDeath>Plushies become tainted on death</MLRP_PlushiesTaintedOnDeath>
+	<MLRP_DBHPippSetting>[Dubs Bad Hygiene] Pipp is short</MLRP_DBHPippSetting>
+	<MLRP_DBHPippExplanation>If checked, the texture for the Pipp Petals plush will be half the size.</MLRP_DBHPippExplanation>
+	<MLRP_TraitHeader>Trait Settings</MLRP_TraitHeader>
+	<MLRP_DiscordBrightness>Discord Lamp glow radius: {0}</MLRP_DiscordBrightness>
+	<MLRP_DiscordStuff>Building a Discord lamp requires {0} stuff</MLRP_DiscordStuff>
+	<MLRP_ScrewballStuff>Building Screwballs requires {0} stuff</MLRP_ScrewballStuff>
+	<MLRP_BronyTrait>Brony trait commonality: {0}</MLRP_BronyTrait>
+	<MLRP_AntiBronyTrait>Anti brony trait commonality: {0}</MLRP_AntiBronyTrait>
+	<enableResearchLettersExplanation>Enable research letters</enableResearchLettersExplanation>
+	<enableResearchLettersToolTip>Sends a letter whenever you complete research which unlocks new recipes.</enableResearchLettersToolTip>
+	<MLRP_EvilSistersHeader>Evil Sisters Settings</MLRP_EvilSistersHeader>
+	<MLRP_SisterStuff>Building either sister statue requires {0} stuff</MLRP_SisterStuff>
+	<MLRP_DBChemfuel>Regular amount of chemfuel to use at the Daybreaker statue: {0}</MLRP_DBChemfuel>
+	<MLRP_DBChemfuelExplanation>Some recipes use more than this amount, and it will be altered accordingly.</MLRP_DBChemfuelExplanation>
+	<MLRP_SweetieBotHeader>Sweetie Bot Settings</MLRP_SweetieBotHeader>
+	<MLRP_SBRange>Turret Range: {0}</MLRP_SBRange>
+	<MLRP_SBTouch>Touch Range Accuracy: {0}</MLRP_SBTouch>
+	<MLRP_SBShort>Short Range Accuracy: {0}</MLRP_SBShort>
+	<MLRP_SBMedium>Medium Range Accuracy: {0}</MLRP_SBMedium>
+	<MLRP_SBLong>Long Range Accuracy: {0}</MLRP_SBLong>
+	<MLRP_SBCE>Aiming Accuracy: {0}</MLRP_SBCE>
+	<MLRP_HigherIsBetter>Higher numbers mean better accuracy.</MLRP_HigherIsBetter>
+	<MLRP_SpawnerHeader>Spawner Settings</MLRP_SpawnerHeader>
+	<MLRP_NRItemToSpawn>Nurse Redheart spawns glitterworld medicine</MLRP_NRItemToSpawn>
+	<MLRP_NRSpawnAmount>Nurse Redheart will spawn {0} medicine</MLRP_NRSpawnAmount>
+	<MLRP_NRSpawnTime>Nurse Redheart will spawn medicine every {0} days</MLRP_NRSpawnTime>
+	<MLRP_CiderSpawnAmount>Super Speedy Cider Squeezy 6000 will spawn {0} beer</MLRP_CiderSpawnAmount>
+	<MLRP_CiderSpawnTime>Super Speedy Cider Squeezy 6000 will spawn beer every {0} days</MLRP_CiderSpawnTime>
+	<MLRP_DerpyMass>Derpy Hooves can carry a total mass of {0} and will require {0} stuff to build</MLRP_DerpyMass>
+	<MLRP_PlushieRecyling>Recycling destroyed plushies will recover {0} materials</MLRP_PlushieRecyling>
+	<MLRP_TreeHuggerStuff>Building Tree Hugger requires {0} stuff</MLRP_TreeHuggerStuff>
+	<MLRP_OldTSTex>Use old Twilight Sparkle texture</MLRP_OldTSTex>
+	
+	<MLRP_RoyaltyHeader>Royalty DLC Settings</MLRP_RoyaltyHeader>
+	<MLRP_TreeOfHarmony>Turn the anima tree into the Tree of Harmony</MLRP_TreeOfHarmony>
+		
+	<MLRP_IdeologyHeader>Ideology DLC Settings</MLRP_IdeologyHeader>
+	<MLRP_HPOldBonuses>Harmony precept provides increased bonuses</MLRP_HPOldBonuses>
+	<MLRP_HPOldBonusesExp>If enabled, the bonuses provided by the Harmony precept will be returned to the values they had prior to Version 3.43.49 of the mod, which is when they were reduced to what they are now.</MLRP_HPOldBonusesExp>
+	
+	<MLRP_BiotechHeader>Biotech DLC Settings</MLRP_BiotechHeader>
+	<MLRP_SBMechCluster>Sweetie Bot mechanoids appear in mechanoid clusters</MLRP_SBMechCluster>
+	<MLRP_SBMute>Mute Sweetie Bot mechanoid call sound</MLRP_SBMute>
+	<MLRP_XenoChem>Enable drug dependencies for Diamond Dog/Pegasus/Unicorn xenotypes</MLRP_XenoChem>
+	<MLRP_XenoReminder>Changing this mid-game will only affect newly spawned pawns of that xenotype.</MLRP_XenoReminder>
+	
+	<MLRP_AnomalyHeader>Anomaly DLC Settings</MLRP_AnomalyHeader>
+	<MLRP_ThingponeStuff>Building Thingpone requires {0} stuff</MLRP_ThingponeStuff>
+	
+	<MLRP_FactionHeader>Faction Settings</MLRP_FactionHeader>
+	<MLRP_NPCFaction>NPC faction is always present when starting a new colony</MLRP_NPCFaction>
+	<MLRP_DogFaction>Diamond Dog faction is always present when starting a new colony</MLRP_DogFaction>
+	<MLRP_BatFaction>Batpony faction is always present when starting a new colony</MLRP_BatFaction>
+	<MLRP_FactionExplanation>If checked, this faction will automatically be added to the world when starting a new colony.</MLRP_FactionExplanation>
+	
+	<TreeOfHarmonyLabel>Tree of Harmony</TreeOfHarmonyLabel>
+	<TreeOfHarmonyDesc>The Tree of Harmony is a magical tree that once held the Elements of Harmony. Nobody knows how it ended up on the rim, but many people suspect that science was involved.\n\nIf a person (psycaster or not) meditates near the tree, it will grow harmony grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from the Tree of Harmony while meditating at it.\n\nThe tree's psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that these trees are not simply trees, but are rather the physical extremities of a single world spirit, while bronies believe them to be a physical extension of their beliefs.</TreeOfHarmonyDesc>
+	<TreeOfHarmonyLinkLetterTitle>About: Linking with the Tree of Harmony</TreeOfHarmonyLinkLetterTitle>
+	<TreeOfHarmonyLinkLetterText>The Tree of Harmony now has {0} harmony grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires 20 grass.\n\nThe harmony grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with the Tree of Harmony. You can see a person's focus types by looking at their info card with the 'i' button.</TreeOfHarmonyLinkLetterText>
+	<TreeOfHarmonyDeath>The Tree of Harmony has died and emitted a disturbing psychic scream.</TreeOfHarmonyDeath>
+	
+	<HarmonyGrassLabel>harmony grass</HarmonyGrassLabel>
+	<HarmonyGrassDesc>A grass infused with luminous microorganisms. Tribal peoples find that this grass grows around the base of the Tree of Harmony as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nAnimals refuse to eat anima grass, which tribal stories say is done out of respect.\n\nBronies believe that the grass is a physical extension of the tree's power, and that it holds the key to opening a link to Equestria, but the grass degenerates into normal plant matter when observed too closely.</HarmonyGrassDesc>
 	
 	<!--MODS-->
 	
