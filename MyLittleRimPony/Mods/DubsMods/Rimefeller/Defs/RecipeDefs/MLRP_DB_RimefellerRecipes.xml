@@ -1,6 +1,6 @@
 <Defs>
 
-	<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<RecipeDef>
 		<defName>MLRP_DB_ConvertSilverIntoSynthylene</defName>
 		<label>convert silver to synthylene</label>
 		<description>Convert 1000 silver into the market value equivalent of synthylene.</description>
@@ -18,6 +18,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
@@ -30,7 +38,7 @@
 		<researchPrerequisite>SynthyleneProduction</researchPrerequisite>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="DaybreakerRecipes_RegularChemfuel">
+	<RecipeDef>
 		<defName>MLRP_DB_ConvertSynthyleneIntoSilver</defName>
 		<label>convert synthylene to silver</label>
 		<description>Convert 500 synthylene into the market value equivalent of silver.</description>
@@ -45,6 +53,14 @@
 			<li>MLRP_Daybreaker</li>
 		</recipeUsers>
 		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
 			<li>
 				<filter>
 					<thingDefs>

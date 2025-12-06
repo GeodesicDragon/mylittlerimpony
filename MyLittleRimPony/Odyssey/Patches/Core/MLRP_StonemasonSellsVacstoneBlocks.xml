@@ -1,0 +1,13 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="MLRP_NPCFaction_Stonemason"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>BlocksVacstone</thingDef>
+				<countRange>50</countRange>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

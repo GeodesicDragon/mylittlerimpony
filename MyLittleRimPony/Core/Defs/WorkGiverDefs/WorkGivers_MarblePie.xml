@@ -11,9 +11,10 @@
     </fixedBillGiverDefs>
     <verb>exchange stone blocks</verb>
     <gerund>exchanging stone blocks at</gerund>
-    <requiredCapacities>
+    <!--<requiredCapacities>
       <li>Manipulation</li>
-    </requiredCapacities>
+    </requiredCapacities>-->
+	<canBeDoneByMechs>true</canBeDoneByMechs>
   </WorkGiverDef>
   
 </Defs>

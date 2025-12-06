@@ -622,6 +622,21 @@
 	</AchievementsExpanded.AchievementDef>
 	
 	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_MissHarshwhinny</defName>
+		<label>Miss Harshwinter</label>
+		<description>Build a Miss Harshwhinny cooler</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_MissHarshwhinny</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/MissHarshwinter</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_TreeHugger</defName>
 		<label>Righteous!</label>
 		<description>Build Tree Hugger</description>
@@ -633,6 +648,21 @@
 		</tracker>
 		
 		<texPath>Achievements/Righteous</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>MLRP_Achievement_LimestonePie</defName>
+		<label>Pure Unfiltered Anger</label>
+		<description>Build Limestone Pie</description>
+		<tab>MLRP_BuildingAchievementTab</tab>
+		
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>MLRP_LimestonePie</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/PureUnfilteredAnger</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
@@ -681,21 +711,6 @@
 		
 		<texPath>Achievements/WeaponisedArrogance</texPath>
 		<points>25</points>
-	</AchievementsExpanded.AchievementDef>
-	
-	<AchievementsExpanded.AchievementDef>
-		<defName>MLRP_Achievement_MissHarshwhinny</defName>
-		<label>Miss Harshwinter</label>
-		<description>Build a Miss Harshwhinny cooler</description>
-		<tab>MLRP_BuildingAchievementTab</tab>
-		
-		<tracker Class="AchievementsExpanded.BuildingTracker">
-			<def>MLRP_MissHarshwhinny</def>
-			<count>1</count>
-		</tracker>
-		
-		<texPath>Achievements/MissHarshwinter</texPath>
-		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	
 	<!--WEAPONS-->

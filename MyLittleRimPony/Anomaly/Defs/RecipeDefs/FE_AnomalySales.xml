@@ -35,7 +35,8 @@
 		</ingredients>
 		<products>
 			<Cloth>233</Cloth>
-		</products>	
+		</products>
+		<displayPriority>0</displayPriority>
 	</RecipeDef>
 
 </Defs>

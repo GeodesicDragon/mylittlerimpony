@@ -5,13 +5,16 @@ using System.Net.Configuration;
 using System.Reflection;
 using UnityEngine;
 using Verse;
+using Verse.Sound;
 
 namespace MLRP_ModSettings
 {
     // Mod Settings Storage
     public class MLRP_Settings : ModSettings
     {
-        public bool enableResearchLetters;
+        // Note to self: Remember to add any new settings to the 'reset to default' code block!
+
+        public bool enableResearchLetters = true;
         public int ingredientCount = 300;
         public int SunnyMinRaidThreat = 5000;
         public int craftingSkillRequirement = 5;
@@ -48,6 +51,47 @@ namespace MLRP_ModSettings
         public bool xenoChem = false;
         public bool useOldTSTex = false;
         public bool TreeOfHarmony = true;
+
+        public void ResetToDefaults()
+        {
+            enableResearchLetters = true;
+            ingredientCount = 300;
+            SunnyMinRaidThreat = 5000;
+            craftingSkillRequirement = 5;
+            taintedOnDeath = true;
+            dbhPippIsShort = true;
+            BronyCommonality = 0.1f;
+            AntiBronyCommonality = 0.2f;
+            DiscordBrightness = 8;
+            DiscordStuff = 300;
+            ScrewballStuff = 300;
+            SisterStuff = 750;
+            DBChemfuelCost = 50;
+            SweetieBotRange = 46;
+            SweetieBotAccuracyCE = 0.5f;
+            SweetieBotAccuracyTouch = 0.3f;
+            SweetieBotAccuracyShort = 0.4f;
+            SweetieBotAccuracyMedium = 0.8f;
+            SweetieBotAccuracyLong = 0.8f;
+            NRSpawnGlitterworld = false;
+            NRSpawnAmount = 5;
+            NRSpawnTime = 10;
+            CiderSpawnAmount = 30;
+            CiderSpawnTime = 30;
+            DerpyMass = 300;
+            OldHPBonuses = false;
+            SBMechCluster = true;
+            SBMute = false;
+            NPCFactionNewGame = true;
+            DogFactionNewGame = true;
+            BatFactionNewGame = true;
+            plushieRecycling = 75;
+            TreeHuggerStuff = 200;
+            ThingponeStuff = 250;
+            xenoChem = false;
+            useOldTSTex = false;
+            TreeOfHarmony = true;
+        }
 
         public override void ExposeData()
         {
@@ -318,6 +362,21 @@ namespace MLRP_ModSettings
 
 				MLRP_Options.Label("MLRP_ThingponeStuff".Translate(settings.ThingponeStuff));
 				settings.ThingponeStuff = (int)MLRP_Options.Slider(settings.ThingponeStuff, 100, 500);
+            }
+
+            MLRP_Options.GapLine();
+
+            if (MLRP_Options.ButtonText("MLRP_DefaultSettings".Translate()))
+            {
+                Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation(
+                    "MLRP_ConfirmReset".Translate(),
+                    delegate
+                    {
+                        settings.ResetToDefaults();
+                        MLRP_ApplySettings(); // <— reapply everything in-game
+                        SoundDefOf.Click.PlayOneShotOnCamera();
+                    }
+                ));
             }
 
             MLRP_Options.End();

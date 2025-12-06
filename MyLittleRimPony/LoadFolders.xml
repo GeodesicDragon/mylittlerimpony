@@ -28,6 +28,8 @@
 		<li IfModActive="OskarPotocki.VFE.Deserters">Mods/Vanilla Expanded/Factions/Deserters</li>
 		<li IfModActive="OskarPotocki.VFE.Vikings">Mods/Vanilla Expanded/Factions/Vikings</li>
 		<li IfModActive="vanillaexpanded.outposts">Mods/Vanilla Expanded/Outposts</li>
+		<!--Vanilla Gravship Expanded only supports RimWorld 1.6-->
+		<!--Combat Extended only supports RimWorld 1.6-->
 	</v1.5>
 	<v1.6>
 		<!--MAIN CONTENT-->
@@ -58,6 +60,7 @@
 		<li IfModActive="OskarPotocki.VFE.Deserters">Mods/Vanilla Expanded/Factions/Deserters</li>
 		<li IfModActive="OskarPotocki.VFE.Vikings">Mods/Vanilla Expanded/Factions/Vikings</li>
 		<li IfModActive="vanillaexpanded.outposts">Mods/Vanilla Expanded/Outposts</li>
+		<li IfModActive="vanillaexpanded.gravship">Mods/Vanilla Expanded/Gravship</li>
 		<li IfModActive="CETeam.CombatExtended">Mods/Combat Extended</li>
 		<li>1.6</li>
 	</v1.6>

@@ -10,7 +10,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PonyPlush_PrincessCadence"]/description</xpath>
 		<value>
-			<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken, but it also makes you feel a bit... frisky.</description>
+			<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken, as well as a little bit... frisky.</description>
 		</value>
 	</Operation>
 	

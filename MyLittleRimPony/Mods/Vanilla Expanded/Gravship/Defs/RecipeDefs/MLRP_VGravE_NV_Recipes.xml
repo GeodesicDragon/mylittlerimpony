@@ -1,0 +1,47 @@
+<Defs>
+
+	<!--PURCHASE ASTROFUEL-->
+
+	<RecipeDef ParentName="MLRP_NebulaVeilBase">
+		<defName>MLRP_VGE_PurchaseAstrofuel</defName>
+		<label>purchase astrofuel</label>
+		<description>Purchase 100 units of astrofuel using silver.</description>
+		<researchPrerequisite>BasicGravtech</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>90</count>
+			</li>
+		</ingredients>
+		<products>
+			<VGE_Astrofuel>100</VGE_Astrofuel>
+		</products>
+	</RecipeDef>
+	
+	<!--PURCHASE OXYGEN CANISTERS-->
+
+	<RecipeDef ParentName="MLRP_NebulaVeilBase">
+		<defName>MLRP_VGE_PurchaseOxygenCanister</defName>
+		<label>purchase oxygen canisters</label>
+		<description>Purchase fifty oyxgen canisters using silver.\n\nA convenience fee of 300 silver will be applied to this transaction.</description>
+		<researchPrerequisite>BasicGravtech</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+		</ingredients>
+		<products>
+			<VGE_OxygenCanister>50</VGE_OxygenCanister>
+		</products>
+	</RecipeDef>
+
+</Defs>

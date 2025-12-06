@@ -7,4 +7,16 @@
 		</value>
 	</Operation>
 	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Gravship Expanded - Chapter 1</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="MLRP_CompactPonyWorkbench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>VFE_TailorCabinet</li>
+			</value>
+		</match>
+	</Operation>
+	
 </Patch>

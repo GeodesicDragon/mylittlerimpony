@@ -126,6 +126,9 @@
 	<HarmonyGrassLabel>harmony grass</HarmonyGrassLabel>
 	<HarmonyGrassDesc>A grass infused with luminous microorganisms. Tribal peoples find that this grass grows around the base of the Tree of Harmony as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nAnimals refuse to eat anima grass, which tribal stories say is done out of respect.\n\nBronies believe that the grass is a physical extension of the tree's power, and that it holds the key to opening a link to Equestria, but the grass degenerates into normal plant matter when observed too closely.</HarmonyGrassDesc>
 	
+	<MLRP_DefaultSettings>Restore settings to default values</MLRP_DefaultSettings>
+	<MLRP_ConfirmReset>Are you sure you want to reset all settings to their default values?</MLRP_ConfirmReset>
+	
 	<!--MODS-->
 	
 	<MLRP_ExtraScrewballOutputTitle>Advanced power researched</MLRP_ExtraScrewballOutputTitle>

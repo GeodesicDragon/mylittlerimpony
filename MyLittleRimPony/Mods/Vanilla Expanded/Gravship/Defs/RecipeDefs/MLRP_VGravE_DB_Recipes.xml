@@ -1,0 +1,35 @@
+<Defs>
+
+<!--CONVERT CHEMFUEL TO ASTROFUEL-->
+
+<RecipeDef>
+	<defName>MLRP_VGE_RefineAstrofuel</defName>
+	<label>bulk refine chemfuel into astrofuel</label>
+	<description>Convert 700 chemfuel into 350 astrofuel.</description>
+    <jobString>Converting materials</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_Daybreaker</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
+			</filter>
+			<count>700</count>
+		</li>
+	</ingredients>
+	<products>
+		<VGE_Astrofuel>350</VGE_Astrofuel>
+	</products>
+	<researchPrerequisite>BasicGravtech</researchPrerequisite>
+</RecipeDef>
+
+</Defs>

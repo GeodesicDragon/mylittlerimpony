@@ -1,0 +1,66 @@
+<Defs>
+ 
+  <ThingDef ParentName="BuildingBase">
+	<defName>MLRP_LimestonePie</defName>
+    <label>Limestone Pie</label>
+    <description>Limestone works in the same way as a regular mining drill, but doesn't require any power, and will even be ignored by raiders.\n\nSome say this is because she is powered entirely by rage, as she continually recalls the time Holder's Boulder fell into a quarry, but this has been neither proven nor disproven.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/LimestonePie</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <designationCategory>MLRP_Buildings</designationCategory>
+    <specialDisplayRadius>2.6</specialDisplayRadius>
+    <rotatable>true</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <uiIconOffset>(0, 0.03)</uiIconOffset>
+    <uiIconScale>0.85</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <building>
+      <uninstallWork>1800</uninstallWork>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+	  <ai_neverTrashThis>true</ai_neverTrashThis>
+    </building>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <costList> <!--Twice as much as a regular deep drill-->
+      <Steel>200</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_DeepDrill</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>PlaceWorker_InvalidOverSubstructure</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <researchPrerequisites>
+		<li>DeepDrilling</li>
+    </researchPrerequisites>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Flammability>0.5</Flammability>
+      <Beauty>-25</Beauty>
+      <Mass>35</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_DeepDrill" />
+      <li Class="CompProperties_CreatesInfestations" />
+    </comps>
+  </ThingDef>
+
+</Defs>  

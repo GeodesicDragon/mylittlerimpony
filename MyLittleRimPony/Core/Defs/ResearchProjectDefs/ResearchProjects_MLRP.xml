@@ -21,7 +21,7 @@
 	<ResearchProjectDef>
 		<defName>MLRP_PlushieRecycling</defName>
 		<label>Plushie recycling</label>
-		<description>Unlocks the ability to recycle ruined plushies at the plushie bench.</description>
+		<description>Unlocks the ability to recycle ruined plushies at the pony workbench.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
@@ -46,7 +46,7 @@
 
 	<ResearchProjectDef>
 		<defName>MLRP_WeaponisedElementsResearch</defName>
-		<label>Rainbow Laser</label>
+		<label>Rainbow laser</label>
 		<description>Create weapons that smite your enemies with the power of rainbows.</description>
 		<prerequisites>
 			<li>PrecisionRifling</li>
@@ -69,9 +69,6 @@
 		<label>Tree Hugger</label>
 		<description>Unlocks Tree Hugger, who will exchange drugs for silver, and vice versa.</description>
 		<tab>MLRP_ResearchTab</tab>
-		<prerequisites>
-			<li>DrugProduction</li>
-		</prerequisites>
 		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
 		<baseCost>500</baseCost>
@@ -85,14 +82,11 @@
 		<label>Statues of the Evil Sisters</label>
 		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for silver, as well as a statue of Daybreaker, who will allow you to convert metals using chemfuel.</description>
 		<tab>MLRP_ResearchTab</tab>
-		<prerequisites>
-			<li>BiofuelRefining</li>
-		</prerequisites>
 		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>About Nightmare Moon and Daybreaker</discoveredLetterTitle>
-		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally, while Daybreaker lets you convert materials using chemfuel.\n\nMany recipes at these buildings are locked behind research; you will receive a letter when new items become available.</discoveredLetterText>
-		<baseCost>1500</baseCost>
+		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally, while Daybreaker lets you convert materials using chemfuel.\n\nMany recipes at these buildings are locked behind research; you will receive a letter when new items become available, though you can disable this in the mod options.</discoveredLetterText>
+		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
 	</ResearchProjectDef>
 	
@@ -161,7 +155,7 @@
 	<ResearchProjectDef>
 		<defName>MLRP_ArchotechResearch</defName>
 		<label>Request archotech items</label>
-		<description>Nightmare Moon will allow you to request archotech items from her.</description>
+		<description>Nightmare Moon will allow you to request archotech items from her, though doing so is extremely expensive.</description>
 		<prerequisites>
 			<li>Bionics</li>
 		</prerequisites>

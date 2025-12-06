@@ -1,0 +1,77 @@
+<Defs>
+
+	<ThingDef ParentName="BenchBase">
+		<defName>MLRP_CompactPonyWorkbench</defName>
+		<label>compact pony workbench</label>
+		<description>A compact version of the regular pony workbench, designed for use in gravships.\n\nIt can only be built on gravship substructure, and requires placement in a designated workshop for maximum efficiency.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/PonyBenchGravship</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<GravlitePanel>2</GravlitePanel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.3</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>4600</WorkToBuild>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>15</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>MLRP_Buildings</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>40</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Substructure</terrainAffordanceNeeded>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<paintable>false</paintable>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.5</workTableNotInRoomRoleFactor>
+			<relatedTerrain>
+				<li>Substructure</li>
+			</relatedTerrain>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>VGE_CompactWorkspaces</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>PlushieBench</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+    <uiOrder>20</uiOrder>
+	</ThingDef>
+
+</Defs>

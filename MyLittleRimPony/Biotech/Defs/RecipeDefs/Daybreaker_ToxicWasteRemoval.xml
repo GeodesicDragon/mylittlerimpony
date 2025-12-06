@@ -5,7 +5,7 @@
 		<label>dispose of toxic waste</label>
 		<description>Allows you to safely dispose of toxic waste, although Daybreaker expects a lot of silver for her assistance.\n\nThe process is completed without any pollution being released, but it also requires a lot of chemfuel.</description>
 		<researchPrerequisite>WastepackAtomizer</researchPrerequisite>
-		<jobString>Making an offering to Nightmare Moon</jobString>
+		<jobString>Asking Daybreaker to help dispose of toxic waste</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<effectWorking>Cremate</effectWorking>

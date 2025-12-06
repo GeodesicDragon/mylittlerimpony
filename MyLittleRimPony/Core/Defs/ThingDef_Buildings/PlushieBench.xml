@@ -73,6 +73,7 @@
     <researchPrerequisites>
       <li>Electricity</li>
     </researchPrerequisites>
+	<uiOrder>10</uiOrder>
   </ThingDef>
 
 </Defs>

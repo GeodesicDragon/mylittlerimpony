@@ -18,6 +18,27 @@
 		<products>
 			<Cloth>300</Cloth>
 		</products>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MLRP_FE_RecipeBase">
+		<defName>MLRP_POTR_FE_PonyFur_Purchase</defName>
+		<label>purchase pony fur</label>
+		<description>Use silver to purchase 100 pony fur.\n\n(If Miss Pommel asks, it's fake.)</description>
+		<jobString>Exchanging materials</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>48</count>
+			</li>
+		</ingredients>
+		<products>
+			<PonyFur>100</PonyFur>
+		</products>
 	</RecipeDef>
 
 </Defs>

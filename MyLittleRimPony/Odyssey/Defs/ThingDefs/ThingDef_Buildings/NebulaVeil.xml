@@ -1,8 +1,8 @@
 <Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>MLRP_NebulaVeil</defName>
-		<label>Nebula Veil's Space Shop</label>
-		<description>Nebula Veil will sell you space-themed items in exchange for silver.\n\nDue to her quirky nature, she will expect you to pay using your intellect or your social skills as well as money.</description>
+		<label>Nebula Veil</label>
+		<description>Nebula will gladly sell you space-themed items, but there is a small catch.\n\nDue to her quirky nature, she may expect you to pay her using your intellectual or social skills as well as silver.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 		  <texPath>Things/Building/NebulaVeil</texPath>

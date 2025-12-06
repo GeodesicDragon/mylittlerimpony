@@ -1,0 +1,28 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Gravship Expanded - Chapter 1</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<AchievementsExpanded.AchievementDef>
+					<defName>MLRP_VGE_Achievement_CompactPonyWorkbench</defName>
+					<label>Small But Mighty</label>
+					<description>Build a compact pony workbench</description>
+					<tab>MLRP_BuildingAchievementTab</tab>
+					
+					<tracker Class="AchievementsExpanded.BuildingTracker">
+						<def>MLRP_CompactPonyWorkbench</def>
+						<count>1</count>
+					</tracker>
+					
+					<texPath>Achievements/SmallButMighty</texPath>
+					<points>10</points>
+				</AchievementsExpanded.AchievementDef>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

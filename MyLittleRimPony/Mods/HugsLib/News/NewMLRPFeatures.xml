@@ -8,6 +8,12 @@
 	</HugsLib.UpdateFeatureDef>
 	
 	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
+		<defName>MLRP_Version_71116</defName>
+		<assemblyVersion>7.11.16</assemblyVersion>
+		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Added Limestone Pie, who acts as a deep drill that doesn't require power.\n- Core: Re-added the 'purchase human leather' recipe to the Fabric Exchange.\n- Royalty: Added a new recipe to the Nightmare Moon statue which allows you to request harmony chips at a cost of 13300 silver.\n- Ponies of the Rim: Added a recipe to the Fabric Exchange which will allow you to purchase 100 pony fur for 480 silver.\n- Vanilla Gravship Expanded: Added a new recipe to the Daybreaker statue, two new recipes to Nebula Veil, and a compact version of the pony workbench.\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: Researching Statues of the Evil Sisters no longer requires you to research biofuel refining first.\n\nAs always, please refer to the changelog to see the full list!</content>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="MLRP_UpdateNewsBase">
 		<defName>MLRP_Version_700</defName>
 		<assemblyVersion>7.0.0</assemblyVersion>
 		<content>&lt;b&gt;WHAT'S NEW?&lt;/b&gt;\n\n- Core: Changing mod settings no longer requires you to install XML Extensions.\n- Core: You can now turn research letters off if you'd rather not receive them.\n- Core: You can now configure the number of points you need to get to before Sunny Starscout will start sending raids.\n- Core: You can now burn apparel, drugs and weapons at the Daybreaker statue.\n- Biotech: Added child-equippable Cutie Mark Crusaders.\n- Biotech: Added a separate Rainbow Dash plushie that you can give to your fighting children.\n\n&lt;b&gt;WHAT'S CHANGED?&lt;/b&gt;\n\n- Core: The research tracker now sends a single letter when researching something which unlocks recipes at multiple buildings.\n-Core: Plushies no longer have stuff labels, which will affect their market value.\n- Core: The cutie pox has evolved, and is now infecting people entirely at random, though the chance appears to be higher in warmer biomes.\n- Core: Changed the world map icon used by the player brony community faction.\n- Oddyssey: The price of purchasing 100 vacstone blocks at the Stone Exchange has been increased to 1000 silver.\n\nPlease refer to the changelog for all of the changes, which are too numerous to list here!</content>

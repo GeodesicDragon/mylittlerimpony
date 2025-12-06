@@ -1,3 +1,46 @@
+Version 7.11.16 (December 6th 2025)
+
+* Core: Added Limestone Pie.
+	* She performs in the same way as a deep drill.
+	* She does not require any power, and will be ignored by enemies.
+	* However, she also costs twice as much to build as a regular deep drill, and can still cause insect infestations.
+* Core: Re-added the 'purchase human leather' recipe to the Fabric Exchange. Costs 450 silver.
+* Core: Added a button to the mod options window which will restore all settings to their default values.
+* Royalty: Added a new recipe to the Nightmare Moon statue which allows you to request harmony chips at a cost of 13300 silver.
+* Ponies of the Rim: Added a recipe to the Fabric Exchange which will allow you to purchase 100 pony fur for 480 silver.
+* Vanilla Gravship Expanded: Added a recipe to the Daybreaker statue which allows you to quickly refine 700 chemfuel into 350 astrofuel.
+	* Does not require additional chemfuel.
+	* Unlocked once basic gravtech is researched.
+* Vanilla Gravship Expanded: Added two new recipes to Nebula Veil's shop.
+	* 100 astrofuel for 900 silver (1.5 times the market value).
+	* 50 oxygen canisters for 320 silver (market value plus a 300 silver convenience fee).
+* Vanilla Gravship Expanded: Added a compact (1x1) version of the pony workbench for use in gravships.
+	* Requires 30 steel, 1 component and 2 gravlite panels to build.
+	* Can only be built on gravship substructure.
+	* Unlike its larger counterpart, it will get a -50% penalty to work speed if not placed in a proper workshop.
+* Vanilla Achievements Expanded: Added an achievement to build Limestone Pie.
+* Vanilla Achievements Expanded: Added an achievement to build the compact pony workbench.
+* Core: Reduced the amount of silver carried by plushie traders to between 5000 and 10000 silver (was 10000-20000).
+* Core: Reduced the amount of textiles carried by plushie traders to between 100 and 300 (was 300-900).
+* Core: Researching Tree Hugger no longer requires you to research drug production first.
+* Core: Researching Statues of the Evil Sisters no longer requires you to research biofuel refining first. (1)
+* Core: Reduced the cost of researching Statues of the Evil Sisters to 500 (was 1500).
+* Core: Repositioned the recipe to exchange human leather for cloth at the Fabric Exchange. (2)
+* Royalty: Fixed missing recipe in letter sent after researching psychic items.
+* Biotech: Fixed incorrect job string when disposing of toxic waste at the Daybreaker statue.
+* Biotech: Fixed mechs being unable to do some bills added by this mod.
+* Anomaly: Repositioned the recipe to exchange dread leather for cloth at the Fabric Exchange. (2)
+* Odyssey: Renamed 'Nebula Veil's Space Shop' to simply 'Nebula Veil.'
+* Odyssey: The stonemason now carries a stock of 50 vacstone blocks.
+* Dubs Rimefeller: Fixed 'Could not find parent node named "DaybreakerRecipes_RegularChemfuel" for node "RecipeDef"' errors.
+	* One was related to the 'convert silver to synthylene' recipe, and the other to the 'convert synthylene to silver' recipe.
+	* Thanks to Kubric-khan for bringing these issues to my attention.
+* Ponies of the Rim: Repositioned the recipe to exchange pony fur for cloth at the Fabric Exchange. (2)
+* Vanilla Gravship Expanded: If this mod is enabled, the vacuum resistance granted by the Spoiled Rich plushie and the harmony chip will be halved.
+
+1. There are some Daybreaker recipes available from the start of a new game that don't even use chemfuel, so I felt that making you research biofuel refining to be able to perform them was a bit silly.
+2. It now appears at the top of the bill list, before the sale recipes.
+
 Version 7.0.0 (October 1st 2025)
 
 * Core: Added a proper options window.

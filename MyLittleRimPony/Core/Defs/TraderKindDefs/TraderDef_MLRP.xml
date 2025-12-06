@@ -9,7 +9,7 @@
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
-				<countRange>10000~20000</countRange>
+				<countRange>5000~10000</countRange>
 			</li>
 			
 			<li Class="StockGenerator_SingleDef">
@@ -31,7 +31,7 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>Textiles</categoryDef>
 				<thingDefCountRange>1~20</thingDefCountRange>
-				<countRange>300~900</countRange>
+				<countRange>100~300</countRange>
 				<excludedThingDefs>
 					<li>Cloth</li> <!-- already handled by single def -->
 				</excludedThingDefs>

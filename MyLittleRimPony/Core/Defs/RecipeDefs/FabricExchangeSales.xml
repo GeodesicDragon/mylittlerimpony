@@ -329,7 +329,8 @@
 	</ingredients>
 	<products>
 		<Cloth>280</Cloth>
-	</products>	
+	</products>
+	<displayPriority>0</displayPriority>
 </RecipeDef>
 
 <!--PURCHASE HYPERWEAVE-->
@@ -644,6 +645,25 @@
 	</ingredients>
 	<products>
 		<Dye>10</Dye>
+	</products>	
+</RecipeDef>
+
+<RecipeDef ParentName="MLRP_FE_RecipeBase">
+	<defName>MLRP_FE_Leather_Human_Purchase</defName>
+	<label>purchase human leather</label>
+	<description>Use silver to purchase 100 human leather.\n\n(If Miss Pommel asks, it's fake.)</description>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>45</count>
+		</li>
+	</ingredients>
+	<products>
+		<Leather_Human>100</Leather_Human>
 	</products>	
 </RecipeDef>
   

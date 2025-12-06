@@ -388,6 +388,17 @@ namespace MLRP_ResearchTracker
 				}
             }
 
+            if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_HarmonyChipResearch"))
+            {
+                NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_HarmonyChip").label;
+                string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
+                
+                if (LettersEnabled == true)
+                {
+					Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
+				}
+            }
+
             if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("NeuralComputation"))
             {
                 NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neurocalculator").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_LearningAssistant").label;
@@ -456,7 +467,7 @@ namespace MLRP_ResearchTracker
 
             if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_PsychicItemsResearch"))
             {
-                NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_PsychicSensitizer").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_PsychicHarmonizer").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_PsychicReader").label;
+                NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_PsylinkNeuroformer").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_PsychicSensitizer").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_PsychicHarmonizer").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_PsychicReader").label;
                 string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
                 
                 if (LettersEnabled == true)
@@ -709,7 +720,7 @@ namespace MLRP_ResearchTracker
 					Find.LetterStack.ReceiveLetter(LetterTitle, FELetterText, MLRP_NewRecipeUnlocked);
 				}
             }
-
+			
             // NEBULA VEIL (REQUIRES ODYSSEY DLC)
 
             if (ModsConfig.IsActive("Ludeon.RimWorld.Odyssey") && proj == DefDatabase<ResearchProjectDef>.GetNamed("AdvancedGravtech"))
@@ -732,6 +743,20 @@ namespace MLRP_ResearchTracker
                 if (LettersEnabled == true)
                 {
 					Find.LetterStack.ReceiveLetter(LetterTitle, NVLetterText, MLRP_NewRecipeUnlocked);
+				}
+            }
+			
+			// DAYBREAKER: VANILLA GRAVSHIP EXPANDED MOD
+			
+            if (ModsConfig.IsActive("vanillaexpanded.gravship") && proj == DefDatabase<ResearchProjectDef>.GetNamed("BasicGravtech"))
+            {
+                DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_VGravE_RefineAstrofuel").label;
+                NVRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_VGravE_PurchaseAstrofuel").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_VGravE_PurchaseOxygenCanister").label;
+                string MultLetterText = "MLRP_DBLetterText".Translate(NVRecipeUnlocked) + "\n\n" + "MLRP_NVLetterText".Translate(SERecipeUnlocked);
+                
+                if (LettersEnabled == true)
+                {
+					Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
 				}
             }
         }
