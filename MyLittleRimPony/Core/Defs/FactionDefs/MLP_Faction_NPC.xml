@@ -26,6 +26,15 @@
     <allowedCultures>
 		<li>Astropolitan</li>
 	</allowedCultures>
+	<xenotypeSet>
+		<xenotypeChances>
+			<MLRP_Xeno_EarthPony MayRequire="Ludeon.RimWorld.Biotech">0.25</MLRP_Xeno_EarthPony>
+			<MLRP_Xeno_Unicorn MayRequire="Ludeon.RimWorld.Biotech">0.25</MLRP_Xeno_Unicorn>
+			<MLRP_Xeno_Pegasus MayRequire="Ludeon.RimWorld.Biotech">0.25</MLRP_Xeno_Pegasus>
+			<MLRP_Xeno_Changeling MayRequire="Ludeon.RimWorld.Biotech">0.2</MLRP_Xeno_Changeling>
+			<MLRP_Xeno_Alicorn MayRequire="Ludeon.RimWorld.Biotech">0.05</MLRP_Xeno_Alicorn>
+		</xenotypeChances>
+	</xenotypeSet>
     <techLevel>Industrial</techLevel>
     <backstoryFilters>
       <li>

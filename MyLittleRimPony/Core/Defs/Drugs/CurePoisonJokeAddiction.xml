@@ -13,8 +13,6 @@
 			<HediffDef>MLRP_PoisonJokeTolerance</HediffDef>
 			<HediffDef>Plague</HediffDef>
 			<HediffDef>Animal_Plague</HediffDef>
-			<HediffDef MayRequire="SovietRabotyaga.RimPonkOld">MagicalCakeAddiction</HediffDef>
-			<HediffDef MayRequire="SovietRabotyaga.RimPonkOld">MagicalCakeTolerance</HediffDef>
 			<HediffDef MayRequire="Dubwise.DubsBadHygiene">Diarrhea</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>

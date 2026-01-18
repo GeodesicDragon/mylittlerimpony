@@ -60,9 +60,9 @@
 		<WorkToMake>18000</WorkToMake>
 	</statBases>
 	<costList>
-		<MLRP_ElementsOfHarmony>1</MLRP_ElementsOfHarmony>
 		<Plasteel>100</Plasteel>
-		<Gold>7.5</Gold>
+		<Gold>5</Gold>
+		<ComponentSpacer>3</ComponentSpacer>
 	</costList>
 	<Properties>
 		<recoilAmount>1.75</recoilAmount>

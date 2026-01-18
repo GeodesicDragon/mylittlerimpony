@@ -1,0 +1,26 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>Addictol</thingDef>
+						<countRange>3</countRange>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="MLRP_NPCFaction_CombatSupplier"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>Addictol</thingDef>
+						<countRange>1</countRange>
+					</li>
+				</value>
+			</li>			
+		</operations>
+	</Operation>
+	
+</Patch>

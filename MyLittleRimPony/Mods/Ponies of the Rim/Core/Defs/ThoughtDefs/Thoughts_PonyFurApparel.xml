@@ -6,22 +6,22 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>pony fur {0}</label>
+        <label>wearing a piece of pony fur apparel</label>
         <description>It's bad enough that the pony had to die in the first place.</description>
         <baseMoodEffect>-2</baseMoodEffect>
       </li>
       <li>
-        <label>pony fur {0} (+1)</label>
+        <label>two pieces of pony fur apparel</label>
         <description>Is there really nothing else to wear?</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
       <li>
-        <label>pony fur {0} (+2)</label>
+        <label>three pieces of pony fur apparel</label>
         <description>I hate myself.</description>
         <baseMoodEffect>-6</baseMoodEffect>
       </li>
       <li>
-        <label>pony fur {0} etc</label>
+        <label>four or more pieces of pony fur apparel</label>
         <description>Strike me down, almighty Princesses, for I don't deserve to live any longer.</description>
         <baseMoodEffect>-8</baseMoodEffect>
       </li>
@@ -37,22 +37,22 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>pony fur {0}</label>
-        <description>I guess those things can be useful after all.</description>
+        <label>wearing a piece of pony fur apparel</label>
+        <description>Huh, I guess those things are useful after all.</description>
         <baseMoodEffect>2</baseMoodEffect>
       </li>
       <li>
-        <label>pony fur {0} (+1)</label>
+        <label>two pieces of pony fur apparel</label>
         <description>This is good, but there has to be more I can wear.</description>
         <baseMoodEffect>4</baseMoodEffect>
       </li>
       <li>
-        <label>pony fur {0} (+2)</label>
+        <label>three pieces of pony fur apparel</label>
         <description>Oh, yeah, I'm definitely 'feeling the magic' now!</description>
         <baseMoodEffect>6</baseMoodEffect>
       </li>
       <li>
-        <label>pony fur {0} etc</label>
+        <label>four or more pieces of pony fur apparel</label>
         <description>Cower before me, you disgusting little quadrupeds!</description>
         <baseMoodEffect>8</baseMoodEffect>
       </li>

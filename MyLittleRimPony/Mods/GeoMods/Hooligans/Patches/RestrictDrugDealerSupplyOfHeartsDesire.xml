@@ -1,0 +1,22 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName="Hooligan_DrugDealer"]/stockGenerators/li[2]</xpath>
+		<value>
+			<excludedThingDefs>
+				<li>MLRP_HeartsDesire</li>
+			</excludedThingDefs>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName="Hooligan_DrugDealer"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MLRP_HeartsDesire</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

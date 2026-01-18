@@ -1,0 +1,29 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]</xpath>
+				<value>
+					<li Class="SyrTraitValue.TraitValueExtension">
+						<traitValues>
+							<li>10</li>
+						</traitValues>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/TraitDef[defName="MLRP_AntiBronyTrait"]</xpath>
+				<value>
+					<li Class="SyrTraitValue.TraitValueExtension">
+						<traitValues>
+							<li>0</li>
+						</traitValues>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -8,6 +8,7 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

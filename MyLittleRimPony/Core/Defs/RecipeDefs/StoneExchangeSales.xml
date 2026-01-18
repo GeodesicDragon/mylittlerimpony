@@ -158,6 +158,7 @@
 		<BlocksMarble>500</BlocksMarble>
 		<BlocksSandstone>500</BlocksSandstone>
 		<BlocksSlate>500</BlocksSlate>
+		<BlocksVacstone MayRequire="Ludeon.RimWorld.Odyssey">500</BlocksVacstone>
 	</products>
 </RecipeDef>
 

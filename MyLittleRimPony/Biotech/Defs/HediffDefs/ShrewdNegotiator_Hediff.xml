@@ -11,6 +11,7 @@
 				<NegotiationAbility>5</NegotiationAbility>
 				<TradePriceImprovement>5</TradePriceImprovement>
 				<SocialImpact>5</SocialImpact>
+				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">5</ConversionPower>
 			</statOffsets>
 		</li>
 	</stages>

@@ -1,0 +1,27 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/WorldObjectDef[defName="Outpost_Field_Hospital"]/modExtensions/li[2]/ResultOptions</xpath>
+		<value>
+			<li>
+				<Thing>MLRP_PoisonJokeJoint</Thing>
+				<MinSkills>
+					<Medicine>4</Medicine>
+				</MinSkills>
+				<AmountsPerSkills>
+					<Medicine>1</Medicine>
+				</AmountsPerSkills>
+			</li>
+			<li>
+				<Thing>MLRP_PoisonJokeAddictionCureKit</Thing>
+				<MinSkills>
+					<Medicine>30</Medicine>
+				</MinSkills>
+				<AmountsPerSkills>
+					<Medicine>0.5</Medicine>
+				</AmountsPerSkills>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

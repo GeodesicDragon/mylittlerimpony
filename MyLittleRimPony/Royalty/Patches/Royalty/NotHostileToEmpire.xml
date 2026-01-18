@@ -4,6 +4,8 @@
 		<value>
 			<li>MLRP_BronyFaction</li>
 			<li>MLRP_NPC_Faction</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">MLRP_RenegadeAlicornFaction</li>
+			<li MayRequire="sarg.alphagenes">MLRP_Batpony_Faction</li>
 		</value>
 	</Operation>
 </Patch>

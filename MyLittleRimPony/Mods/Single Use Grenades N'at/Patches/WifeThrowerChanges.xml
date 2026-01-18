@@ -1,0 +1,55 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="MLRP_WifeThrower"]/costList/WoodLog</xpath>
+				<value>
+					<WoodLog>10</WoodLog>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MLRP_WifeThrower"]/recipeMaker</xpath>
+				<value>
+					<productCount>10</productCount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MLRP_WifeThrower"]</xpath>
+				<value>
+					<stackLimit>10</stackLimit>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MLRP_WifeThrower"]/statBases</xpath>
+				<value>
+					<MarketValue>2</MarketValue>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_WifeThrower"]/statBases/Mass</xpath>
+				<value>
+					<Mass>0.1</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_WifeThrower"]/verbs/li/verbClass</xpath>
+				<value>
+					<verbClass>GNATFramework.Verb_LaunchProjectileOneUse</verbClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="MLRP_WifeThrower"]</xpath>
+				<value>
+					<li Class="GNATFramework.GenerateWithEquip">
+						<generateEquip>
+							<MLRP_WifeThrower>5~10</MLRP_WifeThrower>
+						</generateEquip>
+					</li>
+					<li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

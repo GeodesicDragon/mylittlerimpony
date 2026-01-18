@@ -1,0 +1,25 @@
+<Patch>
+
+	<!--If I've set this up properly, these patches should only be applied if you
+	are using the Bulk Carrier mod WITHOUT Vanilla Expanded Framework active.-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets/CarryingCapacity</xpath>
+		<value>
+			<CarryingCapacity>50</CarryingCapacity>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/CarryingCapacity</xpath>
+			<value>
+				<CarryingCapacity>50</CarryingCapacity>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

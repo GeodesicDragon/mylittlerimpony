@@ -1,0 +1,12 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="PlushieBench"]/comps</xpath>
+		<value>
+			<li Class="DS.CompProperties_DeviceStandby">
+				<mode>Reservable</mode>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

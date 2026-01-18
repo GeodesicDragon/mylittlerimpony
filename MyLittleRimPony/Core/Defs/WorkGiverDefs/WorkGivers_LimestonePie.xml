@@ -1,0 +1,17 @@
+<Defs>
+ 
+  <WorkGiverDef>
+    <defName>MLRP_DoStuffWithLimestonePie</defName>
+    <label>working with Limestone Pie</label>
+    <giverClass>MyLittleRimPony.WorkGiver_LimestonePie</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>50</priorityInType>
+    <verb>drill</verb>
+    <gerund>drilling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+  
+</Defs>

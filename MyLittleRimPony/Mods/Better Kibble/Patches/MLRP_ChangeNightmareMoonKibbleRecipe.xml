@@ -1,0 +1,29 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MLRP_NMM_Kibble"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Silver</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MLRP_NMM_Kibble"]/description</xpath>
+				<value>
+					<description>Offer silver in exchange for some kibble.</description>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

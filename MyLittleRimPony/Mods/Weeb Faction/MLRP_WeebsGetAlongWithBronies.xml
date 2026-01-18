@@ -1,0 +1,24 @@
+<Patch>
+
+<!--Bronies can be weebs too, y'know.-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="WeeabooArmy"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>MLRP_BronyFaction</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="WeeabooArmy"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+				<li>MLRP_RenegadeAlicornFaction</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,11 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="K4G_WW2FinlandIndependent" or defName="K4G_WW2FinlandCoBelligerentAllies" or defName="K4G_WW2FinlandCoBelligerentGermany" or defName="K4G_WW2FranceAllies" or defName="K4G_WW2FranceExile" or defName="K4G_WW2FranceAxis" or defName="K4G_WW2Germany" or defName="K4G_WW2ItalyCoBelligerentAllies" or defName="K4G_WW2ItalyAxis" or defName="K4G_WW2ItalyAxisB" or defName="K4G_WW2Japan" or defName="K4G_WW2RussiaAllies" or defName="K4G_WW2RussiaCoBelligerentGermany" or defName="K4G_WW2UnitedKingdom" or defName="K4G_WW2UnitedStates"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>MLRP_BronyFaction</li>
+			<li>MLRP_NPC_Faction</li>
+		</value>
+	</Operation>
+
+</Patch>

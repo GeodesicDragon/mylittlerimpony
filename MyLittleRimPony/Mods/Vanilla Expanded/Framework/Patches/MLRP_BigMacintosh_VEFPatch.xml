@@ -1,0 +1,79 @@
+<Patch>
+
+	<!--Check if the Bulk Carrier mod is enabled-->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Bulk Carrier</li>
+		</mods>
+		
+		<!--If it isn't enabled, replace the vanilla carrying capacity stat with the VEF version as normal-->
+		
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets</xpath>
+					<value>
+						<VEF_MassCarryCapacity>25</VEF_MassCarryCapacity>
+					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Royalty</li> <!--Changes need to be applied to the harmony chip as well-->
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationRemove">
+								<xpath>Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/CarryingCapacity</xpath>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
+								<value>
+									<VEF_MassCarryCapacity>25</VEF_MassCarryCapacity>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</nomatch>
+		
+		<!--If it IS enabled, replace the vanilla carrying capacity stat with the VEF version as normal, but double the amount gained-->
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets</xpath>
+					<value>
+						<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Royalty</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationRemove">
+								<xpath>Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/CarryingCapacity</xpath>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets</xpath>
+								<value>
+									<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

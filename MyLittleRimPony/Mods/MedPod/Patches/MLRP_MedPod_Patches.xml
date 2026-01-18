@@ -48,6 +48,7 @@
 			<li>MLRP_PoisonJokeIncreasedBreathing</li>
 			<li>MLRP_PoisonJokeIncreasedConsciousness</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">MLRP_IzzyPlush_Child</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">MLRP_ShrewdNegotiatorHediff</li>
 		</value>
 	</Operation>
 	

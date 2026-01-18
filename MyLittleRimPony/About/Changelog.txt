@@ -1,3 +1,45 @@
+Version 7.15.44 - The Very Late Fifth Anniversary Special (January 18th 2026)
+
+* Odyssey: Added Zipp Storm (+25% piloting ability).
+* Vanilla Achievements Expanded: Added an achievement to make a Zipp Storm plushie.
+* Vanilla Outposts Expanded - Additional Outposts: Added the ability to make poison joke and herbal cure kits at the field hospital.
+	* Poison joke joints require a minimum of 4 total medicine skill, and you get 1 joint per point of total medical skill of pawns at the outpost.
+	* Herbal cure kits require a minimum of 30 total medicine skill, and you get 0.5 kits per point of total medical skill of pawns at the outpost.
+* Mod Wide: Removed several redundant and/or empty files. This will probably have zero effect on load times, but at least things are a bit tidier now.
+* Core: Fixed pawns being unable to interact with Limestone Pie.
+* Core: Limestone Pie no longer reduces beauty in an area.
+* Core: Reduced the amount of work needed to uninstall Limestone Pie to 60 (was 1800). Moving her around will now be much quicker. 
+* Royalty: The Empire is no longer using Diamond Dogs as mercenaries.
+* Ideology: Replaced the animal personhood meme used by the 'Disciples of Harmony' preset ideology with the female supremacy meme. If Humanoid Alien Races is enabled, it will also use the Xenophilia meme.
+* Biotech: Fixed the child-equippable Spoiled Rich plushie reducing toxic environment resistance instead of increasing it.
+* Anomaly: Reduced the amount of knowledge required to unlock Thingpone to 15 (was 25).
+* [K4G] RimWorld War 2: Factions added by this mod are no longer permanently hostile to the renegade alicorn faction. They will still be hostile when you load your saved game, but at least you'll be able to make peace with them now.
+* [SYR] Trait Value: Updated the patch for this mod to instead check for the continued version created by Mlie.
+* A RimWorld of Magic: Fixed items for this mod not being loaded properly.
+* Combat Extended: Fixed autopistol ammo not being provided for the Brony Community scenario.
+* Combat Extended: Fixed autopistol ammo not being provided for the Brony Xenotypes scenario.
+* Combat Extended: Fixed the recipe to make a rainbow laser not being the same as the non-CE recipe.
+* Device Standby: Fixed the Fabric Exchange trying to go into standby mode when it no longer uses power.
+* Dubs Bad Hygiene: Fixed items for this mod not being loaded if the Lite version was being used.
+* Higher Power: Researching advanced power now increases Screwball output by 25% (was 50%).
+* Irn Bru And Other Scottish Delights: NPC faction settlements now stock between 50 and 150 regular haggis.
+* Irn Bru And Other Scottish Delights: Reduced the amount of vegetarian haggis stocked by NPC faction settlements to 50-150 (was 150-300).
+* Irn Bru And Other Scottish Delights: Reduced the amount of deep-fried Mars® bars stocked by NPC faction settlements to 25-75 (was 100-150).
+* Irn Bru And Other Scottish Delights: Reduced the amount of Irn-Bru® stocked by NPC faction settlements to 50-150 (was 150-300).
+* Mechanoid Modifications: Removed all patches for this mod since it is no longer being updated.
+* RimPonk: Removed all patches for this mod since it is no longer being updated.
+* Single Use Grenades N'at: Updated wife thrower patch to work with the latest version of this mod.
+	* Now costs 10 wood.
+	* Made in batches of 10.
+	* Has a stack limit of 10.
+	* Has a fixed market value of 2 silver.
+	* Mass reduced to 0.1 for ease of carrying.
+	* Uses the GNAT Framework.
+* Vanilla Expanded Framework: The Big Macintosh patch now properly checks for the Bulk Carrier mod. If it is enabled, the VEF carrying capacity stat will be increased by 50. If it isn't enabled, the stat will be increased by 25 as usual.
+* Vanilla Expanded Framework: Fixed the carrying capacity bonus granted by the harmony chip not being altered properly.
+* Vanilla Gravship Expanded: Fixed the vacuum resistance reduction not being applied to the harmony chip.
+* Weeb Faction: The Weeb Army is no longer permanently hostile to the renegade alicorn faction.
+
 Version 7.11.16 (December 6th 2025)
 
 * Core: Added Limestone Pie.

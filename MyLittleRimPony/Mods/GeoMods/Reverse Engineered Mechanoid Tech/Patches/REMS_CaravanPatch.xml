@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="MLRP_NPC_Faction"]/caravanTraderKinds</xpath>
+		<value>
+			<li>REMS_MechanoidShieldTrader</li>
+		</value>
+	</Operation>
+
+</Patch>

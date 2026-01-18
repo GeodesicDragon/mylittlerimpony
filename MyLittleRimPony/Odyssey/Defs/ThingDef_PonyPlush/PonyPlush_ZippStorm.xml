@@ -1,0 +1,26 @@
+<Defs>
+	<ThingDef ParentName="PonyPlush_Work">
+		<defName>PonyPlush_ZippStorm</defName>
+		<label>Zipp Storm</label>
+		<description>Zipp is a confident flyer, whether she is using her wings or in control of the Marestream.\n\nCarrying her makes you feel more confident in your own ability as a pilot.</description>
+		<graphicData>
+			<texPath>Things/PonyPlush/ZippStorm</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<PilotingAbility>0.25</PilotingAbility>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>300</costStuffCount>
+		<apparel>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+		</apparel>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+	</ThingDef>
+</Defs>

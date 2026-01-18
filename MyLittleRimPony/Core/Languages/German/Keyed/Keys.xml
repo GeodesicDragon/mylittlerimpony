@@ -49,7 +49,7 @@
 	<MLRP_SELetterText>Jetzt in der Steinbörse erhältlich:\n\n{0}</MLRP_SELetterText>
 	<MLRP_THLetterText>Jetzt erhältlich bei Tree Hugger:\n\n{0}</MLRP_THLetterText>
 	<MLRP_TPLetterText>Jetzt erhältlich bei Thingpone:\n\n{0}</MLRP_TPLetterText>
-	<MLRP_NVLetterText>Jetzt erhältlich bei Nebula Veils Weltraumladen:\n\n{0}</MLRP_NVLetterText>
+	<MLRP_NVLetterText>Jetzt erhältlich bei Nebula Veil:\n\n{0}</MLRP_NVLetterText>
 	
 	<!--MOD SETTINGS-->
 	
@@ -60,7 +60,7 @@
 	<!--MODS-->
 	
 	<MLRP_ExtraScrewballOutputTitle>Fortschrittliche Leistung erforscht</MLRP_ExtraScrewballOutputTitle>
-	<MLRP_ExtraScrewballOutputText>+50% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
+	<MLRP_ExtraScrewballOutputText>+25% auf die Leistung des Screwballs.</MLRP_ExtraScrewballOutputText>
 	<MLRP_MedievalOverhaul>[My Little RimPony] Mittelalterliche Überarbeitungspatches wurden angewendet.</MLRP_MedievalOverhaul>
 
 </LanguageData>

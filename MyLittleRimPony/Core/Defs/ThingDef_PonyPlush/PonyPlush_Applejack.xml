@@ -9,6 +9,7 @@
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.25</PlantWorkSpeed>
 			<PlantHarvestYield>0.25</PlantHarvestYield>
+			<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">1</PruningSpeed>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

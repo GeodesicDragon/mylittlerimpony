@@ -1,0 +1,28 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MLRP_NMM_HemogenPack"]/label</xpath>
+				<value>
+					<label>request blood packs</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MLRP_NMM_HemogenPack"]/description</xpath>
+				<value>
+					<description>Offer silver in exchange for five blood packs.\n\nShould only be done as a last resort, as the cost is quite steep...</description>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MLRP_NMM_DeathrestCapacitySerum"]/description</xpath>
+				<value>
+					<description>Offer silver and blood in exchange for a torpor capacity serum.</description>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

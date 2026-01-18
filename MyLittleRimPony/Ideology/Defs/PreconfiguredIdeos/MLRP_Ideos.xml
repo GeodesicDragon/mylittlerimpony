@@ -16,18 +16,19 @@
 		<label>Disciples of Harmony</label>
 		<description>Blessed are those who follow the teachings of the Alicorn Goddesses.
 
-Celestia, who told us to let the light of life shine from within us.
-Luna, who told us not to let your mistakes define who you are.
-Cadence, who told us that love conquers all.
-Twilight, who told us that friendship is eternal.
+&lt;color=#FDF5FB&gt;Celestia&lt;/color&gt;, who told us to let the light of life shine from within us.
+&lt;color=#373A77&gt;Luna&lt;/color&gt;, who told us not to let your mistakes define who you are.
+&lt;color=#EBAFD1&gt;Cadence&lt;/color&gt;, who told us that love conquers all.
+&lt;color=#D19FE4&gt;Twilight&lt;/color&gt;, who told us that friendship is eternal.
 
-We are their disciples, and we will not falter in our efforts to spread their lessons across the land.</description>
+We are their disciples, and we will endeavour to spread their lessons across the land.</description>
 		<categoryDef>MLRP_PresetIdeos</categoryDef>
 		<iconPath>Things/ElementsOfHarmony</iconPath>
 		<memes>
-			<li>AnimalPersonhood</li>
+			<li>FemaleSupremacy</li>
 			<li>Individualist</li>
 			<li>Proselytizer</li>
+			<li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
 		</memes>
 	</IdeoPresetDef>
 	

@@ -13,6 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Xml;
 using Verse;
+using Verse.AI;
 
 namespace MyLittleRimPony
 {
@@ -244,14 +245,6 @@ namespace MyLittleRimPony
                         {
                             Messages.Message("MLRP_CureFailed".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         }
-                        break;
-                    case "MagicalCakeAddiction": // RimPonk
-                        pawn.health.RemoveHediff(hediff);
-                        Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
-                        break;
-                    case "MagicalCakeTolerance": // RimPonk
-                        pawn.health.RemoveHediff(hediff);
-                        Messages.Message("MLRP_PawnCured".Translate(pawn, hediff.Label), MessageTypeDefOf.TaskCompletion, historical: false);
                         break;
                     case "Diarrhea": // Dubs Bad Hygiene
                         pawn.health.RemoveHediff(hediff);
@@ -764,4 +757,45 @@ namespace MyLittleRimPony
             
         }
     }
+
+    // LIMESTONE PIE WORKGIVER
+
+    public class WorkGiver_LimestonePie : WorkGiver_Scanner
+    {
+        public override ThingRequest PotentialWorkThingRequest
+        {
+            get => ThingRequest.ForDef(DefDatabase<ThingDef>.GetNamed("MLRP_LimestonePie"));
+        }
+
+        public override PathEndMode PathEndMode => PathEndMode.InteractionCell;
+
+        public override Danger MaxPathDanger(Pawn pawn) => Danger.Deadly;
+
+        public override bool ShouldSkip(Pawn pawn, bool forced = false)
+        {
+            List<Building> buildingsColonist = pawn.Map.listerBuildings.allBuildingsColonist;
+            for (int index = 0; index < buildingsColonist.Count; ++index)
+            {
+                Building t = buildingsColonist[index];
+                if (t.def == DefDatabase<ThingDef>.GetNamed("MLRP_LimestonePie"))
+                {
+                    CompPowerTrader comp = t.GetComp<CompPowerTrader>();
+                    if ((comp == null || comp.PowerOn) && t.Map.designationManager.DesignationOn((Thing)t, DesignationDefOf.Uninstall) == null)
+                        return false;
+                }
+            }
+            return true;
+        }
+
+        public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
+        {
+            return t.Faction == pawn.Faction && t is Building building && pawn.CanReserve((LocalTargetInfo)(Thing)building, ignoreOtherReservations: forced) && building.TryGetComp<CompDeepDrill>().CanDrillNow() && building.Map.designationManager.DesignationOn((Thing)building, DesignationDefOf.Uninstall) == null && !building.IsBurning();
+        }
+
+        public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
+        {
+            return JobMaker.MakeJob(JobDefOf.OperateDeepDrill, (LocalTargetInfo)t, 1500, true);
+        }
+    }
+
 }

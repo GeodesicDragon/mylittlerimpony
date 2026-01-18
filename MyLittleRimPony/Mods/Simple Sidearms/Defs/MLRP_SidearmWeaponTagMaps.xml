@@ -1,0 +1,19 @@
+<Defs>
+
+	<SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+		<defName>MLRP_WifeThrower_WeaponTagMap</defName>
+		<sourceTag>WifeThrower</sourceTag>
+		<resultTags>
+			<li>WifeThrower</li>
+		</resultTags>
+	</SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+	<SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+		<defName>MLRP_RainbowLaser_WeaponTagMap</defName>
+		<sourceTag>Rainbow_Laser</sourceTag>
+		<resultTags>
+			<li>Rainbow_Laser</li>
+		</resultTags>
+	</SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+</Defs>

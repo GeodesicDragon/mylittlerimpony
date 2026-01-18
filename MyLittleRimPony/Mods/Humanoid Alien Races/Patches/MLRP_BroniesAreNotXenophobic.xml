@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="MLRP_BronyTrait"]/conflictingTraits</xpath>
+			<value>
+				<li>HAR_Xenophobia</li> <!--I'm not sure if you can disallow one part of a spectrum trait and allow another-->
+			</value>
+	</Operation>
+
+</Patch>

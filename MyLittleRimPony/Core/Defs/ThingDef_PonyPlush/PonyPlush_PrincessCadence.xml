@@ -8,6 +8,7 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.5</PainShockThreshold>
+			<Fertility MayRequire="Ludeon.RimWorld.Biotech">0.25</Fertility>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

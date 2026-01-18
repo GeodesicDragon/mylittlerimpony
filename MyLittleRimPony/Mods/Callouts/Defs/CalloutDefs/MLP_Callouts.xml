@@ -1,0 +1,21 @@
+<Defs>
+
+	<CM_Callouts.CalloutConstantByTraitDef>
+		<defName>CM_Callout_BronyTraits</defName>
+		<traits>
+			<li>MLRP_BronyTrait</li>
+		</traits>
+		<name>BRONY</name>
+		<value>true</value>
+	</CM_Callouts.CalloutConstantByTraitDef>
+	
+	<CM_Callouts.CalloutConstantByTraitDef>
+		<defName>CM_Callout_AntiBronyTraits</defName>
+		<traits>
+			<li>MLRP_AntiBronyTrait</li>
+		</traits>
+		<name>ANTIBRONY</name>
+		<value>true</value>
+	</CM_Callouts.CalloutConstantByTraitDef>
+	
+</Defs>

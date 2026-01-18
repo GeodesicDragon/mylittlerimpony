@@ -1,16 +1,9 @@
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PonyPlush_PrincessCadence"]/equippedStatOffsets</xpath>
-		<value>
-			<Fertility>0.25</Fertility>
-		</value>
-	</Operation>
-
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PonyPlush_PrincessCadence"]/description</xpath>
 		<value>
-			<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken, as well as a little bit... frisky.</description>
+			<description>Princess Cadence believes that love is the greatest weapon one can wield.\n\nCarrying her makes you feel as though your heart cannot be broken, as well as a little bit... flirtier.</description>
 		</value>
 	</Operation>
 	

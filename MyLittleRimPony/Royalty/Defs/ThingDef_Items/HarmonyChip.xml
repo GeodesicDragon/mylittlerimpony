@@ -85,6 +85,8 @@
 				<ArmorRating_Heat>0.15</ArmorRating_Heat>
 				<MeleeDodgeChance>10</MeleeDodgeChance>
 				<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+				<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+				<MeditationFocusGain>0.25</MeditationFocusGain>
 				<!--IDEOLOGY-->
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</ConversionPower>
 				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</SuppressionPower>
@@ -97,7 +99,8 @@
 				<!--ANOMALY-->
 				<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.1</EntityStudyRate>
 				<!--ODYSSEY-->
-				<VacuumResistance MAyRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
+				<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
+				<PilotingAbility MAyRequire="Ludeon.RimWorld.Odyssey">0.25</PilotingAbility>
 				<!--MODS-->
 				<HygieneRateMultiplier MayRequire="Dubwise.DubsBadHygiene">-0.1</HygieneRateMultiplier>
 				<P42_AllergicSensitivity MayRequire="phil42.allergies">-0.25</P42_AllergicSensitivity>

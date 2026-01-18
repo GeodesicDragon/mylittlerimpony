@@ -1,0 +1,33 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName="MLRP_BronyBaseTrader"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Haggis</thingDef>
+				<countRange>50~150</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Haggis_Vegetarian</thingDef>
+				<countRange>50~150</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DeepFriedChocolate</thingDef>
+				<countRange>25~75</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>IrnBru</thingDef>
+				<countRange>50~150</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>IrnBruMod_KiltApparel</thingDef>
+				<countRange>3</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>IrnBruKeg</thingDef>
+				<countRange>1</countRange>
+			</li>
+		</value>
+	</Operation>
+	
+</Patch>

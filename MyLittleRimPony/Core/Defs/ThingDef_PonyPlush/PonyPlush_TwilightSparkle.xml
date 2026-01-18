@@ -8,6 +8,8 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<ResearchSpeed>0.25</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.25</HackingSpeed>
+			<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.1</EntityStudyRate>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

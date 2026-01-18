@@ -10,7 +10,7 @@
     <prerequisites>
       <li>Electricity</li>
     </prerequisites>
-    <knowledgeCost>25</knowledgeCost>
+    <knowledgeCost>15</knowledgeCost>
     <knowledgeCategory>Basic</knowledgeCategory>
     <researchViewX>0</researchViewX>
     <researchViewY>4</researchViewY>

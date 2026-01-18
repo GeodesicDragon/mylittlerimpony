@@ -11,7 +11,7 @@
 				<AchievementsExpanded.AchievementDef>
 					<defName>MLRP_Achievement_NebulaVeil</defName>
 					<label>Rocket Science</label>
-					<description>Build Nebula Veil's Space Shop</description>
+					<description>Help Nebula Veil open for business</description>
 					<tab>MLRP_DLCAchievementTab</tab>
 					
 					<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -20,6 +20,21 @@
 					</tracker>
 					
 					<texPath>Achievements/RocketScience</texPath>
+					<points>10</points>
+				</AchievementsExpanded.AchievementDef>
+				
+				<AchievementsExpanded.AchievementDef>
+					<defName>MLRP_Achievement_ZippStorm</defName>
+					<label>A Whole Lot More Interesting</label>
+					<description>Craft a Zipp Storm plushie</description>
+					<tab>MLRP_AchievementTab</tab>
+					
+					<tracker Class="AchievementsExpanded.ItemCraftTracker">
+						<def>PonyPlush_ZippStorm</def>
+						<count>1</count>
+					</tracker>
+					
+					<texPath>Achievements/AWLMI</texPath>
 					<points>10</points>
 				</AchievementsExpanded.AchievementDef>
 				
