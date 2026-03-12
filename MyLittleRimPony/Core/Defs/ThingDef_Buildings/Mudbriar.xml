@@ -25,7 +25,6 @@
       <Flammability>1</Flammability>
       <WorkToBuild>500</WorkToBuild>
       <Mass>6</Mass>
-      <Beauty>-20</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
     <passability>PassThroughOnly</passability>

@@ -76,7 +76,7 @@
 				<MedicalSurgerySuccessChance>0.25</MedicalSurgerySuccessChance>
 				<MiningSpeed>0.25</MiningSpeed>
 				<MiningYield>0.25</MiningYield>
-				<DeepDrillingSpeed>0.25</DeepDrillingSpeed>
+				<DeepDrillingSpeed>1</DeepDrillingSpeed>
 				<PainShockThreshold>0.5</PainShockThreshold>
 				<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				<RestRateMultiplier>0.5</RestRateMultiplier>
@@ -100,7 +100,9 @@
 				<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.1</EntityStudyRate>
 				<!--ODYSSEY-->
 				<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
-				<PilotingAbility MAyRequire="Ludeon.RimWorld.Odyssey">0.25</PilotingAbility>
+				<PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.25</PilotingAbility>
+				<FishingSpeed MayRequire="Ludeon.RimWorld.Odyssey">1</FishingSpeed>
+				<FishingYield MayRequire="Ludeon.RimWorld.Odyssey">1</FishingYield>
 				<!--MODS-->
 				<HygieneRateMultiplier MayRequire="Dubwise.DubsBadHygiene">-0.1</HygieneRateMultiplier>
 				<P42_AllergicSensitivity MayRequire="phil42.allergies">-0.25</P42_AllergicSensitivity>

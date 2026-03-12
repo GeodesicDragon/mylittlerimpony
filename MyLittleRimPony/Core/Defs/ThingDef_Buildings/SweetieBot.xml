@@ -79,6 +79,9 @@
     <researchPrerequisites>
       <li>MLRP_WeaponisedElementsResearch</li>
     </researchPrerequisites>
+	<thingSetMakerTags>
+		<li>MLRP_Item</li>
+	</thingSetMakerTags>
   </ThingDef>
  
 </Defs>

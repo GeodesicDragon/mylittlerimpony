@@ -99,6 +99,12 @@
 			
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>10</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
 				<thingDef>MLRP_Daybreaker</thingDef>
 				<stuff>Steel</stuff>
 				<count>1</count>
@@ -109,6 +115,31 @@
 				<thingDef>MLRP_NightmareMoon</thingDef>
 				<stuff>Steel</stuff>
 				<count>1</count>
+			</li>
+			
+			<!-- Player starting weapons-->
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MLRP_ElementsOfHarmonyWeaponised</thingDef>
+				<count>1</count>
+			</li>
+			
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Gladius</thingDef>
+				<count>3</count>
+				<stuff>Plasteel</stuff>
+			</li>
+			
+			<!-- Flak helmets because I couldn't figure out how to get pawns wearing them by default -->
+			
+			<li Name="MLRP_RAScenario_Helmets" Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Apparel_AdvancedHelmet</thingDef>
+				<count>4</count>
+				<stuff>Plasteel</stuff>
 			</li>
 			
 			<!--Game start dialog-->

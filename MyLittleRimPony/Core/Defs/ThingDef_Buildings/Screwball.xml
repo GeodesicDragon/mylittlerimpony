@@ -20,7 +20,6 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>600</WorkToBuild>
       <Flammability>1.0</Flammability>
-      <Beauty>-5</Beauty>
 	  <Mass>3</Mass>
     </statBases>
     <thingCategories>

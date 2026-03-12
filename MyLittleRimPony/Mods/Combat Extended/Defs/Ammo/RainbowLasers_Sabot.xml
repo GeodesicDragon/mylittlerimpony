@@ -75,7 +75,7 @@
 		<products>
 			<Ammo_HarmonyLaser_Sabot>500</Ammo_HarmonyLaser_Sabot>
 		</products>
-		<researchPrerequisite>MLRP_CE_AmmoResearch</researchPrerequisite>
+		<researchPrerequisite>MLRP_CE_AmmoResearchAdvanced</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

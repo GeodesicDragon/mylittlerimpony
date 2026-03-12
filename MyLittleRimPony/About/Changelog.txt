@@ -1,3 +1,32 @@
+Version 7.18.57 (March 12th 2026)
+
+* Vanilla Achievements Expanded: Added a rewards button that allows you to spend 100 storyteller points to get a random pony-themed item.
+	* Plushies (will likely be your most common reward)
+	* Sweetie Bot turrets
+	* Nurse Redheart
+	* Super Speedy Cider Squeezy 6000
+	* Magic mirror
+	* Uses the existing VAE item drop system, so the letter you get will refer to your reward as a 'quest item.'
+* Combat Extended: Added new research which unlocks the ability to craft harmony laser ammo.
+* Core: Added the ability to smelt slag chunks at the Daybreaker statue.
+* Core: Increased the drilling speed bonus given by Maud Pie to 100% (was 25%).
+* Core: The Nightmare Moon statue now emits a glow similar in colour to her magical aura. (1)
+* Core: Changed the colour of the glow emitted by the Daybreaker statue to match her magical aura.
+* Core: Screwball no longer reduces beauty in an area.
+* Core: Mudbriar no longer reduces beauty in an area.
+* Core: Quibble Pants no longer reduces beauty in an area.
+* Core: Zephyr Breeze no longer reduces beauty in an area.
+* Biotech: The renegade alicorn scenario now starts with 10 regular components to assist in early-game construction.
+* Biotech: The amount of chemfuel the renegade alicorn scenario starts with is now ten times the base amount of chemfuel, as defined in the mod options. So, for example, if you've set it so that converting materials requires 100 chemfuel, the scenario will start with 1000 units of it.
+* Biotech: The renegade alicorn scenario now starts with flak helmets.
+* Biotech: The renegade alicorn scenario now starts with a rainbow laser and three plasteel gladii.
+	* 90 regular harmony lasers will also be provided if CE is enabled.
+* Odyssey: Fluttershy now increases fishing speed by 100% on top of her usual bonuses. (2)
+* Odyssey: Fluttershy now increases fishing yield by 100% on top of her usual bonuses. (2)
+
+1. Thanks to Siveen from the MLRP Steam Group for suggesting this change.
+2. This amount may change depending on what difficulty you are playing on.
+
 Version 7.15.44 - The Very Late Fifth Anniversary Special (January 18th 2026)
 
 * Odyssey: Added Zipp Storm (+25% piloting ability).

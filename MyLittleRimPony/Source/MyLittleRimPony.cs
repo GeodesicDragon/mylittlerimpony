@@ -6,6 +6,7 @@
 // I am always happy to accept updates to this code, especially if you have a better way of doing something I've done.
 // Contact me via my Discord server and we'll talk! (Invite Code: BGKnpza)
 
+using HarmonyLib;
 using MLRP_ModSettings;
 using RimWorld;
 using System.Collections.Generic;

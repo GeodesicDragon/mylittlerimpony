@@ -41,6 +41,7 @@
 		</tradeTags>
 		<thingSetMakerTags>
 			<li>Pony_Plushie</li>
+			<li>MLRP_Item</li>
 		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Forbiddable" />

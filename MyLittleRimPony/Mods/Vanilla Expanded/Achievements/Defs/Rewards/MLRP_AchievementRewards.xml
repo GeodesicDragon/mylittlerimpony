@@ -1,0 +1,14 @@
+<Defs>
+
+	<AchievementsExpanded.Reward_RandomQuestItem>
+		<defName>MLRP_RandomRewardPonyItem</defName>
+		<label>Random Pony Item</label>
+		<tab>Main</tab>
+		
+		<cost>100</cost>
+		<thingSetMakerTags>
+			<li>MLRP_Item</li>
+		</thingSetMakerTags>
+	</AchievementsExpanded.Reward_RandomQuestItem>
+
+</Defs>

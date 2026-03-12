@@ -1,0 +1,12 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ScenarioDef[defName="MLRP_Scenario_RenegadeAlicorn"]/scenario/parts</xpath>
+		<value>		
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Ammo_HarmonyLaser</thingDef>
+				<count>90</count>
+			</li>
+		</value>
+	</Operation>
+</Patch>

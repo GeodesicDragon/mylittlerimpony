@@ -1,15 +1,32 @@
 <Defs>
 
-<!--SCREWBALL-->
+	<!--BASIC AMMO-->
 
 	<ResearchProjectDef>
 		<defName>MLRP_CE_AmmoResearch</defName>
-		<label>magical ammunition</label>
-		<description>Unlocks the ability to craft pony-themed ammunition.</description>
+		<label>basic magical ammunition</label>
+		<description>Unlocks the ability to craft wooden bullets, Cadence javelins, and tennis balls.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>0</researchViewX>
 		<researchViewY>6</researchViewY>
 		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+	</ResearchProjectDef>
+	
+	<!--ADVANCED AMMO-->
+	
+	<ResearchProjectDef>
+		<defName>MLRP_CE_AmmoResearchAdvanced</defName>
+		<label>advanced magical ammunition</label>
+		<description>Unlocks the ability to craft both varieties of harmony laser ammo.</description>
+		<prerequisites>
+			<li>MLRP_CE_AmmoResearch</li>
+			<li>MLRP_WeaponisedElementsResearch</li>
+		</prerequisites>
+		<tab>MLRP_ResearchTab</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>6</researchViewY>
+		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 	</ResearchProjectDef>
 	

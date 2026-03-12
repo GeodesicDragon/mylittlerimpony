@@ -1,4 +1,6 @@
-﻿using RimWorld;
+﻿using MLRP_ModSettings;
+using RimWorld;
+using System.Xml;
 using Verse;
 
 namespace MLRP_Biotech
@@ -230,6 +232,64 @@ namespace MLRP_Biotech
                 return 5f;
             }
             return 0f;
+        }
+    }
+
+    // CALCULATE CHEMFUEL THE RENEGADE ALICORN STARTS WITH
+
+    public class PatchOperationRenegadeAlicornChemfuel : PatchOperation
+    {
+        public string defName;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            string thingXpath =
+                $"Defs/ScenarioDef[defName=\"{defName}\"]/scenario/parts/li[@Name='MLRP_RenegadeAlicornFuel']";
+
+            XmlNode thingNode = xml.SelectSingleNode(thingXpath);
+            if (thingNode == null)
+            {
+                Log.Warning($"[MLRP] Could not find ThingDef {defName}");
+                return false;
+            }
+
+            // Helper to set or create a node
+            void SetNode(string relativeXpath, string value)
+            {
+                XmlNode node = thingNode.SelectSingleNode(relativeXpath);
+
+                if (node == null)
+                {
+                    string[] parts = relativeXpath.Split('/');
+                    XmlNode parent = thingNode;
+
+                    foreach (var part in parts)
+                    {
+                        XmlNode child = parent.SelectSingleNode(part);
+                        if (child == null)
+                        {
+                            child = xml.CreateElement(part);
+                            parent.AppendChild(child);
+                        }
+                        parent = child;
+                    }
+
+                    node = parent;
+                }
+
+                node.InnerText = value;
+            }
+
+            // Get mod setting
+            int baseChemfuel = MLRP_SettingsWindow.settings.DBChemfuelCost;
+
+            // Multiply by 10
+            int raChemfuel = baseChemfuel * 10;
+
+            // IMPORTANT: Convert to string
+            SetNode("count", raChemfuel.ToString());
+
+            return true;
         }
     }
 }

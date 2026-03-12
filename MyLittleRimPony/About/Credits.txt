@@ -172,7 +172,7 @@ Obligatory OC Background: GeodesicDragon AKA me (not on Derpibooru)
 |      ACHIEVEMENTS      |
 |------------------------|
 
-Since most achievements are earned by making or building things, they'll use the same image as the texture for that building or item; these are the exceptions, as I wanted to use a more fitting image for them.
+Most achievements use the same image as the building or item they are related to, with the following exceptions.
 
 Soylent Sparkle - orschmann (2558210)
 Why, Darling?! - slb94 (1870978)

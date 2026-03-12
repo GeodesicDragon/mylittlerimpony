@@ -262,6 +262,7 @@ namespace MLRP_ModSettings
             MLRP_Options.Label("MLRP_DBChemfuel".Translate(settings.DBChemfuelCost));
             settings.DBChemfuelCost = (int)MLRP_Options.Slider(settings.DBChemfuelCost, 2, 100);
             MLRP_Options.Label("MLRP_DBChemfuelExplanation".Translate());
+            MLRP_Options.Label("MLRP_ChangeNeedsRestart".Translate());
 
             MLRP_Options.GapLine();
 

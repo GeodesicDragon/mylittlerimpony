@@ -7,4 +7,11 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsSmelter"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>MLRP_Daybreaker</li>
+		</value>
+	</Operation>
+
 </Patch>

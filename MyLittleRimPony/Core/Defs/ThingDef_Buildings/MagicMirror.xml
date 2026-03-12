@@ -61,5 +61,8 @@
       <li>MLRP_MagicMirrorResearch</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<thingSetMakerTags>
+		<li>MLRP_Item</li>
+	</thingSetMakerTags>
   </ThingDef>
 </Defs>  

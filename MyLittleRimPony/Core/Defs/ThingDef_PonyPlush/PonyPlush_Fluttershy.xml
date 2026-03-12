@@ -11,6 +11,8 @@
 			<TrainAnimalChance>0.25</TrainAnimalChance>
 			<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
 			<AnimalGatherYield>0.25</AnimalGatherYield>
+			<FishingSpeed MayRequire="Ludeon.RimWorld.Odyssey">1</FishingSpeed>
+			<FishingYield MayRequire="Ludeon.RimWorld.Odyssey">1</FishingYield>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

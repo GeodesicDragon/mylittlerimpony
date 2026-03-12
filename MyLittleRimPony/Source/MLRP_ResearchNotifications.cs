@@ -248,13 +248,24 @@ namespace MLRP_ResearchTracker
 
             if (ModsConfig.IsActive("CETeam.CombatExtended") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CE_AmmoResearch"))
             {
-                PBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MakeAmmo_CadenceJavelin").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MakeAmmo_HarmonyLaser").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MakeAmmo_HarmonyLaser_Sabot").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MakeAmmo_TennisBalls").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MakeAmmo_WoodenBullets").label;
+                PBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MakeAmmo_CadenceJavelin").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MakeAmmo_TennisBalls").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MakeAmmo_WoodenBullets").label;
                 string PBLetterText = "MLRP_PBLetterText".Translate(PBRecipeUnlocked);
                 
                 if (LettersEnabled == true)
                 {
 					Find.LetterStack.ReceiveLetter(LetterTitle, PBLetterText, MLRP_NewRecipeUnlocked);
 				}
+            }
+
+            if (ModsConfig.IsActive("CETeam.CombatExtended") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_CE_AmmoResearchAdvanced"))
+            {
+                PBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MakeAmmo_HarmonyLaser").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MakeAmmo_HarmonyLaser_Sabot").label;
+                string PBLetterText = "MLRP_PBLetterText".Translate(PBRecipeUnlocked);
+
+                if (LettersEnabled == true)
+                {
+                    Find.LetterStack.ReceiveLetter(LetterTitle, PBLetterText, MLRP_NewRecipeUnlocked);
+                }
             }
 
             // FABRIC EXCHANGE

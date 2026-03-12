@@ -51,6 +51,12 @@
     <researchPrerequisites>
       <li>MLRP_NightmareMoonResearch</li>
     </researchPrerequisites>
+	<comps>
+		<li Class="CompProperties_Glower">
+			<glowRadius>6</glowRadius>
+			<glowColor>(67,231,224,0)</glowColor>
+		</li>
+	</comps>
   </ThingDef>
 
 </Defs>  

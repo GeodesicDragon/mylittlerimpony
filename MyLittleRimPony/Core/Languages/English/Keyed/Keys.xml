@@ -73,7 +73,7 @@
 	<enableResearchLettersExplanation>Enable research letters</enableResearchLettersExplanation>
 	<enableResearchLettersToolTip>Sends a letter whenever you complete research which unlocks new recipes.</enableResearchLettersToolTip>
 	<MLRP_EvilSistersHeader>Evil Sisters Settings</MLRP_EvilSistersHeader>
-	<MLRP_SisterStuff>Building either sister statue requires {0} stuff</MLRP_SisterStuff>
+	<MLRP_SisterStuff>Building either sister statue requires {0} stuff</MLRP_SisterStuff>	
 	<MLRP_DBChemfuel>Regular amount of chemfuel to use at the Daybreaker statue: {0}</MLRP_DBChemfuel>
 	<MLRP_DBChemfuelExplanation>Some recipes use more than this amount, and it will be altered accordingly.</MLRP_DBChemfuelExplanation>
 	<MLRP_SweetieBotHeader>Sweetie Bot Settings</MLRP_SweetieBotHeader>
