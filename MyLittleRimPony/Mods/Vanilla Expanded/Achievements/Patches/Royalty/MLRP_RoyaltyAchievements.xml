@@ -13,7 +13,7 @@
 				<defName>MLRP_Achievement_InstallHarmonyChip</defName>
 				<label>This Is Your Brain On Pony</label>
 				<description>Install a Harmony Chip</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.HediffTracker">
 					<def>MLRP_HarmonyChipInstalled</def>
@@ -30,7 +30,7 @@
 				<defName>MLRP_Achievement_Trixie</defName>
 				<label>Great And Powerful</label>
 				<description>Craft a Trixie plushie</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>PonyPlush_Trixie</def>
@@ -45,7 +45,7 @@
 				<defName>MLRP_Achievement_AloeAndLotus</defName>
 				<label>Twinning At Life</label>
 				<description>Craft an Aloe and Lotus plushie</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>PonyPlush_AloeAndLotus</def>

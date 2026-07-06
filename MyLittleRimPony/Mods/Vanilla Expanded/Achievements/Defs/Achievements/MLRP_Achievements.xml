@@ -473,7 +473,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_Daybreaker</defName>
 		<label>Feelin' Hot, Hot, Hot</label>
-		<description>Build a statue of Daybreaker</description>
+		<description>Build Daybreaker</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -488,7 +488,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_Daybreaker_Wood</defName>
 		<label>Fire Hazard</label>
-		<description>Build a wooden Daybreaker statue</description>
+		<description>Build a wooden Daybreaker</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -503,7 +503,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_NightmareMoon</defName>
 		<label>Give Us Something Sweet To Bite</label>
-		<description>Build a statue of Nightmare Moon</description>
+		<description>Build Nightmare Moon</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">
@@ -518,7 +518,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>MLRP_Achievement_NightmareMoon_Wood</defName>
 		<label>You're Kidding, Right?</label>
-		<description>Build a wooden Nightmare Moon statue</description>
+		<description>Build a wooden Nightmare Moon</description>
 		<tab>MLRP_BuildingAchievementTab</tab>
 		
 		<tracker Class="AchievementsExpanded.BuildingTracker">

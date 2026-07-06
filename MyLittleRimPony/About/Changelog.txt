@@ -1,3 +1,56 @@
+Version 7.23.88 (July 6th 2026)
+
+* Core: Added the ability to cremate corpses at the Daybreaker statue.
+* Core: Added the ability to smelt apparel at the Daybreaker statue.
+* Core: Added the ability to smelt weapons at the Daybreaker statue.
+* Core: Fixed the letter sent when magical power efficiency is researched saying 'plushie bench' instead of 'pony workbench.'
+* Core: Mod settings that require a restart to apply have been moved to their own section of the window.
+* Biotech: The renegade alicorn scenario now starts with 20 packaged survival meals.
+* Biotech: The recluse trait no longer conflicts with the brony trait.
+* Biotech: Fixed settings not being applied to the child-equippable Big Macintosh plushie.
+* Biotech: Fixed settings not being applied to the child-equippable Cutie Mark Crusaders plushie.
+* Alpha Genes: Replaced batponies medical proficiency with shooting proficiency. (1)
+* Alpha Genes: The batpony faction and the NPC brony community faction should no longer be hostile to each other. (2)
+* Anomaly: Fixed Thingpone stuff setting not being applied properly.
+* Odyssey: Fixed settings not being applied to the Zipp Storm plushie.
+* Dubs Rimefeller: Fixed settings not being applied to the synthylene conversion recipes.
+* Rocket's Medals: Fixed 'Config error in MLRP_Medal_EPHOC: has a recipeMaker but no costList or costStuffCount.' error.
+
+1. Will only affect newly spawned pawns of this xenotype; existing ones will have to be reset using devmode.
+2. Only applies if Vanilla Expanded Framework is enabled.
+
+Version 7.20.76 (April 8th 2026)
+
+* Odyssey: Added the ability to purchase vacstone glands from Nebula Veil.
+	* Costs 1550 silver, 15 plasteel and 5 advanced components.
+	* Also requires a Social skill of 5.
+	* Unlocked once skin hardening has been researched.
+* Rocket's Medals: Added the Equestrian Pink Heart of Courage.
+	* Increases social impact by 10%.
+	* Increases trade price improvement by 10%.
+	* Increases conversion power by 5% (requires Ideology DLC).
+	* Made at the pony workbench instead of the smithy.
+	* Has a 10% chance of removing the anti brony trait.
+* Core: Changed the texture of the Princess Luna plushie so it looks less squashed.
+* Core: Renamed 'Statue of Daybreaker' to 'Daybreaker.'
+* Core: Renamed 'Statue of Nightmare Moon' to 'Nightmare Moon.'
+* Core: Renamed 'Statues of the Evil Sisters' research to 'Evil Sisters.'
+* Core: Reduced the tech level of herbal cure kit research to Neolithic (was Medieval).
+* Core: Reduced the tech level of Tree Hugger research to Neolithic (was Medieval).
+* Core: Reduced the tech level of Evil Sisters research to Neolithic (was Medieval).
+* Core: Reduced the cost of herbal cure kit research to 750 (was 1500).
+* Core: Reduced the cost of Tree Hugger research to 250 (was 500).
+* Core: Reduced the cost of Tree Hugger research to 250 (was 500).
+* Core: Reduced the cost of Evil Sisters research to 250 (was 500).
+* Core: Daybreaker no longer heats up rooms, as this feature never seemed to work (at least not for me).
+* Core: Changed how comms console dialogue appears for the NPC brony community faction.
+* Biotech: Fixed the child-equippable Shining Armour plushie not improving resistances.
+* Biotech: Changed how comms console dialogue appears for the Diamond Dog faction.
+* Odyssey: Fixed the Elements of Harmony not improving fishing speed and yield.
+* Odyssey: Fixed hostile Sweetie Bot mechanoids remaining active after destroying the mechhive.
+* Alpha Genes: Changed how comms console dialogue appears for the batpony faction.
+* Vanilla Achievements Expanded: Moved DLC-related achievements to the DLC tab.
+
 Version 7.18.57 (March 12th 2026)
 
 * Vanilla Achievements Expanded: Added a rewards button that allows you to spend 100 storyteller points to get a random pony-themed item.

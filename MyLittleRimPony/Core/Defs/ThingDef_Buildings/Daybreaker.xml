@@ -2,8 +2,8 @@
 
 <ThingDef ParentName="BuildingBase">
     <defName>MLRP_Daybreaker</defName>
-    <label>Statue of Daybreaker</label>
-    <description>Celestia's evil alter ego only ever manifested herself as part of Starlight Glimmer's nightmare, but even then her power was something to behold.\n\nAt least all of the heat she is emanating can be put to some use...</description>
+    <label>Daybreaker</label>
+    <description>Celestia's evil alter ego only ever manifested herself as part of Starlight Glimmer's nightmare, but even then her power was something to behold.\n\nAt least all of the heat she is emanating can be put to use, though doing so may require a little bit of chemfuel...</description>
     <thingClass>Building_WorkTable</thingClass>
 	<designationHotKey>Misc8</designationHotKey>
     <graphicData>
@@ -56,17 +56,17 @@
 			<glowRadius>6</glowRadius>
 			<glowColor>(255,241,127,0)</glowColor>
 		</li>
-		<li Class="CompProperties_HeatPusher">
-			<compClass>CompHeatPusherPowered</compClass>
-			<heatPerSecond>9</heatPerSecond>
-			<heatPushMaxTemperature>25</heatPushMaxTemperature>
-		</li>
 	</comps>
 	<recipes>
 		<li>BurnApparel</li>
 		<li>BurnDrugs</li>
 		<li>BurnWeapon</li>
 		<li>ExtractMetalFromSlag</li>
+		<li>CremateCorpse</li>
+		<li>SmeltApparel</li>
+		<li>SmeltWeapon</li>
+		<li>DestroyWeapon</li>
+		<li>DestroyApparel</li>
 	</recipes>
 </ThingDef>
   

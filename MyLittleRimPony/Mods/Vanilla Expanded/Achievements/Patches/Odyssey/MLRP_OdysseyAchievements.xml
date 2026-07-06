@@ -27,7 +27,7 @@
 					<defName>MLRP_Achievement_ZippStorm</defName>
 					<label>A Whole Lot More Interesting</label>
 					<description>Craft a Zipp Storm plushie</description>
-					<tab>MLRP_AchievementTab</tab>
+					<tab>MLRP_DLCAchievementTab</tab>
 					
 					<tracker Class="AchievementsExpanded.ItemCraftTracker">
 						<def>PonyPlush_ZippStorm</def>

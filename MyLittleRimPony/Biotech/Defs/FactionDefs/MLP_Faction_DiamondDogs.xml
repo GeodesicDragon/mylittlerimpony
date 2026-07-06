@@ -20,6 +20,7 @@
     <leaderTitle>alpha</leaderTitle>
     <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
     <factionIconPath>Things/Diamond</factionIconPath>
+	<dialogFactionGreetingHostile>MLRP_DiamondDogGreetingHostile</dialogFactionGreetingHostile>
 	<xenotypeSet>
 		<xenotypeChances>
 			<MLRP_Xeno_DiamondDog>1</MLRP_Xeno_DiamondDog>

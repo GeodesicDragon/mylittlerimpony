@@ -1,0 +1,10 @@
+<Defs>
+
+<TipSetDef>
+	<defName>MyLittleRimPony_OdysseyTips</defName>
+	<tips>
+		<li TKey="ZippStorm">The Zipp Storm plushie grants additional piloting ability to the pawn equipping it.</li>
+	</tips>
+</TipSetDef>
+
+</Defs>

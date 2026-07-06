@@ -25,6 +25,7 @@
 		<li TKey="PoisonJokeEffect">Poison joke will affect a pawns consciousness, moving, manipulation, talking, eating, sight, hearing or breathing in either a positive or negative way.</li>
 		<li TKey="PoisonJokeCutiePox">Poison joke has a chance of inflicting a pawn with the Cutie Pox.</li>
 		<li TKey="CutiePoxInfections">Cutie pox breakouts occur more frequently in warmer biomes.</li>
+		<li TKey="LimestonePie">Insect infestations can still occur even when using Limestone Pie.</li>
 	</tips>
 </TipSetDef>
 

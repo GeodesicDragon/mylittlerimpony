@@ -202,10 +202,6 @@ namespace MLRP_ModSettings
             MLRP_Options.Label("MLRP_PlushieHeader".Translate());
             Text.Font = GameFont.Small;
 
-            MLRP_Options.Label("MLRP_PlushieStuffNeeded".Translate(settings.ingredientCount));
-            settings.ingredientCount = (int)MLRP_Options.Slider(settings.ingredientCount, 2, 750);
-            MLRP_Options.Label("MLRP_ChangeNeedsRestart".Translate());
-
             MLRP_Options.Label("MLRP_PlushieSkillNeeded".Translate(settings.craftingSkillRequirement));
             settings.craftingSkillRequirement = (int)MLRP_Options.Slider(settings.craftingSkillRequirement, 0, 20);
 
@@ -213,9 +209,6 @@ namespace MLRP_ModSettings
             settings.plushieRecycling = (int)MLRP_Options.Slider(settings.plushieRecycling, 1, 375);
 
             MLRP_Options.CheckboxLabeled("MLRP_PlushiesTaintedOnDeath".Translate(), ref settings.taintedOnDeath);
-
-            MLRP_Options.CheckboxLabeled("MLRP_OldTSTex".Translate(), ref settings.useOldTSTex);
-            MLRP_Options.Label("MLRP_ChangeNeedsRestart".Translate());
 
             if (ModsConfig.IsActive("Dubwise.DubsBadHygiene"))
             {
@@ -258,11 +251,6 @@ namespace MLRP_ModSettings
 
             MLRP_Options.Label("MLRP_SisterStuff".Translate(settings.SisterStuff));
             settings.SisterStuff = (int)MLRP_Options.Slider(settings.SisterStuff, 100, 1500);
-
-            MLRP_Options.Label("MLRP_DBChemfuel".Translate(settings.DBChemfuelCost));
-            settings.DBChemfuelCost = (int)MLRP_Options.Slider(settings.DBChemfuelCost, 2, 100);
-            MLRP_Options.Label("MLRP_DBChemfuelExplanation".Translate());
-            MLRP_Options.Label("MLRP_ChangeNeedsRestart".Translate());
 
             MLRP_Options.GapLine();
 
@@ -317,18 +305,6 @@ namespace MLRP_ModSettings
 
             MLRP_Options.GapLine();
 
-            if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty"))
-            {
-                Text.Font = GameFont.Medium;
-                MLRP_Options.Label("MLRP_RoyaltyHeader".Translate());
-                Text.Font = GameFont.Small;
-
-                MLRP_Options.CheckboxLabeled("MLRP_TreeOfHarmony".Translate(), ref settings.TreeOfHarmony);
-                MLRP_Options.Label("MLRP_ChangeNeedsRestart".Translate());
-            }
-
-            MLRP_Options.GapLine();
-
             if (ModsConfig.IsActive("Ludeon.RimWorld.Ideology"))
             {
                 Text.Font = GameFont.Medium;
@@ -366,6 +342,29 @@ namespace MLRP_ModSettings
             }
 
             MLRP_Options.GapLine();
+			
+			// RESTART REQUIRED
+			
+			Text.Font = GameFont.Medium;
+			MLRP_Options.Label("MLRP_RestartRequiredHeader".Translate());
+			Text.Font = GameFont.Small;
+			MLRP_Options.Label("MLRP_ChangeNeedsRestart".Translate());
+			
+            MLRP_Options.Label("MLRP_PlushieStuffNeeded".Translate(settings.ingredientCount));
+            settings.ingredientCount = (int)MLRP_Options.Slider(settings.ingredientCount, 2, 750);
+			
+			MLRP_Options.CheckboxLabeled("MLRP_OldTSTex".Translate(), ref settings.useOldTSTex);
+			
+            MLRP_Options.Label("MLRP_DBChemfuel".Translate(settings.DBChemfuelCost));
+            settings.DBChemfuelCost = (int)MLRP_Options.Slider(settings.DBChemfuelCost, 2, 100);
+            MLRP_Options.Label("MLRP_DBChemfuelExplanation".Translate());
+			
+            if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty"))
+            {
+                MLRP_Options.CheckboxLabeled("MLRP_TreeOfHarmony".Translate(), ref settings.TreeOfHarmony);
+            }
+			
+			MLRP_Options.GapLine();
 
             if (MLRP_Options.ButtonText("MLRP_DefaultSettings".Translate()))
             {
@@ -408,7 +407,7 @@ namespace MLRP_ModSettings
             int DiscordCost = settings.DiscordStuff;
             int ScrewballCost = settings.ScrewballStuff;
             int SisterCost = settings.SisterStuff;
-            int ThingponeCost = settings.SisterStuff;
+            int ThingponeCost = settings.ThingponeStuff;
             int TreeHuggerCost = settings.TreeHuggerStuff;
             int DBChemfuelCost = settings.DBChemfuelCost;
             int DBChemfuelHalfCost = DBChemfuelCost / 2;
@@ -849,7 +848,7 @@ namespace MLRP_ModSettings
 
             // APPLY ANOMALY SETTINGS
 
-            if (ModsConfig.IsActive("Ludeon.RimWorld.Animaly"))
+            if (ModsConfig.IsActive("Ludeon.RimWorld.Anomaly"))
             {
                 DefDatabase<ThingDef>.GetNamed("MLRP_Thingpone").costStuffCount = ThingponeCost;
 
@@ -868,6 +867,27 @@ namespace MLRP_ModSettings
             if (ModsConfig.IsActive("Ludeon.RimWorld.Odyssey"))
             {
                 foreach (string defName in RegularChemfuelRecipesOdyssey)
+                {
+                    RecipeDef recipe = DefDatabase<RecipeDef>.GetNamed(defName);
+                    if (recipe != null && recipe.ingredients != null && recipe.ingredients.Count > 0)
+                    {
+                        recipe.ingredients[0].SetBaseCount(DBChemfuelCost);
+                    }
+                }
+				
+				foreach (string defName in OdysseyPlushies)
+                {
+                    ThingDef odysseyPlush = DefDatabase<ThingDef>.GetNamed(defName);
+                    odysseyPlush.recipeMaker.skillRequirements.FirstOrDefault(r => r.skill == SkillDefOf.Crafting).minLevel = settings.craftingSkillRequirement;
+                    odysseyPlush.apparel.careIfWornByCorpse = settings.taintedOnDeath;
+                }
+            }
+
+            // APPLY RIMEFELLER SETTINGS (IF ENABLED)
+
+            if (ModsConfig.IsActive("Dubwise.Rimefeller"))
+            {
+                foreach (string defName in RegularChemfuelRecipesRimefeller)
                 {
                     RecipeDef recipe = DefDatabase<RecipeDef>.GetNamed(defName);
                     if (recipe != null && recipe.ingredients != null && recipe.ingredients.Count > 0)
@@ -953,10 +973,18 @@ namespace MLRP_ModSettings
             "PonyPlush_ButtonMash",
         };
 
+        private static readonly string[] OdysseyPlushies =
+        {
+            "PonyPlush_ZippStorm",
+        };
+
         private static readonly string[] ChildPlushies =
         {
             "PonyPlush_AppleBloom_Child",
+            "PonyPlush_BigMacintosh_Child",
             "PonyPlush_Cheerilee_Child",
+            "PonyPlush_CombatRainbowDash",
+            "PonyPlush_CutieMarkCrusaders_Child",
             "PonyPlush_Discord_Child",
             "PonyPlush_IzzyMoonbow_Child",
             "PonyPlush_PrincessCadence_Child",
@@ -968,7 +996,6 @@ namespace MLRP_ModSettings
             "PonyPlush_SpoiledRich_Child",
             "PonyPlush_StarlightGlimmer_Child",
             "PonyPlush_SweetieBelle_Child",
-            "PonyPlush_CombatRainbowDash",
         };
 
         private static readonly string[] HalfChemfuelRecipes =
@@ -1008,6 +1035,13 @@ namespace MLRP_ModSettings
         {
             "MLRP_DB_ConvertSilverIntoObsidian",
             "MLRP_DB_ConvertObsidianIntoSilver",
+        };
+
+
+        private static readonly string[] RegularChemfuelRecipesRimefeller =
+        {
+            "MLRP_DB_ConvertSilverIntoSynthylene",
+            "MLRP_DB_ConvertSynthyleneIntoSilver",
         };
 
         private static readonly string[] DoubleChemfuelRecipes =

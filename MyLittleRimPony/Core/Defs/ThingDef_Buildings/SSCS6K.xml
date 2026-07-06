@@ -12,6 +12,7 @@
     <thingCategories>
       <li>BuildingsSpecial</li>
     </thingCategories>
+	<drawerType>MapMeshAndRealTime</drawerType>
     <costList>
       <Steel>750</Steel>
       <ComponentSpacer>6</ComponentSpacer>
@@ -57,10 +58,10 @@
     <size>(4, 2)</size>
     <fillPercent>1.0</fillPercent>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <passability>Impassable</passability>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <passability>PassThroughOnly</passability>
     <rotatable>false</rotatable>
-    <canOverlapZones>false</canOverlapZones>
+    <canOverlapZones>true</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
     <tradeability>Buyable</tradeability>
     <tradeTags>

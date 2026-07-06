@@ -96,4 +96,45 @@
 		</skillRequirements>
 	</RecipeDef>
 	
+	<!--PURCHASE VACSKIN GLAND-->
+	
+	<RecipeDef ParentName="MLRP_NebulaVeilBase">
+		<defName>MLRP_NV_VacskinGland</defName>
+		<label>purchase vacskin gland</label>
+		<description>Offer silver in exchange for a neurocalculator.\n\nNebula asks that you provide the materials normally used to make one, as well as tell her a story about your orbital adventures (she doesn't care if you make one up).</description>
+		<researchPrerequisite>SkinHardening</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>155</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<VacskinGland>1</VacskinGland>
+		</products>
+		<skillRequirements>
+			<Social>5</Social>
+		</skillRequirements>
+	</RecipeDef>
+	
 </Defs>

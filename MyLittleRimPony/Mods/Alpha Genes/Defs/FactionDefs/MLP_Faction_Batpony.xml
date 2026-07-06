@@ -5,7 +5,7 @@
     <defName>MLRP_Batpony_Faction</defName>
     <label>batpony tribe</label>
     <categoryTag>Outlander</categoryTag>
-    <description>A colony of people who have undergone xenotype implantation to become batponies. Given that they have spent a lot of time by themselves, they are initially hostile towards outsiders, but they are willing to get over this if shown enough respect.\n\nIn combat, they employ the same mercenaries use by the other pony-themed faction which exists in the world, though the two don't get along.</description>
+    <description>A colony of people who have undergone xenotype implantation to become batponies. Having spent a lot of time by themselves, they are initially hostile towards outsiders, though they are willing to get along if shown enough respect.\n\nIn combat, they employ the same mercenaries used by the other pony-themed faction which exists in the world.</description>
 	<naturalEnemy>true</naturalEnemy>
     <pawnSingular>batpony</pawnSingular>
     <pawnsPlural>batponies</pawnsPlural>
@@ -15,6 +15,10 @@
     <maxCountAtGameStart>0</maxCountAtGameStart>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>70</configurationListOrderPriority>
+    <dialogFactionGreetingHostile>MLRP_BatponyGreetingHostile</dialogFactionGreetingHostile>
+    <dialogFactionGreetingHostileAppreciative>MLRP_BatponyGreetingHostileAppreciative</dialogFactionGreetingHostileAppreciative>
+    <dialogFactionGreetingWary>MLRP_BatponyGreetingWary</dialogFactionGreetingWary>
+    <dialogFactionGreetingWarm>MLRP_BatponyGreetingWarm</dialogFactionGreetingWarm>	
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>top bat</leaderTitle>
@@ -166,6 +170,7 @@
 		<li Class="VFECore.FactionDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">			
 			<startingGoodwillByFactionDefs>
 				<Pony_PlayerThestralKingdom MayRequire="Pony.PoniesOfTheRim.Batponies">0</Pony_PlayerThestralKingdom>
+				<MLRP_NPC_Faction>0</MLRP_NPC_Faction>
 			</startingGoodwillByFactionDefs>
 		</li>
 	</modExtensions>

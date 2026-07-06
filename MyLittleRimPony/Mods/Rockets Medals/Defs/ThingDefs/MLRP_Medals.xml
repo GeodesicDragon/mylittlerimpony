@@ -1,0 +1,64 @@
+<Defs>
+
+	<ThingDef ParentName="ApparelBase" Name="MLRP_PonyMedalBase" Abstract="True">
+		<thingClass>MedalMod.RocketMedal</thingClass>
+		<smeltable>false</smeltable>
+		<inspectorTabs>
+			<li>MedalMod.ITab_MedalRecord</li>
+		</inspectorTabs>
+		<comps Inherit="False">
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<PawnBeauty>0.1</PawnBeauty>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>0.01</Mass>
+			<EquipDelay>0.5</EquipDelay>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Bulk MayRequire="CETeam.CombatExtended">0.1</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">0</WornBulk>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>ROCKET_Apparel_Medals</li>
+		</thingCategories>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<layers>
+				<li>ROCKET_MedalLayer</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+		
+	<ThingDef ParentName="MLRP_PonyMedalBase">
+		<defName>MLRP_Medal_EPHOC</defName>
+		<label>Equestrian Pink Heart of Courage</label>
+		<description>Equestria's highest award for services rendered in the pursuit or defence of friendship.</description>
+		<graphicData>
+			<texPath>Things/Medals/EquestrianPinkHeartOfCourage</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Medals/EquestrianPinkHeartOfCourage</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<SocialImpact>0.1</SocialImpact>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.05</ConversionPower>
+		</equippedStatOffsets>
+		<statBases>
+			<MarketValue>500</MarketValue>
+		</statBases>
+	</ThingDef>
+
+</Defs>

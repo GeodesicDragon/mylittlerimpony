@@ -249,7 +249,7 @@ namespace MLRP_Biotech
             XmlNode thingNode = xml.SelectSingleNode(thingXpath);
             if (thingNode == null)
             {
-                Log.Warning($"[MLRP] Could not find ThingDef {defName}");
+                Log.Warning($"[My Little RimPony] Could not find ThingDef {defName}");
                 return false;
             }
 

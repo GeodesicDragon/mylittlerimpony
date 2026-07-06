@@ -1,10 +1,3 @@
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/TraitDef[defName="MLRP_BronyTrait"]/conflictingTraits</xpath>
-		<value>
-			<li>Recluse</li>
-		</value>
-	</Operation>
-
 </Patch>

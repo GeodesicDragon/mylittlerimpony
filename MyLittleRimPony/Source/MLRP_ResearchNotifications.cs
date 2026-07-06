@@ -267,6 +267,19 @@ namespace MLRP_ResearchTracker
                     Find.LetterStack.ReceiveLetter(LetterTitle, PBLetterText, MLRP_NewRecipeUnlocked);
                 }
             }
+			
+			// PONY WORKBENCH: ROCKET'S MEDALS MOD
+			
+            if (ModsConfig.IsActive("Rockets.Medals") && proj == DefDatabase<ResearchProjectDef>.GetNamed("NobleApparel"))
+            {
+                PBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_MakeEPHOCMedal").label;
+                string PBLetterText = "MLRP_PBLetterText".Translate(PBRecipeUnlocked);
+
+                if (LettersEnabled == true)
+                {
+                    Find.LetterStack.ReceiveLetter(LetterTitle, PBLetterText, MLRP_NewRecipeUnlocked);
+                }
+            }
 
             // FABRIC EXCHANGE
 
@@ -435,12 +448,24 @@ namespace MLRP_ResearchTracker
             if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("SkinHardening"))
             {
                 NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_ToughskinGland").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_ArmorskinGland").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_StoneskinGland").label;
-                string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
-                
-                if (LettersEnabled == true)
-                {
-					Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
-				}
+                NVRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NV_VacskinGland").label;
+			
+				if (ModsConfig.IsActive("Ludeon.RimWorld.Odyssey"))
+				{
+					string MultLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked) + "\n\n" + "MLRP_NVLetterText".Translate(NVRecipeUnlocked);
+                    if (LettersEnabled == true)
+                    {
+                        Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+                    }
+                }
+				else if (!ModsConfig.IsActive("Ludeon.RimWorld.Odyssey"))
+				{
+					string MultLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
+                    if (LettersEnabled == true)
+                    {
+                        Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+                    }
+                }
             }
 
             if (ModsConfig.IsActive("Ludeon.RimWorld.Royalty") && proj == DefDatabase<ResearchProjectDef>.GetNamed("FleshShaping"))

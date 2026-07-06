@@ -16,7 +16,9 @@
       <thinkTreeConstant>MechConstant</thinkTreeConstant>
     </race>
     <comps>
-      <li Class="CompProperties_CanBeDormant" />
+      <li Class="CompProperties_CanBeDormant">
+        <compClass>CompMechanoid</compClass>
+      </li>
       <li Class="CompProperties_WakeUpDormant">
         <wakeUpOnDamage>true</wakeUpOnDamage>
         <wakeUpCheckRadius>30</wakeUpCheckRadius>

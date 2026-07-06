@@ -1,0 +1,58 @@
+<Defs>
+
+	<!-- BASE -->
+
+	<RecipeDef Name="MLRP_PonyMedalRecipeBase" Abstract="True">
+		<workAmount>6000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>PlushieBench</li>
+		</recipeUsers>
+		<researchPrerequisites>
+			<li>NobleApparel</li>
+		</researchPrerequisites>
+	</RecipeDef>
+	
+	<!-- TIERS -->
+	
+	<RecipeDef ParentName="MLRP_PonyMedalRecipeBase" Name="MLRP_PonyMedalTierOne" Abstract="True">
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs><li>Silver</li></thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs><li>Cloth</li></thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<!-- RECIPES -->
+	
+	<RecipeDef ParentName="MLRP_PonyMedalTierOne">
+		<defName>MLRP_MakeEPHOCMedal</defName>
+		<label>make Equestrian Pink Heart Of Courage</label>
+		<jobString>Crafting medal.</jobString>
+		<products>
+			<MLRP_Medal_EPHOC>1</MLRP_Medal_EPHOC>
+		</products>
+	</RecipeDef>
+
+</Defs>

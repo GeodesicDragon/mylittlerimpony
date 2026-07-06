@@ -13,7 +13,7 @@
 				<defName>MLRP_Achievement_FlimAndFlam</defName>
 				<label>Warranty Void When Created</label>
 				<description>Craft a Flim and Flam plushie</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>PonyPlush_FlimAndFlam</def>
@@ -28,7 +28,7 @@
 				<defName>MLRP_Achievement_KingSombra</defName>
 				<label>Crystalsssss</label>
 				<description>Craft a King Sombra plushie</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>PonyPlush_KingSombra</def>
@@ -43,7 +43,7 @@
 				<defName>MLRP_Achievement_QueenChrysalis</defName>
 				<label>Hail To The Queen, Baby</label>
 				<description>Craft a Queen Chrysalis plushie</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>PonyPlush_QueenChrysalis</def>
@@ -58,7 +58,7 @@
 				<defName>MLRP_Achievement_Zecora</defName>
 				<label>Insert Rhyme Here</label>
 				<description>Craft a Zecora plushie</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>PonyPlush_Zecora</def>

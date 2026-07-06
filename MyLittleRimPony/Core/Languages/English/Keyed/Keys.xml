@@ -40,8 +40,8 @@
 	
 	<MLRP_NewRecipeUnlockedTitle>New recipe(s) unlocked</MLRP_NewRecipeUnlockedTitle>
 		
-	<MLRP_DBLetterText>Now available at the Daybreaker statue:\n\n{0}</MLRP_DBLetterText>
-	<MLRP_NMMLetterText>Now available at the Nightmare Moon statue:\n\n{0}</MLRP_NMMLetterText>
+	<MLRP_DBLetterText>Now available at Daybreaker:\n\n{0}</MLRP_DBLetterText>
+	<MLRP_NMMLetterText>Now available at Nightmare Moon:\n\n{0}</MLRP_NMMLetterText>
 	<MLRP_PBLetterText>Now available at the pony workbench:\n\n{0}</MLRP_PBLetterText>
 	<MLRP_FELetterText>Now available at the Fabric Exchange:\n\n{0}</MLRP_FELetterText>
 	<MLRP_SELetterText>Now available at the Stone Exchange:\n\n{0}</MLRP_SELetterText>
@@ -52,13 +52,12 @@
 	<!--MOD SETTINGS-->
 	
 	<MLRP_ModName>My Little RimPony</MLRP_ModName>
-	<MLRP_SettingsApplied>[My Little RimPony] Your changes have been applied.</MLRP_SettingsApplied>
+	<MLRP_SettingsApplied>[My Little RimPony] Your settings have been applied.</MLRP_SettingsApplied>
 	<MLRP_SettingsApplyOnClose>With some exceptions, all settings will be applied when this window is closed.</MLRP_SettingsApplyOnClose>
 	<MLRP_GeneralHeader>General Settings</MLRP_GeneralHeader>
 	<MLRP_BuildingHeader>Building Settings</MLRP_BuildingHeader>
 	<MLRP_PlushieHeader>Plushie Settings</MLRP_PlushieHeader>
 	<MLRP_PlushieStuffNeeded>Making plushies requires {0} stuff</MLRP_PlushieStuffNeeded>
-	<MLRP_ChangeNeedsRestart>Changing this setting will require a restart in order to apply updated patches.</MLRP_ChangeNeedsRestart>
 	<MLRP_SunnyMinRaidThreat>Sunny will start sending raids once {0} threat points are reached</MLRP_SunnyMinRaidThreat>
 	<MLRP_PlushieSkillNeeded>Crafting plushies requires a skill level of {0}</MLRP_PlushieSkillNeeded>
 	<MLRP_PlushiesTaintedOnDeath>Plushies become tainted on death</MLRP_PlushiesTaintedOnDeath>
@@ -94,9 +93,11 @@
 	<MLRP_PlushieRecyling>Recycling destroyed plushies will recover {0} materials</MLRP_PlushieRecyling>
 	<MLRP_TreeHuggerStuff>Building Tree Hugger requires {0} stuff</MLRP_TreeHuggerStuff>
 	<MLRP_OldTSTex>Use old Twilight Sparkle texture</MLRP_OldTSTex>
+	<MLRP_RestartRequiredHeader>Restart Required</MLRP_RestartRequiredHeader>
+	<MLRP_ChangeNeedsRestart>Changing these settings will require you to restart the game.</MLRP_ChangeNeedsRestart>
 	
 	<MLRP_RoyaltyHeader>Royalty DLC Settings</MLRP_RoyaltyHeader>
-	<MLRP_TreeOfHarmony>Turn the anima tree into the Tree of Harmony</MLRP_TreeOfHarmony>
+	<MLRP_TreeOfHarmony>[Royalty DLC] Turn the anima tree into the Tree of Harmony</MLRP_TreeOfHarmony>
 		
 	<MLRP_IdeologyHeader>Ideology DLC Settings</MLRP_IdeologyHeader>
 	<MLRP_HPOldBonuses>Harmony precept provides increased bonuses</MLRP_HPOldBonuses>
@@ -134,5 +135,19 @@
 	<MLRP_ExtraScrewballOutputTitle>Advanced power researched</MLRP_ExtraScrewballOutputTitle>
 	<MLRP_ExtraScrewballOutputText>+25% to Screwball power output.</MLRP_ExtraScrewballOutputText>
 	<MLRP_MedievalOverhaul>[My Little RimPony] Medieval Overhaul patches have been applied.</MLRP_MedievalOverhaul>
+	
+	<!--COMMS CONSOLE INTERACTIONS-->
+	
+	<MLRP_NPCFactionGreetingHostile>{0} hurls some insults at {NEGOTIATOR_labelShort} and cuts the feed.</MLRP_NPCFactionGreetingHostile>
+    <MLRP_NPCFactionGreetingHostileAppreciative>{0} warns you that {0_pronoun} will keep sending mercenaries to attack you until you improve your relationship with {0_possessive} group, then terminates the call.</MLRP_NPCFactionGreetingHostileAppreciative>
+    <MLRP_NPCFactionGreetingWary>{0} greets {NEGOTIATOR_labelShort}.</MLRP_NPCFactionGreetingWary>
+    <MLRP_NPCFactionGreetingWarm>{0} is positively beaming with delight as {0_pronoun} greets {NEGOTIATOR_labelShort}.</MLRP_NPCFactionGreetingWarm>
+	
+	<MLRP_DiamondDogGreetingHostile>{0} threatens {NEGOTIATOR_labelShort} with death before abruptly disconnecting.</MLRP_DiamondDogGreetingHostile>
+
+    <MLRP_BatponyGreetingHostile>{0} hurls expletives into the microphone and cuts the feed.</MLRP_BatponyGreetingHostile>
+    <MLRP_BatponyGreetingHostileAppreciative>{0} tells you that {0_pronoun} will not engage in any form of meaningful communication until you improve your relationship with {0_possessive} tribe, then terminates the call.</MLRP_BatponyGreetingHostileAppreciative>
+    <MLRP_BatponyGreetingWary>{0} greets {NEGOTIATOR_labelShort}.</MLRP_BatponyGreetingWary>
+    <MLRP_BatponyGreetingWarm>{0} greets {NEGOTIATOR_labelShort} happily and asks how {0_pronoun} can be of service.</MLRP_BatponyGreetingWarm>	
 	
 </LanguageData>

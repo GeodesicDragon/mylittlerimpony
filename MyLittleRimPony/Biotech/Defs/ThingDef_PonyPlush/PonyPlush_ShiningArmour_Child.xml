@@ -7,11 +7,11 @@
 		<graphicData>
 			<texPath>Things/PonyPlush/ShiningArmour</texPath>
 		</graphicData>
-		<statBases>
+		<equippedStatOffsets>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.3</ArmorRating_Heat>
-		</statBases>
+		</equippedStatOffsets>
 		<apparel>
 			<careIfWornByCorpse>true</careIfWornByCorpse>
 			<bodyPartGroups>

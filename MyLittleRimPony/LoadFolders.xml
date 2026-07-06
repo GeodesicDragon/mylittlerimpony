@@ -23,7 +23,7 @@
 		<li IfModActive="leion247612.HigherHPower">Mods/Higher Power</li>
 		<li IfModActive="erdelf.HumanoidAlienRaces">Mods/Humanoid Alien Races</li>
 		<li IfModActive="Pony.PoniesOfTheRim.Core">Mods/Ponies of the Rim/Core</li>
-		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Mods/Ponies of the Rim/Batponies</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Races">Mods/Ponies of the Rim/Equestrian Races</li>
 		<li IfModActive="Torann.RimWar">Mods/Rim War</li>
 		<li IfModActive="phil42.allergies">Mods/Allergies</li>
 		<li IfModActive="sumghai.medpod">Mods/MedPod</li>
@@ -54,6 +54,7 @@
 		<li IfModActive="happybodi.WeebFaction">Mods/Weeb Faction</li>
 		<li IfModActive="Vanya.Tools.BulkCarrier.1.5" IfModNotActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/Bulk Carrier (No VEF)</li>
 		<!--Vanilla Gravship Expanded only supports RimWorld 1.6-->
+		<!--Rocket's Medals only supports RimWorld 1.6-->
 		<!--Combat Extended only supports RimWorld 1.6-->
 	</v1.5>
 	<v1.6>
@@ -80,7 +81,7 @@
 		<li IfModActive="leion247612.HigherHPower">Mods/Higher Power</li>
 		<li IfModActive="erdelf.HumanoidAlienRaces">Mods/Humanoid Alien Races</li>
 		<li IfModActive="Pony.PoniesOfTheRim.Core">Mods/Ponies of the Rim/Core</li>
-		<li IfModActive="Pony.PoniesOfTheRim.Batponies">Mods/Ponies of the Rim/Batponies</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Races">Mods/Ponies of the Rim/Equestrian Races</li>
 		<li IfModActive="Torann.RimWar">Mods/Rim War</li>
 		<li IfModActive="phil42.allergies">Mods/Allergies</li>
 		<li IfModActive="sumghai.medpod">Mods/MedPod</li>
@@ -111,6 +112,7 @@
 		<li IfModActive="Mlie.SomeThingsFloat">Mods/Some Things Float</li>
 		<li IfModActive="happybodi.WeebFaction">Mods/Weeb Faction</li>
 		<li IfModActive="Vanya.Tools.BulkCarrier.1.5" IfModNotActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/Bulk Carrier (No VEF)</li>
+		<li IfModActive="Rockets.Medals">Mods/Rockets Medals</li>
 		<li IfModActive="CETeam.CombatExtended">Mods/Combat Extended</li>
 		<li>1.6</li>
 	</v1.6>

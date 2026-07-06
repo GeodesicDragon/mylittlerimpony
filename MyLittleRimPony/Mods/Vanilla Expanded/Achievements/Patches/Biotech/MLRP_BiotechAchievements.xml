@@ -13,7 +13,7 @@
 				<defName>MLRP_Achievement_ButtonMash</defName>
 				<label>I Still Don't Get It</label>
 				<description>Craft a Button Mash plushie</description>
-				<tab>MLRP_AchievementTab</tab>
+				<tab>MLRP_DLCAchievementTab</tab>
 				
 				<tracker Class="AchievementsExpanded.ItemCraftTracker">
 					<def>PonyPlush_ButtonMash</def>

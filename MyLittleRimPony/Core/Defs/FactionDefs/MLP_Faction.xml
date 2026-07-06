@@ -26,6 +26,10 @@
 	</allowedCultures>
     <isPlayer>true</isPlayer>
     <basicMemberKind>MLRP_BronyPlayer</basicMemberKind>
+    <dialogFactionGreetingHostile>MLRP_NPCFactionGreetingHostile</dialogFactionGreetingHostile>
+    <dialogFactionGreetingHostileAppreciative>MLRP_NPCFactionGreetingHostileAppreciative</dialogFactionGreetingHostileAppreciative>
+    <dialogFactionGreetingWary>MLRP_NPCFactionGreetingWary</dialogFactionGreetingWary>
+    <dialogFactionGreetingWarm>MLRP_NPCFactionGreetingWarm</dialogFactionGreetingWarm>	
     <pawnSingular>brony</pawnSingular>
     <pawnsPlural>bronies</pawnsPlural>
     <techLevel>Industrial</techLevel>
