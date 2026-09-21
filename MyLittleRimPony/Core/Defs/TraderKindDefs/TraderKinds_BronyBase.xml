@@ -8,6 +8,12 @@
     <stockGenerators>
 
       <!-- Resources -->
+	
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>60</countRange>
+      </li>
+	  
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>2500~10000</countRange>
@@ -247,7 +253,12 @@
     <label>bulk goods trader</label>
 	<requestable>true</requestable>
     <stockGenerators>
-
+	
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>30</countRange>
+      </li>
+	
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
@@ -360,6 +371,11 @@
     <label>weapon trader</label>
 	<requestable>true</requestable>
     <stockGenerators>
+	
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>30</countRange>
+      </li>
 
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
@@ -452,6 +468,11 @@
     <label>exotic goods trader</label>
 	<requestable>true</requestable>
     <stockGenerators>
+	
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>30</countRange>
+      </li>
 
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
@@ -554,6 +575,11 @@
     <label>stonemason</label>
 	<requestable>true</requestable>
     <stockGenerators>
+	
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>30</countRange>
+      </li>
 	
 	<li Class="StockGenerator_SingleDef">
 		<thingDef>Silver</thingDef>

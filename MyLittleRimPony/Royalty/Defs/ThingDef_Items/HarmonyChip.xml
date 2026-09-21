@@ -66,8 +66,7 @@
 				<ResearchSpeed>0.25</ResearchSpeed>
 				<ImmunityGainSpeedFactor>0.5</ImmunityGainSpeedFactor>
 				<InjuryHealingFactor>0.5</InjuryHealingFactor>
-				<CookSpeed>20</CookSpeed>
-				<FoodPoisonChance>-0.25</FoodPoisonChance>
+				<FoodPoisonChance>-1</FoodPoisonChance>
 				<CarryingCapacity>25</CarryingCapacity>
 				<GlobalLearningFactor>0.50</GlobalLearningFactor>
 				<WorkSpeedGlobal>0.5</WorkSpeedGlobal>

@@ -37,7 +37,7 @@
     </statBases>
     <selectable>true</selectable>
     <costList>
-      <WoodLog>50</WoodLog>
+      <WoodLog>500</WoodLog>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
@@ -53,19 +53,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>-22</heatPerSecond>
-        <heatPushMinTemperature>0</heatPushMinTemperature>
-      </li>
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>20</fuelConsumptionRate>
-        <fuelCapacity>50.0</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>WoodLog</li>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </fuelFilter>
-        <initialFuelPercent>1</initialFuelPercent>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <heatPushMinTemperature>-3</heatPushMinTemperature>
       </li>
     </comps>
     <designationCategory>MLRP_Buildings</designationCategory>

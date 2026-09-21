@@ -164,14 +164,5 @@
 			</li>
 		</operations>
 	</Operation>
-	
-	<!--UPDATE MISS HARSHWHINNY TO ALLOW THE EJECTING OF FUEL-->
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="MLRP_MissHarshwhinny"]/comps/li[2]</xpath>
-		<value>
-			<canEjectFuel>true</canEjectFuel>
-		</value>
-	</Operation>
 
 </Patch>

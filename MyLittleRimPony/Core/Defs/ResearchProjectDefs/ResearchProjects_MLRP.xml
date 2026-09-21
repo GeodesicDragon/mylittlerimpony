@@ -80,12 +80,12 @@
 	<ResearchProjectDef>
 		<defName>MLRP_NightmareMoonResearch</defName>
 		<label>Evil Sisters</label>
-		<description>Allows you to construct a statue of Nightmare Moon, who will grant you exotic items in exchange for silver, as well as a statue of Daybreaker, who will allow you to convert metals using chemfuel.</description>
+		<description>Allows you to construct Nightmare Moon, who will grant you exotic items in exchange for silver, as well as Daybreaker, who will allow you to convert metals using chemfuel.</description>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>About Nightmare Moon and Daybreaker</discoveredLetterTitle>
-		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally, while Daybreaker lets you convert materials using chemfuel.\n\nMany recipes at these buildings are locked behind research; you will receive a letter when new items become available, though you can disable this in the mod options.</discoveredLetterText>
+		<discoveredLetterText>Nightmare Moon allows you to request many exotic items using silver, though it does work out to be more expensive than acquiring them normally.\n\nDaybreaker lets you convert materials, such as steel and uranium, into silver, which can then be turned into other materials. The majority of recipes she can perform require chemfuel as an ingredient.\n\nMany recipes at these buildings are locked behind research; you will receive a letter when new items become available, though you can disable this in the mod options.</discoveredLetterText>
 		<baseCost>250</baseCost>
 		<techLevel>Neolithic</techLevel>
 	</ResearchProjectDef>

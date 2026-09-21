@@ -48,7 +48,8 @@
 		<li IfModActive="bblkepling.singleuse.gnat">Mods/Single Use Grenades N'at</li>
 		<li IfModActive="hydrologist.MechanitorCommandRangeExtenders">Mods/Mechanitor Command Range Extenders</li>
 		<li IfModActive="IssacZhuang.MuzzleFlash">Mods/Muzzle Flash</li>
-		<li IfModActive="ferny.ProgressionStorytellers">Mods/Progression - Storytellers</li>
+		<!--Progression: Drugs only supports RimWorld 1.6-->
+		<li IfModActive="ferny.ProgressionStorytellers">Mods/Progression/Storytellers</li>
 		<li IfModActive="PeteTimesSix.SimpleSidearms">Mods/Simple Sidearms</li>
 		<li IfModActive="Mlie.SomeThingsFloat">Mods/Some Things Float</li>
 		<li IfModActive="happybodi.WeebFaction">Mods/Weeb Faction</li>
@@ -107,7 +108,8 @@
 		<li IfModActive="bblkepling.singleuse.gnat">Mods/Single Use Grenades N'at</li>
 		<li IfModActive="hydrologist.MechanitorCommandRangeExtenders">Mods/Mechanitor Command Range Extenders</li>
 		<li IfModActive="IssacZhuang.MuzzleFlash">Mods/Muzzle Flash</li>
-		<li IfModActive="ferny.ProgressionStorytellers">Mods/Progression - Storytellers</li>
+		<li IfModActive="ferny.progressiondrugs">Mods/Progression/Drugs</li>
+		<li IfModActive="ferny.ProgressionStorytellers">Mods/Progression/Storytellers</li>
 		<li IfModActive="PeteTimesSix.SimpleSidearms">Mods/Simple Sidearms</li>
 		<li IfModActive="Mlie.SomeThingsFloat">Mods/Some Things Float</li>
 		<li IfModActive="happybodi.WeebFaction">Mods/Weeb Faction</li>

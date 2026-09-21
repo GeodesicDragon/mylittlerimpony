@@ -1,0 +1,60 @@
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<ResearchProjectDef>
+						<defName>MLRP_ProgressionDrugs_PoisonJoke</defName>
+						<label>poison joke</label>
+						<description>Unlocks the ability to plant poison joke, as well as turn the crop into joints that can affect the user in a positive or negative way.</description>
+						<tab>MLRP_ResearchTab</tab>
+						<researchViewX>3</researchViewX>
+						<researchViewY>3</researchViewY>
+						<baseCost>500</baseCost>
+						<techLevel>Neolithic</techLevel>
+						<prerequisites>
+							<li>DrugProduction</li>
+						</prerequisites>
+					</ResearchProjectDef>
+			   </value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MLRP_PoisonJokePlant"]/plant</xpath>
+				<value>
+					<sowResearchPrerequisites>
+						<li>MLRP_ProgressionDrugs_PoisonJoke</li>
+					</sowResearchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MLRP_PoisonJokeJoint"]/recipeMaker/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>MLRP_ProgressionDrugs_PoisonJoke</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MLRP_DB_MakePoisonJokeJoint" or defName="MLRP_TH_ConvertSilverIntoPoisonJoke" or defName="MLRP_TH_ConvertPoisonJokeIntoSilver"]/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>MLRP_ProgressionDrugs_PoisonJoke</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MLRP_DB_MakeFlake" or defName="MLRP_TH_ConvertSilverIntoFlake" or defName="MLRP_TH_ConvertFlakeIntoSilver"]/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MLRP_DB_MakeSmokeleafJoints" or defName="MLRP_TH_ConvertSilverIntoSmokeleaf" or defName="MLRP_TH_ConvertSmokeleafIntoSilver"]/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

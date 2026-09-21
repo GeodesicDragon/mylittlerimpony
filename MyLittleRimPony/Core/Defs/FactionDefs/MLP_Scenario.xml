@@ -29,7 +29,7 @@
 			
 			<!-- Player starting research -->
 						
-			<li Class="ScenPart_StartingResearch">
+			<li Class="ScenPart_StartingResearch" Name="MLRP_CoreScenarioTech">
 				<def>StartingResearch</def>
 				<project>MLRP_ScrewballResearch</project>
 			</li>
@@ -45,14 +45,13 @@
 
 			<!-- Player starting weapons-->
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenarioRanged">
 				<def>StartingThing_Defined</def>
 				<thingDef>Gun_Autopistol</thingDef>
 				<count>2</count>
 			</li>
-			
-			
-			<li Class="ScenPart_StartingThing_Defined">
+
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenarioMelee">
 				<def>StartingThing_Defined</def>
 				<thingDef>MeleeWeapon_Knife</thingDef>
 				<count>1</count>
@@ -79,19 +78,19 @@
 				<count>500</count>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenarioFood">
 				<def>StartingThing_Defined</def>
 				<thingDef>MealSurvivalPack</thingDef>
 				<count>60</count>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenarioMedicine">
 				<def>StartingThing_Defined</def>
 				<thingDef>MedicineIndustrial</thingDef>
 				<count>30</count>
 			</li>		
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenarioComponents">
 				<def>StartingThing_Defined</def>
 				<thingDef>ComponentIndustrial</thingDef>
 				<count>15</count>
@@ -99,7 +98,7 @@
 			
 			<!-- Flak helmets because I couldn't figure out how to get pawns wearing them by default -->
 			
-			<li Name="MLRP_CoreScenario_Helmets" Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenario_Helmets">
 				<def>StartingThing_Defined</def>
 				<thingDef>Apparel_AdvancedHelmet</thingDef>
 				<count>3</count>
@@ -117,14 +116,14 @@
 			
 			<!-- Starting buildings -->
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenarioTurrets">
 				<def>StartingThing_Defined</def>
 				<thingDef>Turret_MiniTurret</thingDef>
 				<count>3</count>
 				<stuff>Steel</stuff>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_CoreScenarioGenerators">
 				<def>StartingThing_Defined</def>
 				<thingDef>MLRP_ScrewballGenerator</thingDef>
 				<count>2</count>

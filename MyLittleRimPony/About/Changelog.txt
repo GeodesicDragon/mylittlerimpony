@@ -1,3 +1,27 @@
+Version 7.24.110 (September 7th 2026)
+
+* Added support for ferny's Progression: Drugs mod.
+	* Poison joke now has its own research requirement.
+	* Daybreaker and Tree Hugger recipes related to flake, smokeleaf and poison joke are unlocked with mod added research.
+* Core: Changed the smaller image of Sunny Starscout seen when choosing a storyteller.
+* Core: Changed the luciferum recipe at Tree Hugger to say 'purchase' instead of 'request.'
+* Core: Changed the neutroamine recipe at Tree Hugger to say 'purchase' instead of 'request.'
+* Core: Sweetie Belle now reduces food poisoning chance by 100% (was 25%), but she no longer increases cooking speed.
+* Core: NPC faction bulk goods traders now carry food, so pawns who are part of it should no longer steal yours.
+* Core: NPC faction weapon traders now carry food, so pawns who are part of it should no longer steal yours.
+* Core: NPC faction exotic goods traders now carry food, so pawns who are part of it should no longer steal yours.
+* Core: NPC faction stonemasons now carry food, so pawns who are part of it should no longer steal yours.
+* Core: NPC faction settlements now stock 60 packaged survival meals.
+* Core: Miss Harshwhinny no longer requires refuelling, but she is now TEN TIMES more expensive to build.
+* Core: Miss Harshwhinny now cools to a minimum of -3°C (around 27°F). (1)
+* Biotech: Increased the number of packaged survival meals the Renegade Alicorn scenario starts with to 40 (was 20).
+* Bandwidth Enhancer: Fixed two letters being sent after researching ultra mechtech.
+* Combat Extended: Fixed three patch operation errors related to items available with the Royalty DLC.
+* Combat Extended: Fixed three patch operation errors related to scenarios available with the Biotech DLC.
+* Combat Extended: Fixed two patch operation errors related to plushies available with the Biotech DLC.
+
+1. This was something originally reserved for the Medieval Overhaul Patches, but I'm moving it to the main mod because even without MO enabled, Miss Harshinny sometimes had difficulty staying around the 0 degrees mark.
+
 Version 7.23.88 (July 6th 2026)
 
 * Core: Added the ability to cremate corpses at the Daybreaker statue.

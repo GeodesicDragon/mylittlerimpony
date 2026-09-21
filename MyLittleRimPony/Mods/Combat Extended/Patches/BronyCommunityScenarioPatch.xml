@@ -1,18 +1,24 @@
 <Patch>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts</xpath>
-		<value>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
-				<count>300</count>
-			</li>
-			
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_45ACP_FMJ</thingDef>
-				<count>70</count>
-			</li>
-		</value>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[MLP] My Little RimPony - Medieval Overhaul Patches</li>
+		</mods>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ScenarioDef[defName="MLRP_Scenario"]/scenario/parts</xpath>
+			<value>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
+					<count>300</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_45ACP_FMJ</thingDef>
+					<count>70</count>
+				</li>
+			</value>
+		</nomatch>
 	</Operation>
 </Patch>

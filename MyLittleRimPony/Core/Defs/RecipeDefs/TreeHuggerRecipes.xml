@@ -4,8 +4,8 @@
 
 <RecipeDef>
 	<defName>MLRP_NMM_Luciferium</defName> <!--Originally available at the Nightmare Moon statue. Cannot be changed or it'll cause errors.-->
-	<label>request luciferium x 5</label>
-	<description>Exchange silver and other drugs for 5 luciferium pills.</description>
+	<label>purchase luciferium x 5</label>
+	<description>Use silver and other drugs to acquire 5 luciferium pills.</description>
 	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>speaking to Tree Hugger</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -68,8 +68,8 @@
 
 <RecipeDef>
 	<defName>MLRP_NMM_Neutroamine</defName>
-	<label>request 100 neutroamine</label>
-	<description>Offer silver in exchange for 100 neutroamine.</description>
+	<label>purchase 100 neutroamine</label>
+	<description>USe silver to purchase for 100 neutroamine.</description>
 	<researchPrerequisite>DrugProduction</researchPrerequisite>
     <jobString>Making an offering to Nightmare Moon</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

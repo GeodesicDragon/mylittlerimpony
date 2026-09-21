@@ -26,11 +26,16 @@
 	    </value>
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
-	    <xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh_Child"]/equippedStatOffsets</xpath>
-	    <value>
-			<CarryBulk>30</CarryBulk>
-	    </value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh_Child"]/equippedStatOffsets</xpath>
+			<value>
+				<CarryBulk>30</CarryBulk>
+			</value>
+		</match>
 	</Operation>
 	
 	<!--Rainbow Dash-->
@@ -73,15 +78,20 @@
 		</value>
 	</Operation>-->
 	
-	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-	    <xpath>/Defs/ThingDef[defName="PonyPlush_ShiningArmour_Child"]/statBases</xpath>
-	    <value>
-		<statBases>
-			<ArmorRating_Blunt>10</ArmorRating_Blunt>
-			<ArmorRating_Sharp>10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.6</ArmorRating_Heat>
-		</statBases>
-	    </value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="PonyPlush_ShiningArmour_Child"]/statBases</xpath>
+			<value>
+			<statBases>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+				<ArmorRating_Sharp>10</ArmorRating_Sharp>
+				<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			</statBases>
+			</value>
+		</match>
 	</Operation>
 	
 	<!--<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
@@ -102,25 +112,40 @@
 	
 	<!--Harmony Chip (Requires Royalty DLC)-->
 	
-	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
-		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Blunt</xpath>
-		<value>
-			<ArmorRating_Blunt>5</ArmorRating_Blunt>
-		</value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+			<match Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Blunt</xpath>
+			<value>
+				<ArmorRating_Blunt>5</ArmorRating_Blunt>
+			</value>
+		</match>
 	</Operation>
 	
-	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
-		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Sharp</xpath>
-		<value>
-			<ArmorRating_Sharp>5</ArmorRating_Sharp>
-		</value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Sharp</xpath>
+			<value>
+				<ArmorRating_Sharp>5</ArmorRating_Sharp>
+			</value>
+		</match>
 	</Operation>
 	
-	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
-		<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Heat</xpath>
-		<value>
-			<ArmorRating_Heat>0.3</ArmorRating_Heat>
-		</value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName="MLRP_HarmonyChipInstalled"]/stages/li/statOffsets/ArmorRating_Heat</xpath>
+			<value>
+				<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			</value>
+		</match>
 	</Operation>
 	
 </Patch>

@@ -79,25 +79,51 @@ namespace MLRP_ResearchTracker
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("DrugProduction"))
             {
 				
-                DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakePoisonJokeJoint").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeSmokeleafJoints").label;
-                PBRecipeUnlocked = DefDatabase<ThingDef>.GetNamed("MLRP_PoisonJokeJoint").label;
-                THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoPoisonJoke").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertPoisonJokeIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoSmokeleaf").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSmokeleafIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoAmbrosia").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertAmbrosiaIntoSilver").label;
-                string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_PBLetterText".Translate(PBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
-                if (LettersEnabled == true)
-                {
-                    Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
-                }
+				if (!ModsConfig.IsActive("ferny.progressiondrugs"))
+				{
+					DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakePoisonJokeJoint").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeSmokeleafJoints").label;
+					PBRecipeUnlocked = DefDatabase<ThingDef>.GetNamed("MLRP_PoisonJokeJoint").label;
+					THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoPoisonJoke").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertPoisonJokeIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoSmokeleaf").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSmokeleafIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoAmbrosia").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertAmbrosiaIntoSilver").label;
+					string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_PBLetterText".Translate(PBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
+					if (LettersEnabled == true)
+					{
+						Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+					}
+				}
+				if (ModsConfig.IsActive("ferny.progressiondrugs"))
+				{
+					THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Luciferium").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_Neutroamine").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoAmbrosia").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertAmbrosiaIntoSilver").label;
+					string MultLetterText = "MLRP_THLetterText".Translate(THRecipeUnlocked);
+					if (LettersEnabled == true)
+					{
+						Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+					}
+				}
             }
 
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("PsychiteRefining"))
             {
-                DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeFlake").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeYayo").label;
-                THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoYayo").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertYayoIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoFlake").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertFlakeIntoSilver").label;
-                string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
-				
-				if (LettersEnabled == true)
-                {
-					Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+				if (!ModsConfig.IsActive("ferny.progressiondrugs"))
+				{
+					DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeFlake").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeYayo").label;
+					THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoYayo").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertYayoIntoSilver").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoFlake").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertFlakeIntoSilver").label;
+					string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
+					
+					if (LettersEnabled == true)
+					{
+						Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+					}
+				}
+				if (ModsConfig.IsActive("ferny.progressiondrugs"))
+				{
+					DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeYayo").label;
+					THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoYayo").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertYayoIntoSilver").label;
+					string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
+					
+					if (LettersEnabled == true)
+					{
+						Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+					}
 				}
             }
 
@@ -549,13 +575,26 @@ namespace MLRP_ResearchTracker
 
             if (ModsConfig.IsActive("Ludeon.RimWorld.Biotech") && proj == DefDatabase<ResearchProjectDef>.GetNamed("UltraMechtech"))
             {
-                NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_RepairProbe").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_NanostructuringChip").label;
-                string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
-                
-                if (LettersEnabled == true)
+                if (ModsConfig.IsActive("iexist.biotech.morebandwidth"))
                 {
-					Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
-				}
+                    NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_RepairProbe").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_NanostructuringChip").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_BandwidthEnhancer").label;
+                    string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
+
+                    if (LettersEnabled == true)
+                    {
+                        Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
+                    }
+                }
+                if (!ModsConfig.IsActive("iexist.biotech.morebandwidth"))
+                {
+                    NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_RepairProbe").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_NanostructuringChip").label;
+                    string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
+
+                    if (LettersEnabled == true)
+                    {
+                        Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
+                    }
+                }
             }
 
             if (ModsConfig.IsActive("Ludeon.RimWorld.Biotech") && proj == DefDatabase<ResearchProjectDef>.GetNamed("Deathrest"))
@@ -606,17 +645,6 @@ namespace MLRP_ResearchTracker
 
             if (ModsConfig.IsActive("iexist.biotech.morebandwidth"))
             {
-                if (proj == DefDatabase<ResearchProjectDef>.GetNamed("UltraMechtech"))
-                {
-                    NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_BandwidthEnhancer").label;
-                    string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
-                
-					if (LettersEnabled == true)
-					{
-						Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
-					}
-                }
-
                 if (proj == DefDatabase<ResearchProjectDef>.GetNamed("AdvancedBandwidthEnhancer"))
                 {
                     NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_HighMechBandwidthImprover").label;
@@ -795,6 +823,44 @@ namespace MLRP_ResearchTracker
 					Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
 				}
             }
+			
+			// PROGRESSION: DRUGS
+			
+			if (ModsConfig.IsActive("ferny.progressiondrugs") && proj == DefDatabase<ResearchProjectDef>.GetNamed("MLRP_ProgressionDrugs_PoisonJoke"))
+
+			{
+				DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakePoisonJokeJoint").label;
+				PBRecipeUnlocked = DefDatabase<ThingDef>.GetNamed("MLRP_PoisonJokeJoint").label;
+				THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoPoisonJoke").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertPoisonJokeIntoSilver").label;
+				string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_PBLetterText".Translate(PBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
+				if (LettersEnabled == true)
+				{
+					Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+				}
+			}
+			
+			if (ModsConfig.IsActive("ferny.progressiondrugs") && proj == DefDatabase<ResearchProjectDef>.GetNamed("Ferny_Flake"))
+			{
+				DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeFlake").label;
+				THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoFlake").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertFlakeIntoSilver").label;
+				string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
+				
+				if (LettersEnabled == true)
+				{
+					Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+				}
+			}
+			
+			if (ModsConfig.IsActive("ferny.progressiondrugs") && proj == DefDatabase<ResearchProjectDef>.GetNamed("Ferny_SmokeleafJoint"))
+			{
+				DBRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_DB_MakeSmokeleafJoints").label;
+				THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSilverIntoSmokeleaf").label + "\n" + DefDatabase<RecipeDef>.GetNamed("MLRP_TH_ConvertSmokeleafIntoSilver").label;
+				string MultLetterText = "MLRP_DBLetterText".Translate(DBRecipeUnlocked) + "\n\n" + "MLRP_THLetterText".Translate(THRecipeUnlocked);
+				if (LettersEnabled == true)
+				{
+					Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
+				}
+			}
         }
     }
 }

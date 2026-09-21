@@ -97,13 +97,13 @@
 				<count>250</count>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_RenegadeAlicornFood">
 				<def>StartingThing_Defined</def>
 				<thingDef>MealSurvivalPack</thingDef>
-				<count>20</count>
+				<count>40</count>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_RenegadeAlicornComponents">
 				<def>StartingThing_Defined</def>
 				<thingDef>ComponentIndustrial</thingDef>
 				<count>10</count>
@@ -132,7 +132,7 @@
 			</li>
 			
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_RenegadeAlicornMelee">
 				<def>StartingThing_Defined</def>
 				<thingDef>MeleeWeapon_Gladius</thingDef>
 				<count>3</count>
@@ -141,7 +141,7 @@
 			
 			<!-- Flak helmets because I couldn't figure out how to get pawns wearing them by default -->
 			
-			<li Name="MLRP_RAScenario_Helmets" Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_RAScenario_Helmets" >
 				<def>StartingThing_Defined</def>
 				<thingDef>Apparel_AdvancedHelmet</thingDef>
 				<count>4</count>

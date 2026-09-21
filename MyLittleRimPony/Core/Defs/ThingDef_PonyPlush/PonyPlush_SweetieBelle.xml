@@ -2,13 +2,12 @@
 	<ThingDef ParentName="PonyPlush_Work">
 		<defName>PonyPlush_SweetieBelle</defName>
 		<label>Sweetie Belle</label>
-		<description>Sweetie Belle is, as her name implies, very sweet; unfortunately, the same cannot be said for her cooking.\n\nCarrying her reminds you of her culinary disasters, but at least the memories make you more confident in your own cooking ability.</description>
+		<description>Sweetie Belle is, as her name implies, very sweet; unfortunately, the same cannot be said for her cooking. Carrying her reminds you of her culinary disasters, and makes you determined not to repeat them yourself.\n\nWhen equipped by a cook, she completely eliminates the chance of them poisoning any meals they make, but does not prevent food poisoning from other sources.</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/SweetieBelle</texPath>
 		</graphicData>
 		<equippedStatOffsets>
-			<CookSpeed>20</CookSpeed>
-			<FoodPoisonChance>-0.25</FoodPoisonChance>
+			<FoodPoisonChance>-1</FoodPoisonChance>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>
