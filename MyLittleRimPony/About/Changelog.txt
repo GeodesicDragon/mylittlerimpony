@@ -1,3 +1,33 @@
+Version 7.26.125 (October 29th 2026)
+
+* Core: Added a new recipe to Marble Pie to sell 100 of any combination of blocks.
+* Core: Added a new recipe to Tree Hugger to manufacture 50 industrial medicine at once.
+	* Requires 50 herbal medicine, 50 neutroamine, and 150 cloth.
+	* Requires 4 Crafting and 4 Intellectual.
+	* Much faster than producing them individually.
+* Core: Changed how the Starlight Glimmer plushie works.
+	* Blocks the effects of psychic drones (which cause mood debuffs).
+	* Allows pawns to benefit from psychic soothes (which grant mood buffs).
+	* Allows psycasters to continue using their abilities.
+	* Allows mechanitors to continue controlling their mechanoids.
+	* Applies to adult and child versions.
+* Core: Mod is now compatible with the RimWorld 1.7 update.
+* Core: Sunset Shimmer no longer has negative beauty.
+* Core: Fixed Miss Harshwhinny not dropping wood when destroyed.
+* Core: Fixed Miss Harshwhinny not refunding some wood when deconstructed.
+* Core: Pawns in NPC faction plushie trader caravans should no longer steal your food. (1)
+* Ideology: Fixed Elements of Harmony not improving hacking speed.
+* Ideology: Fixed Elements of Harmony not improving pruning speed.
+* Anomaly: Fixed Elements of Harmony not improving entity study rate.
+* Combat Extended/Biotech: Fixed child-equippable Spoiled Rich plushie not reducing smoke sensitivity.
+* Combat Extended/Biotech: Fixed a patching error related to the child-equippable Shining Armour plushie.
+* Combat Extended/Biotech: Fixed a patching error related to the Renegade Alicorn scenario.
+* Combat Extended/MO Patches: Pistol and turret ammo is no longer added to the Brony Xenotypes scenario if this mod is enabled.
+* Dubs Bad Hygiene/1.7: Patched the chemfuel recipe at the Daybreaker statue to reflect the changes made to the sewage system.
+* Medieval Overhaul Patches: If this mod is enabled, settings related to the Sweetie Bot turret will no longer appear in the options window.
+
+1. Please let me know if they do; it'll mean that something somewhere has went wrong.
+
 Version 7.24.110 (September 7th 2026)
 
 * Added support for ferny's Progression: Drugs mod.
@@ -20,7 +50,7 @@ Version 7.24.110 (September 7th 2026)
 * Combat Extended: Fixed three patch operation errors related to scenarios available with the Biotech DLC.
 * Combat Extended: Fixed two patch operation errors related to plushies available with the Biotech DLC.
 
-1. This was something originally reserved for the Medieval Overhaul Patches, but I'm moving it to the main mod because even without MO enabled, Miss Harshinny sometimes had difficulty staying around the 0 degrees mark.
+1. This was something originally reserved for the Medieval Overhaul Patches, but I'm moving it to the main mod because even without MO enabled, Miss Harshwhinny sometimes had difficulty staying around the 0 degrees mark.
 
 Version 7.23.88 (July 6th 2026)
 

@@ -736,4 +736,56 @@
 	</products>
 </RecipeDef>
 
+<!--BULK MANUFACTURE MEDICINE-->
+
+<RecipeDef>
+	<defName>MLRP_TH_BulkManufactureMedicine</defName>
+	<label>bulk manufacture 50 medicine</label>
+	<description>Tree Hugger will help you make medicine in bulk as long as you supply the materials.</description>
+	<researchPrerequisite>MedicineProduction</researchPrerequisite>
+    <jobString>speaking to Tree Hugger</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_TreeHugger</li>
+	</recipeUsers>
+	<skillRequirements>
+		<Crafting>4</Crafting>
+		<Intellectual>4</Intellectual>
+	</skillRequirements>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MedicineHerbal</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Neutroamine</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Cloth</li>
+				</thingDefs>
+			</filter>
+			<count>150</count>
+		</li>
+	</ingredients>
+	<products>
+		<MedicineIndustrial>50</MedicineIndustrial>
+	</products>
+</RecipeDef>
+
 </Defs>

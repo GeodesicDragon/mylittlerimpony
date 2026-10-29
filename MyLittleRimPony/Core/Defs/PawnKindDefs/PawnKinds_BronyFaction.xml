@@ -14,8 +14,7 @@
       </li>
     </backstoryFilters>
     <chemicalAddictionChance>0</chemicalAddictionChance>
-    <invNutrition>2</invNutrition>
-    <invFoodDef>MealSurvivalPack</invFoodDef>
+    <invNutrition>2.55</invNutrition>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <minGenerationAge>16</minGenerationAge>
     <maxGenerationAge>55</maxGenerationAge>

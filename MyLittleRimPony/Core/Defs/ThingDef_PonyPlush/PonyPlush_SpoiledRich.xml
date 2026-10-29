@@ -9,6 +9,7 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
+			<SmokeSensitivity MayRequire="CETeam.CombatExtended">-0.25</SmokeSensitivity>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

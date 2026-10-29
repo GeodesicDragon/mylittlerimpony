@@ -17,6 +17,7 @@
 			<MarketValue>6000</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>0.125</Mass>
+			<Beauty>4</Beauty>
 		</statBases>
 		<tradeTags>
 			<li>ExoticMisc</li>

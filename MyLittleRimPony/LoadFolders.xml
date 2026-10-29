@@ -48,15 +48,15 @@
 		<li IfModActive="bblkepling.singleuse.gnat">Mods/Single Use Grenades N'at</li>
 		<li IfModActive="hydrologist.MechanitorCommandRangeExtenders">Mods/Mechanitor Command Range Extenders</li>
 		<li IfModActive="IssacZhuang.MuzzleFlash">Mods/Muzzle Flash</li>
-		<!--Progression: Drugs only supports RimWorld 1.6-->
+		<!--Progression: Drugs does not support this version of RimWorld-->
 		<li IfModActive="ferny.ProgressionStorytellers">Mods/Progression/Storytellers</li>
 		<li IfModActive="PeteTimesSix.SimpleSidearms">Mods/Simple Sidearms</li>
 		<li IfModActive="Mlie.SomeThingsFloat">Mods/Some Things Float</li>
 		<li IfModActive="happybodi.WeebFaction">Mods/Weeb Faction</li>
 		<li IfModActive="Vanya.Tools.BulkCarrier.1.5" IfModNotActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/Bulk Carrier (No VEF)</li>
-		<!--Vanilla Gravship Expanded only supports RimWorld 1.6-->
-		<!--Rocket's Medals only supports RimWorld 1.6-->
-		<!--Combat Extended only supports RimWorld 1.6-->
+		<!--Vanilla Gravship Expanded does not support this version of RimWorld-->
+		<!--Rocket's Medals does not support this version of RimWorld-->
+		<!--Combat Extended does not support this version of RimWorld-->
 	</v1.5>
 	<v1.6>
 		<!--MAIN CONTENT-->
@@ -118,4 +118,65 @@
 		<li IfModActive="CETeam.CombatExtended">Mods/Combat Extended</li>
 		<li>1.6</li>
 	</v1.6>
+	<v1.7>
+		<!--MAIN CONTENT-->
+		<li>Core</li>
+		<!--DLCs-->
+		<li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">Anomaly</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">Odyssey</li>
+		<!--MODS-->
+		<li IfModActive="UnlimitedHugs.HugsLib">Mods/HugsLib</li> <!--News Updates-->
+		<li IfModActive="Ganjaman.Addictol">Mods/Addictol - Addiction Removal</li>
+		<li IfModActive="sarg.alphagenes">Mods/Alpha Genes</li>
+		<li IfModActive="iexist.biotech.morebandwidth">Mods/Bandwidth Enhancer</li>
+		<li IfModActive="coldcrow.betterkibble">Mods/Better Kibble</li>
+		<li IfModActive="jiopaba.callavampire">Mods/Call a Vampire a Vampire</li>
+		<li IfModActive="Mlie.Callouts">Mods/Callouts</li>
+		<li IfModActive="cedaro.DeviceStandby">Mods/Device Standby</li>
+		<li IfModActive="Dubwise.DubsBadHygiene,Dubwise.DubsBadHygiene.Lite">Mods/DubsMods/Bad Hygiene</li>
+		<li IfModActive="Dubwise.Rimefeller">Mods/DubsMods/Rimefeller</li>
+		<li IfModActive="Dubwise.Rimatomics">Mods/DubsMods/Rimatomics</li>
+		<li IfModActive="leion247612.HigherHPower">Mods/Higher Power</li>
+		<li IfModActive="erdelf.HumanoidAlienRaces">Mods/Humanoid Alien Races</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Core">Mods/Ponies of the Rim/Core</li>
+		<li IfModActive="Pony.PoniesOfTheRim.Races">Mods/Ponies of the Rim/Equestrian Races</li>
+		<li IfModActive="Torann.RimWar">Mods/Rim War</li>
+		<li IfModActive="phil42.allergies">Mods/Allergies</li>
+		<li IfModActive="sumghai.medpod">Mods/MedPod</li>
+		<li IfModActive="dd.unofficial.notfood.MendAndRecycle">Mods/MendAndRecycle</li>
+		<li IfModActive="sumghai.Replimat">Mods/Replimat</li>
+		<li IfModActive="Mlie.SYRTraitValue">Mods/[SYR] Trait Value</li>
+		<li IfModActive="K4G.RWW2">Mods/[K4G] RimWorld War 2</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/Vanilla Expanded/Framework</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/Vanilla Expanded/Achievements</li>
+		<li IfModActive="vanillaexpanded.backgrounds">Mods/Vanilla Expanded/Backgrounds</li>
+		<li IfModActive="VanillaExpanded.VanillaBackstoriesExpanded">Mods/Vanilla Expanded/Backstories</li>
+		<li IfModActive="VanillaExpanded.VFEProduction">Mods/Vanilla Expanded/Furniture/Production</li>
+		<li IfModActive="VanillaExpanded.Recycling">Mods/Vanilla Expanded/Recycling</li>
+		<li IfModActive="OskarPotocki.VFE.Deserters">Mods/Vanilla Expanded/Factions/Deserters</li>
+		<li IfModActive="OskarPotocki.VFE.Vikings">Mods/Vanilla Expanded/Factions/Vikings</li>
+		<li IfModActive="vanillaexpanded.outposts">Mods/Vanilla Expanded/Outposts/Main</li>
+		<li IfModActive="MrHydralisk.VOEAdditionalOutposts">Mods/Vanilla Expanded/Outposts/Additional</li>
+		<li IfModActive="vanillaexpanded.gravship">Mods/Vanilla Expanded/Gravship</li>
+		<li IfModActive="Torann.ARimworldOfMagic">Mods/A RimWorld of Magic</li>
+		<li IfModActive="geodesicdragon.hooliganfaction">Mods/GeoMods/Hooligans</li>
+		<li IfModActive="geodesicdragon.irnbru">Mods/GeoMods/Irn Bru And Other Scottish Delights</li>
+		<li IfModActive="geodesicdragon.rems">Mods/GeoMods/Reverse Engineered Mechanoid Tech</li>
+		<li IfModActive="bblkepling.singleuse.gnat">Mods/Single Use Grenades N'at</li>
+		<li IfModActive="hydrologist.MechanitorCommandRangeExtenders">Mods/Mechanitor Command Range Extenders</li>
+		<li IfModActive="IssacZhuang.MuzzleFlash">Mods/Muzzle Flash</li>
+		<li IfModActive="ferny.progressiondrugs">Mods/Progression/Drugs</li>
+		<li IfModActive="ferny.ProgressionStorytellers">Mods/Progression/Storytellers</li>
+		<li IfModActive="PeteTimesSix.SimpleSidearms">Mods/Simple Sidearms</li>
+		<li IfModActive="Mlie.SomeThingsFloat">Mods/Some Things Float</li>
+		<li IfModActive="happybodi.WeebFaction">Mods/Weeb Faction</li>
+		<li IfModActive="Vanya.Tools.BulkCarrier.1.5" IfModNotActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/Bulk Carrier (No VEF)</li>
+		<li IfModActive="Rockets.Medals">Mods/Rockets Medals</li>
+		<li IfModActive="CETeam.CombatExtended">Mods/Combat Extended</li>
+		<li>1.6</li>
+		<li>1.7</li>
+	</v1.7>
 </loadFolders>

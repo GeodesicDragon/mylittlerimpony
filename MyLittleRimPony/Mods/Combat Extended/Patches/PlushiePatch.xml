@@ -16,48 +16,7 @@
 			<Bulk>0.1</Bulk>
 	    </value>
 	</Operation>
-	
-	<!--Big Macintosh-->
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh"]/equippedStatOffsets</xpath>
-	    <value>
-			<CarryBulk>20</CarryBulk>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Biotech</li>
-		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="PonyPlush_BigMacintosh_Child"]/equippedStatOffsets</xpath>
-			<value>
-				<CarryBulk>30</CarryBulk>
-			</value>
-		</match>
-	</Operation>
-	
-	<!--Rainbow Dash-->
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThingDef[defName="PonyPlush_RainbowDash"]/equippedStatOffsets</xpath>
-	    <value>
-			<NightVisionEfficiency_Apparel>0.1</NightVisionEfficiency_Apparel>
-			<ReloadSpeed>0.05</ReloadSpeed>
-			<Suppressability>-0.05</Suppressability>
-	    </value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/ThingDef[defName="MLRP_ElementsOfHarmony"]/equippedStatOffsets</xpath>
-	    <value>
-			<NightVisionEfficiency_Apparel>0.1</NightVisionEfficiency_Apparel>
-			<ReloadSpeed>0.05</ReloadSpeed>
-			<Suppressability>-0.05</Suppressability>
-	    </value>
-	</Operation>
-	
+		
 	<!--Shining Armour-->
 	
 	<Operation Class="PatchOperationReplace">
@@ -83,13 +42,13 @@
 			<li>Biotech</li>
 		</mods>
 		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="PonyPlush_ShiningArmour_Child"]/statBases</xpath>
+			<xpath>/Defs/ThingDef[defName="PonyPlush_ShiningArmour_Child"]/equippedStatOffsets</xpath>
 			<value>
-			<statBases>
+			<equippedStatOffsets>
 				<ArmorRating_Blunt>10</ArmorRating_Blunt>
 				<ArmorRating_Sharp>10</ArmorRating_Sharp>
 				<ArmorRating_Heat>0.6</ArmorRating_Heat>
-			</statBases>
+			</equippedStatOffsets>
 			</value>
 		</match>
 	</Operation>
@@ -100,15 +59,6 @@
 			<li>Torso</li>
 		</value>
 	</Operation>-->
-	
-	<!--Spoiled Rich-->
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="PonyPlush_SpoiledRich"]/equippedStatOffsets</xpath>
-		<value>
-			<SmokeSensitivity>-0.25</SmokeSensitivity>
-		</value>
-	</Operation>
 	
 	<!--Harmony Chip (Requires Royalty DLC)-->
 	

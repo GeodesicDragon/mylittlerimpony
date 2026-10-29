@@ -10,6 +10,9 @@
 			<MoveSpeed>1</MoveSpeed>
 			<MeleeHitChance>5</MeleeHitChance>
 			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+			<NightVisionEfficiency_Apparel MayRequire="CETeam.CombatExtended">0.1</NightVisionEfficiency_Apparel>
+			<ReloadSpeed MayRequire="CETeam.CombatExtended">0.05</ReloadSpeed>
+			<Suppressability MayRequire="CETeam.CombatExtended">-0.05</Suppressability>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

@@ -5,7 +5,7 @@
 	<ThingDef>
 		<defName>PonyPlush_StarlightGlimmer_Child</defName>
 		<label>Starlight Glimmer (child-sized)</label>
-		<description>In her role as guidance councillor at the School of Friendship, Starlight Glimmer spent a lot of time talking to the students and helping them with their problems.\n\nCarrying her makes you feel more in control of your thoughts.</description>
+		<description>In her role as guidance councillor at the School of Friendship, Starlight Glimmer spent a lot of time talking to the students and helping them with their problems.\n\nCarrying her makes you feel more in control of your thoughts.\n\n(When equipped, she makes pawns immune to psychic drones. Pawns are still able to benefit from psychic soothes, use psycasts, and become mechanitors.)</description>
 		<graphicData>
 			<texPath>Things/PonyPlush/StarlightGlimmer</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -13,9 +13,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(0.5,0.5)</drawSize>
 		</graphicData>
-		<equippedStatOffsets>
-			<PsychicSensitivity>-3</PsychicSensitivity>
-		</equippedStatOffsets>
 		<thingClass>Apparel</thingClass>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>

@@ -11,31 +11,7 @@
 			<def>PlayerFaction</def>
 			<factionDef>MLRP_BronyFaction</factionDef>
 		</playerFaction>
-		<surfaceLayer>
-			<def>SurfaceLayerFixed</def>
-			<tag>Surface</tag>
-			<layer>Surface</layer>
-			<settingsDef>Surface</settingsDef>
-			<hide>true</hide>
-			<connections>
-				<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
-					<zoomMode>ZoomOut</zoomMode>
-				</Orbit>
-				</connections>
-		</surfaceLayer>
 		<parts>
-			<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
-				<def>PlanetLayer</def>
-				<tag>Orbit</tag>
-				<layer>Orbit</layer>
-				<settingsDef>Orbit</settingsDef>
-				<hide>true</hide>
-				<connections>
-					<Surface>
-						<zoomMode>ZoomIn</zoomMode>
-					</Surface>
-				</connections>
-			</li>
 			<!-- Config pages -->
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 				<def>ConfigurePawnsXenotypes</def>
@@ -108,20 +84,20 @@
 				<method>Standing</method>
 			</li>
 			
-			<li Class="ScenPart_StartingResearch">
+			<li Class="ScenPart_StartingResearch" Name="MLRP_BiotechScenarioTech">
 				<def>StartingResearch</def>
 				<project>MLRP_ScrewballResearch</project>
 			</li>		
 			
 			<!-- Player starting weapons-->
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenarioRanged">
 				<def>StartingThing_Defined</def>
 				<thingDef>Gun_Autopistol</thingDef>
 				<count>3</count>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenarioMelee">
 				<def>StartingThing_Defined</def>
 				<thingDef>MeleeWeapon_Knife</thingDef>
 				<count>2</count>
@@ -148,19 +124,19 @@
 				<count>600</count>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenarioFood">
 				<def>StartingThing_Defined</def>
 				<thingDef>MealSurvivalPack</thingDef>
 				<count>50</count>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenarioMedicine">
 				<def>StartingThing_Defined</def>
 				<thingDef>MedicineIndustrial</thingDef>
 				<count>20</count>
 			</li>		
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenarioComponents">
 				<def>StartingThing_Defined</def>
 				<thingDef>ComponentIndustrial</thingDef>
 				<count>20</count>
@@ -168,7 +144,7 @@
 			
 			<!-- Flak helmets because I couldn't figure out how to get pawns wearing them by default -->
 			
-			<li Name="MLRP_BiotechScenario_Helmets" Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenario_Helmets">
 				<def>StartingThing_Defined</def>
 				<thingDef>Apparel_AdvancedHelmet</thingDef>
 				<count>5</count>
@@ -200,14 +176,14 @@
 			
 			<!-- Starting buildings -->
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenarioTurrets">
 				<def>StartingThing_Defined</def>
 				<thingDef>Turret_MiniTurret</thingDef>
 				<count>3</count>
 				<stuff>Steel</stuff>
 			</li>
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_BiotechScenarioGenerators">
 				<def>StartingThing_Defined</def>
 				<thingDef>MLRP_ScrewballGenerator</thingDef>
 				<count>3</count>

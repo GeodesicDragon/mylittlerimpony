@@ -1,0 +1,10 @@
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThoughtDef[defName="PsychicDrone"]/workerClass</xpath>
+        <value>
+            <workerClass>MyLittleRimPony.ThoughtWorker_PsychicDrone_Starlight</workerClass>
+        </value>
+    </Operation>
+	
+</Patch>

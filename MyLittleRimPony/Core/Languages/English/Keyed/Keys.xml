@@ -130,6 +130,8 @@
 	<MLRP_DefaultSettings>Restore settings to default values</MLRP_DefaultSettings>
 	<MLRP_ConfirmReset>Are you sure you want to reset all settings to their default values?</MLRP_ConfirmReset>
 	
+	<MLRP_RestartRequired>A game restart is required in order to restore some settings to their default values.</MLRP_RestartRequired>
+	
 	<!--MODS-->
 	
 	<MLRP_ExtraScrewballOutputTitle>Advanced power researched</MLRP_ExtraScrewballOutputTitle>
@@ -138,16 +140,16 @@
 	
 	<!--COMMS CONSOLE INTERACTIONS-->
 	
-	<MLRP_NPCFactionGreetingHostile>{0} hurls some insults at {NEGOTIATOR_labelShort} and cuts the feed.</MLRP_NPCFactionGreetingHostile>
+	<MLRP_NPCFactionGreetingHostile>{0} hurls some insults at you and cuts the feed.</MLRP_NPCFactionGreetingHostile>
     <MLRP_NPCFactionGreetingHostileAppreciative>{0} warns you that {0_pronoun} will keep sending mercenaries to attack you until you improve your relationship with {0_possessive} group, then terminates the call.</MLRP_NPCFactionGreetingHostileAppreciative>
-    <MLRP_NPCFactionGreetingWary>{0} greets {NEGOTIATOR_labelShort}.</MLRP_NPCFactionGreetingWary>
-    <MLRP_NPCFactionGreetingWarm>{0} is positively beaming with delight as {0_pronoun} greets {NEGOTIATOR_labelShort}.</MLRP_NPCFactionGreetingWarm>
+    <MLRP_NPCFactionGreetingWary>{0} greets you.</MLRP_NPCFactionGreetingWary>
+    <MLRP_NPCFactionGreetingWarm>{0} is positively beaming with delight as {0_pronoun} greets you.</MLRP_NPCFactionGreetingWarm>
 	
-	<MLRP_DiamondDogGreetingHostile>{0} threatens {NEGOTIATOR_labelShort} with death before abruptly disconnecting.</MLRP_DiamondDogGreetingHostile>
+	<MLRP_DiamondDogGreetingHostile>{0} threatens you with death before abruptly disconnecting.</MLRP_DiamondDogGreetingHostile>
 
     <MLRP_BatponyGreetingHostile>{0} hurls expletives into the microphone and cuts the feed.</MLRP_BatponyGreetingHostile>
     <MLRP_BatponyGreetingHostileAppreciative>{0} tells you that {0_pronoun} will not engage in any form of meaningful communication until you improve your relationship with {0_possessive} tribe, then terminates the call.</MLRP_BatponyGreetingHostileAppreciative>
-    <MLRP_BatponyGreetingWary>{0} greets {NEGOTIATOR_labelShort}.</MLRP_BatponyGreetingWary>
-    <MLRP_BatponyGreetingWarm>{0} greets {NEGOTIATOR_labelShort} happily and asks how {0_pronoun} can be of service.</MLRP_BatponyGreetingWarm>	
+    <MLRP_BatponyGreetingWary>{0} greets you.</MLRP_BatponyGreetingWary>
+    <MLRP_BatponyGreetingWarm>{0} greets you happily and asks how {0_pronoun} can be of service.</MLRP_BatponyGreetingWarm>	
 	
 </LanguageData>

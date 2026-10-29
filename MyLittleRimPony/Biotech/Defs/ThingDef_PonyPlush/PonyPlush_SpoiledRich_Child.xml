@@ -9,6 +9,7 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.2</VacuumResistance>
+			<SmokeSensitivity MayRequire="CETeam.CombatExtended">-0.5</SmokeSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<careIfWornByCorpse>true</careIfWornByCorpse>

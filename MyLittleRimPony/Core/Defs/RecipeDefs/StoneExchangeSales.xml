@@ -272,4 +272,37 @@
 	</products>	
 </RecipeDef>
 
+<!--SELL 100 MIXED BLOCKS-->
+
+  <RecipeDef ParentName="MLRP_SE_RecipeBase">
+    <defName>MLRP_SE_SellMixedBlocks</defName>
+    <label>sell mixed blocks</label>
+    <description>Sell 100 mixed blocks to Marble in exchange for silver.</description>
+    <jobString>Selling materials</jobString>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </defaultIngredientFilter>
+    <products>
+      <Silver>100</Silver>
+    </products>
+  </RecipeDef>
+
 </Defs>

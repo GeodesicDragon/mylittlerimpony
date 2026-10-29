@@ -11,32 +11,7 @@
 			<def>PlayerFaction</def>
 			<factionDef>MLRP_RenegadeAlicornFaction</factionDef>
 		</playerFaction>
-		<surfaceLayer>
-			<def>SurfaceLayerFixed</def>
-			<tag>Surface</tag>
-			<layer>Surface</layer>
-			<settingsDef>Surface</settingsDef>
-			<hide>true</hide>
-			<connections>
-				<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
-					<zoomMode>ZoomOut</zoomMode>
-				</Orbit>
-				</connections>
-		</surfaceLayer>
 		<parts>
-		
-			<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
-				<def>PlanetLayer</def>
-				<tag>Orbit</tag>
-				<layer>Orbit</layer>
-				<settingsDef>Orbit</settingsDef>
-				<hide>true</hide>
-				<connections>
-					<Surface>
-						<zoomMode>ZoomIn</zoomMode>
-					</Surface>
-				</connections>
-			</li>
 		
 			<!--Starting pawns-->
 			
@@ -125,7 +100,7 @@
 			
 			<!-- Player starting weapons-->
 			
-			<li Class="ScenPart_StartingThing_Defined">
+			<li Class="ScenPart_StartingThing_Defined" Name="MLRP_RenegadeAlicornRanged">
 				<def>StartingThing_Defined</def>
 				<thingDef>MLRP_ElementsOfHarmonyWeaponised</thingDef>
 				<count>1</count>

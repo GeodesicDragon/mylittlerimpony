@@ -1,0 +1,28 @@
+<Patch>
+
+	<!--Change chemfuel recipe at Daybreaker to match the new DBH recipe requiring less fecal sludge.-->
+	<!--My bulk recipe uses 20x the amount of sludge; the updated one only requires 3 sludge for the same amount of fuel, which means that the updated recipe should only need 60.-->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Bad Hygiene</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MLRP_DB_FecalSludge"]/description</xpath>
+					<value>
+						<description>Convert 60 fecal sludge into 700 chemfuel.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MLRP_DB_FecalSludge"]/ingredients/li/count</xpath>
+					<value>
+						<count>60</count>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

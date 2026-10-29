@@ -8,6 +8,7 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<CarryingCapacity>25</CarryingCapacity>
+			<CarryBulk MayRequire="CETeam.CombatExtended">25</CarryBulk>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>

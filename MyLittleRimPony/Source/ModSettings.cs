@@ -91,6 +91,8 @@ namespace MLRP_ModSettings
             xenoChem = false;
             useOldTSTex = false;
             TreeOfHarmony = true;
+			
+			Messages.Message("MLRP_RestartRequired".Translate(), MessageTypeDefOf.TaskCompletion, historical: false);
         }
 
         public override void ExposeData()
@@ -252,36 +254,39 @@ namespace MLRP_ModSettings
             MLRP_Options.Label("MLRP_SisterStuff".Translate(settings.SisterStuff));
             settings.SisterStuff = (int)MLRP_Options.Slider(settings.SisterStuff, 100, 1500);
 
-            MLRP_Options.GapLine();
+            if (!ModsConfig.IsActive("geodesicdragon.rimpony.medieval"))
+			{
+				MLRP_Options.GapLine();
 
-            Text.Font = GameFont.Medium;
-            MLRP_Options.Label("MLRP_SweetieBotHeader".Translate());
-            Text.Font = GameFont.Small;
+				Text.Font = GameFont.Medium;
+				MLRP_Options.Label("MLRP_SweetieBotHeader".Translate());
+				Text.Font = GameFont.Small;
 
-            MLRP_Options.Label("MLRP_SBRange".Translate(settings.SweetieBotRange));
-            settings.SweetieBotRange = (int)MLRP_Options.Slider(settings.SweetieBotRange, 40, 80);
+				MLRP_Options.Label("MLRP_SBRange".Translate(settings.SweetieBotRange));
+				settings.SweetieBotRange = (int)MLRP_Options.Slider(settings.SweetieBotRange, 40, 80);
 
-            if (!ModsConfig.IsActive("CETeam.CombatExtended"))
-            {
-                MLRP_Options.Label("MLRP_SBTouch".Translate(settings.SweetieBotAccuracyTouch.ToString("0.0")));
-                settings.SweetieBotAccuracyTouch = MLRP_Options.Slider(settings.SweetieBotAccuracyTouch, 0.1f, 1f);
+				if (!ModsConfig.IsActive("CETeam.CombatExtended"))
+				{
+					MLRP_Options.Label("MLRP_SBTouch".Translate(settings.SweetieBotAccuracyTouch.ToString("0.0")));
+					settings.SweetieBotAccuracyTouch = MLRP_Options.Slider(settings.SweetieBotAccuracyTouch, 0.1f, 1f);
 
-                MLRP_Options.Label("MLRP_SBShort".Translate(settings.SweetieBotAccuracyShort.ToString("0.0")));
-                settings.SweetieBotAccuracyShort = MLRP_Options.Slider(settings.SweetieBotAccuracyShort, 0.1f, 1f);
+					MLRP_Options.Label("MLRP_SBShort".Translate(settings.SweetieBotAccuracyShort.ToString("0.0")));
+					settings.SweetieBotAccuracyShort = MLRP_Options.Slider(settings.SweetieBotAccuracyShort, 0.1f, 1f);
 
-                MLRP_Options.Label("MLRP_SBMedium".Translate(settings.SweetieBotAccuracyMedium.ToString("0.0")));
-                settings.SweetieBotAccuracyMedium = MLRP_Options.Slider(settings.SweetieBotAccuracyMedium, 0.1f, 1f);
+					MLRP_Options.Label("MLRP_SBMedium".Translate(settings.SweetieBotAccuracyMedium.ToString("0.0")));
+					settings.SweetieBotAccuracyMedium = MLRP_Options.Slider(settings.SweetieBotAccuracyMedium, 0.1f, 1f);
 
-                MLRP_Options.Label("MLRP_SBLong".Translate(settings.SweetieBotAccuracyLong.ToString("0.0")));
-                settings.SweetieBotAccuracyLong = MLRP_Options.Slider(settings.SweetieBotAccuracyLong, 0.1f, 1f);
-            }
-            else if (ModsConfig.IsActive("CETeam.CombatExtended"))
-            {
-                MLRP_Options.Label("MLRP_SBCE".Translate(settings.SweetieBotAccuracyCE.ToString("0.0")));
-                settings.SweetieBotAccuracyCE = MLRP_Options.Slider(settings.SweetieBotAccuracyCE, 0.1f, 1f);
-            }
+					MLRP_Options.Label("MLRP_SBLong".Translate(settings.SweetieBotAccuracyLong.ToString("0.0")));
+					settings.SweetieBotAccuracyLong = MLRP_Options.Slider(settings.SweetieBotAccuracyLong, 0.1f, 1f);
+				}
+				else if (ModsConfig.IsActive("CETeam.CombatExtended"))
+				{
+					MLRP_Options.Label("MLRP_SBCE".Translate(settings.SweetieBotAccuracyCE.ToString("0.0")));
+					settings.SweetieBotAccuracyCE = MLRP_Options.Slider(settings.SweetieBotAccuracyCE, 0.1f, 1f);
+				}
 
-            MLRP_Options.Label("MLRP_HigherIsBetter".Translate());
+				MLRP_Options.Label("MLRP_HigherIsBetter".Translate());
+			}
 
             MLRP_Options.GapLine();
 
@@ -561,51 +566,58 @@ namespace MLRP_ModSettings
 
             DefDatabase<ThingDef>.GetNamed("MLRP_SweetieBotTurret").Verbs[0].range = SBRange;
 
-            if (!ModsConfig.IsActive("CETeam.CombatExtended"))
+            if (ModsConfig.IsActive("geodesicdragon.rimpony.medieval"))
             {
-                ThingDef SweetieBot = DefDatabase<ThingDef>.GetNamed("MLRP_Turret_SweetieBot");
-
-               if (SweetieBot != null && SweetieBot.statBases != null)
+                return;
+            }
+            else
+            {
+                if (!ModsConfig.IsActive("CETeam.CombatExtended"))
                 {
-                    void SetStat(StatDef statDef, float newValue)
+                    ThingDef SweetieBot = DefDatabase<ThingDef>.GetNamed("MLRP_Turret_SweetieBot");
+
+                    if (SweetieBot != null && SweetieBot.statBases != null)
                     {
-                        var mod = SweetieBot.statBases.FirstOrDefault(s => s.stat == statDef);
+                        void SetStat(StatDef statDef, float newValue)
+                        {
+                            var mod = SweetieBot.statBases.FirstOrDefault(s => s.stat == statDef);
+                            if (mod != null)
+                            {
+                                mod.value = newValue;
+                            }
+                            else
+                            {
+                                SweetieBot.statBases.Add(new StatModifier { stat = statDef, value = newValue });
+                            }
+                        }
+
+                        SetStat(StatDefOf.AccuracyTouch, SBTouch);
+                        SetStat(StatDefOf.AccuracyShort, SBShort);
+                        SetStat(StatDefOf.AccuracyMedium, SBMedium);
+                        SetStat(StatDefOf.AccuracyLong, SBLong);
+                        SetStat(StatDefOf.ShootingAccuracyTurret, SBLong);
+                    }
+                }
+                else if (ModsConfig.IsActive("CETeam.CombatExtended"))
+                {
+                    ThingDef SweetieBot = DefDatabase<ThingDef>.GetNamed("MLRP_Turret_SweetieBot");
+                    StatDef aimingAccuracy = DefDatabase<StatDef>.GetNamed("AimingAccuracy");
+
+                    if (aimingAccuracy != null)
+                    {
+                        var mod = SweetieBot.statBases.FirstOrDefault(s => s.stat == aimingAccuracy);
                         if (mod != null)
                         {
-                            mod.value = newValue;
+                            mod.value = SBAccuracy;
                         }
                         else
                         {
-                            SweetieBot.statBases.Add(new StatModifier { stat = statDef, value = newValue });
+                            SweetieBot.statBases.Add(new StatModifier
+                            {
+                                stat = aimingAccuracy,
+                                value = SBAccuracy
+                            });
                         }
-                    }
-
-                    SetStat(StatDefOf.AccuracyTouch, SBTouch);
-                    SetStat(StatDefOf.AccuracyShort, SBShort);
-                    SetStat(StatDefOf.AccuracyMedium, SBMedium);
-                    SetStat(StatDefOf.AccuracyLong, SBLong);
-                    SetStat(StatDefOf.ShootingAccuracyTurret, SBLong);
-                }
-            }
-            else if (ModsConfig.IsActive("CETeam.CombatExtended"))
-            {
-                ThingDef SweetieBot = DefDatabase<ThingDef>.GetNamed("MLRP_Turret_SweetieBot");
-                StatDef aimingAccuracy = DefDatabase<StatDef>.GetNamed("AimingAccuracy");
-
-                if (aimingAccuracy != null)
-                {
-                    var mod = SweetieBot.statBases.FirstOrDefault(s => s.stat == aimingAccuracy);
-                    if (mod != null)
-                    {
-                        mod.value = SBAccuracy;
-                    }
-                    else
-                    {
-                        SweetieBot.statBases.Add(new StatModifier
-                        {
-                            stat = aimingAccuracy,
-                            value = SBAccuracy
-                        });
                     }
                 }
             }

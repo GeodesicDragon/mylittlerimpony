@@ -9,6 +9,7 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<CarryingCapacity>50</CarryingCapacity>
+			<CarryBulk MayRequire="CETeam.CombatExtended">30</CarryBulk>
 		</equippedStatOffsets>
 		<apparel>
 			<careIfWornByCorpse>true</careIfWornByCorpse>

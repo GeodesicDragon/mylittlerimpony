@@ -4,7 +4,7 @@
 		<mods>
 			<li>Biotech</li>
 		</mods>
-		<match Class="PatchOperationReplace">
+		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ScenarioDef[defName="MLRP_Scenario_RenegadeAlicorn"]/scenario/parts</xpath>
 			<value>		
 				<li Class="ScenPart_StartingThing_Defined">

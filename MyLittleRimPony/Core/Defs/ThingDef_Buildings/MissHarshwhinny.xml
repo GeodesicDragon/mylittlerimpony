@@ -43,8 +43,8 @@
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
     </building>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0.25</resourcesFractionWhenDeconstructed>
     <placeWorkers>
       <li>PlaceWorker_CoolerSimple</li>
     </placeWorkers>

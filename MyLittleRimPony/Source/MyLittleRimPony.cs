@@ -1,6 +1,6 @@
 ﻿// My Little RimPony - A RimWorld Mod
 // Created by GeodesicDragon
-// All aspects of MLP (except for Nurse Haywick) are property of Hasbro.
+// All aspects of MLP (except for Nurse Haywick and Nebula Veil) are property of Hasbro.
 // Huge thanks to users of the official RimWorld Discord server for helping me with code.
 // And also for being so damn patient with me while my slow brain figured it all out.
 // I am always happy to accept updates to this code, especially if you have a better way of doing something I've done.
@@ -796,6 +796,31 @@ namespace MyLittleRimPony
         public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
             return JobMaker.MakeJob(JobDefOf.OperateDeepDrill, (LocalTargetInfo)t, 1500, true);
+        }
+    }
+
+    // STARLIGHT GLIMMER IMMUNITY
+
+    public class ThoughtWorker_PsychicDrone_Starlight : ThoughtWorker_PsychicDrone
+    {
+        protected override ThoughtState CurrentStateInternal(Pawn pawn)
+        {
+            ThoughtState state = base.CurrentStateInternal(pawn);
+
+            // Preserve soothes (stage 0) and inactive thoughts.
+            if (!state.Active || state.StageIndex < 1 || state.StageIndex > 4)
+                return state;
+
+            if (pawn.apparel != null)
+            {
+                foreach (Apparel apparel in pawn.apparel.WornApparel)
+                {
+                    if (apparel.def.defName == "PonyPlush_StarlightGlimmer" || apparel.def.defName == "PonyPlush_StarlightGlimmer_Child")
+                        return ThoughtState.Inactive;
+                }
+            }
+
+            return state;
         }
     }
 

@@ -13,20 +13,32 @@
 			<WorkToMake>9000</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
+			<!--Applejack-->
 			<PlantWorkSpeed>0.25</PlantWorkSpeed>
 			<PlantHarvestYield>0.25</PlantHarvestYield>
+			<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">1</PruningSpeed>
+			<!--Fluttershy-->
 			<TameAnimalChance>0.25</TameAnimalChance>
 			<TrainAnimalChance>0.25</TrainAnimalChance>
 			<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
 			<AnimalGatherYield>0.25</AnimalGatherYield>
 			<FishingSpeed MayRequire="Ludeon.RimWorld.Odyssey">1</FishingSpeed>
 			<FishingYield MayRequire="Ludeon.RimWorld.Odyssey">1</FishingYield>
+			<!--Pinkie Pie-->
 			<SocialImpact>0.25</SocialImpact>
+			<!--Rainbow Dash-->
 			<MoveSpeed>1</MoveSpeed>
 			<MeleeHitChance>5</MeleeHitChance>
 			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+			<NightVisionEfficiency_Apparel MayRequire="CETeam.CombatExtended">0.1</NightVisionEfficiency_Apparel>
+			<ReloadSpeed MayRequire="CETeam.CombatExtended">0.05</ReloadSpeed>
+			<Suppressability MayRequire="CETeam.CombatExtended">-0.05</Suppressability>
+			<!--Rarity-->
 			<TradePriceImprovement>0.25</TradePriceImprovement>
+			<!--Twilight Sparkle-->
 			<ResearchSpeed>0.25</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.25</HackingSpeed>
+			<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">0.1</EntityStudyRate>
 		</equippedStatOffsets>	
 		<recipeMaker>
 			<skillRequirements>

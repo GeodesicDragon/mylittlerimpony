@@ -13,6 +13,11 @@
 			</li>
 			
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>MealSurvivalPack</thingDef>
+				<countRange>100</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>Cloth</thingDef>
 				<countRange>300~900</countRange>
 			</li>
