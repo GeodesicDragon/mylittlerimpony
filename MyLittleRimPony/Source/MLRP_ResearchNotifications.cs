@@ -336,11 +336,12 @@ namespace MLRP_ResearchTracker
             if (proj == DefDatabase<ResearchProjectDef>.GetNamed("MedicineProduction"))
             {
                 NMMRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_NMM_GlitterworldMedicine").label;
-                string NMMLetterText = "MLRP_NMMLetterText".Translate(NMMRecipeUnlocked);
+				THRecipeUnlocked = DefDatabase<RecipeDef>.GetNamed("MLRP_TH_BulkManufactureMedicine").label;
+				string MultLetterText = "MLRP_DBLetterText".Translate(NMMRecipeUnlocked) + "\n\n" + "MLRP_SELetterText".Translate(THRecipeUnlocked);
                 
                 if (LettersEnabled == true)
                 {
-					Find.LetterStack.ReceiveLetter(LetterTitle, NMMLetterText, MLRP_NewRecipeUnlocked);
+					Find.LetterStack.ReceiveLetter(LetterTitle, MultLetterText, MLRP_NewRecipeUnlocked);
 				}
             }
 

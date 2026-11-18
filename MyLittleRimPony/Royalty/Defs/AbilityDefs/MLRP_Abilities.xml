@@ -5,6 +5,7 @@
     <label>improve relations</label>
     <description>Speak to the target while using psychic suggestion to improve relations between your factions, with the added effect of causing the target to wander aimlessly for a while.</description>
     <level>4</level>
+	<hostile>false</hostile>
     <iconPath>UI/Abilities/ImproveRelations</iconPath>
     <writeCombatLog>True</writeCombatLog>
     <hotKey>Misc3</hotKey>
@@ -18,14 +19,14 @@
         <canTargetSelf>False</canTargetSelf>
       </targetParams>
     </verbProperties>
-    <comps>
-      <li Class = "CompProperties_AbilityGiveHediff">
-        <compClass>CompAbilityEffect_GiveHediff</compClass>
-        <hediffDef>MLRP_GIPsycastUsed</hediffDef>
-        <psychic>True</psychic>
-        <goodwillImpact>10</goodwillImpact>
-      </li>
-    </comps>
+	<comps>
+		<li Class="CompProperties_AbilityGiveHediff">
+			<compClass>MyLittleRimPony.CompAbilityEffect_ImproveRelations</compClass>
+			<hediffDef>MLRP_GIPsycastUsed</hediffDef>
+			<psychic>true</psychic>
+			<goodwillImpact>0</goodwillImpact>
+		</li>
+	</comps>
   </AbilityDef>
   
   <HediffDef ParentName = "PsycastHediffBase">

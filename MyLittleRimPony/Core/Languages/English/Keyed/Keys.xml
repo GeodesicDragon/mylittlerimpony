@@ -34,6 +34,8 @@
 	
 	<MLRP_AntiBronyHasHarmonyChipAlert>Anti brony has harmony chip</MLRP_AntiBronyHasHarmonyChipAlert>
 	<MLRP_AntiBronyHasHarmonyChipAlertText>A pawn with the anti brony trait has a harmony chip installed. This will cause a -10 penalty to their mood until it is removed.</MLRP_AntiBronyHasHarmonyChipAlertText>
+	<MLRP_IRPOwnFaction>This ability cannot be used on members of your own faction.</MLRP_IRPOwnFaction>
+	<MLRP_IRPPermanentlyHostile>This ability cannot be used on members of a permanently hostile faction.</MLRP_IRPPermanentlyHostile>
 		
 	<!--RESEARCH TRACKER-->
 	<!--{0} is the recipe(s) that ha(s/ve) been unlocked.-->

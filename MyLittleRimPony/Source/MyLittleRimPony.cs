@@ -824,4 +824,82 @@ namespace MyLittleRimPony
         }
     }
 
+    // IMPROVE RELATIONS PSYCAST
+
+    public class CompAbilityEffect_ImproveRelations : CompAbilityEffect_GiveHediff
+    {
+        public override bool Valid(LocalTargetInfo target,bool throwMessages = false)
+        {
+            if (!base.Valid(target, throwMessages))
+            {
+                return false;
+            }
+
+            Faction targetFaction = target.Pawn?.Faction;
+
+            if (targetFaction != null &&
+                targetFaction == parent.pawn.Faction)
+            {
+                if (throwMessages)
+                {
+                    Messages.Message(
+                        "MLRP_IRPOwnFaction".Translate(),
+                        target.Pawn,
+                        MessageTypeDefOf.RejectInput,
+                        false);
+                }
+
+                return false;
+            }
+
+            if (targetFaction?.def.permanentEnemy == true)
+            { 
+                if (throwMessages)
+                {
+                    Messages.Message(
+                        "MLRP_IRPPermanentlyHostile".Translate(),
+                        target.Pawn,
+                        MessageTypeDefOf.RejectInput,
+                        false);
+                }
+
+                return false;
+            }
+
+            return true;
+        }
+
+        public override void Apply(
+            LocalTargetInfo target,
+            LocalTargetInfo dest)
+        {
+            Pawn targetPawn = target.Pawn;
+            Faction targetFaction = targetPawn?.Faction;
+            Faction casterFaction = parent.pawn.Faction;
+
+            // Check again before applying either effect.
+            if (targetFaction?.def.permanentEnemy == true)
+            {
+                return;
+            }
+
+            base.Apply(target, dest);
+
+            if (targetFaction == null ||
+                casterFaction == null ||
+                targetFaction == casterFaction)
+            {
+                return;
+            }
+
+            targetFaction.TryAffectGoodwillWith(
+                other: casterFaction,
+                goodwillChange: 10,
+                canSendMessage: true,
+                canSendHostilityLetter: true,
+                reason: DefDatabase<HistoryEventDef>.GetNamed(
+                    "MLRP_UsedImproveRelationsPsycast"));
+        }
+    }
+
 }

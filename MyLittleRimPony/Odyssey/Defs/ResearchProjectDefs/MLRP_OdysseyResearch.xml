@@ -4,9 +4,6 @@
 		<defName>MLRP_NebulaVeilResearch</defName>
 		<label>Nebula Veil</label>
 		<description>Unlocks access to Nebula Veil's Space Shop.</description>
-		<prerequisites>
-			<li>BasicGravtech</li>
-		</prerequisites>
 		<tab>MLRP_ResearchTab</tab>
 		<researchViewX>0</researchViewX>
 		<researchViewY>5</researchViewY>

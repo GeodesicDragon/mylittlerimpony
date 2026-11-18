@@ -1,3 +1,16 @@
+Version 7.26.135 (November 11th 2026)
+
+* Core: Added missing recipe to the letter you receive after researching medicine production.
+* Royalty: Using the improve relations psycast no longer sends a message about it being a 'harmful ability.'
+* Royalty: Fixed being able to use the improve relations psycast on pawns from permanently hostile factions.
+* Royalty: Fixed being able to use the improve relations psycast on pawns from your own faction.
+* Royalty: NPC faction bases now stock up to three psytrainers.
+* Odyssey: Researching Nebula Veil no longer requires you to research basic gravtech first.
+* Combat Extended: Reduced weapon sway of Sweetie Bot turrets to 10 (was 70).
+* Combat Extended: Reduced reloading time of Sweetie Bot turrets to 3 seconds (was 6).
+* Combat Extended: Fixed default range of Sweetie Bot turrets being 40 (should be 46).
+* Combat Extended/Biotech: Fixed a patching error related to the Renegade Alicorn scenario.
+
 Version 7.26.125 (October 29th 2026)
 
 * Core: Added a new recipe to Marble Pie to sell 100 of any combination of blocks.

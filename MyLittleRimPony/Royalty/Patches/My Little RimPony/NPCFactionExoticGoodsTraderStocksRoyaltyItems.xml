@@ -19,6 +19,12 @@
 			
 			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
 			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>NeurotrainersPsycast</categoryDef>
+				<thingDefCountRange>2~2</thingDefCountRange>
+				<countRange>1~3</countRange>
+			</li>
 		</value>
 	</Operation>
 </Patch>
